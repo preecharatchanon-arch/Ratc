@@ -1,0 +1,17 @@
+{
+  "archive_name": "supplement.zip",
+  "bytes": 13786654,
+  "sha256": "98598fd89c3b81ce934dc5fdf194b203888397431cae0db75ac715b09f585d73",
+  "parts": [
+    {
+      "name": "archive.part01",
+      "bytes": 10485760,
+      "sha256": "0b09f4a0ce8e503d1878a3e56154238e7c8eb78f6ba9abab9a988a86fa98781e"
+    },
+    {
+      "name": "archive.part02",
+      "bytes": 3300894,
+      "sha256": "0c10ff8753c2cc219f8d5620cf5da3d87928667623695d0b458cc127dac62d6f"
+    }
+  ]
+}

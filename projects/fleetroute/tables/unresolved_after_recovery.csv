@@ -1,0 +1,2 @@
+family,instance,solver,seed,common_distance,external_timeout
+CVRPLIB-X,X-n303-k21,legacy,777,0.0,True

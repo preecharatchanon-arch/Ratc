@@ -1,0 +1,71 @@
+[
+  {
+    "path": "solvers/current/solver.cpp",
+    "source_archive": "FleetRoute_IAAI27_Supplement.zip",
+    "archive_member": "app/source_snapshot/fleetroute_app/solver.cpp",
+    "bytes": 836988,
+    "sha256": "89619e5ed68f00e70f78d1633795db23becd02c158319d80dcc910b31c772e48"
+  },
+  {
+    "path": "solvers/current/solver_provenance.json",
+    "source_archive": "FleetRoute_IAAI27_Supplement.zip",
+    "archive_member": "app/source_snapshot/fleetroute_app/solver_provenance.json",
+    "bytes": 2125,
+    "sha256": "96a33e0bc81440cd697a2723043aa352865ca57c6af951ab7c397d5e8a8a84f9"
+  },
+  {
+    "path": "solvers/benchmark-current/solver.cpp",
+    "source_archive": "FleetRoute_IAAI27_Supplement.zip",
+    "archive_member": "benchmark/extracted_parent/sources/solver_current_retained.cpp",
+    "bytes": 824667,
+    "sha256": "2615c80d7dc53f5b666f353671521e7d825cd10a1eebb22009f68f96ab1ef584"
+  },
+  {
+    "path": "solvers/legacy/solver.cpp",
+    "source_archive": "FleetRoute_IAAI27_Supplement.zip",
+    "archive_member": "benchmark/extracted_parent/sources/solver_legacy.cpp",
+    "bytes": 412378,
+    "sha256": "1f5822cfc49c108616e63e6bc833a854b39eab36079ccb33bcb1ce388690dee7"
+  },
+  {
+    "path": "solvers/legacy/solver_strict_fair.cpp",
+    "source_archive": "FleetRoute_IAAI27_Supplement.zip",
+    "archive_member": "benchmark/extracted_parent/sources/solver_legacy_STRICT_FAIR_V6.cpp",
+    "bytes": 413372,
+    "sha256": "6225684b27bdc8c1c484d1576e21f069c5dc2229aaaea7ff7223c7f2e84684cc"
+  },
+  {
+    "path": "solvers/v31/solver.cpp",
+    "source_archive": "FleetRoute_IAAI27_Supplement.zip",
+    "archive_member": "benchmark/extracted_parent/sources/solver_v31.cpp",
+    "bytes": 479840,
+    "sha256": "2508570e517419860a9b278e3692065316503a0f67efeb2d9ad16ded16de19de"
+  },
+  {
+    "path": "solvers/v31/solver_strict_fair.cpp",
+    "source_archive": "FleetRoute_IAAI27_Supplement.zip",
+    "archive_member": "benchmark/extracted_parent/sources/solver_v31_STRICT_FAIR_V6.cpp",
+    "bytes": 480834,
+    "sha256": "845014863fe646f96969f775f68851411f0ff0ab4586d487a3ade0098a2e8a22"
+  },
+  {
+    "path": "projects/fleetroute/FleetRoute_App.ipynb",
+    "source_archive": "FleetRoute_IAAI27_Supplement.zip",
+    "archive_member": "app/FleetRoute_International_MapFirst_FINAL_WORKFLOW_AUDITED_v8_1_SYSTEM_HARDENED.ipynb",
+    "bytes": 1037623,
+    "sha256": "a3a851d988048311150b0a181766aee2e7bb486faa7b0cda86a117cbfefaf626"
+  },
+  {
+    "path": "projects/fleetroute/THIRD_PARTY_DATA_NOTICE.md",
+    "source_archive": "FleetRoute_IAAI27_Supplement.zip",
+    "archive_member": "THIRD_PARTY_DATA_NOTICE.md",
+    "bytes": 904,
+    "sha256": "fa3cb42d36dfcca8420b8d196c74c678d36df4ef32b2b94f2c0cf1697c36e8f8"
+  },
+  {
+    "path": "benchmarks/Targeted_Recovery_AUDIT4.ipynb",
+    "source": "User-supplied targeted recovery notebook",
+    "sha256": "56f29cba55d123e531705bb4440b4785fe7e2b9a138eb111a197dbae372f2946",
+    "bytes": 311974
+  }
+]

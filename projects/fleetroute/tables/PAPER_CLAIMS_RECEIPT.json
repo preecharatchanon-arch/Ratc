@@ -1,0 +1,115 @@
+{
+  "parent_v7": {
+    "rows": 198,
+    "valid_rows": 180,
+    "archive_sha256": "e246e58dd948c6df279d9492e517531b8e1d681375c1e75a259c9d6ae656d938"
+  },
+  "targeted_recovery": {
+    "rows": 18,
+    "valid_rows": 17,
+    "archive_sha256": "8fc4565f589876093fbd167994389d77d63678fc280389d11993843643610ec1",
+    "manifest_claimed_protocol": "V7_LIGHT_TARGETED_RECOVERY_AUDIT3",
+    "note": "raw recovery manifest contains the known stale AUDIT3 label; raw evidence is preserved unchanged"
+  },
+  "merged_solution_quality": {
+    "rows": 198,
+    "valid_rows": 197,
+    "unresolved_count": 1,
+    "unresolved_detail_path": "tables/unresolved_after_recovery.csv"
+  },
+  "feasibility_overall": {
+    "current": {
+      "valid": 66,
+      "configured": 66
+    },
+    "legacy": {
+      "valid": 65,
+      "configured": 66
+    },
+    "v31": {
+      "valid": 66,
+      "configured": 66
+    }
+  },
+  "paired": {
+    "strict_parent_complete_triples": 51,
+    "recovery_augmented_complete_triples": 65,
+    "augmented_triples_containing_recovery": 14
+  },
+  "osm_or_tools_common_metric": {
+    "osm694_50": 32737.521,
+    "osm1762_100": 123102.066,
+    "osm6367_300": 336733.176,
+    "osm9630_450": 778051.453
+  },
+  "app": {
+    "artifact": "FleetRoute v8.1 SYSTEM_HARDENED application notebook",
+    "release": "v8.1 SYSTEM_HARDENED",
+    "notebook_sha256": "a3a851d988048311150b0a181766aee2e7bb486faa7b0cda86a117cbfefaf626",
+    "notebook_bytes": 1037623,
+    "embedded_app_zip_sha256": "a69f331dabcf6173bdbce2a72ef9953970035d87dddc606d9e063c5db38160d2",
+    "release_manifest_sha256": "73949a357cbe611191b076d526631c6952a3ae88b4aadbcf4b4d7f42854a3694",
+    "release_manifest_file_count": 48,
+    "solver_source_sha256": "89619e5ed68f00e70f78d1633795db23becd02c158319d80dcc910b31c772e48",
+    "lineage": "system/performance hardening of the v7 UI/LUX application; the native app optimizer source remains byte-identical to the prior v7 app release",
+    "verification": "decoded from the exact notebook copied into this supplement; source_snapshot is byte-compared by tools/verify_app_notebook.py"
+  },
+  "machine_environment": {
+    "environment": "Google Colab VM",
+    "cpu_description": "Intel Xeon 2.4 GHz",
+    "runtime_logical_cpus": 2,
+    "solver_workers": 6,
+    "compiler": "g++ 11.4.0",
+    "compile_opt": "-O3",
+    "note": "recovery runtime excluded from timing-comparison claims"
+  },
+  "compute_fairness": {
+    "fleetroute_parent": {
+      "configured_runs": 198,
+      "seeds": [
+        777,
+        1777,
+        2777
+      ],
+      "solver_workers": 6,
+      "runtime_logical_cpus": 2,
+      "workers_are_software_instances_not_physical_core_claim": true,
+      "no_improve_stop_s": 0,
+      "family_hard_algorithmic_budget_s": {
+        "Augerat-A": 60,
+        "Solomon": 90,
+        "Gehring-Homberger-200": 120,
+        "CVRPLIB-X": {
+          "X-n101-k25": 90,
+          "X-n200-k36": 120,
+          "X-n303-k21": 180
+        },
+        "OSM-road": {
+          "50": 60,
+          "100": 120,
+          "300": 170,
+          "450": 350
+        }
+      }
+    },
+    "ortools_osm_best_of_12": {
+      "variant_count_per_case": 12,
+      "per_configuration_limit_s": {
+        "50": 30,
+        "100": 175,
+        "300": 400,
+        "450": 1000
+      },
+      "aggregate_allowance_ceiling_s": {
+        "50": 360,
+        "100": 2100,
+        "300": 4800,
+        "450": 12000
+      },
+      "retained_full_sweep_elapsed_s": {
+        "100": 1214.022
+      },
+      "interpretation": "common-metric solution quality; not a runtime-superiority claim"
+    }
+  }
+}

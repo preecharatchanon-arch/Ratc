@@ -1,0 +1,32 @@
+{
+  "archive_name": "supplement.zip",
+  "bytes": 47351208,
+  "sha256": "7cef3351d60e985b283ba08c07cbf545dc5000dcfd5d8c905ec5e97dd563befe",
+  "parts": [
+    {
+      "name": "archive.part01",
+      "bytes": 10485760,
+      "sha256": "fb4404c975fd812c58e572de6fccc47eae39785121bee27c103290779ede1be2"
+    },
+    {
+      "name": "archive.part02",
+      "bytes": 10485760,
+      "sha256": "c4495e9b713eb3fffd698499f5b614c949a250a0401d7523ba4097fc9641e0d1"
+    },
+    {
+      "name": "archive.part03",
+      "bytes": 10485760,
+      "sha256": "f3f25600d83118c84458703d8dea29c9ee7a4aa79cb786b90aca2da4ebd93b94"
+    },
+    {
+      "name": "archive.part04",
+      "bytes": 10485760,
+      "sha256": "b1853afba11ab9c891b57c0fa3b2f0a9f23d0970245ec1c7df3a504a997a8b6c"
+    },
+    {
+      "name": "archive.part05",
+      "bytes": 5408168,
+      "sha256": "b7743121ff8fa49354f5580075939c7aa85fe7985a7e99cf818a0a5199c0d141"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+# Reproducible Low-Dimensional Structure Can Fail a Causal-State Test in Neural Training
+
+**Author:** Ratchanon Preecha  
+**Status:** Submitted to the AAAI-27 Student Abstract and Poster Program, submission 191; acceptance is not claimed.
+
+The study asks whether a compact representation of neural training preserves the effects of intervention, rather than merely reproducing a pattern in observations.
+
+## Experiment
+
+ResNet18-GN models are trained with AdamW on clean synthetic classification tasks. Twenty discovery tasks fix the representation and analysis; thirty disjoint confirmation tasks are evaluated without refitting. Function-preserving interventions change only AdamW's first-moment memory while holding model parameters and instantaneous logits unchanged.
+
+A discovery-frozen decoder must predict the intervention-caused displacement at a sixteen-update horizon better than predicting zero displacement. Two independent query families provide separate measurements of the candidate coordinate.
+
+## Main finding
+
+The one-dimensional coordinate is reproducible: mean within-task correlation is **0.7765**, with a 95% confidence interval of **[0.7002, 0.8449]**. However, the frozen decoder performs worse than the zero-change baseline under both held-out query families.
+
+In a separate confirmation-only control, the historical first-moment direction reaches the calibrated one-step logit effect with **1/90.93** of the median displacement required by eight history-orthogonal random controls. That result establishes potency relative to the specified control directions; it does not certify the scalar representation as causally sufficient.
+
+The contribution is a direct test separating reproducibility, prediction, and causal adequacy within a controlled training system.
+
+## Evidence
+
+- [Read the paper (PDF)](paper.pdf)
+- [Download the final supplementary package](supplement.zip)
+- [Submission record](evidence/submission_4.png)
+- [Submission details](evidence/submission_5.png)
+
+The supplementary package contains the final twenty-task discovery / thirty-task confirmation evidence and independent checks. Earlier exploratory runs are history, not extra confirmation tasks.
+
+The public paper copy omits the author's phone number. Its scientific text and results match the supplied submission.

@@ -1,0 +1,16 @@
+family,solver,configured,valid,feasible_rate
+OSM-road,legacy,12,12,1.0
+OSM-road,v31,12,12,1.0
+OSM-road,current,12,12,1.0
+Augerat-A,v31,9,9,1.0
+Augerat-A,current,9,9,1.0
+Augerat-A,legacy,9,9,1.0
+Solomon,v31,18,18,1.0
+Solomon,current,18,18,1.0
+Solomon,legacy,18,18,1.0
+Gehring-Homberger-200,v31,18,18,1.0
+Gehring-Homberger-200,current,18,18,1.0
+Gehring-Homberger-200,legacy,18,18,1.0
+CVRPLIB-X,v31,9,9,1.0
+CVRPLIB-X,current,9,9,1.0
+CVRPLIB-X,legacy,9,8,0.8888888888888888
