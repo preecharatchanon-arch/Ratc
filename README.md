@@ -2,6 +2,8 @@
 
 Research and engineering by **Ratchanon Preecha**. This repository brings together a real-road fleet-routing system, the C++17 solver behind it, and two studies of hidden optimizer state in neural-network training.
 
+**Additional signal-processing project:** [Two-File Audio Fault Analyzer](projects/audio-fft/README.md) · [FFT and STFT evidence](projects/audio-fft/figures)
+
 **Start with:** [Current solver](solvers/current/README.md) · [FleetRoute paper](projects/fleetroute/paper.pdf) · [Benchmark data](projects/fleetroute/tables) · [Neural training paper](projects/neural-training/paper.pdf) · [AdamW manuscript](projects/adamw-memory/paper.pdf)
 
 ## Explore the work
@@ -14,6 +16,7 @@ Research and engineering by **Ratchanon Preecha**. This repository brings togeth
 | [Solver versions](solvers/README.md) | Current, V31, and Legacy | Frozen source snapshots and SHA-256 identities |
 | [Neural training](projects/neural-training/README.md) | Testing whether reproducible low-dimensional structure is causally adequate | AAAI-27 Student Abstract and Poster Program submission |
 | [AdamW memory](projects/adamw-memory/README.md) | Testing whether low-rank optimizer-memory representations preserve intervention effects | Research manuscript; not submitted to AISTATS |
+| [Audio FFT analysis](projects/audio-fft/README.md) | FFT spectra, STFT and recording comparison; exploratory engine-sound project | Restored Colab notebook, rerun results, graphs and measurement audit |
 | [Targeted recovery audit](benchmarks/README.md) | Recovering deadline-censored benchmark rows | Self-contained notebook with embedded Legacy and V31 sources |
 
 The routing work grew from the NSC 2026 project **ระบบเพิ่มประสิทธิภาพเส้นทางรถเก็บขยะหลายคัน บนโครงข่ายถนนจริงด้วยอัลกอริทึมไฮบริดเมตาฮิวริสติก** into FleetRoute. The application adds road-network semantics, validation, bounded execution, and inspectable evidence around the solver.

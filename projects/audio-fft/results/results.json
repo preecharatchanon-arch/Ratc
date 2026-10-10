@@ -1,0 +1,222 @@
+{
+  "audit_date": "2026-10-10",
+  "project_date": "2026-03-23 (author-reported)",
+  "engine_recording": {
+    "file": "manshaofficial-diesel-car-engine-sound-111994.mp3",
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "duration_s": 31.536,
+    "peak_amp": 0.6499760898515696,
+    "rms": 0.10977008993529856,
+    "crest_factor": 5.921249497278919,
+    "clipping_ratio": 0.0,
+    "dominant_freq": 199.65362548828125,
+    "centroid": 3174.6883406060997,
+    "flatness": 0.09565515675786382,
+    "entropy": 18.073421832071606,
+    "harmonic_score": 0.7272727272727273,
+    "peak_count": 33,
+    "roll95": 12485.275268554688,
+    "magnitude_band_shares": [
+      0.02068868513819461,
+      0.10164640896601813,
+      0.1584035116408906,
+      0.12174059339785287,
+      0.2625199293828358,
+      0.22245499895243143,
+      0.11254587233163553
+    ],
+    "anomaly_rate": 0.030149158997143762,
+    "onset_density": 6.563926940639269,
+    "prototype_verdict": "Likely percussive / drum-like | noisy / rough, unstable over time",
+    "top_peak_frequencies_hz": [
+      199.65362548828125,
+      256.7138671875,
+      285.2325439453125,
+      77.98004150390625,
+      313.751220703125,
+      51.97906494140625,
+      26.0009765625,
+      484.88616943359375,
+      427.84881591796875,
+      114.09759521484375
+    ],
+    "top_peak_magnitudes": [
+      15450.907002710635,
+      8666.844263401359,
+      8473.17789729249,
+      8150.360861343945,
+      7877.772824551785,
+      6142.092354574004,
+      4733.392224289475,
+      4405.788884205189,
+      4176.198797597396,
+      3934.7832401775827
+    ]
+  },
+  "drum_recording": {
+    "file": "kamhunt-timbo-drumline-loop-103bpm-171091.mp3",
+    "sample_rate_hz": 44100,
+    "channels": 2,
+    "duration_s": 9.351836734693878,
+    "peak_amp": 1.025756373558864,
+    "rms": 0.11153360849234574,
+    "crest_factor": 9.196836607506176,
+    "clipping_ratio": 0.0001503336436995655,
+    "dominant_freq": 112.88108825683594,
+    "centroid": 2494.5361569070583,
+    "flatness": 0.12998342234086885,
+    "entropy": 15.519325715265536,
+    "harmonic_score": 1.0,
+    "peak_count": 59,
+    "roll95": 9684.221649169922,
+    "magnitude_band_shares": [
+      0.007030752882306798,
+      0.26018765164480584,
+      0.08670880543211366,
+      0.14878753403110845,
+      0.2129781832614338,
+      0.20288825549340644,
+      0.0814188000231801
+    ],
+    "anomaly_rate": 0.4062165058949625,
+    "onset_density": 5.453474162011173,
+    "prototype_verdict": "Likely percussive / drum-like | unstable over time",
+    "top_peak_frequencies_hz": [
+      112.88108825683594,
+      72.50633239746094,
+      174.03202056884766,
+      219.70596313476562,
+      145.68557739257812,
+      194.6399688720703,
+      972.9475021362305,
+      771.2419509887695,
+      253.18336486816406,
+      469.52476501464844
+    ],
+    "top_peak_magnitudes": [
+      3064.860264783903,
+      2759.8175269537633,
+      1275.9456990532622,
+      956.1984724356993,
+      736.3616460415765,
+      426.6079937899045,
+      378.16643229039704,
+      360.0505871874201,
+      333.9368831818517,
+      322.4864729754166
+    ]
+  },
+  "supplied_log_order": {
+    "baseline": "drum",
+    "test": "engine",
+    "relative_shifts": {
+      "dominant_freq": 0.7687074829931905,
+      "centroid": 0.2726567750143789,
+      "flatness": -0.26409725920831967,
+      "entropy": 0.16457519892720449,
+      "crest_factor": -0.35616454331193265,
+      "harmonic_score": -0.272727272727,
+      "peak_count": -0.4406779661016874,
+      "roll95": 0.28923890022951465,
+      "anomaly_rate": -0.925780566371507,
+      "onset_density": 0.20362300171206293,
+      "high_low_ratio": 1.573792940302881
+    },
+    "heuristic_hints": [
+      "possible irregular timing / missing structure",
+      "possible extra noise / wear / roughness",
+      "more high-frequency energy than baseline",
+      "main frequency shifted noticeably"
+    ],
+    "heuristic_severity": 0.4711291714025031
+  },
+  "intended_order": {
+    "baseline": "engine recording",
+    "test": "drum loop",
+    "relative_shifts": {
+      "dominant_freq": -0.43461538461538246,
+      "centroid": -0.21424219032763042,
+      "flatness": 0.35887522164166047,
+      "entropy": -0.14131779474507922,
+      "crest_factor": 0.5531918747440019,
+      "harmonic_score": 0.37499999999948436,
+      "peak_count": 0.787878787878764,
+      "roll95": -0.22434856734312267,
+      "anomaly_rate": 12.473560105639187,
+      "onset_density": -0.169175066796185,
+      "high_low_ratio": -0.6114683569369332
+    },
+    "heuristic_hints": [
+      "time-varying instability increased",
+      "main frequency shifted noticeably",
+      "more spiky / impulsive waveform"
+    ],
+    "heuristic_severity": 0.45629913309750625
+  },
+  "matched_support_power_audit": {
+    "common_sample_rate_hz": 44100,
+    "matched_duration_s": 9.351836734693878,
+    "method": "Welch PSD; one 20 Hz high-pass; 4096 samples; 50% overlap; shared frequency grid",
+    "bands_hz": [
+      [
+        0,
+        60
+      ],
+      [
+        60,
+        250
+      ],
+      [
+        250,
+        500
+      ],
+      [
+        500,
+        1000
+      ],
+      [
+        1000,
+        3000
+      ],
+      [
+        3000,
+        8000
+      ],
+      [
+        8000,
+        22050.0
+      ]
+    ],
+    "engine_power_shares": [
+      0.027783774085354374,
+      0.216759499295666,
+      0.4704757226607993,
+      0.1201066794166935,
+      0.1204092963666505,
+      0.04053122723442362,
+      0.00393380093992444
+    ],
+    "comparison_power_shares": [
+      0.007387787626993193,
+      0.796014212802783,
+      0.04764527861593111,
+      0.07780034097291293,
+      0.05295052906493359,
+      0.016592279232202016,
+      0.001609571602062292
+    ]
+  },
+  "input_sha256": {
+    "manshaofficial-diesel-car-engine-sound-111994.mp3": "7a06ae301eb1c0dffa39d361b905753da30a3654342883cc36c45598aa4d3b6e",
+    "kamhunt-timbo-drumline-loop-103bpm-171091.mp3": "cb32b8e2f6e4ef1cc9044cbcc5a5a48cf7734368357a631d0d5f5eff490f90f9"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers"
+  },
+  "interpretation": "Unlabelled engine vs drum demonstration. Neither engine health nor fault-detection accuracy is established. Original scores are hand-tuned heuristics, not probabilities."
+}

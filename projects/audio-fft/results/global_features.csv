@@ -1,0 +1,13 @@
+metric,engine_recording,drum_recording,definition
+duration_s,31.536,9.351836734693878,Original prototype definition
+sample_rate_hz,48000,44100,Original prototype definition
+dominant_freq,199.65362548828125,112.88108825683594,Original prototype definition
+rms,0.10977008993529856,0.11153360849234574,Original prototype definition
+crest_factor,5.921249497278919,9.196836607506176,Original prototype definition
+centroid,3174.6883406060997,2494.5361569070583,Original prototype definition
+flatness,0.09565515675786382,0.12998342234086885,Original prototype definition
+entropy,18.073421832071606,15.519325715265536,Original prototype definition
+harmonic_score,0.7272727272727273,1.0,Original prototype definition
+peak_count,33,59,Original prototype definition
+anomaly_rate,0.030149158997143762,0.4062165058949625,Original prototype definition
+onset_density,6.563926940639269,5.453474162011173,Original prototype definition

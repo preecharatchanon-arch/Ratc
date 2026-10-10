@@ -1,0 +1,66 @@
+{
+  "project_origin": "2026-03-23 author-reported",
+  "evidence_rerun": "2026-10-10",
+  "files": {
+    "AUDIT.md": {
+      "sha256": "93599504b40d8a06b1dee538818d51dd41bc49e0a85c1926ff3063063bce7256",
+      "bytes": 4022
+    },
+    "README.md": {
+      "sha256": "e58ed18662683c1ce970c0c0ead98755b68ad89ee7287db68a56b30a434be634",
+      "bytes": 6048
+    },
+    "audio_fft_analysis.ipynb": {
+      "sha256": "39b476f1cd15759e7481a37af498315979e904083fdcefb1ad0f91c620bdd31e",
+      "bytes": 32499
+    },
+    "check_evidence.py": {
+      "sha256": "7fefa177d7401c15ee83bffb0179d9272f0d8b972ac8737a378dad2dcedc342a",
+      "bytes": 1730
+    },
+    "figures/band_power_comparison.png": {
+      "sha256": "bcd4ad17b3a3a4ae1d3141f70beb83fa41b0031a33b370de50b543f84d1bf3f0",
+      "bytes": 119049
+    },
+    "figures/fft_comparison.png": {
+      "sha256": "1dc681103fae6e371f3aa9f53b6d97a4f67e85d933dff4fc75d8622010fe87e6",
+      "bytes": 158066
+    },
+    "figures/stft_comparison.png": {
+      "sha256": "2c2facd433db6df4a4138d5e14fdc9385cba7067fb82088898ca9ca932fe604c",
+      "bytes": 1046475
+    },
+    "original_prototype.py": {
+      "sha256": "574eeb9e7a135556f60548183914363c814bfcc0fd79ed6673ab84fb6ec9291b",
+      "bytes": 15481
+    },
+    "requirements.txt": {
+      "sha256": "8de0be3fbc269c9aa5e162faa0ea47d70e09b18904e2cfab8796a799fd5a2a82",
+      "bytes": 54
+    },
+    "results/drum_frame_features.csv.gz": {
+      "sha256": "6d33dab47fc4a132b68d4b73b6771a03118f6d193cb3217f1328e34728f5265d",
+      "bytes": 80253
+    },
+    "results/engine_frame_features.csv.gz": {
+      "sha256": "08f3f95c94c567cd51534be2226d3d4e84c3348409cd964009fa19863b09c7ee",
+      "bytes": 261057
+    },
+    "results/global_features.csv": {
+      "sha256": "5d559cdd55f2ed08da7d2d89823ca27a0b69bea9cffc3ea58d487c1ca6c7f6f5",
+      "bytes": 931
+    },
+    "results/prototype_reproduction.txt": {
+      "sha256": "814db31abe9cfa0a67afc36d7dcd1b3ec2b5f8afbd8fca3ad9f480090130b2f3",
+      "bytes": 4946
+    },
+    "results/results.json": {
+      "sha256": "7dee5e735b7844c294591b95f1cd2beb143287210aafeefdac8d68b176cba00a",
+      "bytes": 6404
+    },
+    "run_analysis.py": {
+      "sha256": "59d6fd83bae17e0a35fa6eb9f49d006e7a6a0e9a31a4f0accbc0715130137fa7",
+      "bytes": 10971
+    }
+  }
+}

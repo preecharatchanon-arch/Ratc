@@ -1,0 +1,123 @@
+REPRODUCTION OF SUPPLIED ORDER: drum baseline, engine test.
+Not validated engine fault inference.
+
+======================================================================
+BASELINE / REFERENCE (drum)
+======================================================================
+File                : kamhunt-timbo-drumline-loop-103bpm-171091.mp3
+Sample rate         : 44100
+Channels            : 2
+Duration            : 9.351836734693878
+Peak amplitude      : 1.025756373558864
+RMS                 : 0.11153360849234574
+Crest factor        : 9.196836607506176
+Clipping ratio      : 0.0001503336436995655
+Dominant freq       : 112.88108825683594
+Centroid            : 2494.5361569070583
+Flatness            : 0.12998342234086885
+Entropy             : 15.519325715265536
+Harmonic score      : 1.0
+Peak count          : 59
+Anomaly rate        : 0.4062165058949625
+Onset density       : 5.453474162011173
+Prototype verdict   : Likely percussive / drum-like | unstable over time
+Top peaks (Hz, unnormalised magnitude):
+  112.88 Hz | 3064.860265
+  72.51 Hz | 2759.817527
+  174.03 Hz | 1275.945699
+  219.71 Hz | 956.198472
+  145.69 Hz | 736.361646
+  194.64 Hz | 426.607994
+  972.95 Hz | 378.166432
+  771.24 Hz | 360.050587
+  253.18 Hz | 333.936883
+  469.52 Hz | 322.486473
+Magnitude band shares (original code labels these energy): [0.007030752882306798, 0.26018765164480584, 0.08670880543211366, 0.14878753403110845, 0.2129781832614338, 0.20288825549340644, 0.0814188000231801]
+First ten onset estimates (time, peak, original decay estimate):
+  0.055s | 0.876677 | 0.001610s
+  0.165s | 0.690213 | 0.000000s
+  0.325s | 0.690213 | 0.000000s
+  0.455s | 0.726681 | 0.000000s
+  0.615s | 0.726681 | 0.000000s
+  1.045s | 0.726681 | 0.000000s
+  1.225s | 0.723300 | 0.000000s
+  1.365s | 0.723300 | 0.000000s
+  1.485s | 0.723300 | 0.000000s
+  1.665s | 0.723300 | 0.000000s
+
+======================================================================
+TEST / SUSPECT (engine)
+======================================================================
+File                : manshaofficial-diesel-car-engine-sound-111994.mp3
+Sample rate         : 48000
+Channels            : 2
+Duration            : 31.536
+Peak amplitude      : 0.6499760898515696
+RMS                 : 0.10977008993529856
+Crest factor        : 5.921249497278919
+Clipping ratio      : 0.0
+Dominant freq       : 199.65362548828125
+Centroid            : 3174.6883406060997
+Flatness            : 0.09565515675786382
+Entropy             : 18.073421832071606
+Harmonic score      : 0.7272727272727273
+Peak count          : 33
+Anomaly rate        : 0.030149158997143762
+Onset density       : 6.563926940639269
+Prototype verdict   : Likely percussive / drum-like | noisy / rough, unstable over time
+Top peaks (Hz, unnormalised magnitude):
+  199.65 Hz | 15450.907003
+  256.71 Hz | 8666.844263
+  285.23 Hz | 8473.177897
+  77.98 Hz | 8150.360861
+  313.75 Hz | 7877.772825
+  51.98 Hz | 6142.092355
+  26.00 Hz | 4733.392224
+  484.89 Hz | 4405.788884
+  427.85 Hz | 4176.198798
+  114.10 Hz | 3934.783240
+Magnitude band shares (original code labels these energy): [0.02068868513819461, 0.10164640896601813, 0.1584035116408906, 0.12174059339785287, 0.2625199293828358, 0.22245499895243143, 0.11254587233163553]
+First ten onset estimates (time, peak, original decay estimate):
+  0.065s | 0.349981 | 0.000000s
+  0.215s | 0.349981 | 0.000000s
+  0.445s | 0.409008 | 0.000000s
+  0.525s | 0.409008 | 0.000083s
+  0.605s | 0.409008 | 0.000000s
+  0.755s | 0.483712 | 0.000021s
+  0.835s | 0.483712 | 0.000000s
+  0.955s | 0.483712 | 0.000000s
+  1.155s | 0.483712 | 0.000000s
+  1.235s | 0.483712 | 0.000000s
+
+Relative shifts: {
+  "dominant_freq": 0.7687074829931905,
+  "centroid": 0.2726567750143789,
+  "flatness": -0.26409725920831967,
+  "entropy": 0.16457519892720449,
+  "crest_factor": -0.35616454331193265,
+  "harmonic_score": -0.272727272727,
+  "peak_count": -0.4406779661016874,
+  "roll95": 0.28923890022951465,
+  "anomaly_rate": -0.925780566371507,
+  "onset_density": 0.20362300171206293,
+  "high_low_ratio": 1.573792940302881
+}
+Original heuristic severity: 0.4711291714025031
+Original heuristic hints: ['possible irregular timing / missing structure', 'possible extra noise / wear / roughness', 'more high-frequency energy than baseline', 'main frequency shifted noticeably']
+
+INTENDED ORDER: engine baseline, drum test
+Relative shifts: {
+  "dominant_freq": -0.43461538461538246,
+  "centroid": -0.21424219032763042,
+  "flatness": 0.35887522164166047,
+  "entropy": -0.14131779474507922,
+  "crest_factor": 0.5531918747440019,
+  "harmonic_score": 0.37499999999948436,
+  "peak_count": 0.787878787878764,
+  "roll95": -0.22434856734312267,
+  "anomaly_rate": 12.473560105639187,
+  "onset_density": -0.169175066796185,
+  "high_low_ratio": -0.6114683569369332
+}
+Original heuristic severity: 0.45629913309750625
+Original heuristic hints: ['time-varying instability increased', 'main frequency shifted noticeably', 'more spiky / impulsive waveform']
