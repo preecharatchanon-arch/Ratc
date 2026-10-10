@@ -1,8 +1,8 @@
 [
   {
     "path": "README.md",
-    "bytes": 5218,
-    "sha256": "6323b08f779d2c4722673acc3203c8dd1d6810e5144a714f81c668159787a5cf"
+    "bytes": 7447,
+    "sha256": "75ce4d4f1ff9f666de1cdee87baea14d5dd89e55c48e4d13913420ef5ee7a377"
   },
   {
     "path": "SOURCE_MANIFEST.json",
@@ -21,8 +21,8 @@
   },
   {
     "path": "projects/adamw-memory/README.md",
-    "bytes": 2740,
-    "sha256": "5d0665740a32141339f699b1446fba9cb28ba92204c3dd6db89ee252322bc74c"
+    "bytes": 4099,
+    "sha256": "12ecf58bb2e2c43ec6bd1f5060e0d000ebb9d030d1bbdfaa69ac2f4222faa87d"
   },
   {
     "path": "projects/adamw-memory/figures/stable-response.png",
@@ -33,6 +33,666 @@
     "path": "projects/adamw-memory/paper.pdf",
     "bytes": 408680,
     "sha256": "7db5f83392295ef6a1e7bdad9d64356304d5a060e47920a8bc3889aea93c91de"
+  },
+  {
+    "path": "projects/adamw-memory/source/CPU_ENVIRONMENT.json",
+    "bytes": 208,
+    "sha256": "4589f49a587ec66d4a51fe53b099501886009b8c467b2fc7099ad42179c339a6"
+  },
+  {
+    "path": "projects/adamw-memory/source/DEPENDENCIES.md",
+    "bytes": 3538,
+    "sha256": "92a53293fa5736cfdd2a447af3ea9ea10d325b667d45878c6eb9e48d8bc2bd86"
+  },
+  {
+    "path": "projects/adamw-memory/source/README.md",
+    "bytes": 8088,
+    "sha256": "644de40279935a8c1bb330c682e97cbd304eefaf63006f9a8896cfae2854f5fb"
+  },
+  {
+    "path": "projects/adamw-memory/source/STUDY_CROSSWALK.md",
+    "bytes": 3332,
+    "sha256": "9f68fd3c918f94fdd96daf74adf9cd5416616555d0bd691d81106ec765b3791f"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/CONFIRMATION_FINAL/locks/confirmation_firewall.json",
+    "bytes": 803,
+    "sha256": "ecca4c9987ee0f2a3422a51e45a437af45ddc58d25fbba7d7d35a96d7ca6d4dc"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/CONFIRMATION_FINAL/locks/stage07_discovery_lock.json",
+    "bytes": 4217,
+    "sha256": "696f7f0a450912dc5150ee21f47ed4490c0378b6f02d21b3e8d0f2b027baac37"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/CONFIRMATION_FINAL/manifests/artifact_manifest.json",
+    "bytes": 34446,
+    "sha256": "208a026eb48080b21296ea5883b9c905f1237debca8287942cd851da9cb81e7d"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/CONFIRMATION_FINAL/manifests/campaign_identity.json",
+    "bytes": 345,
+    "sha256": "05f83a244250c9031118e2c3cc24cd4db413dba5fe954d75dbd420f88ec5b260"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/CONFIRMATION_FINAL/manifests/core_config.json",
+    "bytes": 2352,
+    "sha256": "c55299921c8b3a4bdb1633a5d77ca5f2f979cd02aa2dcd06c3c5f28fa75d6bac"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/CONFIRMATION_FINAL/manifests/environment.json",
+    "bytes": 510,
+    "sha256": "680f9f0d9fab710bd6d28cd50b63d592021ed9ba415c509778e590e6ef9c4515"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/CONFIRMATION_FINAL/manifests/implementation_revision.json",
+    "bytes": 66,
+    "sha256": "c88773d58ed3fcdc5aff6012ae1772cbb4897403e558ebe21255ca598ba33433"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/CONFIRMATION_FINAL/manifests/parent_evidence.json",
+    "bytes": 1098,
+    "sha256": "165bbf44acec81e8eede69de59f8f4b39b6db594876b8c6bdaa38bad2e74aae0"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/CONFIRMATION_FINAL/manifests/preregistered_analysis.json",
+    "bytes": 3144,
+    "sha256": "3459b1df486032f7a5d5341fa42d52c520d898eedc57a27056ea03efd45ff4f6"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/CONFIRMATION_FINAL/manifests/protocol_payload.json",
+    "bytes": 8232,
+    "sha256": "1fdd81253117bdc62520dd1674ab9f811a0984a652e7f9a75f4fcdb6fc121dc0"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/CONFIRMATION_FINAL/manifests/scientific_code_identity.json",
+    "bytes": 2355,
+    "sha256": "8633d63371f25ba0eaa2b9c50fe54c35ac3ba4d41a1f9f269a2972e5d6d56de0"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/CONFIRMATION_FINAL/manifests/stage07_confirmation_workload_contract.json",
+    "bytes": 1325,
+    "sha256": "adff3367c5a398ebbac785e4301191a5a48ebb90674e7bbc634c74d7be68c66a"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/CONFIRMATION_FINAL/manifests/stage07_discovery_workload_contract.json",
+    "bytes": 1129,
+    "sha256": "228264e2ef00ce49614c9e5cfbac7e2985330faee1fa0803161fff923fe12802"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/CONFIRMATION_FINAL/manifests/zero_hour_integrity.json",
+    "bytes": 796,
+    "sha256": "23816ed399fc5856d244e7d0a467410b1160367ec289d0ede14ce3553f1e091f"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/DISCOVERY/locks/stage07_discovery_lock.json",
+    "bytes": 4217,
+    "sha256": "696f7f0a450912dc5150ee21f47ed4490c0378b6f02d21b3e8d0f2b027baac37"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/DISCOVERY/manifests/artifact_manifest.json",
+    "bytes": 12779,
+    "sha256": "bb1cfd2ba4d32b744c4d655ce20b0974abba68070ec9939b15936480bc4f98a6"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/DISCOVERY/manifests/campaign_identity.json",
+    "bytes": 345,
+    "sha256": "05f83a244250c9031118e2c3cc24cd4db413dba5fe954d75dbd420f88ec5b260"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/DISCOVERY/manifests/core_config.json",
+    "bytes": 2352,
+    "sha256": "c55299921c8b3a4bdb1633a5d77ca5f2f979cd02aa2dcd06c3c5f28fa75d6bac"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/DISCOVERY/manifests/environment.json",
+    "bytes": 510,
+    "sha256": "680f9f0d9fab710bd6d28cd50b63d592021ed9ba415c509778e590e6ef9c4515"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/DISCOVERY/manifests/implementation_revision.json",
+    "bytes": 66,
+    "sha256": "c88773d58ed3fcdc5aff6012ae1772cbb4897403e558ebe21255ca598ba33433"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/DISCOVERY/manifests/parent_evidence.json",
+    "bytes": 1098,
+    "sha256": "165bbf44acec81e8eede69de59f8f4b39b6db594876b8c6bdaa38bad2e74aae0"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/DISCOVERY/manifests/preregistered_analysis.json",
+    "bytes": 3144,
+    "sha256": "3459b1df486032f7a5d5341fa42d52c520d898eedc57a27056ea03efd45ff4f6"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/DISCOVERY/manifests/protocol_payload.json",
+    "bytes": 8232,
+    "sha256": "1fdd81253117bdc62520dd1674ab9f811a0984a652e7f9a75f4fcdb6fc121dc0"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/DISCOVERY/manifests/scientific_code_identity.json",
+    "bytes": 2355,
+    "sha256": "8633d63371f25ba0eaa2b9c50fe54c35ac3ba4d41a1f9f269a2972e5d6d56de0"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/DISCOVERY/manifests/stage07_discovery_workload_contract.json",
+    "bytes": 1129,
+    "sha256": "228264e2ef00ce49614c9e5cfbac7e2985330faee1fa0803161fff923fe12802"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/DISCOVERY/manifests/zero_hour_integrity.json",
+    "bytes": 796,
+    "sha256": "23816ed399fc5856d244e7d0a467410b1160367ec289d0ede14ce3553f1e091f"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/NEXUS_III_v2_0_2_STAGE07A_CONTROL_GEOMETRY_DISCOVERY_R4_A100.ipynb",
+    "bytes": 119222,
+    "sha256": "7d0b6071ee0045cdec767569b39538e5fc8635495bb423fcf5a4894263ff187c"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage07/NEXUS_III_v2_0_2_STAGE07B_CONTROL_GEOMETRY_CONFIRMATION_R4_A100.ipynb",
+    "bytes": 121674,
+    "sha256": "8214fdb2223b00865a22bfecba3855625719c3db4e6c8fefb6c1b3dd4378d48f"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage10/CONVGN_VALIDATION.json",
+    "bytes": 239,
+    "sha256": "72f44ada2466962aceae0553f43c90afd8d2cfde1b3d7ea368b388eae92ca3ee"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage10/CPU_INTEGRATION_VALIDATION.json",
+    "bytes": 639,
+    "sha256": "ef16177a96a8fe80c3969a1d2ee7828acb77d7f93b1062618c7aea2a74b49159"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage10/DELIVERY_MANIFEST.json",
+    "bytes": 1960,
+    "sha256": "8b8b7a11eb43b1ef91aae479b740f92d3434c48260d8ffc0beda8acaac59ed5e"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage10/NEXUS_III_STAGE10_CONTROL_SPECTRUM_REALDATA_R1.ipynb",
+    "bytes": 52046,
+    "sha256": "687b8315b3b543a18ed4464d06c8f7bfe781a5aaa4e576e3f07d9b554e723b30"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage10/PARENT_EVIDENCE.json",
+    "bytes": 12733,
+    "sha256": "6764db0ac798aec7d3a9512ae82e0ee81237709cdabb29f9e89727ed6e1bfa9a"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage10/PROTOCOL.json",
+    "bytes": 4065,
+    "sha256": "a8c79149f9a6947440a06ebaeb5f3015259e75d511fb2a72997a7bf7ff6eea26"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage10/VALIDATION.json",
+    "bytes": 1936,
+    "sha256": "1d9e9a57732a584f2968cb3487d567861f0396fba0eddc323fc9f9f707fb5a98"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage10/archive_io.py",
+    "bytes": 6837,
+    "sha256": "c62e67fff5325f5a76577488ec2721749a9bf8d69c223fc0acb3ea7a5521dbc6"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage10/audit.py",
+    "bytes": 6670,
+    "sha256": "83a032751ea55080919d7cab44a107c6abb1e2c350662f21301bb49fa3c1f3c2"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage10/build_notebook.py",
+    "bytes": 7855,
+    "sha256": "0254bfdffe75daaacadde330312e1d8f5078365ca71d7e73d3feaeabce457452"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage10/control_math.py",
+    "bytes": 3884,
+    "sha256": "cad42301ae82eae66a45ff2af641fa087d2e9a6be00eb81df4bc13d6f20c9b66"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage10/runner.py",
+    "bytes": 34336,
+    "sha256": "4d4404303c88e8060d1c73e1af0fccdd2d3d6f0cec4d976d40de7b1448907ea1"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage10/test_cpu.py",
+    "bytes": 4649,
+    "sha256": "a8218fc13a5014a15fbbcbccfab496504ac49babb390d5d7a3ba598372e7e2bd"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage10/test_math.py",
+    "bytes": 1681,
+    "sha256": "9bd974bd1f1dfd16c3012029e306659d56f378fbdd56458af2a1220e9aa43f23"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage10/test_storage.py",
+    "bytes": 2821,
+    "sha256": "f021ab379e13620f2125c31fcc0c2f9ce828646416abc7e103e86f4562891833"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage11/CPU_VALIDATION.json",
+    "bytes": 1388,
+    "sha256": "17d53630842c6b0fcdf101428e6406f3ec0516870211a5b3cf4074131c67dff2"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage11/DELIVERY_MANIFEST.json",
+    "bytes": 2355,
+    "sha256": "f5b19f428d9af9de2d9e13387adc48aaf2431c7cfc6f62051e0823b6894305b4"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage11/NEXUS_III_STAGE11_FUNCTIONAL_CONTROL_REALDATA_R1.ipynb",
+    "bytes": 60960,
+    "sha256": "15a960a29f593ce681bc5319ddc2d61032198ed2eeddf139f7f7b8788dfa88e5"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage11/PARENT_EVIDENCE.json",
+    "bytes": 1183,
+    "sha256": "5d249d0e9fcb1b563c16222a61892cbdfbdc37ea6092310829b43b58724319c3"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage11/PROTOCOL.json",
+    "bytes": 6278,
+    "sha256": "1012d70def61023669d4e9a5aa1aee42a715599e3a2860e4a09fcc90ef844d48"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage11/REAL_BACKBONE_ESTIMATOR_VALIDATION.json",
+    "bytes": 633,
+    "sha256": "05c01c0d81fa3a382d26be43b912dc2746502d5eb52605690dafe1bf547fce85"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage11/VALIDATION.json",
+    "bytes": 1923,
+    "sha256": "3a79be121e420e539b6f1b79276a51ad44a8f1ba417d421ac847de2ed5c95d8a"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage11/archive_io.py",
+    "bytes": 6903,
+    "sha256": "f0fa8298291174a2ad06c2d580fb3b1258a2f739285a90a4dae7e7b97905ecfb"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage11/audit.py",
+    "bytes": 14747,
+    "sha256": "e0abf551dd7faa90cbac28f9c44b82219f983ca2012b4414f7ecb4714ac78298"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage11/build_notebook.py",
+    "bytes": 10378,
+    "sha256": "2882cfb49e964c1161a03b2312c4cf1e91e7cbd322ddbd6a1da7dee03f70e8ae"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage11/control_math.py",
+    "bytes": 2913,
+    "sha256": "d5089c1a885a5fd2a3e27d66b7d53f3357bcd4e73cdecc1c93d066bf11204f50"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage11/models.py",
+    "bytes": 2786,
+    "sha256": "cedf623a963750ed2c753bac6f542d6537dc40f5c486e5102437a6f3f9cf8f2d"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage11/operators.py",
+    "bytes": 4827,
+    "sha256": "c206760155d49aed04c361a5df50a2831aae5736472af32b5801e281e55691f6"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage11/runner.py",
+    "bytes": 34211,
+    "sha256": "3ff1ecf6fbd4f7452f725e1384c7d29984d686d847ffdef4d057380b203b0e03"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage11/test_notebook.py",
+    "bytes": 2548,
+    "sha256": "40f8e6aec9c7521464d35f12d7047cd6decaf77b475714402bd3dabdc75696e5"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage11/test_storage.py",
+    "bytes": 2821,
+    "sha256": "f021ab379e13620f2125c31fcc0c2f9ce828646416abc7e103e86f4562891833"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage11/test_validation.py",
+    "bytes": 9013,
+    "sha256": "d78fab1d4db6156961f22fdcfc77132907f63aa599a1992cc3bf536ee4f5a7e6"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage12/CONFIG.json",
+    "bytes": 986,
+    "sha256": "208cac96cbf5cd51438732dcde77305889cad59eeb46ec348fc10970293ddda8"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage12/ENVIRONMENT.json",
+    "bytes": 300,
+    "sha256": "b92770fb6e0a069de4040c3271e7fb291ee8505cdfb52089c95012624e932193"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage12/PARENT.json",
+    "bytes": 110,
+    "sha256": "d390af778c3c7db6904e861d5e793be52ed7addcee18d0991eb1d8f6d1c29f11"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage12/PROTOCOL.json",
+    "bytes": 4290,
+    "sha256": "8d6178382845622ab0d515e7fd5d37fcb264fc1e94bff3d038a8a2b8f6b0d293"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage12/archive_io.py",
+    "bytes": 7369,
+    "sha256": "3f384a8e20f370334813919f6002dfb915850c6812b2604251991a110ee0a492"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage12/audit12.py",
+    "bytes": 9492,
+    "sha256": "888d4d0cf166fa764adaa705918b3c97c66e387fc251e9fadf441e201bc6a101"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage12/control_math.py",
+    "bytes": 3884,
+    "sha256": "cad42301ae82eae66a45ff2af641fa087d2e9a6be00eb81df4bc13d6f20c9b66"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage12/horizon.py",
+    "bytes": 6271,
+    "sha256": "f9fffd0ff13dd5d74a31578449eac8488fb766adb727b01cd80814c3bee869d8"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage12/parent/metadata/CIFAR10_DATA.json",
+    "bytes": 638240,
+    "sha256": "043a6f787663cc594314c26af8ed01893ab910ef80bb85e6364926c5e09fff36"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage12/parent/metadata/archive_io.py",
+    "bytes": 6837,
+    "sha256": "c62e67fff5325f5a76577488ec2721749a9bf8d69c223fc0acb3ea7a5521dbc6"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage12/parent/metadata/control_math.py",
+    "bytes": 3884,
+    "sha256": "cad42301ae82eae66a45ff2af641fa087d2e9a6be00eb81df4bc13d6f20c9b66"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage12/parent/metadata/runner.py",
+    "bytes": 34336,
+    "sha256": "4d4404303c88e8060d1c73e1af0fccdd2d3d6f0cec4d976d40de7b1448907ea1"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage12/parent/units/CIFAR10_10100/result.json",
+    "bytes": 21126,
+    "sha256": "9828414bc80244b90bb1f1d656556e3f3c6915992764df5e62bccdbaf083c551"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage12/parent/units/CIFAR10_10101/result.json",
+    "bytes": 21108,
+    "sha256": "871f94934fa0fc59e90fe0001f079377a6f01b9020ecfbbf8b6e702ca8fa90d2"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage12/parent/units/CIFAR10_10102/result.json",
+    "bytes": 21120,
+    "sha256": "be9a562c469e67ab6d9bddebbf73f1ace0db22fc6684ebea237114f22f4f16e6"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage12/parent/units/CIFAR10_10103/result.json",
+    "bytes": 21128,
+    "sha256": "c192fa6178e21ec09c34464c952d1e20fcbadf7467f43ed86b6421d5c10c7f41"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage12/parent10.py",
+    "bytes": 34336,
+    "sha256": "4d4404303c88e8060d1c73e1af0fccdd2d3d6f0cec4d976d40de7b1448907ea1"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage12/run12.py",
+    "bytes": 12713,
+    "sha256": "d488f978c2360c904f937fd91143d6ec6220a5bdbe51bee57078f8645446aead"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage12/test12.py",
+    "bytes": 5188,
+    "sha256": "d27c3769937077113c6efee9dd88a34d6e6c92ce2bf23eba7f087913e59ce812"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage13/CIFAR100_DATA.json",
+    "bytes": 638240,
+    "sha256": "ed1dbd1ac74a44eb8ce0e6e18545a0bacedfcdbdc3728af2455b59716584b616"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage13/CIFAR10_DATA.json",
+    "bytes": 638240,
+    "sha256": "ed34dd4ad3abaa787d940003d3aa0ba6eba65695f29c63b9fd15a27abf9be999"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage13/CONFIG.json",
+    "bytes": 839,
+    "sha256": "1f6f876c040c99602df6957a34e860a400a12605b898ef79b66710094a3709df"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage13/ENVIRONMENT.json",
+    "bytes": 204,
+    "sha256": "fba2d06df9575dc3c79bbe0adda4fc88b9118afc33bc10c036373bc89d4868eb"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage13/PROTOCOL.json",
+    "bytes": 11107,
+    "sha256": "a139a6ea1e296f1a8b6524a97e881fdc45e89dd9640f9eadcf886bc716102a8a"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage13/PROVENANCE.json",
+    "bytes": 413,
+    "sha256": "59c2697db398b74036be8b6b2cb40fb268000544ad17619d97cb023d83d611f5"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage13/archive_io.py",
+    "bytes": 7369,
+    "sha256": "2b6d4f00e95697c57f57a3b371447432f109a655101b6e18cb8317a8f8045cf6"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage13/audit13.py",
+    "bytes": 8334,
+    "sha256": "a2577e1257d4c041da204700f72a12d9d056cc9c1226437792f9e144a02a1e12"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage13/data13.py",
+    "bytes": 3454,
+    "sha256": "820125c9cf2f476db435e290af4e5ed1152cc9ea8e632b002111abae1595f882"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage13/horizon.py",
+    "bytes": 6271,
+    "sha256": "f9fffd0ff13dd5d74a31578449eac8488fb766adb727b01cd80814c3bee869d8"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage13/models.py",
+    "bytes": 1077,
+    "sha256": "f04febf4996c5219a97c3f96fc3332c37b752d2ac351408bb013004ec9be42b6"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage13/operators.py",
+    "bytes": 4543,
+    "sha256": "eecf3ed66cd29f7e8bdc2f1aa3e968df1b01cb601541f101633cc54107f2e3aa"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage13/runner13.py",
+    "bytes": 18071,
+    "sha256": "52af73359aae053d3a894cb632590729f75c156d91cbfc841ed09d818ea8f3f3"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage13/smoke13.py",
+    "bytes": 2867,
+    "sha256": "761c65ff31bf9169f49870968fe8cd05994f84aa7b6c899cbcaa49fc7e8b4725"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage13/test13.py",
+    "bytes": 6347,
+    "sha256": "a5c67fdee17b3573cfa54f10f6bced979e4705f658090a65e765fc15a0a9f2d7"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage14/CONFIG.json",
+    "bytes": 1174,
+    "sha256": "e50347bad59536aa36fcb05e317877d6c0d3031e691eac4b32ae51c00ef8e17f"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage14/ENVIRONMENT.json",
+    "bytes": 204,
+    "sha256": "fba2d06df9575dc3c79bbe0adda4fc88b9118afc33bc10c036373bc89d4868eb"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage14/PROTOCOL14.json",
+    "bytes": 1654,
+    "sha256": "9dd43a74969cab7f9d86978ca510f53dcc46371aba63acc8267996c6a1dd128b"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage14/archive_io.py",
+    "bytes": 10375,
+    "sha256": "f3e2d5feddae1cf782092e159309b8278802318f0fd7f3f7afefab74d96bad2f"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage14/audit13.py",
+    "bytes": 9778,
+    "sha256": "c4b463ce121ffa2743cfc65d0286b16313f752a0600a979c93a122ab940ff0a1"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage14/checkpoint15.py",
+    "bytes": 36303,
+    "sha256": "51d0f157fbe80bd6274549859ae7bba34f90daaaadc8837a78f8b49291eb1cd3"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage14/data13.py",
+    "bytes": 3454,
+    "sha256": "820125c9cf2f476db435e290af4e5ed1152cc9ea8e632b002111abae1595f882"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage14/drive_store15.py",
+    "bytes": 11899,
+    "sha256": "23a524a31de906de0c390c5a09d7021c695d37b8b4742cce63e18291362625f0"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage14/horizon.py",
+    "bytes": 7970,
+    "sha256": "f1da2b599867c5fbc48f6f287ecd0d94bba068b83ae6a17812f872b851d32f10"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage14/models.py",
+    "bytes": 1077,
+    "sha256": "f04febf4996c5219a97c3f96fc3332c37b752d2ac351408bb013004ec9be42b6"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage14/operators.py",
+    "bytes": 7204,
+    "sha256": "53c258ee1415f8a778607b04f95a70399acf2e6cc11ed84d2723936d3b36de23"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage14/resume14.py",
+    "bytes": 3757,
+    "sha256": "6b5a2272a43d001bb7b452145b8982df3ef113c163aefd779b541d83177f042a"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage14/runner14.py",
+    "bytes": 34290,
+    "sha256": "504a49aa13a03eef4ecf7d17198ec3092b926de14c708332167d13827fa997bf"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage14/smoke14.py",
+    "bytes": 5040,
+    "sha256": "081d410c49be5181191c6b4c37c66d7d9972ed713b6b49281134d3b1b495eb13"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage14/smoke15.py",
+    "bytes": 4888,
+    "sha256": "ce96d673aa1d3b10da1916d4551829ca5a35fb56607d35a6f421e83a5b44088d"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage14/test14.py",
+    "bytes": 19376,
+    "sha256": "7bc4a7b08a63e78bbdfb33a075c3f5d232cabd104aa4339771c7a242847fdd5b"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage14/test_drive15.py",
+    "bytes": 8710,
+    "sha256": "5f74659f65353750ef1de380174e2b61c18b3d18cff3e62e8960921ab1824b12"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage14/test_http15.py",
+    "bytes": 6331,
+    "sha256": "1efca0468111c6793f1a39b315a8d26ef7b6333320f4ead40456e6c7f2791506"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage14/test_incremental15.py",
+    "bytes": 16863,
+    "sha256": "c67652c8de1baf15c1c2051c4a03bfabbb85b2ef5e56fa817e809d5dfd48ae5e"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage14/test_resume14.py",
+    "bytes": 4274,
+    "sha256": "00fbb9c5b8e995dfeb5d1249a7a84534cb2fad48b8f15122fb7b62b4536b7e6e"
+  },
+  {
+    "path": "projects/adamw-memory/source/protocols/stage14/test_storage15.py",
+    "bytes": 4002,
+    "sha256": "ffe168b6d974619ce63f6b0bc2fb2b733a1a3e00ab988f140463ecbe898decf4"
+  },
+  {
+    "path": "projects/adamw-memory/source/requirements-cpu.txt",
+    "bytes": 32,
+    "sha256": "4c40934e438ae009a1eb0b5a9322cce029fba6ca1af6e314c088c1957cee0c04"
+  },
+  {
+    "path": "projects/adamw-memory/source/scripts/audit_amplitude_stage14.py",
+    "bytes": 1033,
+    "sha256": "7857fa480399d1f09539647845aafa4d297b38762aed62ab53fae18a20003567"
+  },
+  {
+    "path": "projects/adamw-memory/source/scripts/audit_stage07.py",
+    "bytes": 1741,
+    "sha256": "a0dbc67c938fa8d4741131a96d40919a9b9b0e683c42072743387f249044db8d"
+  },
+  {
+    "path": "projects/adamw-memory/source/scripts/audit_stage14.py",
+    "bytes": 3232,
+    "sha256": "96ef97c07b079ec756210c5a83a62465188181d89097f77e2636e705648e2623"
+  },
+  {
+    "path": "projects/adamw-memory/source/scripts/check_stage06_precursor_summary.py",
+    "bytes": 1731,
+    "sha256": "4a0cda5f7667ae600662e9170577841b30146e80040617c293b413fdd6276218"
+  },
+  {
+    "path": "projects/adamw-memory/source/scripts/check_stage10_saved_summary.py",
+    "bytes": 3020,
+    "sha256": "f6102f86dcc161253348a6ccee324b57dcc1f4fb2eb853ea42c66f244fb41e55"
+  },
+  {
+    "path": "projects/adamw-memory/source/scripts/plot.py",
+    "bytes": 6788,
+    "sha256": "838d6f433db7fddea7dd1c6fbd708effb28479ed184a265952ee941a766f9368"
+  },
+  {
+    "path": "projects/adamw-memory/source/scripts/recompute.py",
+    "bytes": 12694,
+    "sha256": "400e9e673de246329cfe2cd95998cfd594494c20c44be86f8b168fe40ed347a3"
+  },
+  {
+    "path": "projects/adamw-memory/source/scripts/recompute_compact_matching.py",
+    "bytes": 11377,
+    "sha256": "3587107b8ac03a012e9d42da7626fbaa4b1b35d94e3340d1e60df27d77034765"
+  },
+  {
+    "path": "projects/adamw-memory/source/scripts/recompute_stage14.py",
+    "bytes": 5147,
+    "sha256": "a0d1f65700cae0c7ac18c812f1f5c86e42a096feed456a60fb7a996d6cc7cba3"
+  },
+  {
+    "path": "projects/adamw-memory/source/scripts/verify_package.py",
+    "bytes": 574,
+    "sha256": "7e953bffa4293eb35592a6e92b006e9954bc47554e36d7590e0e9e561e834232"
+  },
+  {
+    "path": "projects/adamw-memory/source/scripts/verify_source_subsets.py",
+    "bytes": 2245,
+    "sha256": "044255372d68f7b21df77cd8705feae8bdda8938207456f5bd168cee818ce56c"
+  },
+  {
+    "path": "projects/adamw-memory/source/scripts/verify_stage06_archive.py",
+    "bytes": 2237,
+    "sha256": "8c0500fad69ab71d49d9f68c2ac3c97528bfb75e56a3de4f24e3820ecae4a6a2"
   },
   {
     "path": "projects/adamw-memory/supplement/README.md",
@@ -70,14 +730,94 @@
     "sha256": "afd9fed29c46633b7367cbbc053caecf54be09f2ffb198dba284f2452a29ba03"
   },
   {
+    "path": "projects/audio-fft/AUDIT.md",
+    "bytes": 5004,
+    "sha256": "e040a9697660c7e5cb37ae56eae4266813de1416e40934a45b5f31cce52bebc0"
+  },
+  {
+    "path": "projects/audio-fft/EVIDENCE_MANIFEST.json",
+    "bytes": 2275,
+    "sha256": "509a8fdc799533e4da7098d3f0af502c18f70e1d70c31ff4d5f86d5a642ef5e8"
+  },
+  {
+    "path": "projects/audio-fft/README.md",
+    "bytes": 7169,
+    "sha256": "7d5ca19fd5fd095b6322a47dceabc6a1fffaa32246fa3e332bc10ddb749aa6e1"
+  },
+  {
+    "path": "projects/audio-fft/audio_fft_analysis.ipynb",
+    "bytes": 30751,
+    "sha256": "eac153f6e6a25b41ef2f4fe9a14fd7ac75a54d24935449c95cd3a08138581f19"
+  },
+  {
+    "path": "projects/audio-fft/check_evidence.py",
+    "bytes": 1730,
+    "sha256": "7fefa177d7401c15ee83bffb0179d9272f0d8b972ac8737a378dad2dcedc342a"
+  },
+  {
+    "path": "projects/audio-fft/figures/band_power_comparison.png",
+    "bytes": 119049,
+    "sha256": "bcd4ad17b3a3a4ae1d3141f70beb83fa41b0031a33b370de50b543f84d1bf3f0"
+  },
+  {
+    "path": "projects/audio-fft/figures/fft_comparison.png",
+    "bytes": 158066,
+    "sha256": "1dc681103fae6e371f3aa9f53b6d97a4f67e85d933dff4fc75d8622010fe87e6"
+  },
+  {
+    "path": "projects/audio-fft/figures/stft_comparison.png",
+    "bytes": 1046475,
+    "sha256": "2c2facd433db6df4a4138d5e14fdc9385cba7067fb82088898ca9ca932fe604c"
+  },
+  {
+    "path": "projects/audio-fft/original_prototype.py",
+    "bytes": 15481,
+    "sha256": "574eeb9e7a135556f60548183914363c814bfcc0fd79ed6673ab84fb6ec9291b"
+  },
+  {
+    "path": "projects/audio-fft/requirements.txt",
+    "bytes": 54,
+    "sha256": "8de0be3fbc269c9aa5e162faa0ea47d70e09b18904e2cfab8796a799fd5a2a82"
+  },
+  {
+    "path": "projects/audio-fft/results/drum_frame_features.csv.gz",
+    "bytes": 80253,
+    "sha256": "6d33dab47fc4a132b68d4b73b6771a03118f6d193cb3217f1328e34728f5265d"
+  },
+  {
+    "path": "projects/audio-fft/results/engine_frame_features.csv.gz",
+    "bytes": 261057,
+    "sha256": "08f3f95c94c567cd51534be2226d3d4e84c3348409cd964009fa19863b09c7ee"
+  },
+  {
+    "path": "projects/audio-fft/results/global_features.csv",
+    "bytes": 931,
+    "sha256": "5d559cdd55f2ed08da7d2d89823ca27a0b69bea9cffc3ea58d487c1ca6c7f6f5"
+  },
+  {
+    "path": "projects/audio-fft/results/prototype_reproduction.txt",
+    "bytes": 4946,
+    "sha256": "814db31abe9cfa0a67afc36d7dcd1b3ec2b5f8afbd8fca3ad9f480090130b2f3"
+  },
+  {
+    "path": "projects/audio-fft/results/results.json",
+    "bytes": 6404,
+    "sha256": "7dee5e735b7844c294591b95f1cd2beb143287210aafeefdac8d68b176cba00a"
+  },
+  {
+    "path": "projects/audio-fft/run_analysis.py",
+    "bytes": 8183,
+    "sha256": "4a7b576e22f67c86649325f90a4692d49d8bf4b0d78eb9373aae6a79cc459934"
+  },
+  {
     "path": "projects/fleetroute/FleetRoute_App.ipynb",
     "bytes": 1037623,
     "sha256": "a3a851d988048311150b0a181766aee2e7bb486faa7b0cda86a117cbfefaf626"
   },
   {
     "path": "projects/fleetroute/README.md",
-    "bytes": 5463,
-    "sha256": "c1c6dfc7be86b67883d13aa845957389b652560bfe6a0d3749c8da35a19885d8"
+    "bytes": 6977,
+    "sha256": "0861fcfb09b48d02bd8058c717260f6002b06581b61950bc39dd598efde77d5a"
   },
   {
     "path": "projects/fleetroute/THIRD_PARTY_DATA_NOTICE.md",
@@ -133,6 +873,251 @@
     "path": "projects/fleetroute/paper.pdf",
     "bytes": 8875598,
     "sha256": "61449625c59cd97e7966dbd39e3db9a59188e62acc64c7ec40ec636053b456cb"
+  },
+  {
+    "path": "projects/fleetroute/source/.dockerignore",
+    "bytes": 33,
+    "sha256": "9ec1b54753d030b03bf1777a263ec1e5dfb1296d8e47315b42e01430a3e774ed"
+  },
+  {
+    "path": "projects/fleetroute/source/ARCHITECTURE.md",
+    "bytes": 9242,
+    "sha256": "172cc6e2d665fe541a6d5fa26f1de147010550bb0d7c4830566f38e71d0963da"
+  },
+  {
+    "path": "projects/fleetroute/source/Dockerfile",
+    "bytes": 371,
+    "sha256": "46106609c439b6db5dea98363aab8d329fd4e4e23240545a5138a54f14830cbf"
+  },
+  {
+    "path": "projects/fleetroute/source/FleetRoute_MAX_FLEET_REALTIME_sample_orders.csv",
+    "bytes": 288,
+    "sha256": "6548a55badda88858adddbc1ab1d5bc5a0ecf47d3191a12099b22b5ba6e51b6b"
+  },
+  {
+    "path": "projects/fleetroute/source/README.md",
+    "bytes": 9758,
+    "sha256": "20e5259ef2d9bd3cdbc118934e70160cac5d114753efc190603725dfc7b85abe"
+  },
+  {
+    "path": "projects/fleetroute/source/RELEASE_MANIFEST.json",
+    "bytes": 7095,
+    "sha256": "73949a357cbe611191b076d526631c6952a3ae88b4aadbcf4b4d7f42854a3694"
+  },
+  {
+    "path": "projects/fleetroute/source/TESTING.md",
+    "bytes": 6815,
+    "sha256": "93192bd5b55adb9c81ff23bf56bb4db9163872654547740cc2889b695231fa88"
+  },
+  {
+    "path": "projects/fleetroute/source/app/__init__.py",
+    "bytes": 46,
+    "sha256": "68a779378920669c35a4dc633aacb20db20b1b84698505f64399e56798ff3d63"
+  },
+  {
+    "path": "projects/fleetroute/source/app/analytics.py",
+    "bytes": 35294,
+    "sha256": "5071835b09e5832d002aecf7d4c68d44cd918aa42753cbd4412480aeb5dd9985"
+  },
+  {
+    "path": "projects/fleetroute/source/app/baseline.py",
+    "bytes": 45903,
+    "sha256": "8bfed0fa4af7c1b9ec01e71d458f6ae4b2e1645fa9d6ae580cef4effc1c91312"
+  },
+  {
+    "path": "projects/fleetroute/source/app/config.py",
+    "bytes": 4285,
+    "sha256": "a7d4fc0fc3a24f2dea7d6ab620c4c7518b5da0893adbc2ec23d7111cf762119d"
+  },
+  {
+    "path": "projects/fleetroute/source/app/db.py",
+    "bytes": 23417,
+    "sha256": "4dc2fc28d1ea2b7959ea8c514fb2ecc933899f59cf918acaa910ebb61a8e1bcb"
+  },
+  {
+    "path": "projects/fleetroute/source/app/engine.py",
+    "bytes": 395807,
+    "sha256": "8ae71309b38a797dfdb5336a159959063fd882636697cf058393d80ce6c66a64"
+  },
+  {
+    "path": "projects/fleetroute/source/app/exports.py",
+    "bytes": 17409,
+    "sha256": "fe70e8c29ef27998f95ba0780af4d307a9b703538e14f0b3df6a911093597be8"
+  },
+  {
+    "path": "projects/fleetroute/source/app/graph_store.py",
+    "bytes": 37699,
+    "sha256": "b16e91477795998b67803f6e5e3a373452e22256c7ef6b9c4e47d621f39b3a14"
+  },
+  {
+    "path": "projects/fleetroute/source/app/jobs.py",
+    "bytes": 52102,
+    "sha256": "7bb64d406264800e27e71557640eb3b4a3c46b23586cf8905e3756696873cc3c"
+  },
+  {
+    "path": "projects/fleetroute/source/app/main.py",
+    "bytes": 33879,
+    "sha256": "0269ef9b060b0ce66c4c5d1dc78876ab4afe2fab9c47f7e125081ae3f32705d1"
+  },
+  {
+    "path": "projects/fleetroute/source/app/offline_osm.py",
+    "bytes": 106171,
+    "sha256": "46814a0038467d8e0d93aa4cca21068b48fe1210b897723eeb258cab55e94eb7"
+  },
+  {
+    "path": "projects/fleetroute/source/app/static/app.js",
+    "bytes": 326342,
+    "sha256": "885408e59979bddc190c51d4bcae876586c3dc91638ec22d101060d9903ef13a"
+  },
+  {
+    "path": "projects/fleetroute/source/app/static/driver.css",
+    "bytes": 32071,
+    "sha256": "45f85abe888a40af4e65171d3707f494fb939dedc42f7d8f5905e0533449b551"
+  },
+  {
+    "path": "projects/fleetroute/source/app/static/driver.html",
+    "bytes": 8088,
+    "sha256": "ec602747a0eaf1480db89c43f1dbf486d72208d2bc26d972dc315b65d2ffa94d"
+  },
+  {
+    "path": "projects/fleetroute/source/app/static/driver.js",
+    "bytes": 33464,
+    "sha256": "8e3c5b311d4334664d70ac605a1f379f44b09105ef08412fff24b22928c59af2"
+  },
+  {
+    "path": "projects/fleetroute/source/app/static/index.html",
+    "bytes": 72254,
+    "sha256": "3d1a789653544e8da4bd07f3c5a07e161ffd1fcc4f13dbd6097cb4d326f5a1c9"
+  },
+  {
+    "path": "projects/fleetroute/source/app/static/simulation-status.css",
+    "bytes": 847,
+    "sha256": "cfebb75af4b8f62e1731e78c2662d668a42782dd4e3e6978c4327f66a1a060ec"
+  },
+  {
+    "path": "projects/fleetroute/source/app/static/simulation.css",
+    "bytes": 12091,
+    "sha256": "fdc6017b988e005bf302026a653d905ac86904bd293740c7ed5bfbec10a72434"
+  },
+  {
+    "path": "projects/fleetroute/source/app/static/simulation.html",
+    "bytes": 3363,
+    "sha256": "c3e637d473889ad02da796d8480564bdfd0ad06f30705c32c1f17f0188283435"
+  },
+  {
+    "path": "projects/fleetroute/source/app/static/simulation.js",
+    "bytes": 19127,
+    "sha256": "a3658f35288da191cd8b6002f8267b94eb5daf0cee6debb64fbbe182e7412049"
+  },
+  {
+    "path": "projects/fleetroute/source/app/static/styles.css",
+    "bytes": 220316,
+    "sha256": "4220502802df25b8fc6a3ff5be543811dfbe541c82c4bb5b12d08737bd52d65f"
+  },
+  {
+    "path": "projects/fleetroute/source/app/static/ui-utils.js",
+    "bytes": 2304,
+    "sha256": "1e6ba4d027c8603abcbe2c228fc794e9a7137ae03a3ec34c62c9637f826591e3"
+  },
+  {
+    "path": "projects/fleetroute/source/app/static/vendor/chart/LICENSE.md",
+    "bytes": 1093,
+    "sha256": "41a84aa2caba645f966a18d9c2056b73e6d3a81d80bc0046bc0011a2634d4cce"
+  },
+  {
+    "path": "projects/fleetroute/source/app/static/vendor/chart/chart.umd.js",
+    "bytes": 205615,
+    "sha256": "2812cb8825fdc57469eb2f7bb055e9429244e599920511ee477e828499b632cb"
+  },
+  {
+    "path": "projects/fleetroute/source/app/static/vendor/leaflet/LICENSE",
+    "bytes": 1395,
+    "sha256": "53e8dc25862014e4324741ca18fbe3611e11d42ef69f59f86ea8c5389647d4cb"
+  },
+  {
+    "path": "projects/fleetroute/source/app/static/vendor/leaflet/images/layers-2x.png",
+    "bytes": 1259,
+    "sha256": "066daca850d8ffbef007af00b06eac0015728dee279c51f3cb6c716df7c42edf"
+  },
+  {
+    "path": "projects/fleetroute/source/app/static/vendor/leaflet/images/layers.png",
+    "bytes": 696,
+    "sha256": "1dbbe9d028e292f36fcba8f8b3a28d5e8932754fc2215b9ac69e4cdecf5107c6"
+  },
+  {
+    "path": "projects/fleetroute/source/app/static/vendor/leaflet/images/marker-icon-2x.png",
+    "bytes": 2464,
+    "sha256": "00179c4c1ee830d3a108412ae0d294f55776cfeb085c60129a39aa6fc4ae2528"
+  },
+  {
+    "path": "projects/fleetroute/source/app/static/vendor/leaflet/images/marker-icon.png",
+    "bytes": 1466,
+    "sha256": "574c3a5cca85f4114085b6841596d62f00d7c892c7b03f28cbfa301deb1dc437"
+  },
+  {
+    "path": "projects/fleetroute/source/app/static/vendor/leaflet/images/marker-shadow.png",
+    "bytes": 618,
+    "sha256": "264f5c640339f042dd729062cfc04c17f8ea0f29882b538e3848ed8f10edb4da"
+  },
+  {
+    "path": "projects/fleetroute/source/app/static/vendor/leaflet/leaflet.css",
+    "bytes": 14806,
+    "sha256": "a7837102824184820dfa198d1ebcd109ff6d0ff9a2672a074b9a1b4d147d04c6"
+  },
+  {
+    "path": "projects/fleetroute/source/app/static/vendor/leaflet/leaflet.js",
+    "bytes": 147552,
+    "sha256": "db49d009c841f5ca34a888c96511ae936fd9f5533e90d8b2c4d57596f4e5641a"
+  },
+  {
+    "path": "projects/fleetroute/source/cluster.cpp",
+    "bytes": 118598,
+    "sha256": "a21a87a20916706189247767dbf75565bd9ae4fbe78c916487ff0ba934800f1f"
+  },
+  {
+    "path": "projects/fleetroute/source/launch_colab.py",
+    "bytes": 28272,
+    "sha256": "86728dd75739da0a5485e3e34cc7582f71c81ecbb446a0c923a9ccc26bf1643d"
+  },
+  {
+    "path": "projects/fleetroute/source/requirements-colab.txt",
+    "bytes": 218,
+    "sha256": "5aecdd411f46ac64033aa1fb9801c1aaa470cd2fb9651516e26941ffec3bf06b"
+  },
+  {
+    "path": "projects/fleetroute/source/requirements.txt",
+    "bytes": 218,
+    "sha256": "5aecdd411f46ac64033aa1fb9801c1aaa470cd2fb9651516e26941ffec3bf06b"
+  },
+  {
+    "path": "projects/fleetroute/source/sample_orders.csv",
+    "bytes": 288,
+    "sha256": "6548a55badda88858adddbc1ab1d5bc5a0ecf47d3191a12099b22b5ba6e51b6b"
+  },
+  {
+    "path": "projects/fleetroute/source/solver.cpp",
+    "bytes": 836988,
+    "sha256": "89619e5ed68f00e70f78d1633795db23becd02c158319d80dcc910b31c772e48"
+  },
+  {
+    "path": "projects/fleetroute/source/solver_provenance.json",
+    "bytes": 2125,
+    "sha256": "96a33e0bc81440cd697a2723043aa352865ca57c6af951ab7c397d5e8a8a84f9"
+  },
+  {
+    "path": "projects/fleetroute/source/start_local.py",
+    "bytes": 403,
+    "sha256": "76b57c14c76528dabf0146f0a80548a7bf9ba6fcb73d528e5f5dffb7874bd20b"
+  },
+  {
+    "path": "projects/fleetroute/source/tools/clustering_benchmark.py",
+    "bytes": 101147,
+    "sha256": "303cbfea4d0a99671bb48201c4d4e8375100d74a7d3a44769a70374edf364a40"
+  },
+  {
+    "path": "projects/fleetroute/source/tools/convergence_analyzer.py",
+    "bytes": 159269,
+    "sha256": "b2491f83984836a8a2d43d3c4e27a0d727d650f7fb2f315ea1d263261d78be72"
   },
   {
     "path": "projects/fleetroute/supplement/README.md",
@@ -206,8 +1191,8 @@
   },
   {
     "path": "projects/neural-training/README.md",
-    "bytes": 2583,
-    "sha256": "d6d3ae94a6bf87e662cf94c2da1b506f9cd7463155d78ccae53bd93924bbd3d7"
+    "bytes": 3802,
+    "sha256": "33fbd02abfd07e8c339a3bda241615e9fa44c0d15719b0effd48b070b6858892"
   },
   {
     "path": "projects/neural-training/evidence/submission_4.png",
@@ -230,6 +1215,56 @@
     "sha256": "775b760cb1ffd8c9f4c18617f7ed3d26927e7204d113cf5397277aff0055c419"
   },
   {
+    "path": "projects/neural-training/source/00_Supplement.pdf",
+    "bytes": 207526,
+    "sha256": "ed2f98a0955863861dde45415caa36fe1c1e17dedcb58774808d55e2727665e5"
+  },
+  {
+    "path": "projects/neural-training/source/README.txt",
+    "bytes": 1579,
+    "sha256": "9217ddf7bd5326b625a3862765871e9456366cdc234e3529f34cc0fff365955e"
+  },
+  {
+    "path": "projects/neural-training/source/evidence/01_final_confirmation_claims.json",
+    "bytes": 29480,
+    "sha256": "f51d97eec98e46fa7f8828a6cc72b4b7ef16776d27e9db34a007edd8160da0b0"
+  },
+  {
+    "path": "projects/neural-training/source/evidence/02_final_confirmation_notebook.ipynb",
+    "bytes": 290509,
+    "sha256": "c3e07f2ba27b94d92dbff8b902c2420fc582d1272090b3dd1e592fcbd495296d"
+  },
+  {
+    "path": "projects/neural-training/source/evidence/03_parent_pre_data_audit.md",
+    "bytes": 13700,
+    "sha256": "d5f6dcf2f23633d9dd3ea03bbbdb36eea029206cece98a52221c3d476d6802ca"
+  },
+  {
+    "path": "projects/neural-training/source/evidence/04_completion_pre_run_audit.md",
+    "bytes": 9146,
+    "sha256": "163207a376e4d4da9097a6fda5bbfd96f69169ce3a179b7c6928cdc935320d06"
+  },
+  {
+    "path": "projects/neural-training/source/evidence/05_prior_causal_abstraction_summary.json",
+    "bytes": 43670,
+    "sha256": "4d6cd332b348c1462828ceb486eabdcaa2c4f22d254e3bb65e006780a5b0c024"
+  },
+  {
+    "path": "projects/neural-training/source/evidence/06_evidence_lineage.json",
+    "bytes": 4038,
+    "sha256": "f2c0f162b574fd23efc4a34d6f016fa109f01d45bab56e5c24a52d233e4a611c"
+  },
+  {
+    "path": "projects/neural-training/source/evidence/07_final_run_receipt_excerpt.txt",
+    "bytes": 578,
+    "sha256": "31206a617a15f85c6dcfe956d7f947f4dcbc10b36e9a747236da91999747bd2d"
+  },
+  {
+    "path": "projects/neural-training/source/provenance_manifest.json",
+    "bytes": 1659,
+    "sha256": "ae14c5477f69af687b2f79672dcff625135c0fef1e72e0055075595cf2b75719"
+  },
+  {
     "path": "projects/neural-training/supplement.zip",
     "bytes": 287601,
     "sha256": "f0a669d9b189e6d296c47ea627601dcdca5c59204aee01668c0b68881a86d9b9"
@@ -241,8 +1276,8 @@
   },
   {
     "path": "projects/nsc-2026/README.md",
-    "bytes": 4900,
-    "sha256": "693c7fee551bb41a16c3f589d4756762ce50dc8cf86f3f558b49538099c22eb1"
+    "bytes": 4884,
+    "sha256": "1a0abfd9b3246ed33f70d4409282391b9c1546081d480473893f02ae492ca73e"
   },
   {
     "path": "projects/nsc-2026/evidence/finalist-presentation.mp4",
@@ -286,8 +1321,13 @@
   },
   {
     "path": "solvers/current/README.md",
-    "bytes": 1894,
-    "sha256": "9ea4611c59f212f63f1d0774a6348c5b969631a3dbf5ab051089a09a091fb7a0"
+    "bytes": 3295,
+    "sha256": "d066a9871d1061268cac06bea0e825d1ca17ab30e38de4e74c20513cce51847d"
+  },
+  {
+    "path": "solvers/current/examples/tiny-road.txt",
+    "bytes": 269,
+    "sha256": "2fcfce340af8a2f200f336ed0d5758a3cd0e77a41f1c48e93e979546a1dcfbc9"
   },
   {
     "path": "solvers/current/solver.cpp",

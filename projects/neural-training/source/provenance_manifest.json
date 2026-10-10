@@ -1,0 +1,50 @@
+{
+  "paper_title": "Reproducible Low-Dimensional Structure Can Fail a Causal-State Test in Neural Training",
+  "files": [
+    {
+      "file": "00_Supplement.pdf",
+      "bytes": 207526,
+      "sha256": "ed2f98a0955863861dde45415caa36fe1c1e17dedcb58774808d55e2727665e5"
+    },
+    {
+      "file": "README.txt",
+      "bytes": 1579,
+      "sha256": "9217ddf7bd5326b625a3862765871e9456366cdc234e3529f34cc0fff365955e"
+    },
+    {
+      "file": "evidence/01_final_confirmation_claims.json",
+      "bytes": 29480,
+      "sha256": "f51d97eec98e46fa7f8828a6cc72b4b7ef16776d27e9db34a007edd8160da0b0"
+    },
+    {
+      "file": "evidence/02_final_confirmation_notebook.ipynb",
+      "bytes": 290509,
+      "sha256": "c3e07f2ba27b94d92dbff8b902c2420fc582d1272090b3dd1e592fcbd495296d"
+    },
+    {
+      "file": "evidence/03_parent_pre_data_audit.md",
+      "bytes": 13700,
+      "sha256": "d5f6dcf2f23633d9dd3ea03bbbdb36eea029206cece98a52221c3d476d6802ca"
+    },
+    {
+      "file": "evidence/04_completion_pre_run_audit.md",
+      "bytes": 9146,
+      "sha256": "163207a376e4d4da9097a6fda5bbfd96f69169ce3a179b7c6928cdc935320d06"
+    },
+    {
+      "file": "evidence/05_prior_causal_abstraction_summary.json",
+      "bytes": 43670,
+      "sha256": "4d6cd332b348c1462828ceb486eabdcaa2c4f22d254e3bb65e006780a5b0c024"
+    },
+    {
+      "file": "evidence/06_evidence_lineage.json",
+      "bytes": 4038,
+      "sha256": "f2c0f162b574fd23efc4a34d6f016fa109f01d45bab56e5c24a52d233e4a611c"
+    },
+    {
+      "file": "evidence/07_final_run_receipt_excerpt.txt",
+      "bytes": 578,
+      "sha256": "31206a617a15f85c6dcfe956d7f947f4dcbc10b36e9a747236da91999747bd2d"
+    }
+  ]
+}

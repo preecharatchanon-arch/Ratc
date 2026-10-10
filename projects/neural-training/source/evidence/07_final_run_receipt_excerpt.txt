@@ -1,0 +1,10 @@
+Final Stage-6 confirmation-completion run receipt excerpt
+
+Protocol SHA-256: 89d065fb5d81d316667742c587edd1cdcf0b69c80a1e3a0a5adf9e4dafe434e1
+Parent Stage-6 result ZIP SHA-256: ce32e9d26899ddcb9b32669e9fe67bb730cc1972f243a0490562edc54b39c947
+Final completion result ZIP SHA-256: a017f8ed47b68bbff089d2b4bb823f469508340cbff3fd35f1667d0642ba2729
+Final confirmation cohort: 30 tasks (3100-3129)
+Sealed parent tasks preserved: 3100-3126
+Prospectively completed tasks: 3127-3129
+Final claims: H6-B = false; H6-W = false; H6-A = true
+No master vote; claims are logically independent.

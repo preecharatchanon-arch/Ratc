@@ -1,0 +1,79 @@
+{
+  "purpose": "Frozen evidence lineage for provenance and design history. Only the final Stage-6 fresh-cohort experiment is used for the main-paper inference.",
+  "canonical_evidence": [
+    {
+      "label": "NEXUS-I Stage 1A - nuisance dimension pilot",
+      "sha256": "70ebc7b33db2072f81a39d691badf545516a1178df5b175b4850a7fdc219e6d5",
+      "status": "negative",
+      "key_result": "No convincing interventional-state effect."
+    },
+    {
+      "label": "NEXUS-I Stage 1B - task-relevant dimension control",
+      "sha256": "1fa970c014625b457b4fa004788b12deb7238f5696d7cd6253ac558183f518a2",
+      "status": "negative control",
+      "key_result": "Reproducible d=1 geometry but poor/negative held-out predictive sufficiency."
+    },
+    {
+      "label": "NEXUS-I Stage 1C - objective-conflict pilot",
+      "sha256": "c99c7fe3fd7cb387d20bab5433661f42f1aada00399f4c0a61edca19a9250d44",
+      "status": "pilot only",
+      "key_result": "Promising effect size; inferential confirmation insufficient."
+    },
+    {
+      "label": "NEXUS-I Stage 2P - architecture preflight",
+      "sha256": "6bfe2f439a7398f029390ac2b4b0241420875830a725d3e374097cb99b42a442",
+      "status": "preflight only",
+      "key_result": "Common ResNet/ViT support established; no architecture-response transport claim."
+    },
+    {
+      "label": "NEXUS-I Stage 2Q - architecture preflight",
+      "sha256": "4d063d4387c31f0d6e1b44ffc6ca32d74ef961e81d131a8ffcdc4dda059e41ee",
+      "status": "preflight only",
+      "key_result": "Common ResNet/ViT support established; no architecture-response transport claim."
+    },
+    {
+      "label": "NEXUS-II RC11 Stage 01",
+      "sha256": "dacd0b5f34d8bf23c9a76fdfaf52ce8638f800a2e15bc498c45b855f0469530a",
+      "status": "frozen predecessor",
+      "key_result": "Discovery/preflight evidence; crosses documented adoption boundary before Stage 02."
+    },
+    {
+      "label": "NEXUS-II RC11 Stage 02",
+      "sha256": "dc420f00e1a7642d6e990a2e10a1f35ec8eb533b422e0ffbec0006b831bec41f",
+      "status": "frozen",
+      "key_result": "Receipt-chained predecessor of Stage 03."
+    },
+    {
+      "label": "NEXUS-II RC11 Stage 03",
+      "sha256": "d37eaef95943153ca3f3aca83d9b4ae1185c85d2df5b1e57d6df9ee469f3d14a",
+      "status": "frozen",
+      "key_result": "Receipt-chained predecessor of Stage 04."
+    },
+    {
+      "label": "NEXUS-II RC11 Stage 04 - pressure-emergence confirmation",
+      "sha256": "48d8219a5fa9734df5789c10b749df88539c78ab89fd8f3796c7173ec6b71680",
+      "status": "primary hypothesis failed",
+      "key_result": "Manipulation worked, but pressure did not cause predictive-state emergence; clean learning showed strongest state-like organization."
+    },
+    {
+      "label": "NEXUS-II Stage 05 RC12D - causal-abstraction confirmation",
+      "protocol_sha256": "54d2dd5eaf1937b2457c2e7748d2bec524a5db2ff9ed2f728f8a0d9fa53a5bf5",
+      "status": "H5 failed",
+      "key_result": "Function/isolation/locality/dimension/prediction/sufficiency passed; identifiability/controllability/transport/caused-contrast prediction failed."
+    },
+    {
+      "label": "NEXUS-II Stage 06 RC13B - predictive susceptibility decomposition parent",
+      "result_zip_sha256": "ce32e9d26899ddcb9b32669e9fe67bb730cc1972f243a0490562edc54b39c947",
+      "protocol_sha256": "e5568991066d679c1663fc3e5e3bbdd22e51e2cb7cea71a645c112e9526f66cb",
+      "status": "stopped before final claim evaluation",
+      "key_result": "Stopped prospectively on Q-support geometry failure at proposed task 3127; preserved as parent evidence."
+    },
+    {
+      "label": "NEXUS-II Stage 06 RC13C - final confirmation completion",
+      "protocol_sha256": "89d065fb5d81d316667742c587edd1cdcf0b69c80a1e3a0a5adf9e4dafe434e1",
+      "result_zip_sha256": "a017f8ed47b68bbff089d2b4bb823f469508340cbff3fd35f1667d0642ba2729",
+      "status": "final evaluable Stage-6 result",
+      "key_result": "Between-task phenotype false; within-task causal state false; optimizer anisotropy true. This is the main-paper evidence."
+    }
+  ]
+}

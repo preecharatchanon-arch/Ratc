@@ -1,0 +1,93 @@
+{
+  "version": "NEXUS-STAGE11-CAUSAL-CONTROL-REPLICATION-R1",
+  "config": {
+    "datasets": [
+      "CIFAR10",
+      "CIFAR100"
+    ],
+    "architectures": [
+      "ResNet18GN",
+      "ViTSmall"
+    ],
+    "models_per_cell": 4,
+    "total_steps_cifar10": 8000,
+    "total_steps_cifar100": 12000,
+    "cut_fractions": [
+      0.5,
+      1.0
+    ],
+    "donor_fraction": 0.7,
+    "batch_size": 128,
+    "calibration_n": 8192,
+    "first_batch_n": 256,
+    "fit_small_n": 128,
+    "fit_large_n": 512,
+    "independent_anchor_n": 512,
+    "response_n": 128,
+    "fit_small_probes": 64,
+    "fit_large_probes": 128,
+    "trace_probes": 128,
+    "max_rank": 64,
+    "intervention_ranks": [
+      8,
+      16,
+      64
+    ],
+    "primary_rank": 16,
+    "primary_horizon": 16,
+    "future_paths": [
+      0,
+      1
+    ],
+    "future_steps": 128,
+    "horizons": [
+      0,
+      1,
+      4,
+      16,
+      64,
+      128
+    ],
+    "relative_displacement": 0.002,
+    "lr": 0.0012,
+    "min_lr_fraction": 0.1,
+    "warmup_steps": 500,
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "eps": 1e-08,
+    "weight_decay": 0.01,
+    "gradient_clip": 1.0,
+    "future_effect_floor": 2e-05,
+    "session_hours": 8.0,
+    "bootstrap_draws": 10000,
+    "capture_budget_difference_max": 0.05,
+    "angle_budget_difference_max": 0.25,
+    "fd_error_max": 0.1
+  },
+  "primary_question": "Does a subspace with high independently measured immediate functional influence capture preserve causal effects after further training?",
+  "estimation": "Largest prespecified estimator is always used for interventions; smaller budgets are diagnostics, never outcome-selected. The local operator is J_centered_logits(theta_next) diag(d theta_next / d m_current) for the actual shared first update. Input norm is raw-moment Euclidean, output norm is centered logit RMS.",
+  "independent_sample_unit": "Reference training seed within dataset/architecture. Checkpoints, future paths, signs, ranks and branches are nested, not additional independent replications.",
+  "primary_report": "Late checkpoint, fixed rank16, horizon16, both baseline-relative signs and paired central effects, averaged over two future streams within each model. All other curves prespecified descriptive diagnostics. Four seeds per cell; no powered confirmatory p-values.",
+  "strict_small_rank": "Rank8 is the separately reported small-rank regime. Rank16 is inherited from the frozen discovery; rank64 never rescues an old rank8/16 claim.",
+  "threshold_context": "Earlier capture target0.8 and causal thresholds remain parent criteria. This extension reports continuous effects and descriptive intervals; it does not relabel a failed confirmation as a pass.",
+  "resolution": "Full centered-logit RMS below2e-5: retain raw outputs, mark ratios unresolved, do not drop the seed or substitute zero. Paired effects can be half the signed difference.",
+  "exclusions": "No post-outcome seed exclusion, hyperparameter search, rank selection, anchor selection or extra seeds. Instrument and learning diagnostics remain visible. Numerical/nonfinite implementation failures stop with a checkpoint.",
+  "learning_quality": "Diagnostic accuracy floors0.60(CIFAR10) and0.30(CIFAR100); not SOTA benchmarks. Low quality limits training-relevant conclusions, does not remove cases.",
+  "instrument": "Adjoint tolerance2e-5; finite-surgery relative error<=0.10 at displacement0.001 and0.002 of recipient m norm; budget capture difference<=0.05 and normalized chordal distance<=0.25 at primary rank. Flags are resolution checks, not guarantees of globally exact eigenvectors. Anchor-size stability is also reported with the same capture/distance tolerances; no unstable case is excluded.",
+  "future": "First step identical unaugmented withheld calibration batch across all branches and both paths. Subsequent steps use independent iid augmented training streams per path, shared within branches. Early LR continues schedule, late LR stays at schedule minimum. This estimates these specified futures, not arbitrary future-task sufficiency.",
+  "controls": "One unit historical recipient-minus-earlier-donor m direction; projections/remainders not renormalized. Actual future gradient-direction and tensor-norm-matched random controls both signs; eight independent tensor-matched random, sign shuffle, within-tensor permutation, current/preconditioned gradient comparisons at linear operator. Historical direction is not claimed naturally reachable at fixed theta/v/clock.",
+  "generalization": "CIFAR10 and CIFAR100, residual network and small transformer fully crossed, two training cuts each. These are established small vision benchmarks, not evidence for LLMs, large-scale pretraining or a new compression method.",
+  "uncertainty": "Independent trace probes have Monte Carlo error. Seed bootstrap intervals are descriptive with n=4; do not count paths/checkpoints as seeds or claim high-powered confirmation. Estimator fit is randomized and its Ritz values are not a complete/global spectrum.",
+  "workload": {
+    "reference_optimizer_updates": 160000,
+    "future_optimizer_updates": 155648,
+    "total_optimizer_updates": 315648,
+    "reference_models": 16,
+    "checkpoint_cases": 32,
+    "branches_per_case_per_path": 19,
+    "paths_per_case": 2
+  },
+  "storage": "Only CHECKPOINT.zip plus CHECKPOINT_PREVIOUS.zip and tiny identity/lease JSON on Drive. Local states saved every500 reference updates or16 future updates; Drive publish throttled15min plus first reference cut and completed model. Final verified ZIP removes checkpoint ZIPs. No datasets, full basis matrices or per-branch loose files on Drive. Final omits full neural/optimizer tensors but keeps raw responses, trace projections, Gram matrices, per-example predictions/NLL, source, seeds and hashes. Full neural replay requires rerunning frozen code; statistical audit alone cannot authenticate neural actions.",
+  "runtime": "A100 with>=35GiB required. Full GPU runtime is unbenchmarked; print actual per-model block timing and rough ETA. Eight-hour session budget forces a resumable stop; operator estimation may repeat after disconnection.",
+  "protocol_status": "Frozen in self-contained notebook before Stage11 real-data outcomes; no claim of formal public preregistration."
+}

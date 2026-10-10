@@ -1,0 +1,48 @@
+{
+  "version": "NEXUS-STAGE10-CONTROL-SPECTRUM-R1",
+  "paper_title_basis": "Testing Low-Rank Causal Control in AdamW Memory",
+  "paper_title_status": "recovered registration draft; submitted portal wording not independently checked",
+  "question": "Was the Stage07 small-subspace result limited by estimation/truncation, and does functional control concentrate on real-data checkpoints?",
+  "completed_parent": "30 Stage07 confirmation tasks; rank16 independent capture mean .3841, h16 remainder ratio mean .8416, H7_F true; H7_L/H7_A/H7_C/H7_M false",
+  "design": "8 fixed independently trained models: seeds10100..10103 each on MNIST MLP and CIFAR10 ConvGN; no pilot selection or seed deletion",
+  "primary_rank": 16,
+  "primary_future_horizon": 16,
+  "diagnostic_rank": 64,
+  "descriptive_rank_curve": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128
+  ],
+  "operator": "centered logits after the same first AdamW update, derivative with respect to previous exp_avg at fixed weights, exp_avg_sq, clock and input gradient; parameter-space Euclidean metric",
+  "spectrum": "explicit FP32-autodiff rows; double-precision Gram algebra. Exact refers to unsketched finite-anchor Jacobian, not infinite precision or global rank",
+  "anchors": "64 class-balanced held-out calibration images for fitting;64 disjoint calibration images for energy transfer; disjoint first gradient batch256. Independent test-response128 and remaining test evaluation",
+  "methods": "exact right subspace versus 24-output-probe, one-power-iteration estimator; separate held-out self-spectrum oracle only a diagnostic, never used for fitting interventions",
+  "history": "recipient exp_avg minus donor at70percent of reference training, normalized once; donor lag is not selected using responses",
+  "interventions": "common scale .002*norm(recipient m); full history, its fixed-rank16/rank64 projections, unnormalized orthogonal remainders, each sign, and unchanged baseline: 11 futures/model",
+  "future": "64 actual AdamW updates; common first calibration batch and deterministic shared later training/augmentation stream; horizons0,1,4,16,64; per-sign baseline effects and paired contrasts all reported",
+  "competency_and_instrument": "MNIST accuracy .85/CIFAR .40 quality diagnostics; finite difference error .10 diagnostic. Every seed retained; failed quality/instrument measurements limit interpretation, not sample selection",
+  "statistics": "four training seeds per dataset; descriptive seed-bootstrap intervals, not formal confirmation or independent image/coordinate replications. No selected best rank or retrospective alpha thresholds",
+  "controls": "8 tensor-norm-matched random directions, sign-shuffled history, within-tensor permutation, gradient, preconditioned gradient; control comparison uses linear held-out potency only",
+  "storage": "local tensors/Gram construction/dataset cache. Drive has only cumulative CHECKPOINT.zip + CHECKPOINT_PREVIOUS.zip and tiny identity/lease metadata. Milestones:trained cut,operator completion,model completion; wall-clock checkpoint no more often than15minutes between milestones. Final finished ZIP verified before deleting checkpoints. No per-branch/per-step Drive files",
+  "no_claims": [
+    "rescued Stage07 confirmation",
+    "universal/global low rank",
+    "natural training histories reachability",
+    "fully compressed optimizer state",
+    "architecture effect isolated from dataset effect",
+    "breakthrough guaranteed",
+    "new discovery that optimizer memory matters"
+  ],
+  "sources": [
+    "https://docs.pytorch.org/docs/2.14/generated/torch.func.jacrev.html",
+    "https://docs.pytorch.org/docs/2.14/generated/torch.func.functional_call.html",
+    "https://docs.pytorch.org/docs/2.14/generated/torch.optim.AdamW.html",
+    "https://arxiv.org/abs/2608.15976"
+  ],
+  "numerical_rank_cutoff": "Eigenvalues below1e-8 times the largest are excluded from inversion/basis construction; their energy remains in trace denominators and the saved spectrum. Actual rank is reported for every requested rank."
+}

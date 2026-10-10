@@ -1,0 +1,62 @@
+{
+  "CONVGN_VALIDATION.json": {
+    "bytes": 239,
+    "sha256": "72f44ada2466962aceae0553f43c90afd8d2cfde1b3d7ea368b388eae92ca3ee"
+  },
+  "CPU_INTEGRATION_VALIDATION.json": {
+    "bytes": 639,
+    "sha256": "ef16177a96a8fe80c3969a1d2ee7828acb77d7f93b1062618c7aea2a74b49159"
+  },
+  "NEXUS_III_STAGE10_CONTROL_SPECTRUM_REALDATA_R1.ipynb": {
+    "bytes": 52046,
+    "sha256": "687b8315b3b543a18ed4464d06c8f7bfe781a5aaa4e576e3f07d9b554e723b30"
+  },
+  "PARENT_EVIDENCE.json": {
+    "bytes": 12733,
+    "sha256": "6764db0ac798aec7d3a9512ae82e0ee81237709cdabb29f9e89727ed6e1bfa9a"
+  },
+  "PROTOCOL.json": {
+    "bytes": 4065,
+    "sha256": "a8c79149f9a6947440a06ebaeb5f3015259e75d511fb2a72997a7bf7ff6eea26"
+  },
+  "README.md": {
+    "bytes": 5418,
+    "sha256": "fb3fa4b2830e5a84d86e94c8e21c794eeb5c2c6fd26a6991bb598a13443af6d8"
+  },
+  "VALIDATION.json": {
+    "bytes": 1936,
+    "sha256": "1d9e9a57732a584f2968cb3487d567861f0396fba0eddc323fc9f9f707fb5a98"
+  },
+  "archive_io.py": {
+    "bytes": 6837,
+    "sha256": "c62e67fff5325f5a76577488ec2721749a9bf8d69c223fc0acb3ea7a5521dbc6"
+  },
+  "audit.py": {
+    "bytes": 6670,
+    "sha256": "83a032751ea55080919d7cab44a107c6abb1e2c350662f21301bb49fa3c1f3c2"
+  },
+  "build_notebook.py": {
+    "bytes": 7855,
+    "sha256": "0254bfdffe75daaacadde330312e1d8f5078365ca71d7e73d3feaeabce457452"
+  },
+  "control_math.py": {
+    "bytes": 3884,
+    "sha256": "cad42301ae82eae66a45ff2af641fa087d2e9a6be00eb81df4bc13d6f20c9b66"
+  },
+  "runner.py": {
+    "bytes": 34336,
+    "sha256": "4d4404303c88e8060d1c73e1af0fccdd2d3d6f0cec4d976d40de7b1448907ea1"
+  },
+  "test_cpu.py": {
+    "bytes": 4649,
+    "sha256": "a8218fc13a5014a15fbbcbccfab496504ac49babb390d5d7a3ba598372e7e2bd"
+  },
+  "test_math.py": {
+    "bytes": 1681,
+    "sha256": "9bd974bd1f1dfd16c3012029e306659d56f378fbdd56458af2a1220e9aa43f23"
+  },
+  "test_storage.py": {
+    "bytes": 2821,
+    "sha256": "f021ab379e13620f2125c31fcc0c2f9ce828646416abc7e103e86f4562891833"
+  }
+}

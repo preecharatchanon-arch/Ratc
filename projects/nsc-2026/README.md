@@ -42,4 +42,4 @@ The finalist report's common-metric comparison (PDF pages 59–61) records a tie
 
 Those are historical NSC results under the report's retained protocol. The [later IAAI tables and graphs](../fleetroute/README.md#benchmark-figures) use their own frozen inputs, source snapshots, evaluator and aggregation. They are separate experiments. The reports and video do not establish measured municipal deployment savings or isolate an operator's causal contribution to performance.
 
-An official finalist certificate or organiser result notice can be added separately when supplied; the report and video are project evidence.
+The reports and presentation provide the technical project evidence. Award certificates remain separate competition evidence.

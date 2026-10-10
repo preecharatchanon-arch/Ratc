@@ -1,0 +1,5 @@
+role,name,lat,lon,demand,service_minutes,earliest,latest
+depot,Main Distribution Center,7.8842,98.3891,0,0,00:00,23:59
+customer,Harbor Market,7.8950,98.4010,12,8,08:00,12:00
+customer,Old Town Pharmacy,7.8801,98.3778,6,5,09:00,16:00
+customer,Seaview Hotel,7.8690,98.3940,18,12,10:00,18:00

@@ -1,0 +1,31 @@
+{
+  "causal_baseline": {
+    "baseline_relative_gate": false,
+    "paired_gate": true,
+    "passed": true
+  },
+  "optimizer_operator": {
+    "adjoint_rel_error": 5.553920281356022e-07,
+    "finite_diff_rel_error": 0.0001912173320306465,
+    "manual_adamw_max_abs_diff": 7.450580596923828e-09
+  },
+  "passed": true,
+  "protocol_hash": "47a359c3dbe0eb69706054d8ad7f1469392666b4efbd006a24359a2fb28d882b",
+  "synthetic_rank": {
+    "exact_rank_1": {
+      "actual_capture": 0.9999999933738852
+    },
+    "exact_rank_12": {
+      "actual_capture": 1.0000000122269048
+    },
+    "exact_rank_4": {
+      "actual_capture": 1.0000000148407608
+    },
+    "top4_true_0.0625": {
+      "actual_capture": 0.06250000770043751
+    },
+    "top4_true_0.85": {
+      "actual_capture": 0.8499968934132682
+    }
+  }
+}

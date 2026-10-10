@@ -1,0 +1,377 @@
+{
+  "env_compat_hash": "408429a53e8c0dd58ea711e5b902f287ddaa91e85712f0cf9d431c5f58f39f32",
+  "files": [
+    {
+      "bytes": 589,
+      "path": "discovery/rep_4000_commit.json",
+      "sha256": "58abce4bc4ecca36f4cb006aca1452b14bca382cedae6337c1bff9f4522cbbc2"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4000_geometry.parquet",
+      "sha256": "f9779c678ad06e5cd5a65be0dba62e82c0f569bbba00c579bb91023968776819"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4000_temporal.parquet",
+      "sha256": "6bfda6fdc096abcb721a7123a08d08dfb3d3039b22fbbdf8c093d6cefd5edbf1"
+    },
+    {
+      "bytes": 590,
+      "path": "discovery/rep_4001_commit.json",
+      "sha256": "36ca1d4e860ac4a0a7ca8c7d6114e8021350e9a1b9c7b51de8ff7c62c7116d8f"
+    },
+    {
+      "bytes": 51558,
+      "path": "discovery/rep_4001_geometry.parquet",
+      "sha256": "316f026b29f9aa606ca2f71044173b873a2f34a3cd443fc18ec35ffc2a21b536"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4001_temporal.parquet",
+      "sha256": "0b57c5b04d6757bc182f4c48e8743f6e038188ee129ba9a8ca1c0bfd58688be2"
+    },
+    {
+      "bytes": 589,
+      "path": "discovery/rep_4002_commit.json",
+      "sha256": "ca33841a65c21c34e763dac1c83f44306ccccd617e334166a346d42aaf720e69"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4002_geometry.parquet",
+      "sha256": "bacb05481e3e37ef692afe3860e63b760ae53e8ee5fe1c09289e8af499936251"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4002_temporal.parquet",
+      "sha256": "fbc8a3203f1d9a1c4cd580c2bf8cb1e6e8c595cd4ba4d413a46f09f40136dcb1"
+    },
+    {
+      "bytes": 589,
+      "path": "discovery/rep_4003_commit.json",
+      "sha256": "47909343faa5b50ee1f90c20352dbdb222f412f4aed6f3607c5eef137073660e"
+    },
+    {
+      "bytes": 51556,
+      "path": "discovery/rep_4003_geometry.parquet",
+      "sha256": "d96cd618ca386ee9f029cb2785f701d6bad7b938aefceda9fb4b9f5db2629be9"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4003_temporal.parquet",
+      "sha256": "85a1d0b6df7dd933989fee8ddab62fe2a0b808792df7eae92384f7123e900f92"
+    },
+    {
+      "bytes": 590,
+      "path": "discovery/rep_4004_commit.json",
+      "sha256": "f72d9435fadb4e11b344d2c5354dce8f4ea3982247a745a260d4f7a0736ddc92"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4004_geometry.parquet",
+      "sha256": "9a1162a080492cfaf1457713cfb7a59740ebda36f9fbea0cda412da4fdef917c"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4004_temporal.parquet",
+      "sha256": "e24594945ecaf0f244b52d145b3b855bad4a63adcbafad6032afbc65ac682651"
+    },
+    {
+      "bytes": 589,
+      "path": "discovery/rep_4005_commit.json",
+      "sha256": "11258f70d6dcf2ad6b583f04906d5a3fe05081ac7fc13f40b9b34226c85a75ae"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4005_geometry.parquet",
+      "sha256": "8a1493c12513897ede05b2bbbf3d7018cf9fbeacaa5ce16be62e7cbea564c18c"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4005_temporal.parquet",
+      "sha256": "559e807cea33aca851eff05c468ba3dc6072480f841a9b11adf84201422d3324"
+    },
+    {
+      "bytes": 588,
+      "path": "discovery/rep_4006_commit.json",
+      "sha256": "3cc3046bf4ff4d1ec9d0d7472d153fc522498d0d321c3ecacbf22860d61bfc02"
+    },
+    {
+      "bytes": 51558,
+      "path": "discovery/rep_4006_geometry.parquet",
+      "sha256": "06c994ebedffcfe68b420d398e8853fd3df3f62c884b6e12bf4feddbb1dcf924"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4006_temporal.parquet",
+      "sha256": "9ec8bac5984dbe804e279219fc780d80d582561b3cd133344ab67a6326125a5b"
+    },
+    {
+      "bytes": 590,
+      "path": "discovery/rep_4007_commit.json",
+      "sha256": "d7e02e55cf69b27c0ee904007a77d49e7e8034833dac576d99c3f2cef8560edf"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4007_geometry.parquet",
+      "sha256": "a22946155b921a86f515b7dc954abdb401f92809e96c7258ae7cbc9ad5d25e92"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4007_temporal.parquet",
+      "sha256": "a6b2620ff7e487ccc0abec7c49f3c7e1ac74e36684171c54c0c8f449230c0ae5"
+    },
+    {
+      "bytes": 588,
+      "path": "discovery/rep_4008_commit.json",
+      "sha256": "33d104a7548b4b770b48688ad2367309cab88f1642c52597f6a71e7aee665621"
+    },
+    {
+      "bytes": 51560,
+      "path": "discovery/rep_4008_geometry.parquet",
+      "sha256": "fd0bfbddb7c7731cf614f40ef5603b3355df0cd18dfcbb8be56fa8d84064f67b"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4008_temporal.parquet",
+      "sha256": "d09b506fc2af538a3b2d4607bb44091308d9eda9430207f9840cde978dd4a25d"
+    },
+    {
+      "bytes": 589,
+      "path": "discovery/rep_4009_commit.json",
+      "sha256": "a5a4e9a92fb875ca1b670bc769f0e93e53a3c6cb251e9fc07b8153d03d548665"
+    },
+    {
+      "bytes": 51558,
+      "path": "discovery/rep_4009_geometry.parquet",
+      "sha256": "45e5b4ce9e2263f9abf091ce56bc9a8b15be0a1a2679fe9cfb0a95b76f900b32"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4009_temporal.parquet",
+      "sha256": "768463b672411df8254ce591b2961dc80ae3ac159e292ff01311b74530d578a7"
+    },
+    {
+      "bytes": 589,
+      "path": "discovery/rep_4010_commit.json",
+      "sha256": "73fc6660dd6e700f1944c078421af9068fe32451dc82b61bc1c93811c2507f6f"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4010_geometry.parquet",
+      "sha256": "7c597e31f95d72b6a2338c77073afec16a428a44251c8054749f694c9da613df"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4010_temporal.parquet",
+      "sha256": "5418c6a4472a06c36b739bd4b847fdd9f7f832c25bf0cbf947468a3892190198"
+    },
+    {
+      "bytes": 590,
+      "path": "discovery/rep_4011_commit.json",
+      "sha256": "9c43611fe3565673a7e2d65a5ae41c96aa9c59dba51588ee1b273fa046751752"
+    },
+    {
+      "bytes": 51560,
+      "path": "discovery/rep_4011_geometry.parquet",
+      "sha256": "123954fd574fe84f69a137dffc9039b59d4db7db90301c73221f1e93b178abd7"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4011_temporal.parquet",
+      "sha256": "c150849865e371f309c1f94f21332e067f434cb7593cacb121bb66a8ea13fd5a"
+    },
+    {
+      "bytes": 589,
+      "path": "discovery/rep_4012_commit.json",
+      "sha256": "f146f5d1c76d378e25780a4867430a9d746d42ca830376e62c34a952cb4bb762"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4012_geometry.parquet",
+      "sha256": "9fdd5b14332dec19dba6a21458e13600e204d49ef5e872e6b035fd939ce67a9a"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4012_temporal.parquet",
+      "sha256": "2a8901ea0e62f1a6828149dda2ecf57369d0e001773b837a5ece0800e8391c7e"
+    },
+    {
+      "bytes": 590,
+      "path": "discovery/rep_4013_commit.json",
+      "sha256": "17a9d06ae3c15719f4507d21215540c233f8f3a30ca9caf01f96e03d4d0a24c6"
+    },
+    {
+      "bytes": 51558,
+      "path": "discovery/rep_4013_geometry.parquet",
+      "sha256": "216416bfb8b4bac0f7283fc9f3f66cdb524ef0c284c6a4378d489c9f30e8af9f"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4013_temporal.parquet",
+      "sha256": "31b91204f956f0152723e24a7bcd537a26fee0a95216bb440d643da25fd34773"
+    },
+    {
+      "bytes": 589,
+      "path": "discovery/rep_4014_commit.json",
+      "sha256": "1e09fb2318fa68c095591e9310dc422d4191d6c300f217a4b30662aac3fc647e"
+    },
+    {
+      "bytes": 51558,
+      "path": "discovery/rep_4014_geometry.parquet",
+      "sha256": "4bde4f7b06e7daef565e884385f3cefd5d34ea358c4d260cac798ac65832dafa"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4014_temporal.parquet",
+      "sha256": "5588e2370cef16a90285dc8814d999e1ad2556e20ac6e45298eabe48ef60e775"
+    },
+    {
+      "bytes": 590,
+      "path": "discovery/rep_4015_commit.json",
+      "sha256": "3bcb64c8879b95556cb966a196e659ae60878d75e2388e0ba143e7d27af09049"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4015_geometry.parquet",
+      "sha256": "5a95c242069b25000265e508d77794a3603cb60e57a9cc43b4b5227f47f599e9"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4015_temporal.parquet",
+      "sha256": "5076728d3d1cc8d3af3e715b76a7bc1f11616e1a24d3a35d1b022a39ce5717c7"
+    },
+    {
+      "bytes": 589,
+      "path": "discovery/rep_4016_commit.json",
+      "sha256": "93a8f566b59511e4f73e672c4ca09fa930ecc14e0fd4b0522543c24ba5241a8e"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4016_geometry.parquet",
+      "sha256": "6e6628544d536de4a3019209fb6ac3faa13336ce98425587b75f2da67e1033ce"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4016_temporal.parquet",
+      "sha256": "0c6b64502562c69ad010cd9a561b054a259977da8fa07e8b1949b7e6e4e8c110"
+    },
+    {
+      "bytes": 590,
+      "path": "discovery/rep_4017_commit.json",
+      "sha256": "85f9f65ff3c311ab9d0f07fe65c49f10fa91dd2f4da735faeb891412b2286095"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4017_geometry.parquet",
+      "sha256": "1f08449174eaa69238d326ec29784c0681e4c87576e25b3120e36b265b2987cb"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4017_temporal.parquet",
+      "sha256": "04ca9bf938ec58a7482fbf5f0cff20cef096edf84e79449c85d42de6d79848c5"
+    },
+    {
+      "bytes": 589,
+      "path": "discovery/rep_4018_commit.json",
+      "sha256": "f26da93a2cff417a8ba6af43334fcbbf73767d2760878441504a14959bf43d8b"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4018_geometry.parquet",
+      "sha256": "9a268b5342fdc7e043b23c02a4f8dce493a90af2118170f042777c5d1817efcd"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4018_temporal.parquet",
+      "sha256": "488d83227f873d2cc7d9ee6835471d65d53d58e9e86e6841331d4845bb0c9a41"
+    },
+    {
+      "bytes": 589,
+      "path": "discovery/rep_4019_commit.json",
+      "sha256": "8e1782b348c1b5226a2ee52c97c5f29e147c48e69c4375d856609d3f576b4c8f"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4019_geometry.parquet",
+      "sha256": "a2072753486a2b44df724b648420120239d492488f57158f9ccb2a94836f4b2c"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4019_temporal.parquet",
+      "sha256": "3921894509dd0e0596b7da4d814473325d35a127b46de7d11af8f8ea28ffa0f4"
+    },
+    {
+      "bytes": 2515,
+      "path": "discovery/stage07_discovery_analysis.json",
+      "sha256": "97fcd8a5ff38f1788f54200cb253a722f35f39456fd3d1cdc1c59ad06e96d5ab"
+    },
+    {
+      "bytes": 62110,
+      "path": "discovery/stage07_discovery_summary.parquet",
+      "sha256": "c436a9b0f7d084ab0cf959e34b0f19d8a296580772bffcd773f5fa544e76977e"
+    },
+    {
+      "bytes": 6962,
+      "path": "discovery/stage07_discovery_temporal.parquet",
+      "sha256": "b40c90fcc53ed67e5b531ab58a55aa4c9e4f7d25447cec1dc68b1f752d01ccbd"
+    },
+    {
+      "bytes": 4217,
+      "path": "locks/stage07_discovery_lock.json",
+      "sha256": "696f7f0a450912dc5150ee21f47ed4490c0378b6f02d21b3e8d0f2b027baac37"
+    },
+    {
+      "bytes": 345,
+      "path": "manifests/campaign_identity.json",
+      "sha256": "05f83a244250c9031118e2c3cc24cd4db413dba5fe954d75dbd420f88ec5b260"
+    },
+    {
+      "bytes": 2352,
+      "path": "manifests/core_config.json",
+      "sha256": "c55299921c8b3a4bdb1633a5d77ca5f2f979cd02aa2dcd06c3c5f28fa75d6bac"
+    },
+    {
+      "bytes": 510,
+      "path": "manifests/environment.json",
+      "sha256": "680f9f0d9fab710bd6d28cd50b63d592021ed9ba415c509778e590e6ef9c4515"
+    },
+    {
+      "bytes": 66,
+      "path": "manifests/implementation_revision.json",
+      "sha256": "c88773d58ed3fcdc5aff6012ae1772cbb4897403e558ebe21255ca598ba33433"
+    },
+    {
+      "bytes": 1098,
+      "path": "manifests/parent_evidence.json",
+      "sha256": "165bbf44acec81e8eede69de59f8f4b39b6db594876b8c6bdaa38bad2e74aae0"
+    },
+    {
+      "bytes": 3144,
+      "path": "manifests/preregistered_analysis.json",
+      "sha256": "3459b1df486032f7a5d5341fa42d52c520d898eedc57a27056ea03efd45ff4f6"
+    },
+    {
+      "bytes": 8232,
+      "path": "manifests/protocol_payload.json",
+      "sha256": "1fdd81253117bdc62520dd1674ab9f811a0984a652e7f9a75f4fcdb6fc121dc0"
+    },
+    {
+      "bytes": 2355,
+      "path": "manifests/scientific_code_identity.json",
+      "sha256": "8633d63371f25ba0eaa2b9c50fe54c35ac3ba4d41a1f9f269a2972e5d6d56de0"
+    },
+    {
+      "bytes": 1129,
+      "path": "manifests/stage07_discovery_workload_contract.json",
+      "sha256": "228264e2ef00ce49614c9e5cfbac7e2985330faee1fa0803161fff923fe12802"
+    },
+    {
+      "bytes": 796,
+      "path": "manifests/zero_hour_integrity.json",
+      "sha256": "23816ed399fc5856d244e7d0a467410b1160367ec289d0ede14ce3553f1e091f"
+    }
+  ],
+  "protocol_hash": "47a359c3dbe0eb69706054d8ad7f1469392666b4efbd006a24359a2fb28d882b",
+  "scientific_code_hash": "f2be5752e4f0332cac9c3cfeca6b98b39a5a610f6eea99f98818fbd05345779c"
+}

@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "backend": "CPU",
+  "torch": "2.14.1+cpu",
+  "torchvision": "0.29.1+cpu",
+  "real_backbones": {
+    "ResNet18GN": {
+      "parameters": 2797610,
+      "adjoint_relative_error": 1.9125233814705604e-10,
+      "serialized_continuation_exact": true
+    },
+    "ViTSmall": {
+      "parameters": 2250058,
+      "adjoint_relative_error": 5.823354365347505e-09,
+      "serialized_continuation_exact": true
+    }
+  },
+  "known_operator": {
+    "known_right_subspace_minimum_principal_cosine": 0.9999998644311373,
+    "full_capture": 0.9999999102753648,
+    "ritz_spectrum_matches_prescribed": true
+  },
+  "adamw_derivative": {
+    "double_precision_first_moment_derivative_relative_error": 1.6459264655184304e-10,
+    "clipped_gradient_and_weight_decay_included": true
+  },
+  "integration": {
+    "actual_training_geometry_19_branches_two_paths_two_cuts": true,
+    "mid_branch_resume_exactly_matches_uninterrupted": true,
+    "committed_geometry_resumed_without_refit": true,
+    "completed_campaign_no_training_replay": true,
+    "saved_data_tampering_rejected": true,
+    "changed_identity_rejected": true,
+    "changed_dataset_rejected_before_training": true,
+    "final_excludes_pt_and_prunes_verified_checkpoints": true,
+    "scope": "Small synthetic RGB engineering fixture with an injected tiny network; not real CIFAR evidence."
+  },
+  "seconds": 35.42379275799976
+}

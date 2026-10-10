@@ -1,0 +1,65 @@
+{
+  "beta1": 0.9,
+  "beta2": 0.999,
+  "checkpoint_train_interval": 1000,
+  "cut_floor_cifar10": 0.6,
+  "cut_floor_cifar100": 0.25,
+  "dataset_sign_alpha": 0.025,
+  "datasets": [
+    "CIFAR10",
+    "CIFAR100"
+  ],
+  "derivative_error_max": 0.15,
+  "donor_step": 5600,
+  "eps": 1e-08,
+  "first_n": 128,
+  "fit_horizon": 16,
+  "fit_sizes": [
+    256
+  ],
+  "future_batch": 128,
+  "future_lr": 0.00012,
+  "future_steps": 64,
+  "heldout_n": 256,
+  "hessian_cache_gib": 12.0,
+  "hessian_microbatch": 32,
+  "horizons": [
+    0,
+    1,
+    4,
+    16,
+    64
+  ],
+  "lr": 0.001,
+  "max_baseline_accuracy_drop": 0.02,
+  "max_baseline_nll_increase": 0.1,
+  "quality_columns": 192,
+  "quality_energy_tolerance": 0.1,
+  "quality_response_tolerance": 0.15,
+  "quality_seed_count": 2,
+  "ranks": [
+    16,
+    64
+  ],
+  "relative_displacement": 0.002,
+  "resolution_floor": 2e-05,
+  "response_n": 128,
+  "seeds": [
+    14000,
+    14001,
+    14002,
+    14003,
+    14004,
+    14005,
+    14006,
+    14007
+  ],
+  "sketch_columns": 128,
+  "sketch_power": 1,
+  "trace_probes": 128,
+  "train_batch": 128,
+  "train_steps": 8000,
+  "transfer_margin": 0.05,
+  "weight_decay": 0.0005,
+  "width": 32
+}

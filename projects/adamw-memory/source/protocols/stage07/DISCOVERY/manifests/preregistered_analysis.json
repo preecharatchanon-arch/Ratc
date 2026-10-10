@@ -1,0 +1,15 @@
+{
+  "cohort_independence": "Discovery locks task-identity hashes only (not outcomes). Confirmation must have unique task hashes and zero overlap with frozen discovery task hashes before claims are evaluated.",
+  "confirmation_firewall": "Confirmation notebook may read only the cryptographically frozen discovery lock (selected rank, protocol/code/environment identities and preregistered selection diagnostics), never discovery raw response vectors when fitting confirmation quantities.",
+  "headline_claims": {
+    "H7_A": "History alignment/privilege: the historical recipient-minus-donor exp_avg direction aligns with and is more potent in the high-gain subspace than tensor-norm-matched random, sign-shuffled, and within-tensor-permuted controls. Current-gradient and preconditioned-gradient directions are frozen mechanistic comparators reported separately.",
+    "H7_C": "Finite causal sufficiency: at the identical m1 surgery scale, P_U h preserves most h=16 functional effect while (I-P_U)h contributes little. The original paired-response gates AND the same retention/cosine/remainder/additivity gates for EACH signed effect relative to an unchanged-optimizer continuation must all pass. All seven endpoint branches use identical snapshots, batches and RNG. No even-response component is assumed negligible.",
+    "H7_F": "Fresh-system foundation: the frozen clean-learning population remains competent and every confirmation finite history surgery is local and function-preserving, with nontrivial one-step and h=16 full effects. The paired and both baseline-relative signed full effects must each have RMSE at least 2e-5 in research mode.",
+    "H7_L": "Transferred low-rank control: a discovery-frozen rank k<=8 captures most Frobenius control energy on an independent output anchor, not merely the anchor used to estimate the subspace."
+  },
+  "no_rescue": "No post-confirmation threshold, rank, control panel, cohort, timepoint, or endpoint changes are permitted.",
+  "operator": "J_t maps an infinitesimal perturbation of AdamW exp_avg at fixed model parameters to centered logits after one common next AdamW update. The right control subspace is estimated on a calibration anchor without using historical m1, with one normalized and reorthogonalized J^T J subspace iteration and relative basis tolerance 1e-6; rank capture is selected and confirmed on an independent evaluation anchor under the same physical update.",
+  "rank_selection": "On discovery only, choose the smallest candidate k whose mean independent-anchor control-energy capture is >=0.80 and bootstrap 95% lower bound >=0.70. If none qualifies, freeze the largest candidate and mark discovery low-rank prequalification false; confirmation still runs unchanged.",
+  "scientific_question": "Does clean neural learning organize hidden AdamW first-moment memory into a genuinely low-rank, high-gain causal-control geometry that is distinct from predictive low-dimensional summaries?",
+  "strong_claim": "H7_M = H7_F AND H7_L AND H7_A AND H7_C. Temporal measurements and gradient/preconditioned-gradient comparators are reported separately and cannot rescue H7_M."
+}

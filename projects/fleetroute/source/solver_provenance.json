@@ -1,0 +1,26 @@
+{
+  "release_channel": "production",
+  "optimizer_generation": "Production routing engine",
+  "retained_reference_source_sha256": "2615c80d7dc53f5b666f353671521e7d825cd10a1eebb22009f68f96ab1ef584",
+  "integrated_solver_source_sha256": "89619e5ed68f00e70f78d1633795db23becd02c158319d80dcc910b31c772e48",
+  "production_compile_flags": [
+    "-O3",
+    "-DNDEBUG",
+    "-std=c++17",
+    "-pthread"
+  ],
+  "core_engine_contract": "The phase-specialized search remains the optimizer core; the application owns operational semantics, validation, lifecycle, and evidence.",
+  "integration_adaptations": [
+    "static directed-road edge-speed travel-time semantics aligned with FleetRoute dataset and independent validator",
+    "hybrid objective aligned to distance_m + 0.25 * route_duration_s",
+    "hard-feasible cluster warm-start acceptance/receipt path preserved for app-provided clustering",
+    "structured SolverConfig, ClusterWarmStartReceipt, and SavingsWarmStart operational receipts",
+    "bounded/sampled convergence telemetry with process-wide monotone global_best_obj and stream_id",
+    "validated greedy/compact-fill/savings live-incumbent evidence added without mutating the solver governor or search state",
+    "road-mode reverse edge incidence cached once per static graph instead of rebuilt for every source Dijkstra; pair costs remain identical",
+    "structured BackendPrep progress receipts expose dense pair preprocessing without changing optimization state or governed search timing",
+    "warm-start evidence lines are emitted on their own stderr lines for unambiguous live parsing; search behavior is unchanged"
+  ],
+  "legacy_policy_injection": false,
+  "notes": "The app does not claim mathematical optimality. Native global-best states are hard-feasibility validated before publication; the app retains an independent final commit certificate and transactional stale-input/evidence gates. Native preparation and governed search use separate watchdog clocks. Routing-context caches and route publication are objective-specific even when the materialized graph is reusable across objective changes."
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "actual_convgn_jacrev_and_functional_call": true,
+  "fd_relative_error": 8.445101202759524e-10,
+  "parameter_count": 72954,
+  "seconds": 0.12238213700038614,
+  "backend": "CPU double",
+  "real_data_execution": false
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "torch": "2.14.1+cpu",
+  "torchvision": "0.29.1+cpu",
+  "backend": "CPU",
+  "scope": "synthetic engineering fixture only; no real MNIST/CIFAR outcomes",
+  "seconds": 2.854412758000308,
+  "checks": {
+    "actual_training_operator_11_futures_independent_audit": true,
+    "disconnect_after_operator_resume_without_jacobian_replay": true,
+    "low_numerical_rank_retained_instead_of_aborted": true,
+    "final_no_pt_and_checkpoint_pruned_after_verification": true,
+    "completed_campaign_resume_skips_training": true,
+    "independent_audit_rejects_tampering": true,
+    "changed_campaign_identity_rejected": true
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "actual_cpu_integration": {
+    "passed": true,
+    "torch": "2.14.1+cpu",
+    "torchvision": "0.29.1+cpu",
+    "backend": "CPU",
+    "scope": "synthetic engineering fixture only; no real MNIST/CIFAR outcomes",
+    "seconds": 2.854412758000308,
+    "checks": {
+      "actual_training_operator_11_futures_independent_audit": true,
+      "disconnect_after_operator_resume_without_jacobian_replay": true,
+      "low_numerical_rank_retained_instead_of_aborted": true,
+      "final_no_pt_and_checkpoint_pruned_after_verification": true,
+      "completed_campaign_resume_skips_training": true,
+      "independent_audit_rejects_tampering": true,
+      "changed_campaign_identity_rejected": true
+    }
+  },
+  "actual_convgn_check": {
+    "passed": true,
+    "actual_convgn_jacrev_and_functional_call": true,
+    "fd_relative_error": 8.445101202759524e-10,
+    "parameter_count": 72954,
+    "seconds": 0.12238213700038614,
+    "backend": "CPU double",
+    "real_data_execution": false
+  },
+  "storage_tests_passed": 6,
+  "storage_checks": [
+    "two_generations_and_throttle",
+    "failed_publish_preserves_current",
+    "concurrent_session_rejected",
+    "unsafe_archive_rejected",
+    "final_prunes_only_after_verification",
+    "payload_tampering_rejected"
+  ],
+  "real_data_gpu_execution": false,
+  "source_sha256": {
+    "audit.py": "83a032751ea55080919d7cab44a107c6abb1e2c350662f21301bb49fa3c1f3c2",
+    "test_math.py": "9bd974bd1f1dfd16c3012029e306659d56f378fbdd56458af2a1220e9aa43f23",
+    "test_storage.py": "f021ab379e13620f2125c31fcc0c2f9ce828646416abc7e103e86f4562891833",
+    "runner.py": "4d4404303c88e8060d1c73e1af0fccdd2d3d6f0cec4d976d40de7b1448907ea1",
+    "control_math.py": "cad42301ae82eae66a45ff2af641fa087d2e9a6be00eb81df4bc13d6f20c9b66",
+    "archive_io.py": "c62e67fff5325f5a76577488ec2721749a9bf8d69c223fc0acb3ea7a5521dbc6",
+    "test_cpu.py": "a8218fc13a5014a15fbbcbccfab496504ac49babb390d5d7a3ba598372e7e2bd"
+  }
+}

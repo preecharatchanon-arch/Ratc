@@ -6,6 +6,18 @@ Research and engineering by **Ratchanon Preecha**. This repository brings togeth
 
 **Start with:** [Current solver](solvers/current/README.md) · [FleetRoute paper](projects/fleetroute/paper.pdf) · [Benchmark data](projects/fleetroute/tables) · [Neural training paper](projects/neural-training/paper.pdf) · [AdamW manuscript](projects/adamw-memory/paper.pdf)
 
+## Review the code and run examples
+
+| Work | Code you can read here | Run or verify |
+| --- | --- | --- |
+| C++17 solver | [Current source](solvers/current/solver.cpp), [V31](solvers/v31/solver.cpp), [Legacy](solvers/legacy/solver.cpp) | [Compile and run a small directed-road example](solvers/current/README.md#build-and-run) |
+| FleetRoute | [Application source](projects/fleetroute/source), [routing backend](projects/fleetroute/source/app/engine.py), [road-data processing](projects/fleetroute/source/app/offline_osm.py), [interface](projects/fleetroute/source/app/static) | [Two-cell Colab launch and frozen-result checks](projects/fleetroute/README.md#run-and-inspect) |
+| Neural training | [Final confirmation notebook](projects/neural-training/source/evidence/02_final_confirmation_notebook.ipynb), [final claims](projects/neural-training/source/evidence/01_final_confirmation_claims.json) | [Execution requirements and evidence scope](projects/neural-training/README.md#code-and-execution-scope) |
+| AdamW memory | [Original protocols](projects/adamw-memory/source/protocols), [CPU analysis scripts](projects/adamw-memory/source/scripts) | [Recompute retained results on CPU](projects/adamw-memory/README.md#code-and-cpu-verification) |
+| Audio FFT | [One-cell notebook](projects/audio-fft/audio_fft_analysis.ipynb), [analysis functions](projects/audio-fft/original_prototype.py), [local runner](projects/audio-fft/run_analysis.py) | [Upload any two recordings; display and save all 15 plots](projects/audio-fft/README.md#run-the-project) |
+
+The visible source copies are extracted unchanged from the supplied research packages. The original archives remain available for the data and frozen experiment context. Each project page states what can be run independently and what requires historical inputs or a GPU.
+
 ## Explore the work
 
 | Project | Focus | Evidence |
@@ -57,6 +69,7 @@ This restores the exact original FleetRoute and AdamW ZIP archives locally. It c
 
 ## Rights
 
-This code is PROPRIETARY. You may view the source code for educational purposes, but you are NOT authorized to copy, modify, or distribute it without explicit permission.
+This code remains proprietary. Reviewers may download it and run the documented commands for academic evaluation. Other copying, modification, redistribution or commercial use requires the author's permission.
 
 Third-party datasets and map data retain their own rights and attribution requirements; see the [data notice](projects/fleetroute/THIRD_PARTY_DATA_NOTICE.md). Hosting an artifact here does not grant a new license to its code or data.
+

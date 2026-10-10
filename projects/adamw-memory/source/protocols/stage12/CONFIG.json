@@ -1,0 +1,54 @@
+{
+  "accuracy_floor_cifar": 0.4,
+  "accuracy_floor_mnist": 0.85,
+  "batch_size": 128,
+  "beta1": 0.9,
+  "beta2": 0.999,
+  "bootstrap_draws": 5000,
+  "calibration_n": 4096,
+  "clone_tolerance": 0.0,
+  "datasets": [
+    "MNIST",
+    "CIFAR10"
+  ],
+  "derivative_error_max": 0.15,
+  "diagnostic_rank": 64,
+  "donor_fraction": 0.7,
+  "eps": 1e-08,
+  "first_probe_batch": 256,
+  "fit_anchor_n": 64,
+  "fit_horizon": 16,
+  "future_paths": [
+    0,
+    1
+  ],
+  "future_steps": 64,
+  "heldout_anchor_n": 64,
+  "horizons": [
+    0,
+    1,
+    4,
+    16,
+    64
+  ],
+  "jac_fd_error_max": 0.1,
+  "jac_image_chunk": 4,
+  "jac_output_chunk": 4,
+  "lr": 0.0012,
+  "manual_step_abs_tolerance": 2e-06,
+  "primary_rank": 16,
+  "relative_displacement": 0.002,
+  "resolution_floor": 2e-05,
+  "response_n": 128,
+  "seeds": [
+    10100,
+    10101,
+    10102,
+    10103
+  ],
+  "session_hours": 6.0,
+  "trace_probes": 128,
+  "train_steps_cifar": 2000,
+  "train_steps_mnist": 1000,
+  "weight_decay": 0.0001
+}

@@ -1,0 +1,14 @@
+{
+  "prior_stage": "Stage12",
+  "prior_dataset": "CIFAR10",
+  "prior_model_parameters": 72954,
+  "seeds": [
+    10100,
+    10101,
+    10102,
+    10103
+  ],
+  "h16_rank16_path0_mean_error_improvement": 0.53561,
+  "h16_rank16_path1_mean_error_improvement": 0.439594,
+  "limitation": "Poor horizon64 fidelity and negligible endpoint accuracy/NLL changes. No prior training states or embedded data in this package."
+}

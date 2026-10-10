@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+<meta content="#071725" name="theme-color"/>
+<title>FleetRoute · Driver Manifest</title>
+
+
+
+<link href="/static/vendor/leaflet/leaflet.css?build=700-ui-lux-polish" rel="stylesheet"/>
+<link href="/static/driver.css?build=700-ui-lux-polish" rel="stylesheet"/>
+</head>
+<body>
+<header class="topbar">
+<a class="brand" href="/" id="dispatcherLink">
+<span class="brand-emblem">FR</span>
+<span class="brand-copy"><b>FleetRoute</b><small>DRIVER MANIFEST</small></span>
+</a>
+<div class="topbar-actions">
+<button class="connection-badge connecting" id="connectionBadge" title="Refresh connection" type="button"><i></i><span>Connecting</span></button>
+
+</div>
+</header>
+<main class="driver-app">
+<section class="route-command">
+<div class="route-title-block">
+<p class="eyebrow">PUBLISHED DRIVER PLAN</p>
+<h1 id="driverTitle">Truck —</h1>
+<p class="route-subtitle" id="driverMeta">Loading the assigned route…</p>
+</div>
+<div class="route-command-actions">
+<span class="version-badge" id="versionBadge">VERSION —</span>
+<button class="primary-command" id="fitRouteBtn" type="button">
+<span class="command-icon">⌖</span>
+<span><b>Fit published route</b><small>Show every stop and road segment</small></span>
+</button>
+</div>
+</section>
+<section aria-live="polite" class="driver-plan-state empty" id="driverPlanState">
+<span class="plan-state-icon">◇</span>
+<div><small>PLAN STATUS</small><b>Loading fleet plan</b><p>Status updates as the optimizer progresses</p></div>
+<em>CHECKING</em>
+</section>
+<div aria-live="polite" class="route-update hidden" id="routeUpdate"></div>
+<section aria-label="Route summary" class="route-kpis">
+<article><span>Work stops</span><b id="stopCount">—</b><small>Assigned work stops</small></article>
+<article><span>Planned distance</span><b id="routeDistance">—</b><small>Validated road-network distance</small></article>
+<article><span>Operating window</span><b id="routeTime">—</b><small>Travel, waiting, and service</small></article>
+<article><span>Assigned demand</span><b id="routeLoad">—</b><small id="routeOrders">—</small></article>
+</section>
+<section class="navigation-surface">
+<header class="map-toolbar">
+<div>
+<p class="eyebrow">PUBLISHED ROUTE MAP</p>
+<h2>Road geometry and ordered stops</h2>
+</div>
+<div class="toolbar-controls">
+<div aria-label="Map style" class="map-style-switch" role="group">
+<button class="active" data-map-style="street" type="button">Street</button>
+<button data-map-style="night" type="button">Night</button>
+<button data-map-style="terrain" type="button">Terrain</button>
+<button data-map-style="technical" type="button">Technical</button>
+</div>
+<button class="incident-button" id="reportBtn" type="button">Report a road incident</button>
+</div>
+</header>
+<div class="map-stage">
+<div aria-label="Complete truck route map" class="driver-map" id="driverMap"></div>
+<div class="map-overlay top-left">
+<span class="live-route-dot"></span>
+<div><b id="mapPlanStateTitle">Fleet plan loaded</b><small id="mapRouteMeta">—</small></div>
+</div>
+<div class="closure-hint hidden" id="closureHint">
+<b>Road-segment report mode</b>
+<span>Tap the affected road segment—not a map node</span>
+</div>
+</div>
+<footer class="map-footer">
+<div class="legend">
+<span><i class="legend-route"></i><b>Truck route</b></span>
+<span><i class="legend-stop"></i><b>Ordered work stop</b></span>
+<span><i class="legend-closed"></i><b>Selected road</b></span>
+</div>
+<div class="full-route-actions">
+<button class="google-route-button" disabled="" id="openFullGoogleBtn" type="button">
+<span>G</span><span><b>Open navigation handoff</b><small id="googleRouteHint">Available after route loads</small></span>
+</button>
+</div>
+</footer>
+<div class="google-parts hidden" id="googleParts"></div>
+</section>
+<section class="route-detail-grid">
+<article class="route-timeline-panel">
+<header class="section-head">
+<div><p class="eyebrow">STOP-BY-STOP MANIFEST</p><h2>Published work sequence</h2><p>Review the exact stop order, planned timing, demand, service, and depot returns for this truck.</p></div>
+<button class="quiet-button" id="printRouteBtn" type="button">Print manifest</button>
+</header>
+<div class="route-timeline" id="routeTimeline"></div>
+</article>
+<aside class="route-side-panel">
+<section class="next-summary">
+<p class="eyebrow">NEXT CHECKPOINT</p>
+<span class="next-number" id="nextIndex">—</span>
+<h3 id="nextName">Route not ready</h3>
+<p id="nextDetail">—</p>
+<button class="next-navigation" disabled="" id="nextStopBtn" type="button">
+<span>↗</span><span><b>Open next-stop navigation</b><small>Google Maps handoff · use the published FleetRoute stop order</small></span>
+</button>
+<details class="optional-progress">
+<summary>Device-only progress tracking</summary>
+<div class="progress-line"><i id="progressFill"></i></div>
+<p id="progressText">0 / 0</p>
+<button class="quiet-button wide" id="markNextDoneBtn" type="button">Mark checkpoint complete</button>
+<button class="text-action" id="resetProgressBtn" type="button">Reset progress</button>
+</details>
+</section>
+<section class="driver-notice">
+<b>Field-use notice</b>
+<p>Follow the published FleetRoute stop order only while the plan status is current. Google Maps is a navigation handoff and may not model vehicle height, weight, access, or hazardous-cargo restrictions.</p>
+</section>
+</aside>
+</section>
+<section class="reports-panel">
+<header class="section-head compact">
+<div><p class="eyebrow">REPORTS FROM THIS TRUCK</p><h2>Road incidents and dispatch decisions</h2></div>
+<button class="quiet-button" id="refreshReportsBtn" type="button">Refresh</button>
+</header>
+<div class="report-history" id="closureHistory"></div>
+</section>
+</main>
+<section aria-describedby="reportDescription" aria-labelledby="reportTitle" aria-modal="false" class="report-sheet hidden" id="reportSheet" role="dialog">
+<button aria-label="Close" class="sheet-backdrop" id="reportBackdrop" tabindex="-1"></button>
+<div class="sheet-card">
+<header class="sheet-head">
+<div><p class="eyebrow danger">ROAD INCIDENT</p><h2 id="reportTitle">Select the affected road segment</h2><p id="reportDescription">Pan or zoom the map, then tap the exact road segment affected by the incident.</p></div>
+<button aria-label="Cancel report" class="sheet-close" id="cancelReportBtn" type="button">×</button>
+</header>
+<div class="road-loading hidden" id="roadLoading"><i></i><span>Preparing visible road segments…</span></div>
+<div class="selected-road-card">
+<span class="road-symbol">⇢</span>
+<div><small>SELECTED ROAD SEGMENT</small><h3 id="selectedRoadName">No road selected</h3><p id="selectedRoadMeta">Tap a highlighted road line on the map</p></div>
+<span class="edge-state waiting" id="edgeReadyBadge">WAITING</span>
+</div>
+<div class="report-form">
+<label><span>Reporter</span><input id="reporter" maxlength="120" value="Driver"/></label>
+<label class="wide"><span>Incident details</span><textarea id="closureNote" maxlength="2000" placeholder="Example: crash blocks both lanes near the bridge" rows="3"></textarea></label>
+<label class="direction-option"><input checked="" id="blockReverse" type="checkbox"/><span><b>Block both directions</b><small>Untick when only the selected direction is blocked</small></span></label>
+</div>
+<details class="edge-evidence"><summary>Edge evidence for dispatch</summary><pre id="edgeEvidence">No segment selected</pre></details>
+<footer class="sheet-actions">
+<button class="quiet-button" id="reselectRoadBtn" type="button">Reselect</button>
+<button class="submit-incident" disabled="" id="submitClosureBtn" type="button">Send incident to dispatch</button>
+</footer>
+</div>
+</section>
+<div aria-live="polite" class="toast" id="toast" role="status"></div>
+<script src="/static/vendor/leaflet/leaflet.js?build=700-ui-lux-polish"></script>
+<script src="/static/ui-utils.js?build=700-ui-lux-polish"></script>
+<script src="/static/driver.js?build=700-ui-lux-polish"></script>
+</body>
+</html>

@@ -33,3 +33,11 @@ This is a rendering of the supplied paper's first page. The submission records b
 The supplementary package contains the final twenty-task discovery / thirty-task confirmation evidence and independent checks. Earlier exploratory runs are history, not extra confirmation tasks.
 
 The public paper copy omits the author's phone number. Its scientific text and results match the supplied submission.
+
+## Code and execution scope
+
+The [exposed supplementary files](source/README.txt) are unchanged copies of all ten files in the submitted ZIP. Review the [final confirmation-completion notebook](source/evidence/02_final_confirmation_notebook.ipynb), [final claims JSON](source/evidence/01_final_confirmation_claims.json), [prospective protocol audit](source/evidence/03_parent_pre_data_audit.md) and [run receipt](source/evidence/07_final_run_receipt_excerpt.txt) directly on GitHub.
+
+The notebook completes three missing confirmation tasks while preserving 27 sealed parent tasks. It requires the original parent Stage-6 results ZIP, its recorded identity, Google Colab/Drive and the experiment's training dependencies. That parent archive is not included in this concise submission supplement, so this notebook is **not a standalone fresh-training example**. Opening it exposes the exact code; the supplied claims and receipt can be inspected without launching training.
+
+The final scientific result covers the complete 30-task confirmation cohort. A code listing or receipt alone does not reconstruct all historical response arrays. The [supplement PDF](source/00_Supplement.pdf) explains the protocol and findings.

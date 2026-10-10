@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "scope": "Actual full-backbone matrix-free operator fitting and independent trace on CPU random pixels; six-probe engineering check only, not a full-budget GPU benchmark or research outcome.",
+  "seconds": 6.969636493999133,
+  "backbones": {
+    "ResNet18GN": {
+      "actual_rank": 4,
+      "QR_orthogonality_error": 4.62245102195169e-08,
+      "independent_capture": 0.3318680490900256,
+      "finite_arrays": true
+    },
+    "ViTSmall": {
+      "actual_rank": 4,
+      "QR_orthogonality_error": 5.8041226269622825e-08,
+      "independent_capture": 0.40245841906821245,
+      "finite_arrays": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "discovery_archive_sha256": "40ce1335ac1d3d41ddb6ba5b3e195e24397346ff19cac80150cb6fa3e712fab2",
+  "confirmation_archive_sha256": "d143a48b45c5732d485b3179f973841c8980c6b492cb831eedc97183c5041156",
+  "confirmation_units": 30,
+  "rank16_independent_capture_mean": 0.38408823,
+  "rank16_capture_ci95": [
+    0.366851,
+    0.40235
+  ],
+  "history_alignment_mean": 0.04428585,
+  "h16_projection_retention_mean": 0.689117,
+  "h16_projection_cosine_mean": 0.5542,
+  "h16_remainder_ratio_mean": 0.84155,
+  "h16_additivity_error_mean": 0.001178,
+  "historical_potency_over_current_gradient_mean": 0.6774,
+  "historical_potency_over_preconditioned_gradient_mean": 0.53494,
+  "frozen_flags": {
+    "F": true,
+    "L": false,
+    "A": false,
+    "C": false,
+    "M": false
+  },
+  "stage10_status": "Finished archive observed on Drive, but contents were not retrieved or audited for this design. No Stage10 numerical result is used.",
+  "registered_title_context": "Saved draft: Testing Low-Rank Causal Control in AdamW Memory. Exact final portal wording has not been verified.",
+  "scope": "New prospective external-validity/estimator-budget extension; old confirmation remains unchanged."
+}

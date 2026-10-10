@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "CPU_validation": "CPU_VALIDATION.json",
+  "real_backbone_estimator_validation": "REAL_BACKBONE_ESTIMATOR_VALIDATION.json",
+  "archive_storage_tests": {
+    "passed": true,
+    "count": 6,
+    "checks": [
+      "two generations and throttle",
+      "failed publication retains current",
+      "other session rejected",
+      "unsafe archive rejected",
+      "final excludes PT and prunes verified checkpoints",
+      "manifest payload tampering rejected"
+    ]
+  },
+  "full_realdata_GPU_executed_here": false,
+  "full_default_estimator_budget_GPU_memory_benchmarked": false,
+  "runtime_estimate": "Unbenchmarked; measured model-block ETA during execution. No artificial delay or padding.",
+  "notebook_wiring_validation": {
+    "passed": true,
+    "embedded_file_sha256_checks": 15,
+    "both_code_cells_executed_with_mocked_gpu_mount_pipeline": true,
+    "full_training_mocked": true
+  },
+  "scope": "Engineering checks do not establish empirical outcomes, novelty or statistical power.",
+  "numerical_correction": "Full-backbone smoke check exposed FP32 tall-QR orthogonality error. Added double-Gram reconditioning of the already near-orthogonal QR basis, preserving its span; corrected errors4.6e-8/5.8e-8 in full-backbone checks. Entire CPU integration suite rerun after correction.",
+  "tested_core_sha256": {
+    "runner.py": "3ff1ecf6fbd4f7452f725e1384c7d29984d686d847ffdef4d057380b203b0e03",
+    "operators.py": "c206760155d49aed04c361a5df50a2831aae5736472af32b5801e281e55691f6",
+    "models.py": "cedf623a963750ed2c753bac6f542d6537dc40f5c486e5102437a6f3f9cf8f2d",
+    "archive_io.py": "f0fa8298291174a2ad06c2d580fb3b1258a2f739285a90a4dae7e7b97905ecfb",
+    "audit.py": "e0abf551dd7faa90cbac28f9c44b82219f983ca2012b4414f7ecb4714ac78298",
+    "control_math.py": "d5089c1a885a5fd2a3e27d66b7d53f3357bcd4e73cdecc1c93d066bf11204f50"
+  },
+  "changed_dataset_resume_rejected_before_training": true
+}

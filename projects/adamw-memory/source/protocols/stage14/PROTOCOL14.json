@@ -1,0 +1,42 @@
+{
+  "version": "NEXUS-STAGE14-STABLE-CONTINUATION-R2",
+  "status": "prospective_no_research_results",
+  "frozen_date": "2026-10-03",
+  "training_histories": 16,
+  "seeds_per_dataset": [
+    14000,
+    14001,
+    14002,
+    14003,
+    14004,
+    14005,
+    14006,
+    14007
+  ],
+  "primary": "H16 rank16 fit256 paired fitted-minus-alternate horizon-matching gain",
+  "family_alpha": 0.05,
+  "per_dataset_sign_alpha": 0.025,
+  "secondary_transfer_margin": 0.05,
+  "train_lr": 0.001,
+  "future_lr": 0.00012,
+  "train_batch": 128,
+  "future_batch": 128,
+  "stability_accuracy_drop_max": 0.02,
+  "stability_nll_increase_max": 0.1,
+  "qualification_horizons": [
+    1,
+    16,
+    64
+  ],
+  "no_rescue": "Retain all seeds; do not retune a failed identity.",
+  "revision_reason": "Prospective audit corrections and six-hour session pauses; no Stage14 research outcomes observed.",
+  "session_hours": 6,
+  "session_limit_kind": "soft: finish current operator transaction, checkpoint, then pause; total study cost unchanged",
+  "sign_test_tie_rule": "Exact zeros count as nonpositive; n includes all prespecified histories.",
+  "dataset_eligibility": "Separate for each dataset; every history and both future paths must pass numerical qualification, stability and training gates; required wider-sketch checks must pass.",
+  "early_full_qualification": "Before any operator fit in each unit, full and half-amplitude effects on the complete 128-image response bank must be resolved and derivative-valid on both paths.",
+  "resolution_floor": 2e-05,
+  "derivative_error_max": 0.15,
+  "duality_relative_error_max": 0.005,
+  "rank16_primary_rank64_diagnostic": true
+}

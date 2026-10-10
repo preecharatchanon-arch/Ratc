@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="#0b1f3a" name="theme-color"/>
+<meta content="light" name="color-scheme"/>
+<title>FleetRoute · Fleet Operations</title>
+<link href="/static/vendor/leaflet/leaflet.css?build=391-geofabrik-redirect" rel="stylesheet"/>
+<link href="/static/styles.css?build=700-ui-lux-polish" rel="stylesheet"/>
+</head>
+<body>
+<a class="skip-link" href="#mainContent">Skip to content</a>
+<div class="app-shell" id="appShell">
+<aside class="sidebar" id="primarySidebar">
+<div class="brand-block">
+<div class="brand-mark"><span>FR</span><i></i></div>
+<div><strong>FleetRoute</strong><small>FLEET ROUTING SYSTEM</small></div>
+</div>
+<div class="project-card">
+<div class="project-card-top"><span class="pulse connecting"></span><span id="systemConnectionText">Connecting</span></div>
+<strong id="projectStatus">Connecting to workspace…</strong>
+<small id="projectMeta">Checking runtime state</small>
+</div>
+<nav aria-label="Primary navigation" class="side-nav">
+<div class="nav-section-label" data-i18n="navOperations">Operations</div>
+<button aria-current="page" class="nav-item active" data-view="command" type="button"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="7" rx="2"/><rect x="13.5" y="3.5" width="7" height="7" rx="2"/><rect x="3.5" y="13.5" width="7" height="7" rx="2"/><path d="M17 14v6m-3-3h6"/></svg></span><span data-i18n="navCommand">System overview</span></button>
+<button class="nav-item" data-view="plan" type="button"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s6-5.2 6-11A6 6 0 0 0 6 10c0 5.8 6 11 6 11Z"/><circle cx="12" cy="10" r="2.2"/></svg></span><span data-i18n="navPlan">Work points &amp; depot</span><b id="navPlanBadge">0</b></button>
+<button class="nav-item" data-view="roads" type="button"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 21c3-4 3-7 0-10s-3-6 0-8M18 21c-3-4-3-7 0-10s3-6 0-8"/><path d="M12 4v3m0 3v4m0 3v3"/></svg></span><span data-i18n="navRoads">Roads &amp; incidents</span><b id="navRoadBadge">—</b></button>
+<button class="nav-item" data-view="optimize" type="button"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.2 4.8L19 10l-4.8 2.2L12 17l-2.2-4.8L5 10l4.8-2.2L12 3Z"/><path d="m18.5 16 .9 2 .1.1 2 .9-2 .9-.9 2-.9-2-2-.9 2-.9Z"/></svg></span><span data-i18n="navOptimize">Route optimization</span></button>
+<button class="nav-item" data-view="dispatch" type="button"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 7.5h10v8h-10z"/><path d="M13.5 10h3.3l3 3v2.5h-6.3z"/><circle cx="7" cy="17.5" r="1.7"/><circle cx="17" cy="17.5" r="1.7"/></svg></span><span data-i18n="navDispatch">Current fleet plan</span><b id="navRouteBadge">0</b></button>
+<button class="nav-item" data-view="activity" type="button"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5h14v15H5z"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></span><span data-i18n="navActivity">Evidence &amp; logs</span></button>
+<div class="nav-section-label analysis-nav-label" data-i18n="navAnalysis">Advanced analysis</div>
+<button class="nav-item analysis-nav-item" data-view="clustering" type="button"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="7" cy="7" r="2.4"/><circle cx="17" cy="7" r="2.4"/><circle cx="12" cy="17" r="2.4"/><path d="m8.8 8.5 2.3 6m4.1-6-2.3 6M9.5 7h5"/></svg></span><span data-i18n="navClustering">Clustering</span></button>
+<button class="nav-item analysis-nav-item" data-view="analytics" type="button"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5"/><path d="M4 19h16"/><path d="m7 15 3-4 3 2 4-6"/><circle cx="7" cy="15" r="1"/><circle cx="10" cy="11" r="1"/><circle cx="13" cy="13" r="1"/><circle cx="17" cy="7" r="1"/></svg></span><span data-i18n="navAnalytics">Convergence</span></button>
+<button class="nav-item analysis-nav-item" data-view="developer" type="button"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 7-4 5 4 5M15 7l4 5-4 5M13 5l-2 14"/></svg></span><span data-i18n="navDeveloper">System data</span></button>
+</nav>
+<div class="sidebar-bottom">
+<a class="side-link" href="/simulation" rel="noopener" target="_blank"><span class="side-link-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="m10 8.5 5.5 3.5-5.5 3.5z"/></svg></span><span data-i18n="openSimulation">Planned-route simulation</span></a>
+<a class="side-link" href="/driver/0" id="driverQuickLink" rel="noopener" target="_blank"><span class="side-link-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 6H6v12h12v-4"/><path d="M13 5h6v6M19 5l-8 8"/></svg></span><span data-i18n="openDriver">Open driver manifest</span></a>
+<div class="version-line">CAPACITY · TIME WINDOWS · DIRECTED ROADS</div>
+</div>
+</aside>
+<div class="main-shell">
+<header class="topbar">
+<div class="mobile-brand">FleetRoute</div>
+<button aria-controls="primarySidebar" aria-expanded="false" aria-label="Open navigation" class="icon-button mobile-only" id="mobileMenuBtn" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14M5 12h14M5 17h14"/></svg></button>
+<div class="breadcrumbs"><span id="breadcrumbKicker">OPERATIONS</span><strong id="breadcrumbTitle">System Overview</strong></div>
+<div class="topbar-actions">
+<div aria-live="polite" class="live-job compact" id="topJobIndicator" role="status"><i></i><span data-i18n="idle">Idle</span></div>
+<button aria-pressed="false" class="judge-mode-button" id="judgeModeBtn" title="Switch between operations and the complete analysis workspace" type="button">Operations view</button>
+<button class="top-optimize" id="globalOptimizeBtn" type="button"><span data-i18n="optimize">Optimize</span><b>→</b></button>
+</div>
+</header>
+<section aria-live="assertive" class="connection-banner hidden" id="connectionBanner" role="status">
+<div><i></i><span><b id="connectionBannerTitle">FleetRoute is reconnecting</b><small id="connectionBannerDetail">The last known screen is preserved while the runtime becomes available.</small></span></div>
+<button class="secondary-button" id="retryConnectionBtn" type="button">Retry now</button>
+</section>
+<section aria-label="Current workflow state" class="active-contract" id="activeContract">
+<div class="contract-intro"><span>WORKFLOW</span><b id="contractPhase">Prepare the plan</b></div>
+<button class="contract-step" data-go="plan" type="button"><i>1</i><span>Work points</span><b id="contractDepot">No depot selected</b><small id="contractOrders">0 work points</small></button>
+<button class="contract-step" data-go="roads" type="button"><i>2</i><span>Road network</span><b id="contractGraph">Not prepared</b><small id="contractClosures">0 incidents</small></button>
+<button class="contract-step" data-go="optimize" type="button"><i>3</i><span>Route optimization</span><b id="contractRoutes">No route plan</b><small id="contractCluster">Clustering: Auto</small></button>
+<button class="contract-step" data-go="dispatch" type="button"><i>4</i><span>Dispatch</span><b id="contractDispatch">Awaiting optimization</b><small>Driver · Simulation · Export</small></button>
+</section>
+<main class="content" id="mainContent" tabindex="-1">
+<section class="view active" id="view-command">
+<section aria-labelledby="regionSetupTitle" class="region-setup" id="regionSetup">
+<div class="region-setup-shell">
+<div class="region-setup-main">
+<div class="region-setup-copy">
+<div class="product-badge"><i></i><span>OPERATING REGION</span></div>
+<h1 id="regionSetupTitle">Where does this fleet operate?</h1>
+<p>Explore or cache regions without disturbing the current plan. A region becomes the active road source only after FleetRoute verifies that it covers the current depot and work points.</p>
+<div class="region-assurance" aria-label="Road-source assurances"><span>Interactive world map</span><span>Checksum-verified road source</span><span>Source-bound graph cache</span></div>
+</div>
+<div class="region-search-wrap">
+<span class="region-search-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="5.5"/><path d="m15 15 5 5"/></svg></span>
+<input aria-autocomplete="list" aria-controls="regionSearchResults" aria-expanded="false" aria-label="Search operating regions" autocomplete="off" id="regionSearch" placeholder="Search city, country, state, province, or extract…" type="search"/>
+<kbd>↵</kbd>
+<div class="region-search-results hidden" id="regionSearchResults" role="listbox"></div>
+</div>
+<div class="region-discovery-bar" aria-label="Region discovery shortcuts">
+<div class="region-quick-access"><span>QUICK ACCESS</span><div class="region-quick-list" id="regionQuickAccess"><span class="region-quick-loading">Loading countries…</span></div></div>
+<div class="region-catalog-summary" id="regionCatalogSummary"><i></i><span>Connecting to the regional catalog</span></div>
+</div>
+<div class="region-map-stage">
+<div aria-label="Interactive operating-region selector" class="region-map" id="regionMap"></div><button class="region-map-back hidden" id="regionMapBack" type="button">← Back to world</button>
+<div class="region-catalog-status" id="regionCatalogStatus"><i></i><span>Loading selectable region boundaries…</span></div>
+<div class="region-map-vignette"></div>
+<div class="region-map-legend" aria-label="Region map legend"><span><i class="selected"></i>Selected / browsing</span><span><i class="active"></i>Active roads</span><span><i class="cached"></i>Verified locally</span><span><i class="available"></i>Available extract</span></div>
+<div class="region-hover-card hidden" id="regionHoverCard"><span>REGION</span><b>—</b><small>Click to select road data</small></div>
+<div class="region-map-hint"><i></i><span>Hover to inspect · scroll to zoom · click to select</span></div>
+<button class="region-fallback-button" id="regionFallbackBtn" type="button">Browse all regions</button>
+</div>
+</div>
+<aside class="region-source-drawer" id="regionSourceDrawer">
+<div class="region-drawer-empty" id="regionDrawerEmpty">
+<span class="region-orbit">◎</span>
+<b>Select an operating region</b>
+<p>Choose from the map, search any place, or reuse a road source already verified in this runtime cache.</p>
+<div class="region-onboarding-sequence" aria-label="Road-source workflow">
+<div><i>1</i><span><b>Choose a region</b><small>Search or inspect the world map.</small></span></div>
+<div><i>2</i><span><b>Verify road data</b><small>Download the PBF and validate its checksum.</small></span></div>
+<div><i>3</i><span><b>Use for this plan</b><small>Boundary fit is proven before graph preparation.</small></span></div>
+</div>
+<div class="region-library-quick-wrap hidden" id="regionLibraryQuickWrap"><span>VERIFIED LOCAL CACHE</span><div class="region-library compact" id="regionLibraryQuick"></div></div>
+</div>
+<div class="hidden" id="regionDrawerContent">
+<div class="region-selection-head">
+<div><span>BROWSED REGION</span><h2 id="selectedRegionName">—</h2><small id="selectedRegionMeta">Browsing does not switch the active road source.</small></div>
+<span class="status-chip idle" id="selectedRegionStatus">Not installed</span>
+</div>
+<div class="region-active-source" id="activeRegionNotice"><span>ACTIVE ROAD SOURCE</span><b>None yet</b><small>Download a region, then use it for the current plan.</small></div>
+<button class="secondary-button region-browse-done hidden" id="regionSetupDoneBtn" type="button">Done · keep active source</button>
+<div class="source-choice recommended">
+<div class="source-choice-icon">OSM</div>
+<div class="source-choice-copy"><span>RECOMMENDED</span><b id="recommendedSourceName">Verified Geofabrik road extract</b><small id="recommendedSourceMeta">Geofabrik OpenStreetMap extract · checksum verified</small></div>
+<button class="primary-button" id="useRecommendedSourceBtn" type="button">Download &amp; verify</button>
+</div>
+<div class="region-children-wrap hidden" id="regionChildrenWrap">
+<div class="source-divider"><span>Smaller extracts</span></div>
+<p>For large countries, selecting a smaller extract makes download and graph preparation much faster.</p>
+<div class="region-child-grid" id="regionChildren"></div>
+</div>
+<div class="source-divider"><span>or reuse a verified local source</span></div>
+<div class="region-library" id="regionLibrary"><div class="region-library-empty">No verified regional source is cached in this runtime yet.</div></div>
+<details class="region-advanced">
+<summary>Browse all regional extracts</summary>
+<div class="region-advanced-body">
+<label for="regionFallbackSelect">Geofabrik extract</label>
+<select id="regionFallbackSelect"><option value="">Loading catalog…</option></select>
+<button class="secondary-button" id="regionFallbackUseBtn" type="button">Select extract</button>
+</div>
+</details>
+</div>
+</aside>
+</div>
+<div class="region-setup-collapsed hidden" id="regionSetupCollapsed">
+<div><span>OPERATING REGION</span><b id="collapsedRegionName">—</b><small id="collapsedRegionMeta">Verified regional road source</small></div>
+<button class="secondary-button" id="changeRegionBtn" type="button">Change region</button>
+</div>
+</section>
+<div class="command-hero application-hero">
+<div class="command-copy">
+<div class="product-badge"><i></i><span data-i18n="commandKicker">REAL-ROAD FLEET OPERATIONS</span></div>
+<h1 data-i18n="commandTitle">Plan real-road routes that are ready for field operations</h1>
+<p data-i18n="commandDesc">Coordinate multi-vehicle collection and distribution under capacity, time-window, multi-trip, and road-closure constraints, then hand the plan directly to drivers.</p>
+<div class="hero-actions">
+<button class="primary-button large hero-primary" data-go="plan" type="button"><span data-i18n="buildRealPlan">Start planning work points</span><b>→</b></button>
+<button class="secondary-button large" id="heroDemoBtn" type="button"><span data-i18n="tryDemo">Open example scenario</span></button>
+<button class="secondary-button large subtle" id="rushModeBtn" type="button"><span data-i18n="rushMode">Import plan from CSV</span></button>
+</div>
+<div aria-label="System capabilities" class="hero-capabilities"><span>Capacity + Time Windows</span><span>Directed Roads</span><span>Road Closures</span><span>Driver Navigation</span></div>
+</div>
+<div class="hero-visual command-map-visual">
+<div aria-label="Current fleet plan map" class="command-map" id="commandMap"></div>
+<div class="command-map-shade"></div>
+<div class="command-map-topline"><span><i></i> FLEET OVERVIEW</span><b id="commandMapClock">—</b></div>
+<div aria-hidden="true" class="command-map-legend"><span><i class="route-key"></i><b data-i18n="mapRoute">Route</b></span><span><i class="stop-key"></i><b data-i18n="mapWorkPoint">Work point</b></span><span><i class="depot-key"></i><b data-i18n="mapDepot">Depot</b></span></div>
+<div class="command-route-state prepared" id="commandRouteState"><span>PLAN STATUS</span><strong>Loading fleet plan</strong><small>Status updates as the optimizer progresses</small></div>
+<div class="hero-signal"><span data-i18n="currentReadiness">System readiness</span><strong id="heroReadiness">0%</strong><i><b id="heroReadinessBar"></b></i></div>
+</div>
+</div>
+<section aria-label="Route preparation and optimization lifecycle" class="route-lifecycle" id="routeLifecycle">
+<div class="lifecycle-title"><span>PLAN PROGRESS</span><b id="lifecycleHeadline">Loading plan status</b><small id="lifecycleDetail">Current plan progress</small></div>
+<div class="lifecycle-track">
+<button data-go="plan" data-stage="plan" type="button"><i>1</i><span><b>Work points</b><small>Depot and operating constraints</small></span></button>
+<button data-go="roads" data-stage="graph" type="button"><i>2</i><span><b>Road network</b><small>Directed graph ready</small></span></button>
+<button data-go="optimize" data-stage="prepared" type="button"><i>3</i><span><b>Initial plan</b><small>Dashed preview · ready for review</small></span></button>
+<button data-go="optimize" data-stage="optimized" type="button"><i>4</i><span><b>Optimizer result</b><small>Run and validation complete</small></span></button>
+<button data-go="dispatch" data-stage="dispatch" type="button"><i>5</i><span><b>Dispatch</b><small>Driver app and export</small></span></button>
+</div>
+</section>
+<div class="metric-grid command-metrics" id="commandMetrics"></div>
+<div class="dashboard-grid">
+<section class="surface workflow-surface">
+<div class="surface-header"><div><span class="section-kicker" data-i18n="workflowKicker">NEXT STEPS</span><h2 data-i18n="workflowTitle">Next steps for this plan</h2></div><button class="text-button" data-go="plan" data-i18n="continuePlan" type="button">Open plan</button></div>
+<div class="workflow-steps" id="workflowSteps"><div class="first-paint-empty"><i>1</i><span><b>Choose a depot and work points</b><small>FleetRoute will guide the next valid action after the workspace connects.</small></span></div></div>
+</section>
+<section class="surface latest-run-surface">
+<div class="surface-header"><div><span class="section-kicker">RECENT ACTIVITY</span><h2 data-i18n="latestRun">Recent activity</h2></div><span class="status-chip idle" id="latestRunStatus">Idle</span></div>
+<div class="latest-run-card empty-state" id="latestRunCard">No operational run yet. Start with a depot, work points, or the example scenario.</div>
+</section>
+<section class="surface artifact-surface span-2">
+<div class="surface-header"><div><span class="section-kicker">ANALYSIS EVIDENCE</span><h2 data-i18n="evidenceGallery">Analysis and evidence</h2></div><button class="text-button" data-go="activity" data-i18n="viewAll" type="button">View all</button></div>
+<div class="artifact-strip" id="commandArtifacts"><div class="first-paint-evidence"><b>Evidence appears after a validated run</b><small>Route inputs, convergence, maps, validation receipts, and logs stay bound to the exact run.</small></div></div>
+</section>
+</div>
+</section>
+<section class="view" id="view-plan">
+<div class="page-head compact-head">
+<div>
+<div class="eyebrow">ROAD-VALIDATED WORK-POINT PLANNING</div>
+<h1 data-i18n="planTitle">Define the depot and work points, then validate real road access</h1>
+<p data-i18n="planDesc">Choose locations from search or the map. FleetRoute binds each one to the directed road graph and verifies depot round-trip reachability before saving.</p>
+</div>
+<div class="head-actions">
+<button class="secondary-button" data-i18n="loadDemo" id="planDemoBtn" type="button">Load demo</button>
+<button class="primary-button" id="planToRoadsBtn" type="button"><span data-i18n="continueRoadSetup">Next: Road setup</span><b>→</b></button>
+</div>
+</div>
+<div class="plan-readiness-strip">
+<div class="readiness-item" id="planSourceState"><i>1</i><div><b>Regional road source</b><small>Not verified</small></div></div>
+<span>→</span>
+<div class="readiness-item" id="planDepotState"><i>2</i><div><b>Depot</b><small>Choose depot</small></div></div>
+<span>→</span>
+<div class="readiness-item" id="planNetworkState"><i>3</i><div><b>Operating graph</b><small>Prepare roads around the operating area</small></div></div>
+<span>→</span>
+<div class="readiness-item" id="planAccessState"><i>4</i><div><b>Validated work points</b><small>Every work point has depot round-trip access</small></div></div>
+</div>
+<section class="surface guided-next-card" id="guidedNextCard">
+<div class="guided-next-copy">
+<span class="section-kicker" id="guidedNextKicker">RECOMMENDED NEXT ACTION</span>
+<h2 id="guidedNextTitle">Start by choosing the depot</h2>
+<p id="guidedNextDetail">FleetRoute guides the next valid step instead of creating avoidable failed jobs.</p>
+<div class="guided-step-pills" id="guidedStepPills"></div>
+</div>
+<div class="guided-next-actions">
+<button class="secondary-button hidden" id="guidedSecondaryBtn" type="button"></button>
+<button class="primary-button" id="guidedPrimaryBtn" type="button"><span>Choose depot</span><b>→</b></button>
+</div>
+</section>
+<div class="plan-workspace-v2">
+<aside class="surface search-rail-v2">
+<div class="panel-heading">
+<span class="section-kicker">PLACE SEARCH</span>
+<h2 data-i18n="searchRealPlace">Search a place, business, school, hotel, or address</h2>
+<p>Search by name/address or decimal coordinates (<code>lat, lon</code>) → inspect on the map → validate road access → confirm</p>
+</div>
+<div class="search-input search-input-large">
+<span>⌕</span>
+<input aria-label="Search locations" autocomplete="off" id="searchQuery" placeholder="Search a place or coordinates: 13.7563, 100.5018"/>
+<button aria-label="Clear search" class="search-clear hidden" id="clearSearchBtn" type="button">×</button>
+<button data-i18n="search" id="searchBtn" type="button">Search</button>
+</div>
+<div class="inline-loader hidden" id="searchLoading"><i></i><span data-i18n="searching">Searching…</span></div>
+<div class="search-results search-results-v2" id="searchResults"></div>
+<div class="quick-tools quick-tools-v2">
+<button id="mapDepotBtn" type="button"><span>⌂</span><b data-i18n="pickDepotMap">Choose depot from map</b><small data-i18n="pickDepotMapHelp">Click the real place, then validate its road access</small></button>
+<button id="mapAddBtn" type="button"><span>＋</span><b data-i18n="addFromMap">Add work point from map</b><small data-i18n="addFromMapHelp">Bind the point to a road with verified depot round-trip access</small></button>
+<button id="randomizeBtn" type="button"><span>⟳</span><b data-i18n="randomNearDepot">Generate a scenario</b><small data-i18n="randomHint">Set the work-point count, demand profile, and maximum available trucks</small></button>
+<button id="importCsvBtn" type="button"><span aria-hidden="true">⇧</span><b data-i18n="importCsv">Import CSV</b><small data-i18n="importCsvHelp">Import rows now; road access is checked before routing</small></button>
+</div>
+<input accept=".csv,text/csv" hidden="" id="csvInput" type="file"/>
+<details class="csv-format-help"><summary>CSV format and units</summary><p>Required columns: <code>name, lat, lon</code>. Coordinates use decimal degrees. Optional: <code>demand, role, address, service_minutes, earliest, latest</code>. Use <code>role=depot</code> for one depot row, or keep the current depot.</p><p>Times may use <code>08:00</code> and <code>17:00</code>. For seconds, use <code>service_s, earliest_s, latest_s</code>. Demand defaults to 0; demand and capacity must use the same units. Invalid rows are rejected without replacing your current plan.</p></details>
+<section class="scenario-builder hidden" id="scenarioBuilder">
+<div class="scenario-head"><div><span class="section-kicker" data-i18n="scenarioKicker">SCENARIO GENERATOR</span><h3 data-i18n="scenarioTitle">Create work points on roads with verified depot round-trip access</h3></div><button aria-label="Close scenario generator" class="icon-button" id="closeScenarioBtn" type="button">×</button></div>
+<div aria-label="Scenario preset" class="scenario-presets" role="group">
+<button class="scenario-preset active" data-scenario-preset="standard" type="button"><b data-i18n="presetStandard">Standard operations</b><small>20 work points · standard demand</small></button>
+<button class="scenario-preset" data-scenario-preset="quick" type="button"><b data-i18n="presetQuick">Quick test</b><small>12 work points · light demand</small></button>
+<button class="scenario-preset" data-scenario-preset="stress" type="button"><b data-i18n="presetStress">Stress test</b><small>100 work points · heavy demand</small></button>
+</div>
+<div class="scenario-flow-note">
+<b data-i18n="scenarioFlowTitle">Create work points → validate roads → prepare an initial plan → run the optimizer</b>
+<small data-i18n="scenarioFlowHelp">The initial plan appears as a dashed route. Ready status appears after the optimizer and result checks finish.</small>
+</div>
+<div class="scenario-grid scenario-primary-grid">
+<label><span data-i18n="customerCount">Work-point count</span><input id="scenarioCount" max="500" min="3" type="number" value="20"/></label>
+<label><span data-i18n="scenarioRadius">Work-point radius</span><select id="scenarioRadius"><option value="2500">2.5 km</option><option selected="" value="4200">4.2 km</option><option value="7000">7 km</option><option value="11000">11 km</option></select><small>Controls how far generated work points may spread from the depot.</small></label>
+<label><span data-i18n="demandProfile">Demand profile</span><select id="scenarioDemandProfile"><option data-i18n="demandLight" value="light">Light</option><option data-i18n="demandStandard" selected="" value="standard">Standard</option><option data-i18n="demandHeavy" value="heavy">Heavy</option></select></label>
+<label><span data-i18n="timeWindowSetup">Time windows</span><select id="scenarioTimeWindow"><option data-i18n="openDayRecommended" selected="" value="open">Open day (recommended)</option><option data-i18n="broadShift" value="shift">Broad shift 07:00–22:00</option><option data-i18n="staggeredBenchmark" value="staggered">Staggered benchmark windows</option></select><small>Sets the generated service-window pattern before routing.</small></label>
+</div>
+<details class="scenario-advanced" id="scenarioAdvanced">
+<summary data-i18n="scenarioAdvanced">Custom demand, service &amp; reproducibility</summary>
+<div class="scenario-grid">
+<label><span data-i18n="scenarioSeed">Random seed</span><input id="scenarioSeed" type="number" min="0" max="4294967295" step="1" value="777"/><small>Keep fixed only when you need the same generated scenario again.</small></label>
+<label><span data-i18n="demandSetup">Demand setup</span><select id="scenarioDemandMode"><option data-i18n="automaticRecommended" selected="" value="auto">Automatic (recommended)</option><option data-i18n="customRange" value="custom">Custom range</option></select></label>
+<label class="hidden" id="scenarioDemandCustom"><span data-i18n="demandRange">Demand range</span><div class="dual-input"><input id="scenarioDemandMin" min="1" type="number" value="4"/><span>–</span><input id="scenarioDemandMax" min="1" type="number" value="18"/></div></label>
+<label><span data-i18n="serviceSetup">Service setup</span><select id="scenarioServiceMode"><option data-i18n="automaticRecommended" selected="" value="auto">Automatic (recommended)</option><option data-i18n="customRange" value="custom">Custom range</option></select></label>
+<label class="hidden" id="scenarioServiceCustom"><span data-i18n="serviceRange">Service time (minutes)</span><div class="dual-input"><input id="scenarioServiceMin" min="1" type="number" value="5"/><span>–</span><input id="scenarioServiceMax" min="1" type="number" value="15"/></div></label>
+</div>
+</details>
+<div class="scenario-summary" id="scenarioSummary"></div>
+<div class="scenario-actions"><label class="form-check"><input checked="" id="scenarioReplace" type="checkbox"/><span data-i18n="replaceCustomers">Replace current work points</span></label><div class="scenario-action-buttons"><button class="secondary-button" data-i18n="createStopsOnly" id="generateOnlyBtn" type="button">Create work points only</button><button class="primary-button" data-i18n="createAndRoute" id="generateScenarioBtn" type="button">Create work points + run the optimizer</button></div></div>
+</section>
+<div class="list-heading"><div><h3 data-i18n="currentPlan">Current work-point plan</h3><p id="planSummary">0 work points</p></div><button class="text-button danger" data-i18n="clear" id="clearPlanBtn" type="button">Clear</button></div>
+<div class="plan-list plan-list-v2" id="planList"></div>
+</aside>
+<section class="map-frame surface map-frame-v2">
+<div class="map-titlebar">
+<div><span class="section-kicker">WORK POINT + ROAD ACCESS</span><b data-i18n="mapAccessTitle">Work points and validated road access</b></div>
+<div class="map-toolbar static-toolbar">
+<button id="fitPlanBtn" type="button">⌖ <span data-i18n="fitPlan">Fit all work points</span></button>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Choose map style" class="map-style-button" id="toggleSatelliteBtn" title="Choose map style" type="button"><span class="map-style-glyph" aria-hidden="true">◫</span><span data-i18n="mapStyle">Map style</span><b id="planMapStyleLabel">Navigation</b></button>
+</div>
+</div>
+<div class="map map-operational" id="planMap"></div>
+<div class="map-mode-notice hidden" id="mapModeNotice"><i></i><span data-i18n="clickRoadLocation">Click the real location; FleetRoute will find road access with verified depot round-trip reachability</span><button aria-label="Cancel map selection" id="cancelMapMode" type="button">×</button></div>
+<div class="map-legend map-legend-v2">
+<span><i class="dot depot"></i><b data-i18n="depot">Depot</b></span>
+<span><i class="dot customer"></i><b data-i18n="customer">Work point</b></span>
+<span><i class="line access"></i><b data-i18n="lastMeterAccess">Last-meter access</b></span>
+<span><i class="line road-valid"></i><b data-i18n="reachableRoadSegment">Reachable road segment</b></span>
+<span><i class="line operating-area"></i><b>Operating area</b></span>
+</div>
+</section>
+<aside class="surface access-inspector" id="accessInspector">
+<div class="panel-heading">
+<span class="section-kicker">ACCESS INSPECTOR</span>
+<h2 data-i18n="accessInspectorTitle">Confirm before adding a stop</h2>
+<p data-i18n="accessInspectorDesc">You choose the place; FleetRoute manages graph nodes and edges internally.</p>
+</div>
+<div class="inspector-empty" id="accessInspectorEmpty">
+<div class="inspector-illustration"><i></i><b></b><span></span></div>
+<strong data-i18n="noPlaceSelected">No place selected</strong>
+<p data-i18n="noPlaceSelectedHelp">Choose a search result or pick from the map to inspect verified road access.</p>
+</div>
+<div class="hidden" id="accessInspectorContent">
+<div class="selected-place-summary"><span id="inspectorRoleHint">WORK POINT</span><h3 id="inspectorPlaceName">—</h3><p id="inspectorAddress">—</p></div>
+<div class="access-verdict waiting" id="inspectorStatus"><i>…</i><div><b>Checking</b><small>Road access preflight</small></div></div>
+<div class="access-detail-list">
+<div><span data-i18n="roadSegment">Road segment</span><b id="inspectorRoad">—</b></div>
+<div><span data-i18n="roadClass">Road class</span><b id="inspectorClass">—</b></div>
+<div><span data-i18n="lastMeterDistance">Last-meter distance</span><b id="inspectorDistance">—</b></div>
+<div><span data-i18n="roundTripDepot">Depot round trip</span><b id="inspectorReachability">—</b></div>
+<div><span data-i18n="direction">Direction</span><b id="inspectorDirection">—</b></div>
+</div>
+<div class="inspector-guidance" id="inspectorGuidance"></div>
+<details class="technical-drawer"><summary data-i18n="technicalOsmEvidence">Technical OSM evidence</summary><pre id="inspectorTechnical">{}</pre></details>
+<div class="inspector-actions">
+<button class="secondary-button" data-i18n="cancel" id="cancelAccessPreviewBtn" type="button">Cancel</button>
+<button class="secondary-button" data-i18n="setDepot" id="previewSetDepotBtn" type="button">Set as depot</button>
+<button class="primary-button" data-i18n="addCustomer" id="previewAddCustomerBtn" type="button">Add work point</button>
+</div>
+</div>
+<div class="inspector-prepare hidden" id="inspectorPrepareArea">
+<b data-i18n="prepareAreaPrompt">Prepare or expand the directed graph to validate this work point</b>
+<p data-i18n="prepareAreaPromptHelp">FleetRoute extracts roads from the selected regional OSM source and expands the operating area to include the selected location.</p>
+<button class="primary-button" data-i18n="prepareAroundDepot" id="prepareAreaInlineBtn" type="button">Prepare roads around the depot</button>
+</div>
+</aside>
+</div>
+</section>
+<section class="view" id="view-roads">
+<div class="page-head">
+<div>
+<div class="eyebrow">REGIONAL OFFLINE ROAD ENGINE</div>
+<h1 data-i18n="roadsTitle">Prepare the road network for this operating area</h1>
+<p data-i18n="roadsDesc">Build a directed graph from real roads, including direction, speed, access points, and approved closures.</p>
+</div>
+<div class="head-actions"><button class="primary-button" id="buildNetworkBtn" type="button"><span data-i18n="prepareFixedArea">Prepare operating area</span><b>→</b></button></div>
+</div>
+<section class="surface osm-source-hero">
+<div class="osm-source-copy">
+<div class="source-icon">OSM</div>
+<div>
+<span class="section-kicker">REGIONAL ROAD SOURCE</span>
+<h2 id="osmSourceTitle">Choose an operating region</h2>
+<p id="osmSourceMeta">Checking road source…</p>
+<code id="osmStoragePath">—</code>
+</div>
+</div>
+<div class="osm-source-side">
+<span class="status-chip idle" id="osmSourceBadge">Checking</span>
+<div class="source-progress hidden" id="osmSourceProgress"><div><span id="osmSourceProgressText">Preparing…</span><b id="osmSourceProgressPercent">0%</b></div><i><b id="osmSourceProgressBar"></b></i></div>
+<div class="source-actions">
+<button class="primary-button" data-i18n="downloadVerify" id="downloadRegionBtn" type="button">Download and verify</button>
+<button class="secondary-button" data-i18n="checkStatus" id="refreshOsmStatusBtn" type="button">Check status</button>
+<button class="text-button danger" data-i18n="deleteFile" id="deleteOsmSourceBtn" type="button">Delete file</button>
+</div>
+</div>
+</section>
+<div class="osm-setup-steps" id="osmSetupSteps"></div>
+<div class="metric-grid" id="roadMetrics"></div>
+<div class="roads-grid roads-grid-v2">
+<section class="surface road-settings">
+<div class="surface-header"><div><span class="section-kicker">OPERATING AREA</span><h2 data-i18n="operatingGraphTitle">Directed road graph</h2></div><span class="status-chip idle" data-i18n="notPrepared" id="networkReadyChip">Not prepared</span></div>
+<p class="helper" data-i18n="operatingGraphDesc">Extract the area around the depot and reuse it for later routing runs.</p>
+<div class="operating-presets" id="operatingPresets">
+<button data-radius="6000" type="button"><b data-i18n="presetCity">City</b><small data-i18n="presetCityHelp">6 km · fast</small></button>
+<button class="active" data-radius="8000" type="button"><b>Urban</b><small>8 km · default</small></button>
+<button data-radius="12000" type="button"><b data-i18n="presetMetro">Metro</b><small data-i18n="presetMetroHelp">12 km · broader</small></button>
+<button data-radius="25000" type="button"><b data-i18n="presetRegion">Regional</b><small data-i18n="presetRegionHelp">25 km · heavier</small></button>
+</div>
+<input id="operatingRadius" type="hidden" value="8000"/>
+<input id="networkMargin" type="hidden" value="1200"/>
+<input id="snapMax" type="hidden" value="350"/>
+<input id="networkType" type="hidden" value="drive"/>
+<input id="networkScope" type="hidden" value="regional_offline"/>
+<div class="preset-explainer"><i>✓</i><div><b data-i18n="fixedAreaTitle">Operating area around the depot</b><small data-i18n="fixedAreaDesc">Add work points inside the prepared area without rebuilding the directed graph.</small></div></div>
+<div class="network-checklist" id="networkChecklist"></div>
+<div class="surface-actions"><button class="secondary-button" data-i18n="saveSettings" id="saveRoadSettingsBtn" type="button">Save settings</button><button class="secondary-button" data-i18n="showRoadLayer" id="showNetworkLayerBtn" type="button">Show road layer</button></div>
+</section>
+<section class="surface road-map-card">
+<div class="surface-header road-map-header"><div><span class="section-kicker">DIRECTED ROUND-TRIP GRAPH</span><h2 data-i18n="roadGraphPreview">Road-network preview</h2><p>Inspect road hierarchy, operating speeds, directionality, and closure impact on the exact active graph.</p></div><div class="road-map-actions"><div class="segmented road-style-segmented"><button class="active" data-i18n="roadClass" data-road-style="class" type="button">Road class</button><button data-i18n="speed" data-road-style="speed" type="button">Speed</button><button data-i18n="oneWay" data-road-style="oneway" type="button">One-way</button></div><button aria-expanded="false" aria-haspopup="menu" aria-label="Choose map style" class="map-header-button" id="roadMapStyleBtn" title="Choose map style" type="button"><span aria-hidden="true">◫</span><b id="roadMapStyleLabel">Navigation</b></button><button class="map-header-button" id="fitRoadsBtn" type="button"><span aria-hidden="true">⌖</span><b>Fit graph</b></button></div></div>
+<div class="map map-operational" id="roadsMap"></div>
+<div class="map-legend map-legend-v2 road-map-legend" id="roadMapLegend" aria-live="polite"></div>
+<div class="road-map-density hidden" id="roadMapDensity"></div>
+</section>
+<section class="surface access-table-card">
+<div class="surface-header"><div><span class="section-kicker">ROAD ACCESS CONTRACT</span><h2 data-i18n="stopRoadAccess">Road access for every work point</h2></div><button class="text-button" data-go="plan" data-i18n="editStops" type="button">Edit work points</button></div>
+<div class="data-table-wrap" id="accessTable"></div>
+</section>
+<section class="surface incident-card-panel">
+<div class="surface-header"><div><span class="section-kicker">EDGE CLOSURE CONTROL</span><h2 data-i18n="closureCommand">Road-closure command</h2></div><button class="secondary-button" id="selectClosureEdgeBtn" type="button"><span data-i18n="selectClosedRoad">Select a closed road segment</span></button></div>
+<p class="helper" data-i18n="closureHelp">Press the button and click the road line. FleetRoute highlights the exact segment before a report is submitted—it is not a node report.</p>
+<div class="incident-list" id="closureList"></div>
+</section>
+</div>
+</section>
+<section class="view" id="view-clustering">
+<div class="page-head">
+<div><div class="eyebrow">CLUSTERING LAB</div><h1 data-i18n="clusterTitle">Clustering for optimizer warm starts</h1><p data-i18n="clusterDesc">Compare Road Savings, Network K-medoids, Sweep, and Sparse Spectral using coverage, capacity, overload, runtime, and input SHA-256.</p></div>
+<div class="head-actions"><button class="primary-button" id="runClusterBenchmarkBtn" type="button"><span data-i18n="benchmarkAll">Benchmark every method</span><b>→</b></button></div>
+</div>
+<div class="metric-grid" id="clusterMetrics"></div>
+<div class="cluster-layout">
+<section class="surface method-selector-card">
+<div class="surface-header"><div><span class="section-kicker">STARTING ROUTE GROUPING</span><h2 data-i18n="chooseClusterMethod">Choose starting route grouping</h2></div></div>
+<div class="method-cards" id="clusterMethodCards"></div>
+<label class="strict-toggle"><input id="clusterStrict" type="checkbox"/><span><b data-i18n="strictMode">Strict clustering</b><small data-i18n="strictModeHelp">Stop when the selected method fails assignment validation. The native route gate always falls back safely.</small></span></label>
+<div class="cluster-actions">
+<button class="primary-button full" data-i18n="testSelectedCluster" id="testSelectedClusterBtn" type="button">Test selected method</button>
+<button class="secondary-button full" data-i18n="saveClusterPolicy" id="saveClusterPolicyBtn" type="button">Save clustering policy</button>
+</div>
+</section>
+<section class="surface cluster-preview-card">
+<div class="surface-header"><div><span class="section-kicker">SELECTED PARTITION</span><h2 data-i18n="clusterPreview">Latest cluster partition</h2></div><span class="status-chip idle" id="clusterValidationChip">No result</span></div>
+<div class="cluster-safety-banner pending" id="clusterSafetyBanner"></div>
+<div aria-live="polite" class="analysis-receipt compact neutral" id="clusterInputReceipt"></div>
+<div class="image-stage empty-state" id="clusterPreview"></div>
+<div class="attempt-list" id="clusterAttempts"></div>
+</section>
+<section class="surface benchmark-scorecard span-2">
+<div class="surface-header"><div><span class="section-kicker">NOTEBOOK BENCHMARK</span><h2 data-i18n="methodScorecard">Runtime, proxy cost, balance, and feasibility scorecard</h2></div><div class="surface-actions"><a class="text-button disabled" data-i18n="downloadZip" aria-disabled="true" tabindex="-1" id="clusterBenchmarkDownload">Download ZIP</a></div></div>
+<div aria-live="polite" class="analysis-receipt neutral" id="clusterBenchmarkReceipt"></div>
+<div class="data-table-wrap" id="clusterBenchmarkTable"></div>
+<div class="figure-grid" id="clusterFigureGallery"></div>
+</section>
+</div>
+</section>
+<section class="view" id="view-optimize">
+<div class="optimize-hero">
+<div><div class="eyebrow">VALIDATED FLEET OPTIMIZATION</div><h1 data-i18n="optimizeTitle">Prepare an initial plan, then let the optimizer search for a better route</h1><p data-i18n="optimizeDesc">Follow clustering, initial-plan construction, optimizer search, validation, convergence, and logs in one workspace.</p></div>
+<button class="optimize-launch" id="optimizeNowBtn" type="button"><span data-i18n="optimizeNow">Start optimizer</span><small data-i18n="fullPipeline">Prepare → search → validate → apply</small><b>→</b></button>
+</div>
+<section aria-live="polite" class="optimization-state-banner empty" id="optimizationStateBanner">
+<div class="optimization-state-icon">◇</div>
+<div><span>ROUTE STATE</span><h2 id="optimizationStateTitle">Optimization has not started</h2><p id="optimizationStateDetail">Prepare a valid initial plan, then let the optimizer search for a better route.</p></div>
+<div class="optimization-state-facts" id="optimizationStateFacts"></div>
+</section>
+<div class="metric-grid" id="optimizeMetrics"></div>
+<div class="optimize-layout">
+<section class="surface pipeline-card">
+<div class="surface-header"><div><span class="section-kicker">LIVE PIPELINE</span><h2 data-i18n="pipelineStatus">Optimization progress</h2></div><span class="status-chip idle" id="jobStatusChip">Idle</span></div>
+<div class="optimizer-preflight" id="optimizerPreflight"></div>
+<div class="pipeline" id="pipeline"></div>
+<div class="optimizer-live-trace" id="optimizerLiveTrace">
+<div class="optimizer-trace-head"><div><span class="section-kicker">ENGINE MONITOR</span><b id="optimizerTraceTitle">No optimizer run yet</b></div><span class="status-chip idle">READY</span></div>
+<div class="optimizer-run-summary">
+<span class="optimizer-trace-icon" id="optimizerTraceIcon">◇</span>
+<div><b id="optimizerTraceSummary">Your routing workflow is ready when the plan and road checks are complete.</b><small id="optimizerTraceDetail">Start optimization above. Live progress appears here as soon as the routing engine launches.</small></div>
+</div>
+<div aria-label="Search budget used" class="optimizer-budget-track hidden" id="optimizerBudgetTrack"><i><b id="optimizerBudgetBar"></b></i><span id="optimizerBudgetLabel">0%</span></div>
+<div class="optimizer-trace-metrics"></div>
+<section aria-label="Validated live global-best convergence" class="optimizer-live-convergence" id="optimizerLiveConvergence">
+<header><div><span class="section-kicker">VALIDATED INCUMBENT</span><b>Live global-best convergence</b></div><span id="optimizerCurveMeta">Waiting for the first feasible incumbent</span></header>
+<div class="optimizer-live-chart"><svg aria-label="Live global best objective over solver elapsed time" id="optimizerLiveCurve" preserveAspectRatio="none" role="img" viewBox="0 0 520 148"></svg></div>
+<small>Only process-wide incumbents that already passed the native hard-feasibility gate are plotted. The line is not an estimate of search quality.</small>
+</section>
+<section aria-label="Live solver process streams" class="optimizer-technical-streams always-visible" id="optimizerTechnicalStreams">
+<header class="optimizer-stream-heading"><span><b>Live routing streams</b><small>progress, warnings, and diagnostics remain available throughout the run</small></span><span id="optimizerStreamSummary">0 B captured</span></header>
+<div class="optimizer-stream-grid">
+<section class="optimizer-stream-pane"><header><div><b>DIAGNOSTICS</b><small>live telemetry, warnings, and routing diagnostics</small></div><span id="optimizerStderrBytes">0 B</span></header><pre class="optimizer-stderr-text">No diagnostics captured.</pre></section>
+<section class="optimizer-stream-pane"><header><div><b>SOLVER RESULT · STDOUT</b><small>route result and solver summary</small></div><span id="optimizerStdoutBytes">0 B</span></header><pre class="optimizer-stdout-text">No solver result captured.</pre></section>
+</div>
+<small class="optimizer-trace-note">Complete process evidence is available in Evidence &amp; Logs.</small>
+</section>
+</div>
+<div class="surface-actions"><button class="secondary-button" data-i18n="openDetailedLog" id="viewCurrentLogBtn" type="button">Open detailed log</button><button class="secondary-button" data-i18n="rerunCurrentGraph" id="rerunCurrentGraphBtn" type="button">Rerun on current graph</button></div>
+</section>
+<section class="surface operating-profile">
+<div class="surface-header optimizer-setup-header"><div><span class="section-kicker">OPTIMIZER SETUP</span><h2 data-i18n="operatingSettings">Basic route settings</h2><p>Only the controls normally needed before a run stay visible. Expert controls and reproducibility options are available below when required.</p></div><button class="primary-button compact-save" data-i18n="save" id="saveSolverSettingsBtn" type="button">Save settings</button></div>
+<div class="resolved-fleet-contract" id="resolvedFleetContract"></div>
+<div class="optimizer-basic-shell">
+<div class="settings-section-head optimizer-basic-head"><div><span class="section-kicker">RUN ESSENTIALS</span><b>Fleet, departure, and compute budget</b><small>These are the normal settings most users should review before pressing Optimize.</small></div><span class="draft-state saved" id="optimizerSaveState">Saved</span></div>
+<div class="form-grid optimizer-essential-grid">
+<label class="essential-field"><span data-i18n="trucks">Maximum trucks</span><input aria-describedby="optimizerValidationMessage" id="trucks" max="500" min="1" type="number" value="4"/><small>Availability ceiling; the optimizer may use fewer.</small></label>
+<label class="essential-field"><span data-i18n="capacity">Capacity per truck</span><input aria-describedby="optimizerValidationMessage" id="capacity" min="1" step="any" type="number" value="100"/><small>Hard load capacity per trip; use the same units as demand.</small></label>
+<label class="essential-field essential-accent"><span data-i18n="routeStart">Fleet departure time</span><input aria-describedby="optimizerValidationMessage" id="routeStartTime" required="" step="60" type="time" value="08:00"/><small data-i18n="routeStartHelp">Start of the route clock for travel, waiting, and service.</small></label>
+<label class="essential-field essential-accent"><span data-i18n="hardLimit">Maximum runtime (seconds)</span><input aria-describedby="optimizerValidationMessage" id="hardTime" max="7200" min="5" type="number" value="30"/><small>The optimizer will not intentionally search beyond this budget.</small></label>
+<label class="essential-field"><span data-i18n="parallelInstances">Maximum parallel workers</span><input aria-describedby="optimizerValidationMessage" id="instances" max="32" min="1" type="number" value="6"/><small id="instancesPolicyHelp">Independent search workers; the active problem size may cap the effective count.</small></label>
+<label class="essential-field"><span data-i18n="objective">Optimize for</span><select id="objective"><option value="distance">Shortest distance</option><option value="time">Shortest operating duration</option><option value="hybrid">Balanced distance + duration</option></select><small>Ranks feasible alternatives; it never relaxes hard constraints.</small></label>
+</div>
+<p aria-live="polite" class="field-validation-message hidden" id="optimizerValidationMessage"></p>
+<div class="optimizer-route-rules">
+<div class="route-rules-copy"><span class="section-kicker">ROUTE RULES</span><b>Operational constraints</b><small>Change these only when they describe how the fleet is actually allowed to operate.</small></div>
+<div class="route-rule-controls">
+<label class="check-label compact-rule"><input checked="" id="useTW" type="checkbox"/><span><b data-i18n="enforceTW">Enforce time windows</b><small>Respect saved service windows.</small></span></label>
+<label class="check-label compact-rule"><input id="multiTrip" type="checkbox"/><span><b data-i18n="allowMultiTrip">Allow multi-trip</b><small>Permit depot returns and another trip.</small></span></label>
+<label class="conditional-setting compact-trip-field" id="maxTripsField"><span data-i18n="maxTrips">Maximum trips per truck</span><input disabled="" id="maxTrips" max="12" min="1" type="number" value="3"/><small data-i18n="maxTripsHelp">Only used when multi-trip is on.</small></label>
+</div>
+</div>
+</div>
+<details class="advanced solver-advanced-real" id="advancedSolverPanel">
+<summary><span><b>Advanced solver settings</b><small>Warm-start clustering, random seed, convergence capture, and expert engine controls</small></span><span class="advanced-count" id="advancedOverrideCount">No overrides</span></summary>
+<div class="advanced-intro"><b>Most users can leave this closed.</b> These controls change initialization, reproducibility, or analysis—not the normal fleet/departure/runtime setup above.</div>
+<div aria-live="polite" class="optimizer-auto-policy" id="optimizerAutoPolicy"></div>
+<div class="advanced-operational-section">
+<div><span class="section-kicker">REPRODUCIBILITY &amp; EVIDENCE</span><b>Optional run instrumentation</b></div>
+<div class="form-grid two advanced-operational-grid">
+<label><span data-i18n="clustering">Warm-start clustering</span><select id="clustering"><option value="auto">Auto · validated fallback</option><option selected="" value="none">None</option><option value="road_savings">Road Savings</option><option value="network_kmedoids">Network K-medoids</option><option value="sweep">Sweep</option><option value="road_spectral_sparse">Sparse Road Spectral</option><option value="road_spectral_lite">Road Spectral Lite</option><option value="round_robin">Round Robin</option></select><small>Optional starting grouping only; the final route still passes the independent route validator.</small></label>
+<label><span>Random seed</span><input aria-describedby="optimizerValidationMessage" id="seed" max="4294967295" min="0" step="1" type="number" value="777"/><small>Keep the seed fixed when comparing otherwise identical runs.</small></label>
+<label class="check-label"><input id="runConvergence" type="checkbox"/><span><b data-i18n="generateEvidence">Build convergence report</b><small>After a successful run, turn the always-captured convergence log into charts and integrity checks. Raw solver telemetry is captured regardless.</small></span></label>
+</div>
+</div>
+<div class="advanced-toolbar hidden research-only" id="researchAdvancedToolbar">
+<label class="advanced-search"><span>Find setting</span><input id="advancedSolverSearch" placeholder="candidate, LNS, tabu, time window…" type="search"/></label>
+<label class="advanced-overrides-only"><input id="advancedOverridesOnly" type="checkbox"/><span>Overrides only</span></label>
+<button class="secondary-button" id="resetAdvancedSolverBtn" type="button">Reset advanced overrides</button>
+</div>
+<div class="advanced-solver-fields hidden research-only" id="advancedSolverFields"></div>
+<details class="raw-flags-panel hidden research-only" id="researchRawFlagsPanel">
+<summary><b>Expert raw flags</b><small>Validated fallback for bundled flags not exposed above</small></summary>
+<label class="wide"><span data-i18n="extraSolverFlags">Extra validated solver flags</span><textarea id="extraSolverArgs" placeholder="--route_pair_diag_top 12 --boundary_prioritized_top_pairs 8" rows="5" spellcheck="false"></textarea><small data-i18n="extraSolverHelp">Only flags recognized by the routing engine are accepted. Shell operators and managed output paths are rejected.</small></label>
+</details>
+<div class="command-preview-card"><div><span class="section-kicker">EXACT EXECUTION</span><b data-i18n="commandPreview">Exact command to run</b></div><pre id="solverCommandPreview">Press “Validate command” to preview.</pre><div class="surface-actions"><button class="secondary-button" data-i18n="validateCommand" id="validateSolverCommandBtn" type="button">Validate command</button></div></div>
+</details>
+</section>
+</div>
+</section>
+<section class="view" id="view-analytics">
+<div class="page-head">
+<div><div class="eyebrow">CONVERGENCE &amp; SEARCH DIAGNOSTICS</div><h1 data-i18n="analyticsTitle">See how the optimizer improved the route over time</h1><p data-i18n="analyticsDesc">Review best-so-far objective, late-run detail, worker comparison, search temperature, acceptance, and stagnation from the recorded optimization trace.</p></div>
+<div class="head-actions"><button class="primary-button" id="buildConvergenceBtn" type="button"><span>Build / rebuild figures</span><b>↻</b></button><a class="secondary-button disabled" data-i18n="downloadConvergence" aria-disabled="true" tabindex="-1" id="convergenceZipBtn">Download Convergence Report</a></div>
+</div>
+<div aria-live="polite" class="analysis-receipt neutral" id="convergenceReceipt"></div>
+<div class="metric-grid" id="analyticsMetrics"></div>
+<div class="analytics-grid">
+<section class="surface convergence-chart-card span-2">
+<div class="surface-header"><div><span class="section-kicker">GLOBAL BEST-SO-FAR</span><h2 data-i18n="convergenceCurve">Primary convergence curve</h2></div><div class="segmented"><button class="active" data-i18n="fullRun" id="chartFullBtn" type="button">Full run</button><button data-i18n="lateZoom" id="chartZoomBtn" type="button">Late zoom</button></div></div>
+<div class="chart-stage"><canvas id="convergenceChart"></canvas><div class="empty-state hidden" id="noConvergence"></div></div>
+</section>
+<section class="surface integrity-card">
+<div class="surface-header"><div><span class="section-kicker">INTEGRITY CHECKS</span><h2 data-i18n="convergenceChecks">Log integrity checks</h2></div></div>
+<div class="check-list" id="convergenceChecks"></div>
+</section>
+<section class="surface worker-card">
+<div class="surface-header"><div><span class="section-kicker">PARALLEL SEARCH</span><h2 data-i18n="workerComparison">Worker comparison</h2></div></div>
+<div class="chart-stage small"><canvas id="workerChart"></canvas></div>
+</section>
+<section class="surface figure-gallery-card span-2">
+<div class="surface-header"><div><span class="section-kicker">ANALYSIS FIGURES</span><h2 data-i18n="notebookFigures">Optimization analysis figures</h2></div></div>
+<div class="figure-grid" id="convergenceFigures"></div>
+</section>
+</div>
+</section>
+<section class="view" id="view-dispatch">
+<div class="page-head">
+<div><div class="eyebrow">DISPATCH &amp; DRIVER SUPPORT</div><h1 data-i18n="dispatchTitle">Published fleet plan, driver manifests, and field incidents</h1><p data-i18n="dispatchDesc">Review every truck sequence, open a live Driver Manifest, replay schedule-aware planned movement, or export offline HTML manifests.</p></div>
+<div class="head-actions"><a class="secondary-button" data-i18n="truckSimulation" href="/simulation" id="simulationBtn" rel="noopener" target="_blank">Planned-route simulation</a><a class="primary-button" href="/api/export/driver-package" id="driverPackageBtn"><span data-i18n="allTruckHtml">Export all driver manifests</span><b>↓</b></a></div>
+</div>
+<div aria-live="polite" class="dispatch-plan-state empty" id="dispatchPlanState"></div>
+<div class="metric-grid" id="dispatchMetrics"></div>
+<div class="dispatch-layout">
+<section class="surface fleet-map-card span-2">
+<div class="surface-header fleet-map-header"><div><span class="section-kicker">PUBLISHED FLEET PLAN</span><h2 data-i18n="fleetMap">All truck routes</h2><p>Each truck keeps a distinct color from map to route card. Initial plans are dashed; validated plans are solid.</p></div><div class="surface-actions map-surface-actions"><button aria-expanded="false" aria-haspopup="menu" aria-label="Choose map style" class="map-header-button" id="dispatchMapStyleBtn" title="Choose map style" type="button"><span aria-hidden="true">◫</span><b id="dispatchMapStyleLabel">Navigation</b></button><button class="text-button" data-i18n="showAll" id="showAllRoutesBtn" type="button">Show all trucks</button></div></div>
+<div class="map map-operational" id="routesMap"></div>
+<div class="dispatch-route-legend" id="dispatchRouteLegend" aria-label="Truck route legend"></div>
+</section>
+<section class="surface workload-card">
+<div class="surface-header"><div><span class="section-kicker">WORKLOAD</span><h2 data-i18n="routeWorkload">Route workload</h2></div></div>
+<div class="chart-stage small"><canvas id="routeChart"></canvas></div>
+</section>
+<section class="surface package-card">
+<div class="surface-header"><div><span class="section-kicker">EVIDENCE PACKAGE</span><h2 data-i18n="downloadEvidence">Download run evidence</h2></div></div>
+<p data-i18n="evidenceDesc">Input, dataset, clustering, solver output, convergence, route JSON, and analysis figures.</p>
+<a class="primary-button full" href="/api/export/run-evidence"><span data-i18n="downloadRunZip">Download Run Evidence ZIP</span><b>↓</b></a>
+</section>
+</div>
+<div class="route-grid" id="routeCards"></div>
+</section>
+<section class="view" id="view-developer">
+<div class="page-head">
+<div><div class="eyebrow">ROUTING RUNTIME INSPECTOR</div><h1 data-i18n="developerTitle">Inspect the routing inputs, command contract, and returned evidence</h1><p data-i18n="developerDesc">Inspect materialized inputs, SHA-256 identities, the routing command contract, process streams, and evidence files from the same runtime.</p></div>
+<div class="head-actions"><button class="secondary-button" data-i18n="refresh" id="devRefreshBtn" type="button">Refresh</button></div>
+</div>
+<div class="metric-grid" id="devMetrics"></div>
+<div class="developer-layout">
+<section class="surface developer-contract-card">
+<div class="surface-header"><div><span class="section-kicker">INPUT CONTRACT</span><h2 data-i18n="developerContract">Pre-routing input contract checks</h2></div><span class="status-chip idle" id="devContractBadge">—</span></div>
+<div class="developer-checks" id="devContractChecks"></div>
+</section>
+<section class="surface developer-command-card">
+<div class="surface-header"><div><span class="section-kicker">EXACT INVOCATION</span><h2 data-i18n="developerCommand">Exact command and stdin handoff</h2></div><button class="text-button" id="devCopyCommandBtn" type="button">Copy</button></div>
+<pre class="developer-command" id="devCommand">—</pre>
+<div class="developer-command-meta" id="devCommandMeta"></div>
+<details class="technical-details developer-settings"><summary data-i18n="developerSettings">Effective backend settings</summary><pre class="developer-settings-json" id="devSettings">{}</pre></details>
+</section>
+<section class="surface developer-files-card">
+<div class="surface-header"><div><span class="section-kicker">RUNTIME FILES</span><h2 data-i18n="developerFiles">Files used by FleetRoute and the solver</h2></div></div>
+<div class="developer-file-list" id="devFileList"></div>
+</section>
+<section class="surface developer-preview-card">
+<div class="surface-header"><div><span class="section-kicker">BYTE PREVIEW</span><h2 data-i18n="developerSelectFile" id="devSelectedFile">Select a file to inspect</h2><p id="devFileMeta"></p></div><div class="developer-preview-actions"><a class="text-button hidden" download="" href="#" id="devDownload">Download</a><button class="text-button" id="devCopyFileBtn" type="button">Copy</button></div></div>
+<div class="developer-semantics" id="devStreamSemantics"></div>
+<pre class="developer-preview" id="devFilePreview">No file selected.</pre>
+<button class="secondary-button full hidden" data-i18n="developerLoadMore" id="devLoadMoreBtn" type="button">Load next chunk</button>
+</section>
+</div>
+</section>
+<section class="view" id="view-activity">
+<div class="page-head">
+<div><div class="eyebrow">AUDITABLE OPERATIONS</div><h1 data-i18n="activityTitle">Readable run history with raw process evidence when needed</h1><p data-i18n="activityDesc">Every job includes a visual timeline, runtime, artifacts, warnings, and separately inspectable process streams for technical review.</p></div>
+<div class="head-actions"><button class="secondary-button" data-i18n="refresh" id="refreshBtn" type="button">Refresh</button></div>
+</div>
+<div class="activity-layout">
+<section class="surface job-list-card"><div class="surface-header"><div><span class="section-kicker">RUN HISTORY</span><h2 data-i18n="optimizationRuns">Optimization runs</h2></div></div><div class="job-list" id="jobsList"></div></section>
+<section class="surface log-detail-card"><div class="surface-header"><div><span class="section-kicker">STRUCTURED LOG</span><h2 data-i18n="selectRun" id="selectedJobTitle">Select a run</h2><p id="selectedJobMeta"></p></div><div class="log-source-actions"><button class="text-button" data-i18n="showRawLog" id="openConsoleBtn" type="button">Open process console</button><button class="hidden" id="toggleRawLogBtn" type="button"></button></div></div><div class="visual-log" id="visualLog"></div><section aria-hidden="true" class="console-drawer hidden" id="consoleDrawer"><div class="console-toolbar"><div aria-label="Log source" class="segmented" id="logSourceSwitch" role="group"><button class="active" id="logSourceAuditBtn" type="button">ACTIVITY</button><button id="logSourceStderrBtn" type="button">DIAGNOSTICS</button><button id="logSourceStdoutBtn" type="button">SOLVER RESULT</button><button id="logSourceRawBtn" type="button">COMBINED RAW</button></div><div class="console-actions"><button aria-pressed="true" class="text-button active" id="followConsoleBtn" type="button">Following</button><button aria-pressed="true" class="text-button active" id="wrapConsoleBtn" type="button">Wrap</button><button class="text-button" id="copyConsoleBtn" type="button">Copy</button><button aria-label="Close console" class="icon-button" id="closeConsoleBtn" type="button">×</button></div></div><div class="log-source-notice" id="logSourceNotice"></div><pre class="raw-log" id="jobLog" tabindex="0"></pre></section></section>
+<section class="surface route-version-card"><div class="surface-header"><div><span class="section-kicker">IMMUTABLE ROUTES</span><h2 data-i18n="routeVersions">Route versions</h2></div></div><div class="version-list" id="versionList"></div></section>
+<section class="surface audit-card"><div class="surface-header"><div><span class="section-kicker">ACTIVITY HISTORY</span><h2 data-i18n="auditTimeline">Activity timeline</h2></div></div><div class="audit-list" id="eventsList"></div></section>
+</div>
+</section>
+</main>
+</div>
+</div>
+<div aria-labelledby="placeModalTitle" aria-modal="true" class="modal-backdrop hidden" id="placeModal" role="dialog">
+<div class="modal-card place-modal">
+<div class="modal-header"><div><span class="section-kicker" id="placeModalKicker">ROAD-VALIDATED LOCATION</span><h2 id="placeModalTitle">Add work point</h2></div><button aria-label="Close dialog" data-close-modal="" type="button">×</button></div>
+<div class="modal-content">
+<div class="access-preview" id="accessPreviewCard"></div>
+<input id="modalPlaceId" type="hidden"/>
+<div class="form-grid two">
+<label class="wide"><span data-i18n="placeName">Place name</span><input id="modalName"/></label>
+<label class="wide"><span data-i18n="address">Address</span><input id="modalAddress"/></label>
+<label><span data-i18n="demand">Demand</span><input id="modalDemand" min="0" type="number" value="10"/></label>
+<label><span data-i18n="serviceMinutes">Service (minutes)</span><input id="modalService" min="0" type="number" value="10"/></label>
+<label><span data-i18n="earliest">Earliest</span><input id="modalEarliest" type="time" value="08:00"/></label>
+<label><span data-i18n="latest">Latest</span><input id="modalLatest" type="time" value="18:00"/></label>
+</div>
+<details class="technical-details"><summary data-i18n="technicalRoadEvidence">Technical road-access evidence</summary><pre id="accessTechnical"></pre></details>
+</div>
+<div class="modal-actions"><button class="secondary-button" data-close-modal="" data-i18n="cancel" type="button">Cancel</button><button class="secondary-button" data-i18n="setDepot" id="saveDepotBtn" type="button">Set as depot</button><button class="primary-button" data-i18n="addCustomer" id="saveCustomerBtn" type="button">Add work point</button><button class="primary-button hidden" data-i18n="saveChanges" id="updatePlaceBtn" type="button">Save changes</button></div>
+</div>
+</div>
+<div aria-labelledby="closureModalTitle" aria-modal="true" class="modal-backdrop hidden" id="closureModal" role="dialog">
+<div class="modal-card closure-modal">
+<div class="modal-header"><div><span class="section-kicker">ROAD SEGMENT REPORT</span><h2 data-i18n="confirmClosedRoad" id="closureModalTitle">Confirm the closed road segment</h2></div><button aria-label="Close dialog" data-close-closure="" type="button">×</button></div>
+<div class="modal-content">
+<div class="closure-segment-preview" id="closureSegmentPreview"></div>
+<div class="form-grid two">
+<label><span data-i18n="reporter">Reporter</span><input id="closureReporter" value="dispatcher"/></label>
+<label class="check-label"><input checked="" id="closureBothDirections" type="checkbox"/><span data-i18n="blockBothDirections">Block both directions</span></label>
+<label class="wide"><span data-i18n="closureNote">Details</span><textarea id="closureNote" placeholder="e.g. flooding, obstruction, temporary closure" rows="4"></textarea></label>
+</div>
+<details class="technical-details"><summary data-i18n="technicalEdgeIdentity">Technical OSM edge identity</summary><pre id="closureTechnical"></pre></details>
+</div>
+<div class="modal-actions"><button class="secondary-button" data-close-closure="" data-i18n="cancel" type="button">Cancel</button><button class="danger-button" data-i18n="sendClosureReport" id="submitClosureBtn" type="button">Submit road-segment report</button></div>
+</div>
+</div>
+<div aria-labelledby="rushModalTitle" aria-modal="true" class="modal-backdrop hidden" id="rushModal" role="dialog">
+<div class="modal-card rush-modal">
+<div class="modal-header"><div><span class="section-kicker">RUSH WORKFLOW</span><h2 data-i18n="rushTitle" id="rushModalTitle">CSV → validate work points → prepare roads → run the optimizer</h2></div><button aria-label="Close dialog" data-close-rush="" type="button">×</button></div>
+<div class="modal-content">
+<div class="rush-steps"><span>1 CSV</span><i>→</i><span>2 Depot &amp; Roads</span><i>→</i><span>3 Clustering</span><i>→</i><span>4 Optimizer</span></div>
+<label class="file-drop"><input accept=".csv,text/csv" id="rushCsvInput" type="file"/><b data-i18n="chooseRushCsv">Choose CSV file</b><small data-i18n="rushCsvHelp" id="rushCsvMeta">Requires name, lat, lon, and demand, plus one role=depot row or the current depot.</small></label>
+<div class="form-grid two">
+<label><span data-i18n="rushClustering">Warm start</span><select id="rushClustering"><option value="road_savings">Road Savings</option><option value="none">None</option></select></label>
+<label class="check-label"><input checked="" id="rushUseDepot" type="checkbox"/><span data-i18n="useCurrentDepot">Use current depot when CSV has no depot</span></label>
+<label><span data-i18n="trucks">Maximum available trucks</span><input id="rushTrucks" min="1" type="number" value="4"/></label>
+<label><span data-i18n="capacity">Capacity per truck</span><input id="rushCapacity" min="1" type="number" value="100"/></label>
+</div>
+<div class="rush-validation" id="rushValidation"></div>
+</div>
+<div class="modal-actions"><button class="secondary-button" data-close-rush="" data-i18n="cancel" type="button">Cancel</button><button class="primary-button" data-i18n="runRush" disabled="" id="runRushBtn" type="button">Start rush workflow</button></div>
+</div>
+</div>
+<div aria-labelledby="distanceRiskTitle" aria-modal="true" class="modal-backdrop hidden" id="distanceRiskModal" role="dialog">
+<div class="modal-card distance-risk-modal">
+<div class="modal-header"><div><span class="section-kicker">OPERATING-SPAN CHECK</span><h2 id="distanceRiskTitle">Confirm a large operating span</h2></div><button aria-label="Cancel and close" id="distanceRiskClose" type="button">×</button></div>
+<div class="modal-content"><div class="distance-risk-summary"><span aria-hidden="true">↔</span><div><b id="distanceRiskHeadline">Some work points are unusually distant</b><p id="distanceRiskMessage"></p></div></div><div class="distance-risk-facts" id="distanceRiskFacts"></div><p class="distance-risk-note">Large spans can substantially increase road extraction, pairwise road-cost preparation, and optimization time. Continue only when the operating geography is intentional.</p></div>
+<div class="modal-actions"><button class="secondary-button" id="distanceRiskCancel" type="button">Review plan</button><button class="primary-button" id="distanceRiskContinue" type="button">Continue</button></div>
+</div>
+</div>
+<div aria-labelledby="resultTitle" aria-modal="true" class="modal-backdrop hidden" id="resultModal" role="dialog">
+<div class="modal-card result-modal">
+<div class="result-icon" id="resultIcon">✓</div>
+<div class="modal-content"><span class="section-kicker" id="resultKicker">WORKFLOW COMPLETE</span><h2 id="resultTitle">Completed</h2><p id="resultMessage"></p><div class="result-details" id="resultDetails"></div></div>
+<div class="modal-actions"><button class="secondary-button hidden" id="resultSecondaryBtn" type="button"></button><button class="primary-button" id="resultPrimaryBtn" type="button">OK</button></div>
+</div>
+</div>
+<div aria-labelledby="lightboxCaption" aria-modal="true" class="lightbox hidden" id="imageLightbox" role="dialog"><button aria-label="Close image" id="closeLightbox" type="button">×</button><img alt="Analysis figure" id="lightboxImage"/><div id="lightboxCaption"></div></div>
+<div aria-busy="true" aria-live="polite" class="loading-overlay hidden" id="loadingOverlay" role="status"><div class="loading-card"><i></i><strong id="loadingTitle">Checking road access</strong><p id="loadingDetail">Please wait…</p></div></div>
+<aside aria-label="Live optimization monitor" aria-live="off" class="live-optimizer-dock hidden" id="liveOptimizerDock">
+<header class="live-optimizer-dock-head">
+<span aria-hidden="true" class="live-optimizer-pulse"></span>
+<div><small>LIVE OPTIMIZER</small><b id="liveOptimizerDockTitle">Searching</b></div>
+<div class="live-optimizer-dock-actions"><button aria-label="Minimize live optimizer monitor" id="liveOptimizerDockMinimize" title="Minimize" type="button">−</button><button aria-label="Close live optimizer monitor for this run" id="liveOptimizerDockClose" title="Close for this run" type="button">×</button></div>
+</header>
+<div class="live-optimizer-dock-body">
+<div class="live-optimizer-best"><div><small>GLOBAL BEST</small><strong id="liveOptimizerDockBest">—</strong></div><span id="liveOptimizerDockPhase">Initializing</span></div>
+<div class="live-optimizer-dock-chart"><svg aria-label="Live validated global-best convergence" id="liveOptimizerDockCurve" preserveAspectRatio="none" role="img" viewBox="0 0 340 106"></svg></div>
+<div class="live-optimizer-dock-meta"><span id="liveOptimizerDockMeta">Waiting for a validated incumbent</span><button id="liveOptimizerDockOpen" type="button">Open optimizer</button></div>
+</div>
+</aside>
+<div aria-live="polite" class="toast" id="toast" role="status"><strong></strong><span></span></div>
+<script src="/static/vendor/leaflet/leaflet.js?build=391-geofabrik-redirect"></script>
+<script src="/static/vendor/chart/chart.umd.js?build=391-geofabrik-redirect"></script>
+<script src="/static/ui-utils.js?build=392-usability"></script>
+<script src="/static/app.js?build=610-production-polish"></script>
+</body>
+</html>

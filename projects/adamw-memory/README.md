@@ -29,3 +29,24 @@ Figure 3 from the manuscript: eight independent histories, paired immediate and 
 The supplement preserves saved arrays, experiment receipts, CPU verification utilities, and reconstruction procedures. It supports checking retained results; it does not include every original full training checkpoint or provide a fresh rerun of every neural experiment.
 
 The public manuscript copy corrects the stale conference-template footer that said it was under AISTATS review. The scientific text and results are preserved. The supplied anonymous supplement remains a frozen archive; historical internal filenames do not change the displayed research title.
+
+## Code and CPU verification
+
+Read the [original analysis scripts](source/scripts), [experiment protocols](source/protocols), [dependency records](source/DEPENDENCIES.md) and [study crosswalk](source/STUDY_CROSSWALK.md) directly on GitHub. The 132 exposed source/documentation/configuration files are unchanged archive members. Saved arrays remain in the complete supplement, rather than being replaced by sample data.
+
+From the cloned repository root:
+
+```sh
+python restore_supplements.py
+python -m zipfile -e projects/adamw-memory/supplement.zip build/adamw-evidence
+cd build/adamw-evidence
+python -m pip install -r requirements-cpu.txt
+python scripts/verify_package.py
+python scripts/verify_source_subsets.py
+python scripts/recompute_compact_matching.py
+python scripts/recompute_stage14.py
+```
+
+These checks passed on 10 October 2026: 1,932 package payloads verified, Stage 10/12/13 source subsets authenticated, and the compact matching and eight-history Stage 14 results recomputed. The Stage 14 recomputation matched the saved projection errors exactly and reproduced the interaction-test p-value of **0.14453125**.
+
+This path needs no GPU or Drive account. GPU training and historical checkpoint requirements are documented separately in the original [supplement README](source/README.md); CPU reconstruction does not claim a new neural-training run.

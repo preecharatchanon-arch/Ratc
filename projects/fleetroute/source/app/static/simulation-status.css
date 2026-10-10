@@ -1,0 +1,51 @@
+.hidden {
+  display: none !important;
+}
+
+.sim-actions .connection-state {
+  cursor: pointer;
+}
+
+.sim-actions .connection-state.connecting {
+  color: #f7d28a;
+}
+
+.sim-actions .connection-state.offline {
+  color: #ff9c93;
+  border-color: #ff9c9355;
+}
+
+.connection-notice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 12px;
+  padding: 12px 15px;
+  border: 1px solid #efc6c1;
+  border-left: 4px solid #c8463d;
+  border-radius: 12px;
+  background: #fff1ef;
+  color: #702c27;
+  font-size: 11px;
+}
+
+.connection-notice b,
+.connection-notice span {
+  display: block;
+}
+
+.connection-notice span {
+  margin-top: 2px;
+  color: #8d514b;
+}
+
+.connection-notice button {
+  border: 0;
+  border-radius: 9px;
+  padding: 8px 12px;
+  background: #8f302a;
+  color: #fff;
+  font-weight: 800;
+  cursor: pointer;
+}

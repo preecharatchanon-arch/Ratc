@@ -1,0 +1,74 @@
+{
+  "CPU_VALIDATION.json": {
+    "bytes": 1388,
+    "sha256": "17d53630842c6b0fcdf101428e6406f3ec0516870211a5b3cf4074131c67dff2"
+  },
+  "NEXUS_III_STAGE11_FUNCTIONAL_CONTROL_REALDATA_R1.ipynb": {
+    "bytes": 60960,
+    "sha256": "15a960a29f593ce681bc5319ddc2d61032198ed2eeddf139f7f7b8788dfa88e5"
+  },
+  "PARENT_EVIDENCE.json": {
+    "bytes": 1183,
+    "sha256": "5d249d0e9fcb1b563c16222a61892cbdfbdc37ea6092310829b43b58724319c3"
+  },
+  "PROTOCOL.json": {
+    "bytes": 6278,
+    "sha256": "1012d70def61023669d4e9a5aa1aee42a715599e3a2860e4a09fcc90ef844d48"
+  },
+  "README.md": {
+    "bytes": 4873,
+    "sha256": "2f554c05b8b2e2fbf9e6cfb1be155d4a74ce4bf2a8b872791616b5fd4199e782"
+  },
+  "REAL_BACKBONE_ESTIMATOR_VALIDATION.json": {
+    "bytes": 633,
+    "sha256": "05c01c0d81fa3a382d26be43b912dc2746502d5eb52605690dafe1bf547fce85"
+  },
+  "RELATED_WORK.md": {
+    "bytes": 3187,
+    "sha256": "4bc075c666f60330f59c09b3bfc1cb6050e4361a3aacea06ddb3cc8eab3feedb"
+  },
+  "VALIDATION.json": {
+    "bytes": 1923,
+    "sha256": "3a79be121e420e539b6f1b79276a51ad44a8f1ba417d421ac847de2ed5c95d8a"
+  },
+  "archive_io.py": {
+    "bytes": 6903,
+    "sha256": "f0fa8298291174a2ad06c2d580fb3b1258a2f739285a90a4dae7e7b97905ecfb"
+  },
+  "audit.py": {
+    "bytes": 14747,
+    "sha256": "e0abf551dd7faa90cbac28f9c44b82219f983ca2012b4414f7ecb4714ac78298"
+  },
+  "build_notebook.py": {
+    "bytes": 10378,
+    "sha256": "2882cfb49e964c1161a03b2312c4cf1e91e7cbd322ddbd6a1da7dee03f70e8ae"
+  },
+  "control_math.py": {
+    "bytes": 2913,
+    "sha256": "d5089c1a885a5fd2a3e27d66b7d53f3357bcd4e73cdecc1c93d066bf11204f50"
+  },
+  "models.py": {
+    "bytes": 2786,
+    "sha256": "cedf623a963750ed2c753bac6f542d6537dc40f5c486e5102437a6f3f9cf8f2d"
+  },
+  "operators.py": {
+    "bytes": 4827,
+    "sha256": "c206760155d49aed04c361a5df50a2831aae5736472af32b5801e281e55691f6"
+  },
+  "runner.py": {
+    "bytes": 34211,
+    "sha256": "3ff1ecf6fbd4f7452f725e1384c7d29984d686d847ffdef4d057380b203b0e03"
+  },
+  "test_notebook.py": {
+    "bytes": 2548,
+    "sha256": "40f8e6aec9c7521464d35f12d7047cd6decaf77b475714402bd3dabdc75696e5"
+  },
+  "test_storage.py": {
+    "bytes": 2821,
+    "sha256": "f021ab379e13620f2125c31fcc0c2f9ce828646416abc7e103e86f4562891833"
+  },
+  "test_validation.py": {
+    "bytes": 9013,
+    "sha256": "d78fab1d4db6156961f22fdcfc77132907f63aa599a1992cc3bf536ee4f5a7e6"
+  }
+}

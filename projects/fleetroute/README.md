@@ -17,6 +17,27 @@ FleetRoute develops a routing algorithm into an inspectable application. Real ro
 
 The work extends the NSC 2026 finalist project **ระบบเพิ่มประสิทธิภาพเส้นทางรถเก็บขยะหลายคัน บนโครงข่ายถนนจริงด้วยอัลกอริทึมไฮบริดเมตาฮิวริสติก**. Its [NSC reports and finalist presentation](../nsc-2026/README.md) document Legacy at the regional stage and V31 at the finalist stage. Planner and driver workflows already existed in the finalist application. The subsequent IAAI work expands the Thailand-only PBF workflow to international region selection and strengthens road-data handling, spatial indexing, backend execution, validation, lifecycle management and inspectable evidence around the optimization core.
 
+## Run and inspect
+
+- [Open the application in Google Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/fleetroute/FleetRoute_App.ipynb). Run its two code cells in order and keep the second cell running while using the printed workspace link.
+- [Read the complete application source](source/README.md), [architecture](source/ARCHITECTURE.md), [backend](source/app/engine.py), [directed-road preparation](source/app/offline_osm.py), [spatial graph store](source/app/graph_store.py) and [frontend](source/app/static).
+
+The 49 exposed snapshot files are unchanged copies from the submitted supplement. The notebook's embedded application was independently compared with that snapshot. Launch requires internet access for setup and the temporary tunnel; road-data download is a separate job.
+
+To check the frozen package, run from the cloned repository root:
+
+```sh
+python restore_supplements.py
+python -m zipfile -e projects/fleetroute/supplement.zip build/fleetroute-evidence
+cd build/fleetroute-evidence
+python tools/verify_package.py
+python tools/verify_app_notebook.py
+python tools/verify_parent_benchmark.py
+python tools/recompute_all_common_objectives.py
+```
+
+These checks passed on 10 October 2026: 213 package files verified, application payload/source identity verified, 198 parent command rows checked, and 180 parent-valid routes independently re-scored. This verifies retained evidence; it does not launch a new benchmark or certify current external services.
+
 ## Application and control architecture
 
 ![FleetRoute planned-fleet playback and truck schedule roster](figures/planned-fleet-playback.png)

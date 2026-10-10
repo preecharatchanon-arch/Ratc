@@ -1,0 +1,65 @@
+{
+  "name": "NEXUS Stage13 scale/bank confirmation",
+  "frozen_config": {
+    "datasets": [
+      "CIFAR10",
+      "CIFAR100"
+    ],
+    "seeds": [
+      13000,
+      13001,
+      13002,
+      13003
+    ],
+    "width": 32,
+    "train_steps": 8000,
+    "train_batch": 128,
+    "donor_step": 5600,
+    "future_batch": 32,
+    "future_steps": 64,
+    "horizons": [
+      0,
+      1,
+      4,
+      16,
+      64
+    ],
+    "fit_horizon": 16,
+    "fit_sizes": [
+      64,
+      256
+    ],
+    "heldout_n": 256,
+    "first_n": 128,
+    "response_n": 128,
+    "ranks": [
+      16,
+      64
+    ],
+    "sketch_columns": 128,
+    "sketch_power": 1,
+    "quality_columns": 192,
+    "quality_energy_tolerance": 0.1,
+    "quality_response_tolerance": 0.15,
+    "trace_probes": 128,
+    "relative_displacement": 0.002,
+    "resolution_floor": 2e-05,
+    "derivative_error_max": 0.15,
+    "lr": 0.001,
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "eps": 1e-08,
+    "weight_decay": 0.0005,
+    "checkpoint_train_interval": 1000
+  },
+  "primary": {
+    "dataset": "CIFAR10",
+    "path": 0,
+    "evaluation_horizon": 16,
+    "fit_n": 256,
+    "rank": 16,
+    "contrast": "immediate projection error minus horizon-matched projection error"
+  },
+  "replication": "CIFAR100 analyzed separately",
+  "documentation": "# NEXUS Stage 13: Scale and Fitting-Bank Confirmation\n\n## Run\n1. Open `NEXUS_STAGE13_SCALE_BANK_R1.ipynb` in Colab. Select an **A100 GPU** runtime (40 GB recommended). Other GPU types are unbenchmarked.\n2. Run setup, mount Drive, and upload `NEXUS_STAGE13_CODE_PROTOCOL_R1.zip` when prompted. This ZIP contains source and protocol only; **no embedded weights, base64, or datasets**.\n3. Run the campaign cell. Keep this exact notebook, ZIP, GPU type, and software environment for resume. Rerun the cells after disconnection. A recent lease prevents two simultaneous runs; after a hard disconnect allow 15 minutes for its expiry.\n4. Send back `NEXUS_STAGE13_FINISHED.zip` from `MyDrive/NEXUS/Stage13_ScaleBank_R1`. Checkpoints are progress, not final results. A numerical gate failure intentionally stops and preserves a checkpoint: send the error and checkpoint rather than changing thresholds.\n\nThe notebook does not delete or reorganize prior NEXUS files. Use its fresh Stage13 folder. It downloads official CIFAR files into the Colab runtime, never Drive.\n\n## Scope and runtime\n- CIFAR10 **and** CIFAR100; four fresh training seeds per dataset (13000\u201313003).\n- CIFAR ResNet18 topology, GroupNorm, SiLU, **width32**: 2,797,610 parameters for CIFAR10 / 2,820,740 for CIFAR100. This is a narrower variant, not the standard width64 ResNet18.\n- 8,000 training updates per seed; 41 branches per future path, two paths: **656 branches / 41,984 future updates**, plus 64,000 training updates and matrix-free derivative evaluations.\n- 64 and 256 nested fitting images, independent held-out operators, rank16 primary / rank64 secondary; first-update and 16-update response operators, evaluated at horizons1,4,16,64.\n\n**Budget provisionally 8\u201320 hours on an A100, potentially longer. This is a planning range, not a GPU benchmark.** The first completed unit gives an observed estimate; CIFAR100 and the first seed's numerical qualification cost more. Training and sketch phases print timing/progress. A 10-hour session cap checkpoints cleanly; run again to continue. GPU memory/runtime at default scale has not been tested in this development environment. If memory fails, send the error rather than silently reducing the model or changing batches.\n\n## Storage and recovery\nLarge bases and datasets stay in runtime storage. Drive keeps at most **two committed checkpoint ZIPs**, plus tiny identity/lease files, and one verified final ZIP after completion. Transactional publication may temporarily require a third ZIP. **Reserve about 1.5 GB free** for cumulative results, the active state, directions and publication overhead; actual compressed sizes are printed. Expected final output roughly100\u2013200 MB, not a guaranteed size. No per-step/per-branch model files, `.pt` files or Drive datasets.\n\nTraining checkpoints occur every1,000 steps and at donor/cut milestones. Each completed fit is checkpointed; future-branch progress is checkpointed at roughly15-minute intervals. A hard disconnect can repeat the last uncommitted interval or current fit; in-memory sketch columns are intentionally not saved. Completed units discard model/moment/direction arrays. Final archives retain raw signed response logits, endpoint metrics, role indices, operator sketches, held-out energy samples, hashes, source and configuration. **The final archive cannot replay moment surgery without deterministic retraining**, because full completed states are deliberately omitted. SHA-256 manifests check archive bytes; they do not establish independent experimental replication.\n\n## Why this test\nStage12 found substantially better horizon16 historical-response reconstruction from horizon-matched rather than immediate subspaces, including transfer to an unseen future, but poor long-horizon fidelity and negligible accuracy/NLL changes. Those are partial geometry results, not an optimizer improvement. Stage13 asks whether they persist with a model about38 times larger and a second classification problem, and whether increasing the fitting bank improves independent response fidelity.\n\nThis campaign can strengthen or reject those claims; it does not promise a breakthrough or an AISTATS acceptance. It is neither a new online optimizer nor a demonstration of full-state compression. Published full-state optimizer sensitivity work is closely related. An eventual paper needs a precise contribution relative to that work and should retain all earlier negative findings.\n\n## Frozen inference and validity\nPrimary: CIFAR10, known path0, evaluation horizon16, fit256, rank16; compare immediate versus horizon16-matched subspace using native signed response reconstruction error. CIFAR100 is a separate replication cohort. Unseen path1, fit-bank growth, rank64, and horizons1/4/64 are separate secondary tests. No pooling paths, images, ranks or branches as independent seeds. Each cohort has **n=4 independent histories**. Bootstrap intervals are descriptive; even four positive differences give only a one-sided sign tail of.0625. No broad significance claim or seed selection.\n\nOnly the first path is used to fit the horizon16 oracle. Path1 shares the first calibration update and diverges thereafter. The oracle knows its fitted future; any transfer claim is conditional on that shared first update, not fully unseen training history. Banks are disjoint from ordinary training, each other, and the first calibration update; fit64 is a prefix of fit256. Response images and endpoint test images are disjoint official test subsets. Fitting/held-out banks use logits, not their labels. Endpoint tests are evaluated but never drive tuning or seed exclusion.\n\nExact full-state AdamW tangents/adjoints include Hessian-mediated weight/first-moment/second-moment coupling. **Subspaces are randomized approximations, not exact global PCA.** Use128 range columns and one stabilized power iteration; on the first seed of each dataset, both horizon16 banks are compared against192 columns. Rank16 fitting-energy change must be\u226410%, and projected response difference divided by full tangent response norm\u226415%. Failure stops rather than quietly changing parameters. Rank64 convergence is reported as a diagnostic, not guaranteed. Held-out numerator energies are direct basis-column actions; total operator energy uses128 independent Rademacher trace probes, with approximate trace-uncertainty intervals, never an exact capture denominator.\n\nEarly large-model qualification compares tangent/adjoint duality and full/half-amplitude native central differences. The full campaign repeats derivative checks on the independent128-image response bank. Responses below RMS2e-5 are unresolved, not evidence of correctness or failure. Primary resolved derivative relative error must be\u226415%; failed/unresolved primary checks flag the report even when every branch completed. Finite completion alone is not scientific validity.\n\nAt the frozen cut, minimum endpoint accuracy flags are60% for CIFAR10 and25% for CIFAR100. Every seed is retained; weak training invalidates the planned confirmatory interpretation rather than triggering more training or exclusions. All thresholds are frozen before the run.\n\n## Intervention / training details\nAdamW lr.001, beta(.9,.999), eps1e-8, decoupled decay5e-4, no schedule, clipping, mixed precision, fused/foreach updates, BatchNorm or dropout. GroupNorm avoids hidden running statistics. Native/functional gradients must agree. Deterministic mode, TF32 off; software/GPU identity is bound into checkpoints.\n\nTraining batch128, 8,000 fixed steps; historical donor at5,600. Raw pixels are scaled using fixed `(x/255-.5)/.25` for both datasets. Training/future samples use deterministic with-replacement crop/flip augmentation.4,096 training images are held out for calibration. The first future update uses128 unaugmented calibration images; later future updates use **batch32**, smaller than Stage12's128 to budget Hessian graphs at larger scale. This protocol change limits a direct attribution of differences solely to model size. Response bank128; remaining9,872 official test images provide endpoints. CIFAR100 fit64 contains at most64 classes; class selection is randomized through balanced sampling, not the first64 labels.\n\nOnly the first moment changes: normalized historical displacement `m_cut - m_donor`, amplitude `.002 * ||m_cut||`. Projected and complementary components are not renormalized. Native \u00b1 signs, baseline, half-amplitude full direction, preconditioned current gradient and one per-tensor-norm-matched random control are included. The single random direction is a sanity control, not a random-direction population estimate. Current parameters/second moments/clocks stay fixed. Branch execution verifies identical cut logits and records requested/actual moment hashes and rounding. Centered logits remove the softmax-invariant common shift; all output normalization uses the actual class count.\n\n## Development checks\n`python -m unittest test13 -v` runs independent differentiable-unroll derivative checks, native ResNet finite differences, exact finite-matrix randomized-subspace comparison, 100-class chart checks, and corrupted-checkpoint recovery/final-state exclusion. `python smoke13.py` exercises two tiny synthetic cohorts, all164 branch files, an injected interruption and resume, completed-branch hash preservation, independent analysis, and verified final publication. Synthetic checks are engineering validation only; no CIFAR GPU experiment was executed here.\n\nRandomized-method reference: Halko, Martinsson and Tropp (2011), *Finding Structure with Randomness: Probabilistic Algorithms for Constructing Approximate Matrix Decompositions*, https://authors.library.caltech.edu/records/hy0mc-xmn26 .\n"
+}

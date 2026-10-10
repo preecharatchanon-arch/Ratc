@@ -1,0 +1,1002 @@
+{
+  "env_compat_hash": "408429a53e8c0dd58ea711e5b902f287ddaa91e85712f0cf9d431c5f58f39f32",
+  "files": [
+    {
+      "bytes": 87405,
+      "path": "confirmation/rep_4100_causal_endpoints.npz",
+      "sha256": "b8176f4e56547a5ca54d2331894ebb729d866aa2b71301a00735ced4d1b46bd7"
+    },
+    {
+      "bytes": 774,
+      "path": "confirmation/rep_4100_commit.json",
+      "sha256": "c1d8604e7f541da63f773eca64b6ef5c97895634781bbe37146cffad57335371"
+    },
+    {
+      "bytes": 81705,
+      "path": "confirmation/rep_4100_geometry.parquet",
+      "sha256": "58f2dc524ed45ebafaffa3b900e0bb4284d6e226a8bbfd622e42b04b122e3847"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4100_temporal.parquet",
+      "sha256": "eebf7e427756942fb91480f7ffe1d9b051976e89e3bf055109b82a4befc9efe8"
+    },
+    {
+      "bytes": 87674,
+      "path": "confirmation/rep_4101_causal_endpoints.npz",
+      "sha256": "1b93c2060a2fc153211fe12fc32b3b728a0e0818ab83a6121b7eb8f527b3892f"
+    },
+    {
+      "bytes": 779,
+      "path": "confirmation/rep_4101_commit.json",
+      "sha256": "48a7c94dc7820589ba66132a8898689b9d1a8cead579a56cbb9bd601243b4b61"
+    },
+    {
+      "bytes": 81703,
+      "path": "confirmation/rep_4101_geometry.parquet",
+      "sha256": "450997825231b9617757c7394d421f2ff11febcd81366ac3627234b54c462c71"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4101_temporal.parquet",
+      "sha256": "ae10acc1514055754e60f444fc41c205e06e6675d5b0a3c1067f05d27629d5c4"
+    },
+    {
+      "bytes": 87349,
+      "path": "confirmation/rep_4102_causal_endpoints.npz",
+      "sha256": "91c8e336d280f0cdee8da06dd4522af222b2021861b03d612993bcdba1df6b05"
+    },
+    {
+      "bytes": 780,
+      "path": "confirmation/rep_4102_commit.json",
+      "sha256": "3944bd9a6f3c7f87fe3d5adfb6a897bf8a3b9926c46d38bd591f42dc870af0ce"
+    },
+    {
+      "bytes": 81702,
+      "path": "confirmation/rep_4102_geometry.parquet",
+      "sha256": "73ac7e74b21827ebc1bf23d790534ae681f0c979a51819497777d6b0946d4acd"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4102_temporal.parquet",
+      "sha256": "ca24ec8004c17e22629a8532fc2000d285e4055207f3502ac1872f1781783fb7"
+    },
+    {
+      "bytes": 87641,
+      "path": "confirmation/rep_4103_causal_endpoints.npz",
+      "sha256": "2a11838e4df98f92db42098597452ac2816df40e7065bf16cd136735ddcc729e"
+    },
+    {
+      "bytes": 780,
+      "path": "confirmation/rep_4103_commit.json",
+      "sha256": "20de0d0b3a5953e2c4e2caa057fca9da366fa12916c0c6fbdca2df8451686c1d"
+    },
+    {
+      "bytes": 81707,
+      "path": "confirmation/rep_4103_geometry.parquet",
+      "sha256": "83cd508a943a320b39d917510d712890fedcc9ee866fd7c257b80ed9fbf18600"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4103_temporal.parquet",
+      "sha256": "79304ed5f3c42cf2176672ad55ad267a33e987777397fb9fee76d48b5d6309ef"
+    },
+    {
+      "bytes": 87001,
+      "path": "confirmation/rep_4104_causal_endpoints.npz",
+      "sha256": "a26585c38baffb9cb45fcb2e942415d3bcc704dbb8119171fc4664b3484ecfa2"
+    },
+    {
+      "bytes": 779,
+      "path": "confirmation/rep_4104_commit.json",
+      "sha256": "578b8f19c3cd3a45f829f454c5ed3d6c131e29721f7da076da55d3e39ff8d9f5"
+    },
+    {
+      "bytes": 81704,
+      "path": "confirmation/rep_4104_geometry.parquet",
+      "sha256": "38f842e1e553a08991667b50a254a9a8ad36f9b8fbc4bf8005a638264bf25757"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4104_temporal.parquet",
+      "sha256": "291c3a83d34947ec8fa0d920bd3f29bb6af17a6e98464b1fe2a0d60301964066"
+    },
+    {
+      "bytes": 87301,
+      "path": "confirmation/rep_4105_causal_endpoints.npz",
+      "sha256": "29b58769f2d2eb50b28bd5a17c15e604bcbe6c3317d8803b4bc8a79feff75912"
+    },
+    {
+      "bytes": 779,
+      "path": "confirmation/rep_4105_commit.json",
+      "sha256": "176265ddcb8cb6cb752d481ac4b6c52b8a4b1d6eb5e9ff6a359ed846d0462307"
+    },
+    {
+      "bytes": 81704,
+      "path": "confirmation/rep_4105_geometry.parquet",
+      "sha256": "8827efaee019a5b0d2bae528362aba9e5d52d6e4e19232563bc38aea37135c34"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4105_temporal.parquet",
+      "sha256": "c4e5264dcebf4fc113f33952d7aff3c28ad15f1fd2c8966ca42a0f953e5d8bfe"
+    },
+    {
+      "bytes": 87454,
+      "path": "confirmation/rep_4106_causal_endpoints.npz",
+      "sha256": "4943a83a9ba608e8de6e8672545c7c3d350439176526657a4555bb9673b85b98"
+    },
+    {
+      "bytes": 780,
+      "path": "confirmation/rep_4106_commit.json",
+      "sha256": "f99b5197a77090383805f441797b35024162ee4e938082250d43ed46331d19dc"
+    },
+    {
+      "bytes": 81703,
+      "path": "confirmation/rep_4106_geometry.parquet",
+      "sha256": "1a2b2012b5e9f2fec972b35a6b28cef8d1110a4cd1354d5185ff3553fea5555d"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4106_temporal.parquet",
+      "sha256": "a39c2ef297cf3eb51d8a23e1985952fa367f9d01734058dcc09af1516f50c7b8"
+    },
+    {
+      "bytes": 87440,
+      "path": "confirmation/rep_4107_causal_endpoints.npz",
+      "sha256": "5b6af8745d7dc8171d7cdbafb6a5400d308a99241880d76745de40a865ed5efe"
+    },
+    {
+      "bytes": 780,
+      "path": "confirmation/rep_4107_commit.json",
+      "sha256": "d958e5678c612cfdf352c2a3f86d4c3d4b9e2952aef5dc846401b97a4bfc20a3"
+    },
+    {
+      "bytes": 81706,
+      "path": "confirmation/rep_4107_geometry.parquet",
+      "sha256": "68f10339d2c1da4b07b038e2e46ed2de7193bd91a73ab50bf6e0513b59e346f8"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4107_temporal.parquet",
+      "sha256": "2cc815e99b302dc8dcf100a40a82a5373fa646bc8ba9c9befac14d51503dda32"
+    },
+    {
+      "bytes": 87629,
+      "path": "confirmation/rep_4108_causal_endpoints.npz",
+      "sha256": "1395e635e2c72d0d29b962851084c9541bfd9844f1241274ccc3fc86e0bd1c82"
+    },
+    {
+      "bytes": 780,
+      "path": "confirmation/rep_4108_commit.json",
+      "sha256": "09eb380325501c5d6b210e90fb983af7eeaa0903c60719287e01b918fbf4e593"
+    },
+    {
+      "bytes": 81706,
+      "path": "confirmation/rep_4108_geometry.parquet",
+      "sha256": "038396d8cdb563cc366e14debdcdad8a8e44d0fee934424826c9193ae34c1cc0"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4108_temporal.parquet",
+      "sha256": "1af5cb5b37d1cf4a2f68e6db143f608b33d29f57ebd6fc82501de9bc521fead1"
+    },
+    {
+      "bytes": 87024,
+      "path": "confirmation/rep_4109_causal_endpoints.npz",
+      "sha256": "2a4c80340123a6e3ddde6a700bac9e73bad153233ced91ca46725cf71965dee4"
+    },
+    {
+      "bytes": 779,
+      "path": "confirmation/rep_4109_commit.json",
+      "sha256": "aa41a07c0e46cf9fd933945daa422c50d5adbb698e2a25a79c3f64d493c82183"
+    },
+    {
+      "bytes": 81707,
+      "path": "confirmation/rep_4109_geometry.parquet",
+      "sha256": "43dfea2b9dfcb0585edea81121792930fba9294e4365822a5cfcb6da9aa099dc"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4109_temporal.parquet",
+      "sha256": "491f53a9d90fe62b83feecb0e54a521d7a877c5910a16fa5ff47bba7f482bbe5"
+    },
+    {
+      "bytes": 87565,
+      "path": "confirmation/rep_4110_causal_endpoints.npz",
+      "sha256": "d38767100e03dc7b138789a0871d8f4ded6a485d4f924ea345e114403daa50bd"
+    },
+    {
+      "bytes": 780,
+      "path": "confirmation/rep_4110_commit.json",
+      "sha256": "decc88e78cb28ff22214beea86cd0914b7ddb21694249884ce26dffa77c39b1c"
+    },
+    {
+      "bytes": 81703,
+      "path": "confirmation/rep_4110_geometry.parquet",
+      "sha256": "005befc65679c74a4ed1f23e2f39442f5d248828de596a9e8975d863353421c4"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4110_temporal.parquet",
+      "sha256": "dd718a50fb5a14b63a48e7327283ba480891d780eceea522f897003ccf4d7c64"
+    },
+    {
+      "bytes": 87529,
+      "path": "confirmation/rep_4111_causal_endpoints.npz",
+      "sha256": "52379b2dd791208bac00cebce21ecb22abb95c7eee51e9201ded42a575efcedb"
+    },
+    {
+      "bytes": 779,
+      "path": "confirmation/rep_4111_commit.json",
+      "sha256": "aa07e3c6af231479e3189d86bf2da9ba64470d0699bdac6fca67025284d64dde"
+    },
+    {
+      "bytes": 81703,
+      "path": "confirmation/rep_4111_geometry.parquet",
+      "sha256": "30c31580fbc68b03d12a011af11ad783f05f62b82d9e6d2be6bad2fa95a23f81"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4111_temporal.parquet",
+      "sha256": "d8e00678983df89e8d9cbc27976710ca4c5446f950a10b5ae35b0ac663c33248"
+    },
+    {
+      "bytes": 87490,
+      "path": "confirmation/rep_4112_causal_endpoints.npz",
+      "sha256": "714cc64a5a2825b9e00ef0c9100d3ede1dbec36273d06218f6db4974107ad639"
+    },
+    {
+      "bytes": 780,
+      "path": "confirmation/rep_4112_commit.json",
+      "sha256": "37fd78b9bd1ba0241c896d4a1e4ab151b6ae27aa5147e973059bca197ff3ecba"
+    },
+    {
+      "bytes": 81706,
+      "path": "confirmation/rep_4112_geometry.parquet",
+      "sha256": "5c67ee0baf3ba88bcee13f245eabf6e711e75fae9eec96ee7556cbd0fac98fe6"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4112_temporal.parquet",
+      "sha256": "75a8b173215042fb82bd06f193fb1f1dfb71b758c0d739e85230c2ddf86c3842"
+    },
+    {
+      "bytes": 87490,
+      "path": "confirmation/rep_4113_causal_endpoints.npz",
+      "sha256": "2e8a1f3c1e58d382bd69651ec4674503f79f969a3d868ea678d9d9c39eb758b4"
+    },
+    {
+      "bytes": 779,
+      "path": "confirmation/rep_4113_commit.json",
+      "sha256": "7db306a943a08809b0c3898128b19e74b5b9ed4e9a5ae91c97f39c559a0c7276"
+    },
+    {
+      "bytes": 81703,
+      "path": "confirmation/rep_4113_geometry.parquet",
+      "sha256": "dbbb9f4e95bcb74f99e7f3ec665ff608eedbf6904627b1d7cac5b844d6c301e4"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4113_temporal.parquet",
+      "sha256": "2efc2487b246b56a1e88d6d4001d876756d3f4e4faf96f30514cbb2b8d0dcaa9"
+    },
+    {
+      "bytes": 87692,
+      "path": "confirmation/rep_4114_causal_endpoints.npz",
+      "sha256": "e015c6dfd97dbdfe2904a6dc2449f8fc4b4ef4b28130ba9a4cede63c09e2d46b"
+    },
+    {
+      "bytes": 779,
+      "path": "confirmation/rep_4114_commit.json",
+      "sha256": "76aaa67ba3c16a96a1b57d8d21aceee4bf9b1afa6fb088ab2b3fe9470f8e5992"
+    },
+    {
+      "bytes": 81705,
+      "path": "confirmation/rep_4114_geometry.parquet",
+      "sha256": "791f150bd2fcb5f0f72ef5af9c57e787b7fb07900bfa97a8aeb066faeebe6bb7"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4114_temporal.parquet",
+      "sha256": "1bbc07ed2c206b2239a882536d803be74adab2ab362402f7304c58b89897349f"
+    },
+    {
+      "bytes": 87827,
+      "path": "confirmation/rep_4115_causal_endpoints.npz",
+      "sha256": "8242f1b72daa45370679530d0eff8377b60419eae6cd07ecf882bd8947085662"
+    },
+    {
+      "bytes": 779,
+      "path": "confirmation/rep_4115_commit.json",
+      "sha256": "0cc8b5e2b079fa6d5d834d84eddf94741345fed4ee40f56bc6fc5bc3eccb17fa"
+    },
+    {
+      "bytes": 81705,
+      "path": "confirmation/rep_4115_geometry.parquet",
+      "sha256": "6fcb3c14a59c7f4b80e25c06f1a6ae62316e44b5bd7d2580f3b4b0c04541b305"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4115_temporal.parquet",
+      "sha256": "86dc6335007762050f92dc4859996ef156930ab54044f7018bd286bf7edafd59"
+    },
+    {
+      "bytes": 87701,
+      "path": "confirmation/rep_4116_causal_endpoints.npz",
+      "sha256": "ce34ff07d1319d6bcf0635b3d047fad9e6bbf01fdd122cc1227ac355e3532dac"
+    },
+    {
+      "bytes": 779,
+      "path": "confirmation/rep_4116_commit.json",
+      "sha256": "9d77ae8ae0af05031a3b0de433b3ebcdae564603e34300d8f5c25fb113dfecd8"
+    },
+    {
+      "bytes": 81704,
+      "path": "confirmation/rep_4116_geometry.parquet",
+      "sha256": "6c51a35c7626611a9c407c661469d60c1def99cb91c88b9214140e3ad860d6d4"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4116_temporal.parquet",
+      "sha256": "673f9c255e7c5ae827b1a2b8bbfbe48342f019221f01138e748c9b852d2483f7"
+    },
+    {
+      "bytes": 87673,
+      "path": "confirmation/rep_4117_causal_endpoints.npz",
+      "sha256": "4dbd86ed6cc5dd0ffb468b68da444d0865320cccac4deaa2f2264d7fb58150a9"
+    },
+    {
+      "bytes": 779,
+      "path": "confirmation/rep_4117_commit.json",
+      "sha256": "13cc2bd0c8db9e6a3812f10fa663b53b71b16b2351791beb5bd673eb9872e217"
+    },
+    {
+      "bytes": 81706,
+      "path": "confirmation/rep_4117_geometry.parquet",
+      "sha256": "3480b6351853f7242f706be1218e1abc572bfaa55b4273e42a4d2f8cfeb8752a"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4117_temporal.parquet",
+      "sha256": "a6e4cd3432c1861bb588d5742df50c418945cb1bdd2de71dd29ab865a687111d"
+    },
+    {
+      "bytes": 87716,
+      "path": "confirmation/rep_4118_causal_endpoints.npz",
+      "sha256": "fef44add9b95e2261900326568466c9b351f68d4d3ace573a622afa2d3344a2f"
+    },
+    {
+      "bytes": 780,
+      "path": "confirmation/rep_4118_commit.json",
+      "sha256": "e65826721309ebdfb2b1fa817dc5cc5d893e5e0db98271a3cfec9f651ede7a2d"
+    },
+    {
+      "bytes": 81706,
+      "path": "confirmation/rep_4118_geometry.parquet",
+      "sha256": "5321083384bc93ed6605f32978d386238431c912dabec5d649be2dd10bae65ad"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4118_temporal.parquet",
+      "sha256": "ca21e632f77561607b95b80c3bc77552bdf81a9752fa49d93e704e9a0b074645"
+    },
+    {
+      "bytes": 87472,
+      "path": "confirmation/rep_4119_causal_endpoints.npz",
+      "sha256": "222b4d12fd5840ffffc8284cf086216076dcb7b15dd86fa0f2e894bc33a4967b"
+    },
+    {
+      "bytes": 779,
+      "path": "confirmation/rep_4119_commit.json",
+      "sha256": "80a8076544982c623515d985b864cebb502bb78fab16cd6e2cdf7b26987d26f8"
+    },
+    {
+      "bytes": 81706,
+      "path": "confirmation/rep_4119_geometry.parquet",
+      "sha256": "e6bca7e9c1ba516699caefeb0fc233a156fb81cf5c7bd700eaff286a2fddf346"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4119_temporal.parquet",
+      "sha256": "f6a7de21293349b002d9430491ae5131378d5f9579794f096a642b87ea09ccbe"
+    },
+    {
+      "bytes": 87957,
+      "path": "confirmation/rep_4120_causal_endpoints.npz",
+      "sha256": "77c7ee167e0d56b82ac4748c0c35a6e0769cf0edaefc571430bfc719b81f509e"
+    },
+    {
+      "bytes": 780,
+      "path": "confirmation/rep_4120_commit.json",
+      "sha256": "a396bd6fe2944bddc40bc8a20876646f42a5a17906ac941b46dea138817a390f"
+    },
+    {
+      "bytes": 81706,
+      "path": "confirmation/rep_4120_geometry.parquet",
+      "sha256": "8c84a3e1f36ae54a8f60d7a63c58417b53a23778d7df731a1c62ae4342219617"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4120_temporal.parquet",
+      "sha256": "2184c09c85e9337099d794461a20dad5f5036b1fd8efdf597947d8be8f943504"
+    },
+    {
+      "bytes": 87145,
+      "path": "confirmation/rep_4121_causal_endpoints.npz",
+      "sha256": "9e652d37ab873a111fa28b7d4b95e866c924e0310609c283d396b643b1992e15"
+    },
+    {
+      "bytes": 779,
+      "path": "confirmation/rep_4121_commit.json",
+      "sha256": "bd53170ace86228089fddd6f7026264c215bf04b9eb71d21f3a70a2577b9a1a9"
+    },
+    {
+      "bytes": 81706,
+      "path": "confirmation/rep_4121_geometry.parquet",
+      "sha256": "83cda166c14426e815ec58ba217fc66e42ba763a243b0720149992b14649da48"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4121_temporal.parquet",
+      "sha256": "16f389efa03afec7767774cd4948a56316e3ee1f269e04a0301335c11c804cf5"
+    },
+    {
+      "bytes": 87009,
+      "path": "confirmation/rep_4122_causal_endpoints.npz",
+      "sha256": "3902ec62e62d3c9688f52ebb00fdbec9b5774859146782b81fe825ebf126d57a"
+    },
+    {
+      "bytes": 780,
+      "path": "confirmation/rep_4122_commit.json",
+      "sha256": "382f2233f59acd149b8afaac575f98c4b0a0b366b2e95732de0f9de5e539071d"
+    },
+    {
+      "bytes": 81706,
+      "path": "confirmation/rep_4122_geometry.parquet",
+      "sha256": "baacdf0285085c8fea9ec801d40eb8c25232e8604488e25158c3b7f59c6aba5b"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4122_temporal.parquet",
+      "sha256": "267523466bb66d5b029aad9ac60172db218d330f51b42b54c2c467f61b168a0e"
+    },
+    {
+      "bytes": 87806,
+      "path": "confirmation/rep_4123_causal_endpoints.npz",
+      "sha256": "297919f6182ef1193977360e7c9f0279537462b64df84c0722728c30b004a9c5"
+    },
+    {
+      "bytes": 779,
+      "path": "confirmation/rep_4123_commit.json",
+      "sha256": "1e136d6c9546398fe71a736f52b98dc05464164ceab833a193661a9ac211ab95"
+    },
+    {
+      "bytes": 81706,
+      "path": "confirmation/rep_4123_geometry.parquet",
+      "sha256": "cc34c6e7dd15bdeb38cb13d601aabb42db55f78225cd0e8cb798b245a758350b"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4123_temporal.parquet",
+      "sha256": "f58b7f26a4c08361c3a8d25d6459e4e4b2bd7ee54741e92b4223b40af9450eff"
+    },
+    {
+      "bytes": 87247,
+      "path": "confirmation/rep_4124_causal_endpoints.npz",
+      "sha256": "85a1125e76f12c4fb52f9dd89fed439bb6f2682374846507e336898073ffff04"
+    },
+    {
+      "bytes": 780,
+      "path": "confirmation/rep_4124_commit.json",
+      "sha256": "04e05aaf73f14c4d8125f4acbda955dbd7edcca3a186899004f9110c8e8a1140"
+    },
+    {
+      "bytes": 81707,
+      "path": "confirmation/rep_4124_geometry.parquet",
+      "sha256": "1f087c5b5b1b6765716d28db5d2c61165f3a8ca13b2ae3e9b51a21e017e8a11c"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4124_temporal.parquet",
+      "sha256": "ce3848cf70bbb1ffc45fabd0c24f3ee7af71a4b60060b35120e8ed7afd19f70e"
+    },
+    {
+      "bytes": 87502,
+      "path": "confirmation/rep_4125_causal_endpoints.npz",
+      "sha256": "526822ba2e7b32b0288d533cbd25de3aaae1fd0ad89abc3f81d93ea661bf317f"
+    },
+    {
+      "bytes": 779,
+      "path": "confirmation/rep_4125_commit.json",
+      "sha256": "031af4873e6277beb224624e3fc4270022ad8d168fccecd4568c3a78f777d523"
+    },
+    {
+      "bytes": 81705,
+      "path": "confirmation/rep_4125_geometry.parquet",
+      "sha256": "11b89124d6495a1ce3b670c8b3b317a8dcf8a8580666f32c026a41fb1d891c76"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4125_temporal.parquet",
+      "sha256": "2b7dcb9444b4c21108f21823fa8d67a1db2fa3d04662e203b21a55f039f287dc"
+    },
+    {
+      "bytes": 87575,
+      "path": "confirmation/rep_4126_causal_endpoints.npz",
+      "sha256": "b7af8df7498291ed0b5d220c95c7d055fd25b327da813c0473dde686b8854ee9"
+    },
+    {
+      "bytes": 779,
+      "path": "confirmation/rep_4126_commit.json",
+      "sha256": "eed0a36a07d16f91e3287908d225dc92417233cb9c61884c42422b1e519ccf24"
+    },
+    {
+      "bytes": 81706,
+      "path": "confirmation/rep_4126_geometry.parquet",
+      "sha256": "d3f60929a936904366a8844df263924ed444619350091a3d7d008f67d06e90d4"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4126_temporal.parquet",
+      "sha256": "e42cb96261d31d70b10ab53d0a58bed47761f590b4fccf4aeccceb0a5b8f38b6"
+    },
+    {
+      "bytes": 87717,
+      "path": "confirmation/rep_4127_causal_endpoints.npz",
+      "sha256": "e216c1ab0a18d45340033d98974d0b9ed0369dfe10ac0f6b62f0620a3d0206fb"
+    },
+    {
+      "bytes": 778,
+      "path": "confirmation/rep_4127_commit.json",
+      "sha256": "efdd7ce6d05b37a04b6e6a311ddb09819b2c5857d53d6f1d745cf1d986a9d097"
+    },
+    {
+      "bytes": 81705,
+      "path": "confirmation/rep_4127_geometry.parquet",
+      "sha256": "a89d72b89ab8736cd69177754e0651a97ee7e270259183f18a5d108e7cfb4a68"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4127_temporal.parquet",
+      "sha256": "f5a3e6e3455369f622da71066f13662790af153e36374a5ef0585f7ab9b3963a"
+    },
+    {
+      "bytes": 87857,
+      "path": "confirmation/rep_4128_causal_endpoints.npz",
+      "sha256": "f2e0df69e15f8b946d74a878cb3145723efc08d9783eb72c8f7f09450e7b8616"
+    },
+    {
+      "bytes": 779,
+      "path": "confirmation/rep_4128_commit.json",
+      "sha256": "d766762881933f120f7e2bda80377a6a86df829f81b11441339077c80b6dd3ec"
+    },
+    {
+      "bytes": 81703,
+      "path": "confirmation/rep_4128_geometry.parquet",
+      "sha256": "cd4461ef2bcd9139af6add2e7e55662b0635c905c6ee6797abd562d2f42cdbb1"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4128_temporal.parquet",
+      "sha256": "7f50e754452deeefe5e46dfd872ff6de48204b6cbbc3e64601bf4dbf4868a366"
+    },
+    {
+      "bytes": 87527,
+      "path": "confirmation/rep_4129_causal_endpoints.npz",
+      "sha256": "243d91cdc2451aaee8b42b4ebbb0b57adba1212dec805f5fc048a5f9a35ad4e2"
+    },
+    {
+      "bytes": 778,
+      "path": "confirmation/rep_4129_commit.json",
+      "sha256": "ca0b7429930ff8e5daa484c655a6fb172495601cdf6377f7d85ece8d55dea9ff"
+    },
+    {
+      "bytes": 81705,
+      "path": "confirmation/rep_4129_geometry.parquet",
+      "sha256": "386cae617376991781e4513f72d7dea287b1b2965c675b89eabc25eada0c3619"
+    },
+    {
+      "bytes": 5266,
+      "path": "confirmation/rep_4129_temporal.parquet",
+      "sha256": "fcf0d32b340bf03b2c1acd022f3f8d938e37473400c87e21440729070a51799b"
+    },
+    {
+      "bytes": 7185,
+      "path": "confirmation/stage07_confirmation_analysis.json",
+      "sha256": "f68d027ae2de90eda78e74912f9bb02113a39da7df8b3af5abf2bd7dab3b531e"
+    },
+    {
+      "bytes": 107338,
+      "path": "confirmation/stage07_confirmation_summary.parquet",
+      "sha256": "decc811ddb5a4fb2ef9de187c3c85663bc4cb8f3ba3730eb832ee399e88e56c7"
+    },
+    {
+      "bytes": 7779,
+      "path": "confirmation/stage07_confirmation_temporal.parquet",
+      "sha256": "fd162aeba43e56f1d5ad4bae81a4eb193053ea9590d8c680eedddbf0d9b2e36f"
+    },
+    {
+      "bytes": 589,
+      "path": "discovery/rep_4000_commit.json",
+      "sha256": "58abce4bc4ecca36f4cb006aca1452b14bca382cedae6337c1bff9f4522cbbc2"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4000_geometry.parquet",
+      "sha256": "f9779c678ad06e5cd5a65be0dba62e82c0f569bbba00c579bb91023968776819"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4000_temporal.parquet",
+      "sha256": "6bfda6fdc096abcb721a7123a08d08dfb3d3039b22fbbdf8c093d6cefd5edbf1"
+    },
+    {
+      "bytes": 590,
+      "path": "discovery/rep_4001_commit.json",
+      "sha256": "36ca1d4e860ac4a0a7ca8c7d6114e8021350e9a1b9c7b51de8ff7c62c7116d8f"
+    },
+    {
+      "bytes": 51558,
+      "path": "discovery/rep_4001_geometry.parquet",
+      "sha256": "316f026b29f9aa606ca2f71044173b873a2f34a3cd443fc18ec35ffc2a21b536"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4001_temporal.parquet",
+      "sha256": "0b57c5b04d6757bc182f4c48e8743f6e038188ee129ba9a8ca1c0bfd58688be2"
+    },
+    {
+      "bytes": 589,
+      "path": "discovery/rep_4002_commit.json",
+      "sha256": "ca33841a65c21c34e763dac1c83f44306ccccd617e334166a346d42aaf720e69"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4002_geometry.parquet",
+      "sha256": "bacb05481e3e37ef692afe3860e63b760ae53e8ee5fe1c09289e8af499936251"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4002_temporal.parquet",
+      "sha256": "fbc8a3203f1d9a1c4cd580c2bf8cb1e6e8c595cd4ba4d413a46f09f40136dcb1"
+    },
+    {
+      "bytes": 589,
+      "path": "discovery/rep_4003_commit.json",
+      "sha256": "47909343faa5b50ee1f90c20352dbdb222f412f4aed6f3607c5eef137073660e"
+    },
+    {
+      "bytes": 51556,
+      "path": "discovery/rep_4003_geometry.parquet",
+      "sha256": "d96cd618ca386ee9f029cb2785f701d6bad7b938aefceda9fb4b9f5db2629be9"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4003_temporal.parquet",
+      "sha256": "85a1d0b6df7dd933989fee8ddab62fe2a0b808792df7eae92384f7123e900f92"
+    },
+    {
+      "bytes": 590,
+      "path": "discovery/rep_4004_commit.json",
+      "sha256": "f72d9435fadb4e11b344d2c5354dce8f4ea3982247a745a260d4f7a0736ddc92"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4004_geometry.parquet",
+      "sha256": "9a1162a080492cfaf1457713cfb7a59740ebda36f9fbea0cda412da4fdef917c"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4004_temporal.parquet",
+      "sha256": "e24594945ecaf0f244b52d145b3b855bad4a63adcbafad6032afbc65ac682651"
+    },
+    {
+      "bytes": 589,
+      "path": "discovery/rep_4005_commit.json",
+      "sha256": "11258f70d6dcf2ad6b583f04906d5a3fe05081ac7fc13f40b9b34226c85a75ae"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4005_geometry.parquet",
+      "sha256": "8a1493c12513897ede05b2bbbf3d7018cf9fbeacaa5ce16be62e7cbea564c18c"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4005_temporal.parquet",
+      "sha256": "559e807cea33aca851eff05c468ba3dc6072480f841a9b11adf84201422d3324"
+    },
+    {
+      "bytes": 588,
+      "path": "discovery/rep_4006_commit.json",
+      "sha256": "3cc3046bf4ff4d1ec9d0d7472d153fc522498d0d321c3ecacbf22860d61bfc02"
+    },
+    {
+      "bytes": 51558,
+      "path": "discovery/rep_4006_geometry.parquet",
+      "sha256": "06c994ebedffcfe68b420d398e8853fd3df3f62c884b6e12bf4feddbb1dcf924"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4006_temporal.parquet",
+      "sha256": "9ec8bac5984dbe804e279219fc780d80d582561b3cd133344ab67a6326125a5b"
+    },
+    {
+      "bytes": 590,
+      "path": "discovery/rep_4007_commit.json",
+      "sha256": "d7e02e55cf69b27c0ee904007a77d49e7e8034833dac576d99c3f2cef8560edf"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4007_geometry.parquet",
+      "sha256": "a22946155b921a86f515b7dc954abdb401f92809e96c7258ae7cbc9ad5d25e92"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4007_temporal.parquet",
+      "sha256": "a6b2620ff7e487ccc0abec7c49f3c7e1ac74e36684171c54c0c8f449230c0ae5"
+    },
+    {
+      "bytes": 588,
+      "path": "discovery/rep_4008_commit.json",
+      "sha256": "33d104a7548b4b770b48688ad2367309cab88f1642c52597f6a71e7aee665621"
+    },
+    {
+      "bytes": 51560,
+      "path": "discovery/rep_4008_geometry.parquet",
+      "sha256": "fd0bfbddb7c7731cf614f40ef5603b3355df0cd18dfcbb8be56fa8d84064f67b"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4008_temporal.parquet",
+      "sha256": "d09b506fc2af538a3b2d4607bb44091308d9eda9430207f9840cde978dd4a25d"
+    },
+    {
+      "bytes": 589,
+      "path": "discovery/rep_4009_commit.json",
+      "sha256": "a5a4e9a92fb875ca1b670bc769f0e93e53a3c6cb251e9fc07b8153d03d548665"
+    },
+    {
+      "bytes": 51558,
+      "path": "discovery/rep_4009_geometry.parquet",
+      "sha256": "45e5b4ce9e2263f9abf091ce56bc9a8b15be0a1a2679fe9cfb0a95b76f900b32"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4009_temporal.parquet",
+      "sha256": "768463b672411df8254ce591b2961dc80ae3ac159e292ff01311b74530d578a7"
+    },
+    {
+      "bytes": 589,
+      "path": "discovery/rep_4010_commit.json",
+      "sha256": "73fc6660dd6e700f1944c078421af9068fe32451dc82b61bc1c93811c2507f6f"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4010_geometry.parquet",
+      "sha256": "7c597e31f95d72b6a2338c77073afec16a428a44251c8054749f694c9da613df"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4010_temporal.parquet",
+      "sha256": "5418c6a4472a06c36b739bd4b847fdd9f7f832c25bf0cbf947468a3892190198"
+    },
+    {
+      "bytes": 590,
+      "path": "discovery/rep_4011_commit.json",
+      "sha256": "9c43611fe3565673a7e2d65a5ae41c96aa9c59dba51588ee1b273fa046751752"
+    },
+    {
+      "bytes": 51560,
+      "path": "discovery/rep_4011_geometry.parquet",
+      "sha256": "123954fd574fe84f69a137dffc9039b59d4db7db90301c73221f1e93b178abd7"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4011_temporal.parquet",
+      "sha256": "c150849865e371f309c1f94f21332e067f434cb7593cacb121bb66a8ea13fd5a"
+    },
+    {
+      "bytes": 589,
+      "path": "discovery/rep_4012_commit.json",
+      "sha256": "f146f5d1c76d378e25780a4867430a9d746d42ca830376e62c34a952cb4bb762"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4012_geometry.parquet",
+      "sha256": "9fdd5b14332dec19dba6a21458e13600e204d49ef5e872e6b035fd939ce67a9a"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4012_temporal.parquet",
+      "sha256": "2a8901ea0e62f1a6828149dda2ecf57369d0e001773b837a5ece0800e8391c7e"
+    },
+    {
+      "bytes": 590,
+      "path": "discovery/rep_4013_commit.json",
+      "sha256": "17a9d06ae3c15719f4507d21215540c233f8f3a30ca9caf01f96e03d4d0a24c6"
+    },
+    {
+      "bytes": 51558,
+      "path": "discovery/rep_4013_geometry.parquet",
+      "sha256": "216416bfb8b4bac0f7283fc9f3f66cdb524ef0c284c6a4378d489c9f30e8af9f"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4013_temporal.parquet",
+      "sha256": "31b91204f956f0152723e24a7bcd537a26fee0a95216bb440d643da25fd34773"
+    },
+    {
+      "bytes": 589,
+      "path": "discovery/rep_4014_commit.json",
+      "sha256": "1e09fb2318fa68c095591e9310dc422d4191d6c300f217a4b30662aac3fc647e"
+    },
+    {
+      "bytes": 51558,
+      "path": "discovery/rep_4014_geometry.parquet",
+      "sha256": "4bde4f7b06e7daef565e884385f3cefd5d34ea358c4d260cac798ac65832dafa"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4014_temporal.parquet",
+      "sha256": "5588e2370cef16a90285dc8814d999e1ad2556e20ac6e45298eabe48ef60e775"
+    },
+    {
+      "bytes": 590,
+      "path": "discovery/rep_4015_commit.json",
+      "sha256": "3bcb64c8879b95556cb966a196e659ae60878d75e2388e0ba143e7d27af09049"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4015_geometry.parquet",
+      "sha256": "5a95c242069b25000265e508d77794a3603cb60e57a9cc43b4b5227f47f599e9"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4015_temporal.parquet",
+      "sha256": "5076728d3d1cc8d3af3e715b76a7bc1f11616e1a24d3a35d1b022a39ce5717c7"
+    },
+    {
+      "bytes": 589,
+      "path": "discovery/rep_4016_commit.json",
+      "sha256": "93a8f566b59511e4f73e672c4ca09fa930ecc14e0fd4b0522543c24ba5241a8e"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4016_geometry.parquet",
+      "sha256": "6e6628544d536de4a3019209fb6ac3faa13336ce98425587b75f2da67e1033ce"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4016_temporal.parquet",
+      "sha256": "0c6b64502562c69ad010cd9a561b054a259977da8fa07e8b1949b7e6e4e8c110"
+    },
+    {
+      "bytes": 590,
+      "path": "discovery/rep_4017_commit.json",
+      "sha256": "85f9f65ff3c311ab9d0f07fe65c49f10fa91dd2f4da735faeb891412b2286095"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4017_geometry.parquet",
+      "sha256": "1f08449174eaa69238d326ec29784c0681e4c87576e25b3120e36b265b2987cb"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4017_temporal.parquet",
+      "sha256": "04ca9bf938ec58a7482fbf5f0cff20cef096edf84e79449c85d42de6d79848c5"
+    },
+    {
+      "bytes": 589,
+      "path": "discovery/rep_4018_commit.json",
+      "sha256": "f26da93a2cff417a8ba6af43334fcbbf73767d2760878441504a14959bf43d8b"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4018_geometry.parquet",
+      "sha256": "9a268b5342fdc7e043b23c02a4f8dce493a90af2118170f042777c5d1817efcd"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4018_temporal.parquet",
+      "sha256": "488d83227f873d2cc7d9ee6835471d65d53d58e9e86e6841331d4845bb0c9a41"
+    },
+    {
+      "bytes": 589,
+      "path": "discovery/rep_4019_commit.json",
+      "sha256": "8e1782b348c1b5226a2ee52c97c5f29e147c48e69c4375d856609d3f576b4c8f"
+    },
+    {
+      "bytes": 51559,
+      "path": "discovery/rep_4019_geometry.parquet",
+      "sha256": "a2072753486a2b44df724b648420120239d492488f57158f9ccb2a94836f4b2c"
+    },
+    {
+      "bytes": 5266,
+      "path": "discovery/rep_4019_temporal.parquet",
+      "sha256": "3921894509dd0e0596b7da4d814473325d35a127b46de7d11af8f8ea28ffa0f4"
+    },
+    {
+      "bytes": 2515,
+      "path": "discovery/stage07_discovery_analysis.json",
+      "sha256": "97fcd8a5ff38f1788f54200cb253a722f35f39456fd3d1cdc1c59ad06e96d5ab"
+    },
+    {
+      "bytes": 62110,
+      "path": "discovery/stage07_discovery_summary.parquet",
+      "sha256": "c436a9b0f7d084ab0cf959e34b0f19d8a296580772bffcd773f5fa544e76977e"
+    },
+    {
+      "bytes": 6962,
+      "path": "discovery/stage07_discovery_temporal.parquet",
+      "sha256": "b40c90fcc53ed67e5b531ab58a55aa4c9e4f7d25447cec1dc68b1f752d01ccbd"
+    },
+    {
+      "bytes": 803,
+      "path": "locks/confirmation_firewall.json",
+      "sha256": "ecca4c9987ee0f2a3422a51e45a437af45ddc58d25fbba7d7d35a96d7ca6d4dc"
+    },
+    {
+      "bytes": 4217,
+      "path": "locks/stage07_discovery_lock.json",
+      "sha256": "696f7f0a450912dc5150ee21f47ed4490c0378b6f02d21b3e8d0f2b027baac37"
+    },
+    {
+      "bytes": 345,
+      "path": "manifests/campaign_identity.json",
+      "sha256": "05f83a244250c9031118e2c3cc24cd4db413dba5fe954d75dbd420f88ec5b260"
+    },
+    {
+      "bytes": 2352,
+      "path": "manifests/core_config.json",
+      "sha256": "c55299921c8b3a4bdb1633a5d77ca5f2f979cd02aa2dcd06c3c5f28fa75d6bac"
+    },
+    {
+      "bytes": 510,
+      "path": "manifests/environment.json",
+      "sha256": "680f9f0d9fab710bd6d28cd50b63d592021ed9ba415c509778e590e6ef9c4515"
+    },
+    {
+      "bytes": 66,
+      "path": "manifests/implementation_revision.json",
+      "sha256": "c88773d58ed3fcdc5aff6012ae1772cbb4897403e558ebe21255ca598ba33433"
+    },
+    {
+      "bytes": 1098,
+      "path": "manifests/parent_evidence.json",
+      "sha256": "165bbf44acec81e8eede69de59f8f4b39b6db594876b8c6bdaa38bad2e74aae0"
+    },
+    {
+      "bytes": 3144,
+      "path": "manifests/preregistered_analysis.json",
+      "sha256": "3459b1df486032f7a5d5341fa42d52c520d898eedc57a27056ea03efd45ff4f6"
+    },
+    {
+      "bytes": 8232,
+      "path": "manifests/protocol_payload.json",
+      "sha256": "1fdd81253117bdc62520dd1674ab9f811a0984a652e7f9a75f4fcdb6fc121dc0"
+    },
+    {
+      "bytes": 2355,
+      "path": "manifests/scientific_code_identity.json",
+      "sha256": "8633d63371f25ba0eaa2b9c50fe54c35ac3ba4d41a1f9f269a2972e5d6d56de0"
+    },
+    {
+      "bytes": 1325,
+      "path": "manifests/stage07_confirmation_workload_contract.json",
+      "sha256": "adff3367c5a398ebbac785e4301191a5a48ebb90674e7bbc634c74d7be68c66a"
+    },
+    {
+      "bytes": 1129,
+      "path": "manifests/stage07_discovery_workload_contract.json",
+      "sha256": "228264e2ef00ce49614c9e5cfbac7e2985330faee1fa0803161fff923fe12802"
+    },
+    {
+      "bytes": 796,
+      "path": "manifests/zero_hour_integrity.json",
+      "sha256": "23816ed399fc5856d244e7d0a467410b1160367ec289d0ede14ce3553f1e091f"
+    }
+  ],
+  "protocol_hash": "47a359c3dbe0eb69706054d8ad7f1469392666b4efbd006a24359a2fb28d882b",
+  "scientific_code_hash": "f2be5752e4f0332cac9c3cfeca6b98b39a5a610f6eea99f98818fbd05345779c"
+}

@@ -1,0 +1,11 @@
+{
+  "NEXUS_I": "Stage1A negative; Stage1B d=1 geometry without predictive state; Stage1C promising pressure pilot; Stage2P/Q support preflights passed; architecture confirmation was attempted and stopped at ViT competency (optimistic median upper 0.612 < 0.65).",
+  "NEXUS_II_RC11": "Pressure-induced emergence failed; clean eta=0 exhibited stable low-dimensional predictive structure and approximate closure.",
+  "NEXUS_II_STAGE05": "RC12D H5 failed: F/I/Q/N/P/S passed while G/Z/E/C failed.",
+  "NEXUS_II_STAGE06": {
+    "final_zip_sha256_reported": "a017f8ed47b68bbff089d2b4bb823f469508340cbff3fd35f1667d0642ba2729",
+    "frozen_result": "H6-B=false, H6-W=false, H6-A=true. Within-task matched-query r=0.7765 [0.700,0.845], but causal future prediction lost to zero. Historical m1 potency was 90.93x median random and 70.79x best-of-eight random.",
+    "protocol_hash": "89d065fb5d81d316667742c587edd1cdcf0b69c80a1e3a0a5adf9e4dafe434e1"
+  },
+  "policy": "Design history only. No Stage01-06 response row, fitted coordinate, decoder, subspace, or confirmation outcome enters Stage07 estimation."
+}

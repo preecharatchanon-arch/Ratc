@@ -1,0 +1,52 @@
+{
+  "beta1": 0.9,
+  "beta2": 0.999,
+  "checkpoint_train_interval": 1000,
+  "datasets": [
+    "CIFAR10",
+    "CIFAR100"
+  ],
+  "derivative_error_max": 0.15,
+  "donor_step": 5600,
+  "eps": 1e-08,
+  "first_n": 128,
+  "fit_horizon": 16,
+  "fit_sizes": [
+    64,
+    256
+  ],
+  "future_batch": 32,
+  "future_steps": 64,
+  "heldout_n": 256,
+  "horizons": [
+    0,
+    1,
+    4,
+    16,
+    64
+  ],
+  "lr": 0.001,
+  "quality_columns": 192,
+  "quality_energy_tolerance": 0.1,
+  "quality_response_tolerance": 0.15,
+  "ranks": [
+    16,
+    64
+  ],
+  "relative_displacement": 0.002,
+  "resolution_floor": 2e-05,
+  "response_n": 128,
+  "seeds": [
+    13000,
+    13001,
+    13002,
+    13003
+  ],
+  "sketch_columns": 128,
+  "sketch_power": 1,
+  "trace_probes": 128,
+  "train_batch": 128,
+  "train_steps": 8000,
+  "weight_decay": 0.0005,
+  "width": 32
+}
