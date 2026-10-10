@@ -14,13 +14,15 @@ The project combines **NumPy, SciPy, pydub, FFmpeg and Matplotlib**. It is a per
 
 ## Evidence from the supplied recordings
 
-![FFT spectrum comparison of the diesel-engine recording and drum loop](figures/fft_comparison.png)
+![Original FFT calculations, paired for the portfolio](figures/original_fft_pair.png)
 
-Full-recording spectra with Hann-window amplitude normalisation. The engine recording's strongest FFT bin is **199.65 Hz**; the drum loop's is **112.88 Hz**. These are dominant spectral bins, not established shaft speeds or fault frequencies.
+The original Hann-window real FFT, shown at each recording's native sample rate. The view zooms to **0–1 kHz**; the two magnitude scales are independent. The engine recording's strongest bin is **199.65 Hz**, and the drum loop's is **112.88 Hz**. These are measured spectral bins, not established shaft speeds or fault frequencies.
 
-![STFT comparison over the same 9.35 seconds](figures/stft_comparison.png)
+![Original STFT calculations, paired for the portfolio](figures/original_stft_pair.png)
 
-The comparison uses the same first **9.35 seconds**, a common **44.1 kHz** sample rate, a 2,048-sample Hann window and a 512-sample hop. Each signal is normalised to unit RMS for this display, and both panels share the colour scale. The drum loop has repeated broadband transients; the engine clip has more sustained low-frequency structure. This is an observation about these recordings.
+The original STFT uses a **2,048-sample Hann window** with **1,536 samples of overlap**. Each full recording retains its native sample rate and duration. The panels share only a display colour scale; no resampling, RMS normalisation or Welch analysis is added. The engine clip shows sustained low-frequency content, while the drum loop shows repeated broadband transients.
+
+[All 15 original output plots and the complete text report](original-run/README.md) are retained from the engine-reference / drum-comparison run. These are the outputs of `run_analysis.py`. [The paired-figure script](make_portfolio_figures.py) only redraws the same FFT/STFT calculations in a compact layout for the portfolio; it does not change the notebook or add a new analysis method.
 
 | Original prototype feature | Engine recording | Drum loop |
 | --- | ---: | ---: |
@@ -32,10 +34,6 @@ The comparison uses the same first **9.35 seconds**, a common **44.1 kHz** sampl
 | Within-recording flagged-frame fraction | 0.0301 | 0.4062 |
 
 The supplied log has **drums as baseline and engine as test**, because it chose the first uploaded file. The rerun preserves that ordering for reproduction and also records the author's intended **engine reference → drum comparison** ordering. The original severity is 0.471 in the former order and 0.456 in the latter. These are hand-weighted feature differences, not probabilities of engine failure.
-
-![Separately audited band-power comparison](figures/band_power_comparison.png)
-
-This additional October analysis uses Welch power spectral density on matched duration and a shared frequency grid. It is explicitly separate from the original `band_energy` function, which sums FFT magnitudes rather than power. The original calculations remain available in the reproduction files.
 
 ## Run the project
 
@@ -58,7 +56,7 @@ python run_analysis.py --reference "/path/to/reference.wav" --comparison "/path/
 
 The local runner writes the same text report and plots. The notebook keeps the original calculation definitions, plot settings and heuristic scores; the changes are explicit file selection and saving the displayed outputs.
 
-The three curated figures shown earlier on this page and the files in `results/` are archived example evidence from the October rerun. They are separate from the notebook's full output. The additional matched-support Welch plot is not part of the original notebook. Its [earlier evidence-generation runner](https://github.com/preecharatchanon-arch/Ratc/blob/bb944236d7b11d8de67b7e7f1f59dfd51121b197/projects/audio-fft/run_analysis.py) remains in the repository history. `python check_evidence.py` checks the archived numbers and measurement sanity.
+The [earlier normalised FFT](figures/fft_comparison.png), [matched-support STFT](figures/stft_comparison.png), [additional Welch band-power plot](figures/band_power_comparison.png) and files in `results/` remain archived October audit evidence. They are not the original notebook output shown above. They are separate from the notebook's full output. The additional matched-support Welch plot is not part of the original notebook. Its [earlier evidence-generation runner](https://github.com/preecharatchanon-arch/Ratc/blob/bb944236d7b11d8de67b7e7f1f59dfd51121b197/projects/audio-fft/run_analysis.py) remains in the repository history. `python check_evidence.py` checks the archived numbers and measurement sanity.
 
 ## Scope and next step
 

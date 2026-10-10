@@ -736,13 +736,13 @@
   },
   {
     "path": "projects/audio-fft/EVIDENCE_MANIFEST.json",
-    "bytes": 2275,
-    "sha256": "509a8fdc799533e4da7098d3f0af502c18f70e1d70c31ff4d5f86d5a642ef5e8"
+    "bytes": 5398,
+    "sha256": "e7f2c94ad48544505c3f41df2747b5b475a5b592dc4a00d58c4de9d1fe1d8720"
   },
   {
     "path": "projects/audio-fft/README.md",
-    "bytes": 7169,
-    "sha256": "7d5ca19fd5fd095b6322a47dceabc6a1fffaa32246fa3e332bc10ddb749aa6e1"
+    "bytes": 7418,
+    "sha256": "a1801321b5555114713187a03af9f4ec66f949dd5691095d2ee049c8c180c763"
   },
   {
     "path": "projects/audio-fft/audio_fft_analysis.ipynb",
@@ -1403,5 +1403,105 @@
     "path": "solvers/v31/solver_strict_fair.cpp",
     "bytes": 480834,
     "sha256": "845014863fe646f96969f775f68851411f0ff0ab4586d487a3ade0098a2e8a22"
+  },
+  {
+    "path": "projects/audio-fft/make_portfolio_figures.py",
+    "bytes": 3334,
+    "sha256": "4e25d7166b6cbcf3a5e643e31de5f81d713e78cb32cf822b99ebf7c9c50f03dd"
+  },
+  {
+    "path": "projects/audio-fft/figures/original_fft_pair.png",
+    "bytes": 148310,
+    "sha256": "4509b6be2643ab35af0aa5c58306d317698c8bd0c60b24ae8d84e7d1627faace"
+  },
+  {
+    "path": "projects/audio-fft/figures/original_stft_pair.png",
+    "bytes": 1978979,
+    "sha256": "0abe990de1a985604b5a37cf4b1418346b074ed3781c838f8fdff4a0a14ac3d7"
+  },
+  {
+    "path": "projects/audio-fft/original-run/comparison_spectral_flux.png",
+    "bytes": 100839,
+    "sha256": "6150fd81119aefb402576e321bf8f5194cc27fc99d68b819dcf408ab08240d6d"
+  },
+  {
+    "path": "projects/audio-fft/original-run/comparison_harmonic_score.png",
+    "bytes": 137626,
+    "sha256": "b2d9c3e1fc12ac6683118ef2eab1ff3ba05d04d7824423b4a607b3b2436a3939"
+  },
+  {
+    "path": "projects/audio-fft/original-run/comparison_rms.png",
+    "bytes": 112542,
+    "sha256": "caba7b3b4c2b1321aed62b1cbf1eb0da7fdf3afceff755d4d9bd003ec23b1476"
+  },
+  {
+    "path": "projects/audio-fft/original-run/baseline_main_peaks.png",
+    "bytes": 57235,
+    "sha256": "517458469abbf45643b9a445bbe8f584a0154598b3814f2bd0dbd71d304c39f9"
+  },
+  {
+    "path": "projects/audio-fft/original-run/baseline_waveform.png",
+    "bytes": 68644,
+    "sha256": "deaabdb88e52c36ed73e23c724fbd8a9d7fdca0b53968e1f12e3564fd85179aa"
+  },
+  {
+    "path": "projects/audio-fft/original-run/comparison_anomaly_score.png",
+    "bytes": 80930,
+    "sha256": "fa91998e4847f28344e41a0a623002d524f2fe2655251620afab913f3d06dea0"
+  },
+  {
+    "path": "projects/audio-fft/original-run/README.md",
+    "bytes": 1403,
+    "sha256": "703bc1f30f5940488df09d6e99fbc7c0e4197981ddfb74f46ac5df2ae1332c9d"
+  },
+  {
+    "path": "projects/audio-fft/original-run/comparison_flatness.png",
+    "bytes": 122592,
+    "sha256": "6baf5ea4a7eb3937bd727172db23f182720f973c24c835e09e4b37f9bf1661e7"
+  },
+  {
+    "path": "projects/audio-fft/original-run/analysis.txt",
+    "bytes": 4133,
+    "sha256": "bcf76dfd707671cfde2bbda00224934144d7e814f0438412ed122ab724fddf2a"
+  },
+  {
+    "path": "projects/audio-fft/original-run/baseline_fft_spectrum.png",
+    "bytes": 46073,
+    "sha256": "1c56877432c83c35b4e8ac5bb4d90eab0ba60808a15c51653e56f37c53cae995"
+  },
+  {
+    "path": "projects/audio-fft/original-run/comparison_onset_detector.png",
+    "bytes": 106520,
+    "sha256": "b5b333debf272710be0a70810050ab91b6d8e6f65755f84feb6fd0aafbf6fb33"
+  },
+  {
+    "path": "projects/audio-fft/original-run/test_spectrogram.png",
+    "bytes": 912450,
+    "sha256": "be148aa671a7862bcf05f2109e86ca734342ce603c16435df4e95bcffef2340e"
+  },
+  {
+    "path": "projects/audio-fft/original-run/test_main_peaks.png",
+    "bytes": 54245,
+    "sha256": "300e1ce2f439fae4060a43e1add73e8e5dc858e718904d8035b2e0c10a54a4c3"
+  },
+  {
+    "path": "projects/audio-fft/original-run/baseline_spectrogram.png",
+    "bytes": 1208368,
+    "sha256": "87889aec1a8aef2422d37834ba863081636d5071f18679a2abc4f4ba85470fb2"
+  },
+  {
+    "path": "projects/audio-fft/original-run/comparison_centroid.png",
+    "bytes": 137467,
+    "sha256": "614fc56307321f7ffe05be4f5c7908a5e97740efbfba3d11fd11cb32046e5168"
+  },
+  {
+    "path": "projects/audio-fft/original-run/test_waveform.png",
+    "bytes": 75205,
+    "sha256": "d3ec4020ef6baf05272b48e273f2deb899e4e2a0240c08dc0a09e70d523244d4"
+  },
+  {
+    "path": "projects/audio-fft/original-run/test_fft_spectrum.png",
+    "bytes": 43089,
+    "sha256": "ba9568fdfb63588174403bc6076c30815500df20301cdbd391fa8d0110b8fe43"
   }
 ]

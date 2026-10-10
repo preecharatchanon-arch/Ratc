@@ -7,8 +7,8 @@
       "bytes": 5004
     },
     "README.md": {
-      "sha256": "7d5ca19fd5fd095b6322a47dceabc6a1fffaa32246fa3e332bc10ddb749aa6e1",
-      "bytes": 7169
+      "sha256": "a1801321b5555114713187a03af9f4ec66f949dd5691095d2ee049c8c180c763",
+      "bytes": 7418
     },
     "audio_fft_analysis.ipynb": {
       "sha256": "eac153f6e6a25b41ef2f4fe9a14fd7ac75a54d24935449c95cd3a08138581f19",
@@ -61,6 +61,86 @@
     "run_analysis.py": {
       "sha256": "4a7b576e22f67c86649325f90a4692d49d8bf4b0d78eb9373aae6a79cc459934",
       "bytes": 8183
+    },
+    "make_portfolio_figures.py": {
+      "sha256": "4e25d7166b6cbcf3a5e643e31de5f81d713e78cb32cf822b99ebf7c9c50f03dd",
+      "bytes": 3334
+    },
+    "figures/original_fft_pair.png": {
+      "sha256": "4509b6be2643ab35af0aa5c58306d317698c8bd0c60b24ae8d84e7d1627faace",
+      "bytes": 148310
+    },
+    "figures/original_stft_pair.png": {
+      "sha256": "0abe990de1a985604b5a37cf4b1418346b074ed3781c838f8fdff4a0a14ac3d7",
+      "bytes": 1978979
+    },
+    "original-run/comparison_spectral_flux.png": {
+      "sha256": "6150fd81119aefb402576e321bf8f5194cc27fc99d68b819dcf408ab08240d6d",
+      "bytes": 100839
+    },
+    "original-run/comparison_harmonic_score.png": {
+      "sha256": "b2d9c3e1fc12ac6683118ef2eab1ff3ba05d04d7824423b4a607b3b2436a3939",
+      "bytes": 137626
+    },
+    "original-run/comparison_rms.png": {
+      "sha256": "caba7b3b4c2b1321aed62b1cbf1eb0da7fdf3afceff755d4d9bd003ec23b1476",
+      "bytes": 112542
+    },
+    "original-run/baseline_main_peaks.png": {
+      "sha256": "517458469abbf45643b9a445bbe8f584a0154598b3814f2bd0dbd71d304c39f9",
+      "bytes": 57235
+    },
+    "original-run/baseline_waveform.png": {
+      "sha256": "deaabdb88e52c36ed73e23c724fbd8a9d7fdca0b53968e1f12e3564fd85179aa",
+      "bytes": 68644
+    },
+    "original-run/comparison_anomaly_score.png": {
+      "sha256": "fa91998e4847f28344e41a0a623002d524f2fe2655251620afab913f3d06dea0",
+      "bytes": 80930
+    },
+    "original-run/README.md": {
+      "sha256": "703bc1f30f5940488df09d6e99fbc7c0e4197981ddfb74f46ac5df2ae1332c9d",
+      "bytes": 1403
+    },
+    "original-run/comparison_flatness.png": {
+      "sha256": "6baf5ea4a7eb3937bd727172db23f182720f973c24c835e09e4b37f9bf1661e7",
+      "bytes": 122592
+    },
+    "original-run/analysis.txt": {
+      "sha256": "bcf76dfd707671cfde2bbda00224934144d7e814f0438412ed122ab724fddf2a",
+      "bytes": 4133
+    },
+    "original-run/baseline_fft_spectrum.png": {
+      "sha256": "1c56877432c83c35b4e8ac5bb4d90eab0ba60808a15c51653e56f37c53cae995",
+      "bytes": 46073
+    },
+    "original-run/comparison_onset_detector.png": {
+      "sha256": "b5b333debf272710be0a70810050ab91b6d8e6f65755f84feb6fd0aafbf6fb33",
+      "bytes": 106520
+    },
+    "original-run/test_spectrogram.png": {
+      "sha256": "be148aa671a7862bcf05f2109e86ca734342ce603c16435df4e95bcffef2340e",
+      "bytes": 912450
+    },
+    "original-run/test_main_peaks.png": {
+      "sha256": "300e1ce2f439fae4060a43e1add73e8e5dc858e718904d8035b2e0c10a54a4c3",
+      "bytes": 54245
+    },
+    "original-run/baseline_spectrogram.png": {
+      "sha256": "87889aec1a8aef2422d37834ba863081636d5071f18679a2abc4f4ba85470fb2",
+      "bytes": 1208368
+    },
+    "original-run/comparison_centroid.png": {
+      "sha256": "614fc56307321f7ffe05be4f5c7908a5e97740efbfba3d11fd11cb32046e5168",
+      "bytes": 137467
+    },
+    "original-run/test_waveform.png": {
+      "sha256": "d3ec4020ef6baf05272b48e273f2deb899e4e2a0240c08dc0a09e70d523244d4",
+      "bytes": 75205
+    },
+    "original-run/test_fft_spectrum.png": {
+      "sha256": "ba9568fdfb63588174403bc6076c30815500df20301cdbd391fa8d0110b8fe43",
+      "bytes": 43089
     }
   }
 }

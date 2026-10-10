@@ -1,0 +1,133 @@
+
+======================================================================
+BASELINE / REFERENCE
+======================================================================
+File           : manshaofficial-diesel-car-engine-sound-111994.mp3
+Sample rate    : 48000 Hz
+Channels       : 2
+Duration       : 31.54 s
+Peak amplitude : 0.649976
+RMS            : 0.109770
+Crest factor   : 5.921
+Clipping ratio : 0.0000
+Dominant freq  : 199.65 Hz
+Centroid       : 3174.69 Hz
+Flatness       : 0.0957
+Entropy        : 18.0734
+Harmonic score : 0.7273
+Peak count     : 33
+Anomaly rate   : 0.0301
+Onset density  : 6.56 / sec
+Verdict        : Likely percussive / drum-like | noisy / rough, unstable over time
+
+Top peaks:
+  01.     199.65 Hz | amp 15450.907003
+  02.     256.71 Hz | amp 8666.844263
+  03.     285.23 Hz | amp 8473.177897
+  04.      77.98 Hz | amp 8150.360861
+  05.     313.75 Hz | amp 7877.772825
+  06.      51.98 Hz | amp 6142.092355
+  07.      26.00 Hz | amp 4733.392224
+  08.     484.89 Hz | amp 4405.788884
+  09.     427.85 Hz | amp 4176.198798
+  10.     114.10 Hz | amp 3934.783240
+
+Band energy share:
+      0-60: 0.0207
+    60-250: 0.1016
+   250-500: 0.1584
+    500-1k: 0.1217
+     1k-3k: 0.2625
+     3k-8k: 0.2225
+       8k+: 0.1125
+
+Top detected hits:
+  hit 01: t=  0.065s | peak=0.3500 | decay~0.000s
+  hit 02: t=  0.215s | peak=0.3500 | decay~0.000s
+  hit 03: t=  0.445s | peak=0.4090 | decay~0.000s
+  hit 04: t=  0.525s | peak=0.4090 | decay~0.000s
+  hit 05: t=  0.605s | peak=0.4090 | decay~0.000s
+  hit 06: t=  0.755s | peak=0.4837 | decay~0.000s
+  hit 07: t=  0.835s | peak=0.4837 | decay~0.000s
+  hit 08: t=  0.955s | peak=0.4837 | decay~0.000s
+  hit 09: t=  1.155s | peak=0.4837 | decay~0.000s
+  hit 10: t=  1.235s | peak=0.4837 | decay~0.000s
+
+======================================================================
+TEST / SUSPECT
+======================================================================
+File           : kamhunt-timbo-drumline-loop-103bpm-171091.mp3
+Sample rate    : 44100 Hz
+Channels       : 2
+Duration       : 9.35 s
+Peak amplitude : 1.025756
+RMS            : 0.111534
+Crest factor   : 9.197
+Clipping ratio : 0.0002
+Dominant freq  : 112.88 Hz
+Centroid       : 2494.54 Hz
+Flatness       : 0.1300
+Entropy        : 15.5193
+Harmonic score : 1.0000
+Peak count     : 59
+Anomaly rate   : 0.4062
+Onset density  : 5.45 / sec
+Verdict        : Likely percussive / drum-like | unstable over time
+
+Top peaks:
+  01.     112.88 Hz | amp 3064.860265
+  02.      72.51 Hz | amp 2759.817527
+  03.     174.03 Hz | amp 1275.945699
+  04.     219.71 Hz | amp 956.198472
+  05.     145.69 Hz | amp 736.361646
+  06.     194.64 Hz | amp 426.607994
+  07.     972.95 Hz | amp 378.166432
+  08.     771.24 Hz | amp 360.050587
+  09.     253.18 Hz | amp 333.936883
+  10.     469.52 Hz | amp 322.486473
+
+Band energy share:
+      0-60: 0.0070
+    60-250: 0.2602
+   250-500: 0.0867
+    500-1k: 0.1488
+     1k-3k: 0.2130
+     3k-8k: 0.2029
+       8k+: 0.0814
+
+Top detected hits:
+  hit 01: t=  0.055s | peak=0.8767 | decay~0.002s
+  hit 02: t=  0.165s | peak=0.6902 | decay~0.000s
+  hit 03: t=  0.325s | peak=0.6902 | decay~0.000s
+  hit 04: t=  0.455s | peak=0.7267 | decay~0.000s
+  hit 05: t=  0.615s | peak=0.7267 | decay~0.000s
+  hit 06: t=  1.045s | peak=0.7267 | decay~0.000s
+  hit 07: t=  1.225s | peak=0.7233 | decay~0.000s
+  hit 08: t=  1.365s | peak=0.7233 | decay~0.000s
+  hit 09: t=  1.485s | peak=0.7233 | decay~0.000s
+  hit 10: t=  1.665s | peak=0.7233 | decay~0.000s
+
+======================================================================
+BASELINE VS TEST COMPARISON
+======================================================================
+Overall severity score: 0.456
+
+Relative shifts (test vs baseline):
+     dominant_freq: -0.435
+          centroid: -0.214
+          flatness: +0.359
+           entropy: -0.141
+      crest_factor: +0.553
+    harmonic_score: +0.375
+        peak_count: +0.788
+            roll95: -0.224
+      anomaly_rate: +12.474
+     onset_density: -0.169
+    high_low_ratio: -0.611
+
+Likely issues:
+ - time-varying instability increased
+ - main frequency shifted noticeably
+ - more spiky / impulsive waveform
+
+Done.
