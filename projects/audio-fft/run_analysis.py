@@ -1,6 +1,6 @@
 """Reproduce the supplied prototype and export explicitly labelled evidence.
 
-python run_analysis.py --engine /path/engine.mp3 --comparison /path/drum.mp3
+python run_analysis.py --reference /path/reference.wav --comparison /path/test.wav
 Requires ffmpeg on PATH. Audio sources are downloaded by the reader separately.
 """
 from pathlib import Path
@@ -11,6 +11,7 @@ import json
 import platform
 import subprocess
 import sys
+from datetime import datetime, timezone
 import numpy as np
 import scipy
 from scipy.signal import resample_poly, stft, welch
@@ -54,7 +55,7 @@ def print_original(tag,result):
 
 def make_figures(engine,comparison,out):
     fig,ax=plt.subplots(figsize=(12,5.3),layout='constrained')
-    for r,label,color in [(engine,'Engine recording · reference',TEAL),(comparison,'Drum loop · comparison',ORANGE)]:
+    for r,label,color in [(engine,'Reference',TEAL),(comparison,'Comparison',ORANGE)]:
         g=r['global'];w=np.hanning(len(g['x'])+1)[:-1]
         a=2*g['mag']/w.sum()
         ax.plot(g['freqs'],a,label=label,color=color,lw=1.35,alpha=.9)
@@ -79,7 +80,7 @@ def make_figures(engine,comparison,out):
     n=min(map(len,ys));duration=n/fs
     ys=[y[:n] for y in ys]
     fig,axes=plt.subplots(2,1,figsize=(12,5.5),sharex=True,sharey=True,layout='constrained')
-    for ax,y,label in zip(axes,ys,['Engine reference','Drum comparison']):
+    for ax,y,label in zip(axes,ys,['Reference','Comparison']):
         y=y/(np.sqrt(np.mean(y*y))+1e-12)
         f,t,z=stft(y,fs=fs,window='hann',nperseg=2048,noverlap=1536,boundary=None,padded=False)
         im=ax.pcolormesh(t,f/1000,20*np.log10(np.abs(z)+1e-12),shading='auto',vmin=-70,vmax=0,cmap='magma',rasterized=True)
@@ -99,59 +100,71 @@ def make_figures(engine,comparison,out):
         powers.append(fractions)
     fig,ax=plt.subplots(figsize=(12,5.2),layout='constrained')
     x=np.arange(len(labels))
-    for i,(vals,label,color) in enumerate(zip(powers,['Engine reference','Drum comparison'],[TEAL,ORANGE])):
+    for i,(vals,label,color) in enumerate(zip(powers,['Reference','Comparison'],[TEAL,ORANGE])):
         ax.bar(x+(i-.5)*.38,100*np.array(vals),width=.38,label=label,color=color)
     ax.set_xticks(x,labels);ax.set(ylabel='Share of estimated signal power (%)',xlabel='Frequency band (Hz)',title='Band power on a common measurement grid')
     ax.legend(frameon=False);ax.grid(axis='y',alpha=.16)
     fig.text(.5,-.025,'Welch PSD · matched duration and sample rate · separate from the original magnitude-based metric',ha='center',fontsize=12,color='#4c6074')
     fig.savefig(out/'band_power_comparison.png',dpi=170,bbox_inches='tight');plt.close(fig)
     return {'common_sample_rate_hz':fs,'matched_duration_s':duration,'method':'Welch PSD; one 20 Hz high-pass; 4096 samples; 50% overlap; shared frequency grid',
-            'bands_hz':bands,'engine_power_shares':powers[0],'comparison_power_shares':powers[1]}
+            'bands_hz':bands,'reference_power_shares':powers[0],'comparison_power_shares':powers[1]}
 
 def run(engine_path,comparison_path,out):
+    engine_path=Path(engine_path).resolve()
+    comparison_path=Path(comparison_path).resolve()
+    if engine_path==comparison_path:
+        raise ValueError('Choose two different recordings for reference and comparison.')
+    for path in [engine_path,comparison_path]:
+        if not path.is_file():
+            raise FileNotFoundError(f'Recording not found: {path}')
+    if any(Path(out).resolve().is_relative_to(ROOT / name) for name in ['results','figures']):
+        raise ValueError('The results/ and figures/ directories hold archived example evidence. Choose another output directory.')
     out=Path(out);out.mkdir(parents=True,exist_ok=True)
-    figures=out.parent/'figures';figures.mkdir(parents=True,exist_ok=True)
+    figures=out/'figures';figures.mkdir(parents=True,exist_ok=True)
     engine=analyze_file(str(engine_path));comparison=analyze_file(str(comparison_path))
-    # Match the supplied log (drums first), then record the author's intended order.
+    # Compare the explicitly selected roles and also export the reversed order.
     log_shift,log_hints,log_severity=compare_results(comparison,engine)
     intended_shift,intended_hints,intended_severity=compare_results(engine,comparison)
     fixed=make_figures(engine,comparison,figures)
-    payload={'audit_date':'2026-10-10','project_date':'2026-03-23 (author-reported)',
-        'engine_recording':summary(engine),'drum_recording':summary(comparison),
-        'supplied_log_order':{'baseline':'drum','test':'engine','relative_shifts':log_shift,'heuristic_hints':log_hints,'heuristic_severity':log_severity},
-        'intended_order':{'baseline':'engine recording','test':'drum loop','relative_shifts':intended_shift,'heuristic_hints':intended_hints,'heuristic_severity':intended_severity},
+    payload={'schema_version':2,'analysis_run_utc':datetime.now(timezone.utc).isoformat(),'project_origin':'2026-03-23 (author-reported)',
+        'reference_recording':summary(engine),'comparison_recording':summary(comparison),
+        'reversed_order':{'baseline':'comparison','test':'reference','relative_shifts':log_shift,'heuristic_hints':log_hints,'heuristic_severity':log_severity},
+        'selected_order':{'baseline':'reference','test':'comparison','relative_shifts':intended_shift,'heuristic_hints':intended_hints,'heuristic_severity':intended_severity},
         'matched_support_power_audit':fixed,
-        'input_sha256':{Path(engine_path).name:digest(engine_path),Path(comparison_path).name:digest(comparison_path)},
+        'input_sha256':{'reference':digest(engine_path),'comparison':digest(comparison_path)},
         'environment':{'python':platform.python_version(),'numpy':np.__version__,'scipy':scipy.__version__,'matplotlib':matplotlib.__version__,'ffmpeg':subprocess.check_output(['ffmpeg','-version'],text=True).splitlines()[0]},
-        'interpretation':'Unlabelled engine vs drum demonstration. Neither engine health nor fault-detection accuracy is established. Original scores are hand-tuned heuristics, not probabilities.'}
+        'interpretation':'Two user-selected recordings. File roles do not establish content or health labels. Original scores are hand-tuned heuristics, not probabilities.'}
     (out/'results.json').write_text(json.dumps(payload,indent=2,ensure_ascii=False,allow_nan=False)+'\n')
     with (out/'global_features.csv').open('w',newline='') as f:
-        w=csv.writer(f);w.writerow(['metric','engine_recording','drum_recording','definition'])
+        w=csv.writer(f);w.writerow(['metric','reference_recording','comparison_recording','definition'])
         for key in ['duration_s','sample_rate_hz','dominant_freq','rms','crest_factor','centroid','flatness','entropy','harmonic_score','peak_count','anomaly_rate','onset_density']:
-            w.writerow([key,payload['engine_recording'][key],payload['drum_recording'][key],'Original prototype definition'])
-    for label,r in [('engine',engine),('drum',comparison)]:
+            w.writerow([key,payload['reference_recording'][key],payload['comparison_recording'][key],'Original prototype definition'])
+    for label,r in [('reference',engine),('comparison',comparison)]:
         with (out/f'{label}_frame_features.csv').open('w',newline='') as f:
             w=csv.writer(f);keys=list(r['frames']);w.writerow(keys)
             w.writerows(zip(*(r['frames'][key] for key in keys)))
     import contextlib
     with (out/'prototype_reproduction.txt').open('w') as f,contextlib.redirect_stdout(f):
-        print('REPRODUCTION OF SUPPLIED ORDER: drum baseline, engine test.\nNot validated engine fault inference.')
-        print_original('BASELINE / REFERENCE (drum)',comparison)
-        print_original('TEST / SUSPECT (engine)',engine)
+        print('REVERSED ORDER: comparison baseline, reference test.\nNot validated engine fault inference.')
+        print_original('BASELINE (comparison)',comparison)
+        print_original('TEST (reference)',engine)
         print('\nRelative shifts:',json.dumps(log_shift,indent=2))
         print('Original heuristic severity:',log_severity)
         print('Original heuristic hints:',log_hints)
-        print('\nINTENDED ORDER: engine baseline, drum test')
+        print('\nSELECTED ORDER: reference baseline, comparison test')
         print('Relative shifts:',json.dumps(intended_shift,indent=2))
         print('Original heuristic severity:',intended_severity)
         print('Original heuristic hints:',intended_hints)
-    print(json.dumps({'engine_dominant_hz':engine['global']['dominant_freq'],'drum_dominant_hz':comparison['global']['dominant_freq'],
-                     'supplied_order_severity':log_severity,'matched_duration_s':fixed['matched_duration_s']},indent=2))
+    print(json.dumps({'reference_file':engine_path.name,'comparison_file':comparison_path.name,
+                     'reference_dominant_hz':engine['global']['dominant_freq'],'comparison_dominant_hz':comparison['global']['dominant_freq'],
+                     'selected_order_severity':intended_severity,'matched_duration_s':fixed['matched_duration_s']},indent=2))
     return payload
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--engine',required=True,type=Path)
-    p.add_argument('--comparison',required=True,type=Path)
-    p.add_argument('--output',type=Path,default=ROOT/'results')
-    a=p.parse_args();run(a.engine,a.comparison,a.output)
+    p.add_argument('--reference','--engine',dest='reference',required=True,type=Path,help='Reference audio file; --engine is a compatibility alias')
+    p.add_argument('--comparison',required=True,type=Path,help='Comparison audio file')
+    p.add_argument('--output',type=Path,help='Results directory; defaults to a new runs/<UTC timestamp>/results directory')
+    a=p.parse_args()
+    out=a.output or ROOT/'runs'/datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')/'results'
+    run(a.reference,a.comparison,out)
