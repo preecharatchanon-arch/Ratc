@@ -8,6 +8,7 @@ Research and engineering by **Ratchanon Preecha**. This repository brings togeth
 
 | Project | Focus | Evidence |
 | --- | --- | --- |
+| [NSC 2026 project](projects/nsc-2026/README.md) | Multi-truck waste-collection routing on real roads; Legacy to V31 development | Regional and finalist reports, finalist presentation video |
 | [FleetRoute](projects/fleetroute/README.md) | Auditable route optimization on directed road networks | IAAI-27 submission, application notebook, benchmark tables |
 | [Current solver](solvers/current/README.md) | Hybrid metaheuristics, AVX2 insertion evaluation, and parallel search | Production source and integration provenance |
 | [Solver versions](solvers/README.md) | Current, V31, and Legacy | Frozen source snapshots and SHA-256 identities |

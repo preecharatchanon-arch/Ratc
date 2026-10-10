@@ -6,12 +6,18 @@ These are exact snapshots from the FleetRoute submission supplement, extracted w
 | --- | --- | ---: | --- |
 | Current solver | [Production source](current/solver.cpp) | 21,196 | Solver integrated into the FleetRoute application |
 | Benchmark Current | [Frozen source](benchmark-current/solver.cpp) | 20,931 | Current snapshot used in the retained benchmark |
-| V31 | [Retained source](v31/solver.cpp) | 14,627 | Earlier solver generation |
+| V31 | [Retained source](v31/solver.cpp) | 14,627 | Generation used at the NSC finalist stage |
 | V31 STRICT_FAIR | [Benchmark source](v31/solver_strict_fair.cpp) | 14,645 | Source embedded in the targeted recovery notebook |
-| Legacy | [Retained source](legacy/solver.cpp) | 13,104 | Earlier solver generation |
+| Legacy | [Retained source](legacy/solver.cpp) | 13,104 | Generation used at the NSC regional stage |
 | Legacy STRICT_FAIR | [Benchmark source](legacy/solver_strict_fair.cpp) | 13,122 | Source embedded in the targeted recovery notebook |
 
 Line counts describe these snapshots, not a measure of performance. The STRICT_FAIR variants are recorded separately so that benchmark provenance does not depend on treating similar files as identical.
+
+## Competition and application history
+
+The author identifies Legacy with the NSC regional round and V31 with the finalist round. The [NSC evidence page](../projects/nsc-2026/README.md) provides the July and August reports and the finalist presentation. V31's early throughput policy separates low-cost LNS from deeper intensification; the later Current solver and FleetRoute integration refine search scheduling, correctness and the application backend further.
+
+Round labels describe development generations. The archived files remain exact submission-supplement snapshots; no byte-identical competition-stage executable is inferred from the generation name alone.
 
 ## Compilation
 

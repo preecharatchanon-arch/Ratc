@@ -1,8 +1,8 @@
 [
   {
     "path": "README.md",
-    "bytes": 4973,
-    "sha256": "a9df6f3108037c4f0ba91e9ff5a430ac86aec9ac7fce65bb1156c3969aa64f74"
+    "bytes": 5166,
+    "sha256": "0dcdd80ada498eccb7a5733e158a1c4233ba15fe449692d67ffc340850ecdced"
   },
   {
     "path": "SOURCE_MANIFEST.json",
@@ -21,8 +21,13 @@
   },
   {
     "path": "projects/adamw-memory/README.md",
-    "bytes": 2379,
-    "sha256": "1f509e651035afc203e5627814012727c2392a306484fcd6af977bbeaa522233"
+    "bytes": 2740,
+    "sha256": "5d0665740a32141339f699b1446fba9cb28ba92204c3dd6db89ee252322bc74c"
+  },
+  {
+    "path": "projects/adamw-memory/figures/stable-response.png",
+    "bytes": 91047,
+    "sha256": "55363de46a24452d790d3c57c066c446e135db334bd80b742f8ca300ed15f94d"
   },
   {
     "path": "projects/adamw-memory/paper.pdf",
@@ -71,8 +76,8 @@
   },
   {
     "path": "projects/fleetroute/README.md",
-    "bytes": 4879,
-    "sha256": "9ad82c42959f26736c4c9ddcf80816506c18e9d3bddeeb3c2f389e3d231e5a97"
+    "bytes": 5463,
+    "sha256": "c1c6dfc7be86b67883d13aa845957389b652560bfe6a0d3749c8da35a19885d8"
   },
   {
     "path": "projects/fleetroute/THIRD_PARTY_DATA_NOTICE.md",
@@ -103,6 +108,11 @@
     "path": "projects/fleetroute/figures/fleetroute_committed_plan.jpeg",
     "bytes": 1773506,
     "sha256": "a9b0021c75b7e65e3fd4d703b886b141a4a5abfbcbedf3299de5ac3d97d35c8b"
+  },
+  {
+    "path": "projects/fleetroute/figures/planned-fleet-playback.png",
+    "bytes": 916107,
+    "sha256": "d108f47e351ecf50dbe9fea2a91a22299b4f65b843db1299b700c1480025080b"
   },
   {
     "path": "projects/fleetroute/figures/public_reference_gaps.png",
@@ -196,8 +206,8 @@
   },
   {
     "path": "projects/neural-training/README.md",
-    "bytes": 2313,
-    "sha256": "0ba498e8b7fe2ec98937fc25be9690752c011dca3cf99693f34cdeca806532fd"
+    "bytes": 2583,
+    "sha256": "d6d3ae94a6bf87e662cf94c2da1b506f9cd7463155d78ccae53bd93924bbd3d7"
   },
   {
     "path": "projects/neural-training/evidence/submission_4.png",
@@ -210,6 +220,11 @@
     "sha256": "3d39d3694c153986d9d2712a031e44f8ef6c15ed9bf11139a09bd73eb0f91fcc"
   },
   {
+    "path": "projects/neural-training/figures/paper-excerpt.png",
+    "bytes": 394146,
+    "sha256": "e6f2dc2d45fc976ce66682869be27289e275b280205cb7b07799328f066875db"
+  },
+  {
     "path": "projects/neural-training/paper.pdf",
     "bytes": 227602,
     "sha256": "775b760cb1ffd8c9f4c18617f7ed3d26927e7204d113cf5397277aff0055c419"
@@ -220,14 +235,44 @@
     "sha256": "f0a669d9b189e6d296c47ea627601dcdca5c59204aee01668c0b68881a86d9b9"
   },
   {
+    "path": "projects/nsc-2026/EVIDENCE_MANIFEST.json",
+    "bytes": 1726,
+    "sha256": "ee8b38b2c54b00c91a2c53145cf26032d49b627a24ead1867066a7a6a56bb464"
+  },
+  {
+    "path": "projects/nsc-2026/README.md",
+    "bytes": 4900,
+    "sha256": "693c7fee551bb41a16c3f589d4756762ce50dc8cf86f3f558b49538099c22eb1"
+  },
+  {
+    "path": "projects/nsc-2026/evidence/finalist-presentation.mp4",
+    "bytes": 11505901,
+    "sha256": "d1f4a277884ad9083d92bf0fcccb1ee8d007c328bc496d997ebda408fb0e4641"
+  },
+  {
+    "path": "projects/nsc-2026/evidence/finalist-video-preview.jpg",
+    "bytes": 130555,
+    "sha256": "b06623eda87040ea62aad786963acc34eef32055a520d96adee6be755c6254da"
+  },
+  {
+    "path": "projects/nsc-2026/reports/finalist-report.pdf",
+    "bytes": 5399586,
+    "sha256": "7d51335141cf77d029b8c21bf32d5e67a7233607035760eb524060b20ad5f96c"
+  },
+  {
+    "path": "projects/nsc-2026/reports/regional-report.pdf",
+    "bytes": 7957920,
+    "sha256": "356cf0262b8a5aa71158685378a3c67de41594c08869e57383ae265b1d5c17ff"
+  },
+  {
     "path": "restore_supplements.py",
     "bytes": 2376,
     "sha256": "13301d633a6c9f66b4ed630464251ffa657e3e72213bb80a3971a0e418178347"
   },
   {
     "path": "solvers/README.md",
-    "bytes": 2208,
-    "sha256": "64164c9aa0f2530ce976e9af5c17e00f496870d270f61e5b5f900bda9e6907a9"
+    "bytes": 2908,
+    "sha256": "61837167f5e33880e9394690cc7a1c00f7244c22d77fda27bb86eb4ee6d3891f"
   },
   {
     "path": "solvers/benchmark-current/README.md",

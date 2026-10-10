@@ -15,9 +15,13 @@ FleetRoute develops a routing algorithm into an inspectable application. Real ro
 - [Submission evidence](evidence/submission.png)
 - [Third-party data notice](THIRD_PARTY_DATA_NOTICE.md)
 
-The work extends the NSC 2026 finalist project **ระบบเพิ่มประสิทธิภาพเส้นทางรถเก็บขยะหลายคัน บนโครงข่ายถนนจริงด้วยอัลกอริทึมไฮบริดเมตาฮิวริสติก**. FleetRoute adds application-level road semantics, hard-feasible warm starts, validation, lifecycle management, and evidence around the optimization core.
+The work extends the NSC 2026 finalist project **ระบบเพิ่มประสิทธิภาพเส้นทางรถเก็บขยะหลายคัน บนโครงข่ายถนนจริงด้วยอัลกอริทึมไฮบริดเมตาฮิวริสติก**. Its [NSC reports and finalist presentation](../nsc-2026/README.md) document Legacy at the regional stage and V31 at the finalist stage. Planner and driver workflows already existed in the finalist application. The subsequent IAAI work expands the Thailand-only PBF workflow to international region selection and strengthens road-data handling, spatial indexing, backend execution, validation, lifecycle management and inspectable evidence around the optimization core.
 
 ## Application and control architecture
+
+![FleetRoute planned-fleet playback and truck schedule roster](figures/planned-fleet-playback.png)
+
+A single application panel from Figure 5 in the submitted paper, showing the committed fleet plan and schedule-aware playback. This is a controlled prototype scenario.
 
 ![FleetRoute committed-plan application surfaces](figures/fleetroute_committed_plan.jpeg)
 

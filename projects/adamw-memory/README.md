@@ -17,6 +17,10 @@ In an eight-history, accuracy-stable CIFAR10 follow-up, rank-16 sixteen-update r
 
 At sixty-four updates, rank-16 error exceeds zero-response prediction in every history on both futures. Substantial retained response magnitude can coexist with weak directional alignment. Short-horizon improvement therefore does not, by itself, establish causal sufficiency.
 
+![Stable CIFAR10 H16/rank-16 paired response errors](figures/stable-response.png)
+
+Figure 3 from the manuscript: eight independent histories, paired immediate and H16-matched bases, and two future batch sequences. The chart and its original caption are rendered directly from PDF page 13. The improvements are descriptive; the declared interaction test fails.
+
 ## Manuscript and reconstruction evidence
 
 - [Read the research manuscript (PDF)](paper.pdf)

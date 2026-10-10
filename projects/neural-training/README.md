@@ -21,6 +21,10 @@ The contribution is a direct test separating reproducibility, prediction, and ca
 
 ## Evidence
 
+![First page of the submitted research paper](figures/paper-excerpt.png)
+
+This is a rendering of the supplied paper's first page. The submission records below document submission 191 to the AAAI-27 Student Abstract and Poster Program; they do not establish acceptance.
+
 - [Read the paper (PDF)](paper.pdf)
 - [Download the final supplementary package](supplement.zip)
 - [Submission record](evidence/submission_4.png)

@@ -1,0 +1,33 @@
+[
+  {
+    "stage": "Finalist round / V31",
+    "original_filename": "28P23S01276_รายงานฉบับสมบูรณ์NSC.pdf",
+    "original_sha256": "347b559d84230fd4bf1728e9b99c1f554f5a9fb6ad666f153fb2e04678640727",
+    "published_path": "reports/finalist-report.pdf",
+    "published_sha256": "7d51335141cf77d029b8c21bf32d5e67a7233607035760eb524060b20ad5f96c",
+    "pages": 100,
+    "public_copy_edit": "Author phone number omitted; remaining text unchanged after whitespace and zero-width layout normalization.",
+    "phone_omitted_pdf_page": 85
+  },
+  {
+    "stage": "Regional round / Legacy",
+    "original_filename": "รายงานฉบับสมบูรณ์NSC2026(8).pdf",
+    "original_sha256": "b73bf56298c7d638cee03c93d02d3b2f6457aee7bb2f28ae2a7591b30f61c565",
+    "published_path": "reports/regional-report.pdf",
+    "published_sha256": "356cf0262b8a5aa71158685378a3c67de41594c08869e57383ae265b1d5c17ff",
+    "pages": 158,
+    "public_copy_edit": "Author phone number omitted; remaining text unchanged after whitespace and zero-width layout normalization.",
+    "phone_omitted_pdf_page": 149
+  },
+  {
+    "stage": "Finalist round / V31",
+    "original_filename": "28P23S01276.mp4",
+    "original_sha256": "a03a1c44824ee4cff6b3d1811c5f94507ce91c5932fdf46fea65d8beed45943b",
+    "published_path": "evidence/finalist-presentation.mp4",
+    "published_sha256": "d1f4a277884ad9083d92bf0fcccb1ee8d007c328bc496d997ebda408fb0e4641",
+    "duration_seconds": 390.2,
+    "bytes": 11505901,
+    "public_copy_edit": "H.264 CRF 28, 15 fps, original frame dimensions; AAC 64 kbps; presentation sequence and audio retained.",
+    "round_assignment_source": "Author clarification, 10 October 2026."
+  }
+]
