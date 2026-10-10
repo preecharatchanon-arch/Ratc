@@ -39,27 +39,26 @@ This additional October analysis uses Welch power spectral density on matched du
 
 ## Run the project
 
-Open [the notebook in Google Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/audio-fft/audio_fft_analysis.ipynb):
+Open [the notebook in Google Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/audio-fft/audio_fft_analysis.ipynb) and run its **single code cell**:
 
-1. Run the setup cell.
-2. Upload **your own recordings** (at least two). MP3 and WAV are supported through FFmpeg.
-3. Select the **reference file number**, then the **comparison file number** from the displayed list.
-4. Run the analysis cell to generate figures, features and comparison results.
+1. Upload your audio recordings.
+2. Select the reference/baseline file number, then the test/comparison file number.
+3. Read the printed summaries and view all **15 original graphs**.
 
-No sample filename is required. Upload order does not assign roles; you can choose any two files from a larger upload. The selection cell rejects invalid numbers and choosing the same file twice. The notebook embeds the analysis code, so the optional example recordings are not dependencies.
+The cell installs its dependencies and includes the analysis code directly. It accepts your own filenames and does not require the example engine or drum recordings. It saves `analysis.txt` and all 15 PNGs to **`/content/audio_fft_results/`**, visible in Colab's Files panel. Rerunning replaces the outputs in that folder; download them first if you want to keep a previous run.
 
-For local use, install FFmpeg through your operating system's package manager, then:
+The original plots are restored: waveform, FFT spectrum, labelled main peaks and STFT spectrogram for each file (eight plots), plus RMS, centroid, flatness, spectral flux, harmonic score, anomaly score and onset-detector comparisons (seven plots).
+
+For local use, install FFmpeg, then:
 
 ```sh
 python -m pip install -r requirements.txt
-python run_analysis.py --reference "/path/to/my reference.wav" --comparison "/path/to/my test.mp3"
+python run_analysis.py --reference "/path/to/reference.wav" --comparison "/path/to/test.mp3" --output "/path/to/my-results"
 ```
 
-Each local run defaults to a new `runs/<UTC timestamp>/results/` directory. Use `--output /path/to/new-run` to choose another destination. Figures are saved inside that destination's `figures/` subdirectory; Colab prints its run directory after analysis. New runs use **Reference / Comparison** labels, record the selected filenames and input SHA-256 hashes, and export global/frame-level CSVs, the environment and both comparison orientations. `results.json` uses schema version 2, with `reference_recording`, `comparison_recording`, `selected_order` and `reversed_order` keys. The former `--engine` argument remains a compatibility alias for `--reference`.
+The local runner writes the same text report and plots. The notebook keeps the original calculation definitions, plot settings and heuristic scores; the changes are explicit file selection and saving the displayed outputs.
 
-The repository's top-level project `results/` and `figures/` directories contain **archived engine/drum example evidence**. New runs do not overwrite them. To check that archived example and the known-frequency measurement checks, run `python check_evidence.py`; its example-specific assertions do not restrict the recordings used by the notebook or runner.
-
-The runner contains no trained classifier. The Colab entry point is an October restoration of the supplied prototype, with explicit file roles and evidence export; it is not claimed to be the original March notebook.
+The three curated figures shown earlier on this page and the files in `results/` are archived example evidence from the October rerun. They are separate from the notebook's full output. The additional matched-support Welch plot is not part of the original notebook. Its [earlier evidence-generation runner](https://github.com/preecharatchanon-arch/Ratc/blob/bb944236d7b11d8de67b7e7f1f59dfd51121b197/projects/audio-fft/run_analysis.py) remains in the repository history. `python check_evidence.py` checks the archived numbers and measurement sanity.
 
 ## Scope and next step
 
