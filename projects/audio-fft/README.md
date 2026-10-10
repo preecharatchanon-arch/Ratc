@@ -39,17 +39,27 @@ This additional October analysis uses Welch power spectral density on matched du
 
 ## Run the project
 
-Open [the notebook in Google Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/audio-fft/audio_fft_analysis.ipynb), run setup, upload the recordings, and set their roles by filename. It embeds the analysis code and does not rely on upload order.
+Open [the notebook in Google Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/audio-fft/audio_fft_analysis.ipynb):
+
+1. Run the setup cell.
+2. Upload **your own recordings** (at least two). MP3 and WAV are supported through FFmpeg.
+3. Select the **reference file number**, then the **comparison file number** from the displayed list.
+4. Run the analysis cell to generate figures, features and comparison results.
+
+No sample filename is required. Upload order does not assign roles; you can choose any two files from a larger upload. The selection cell rejects invalid numbers and choosing the same file twice. The notebook embeds the analysis code, so the optional example recordings are not dependencies.
 
 For local use, install FFmpeg through your operating system's package manager, then:
 
 ```sh
 python -m pip install -r requirements.txt
-python run_analysis.py --engine /path/to/engine.mp3 --comparison /path/to/drum.mp3
-python check_evidence.py
+python run_analysis.py --reference "/path/to/my reference.wav" --comparison "/path/to/my test.mp3"
 ```
 
-The runner exports three figures, global and frame-level CSVs, input SHA-256 hashes, the environment and both ordering results. It contains no trained classifier. The Colab entry point is an October restoration of the supplied prototype, with explicit file roles and evidence export; it is not claimed to be the original March notebook.
+Each local run defaults to a new `runs/<UTC timestamp>/results/` directory. Use `--output /path/to/new-run` to choose another destination. Figures are saved inside that destination's `figures/` subdirectory; Colab prints its run directory after analysis. New runs use **Reference / Comparison** labels, record the selected filenames and input SHA-256 hashes, and export global/frame-level CSVs, the environment and both comparison orientations. `results.json` uses schema version 2, with `reference_recording`, `comparison_recording`, `selected_order` and `reversed_order` keys. The former `--engine` argument remains a compatibility alias for `--reference`.
+
+The repository's top-level project `results/` and `figures/` directories contain **archived engine/drum example evidence**. New runs do not overwrite them. To check that archived example and the known-frequency measurement checks, run `python check_evidence.py`; its example-specific assertions do not restrict the recordings used by the notebook or runner.
+
+The runner contains no trained classifier. The Colab entry point is an October restoration of the supplied prototype, with explicit file roles and evidence export; it is not claimed to be the original March notebook.
 
 ## Scope and next step
 
