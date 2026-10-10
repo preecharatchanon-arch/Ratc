@@ -1,8 +1,8 @@
 [
   {
     "path": "README.md",
-    "bytes": 5166,
-    "sha256": "0dcdd80ada498eccb7a5733e158a1c4233ba15fe449692d67ffc340850ecdced"
+    "bytes": 5218,
+    "sha256": "6323b08f779d2c4722673acc3203c8dd1d6810e5144a714f81c668159787a5cf"
   },
   {
     "path": "SOURCE_MANIFEST.json",
@@ -298,6 +298,41 @@
     "path": "solvers/current/solver_provenance.json",
     "bytes": 2125,
     "sha256": "96a33e0bc81440cd697a2723043aa352865ca57c6af951ab7c397d5e8a8a84f9"
+  },
+  {
+    "path": "solvers/history/README.md",
+    "bytes": 1735,
+    "sha256": "a7b7ba31988f90cc7e4a95da0cae83c1af1421f880248e149cf96bc112235cf6"
+  },
+  {
+    "path": "solvers/history/a-n60-k9-tuning.colab.txt",
+    "bytes": 249355,
+    "sha256": "3407420aff6ceb8f619491b0421875e7ce2abd55d70b87dd45a6e46129e17e77"
+  },
+  {
+    "path": "solvers/history/euclidean-experiment.colab.txt",
+    "bytes": 221065,
+    "sha256": "1a16e1dd97b9112feb7a44e6a74d8e86b398ac1d6f6f75cebd63d29ca056072d"
+  },
+  {
+    "path": "solvers/history/fragment-lns-experiment.colab.txt",
+    "bytes": 298582,
+    "sha256": "6a54faccafdbbd331167b39c99a595bd04ad8dfdc8a367b4a861df41d262f000"
+  },
+  {
+    "path": "solvers/history/hgs-experiment.colab.txt",
+    "bytes": 238370,
+    "sha256": "d7ae7f35eb3f5adead2ac81b223e5530bbb24a86240d8bd16a3102507052d8eb"
+  },
+  {
+    "path": "solvers/history/operator-pruning.colab.txt",
+    "bytes": 193641,
+    "sha256": "d5d4f20e8fe4325530246b52661aa8658bc13b6bf6b44205a4af5d4532c2f780"
+  },
+  {
+    "path": "solvers/history/original-solv.colab.txt",
+    "bytes": 313130,
+    "sha256": "ae4072fd60c73bc6e4745b8108e5d0e80da637a266466fc26b92896cb2f88208"
   },
   {
     "path": "solvers/legacy/README.md",

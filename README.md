@@ -40,7 +40,7 @@ The frozen benchmark Current source reaches a **2.02% mean best-of-three referen
 
 [SOURCE_MANIFEST.json](SOURCE_MANIFEST.json) records the exact archive member and SHA-256 of each extracted solver. The production Current solver and the frozen benchmark Current solver are different snapshots. Reported benchmark results belong to the frozen experimental package.
 
-The older files at the repository root preserve the original development history. They are earlier experiments, rather than substitutes for the explicitly identified versions under `solvers/`.
+The [original notebook-cell exports](solvers/history/README.md) preserve the development notes with their original names and unchanged blob identities. The solver index identifies Current, V31, Legacy and the frozen benchmark source separately.
 
 ## Obtain the complete supplements
 
