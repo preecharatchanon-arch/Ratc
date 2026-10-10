@@ -11,6 +11,12 @@ The author supplied analysis code and a printed run, identifying the project as 
 - Numerical sanity checks cover known-frequency sinusoids and the expected power ratio of a two-tone signal. These verify measurement mechanics, not fault-detection performance.
 - SHA-256 hashes, sample rates, durations, CSVs and package versions are retained. Raw stock MP3s are linked rather than rehosted.
 
+## Input selection and new runs
+
+The Colab upload cell lists the actual uploaded filenames and asks the user to choose reference and comparison by number. Neither role is tied to an example filename or upload order, and the two selections must be different files. The local runner accepts explicit `--reference` and `--comparison` paths; `--engine` is retained as an alias.
+
+New runs export schema version 2 with generic reference/comparison labels, per-role input hashes and both selected and reversed orientations. Figures live inside each run's output directory. The archived `results/` and `figures/` evidence remains unchanged, and the runner rejects those directories as new output destinations. `check_evidence.py` checks that historical example and measurement sanity, not the validity of an arbitrary user's recording against the example numbers.
+
 ## Definitions that matter
 
 1. **Magnitude is not power.** The original `band_energy` sums `abs(FFT)`, so its retained values are labelled magnitude shares. The additional Welch audit integrates estimated power on equal-duration recordings at a common sample rate, with identical window settings.
