@@ -11,11 +11,13 @@ The author supplied analysis code and a printed run, identifying the project as 
 - Numerical sanity checks cover known-frequency sinusoids and the expected power ratio of a two-tone signal. These verify measurement mechanics, not fault-detection performance.
 - SHA-256 hashes, sample rates, durations, CSVs and package versions are retained. Raw stock MP3s are linked rather than rehosted.
 
-## Input selection and new runs
+## Current notebook and saved outputs
 
-The Colab upload cell lists the actual uploaded filenames and asks the user to choose reference and comparison by number. Neither role is tied to an example filename or upload order, and the two selections must be different files. The local runner accepts explicit `--reference` and `--comparison` paths; `--engine` is retained as an alias.
+The notebook is a single self-contained code cell: install dependencies, upload files, choose reference and comparison by number, analyze, print summaries, display every original plot and save the outputs. It uses arbitrary uploaded filenames and rejects choosing the same file twice.
 
-New runs export schema version 2 with generic reference/comparison labels, per-role input hashes and both selected and reversed orientations. Figures live inside each run's output directory. The archived `results/` and `figures/` evidence remains unchanged, and the runner rejects those directories as new output destinations. `check_evidence.py` checks that historical example and measurement sanity, not the validity of an arbitrary user's recording against the example numbers.
+The original feature calculations, heuristic scores and plot settings are retained. The original plotting code generates **15 figures**: eight individual-file figures, five frame-feature comparisons and two score comparisons. PNG copies and `analysis.txt` are saved to `/content/audio_fft_results/`. No additional Welch calculation or alternate-order report is inserted into this flow.
+
+The repository's archived `results/` and curated `figures/` remain unchanged. `check_evidence.py` checks that historical example and measurement sanity, not arbitrary new input against the example numbers. The earlier evidence-generation runner remains available in Git history.
 
 ## Definitions that matter
 
@@ -29,7 +31,7 @@ New runs export schema version 2 with generic reference/comparison labels, per-r
 
 ## Documentary scope
 
-`original_prototype.py` retains the supplied analysis definitions. `run_analysis.py` restores the printing/export path and creates October figures with explicit roles and labels. `audio_fft_analysis.ipynb` embeds both modules for use in Colab. The audited power plot is an additional October calculation, not a replacement silently relabelled as a March result.
+`original_prototype.py` retains the supplied analysis definitions. `run_analysis.py` prints the original summaries and saves all original plots. `audio_fft_analysis.ipynb` contains these functions directly in one runnable Colab cell. The audited power plot is an additional October calculation, not a replacement silently relabelled as a March result.
 
 Primary technical references:
 
