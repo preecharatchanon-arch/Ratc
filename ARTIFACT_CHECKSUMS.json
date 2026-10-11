@@ -1306,8 +1306,8 @@
   },
   {
     "path": "solvers/README.md",
-    "bytes": 2908,
-    "sha256": "61837167f5e33880e9394690cc7a1c00f7244c22d77fda27bb86eb4ee6d3891f"
+    "bytes": 11802,
+    "sha256": "82fafede065eac29f1fd37fbc81f4da558fe4b539611d79a1de2c42390d979f9"
   },
   {
     "path": "solvers/benchmark-current/README.md",
@@ -1341,8 +1341,8 @@
   },
   {
     "path": "solvers/history/README.md",
-    "bytes": 1735,
-    "sha256": "a7b7ba31988f90cc7e4a95da0cae83c1af1421f880248e149cf96bc112235cf6"
+    "bytes": 4131,
+    "sha256": "55bde582b7bc5c175f5c2c7386c72e3ad3f8726e8d6adcec217b9951a20c27df"
   },
   {
     "path": "solvers/history/a-n60-k9-tuning.colab.txt",
