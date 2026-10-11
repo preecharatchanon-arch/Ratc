@@ -1191,8 +1191,8 @@
   },
   {
     "path": "projects/neural-training/README.md",
-    "bytes": 3802,
-    "sha256": "33fbd02abfd07e8c339a3bda241615e9fa44c0d15719b0effd48b070b6858892"
+    "bytes": 4148,
+    "sha256": "2d4c26a19324c5f3889d3f0a602c63f98c8c3a277cb49aa62f83a5c5cd001f61"
   },
   {
     "path": "projects/neural-training/evidence/submission_4.png",
@@ -1201,8 +1201,8 @@
   },
   {
     "path": "projects/neural-training/evidence/submission_5.png",
-    "bytes": 153382,
-    "sha256": "3d39d3694c153986d9d2712a031e44f8ef6c15ed9bf11139a09bd73eb0f91fcc"
+    "bytes": 148739,
+    "sha256": "a815dc42a0c8867560ad1d4e82a58cf7e1b710e5dbc624bb902bea736e4616fc"
   },
   {
     "path": "projects/neural-training/figures/paper-excerpt.png",
