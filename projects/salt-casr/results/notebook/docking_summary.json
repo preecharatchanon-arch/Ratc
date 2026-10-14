@@ -1,0 +1,10 @@
+{
+  "completed_jobs": 20,
+  "numeric_activity_comparisons": 14,
+  "score_activity_spearman": 0.23956043956043957,
+  "result_source": "current",
+  "native_top_rmsd_A": 4.780330929033706,
+  "higher_search_top_rmsd_A": 4.435574620825993,
+  "higher_search_best_rmsd_A": 2.4330887046942977,
+  "limitations": "Selected analogue panel; rigid receptor and fixed ligand charge hypothesis; no modeled calcium ions; inactive is not synonymous with nonbinding."
+}

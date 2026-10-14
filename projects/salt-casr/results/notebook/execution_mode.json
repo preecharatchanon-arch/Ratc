@@ -1,0 +1,12 @@
+{
+  "docking_mode": "reused_verified_outputs",
+  "native_search_mode": "reused_verified_outputs",
+  "config": {
+    "docking_seed": 777,
+    "cpu_threads": 2,
+    "panel_exhaustiveness": 4,
+    "native_exhaustiveness": 16,
+    "panel_poses": 10,
+    "native_poses": 20
+  }
+}

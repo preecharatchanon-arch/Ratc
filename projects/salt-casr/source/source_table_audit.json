@@ -1,0 +1,733 @@
+{
+  "source_url": "https://www.jstage.jst.go.jp/article/cpb/64/8/64_c16-00293/_html/-char/en",
+  "retrieved": "2026-10-14",
+  "source_html_sha256": "5fa0ff022a6a0f3b4935f03dd5e3cbdef65412dd81e1f9c5981c9487f5ccba33",
+  "tables": 3,
+  "publisher_rows": 103,
+  "curated_labels": 102,
+  "unmatched": [],
+  "comparison": [
+    {
+      "table": 1,
+      "compound": "γ-Glu-Cys",
+      "publisher_HEK": "0.16–0.46",
+      "curated_HEK": "0.16–0.46",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Val",
+      "publisher_HEK": "1.03",
+      "curated_HEK": "1.03",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Ala",
+      "publisher_HEK": "1.24",
+      "curated_HEK": "1.24",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Thr",
+      "publisher_HEK": "6.97",
+      "curated_HEK": "6.97",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Leu",
+      "publisher_HEK": "5.07",
+      "curated_HEK": "5.07",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Ile",
+      "publisher_HEK": "9.91",
+      "curated_HEK": "9.91",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Ser",
+      "publisher_HEK": "11",
+      "curated_HEK": "11",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Orn",
+      "publisher_HEK": "70.4",
+      "curated_HEK": "70.4",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Met",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Asn",
+      "publisher_HEK": "159",
+      "curated_HEK": "159",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Gly",
+      "publisher_HEK": "200",
+      "curated_HEK": "200",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Trp",
+      "publisher_HEK": "300",
+      "curated_HEK": "300",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Pro",
+      "publisher_HEK": "409",
+      "curated_HEK": "409",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Cys(Me)",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Tau",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Cys(Me)(O)",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Met(O)",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Nva",
+      "publisher_HEK": "0.12",
+      "curated_HEK": "0.12",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Cle",
+      "publisher_HEK": "0.15",
+      "curated_HEK": "0.15",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Abu",
+      "publisher_HEK": "0.21",
+      "curated_HEK": "0.21",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Ape",
+      "publisher_HEK": "0.49",
+      "curated_HEK": "0.49",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Cys(Carboxymethyl)",
+      "publisher_HEK": "1.69",
+      "curated_HEK": "1.69",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Tle",
+      "publisher_HEK": "3.06",
+      "curated_HEK": "3.06",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Ser(Me)",
+      "publisher_HEK": "3.19",
+      "curated_HEK": "3.19",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Nle",
+      "publisher_HEK": "4.41",
+      "curated_HEK": "4.41",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-β-homoAla",
+      "publisher_HEK": "5.53",
+      "curated_HEK": "5.53",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-allo-Ile",
+      "publisher_HEK": "8.87",
+      "curated_HEK": "8.87",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Aib",
+      "publisher_HEK": "15.4",
+      "curated_HEK": "15.4",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-D-Val",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-D-Glu-Val",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "α-Glu-Val",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Val-NH2",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Val-OMe",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 1,
+      "compound": "γ-Glu-Val-ol",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Val-Gly",
+      "publisher_HEK": "0.030–0.075",
+      "curated_HEK": "0.030–0.075",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Cys-Gly",
+      "publisher_HEK": "0.7",
+      "curated_HEK": "0.7",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Ala-Gly",
+      "publisher_HEK": "0.016",
+      "curated_HEK": "0.016",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Ser-Gly",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Gly-Gly",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Ile-Gly",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Thr-Gly",
+      "publisher_HEK": "2.8",
+      "curated_HEK": "2.8",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Leu-Gly",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Pro-Gly",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Cys(Me)-Gly",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Abu-Gly",
+      "publisher_HEK": "0.025",
+      "curated_HEK": "0.025",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Algly-Gly",
+      "publisher_HEK": "0.011",
+      "curated_HEK": "0.011",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Ser(Me)-Gly",
+      "publisher_HEK": "0.037",
+      "curated_HEK": "0.037",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Nva-Gly",
+      "publisher_HEK": "0.052–0.055",
+      "curated_HEK": "0.052–0.055",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Tle-Gly",
+      "publisher_HEK": "0.043–0.090",
+      "curated_HEK": "0.043–0.090",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Pen-Gly",
+      "publisher_HEK": "0.16–0.23",
+      "curated_HEK": "0.16–0.23",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Aib-Gly",
+      "publisher_HEK": "0.35–1.17",
+      "curated_HEK": "0.35–1.17",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Cle-Gly",
+      "publisher_HEK": "0.5–1.5",
+      "curated_HEK": "0.5–1.5",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-allo-Ile-Gly",
+      "publisher_HEK": "0.63",
+      "curated_HEK": "0.63",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-allo-Thr-Gly",
+      "publisher_HEK": "0.7",
+      "curated_HEK": "0.7",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Hse-Gly",
+      "publisher_HEK": "1.18",
+      "curated_HEK": "1.18",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Cys(n-Butyl)-Gly",
+      "publisher_HEK": "4",
+      "curated_HEK": "4",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Nle-Gly",
+      "publisher_HEK": "5",
+      "curated_HEK": "5",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Cys(1,2-Dicarboxyethyl)-Gly",
+      "publisher_HEK": "5–10",
+      "curated_HEK": "5–10",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Cys(Allyl)-Gly",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 2,
+      "compound": "γ-Glu-Cys(n-Propyl)-Gly",
+      "publisher_HEK": "117",
+      "curated_HEK": "117",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-Gly",
+      "publisher_HEK": "0.030–0.075",
+      "curated_HEK": "0.030–0.075",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-Gln",
+      "publisher_HEK": "0.3–0.5",
+      "curated_HEK": "0.3–0.5",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-Cys",
+      "publisher_HEK": "3.7",
+      "curated_HEK": "3.7",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-Pro",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-Ser",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-Phe",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-Asn",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-Orn",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-His",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-Ala",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-Thr",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-Met",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-Asp",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-Arg",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-Lys",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-Glu",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-Val",
+      "publisher_HEK": "",
+      "curated_HEK": "",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-D-Ala",
+      "publisher_HEK": "1.26",
+      "curated_HEK": "1.26",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-D-Ser",
+      "publisher_HEK": "4.27",
+      "curated_HEK": "4.27",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Ala-Leu",
+      "publisher_HEK": "4.17",
+      "curated_HEK": "4.17",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Abu-Leu",
+      "publisher_HEK": "2.49",
+      "curated_HEK": "2.49",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Abu-Pro",
+      "publisher_HEK": "4.59",
+      "curated_HEK": "4.59",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-D-Val-Gly",
+      "publisher_HEK": "Inactive",
+      "curated_HEK": "Inactive",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-D-Glu-Val-Gly",
+      "publisher_HEK": "Inactive",
+      "curated_HEK": "Inactive",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-D-Glu-D-Val-Gly",
+      "publisher_HEK": "Inactive",
+      "curated_HEK": "Inactive",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "α-Glu-Val-Gly",
+      "publisher_HEK": ">10",
+      "curated_HEK": ">10",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "α-D-Glu-Val-Gly",
+      "publisher_HEK": "Inactive",
+      "curated_HEK": "Inactive",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "α-Glu-D-Val-Gly",
+      "publisher_HEK": "Inactive",
+      "curated_HEK": "Inactive",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "α-D-Glu-D-Val-Gly",
+      "publisher_HEK": "Inactive",
+      "curated_HEK": "Inactive",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "β-Asp-Val-Gly",
+      "publisher_HEK": "Inactive",
+      "curated_HEK": "Inactive",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "β-Asp-Val-βAla",
+      "publisher_HEK": "Inactive",
+      "curated_HEK": "Inactive",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-βAla",
+      "publisher_HEK": "Inactive",
+      "curated_HEK": "Inactive",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Cys-βAla",
+      "publisher_HEK": "5–10",
+      "curated_HEK": "5–10",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Abu-βAla",
+      "publisher_HEK": "2.45",
+      "curated_HEK": "2.45",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Ala-βAla",
+      "publisher_HEK": "9.96",
+      "curated_HEK": "9.96",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-Gly-Gly",
+      "publisher_HEK": "4.91",
+      "curated_HEK": "4.91",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-Gly-Gln",
+      "publisher_HEK": "2.03",
+      "curated_HEK": "2.03",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-Glycolic acid",
+      "publisher_HEK": "0.05",
+      "curated_HEK": "0.05",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Abu-Glycolic acid",
+      "publisher_HEK": "0.14",
+      "curated_HEK": "0.14",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Tle-Glycolic acid",
+      "publisher_HEK": "0.065–0.079",
+      "curated_HEK": "0.065–0.079",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Val-L-Lactic acid",
+      "publisher_HEK": "0.102",
+      "curated_HEK": "0.102",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Abu-L-Lactic acid",
+      "publisher_HEK": "0.038",
+      "curated_HEK": "0.038",
+      "match": true
+    },
+    {
+      "table": 3,
+      "compound": "γ-Glu-Tle-L-Lactic acid",
+      "publisher_HEK": "0.057",
+      "curated_HEK": "0.057",
+      "match": true
+    }
+  ],
+  "scope": "Raw HEK-293 table labels and values only. Structure definitions and narrative annotations require separate review."
+}

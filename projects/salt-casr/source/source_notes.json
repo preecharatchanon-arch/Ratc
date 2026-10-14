@@ -1,0 +1,33 @@
+{
+  "activity": {
+    "doi": "10.1248/cpb.c16-00293",
+    "url": "https://www.jstage.jst.go.jp/article/cpb/64/8/64_c16-00293/_html/-char/en",
+    "tables": "1–3",
+    "extraction": "Curated compound labels and raw assay values, with missing/range/inactive/censored labels kept separate."
+  },
+  "erratum": {
+    "doi": "10.1248/cpb.c17-e6506",
+    "url": "https://www.jstage.jst.go.jp/article/cpb/65/6/65_c17-e6506/_html/-char/en",
+    "note": "Corrects source attribution of gamma-Glu-Abu (compound 20) to WO2010/114022A1; no numerical correction in this erratum."
+  },
+  "patent_assignment_sensitivity": {
+    "url": "https://patents.google.com/patent/US20100136197A1/en",
+    "table": "3",
+    "note": "Six hydroxy-acid label/value assignments differ from journal table. Alternative labels are a sensitivity scenario, not independent replicates."
+  },
+  "receptor": {
+    "pdb": "9J7I",
+    "doi": "10.1038/s41598-025-87999-1",
+    "url": "https://www.rcsb.org/structure/9J7I",
+    "note": "Native SDF extracted earlier from deposited ligand; original CIF supplied for review and receptor preparation."
+  },
+  "sensory_boundary": {
+    "doi": "10.1186/2044-7248-4-17",
+    "url": "https://link.springer.com/article/10.1186/2044-7248-4-17",
+    "note": "5 ppm EVG in chicken consomme: saltiness change not statistically significant. This is not a receptor activity label."
+  },
+  "novelty": "All generated combinations are only absent from the extracted series. The hydroxy-acid ester scaffold is explicitly described by the earlier patent, with norvaline included. No new chemical novelty established.",
+  "archive_reference": "Prior docking outputs dated 2026-10-14; used only if user sets RUN_DOCKING=False. Default runs new jobs.",
+  "curation_scope": "103 publisher table rows match 102 unique curated labels; EVG appears twice. 18 additional narrative-only inactive compounds are separate annotations with unspecified assay system, not HEK-293 regression labels.",
+  "grouping_rule": "Canonical non-stereochemical SMILES of the isolated middle monomer; Ile/allo-Ile and Thr/allo-Thr stay together. 26 constitutional groups replace the earlier 28 name-based groups."
+}

@@ -1,0 +1,9 @@
+{
+  "jobs": 20,
+  "runtime_s": 666.9565478139994,
+  "seed": 777,
+  "exhaustiveness": 4,
+  "ligand_state": "Carboxylate groups negative, free primary amine positive; fixed predominant-state hypothesis, not measured pKa.",
+  "receptor": "Rigid observed VFT domain; no modeled calcium ions in deposited pocket.",
+  "interpretation": "Binding-pose/scoring experiment; not receptor activation or saltiness proof."
+}

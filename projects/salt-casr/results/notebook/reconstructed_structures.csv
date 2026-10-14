@@ -1,0 +1,95 @@
+compound,middle_family,middle_group_key,terminal_family,hek293_status,SMILES,formula
+γ-Glu-Cys,Cys,NC(CS)C(=O)O,dipeptide,range,N[C@@H](CCC(=O)N[C@@H](CS)C(=O)O)C(=O)O,C8H14N2O5S
+γ-Glu-Val,Val,CC(C)C(N)C(=O)O,dipeptide,numeric,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C10H18N2O5
+γ-Glu-Ala,Ala,CC(N)C(=O)O,dipeptide,numeric,C[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C8H14N2O5
+γ-Glu-Thr,Thr,CC(O)C(N)C(=O)O,dipeptide,numeric,C[C@@H](O)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C9H16N2O6
+γ-Glu-Leu,Leu,CC(C)CC(N)C(=O)O,dipeptide,numeric,CC(C)C[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C11H20N2O5
+γ-Glu-Ile,Ile,CCC(C)C(N)C(=O)O,dipeptide,numeric,CC[C@H](C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C11H20N2O5
+γ-Glu-Ser,Ser,NC(CO)C(=O)O,dipeptide,numeric,N[C@@H](CCC(=O)N[C@@H](CO)C(=O)O)C(=O)O,C8H14N2O6
+γ-Glu-Orn,Orn,NCCCC(N)C(=O)O,dipeptide,numeric,NCCC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C10H19N3O5
+γ-Glu-Met,Met,CSCCC(N)C(=O)O,dipeptide,missing,CSCC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C10H18N2O5S
+γ-Glu-Asn,Asn,NC(=O)CC(N)C(=O)O,dipeptide,numeric,NC(=O)C[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C9H15N3O6
+γ-Glu-Gly,Gly,NCC(=O)O,dipeptide,numeric,N[C@@H](CCC(=O)NCC(=O)O)C(=O)O,C7H12N2O5
+γ-Glu-Trp,Trp,NC(Cc1c[nH]c2ccccc12)C(=O)O,dipeptide,numeric,N[C@@H](CCC(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)O)C(=O)O,C16H19N3O5
+γ-Glu-Pro,Pro,O=C(O)C1CCCN1,dipeptide,numeric,N[C@@H](CCC(=O)N1CCC[C@H]1C(=O)O)C(=O)O,C10H16N2O5
+γ-Glu-Cys(Me),Cys(Me),CSCC(N)C(=O)O,dipeptide,missing,CSC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C9H16N2O5S
+γ-Glu-Nva,Nva,CCCC(N)C(=O)O,dipeptide,numeric,CCC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C10H18N2O5
+γ-Glu-Cle,Cle,NC1(C(=O)O)CCCC1,dipeptide,numeric,N[C@@H](CCC(=O)NC1(C(=O)O)CCCC1)C(=O)O,C11H18N2O5
+γ-Glu-Abu,Abu,CCC(N)C(=O)O,dipeptide,numeric,CC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C9H16N2O5
+γ-Glu-Ape,Ape,CCC(N)CC(=O)O,dipeptide,numeric,CC[C@@H](CC(=O)O)NC(=O)CC[C@H](N)C(=O)O,C10H18N2O5
+γ-Glu-Cys(Carboxymethyl),Cys(Carboxymethyl),NC(CSCC(=O)O)C(=O)O,dipeptide,numeric,N[C@@H](CCC(=O)N[C@@H](CSCC(=O)O)C(=O)O)C(=O)O,C10H16N2O7S
+γ-Glu-Tle,Tle,CC(C)(C)C(N)C(=O)O,dipeptide,numeric,CC(C)(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C11H20N2O5
+γ-Glu-Ser(Me),Ser(Me),COCC(N)C(=O)O,dipeptide,numeric,COC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C9H16N2O6
+γ-Glu-Nle,Nle,CCCCC(N)C(=O)O,dipeptide,numeric,CCCC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C11H20N2O5
+γ-Glu-β-homoAla,β-homoAla,CC(N)CC(=O)O,dipeptide,numeric,C[C@@H](CC(=O)O)NC(=O)CC[C@H](N)C(=O)O,C9H16N2O5
+γ-Glu- allo -Ile,Ile,CCC(C)C(N)C(=O)O,dipeptide,numeric,CC[C@@H](C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C11H20N2O5
+γ-Glu-Aib,Aib,CC(C)(N)C(=O)O,dipeptide,numeric,CC(C)(NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C9H16N2O5
+γ-Glu-D-Val,Val,CC(C)C(N)C(=O)O,dipeptide,missing,CC(C)[C@@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C10H18N2O5
+γ-D-Glu-Val,Val,CC(C)C(N)C(=O)O,dipeptide,missing,CC(C)[C@H](NC(=O)CC[C@@H](N)C(=O)O)C(=O)O,C10H18N2O5
+α-Glu-Val,Val,CC(C)C(N)C(=O)O,dipeptide,missing,CC(C)[C@H](NC(=O)[C@@H](N)CCC(=O)O)C(=O)O,C10H18N2O5
+γ-Glu-Val-Gly,Val,CC(C)C(N)C(=O)O,Gly,range,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C12H21N3O6
+γ-Glu-Cys-Gly,Cys,NC(CS)C(=O)O,Gly,numeric,N[C@@H](CCC(=O)N[C@@H](CS)C(=O)NCC(=O)O)C(=O)O,C10H17N3O6S
+γ-Glu-Ala-Gly,Ala,CC(N)C(=O)O,Gly,numeric,C[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C10H17N3O6
+γ-Glu-Ser-Gly,Ser,NC(CO)C(=O)O,Gly,missing,N[C@@H](CCC(=O)N[C@@H](CO)C(=O)NCC(=O)O)C(=O)O,C10H17N3O7
+γ-Glu-Gly-Gly,Gly,NCC(=O)O,Gly,missing,N[C@@H](CCC(=O)NCC(=O)NCC(=O)O)C(=O)O,C9H15N3O6
+γ-Glu-Ile-Gly,Ile,CCC(C)C(N)C(=O)O,Gly,missing,CC[C@H](C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C13H23N3O6
+γ-Glu-Thr-Gly,Thr,CC(O)C(N)C(=O)O,Gly,numeric,C[C@@H](O)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C11H19N3O7
+γ-Glu-Leu-Gly,Leu,CC(C)CC(N)C(=O)O,Gly,missing,CC(C)C[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C13H23N3O6
+γ-Glu-Pro-Gly,Pro,O=C(O)C1CCCN1,Gly,missing,N[C@@H](CCC(=O)N1CCC[C@H]1C(=O)NCC(=O)O)C(=O)O,C12H19N3O6
+γ-Glu-Cys(Me)-Gly,Cys(Me),CSCC(N)C(=O)O,Gly,missing,CSC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C11H19N3O6S
+γ-Glu-Abu-Gly,Abu,CCC(N)C(=O)O,Gly,numeric,CC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C11H19N3O6
+γ-Glu-Algly-Gly,Algly,C=CCC(N)C(=O)O,Gly,numeric,C=CC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C12H19N3O6
+γ-Glu-Ser(Me)-Gly,Ser(Me),COCC(N)C(=O)O,Gly,numeric,COC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C11H19N3O7
+γ-Glu-Nva-Gly,Nva,CCCC(N)C(=O)O,Gly,range,CCC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C12H21N3O6
+γ-Glu-Tle-Gly,Tle,CC(C)(C)C(N)C(=O)O,Gly,range,CC(C)(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C13H23N3O6
+γ-Glu-Aib-Gly,Aib,CC(C)(N)C(=O)O,Gly,range,CC(C)(NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C11H19N3O6
+γ-Glu-Cle-Gly,Cle,NC1(C(=O)O)CCCC1,Gly,range,N[C@@H](CCC(=O)NC1(C(=O)NCC(=O)O)CCCC1)C(=O)O,C13H21N3O6
+γ-Glu- allo -Ile-Gly,Ile,CCC(C)C(N)C(=O)O,Gly,numeric,CC[C@@H](C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C13H23N3O6
+γ-Glu- allo -Thr-Gly,Thr,CC(O)C(N)C(=O)O,Gly,numeric,C[C@H](O)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C11H19N3O7
+γ-Glu-Hse-Gly,Hse,NC(CCO)C(=O)O,Gly,numeric,N[C@@H](CCC(=O)N[C@@H](CCO)C(=O)NCC(=O)O)C(=O)O,C11H19N3O7
+γ-Glu-Cys( n -Butyl)-Gly,Cys(n-Butyl),CCCCSCC(N)C(=O)O,Gly,numeric,CCCCSC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C14H25N3O6S
+γ-Glu-Nle-Gly,Nle,CCCCC(N)C(=O)O,Gly,numeric,CCCC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C13H23N3O6
+γ-Glu-Cys(Allyl)-Gly,Cys(Allyl),C=CCSCC(N)C(=O)O,Gly,missing,C=CCSC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C13H21N3O6S
+γ-Glu-Cys( n -Propyl)-Gly,Cys(n-Propyl),CCCSCC(N)C(=O)O,Gly,numeric,CCCSC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C13H23N3O6S
+γ-Glu-Val-Gln,Val,CC(C)C(N)C(=O)O,Gln,range,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](CCC(N)=O)C(=O)O,C15H26N4O7
+γ-Glu-Val-Cys,Val,CC(C)C(N)C(=O)O,Cys,numeric,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](CS)C(=O)O,C13H23N3O6S
+γ-Glu-Val-Pro,Val,CC(C)C(N)C(=O)O,Pro,missing,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N1CCC[C@H]1C(=O)O,C15H25N3O6
+γ-Glu-Val-Ser,Val,CC(C)C(N)C(=O)O,Ser,missing,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](CO)C(=O)O,C13H23N3O7
+γ-Glu-Val-Phe,Val,CC(C)C(N)C(=O)O,Phe,missing,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](Cc1ccccc1)C(=O)O,C19H27N3O6
+γ-Glu-Val-Asn,Val,CC(C)C(N)C(=O)O,Asn,missing,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](CC(N)=O)C(=O)O,C14H24N4O7
+γ-Glu-Val-Orn,Val,CC(C)C(N)C(=O)O,Orn,missing,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](CCCN)C(=O)O,C15H28N4O6
+γ-Glu-Val-His,Val,CC(C)C(N)C(=O)O,His,missing,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](Cc1c[nH]cn1)C(=O)O,C16H25N5O6
+γ-Glu-Val-Ala,Val,CC(C)C(N)C(=O)O,Ala,missing,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](C)C(=O)O,C13H23N3O6
+γ-Glu-Val-Thr,Val,CC(C)C(N)C(=O)O,Thr,missing,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@H](C(=O)O)[C@@H](C)O,C14H25N3O7
+γ-Glu-Val-Met,Val,CC(C)C(N)C(=O)O,Met,missing,CSCC[C@H](NC(=O)[C@@H](NC(=O)CC[C@H](N)C(=O)O)C(C)C)C(=O)O,C15H27N3O6S
+γ-Glu-Val-Asp,Val,CC(C)C(N)C(=O)O,Asp,missing,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](CC(=O)O)C(=O)O,C14H23N3O8
+γ-Glu-Val-Arg,Val,CC(C)C(N)C(=O)O,Arg,missing,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)O,C16H30N6O6
+γ-Glu-Val-Lys,Val,CC(C)C(N)C(=O)O,Lys,missing,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](CCCCN)C(=O)O,C16H30N4O6
+γ-Glu-Val-Glu,Val,CC(C)C(N)C(=O)O,Glu,missing,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](CCC(=O)O)C(=O)O,C15H25N3O8
+γ-Glu-Val-Val,Val,CC(C)C(N)C(=O)O,Val,missing,CC(C)[C@H](NC(=O)[C@@H](NC(=O)CC[C@H](N)C(=O)O)C(C)C)C(=O)O,C15H27N3O6
+γ-Glu-Val-D-Ala,Val,CC(C)C(N)C(=O)O,Ala,numeric,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@H](C)C(=O)O,C13H23N3O6
+γ-Glu-Val-D-Ser,Val,CC(C)C(N)C(=O)O,Ser,numeric,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@H](CO)C(=O)O,C13H23N3O7
+γ-Glu-Ala-Leu,Ala,CC(N)C(=O)O,Leu,numeric,CC(C)C[C@H](NC(=O)[C@H](C)NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C14H25N3O6
+γ-Glu-Abu-Leu,Abu,CCC(N)C(=O)O,Leu,numeric,CC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](CC(C)C)C(=O)O,C15H27N3O6
+γ-Glu-Abu-Pro,Abu,CCC(N)C(=O)O,Pro,numeric,CC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N1CCC[C@H]1C(=O)O,C14H23N3O6
+γ-Glu-D-Val-Gly,Val,CC(C)C(N)C(=O)O,Gly,reported_inactive,CC(C)[C@@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C12H21N3O6
+γ-D-Glu-Val-Gly,Val,CC(C)C(N)C(=O)O,Gly,reported_inactive,CC(C)[C@H](NC(=O)CC[C@@H](N)C(=O)O)C(=O)NCC(=O)O,C12H21N3O6
+γ-D-Glu-D-Val-Gly,Val,CC(C)C(N)C(=O)O,Gly,reported_inactive,CC(C)[C@@H](NC(=O)CC[C@@H](N)C(=O)O)C(=O)NCC(=O)O,C12H21N3O6
+α-Glu-Val-Gly,Val,CC(C)C(N)C(=O)O,Gly,lower_bound,CC(C)[C@H](NC(=O)[C@@H](N)CCC(=O)O)C(=O)NCC(=O)O,C12H21N3O6
+α-D-Glu-Val-Gly,Val,CC(C)C(N)C(=O)O,Gly,reported_inactive,CC(C)[C@H](NC(=O)[C@H](N)CCC(=O)O)C(=O)NCC(=O)O,C12H21N3O6
+α-Glu-D-Val-Gly,Val,CC(C)C(N)C(=O)O,Gly,reported_inactive,CC(C)[C@@H](NC(=O)[C@@H](N)CCC(=O)O)C(=O)NCC(=O)O,C12H21N3O6
+α-D-Glu-D-Val-Gly,Val,CC(C)C(N)C(=O)O,Gly,reported_inactive,CC(C)[C@@H](NC(=O)[C@H](N)CCC(=O)O)C(=O)NCC(=O)O,C12H21N3O6
+β-Asp-Val-Gly,Val,CC(C)C(N)C(=O)O,Gly,reported_inactive,CC(C)[C@H](NC(=O)C[C@H](N)C(=O)O)C(=O)NCC(=O)O,C11H19N3O6
+β-Asp-Val-βAla,Val,CC(C)C(N)C(=O)O,βAla,reported_inactive,CC(C)[C@H](NC(=O)C[C@H](N)C(=O)O)C(=O)NCCC(=O)O,C12H21N3O6
+γ-Glu-Val-βAla,Val,CC(C)C(N)C(=O)O,βAla,reported_inactive,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCCC(=O)O,C13H23N3O6
+γ-Glu-Cys-βAla,Cys,NC(CS)C(=O)O,βAla,range,N[C@@H](CCC(=O)N[C@@H](CS)C(=O)NCCC(=O)O)C(=O)O,C11H19N3O6S
+γ-Glu-Abu-βAla,Abu,CCC(N)C(=O)O,βAla,numeric,CC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCCC(=O)O,C12H21N3O6
+γ-Glu-Ala-βAla,Ala,CC(N)C(=O)O,βAla,numeric,C[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCCC(=O)O,C11H19N3O6
+γ-Glu-Val-Gly-Gly,Val,CC(C)C(N)C(=O)O,Gly,numeric,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)NCC(=O)O,C14H24N4O7
+γ-Glu-Val-Gly-Gln,Val,CC(C)C(N)C(=O)O,Gln,numeric,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)N[C@@H](CCC(N)=O)C(=O)O,C17H29N5O8
+γ-Glu-Val-Glycolic acid,Val,CC(C)C(N)C(=O)O,Glycolicacid,numeric,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)OCC(=O)O,C12H20N2O7
+γ-Glu-Abu-Glycolic acid,Abu,CCC(N)C(=O)O,Glycolicacid,numeric,CC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)OCC(=O)O,C11H18N2O7
+γ-Glu-Tle-Glycolic acid,Tle,CC(C)(C)C(N)C(=O)O,Glycolicacid,range,CC(C)(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)OCC(=O)O,C13H22N2O7
+γ-Glu-Val-L-Lactic acid,Val,CC(C)C(N)C(=O)O,L-Lacticacid,numeric,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O[C@@H](C)C(=O)O,C13H22N2O7
+γ-Glu-Abu-L-Lactic acid,Abu,CCC(N)C(=O)O,L-Lacticacid,numeric,CC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O[C@@H](C)C(=O)O,C12H20N2O7
+γ-Glu-Tle-L-Lactic acid,Tle,CC(C)(C)C(N)C(=O)O,L-Lacticacid,numeric,C[C@H](OC(=O)[C@@H](NC(=O)CC[C@H](N)C(=O)O)C(C)(C)C)C(=O)O,C14H24N2O7

@@ -1,0 +1,15 @@
+{
+  "jobs": 20,
+  "runtime_s": 175.17737470700013,
+  "protocol": {
+    "docking_seed": 777,
+    "cpu_threads": 2,
+    "panel_exhaustiveness": 4,
+    "native_exhaustiveness": 16,
+    "panel_poses": 10,
+    "native_poses": 20
+  },
+  "ligand_state": "Carboxylate groups negative, free primary amine positive; fixed charge hypothesis, not measured pKa.",
+  "receptor": "Rigid observed VFT domain; no modeled calcium ions in deposited pocket.",
+  "interpretation": "Binding-pose/scoring experiment; not receptor activation or saltiness proof."
+}

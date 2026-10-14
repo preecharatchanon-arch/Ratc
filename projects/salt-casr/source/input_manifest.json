@@ -1,0 +1,23 @@
+{
+  "files": {
+    "casr_discovery/chemistry.py": "cf9068736052d791c563511a394d255f264e79c2210197b9afd156b52cba7a8b",
+    "casr_discovery/benchmark.py": "813f521278e60b07e9edb0d9388f1477934e33fc651d3d0e6367f5b0624ce070",
+    "casr_discovery/docking.py": "e8664cb5117223978de786ec0da9ae7ae75d3fd36b6f178d9ae79d27a45b240c",
+    "casr_discovery/native_search_sensitivity.py": "a1b14263b06fbd8c6951e812083578b4e16d056a7d77f106e1a4e0e6b89f49a9",
+    "casr_discovery/prepare_receptor.py": "25c3a450fb569281a1e3d5f807dc12b5b9836ddba2d7ddc7780c81e06612681d",
+    "casr_discovery/protocol.py": "54c4cb1c853016d9799feaa3956e5c65ac2d83eb5fe456a238227ad9269e6262",
+    "casr_discovery/notebook_analysis.py": "143d3b43769b4d79c0f58b40795d55ed40c9879adf4cd07aba610116517233d3",
+    "toolkit_pilot/results/casr_compounds_for_datawarrior.csv": "4097e67e6a869579fd4a9ca5a181d9eed70a86eef8f86ec6e37c6f912b088c6c",
+    "toolkit_pilot/results/narrative_inactive_annotations.csv": "527756190b88b8a8d4aa20cfdff6d3d0d8faaddd71cb06f64b8eba98172415d7",
+    "toolkit_pilot/results/native_gamma_EVG.sdf": "6e194d829fcab8efb8e0ab5613087d83a08ed3e44f22127a58f03535c9ab98dd",
+    "toolkit_pilot/sources/9J7I.cif": "712a3a62bde10af2914936d36957ba3fc93fa5f39c7dbcbd447f76a2bd18e120",
+    "requirements_locked.txt": "66a87a36df9df57b314d58ebcead52b80f58d012df716114e91fe63193c83b76",
+    "source_table_audit.json": "d1207697749f8d0c3f404b9773f78419da74a2d31ec5660198bcfb781b957c37",
+    "prior_reference/docking/docking_results.csv": "746ecbd9c9ed448001f48f1718523d9019e77918da3c349d1c56d4e4e4bf7665",
+    "prior_reference/docking/native_search_sensitivity.json": "4830e1967ad71d315afb3a261d32e519fc875b689017b29ef6e0310d27324a3a",
+    "prior_reference/docking/native_exhaustiveness16.pdbqt": "ce13c2ee771a7aa1f18f1417957860736a56437545065cfbadc64eccfed00fa4",
+    "prior_reference/docking/run_summary.json": "16bae2db868b286ed8aa27e33a09dc90ab7fc04470e4756e8abc1864874faf44",
+    "source_notes.json": "bab2dd7af6d37dd3cce8dc11b0d5ca7490009910e48373d3f05951f4084c7244"
+  },
+  "created": "2026-10-14"
+}

@@ -1,0 +1,16 @@
+{
+  "best_observed_model": "nearest3",
+  "best_MAE_log10": 0.7989192149817639,
+  "best_fold_error": 6.293890965458944,
+  "bootstrap": {
+    "selected_model": "nearest3",
+    "mean_error_reduction_log10": 0.11159697385021039,
+    "percentile_95_interval": [
+      -0.05464761987748431,
+      0.2571954993026551
+    ],
+    "interpretation": "Descriptive cluster bootstrap; winner chosen after comparison; no multiplicity correction."
+  },
+  "candidate_count": 22,
+  "scope": "Chemical-family generalization in one compiled series. No sensory prediction or new activity measurement."
+}

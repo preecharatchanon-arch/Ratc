@@ -1,0 +1,103 @@
+table,printed_id,compound,oocyte_raw,hek293_raw,doi,oocyte_status,oocyte_low_uM,oocyte_high_uM,hek293_status,hek293_low_uM,hek293_high_uM,structure_status,SMILES,formula,MW
+1,1,γ-Glu-Cys,3,0.16–0.46,10.1248/cpb.c16-00293,numeric,3.0,3.0,range,0.16,0.46,generated_from_explicit_standard_residue_connectivity,N[C@@H](CCC(=O)N[C@@H](CS)C(=O)O)C(=O)O,C8H14N2O5S,250.27600000000004
+1,2,γ-Glu-Val,10,1.03,10.1248/cpb.c16-00293,numeric,10.0,10.0,numeric,1.03,1.03,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C10H18N2O5,246.26300000000003
+1,3,γ-Glu-Ala,50,1.24,10.1248/cpb.c16-00293,numeric,50.0,50.0,numeric,1.24,1.24,generated_from_explicit_standard_residue_connectivity,C[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C8H14N2O5,218.20900000000003
+1,4,γ-Glu-Thr,50,6.97,10.1248/cpb.c16-00293,numeric,50.0,50.0,numeric,6.97,6.97,generated_from_explicit_standard_residue_connectivity,C[C@@H](O)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C9H16N2O6,248.23500000000004
+1,5,γ-Glu-Leu,100,5.07,10.1248/cpb.c16-00293,numeric,100.0,100.0,numeric,5.07,5.07,generated_from_explicit_standard_residue_connectivity,CC(C)C[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C11H20N2O5,260.29
+1,6,γ-Glu-Ile,100,9.91,10.1248/cpb.c16-00293,numeric,100.0,100.0,numeric,9.91,9.91,generated_from_explicit_standard_residue_connectivity,CC[C@H](C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C11H20N2O5,260.29
+1,7,γ-Glu-Ser,300,11,10.1248/cpb.c16-00293,numeric,300.0,300.0,numeric,11.0,11.0,generated_from_explicit_standard_residue_connectivity,N[C@@H](CCC(=O)N[C@@H](CO)C(=O)O)C(=O)O,C8H14N2O6,234.20800000000003
+1,8,γ-Glu-Orn,500,70.4,10.1248/cpb.c16-00293,numeric,500.0,500.0,numeric,70.4,70.4,requires_reviewed_modified_monomer,,,
+1,9,γ-Glu-Met,500,,10.1248/cpb.c16-00293,numeric,500.0,500.0,missing,,,generated_from_explicit_standard_residue_connectivity,CSCC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C10H18N2O5S,278.33000000000004
+1,10,γ-Glu-Asn,,159,10.1248/cpb.c16-00293,missing,,,numeric,159.0,159.0,generated_from_explicit_standard_residue_connectivity,NC(=O)C[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C9H15N3O6,261.234
+1,11,γ-Glu-Gly,1000,200,10.1248/cpb.c16-00293,numeric,1000.0,1000.0,numeric,200.0,200.0,generated_from_explicit_standard_residue_connectivity,N[C@@H](CCC(=O)NCC(=O)O)C(=O)O,C7H12N2O5,204.18200000000002
+1,12,γ-Glu-Trp,,300,10.1248/cpb.c16-00293,missing,,,numeric,300.0,300.0,generated_from_explicit_standard_residue_connectivity,N[C@@H](CCC(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)O)C(=O)O,C16H19N3O5,333.34400000000005
+1,13,γ-Glu-Pro,,409,10.1248/cpb.c16-00293,missing,,,numeric,409.0,409.0,generated_from_explicit_standard_residue_connectivity,N[C@@H](CCC(=O)N1CCC[C@H]1C(=O)O)C(=O)O,C10H16N2O5,244.24699999999999
+1,14,γ-Glu-Cys(Me),30,,10.1248/cpb.c16-00293,numeric,30.0,30.0,missing,,,requires_reviewed_modified_monomer,,,
+1,15,γ-Glu-Tau,300,,10.1248/cpb.c16-00293,numeric,300.0,300.0,missing,,,requires_reviewed_modified_monomer,,,
+1,16,γ-Glu-Cys(Me)(O),300,,10.1248/cpb.c16-00293,numeric,300.0,300.0,missing,,,requires_reviewed_modified_monomer,,,
+1,17,γ-Glu-Met(O),1000,,10.1248/cpb.c16-00293,numeric,1000.0,1000.0,missing,,,requires_reviewed_modified_monomer,,,
+1,18,γ-Glu-Nva,,0.12,10.1248/cpb.c16-00293,missing,,,numeric,0.12,0.12,requires_reviewed_modified_monomer,,,
+1,19,γ-Glu-Cle,,0.15,10.1248/cpb.c16-00293,missing,,,numeric,0.15,0.15,requires_reviewed_modified_monomer,,,
+1,20,γ-Glu-Abu,,0.21,10.1248/cpb.c16-00293,missing,,,numeric,0.21,0.21,requires_reviewed_modified_monomer,,,
+1,21,γ-Glu-Ape,,0.49,10.1248/cpb.c16-00293,missing,,,numeric,0.49,0.49,requires_reviewed_modified_monomer,,,
+1,22,γ-Glu-Cys(Carboxymethyl),,1.69,10.1248/cpb.c16-00293,missing,,,numeric,1.69,1.69,requires_reviewed_modified_monomer,,,
+1,23,γ-Glu-Tle,,3.06,10.1248/cpb.c16-00293,missing,,,numeric,3.06,3.06,requires_reviewed_modified_monomer,,,
+1,24,γ-Glu-Ser(Me),,3.19,10.1248/cpb.c16-00293,missing,,,numeric,3.19,3.19,requires_reviewed_modified_monomer,,,
+1,25,γ-Glu-Nle,,4.41,10.1248/cpb.c16-00293,missing,,,numeric,4.41,4.41,requires_reviewed_modified_monomer,,,
+1,26,γ-Glu-β-homoAla,,5.53,10.1248/cpb.c16-00293,missing,,,numeric,5.53,5.53,requires_reviewed_modified_monomer,,,
+1,27,γ-Glu- allo -Ile,,8.87,10.1248/cpb.c16-00293,missing,,,numeric,8.87,8.87,requires_reviewed_modified_monomer,,,
+1,28,γ-Glu-Aib,,15.4,10.1248/cpb.c16-00293,missing,,,numeric,15.4,15.4,requires_reviewed_modified_monomer,,,
+1,29,γ-Glu-D-Val,Inactive,,10.1248/cpb.c16-00293,reported_inactive,,,missing,,,generated_from_explicit_standard_residue_connectivity,CC(C)[C@@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C10H18N2O5,246.26300000000003
+1,30,γ-D-Glu-Val,Inactive,,10.1248/cpb.c16-00293,reported_inactive,,,missing,,,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)CC[C@@H](N)C(=O)O)C(=O)O,C10H18N2O5,246.26300000000003
+1,31,α-Glu-Val,Inactive,,10.1248/cpb.c16-00293,reported_inactive,,,missing,,,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)[C@@H](N)CCC(=O)O)C(=O)O,C10H18N2O5,246.26300000000003
+1,32,γ-Glu-Val-NH 2,1000,,10.1248/cpb.c16-00293,numeric,1000.0,1000.0,missing,,,requires_reviewed_modified_monomer,,,
+1,33,γ-Glu-Val-OMe,1000,,10.1248/cpb.c16-00293,numeric,1000.0,1000.0,missing,,,requires_reviewed_modified_monomer,,,
+1,34,γ-Glu-Val-ol,1000,,10.1248/cpb.c16-00293,numeric,1000.0,1000.0,missing,,,requires_reviewed_modified_monomer,,,
+2,35,γ-Glu-Val-Gly,0.1,0.030–0.075,10.1248/cpb.c16-00293,numeric,0.1,0.1,range,0.03,0.075,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C12H21N3O6,303.3150000000001
+2,36,γ-Glu-Cys-Gly,3,0.7,10.1248/cpb.c16-00293,numeric,3.0,3.0,numeric,0.7,0.7,generated_from_explicit_standard_residue_connectivity,N[C@@H](CCC(=O)N[C@@H](CS)C(=O)NCC(=O)O)C(=O)O,C10H17N3O6S,307.32800000000015
+2,37,γ-Glu-Ala-Gly,10,0.016,10.1248/cpb.c16-00293,numeric,10.0,10.0,numeric,0.016,0.016,generated_from_explicit_standard_residue_connectivity,C[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C10H17N3O6,275.261
+2,38,γ-Glu-Ser-Gly,10,,10.1248/cpb.c16-00293,numeric,10.0,10.0,missing,,,generated_from_explicit_standard_residue_connectivity,N[C@@H](CCC(=O)N[C@@H](CO)C(=O)NCC(=O)O)C(=O)O,C10H17N3O7,291.26000000000005
+2,39,γ-Glu-Gly-Gly,30,,10.1248/cpb.c16-00293,numeric,30.0,30.0,missing,,,generated_from_explicit_standard_residue_connectivity,N[C@@H](CCC(=O)NCC(=O)NCC(=O)O)C(=O)O,C9H15N3O6,261.234
+2,40,γ-Glu-Ile-Gly,100,,10.1248/cpb.c16-00293,numeric,100.0,100.0,missing,,,generated_from_explicit_standard_residue_connectivity,CC[C@H](C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C13H23N3O6,317.3420000000001
+2,41,γ-Glu-Thr-Gly,300,2.8,10.1248/cpb.c16-00293,numeric,300.0,300.0,numeric,2.8,2.8,generated_from_explicit_standard_residue_connectivity,C[C@@H](O)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C11H19N3O7,305.28700000000015
+2,42,γ-Glu-Leu-Gly,300,,10.1248/cpb.c16-00293,numeric,300.0,300.0,missing,,,generated_from_explicit_standard_residue_connectivity,CC(C)C[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C13H23N3O6,317.3420000000001
+2,43,γ-Glu-Pro-Gly,300,,10.1248/cpb.c16-00293,numeric,300.0,300.0,missing,,,generated_from_explicit_standard_residue_connectivity,N[C@@H](CCC(=O)N1CCC[C@H]1C(=O)NCC(=O)O)C(=O)O,C12H19N3O6,301.29900000000004
+2,44,γ-Glu-Cys(Me)-Gly,3,,10.1248/cpb.c16-00293,numeric,3.0,3.0,missing,,,requires_reviewed_modified_monomer,,,
+2,45,γ-Glu-Abu-Gly,3,0.025,10.1248/cpb.c16-00293,numeric,3.0,3.0,numeric,0.025,0.025,requires_reviewed_modified_monomer,,,
+2,46,γ-Glu-Algly-Gly,,0.011,10.1248/cpb.c16-00293,missing,,,numeric,0.011,0.011,requires_reviewed_modified_monomer,,,
+2,47,γ-Glu-Ser(Me)-Gly,,0.037,10.1248/cpb.c16-00293,missing,,,numeric,0.037,0.037,requires_reviewed_modified_monomer,,,
+2,48,γ-Glu-Nva-Gly,,0.052–0.055,10.1248/cpb.c16-00293,missing,,,range,0.052,0.055,requires_reviewed_modified_monomer,,,
+2,49,γ-Glu-Tle-Gly,,0.043–0.090,10.1248/cpb.c16-00293,missing,,,range,0.043,0.09,requires_reviewed_modified_monomer,,,
+2,50,γ-Glu-Pen-Gly,,0.16–0.23,10.1248/cpb.c16-00293,missing,,,range,0.16,0.23,requires_reviewed_modified_monomer,,,
+2,51,γ-Glu-Aib-Gly,,0.35–1.17,10.1248/cpb.c16-00293,missing,,,range,0.35,1.17,requires_reviewed_modified_monomer,,,
+2,52,γ-Glu-Cle-Gly,,0.5–1.5,10.1248/cpb.c16-00293,missing,,,range,0.5,1.5,requires_reviewed_modified_monomer,,,
+2,53,γ-Glu- allo -Ile-Gly,,0.63,10.1248/cpb.c16-00293,missing,,,numeric,0.63,0.63,requires_reviewed_modified_monomer,,,
+2,54,γ-Glu- allo -Thr-Gly,,0.7,10.1248/cpb.c16-00293,missing,,,numeric,0.7,0.7,requires_reviewed_modified_monomer,,,
+2,55,γ-Glu-Hse-Gly,,1.18,10.1248/cpb.c16-00293,missing,,,numeric,1.18,1.18,requires_reviewed_modified_monomer,,,
+2,56,γ-Glu-Cys( n -Butyl)-Gly,,4,10.1248/cpb.c16-00293,missing,,,numeric,4.0,4.0,requires_reviewed_modified_monomer,,,
+2,57,γ-Glu-Nle-Gly,,5,10.1248/cpb.c16-00293,missing,,,numeric,5.0,5.0,requires_reviewed_modified_monomer,,,
+2,58,"γ-Glu-Cys(1,2-Dicarboxyethyl)-Gly",,5–10,10.1248/cpb.c16-00293,missing,,,range,5.0,10.0,requires_reviewed_modified_monomer,,,
+2,59,γ-Glu-Cys(Allyl)-Gly,100,,10.1248/cpb.c16-00293,numeric,100.0,100.0,missing,,,requires_reviewed_modified_monomer,,,
+2,60,γ-Glu-Cys( n -Propyl)-Gly,,117,10.1248/cpb.c16-00293,missing,,,numeric,117.0,117.0,requires_reviewed_modified_monomer,,,
+3,60,γ-Glu-Val-Gln,10,0.3–0.5,10.1248/cpb.c16-00293,numeric,10.0,10.0,range,0.3,0.5,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](CCC(N)=O)C(=O)O,C15H26N4O7,374.39400000000023
+3,61,γ-Glu-Val-Cys,10,3.7,10.1248/cpb.c16-00293,numeric,10.0,10.0,numeric,3.7,3.7,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](CS)C(=O)O,C13H23N3O6S,349.4090000000001
+3,62,γ-Glu-Val-Pro,30,,10.1248/cpb.c16-00293,numeric,30.0,30.0,missing,,,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N1CCC[C@H]1C(=O)O,C15H25N3O6,343.3800000000002
+3,63,γ-Glu-Val-Ser,30,,10.1248/cpb.c16-00293,numeric,30.0,30.0,missing,,,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](CO)C(=O)O,C13H23N3O7,333.3410000000001
+3,64,γ-Glu-Val-Phe,30,,10.1248/cpb.c16-00293,numeric,30.0,30.0,missing,,,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](Cc1ccccc1)C(=O)O,C19H27N3O6,393.44000000000017
+3,65,γ-Glu-Val-Asn,30,,10.1248/cpb.c16-00293,numeric,30.0,30.0,missing,,,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](CC(N)=O)C(=O)O,C14H24N4O7,360.3670000000002
+3,66,γ-Glu-Val-Orn,100,,10.1248/cpb.c16-00293,numeric,100.0,100.0,missing,,,requires_reviewed_modified_monomer,,,
+3,67,γ-Glu-Val-His,100,,10.1248/cpb.c16-00293,numeric,100.0,100.0,missing,,,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](Cc1c[nH]cn1)C(=O)O,C16H25N5O6,383.40500000000014
+3,68,γ-Glu-Val-Ala,300,,10.1248/cpb.c16-00293,numeric,300.0,300.0,missing,,,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](C)C(=O)O,C13H23N3O6,317.3420000000001
+3,69,γ-Glu-Val-Thr,1000,,10.1248/cpb.c16-00293,numeric,1000.0,1000.0,missing,,,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@H](C(=O)O)[C@@H](C)O,C14H25N3O7,347.3680000000001
+3,70,γ-Glu-Val-Met,1000,,10.1248/cpb.c16-00293,numeric,1000.0,1000.0,missing,,,generated_from_explicit_standard_residue_connectivity,CSCC[C@H](NC(=O)[C@@H](NC(=O)CC[C@H](N)C(=O)O)C(C)C)C(=O)O,C15H27N3O6S,377.4630000000002
+3,71,γ-Glu-Val-Asp,1000,,10.1248/cpb.c16-00293,numeric,1000.0,1000.0,missing,,,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](CC(=O)O)C(=O)O,C14H23N3O8,361.35100000000017
+3,72,γ-Glu-Val-Arg,1000,,10.1248/cpb.c16-00293,numeric,1000.0,1000.0,missing,,,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)O,C16H30N6O6,402.4520000000002
+3,73,γ-Glu-Val-Lys,1000,,10.1248/cpb.c16-00293,numeric,1000.0,1000.0,missing,,,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](CCCCN)C(=O)O,C16H30N4O6,374.4380000000003
+3,74,γ-Glu-Val-Glu,1000,,10.1248/cpb.c16-00293,numeric,1000.0,1000.0,missing,,,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@@H](CCC(=O)O)C(=O)O,C15H25N3O8,375.3780000000002
+3,75,γ-Glu-Val-Val,1000,,10.1248/cpb.c16-00293,numeric,1000.0,1000.0,missing,,,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)[C@@H](NC(=O)CC[C@H](N)C(=O)O)C(C)C)C(=O)O,C15H27N3O6,345.39600000000013
+3,76,γ-Glu-Val-D-Ala,,1.26,10.1248/cpb.c16-00293,missing,,,numeric,1.26,1.26,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@H](C)C(=O)O,C13H23N3O6,317.3420000000001
+3,77,γ-Glu-Val-D-Ser,,4.27,10.1248/cpb.c16-00293,missing,,,numeric,4.27,4.27,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)N[C@H](CO)C(=O)O,C13H23N3O7,333.3410000000001
+3,78,γ-Glu-Ala-Leu,,4.17,10.1248/cpb.c16-00293,missing,,,numeric,4.17,4.17,generated_from_explicit_standard_residue_connectivity,CC(C)C[C@H](NC(=O)[C@H](C)NC(=O)CC[C@H](N)C(=O)O)C(=O)O,C14H25N3O6,331.36900000000014
+3,79,γ-Glu-Abu-Leu,,2.49,10.1248/cpb.c16-00293,missing,,,numeric,2.49,2.49,requires_reviewed_modified_monomer,,,
+3,80,γ-Glu-Abu-Pro,,4.59,10.1248/cpb.c16-00293,missing,,,numeric,4.59,4.59,requires_reviewed_modified_monomer,,,
+3,81,γ-Glu-D-Val-Gly,,Inactive,10.1248/cpb.c16-00293,missing,,,reported_inactive,,,generated_from_explicit_standard_residue_connectivity,CC(C)[C@@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,C12H21N3O6,303.3150000000001
+3,82,γ-D-Glu-Val-Gly,,Inactive,10.1248/cpb.c16-00293,missing,,,reported_inactive,,,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)CC[C@@H](N)C(=O)O)C(=O)NCC(=O)O,C12H21N3O6,303.3150000000001
+3,83,γ-D-Glu-D-Val-Gly,,Inactive,10.1248/cpb.c16-00293,missing,,,reported_inactive,,,generated_from_explicit_standard_residue_connectivity,CC(C)[C@@H](NC(=O)CC[C@@H](N)C(=O)O)C(=O)NCC(=O)O,C12H21N3O6,303.3150000000001
+3,84,α-Glu-Val-Gly,,>10,10.1248/cpb.c16-00293,missing,,,lower_bound,10.0,10.0,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)[C@@H](N)CCC(=O)O)C(=O)NCC(=O)O,C12H21N3O6,303.3150000000001
+3,85,α-D-Glu-Val-Gly,,Inactive,10.1248/cpb.c16-00293,missing,,,reported_inactive,,,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)[C@H](N)CCC(=O)O)C(=O)NCC(=O)O,C12H21N3O6,303.3150000000001
+3,86,α-Glu-D-Val-Gly,,Inactive,10.1248/cpb.c16-00293,missing,,,reported_inactive,,,generated_from_explicit_standard_residue_connectivity,CC(C)[C@@H](NC(=O)[C@@H](N)CCC(=O)O)C(=O)NCC(=O)O,C12H21N3O6,303.3150000000001
+3,87,α-D-Glu-D-Val-Gly,,Inactive,10.1248/cpb.c16-00293,missing,,,reported_inactive,,,generated_from_explicit_standard_residue_connectivity,CC(C)[C@@H](NC(=O)[C@H](N)CCC(=O)O)C(=O)NCC(=O)O,C12H21N3O6,303.3150000000001
+3,88,β-Asp-Val-Gly,,Inactive,10.1248/cpb.c16-00293,missing,,,reported_inactive,,,requires_reviewed_modified_monomer,,,
+3,89,β-Asp-Val-βAla,,Inactive,10.1248/cpb.c16-00293,missing,,,reported_inactive,,,requires_reviewed_modified_monomer,,,
+3,90,γ-Glu-Val-βAla,,Inactive,10.1248/cpb.c16-00293,missing,,,reported_inactive,,,requires_reviewed_modified_monomer,,,
+3,91,γ-Glu-Cys-βAla,,5–10,10.1248/cpb.c16-00293,missing,,,range,5.0,10.0,requires_reviewed_modified_monomer,,,
+3,92,γ-Glu-Abu-βAla,,2.45,10.1248/cpb.c16-00293,missing,,,numeric,2.45,2.45,requires_reviewed_modified_monomer,,,
+3,93,γ-Glu-Ala-βAla,,9.96,10.1248/cpb.c16-00293,missing,,,numeric,9.96,9.96,requires_reviewed_modified_monomer,,,
+3,94,γ-Glu-Val-Gly-Gly,,4.91,10.1248/cpb.c16-00293,missing,,,numeric,4.91,4.91,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)NCC(=O)O,C14H24N4O7,360.3670000000002
+3,95,γ-Glu-Val-Gly-Gln,,2.03,10.1248/cpb.c16-00293,missing,,,numeric,2.03,2.03,generated_from_explicit_standard_residue_connectivity,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)N[C@@H](CCC(N)=O)C(=O)O,C17H29N5O8,431.4460000000003
+3,96,γ-Glu-Val-Glycolic acid,,0.05,10.1248/cpb.c16-00293,missing,,,numeric,0.05,0.05,requires_reviewed_modified_monomer,,,
+3,97,γ-Glu-Abu-Glycolic acid,,0.14,10.1248/cpb.c16-00293,missing,,,numeric,0.14,0.14,requires_reviewed_modified_monomer,,,
+3,98,γ-Glu-Tle-Glycolic acid,,0.065–0.079,10.1248/cpb.c16-00293,missing,,,range,0.065,0.079,requires_reviewed_modified_monomer,,,
+3,99,γ-Glu-Val-L-Lactic acid,,0.102,10.1248/cpb.c16-00293,missing,,,numeric,0.102,0.102,requires_reviewed_modified_monomer,,,
+3,100,γ-Glu-Abu-L-Lactic acid,,0.038,10.1248/cpb.c16-00293,missing,,,numeric,0.038,0.038,requires_reviewed_modified_monomer,,,
+3,101,γ-Glu-Tle-L-Lactic acid,,0.057,10.1248/cpb.c16-00293,missing,,,numeric,0.057,0.057,requires_reviewed_modified_monomer,,,

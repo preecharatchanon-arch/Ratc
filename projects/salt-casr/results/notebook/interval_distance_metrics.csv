@@ -1,0 +1,11 @@
+version,model,interval_distance_MAE_log10
+journal,descriptor_ridge,0.8915509139350766
+journal,extra_trees,0.8086064116638725
+journal,median,0.8862873715090402
+journal,nearest3,0.776533391791247
+journal,tanimoto_ridge,0.8610440473761842
+patent_assignment_sensitivity,descriptor_ridge,0.8920548201042189
+patent_assignment_sensitivity,extra_trees,0.8127352998160959
+patent_assignment_sensitivity,median,0.8862873715090404
+patent_assignment_sensitivity,nearest3,0.774303353989905
+patent_assignment_sensitivity,tanimoto_ridge,0.8556780574295797

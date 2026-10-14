@@ -2,6 +2,8 @@
 
 Research and engineering by **Ratchanon Preecha**. This repository brings together a real-road fleet-routing system, the C++17 solver behind it, and two studies of hidden optimizer state in neural-network training.
 
+**Chemistry research:** [CaSR peptide workbench and method review](projects/salt-casr/README.md) · [Executed notebook](projects/salt-casr/CaSR_Research_Workbench.ipynb)
+
 **Additional signal-processing project:** [Two-File Audio Fault Analyzer](projects/audio-fft/README.md) · [FFT and STFT evidence](projects/audio-fft/figures)
 
 **Start with:** [Current solver](solvers/current/README.md) · [FleetRoute paper](projects/fleetroute/paper.pdf) · [Benchmark data](projects/fleetroute/tables) · [Neural training paper](projects/neural-training/paper.pdf) · [AdamW manuscript](projects/adamw-memory/paper.pdf)
@@ -15,8 +17,9 @@ Research and engineering by **Ratchanon Preecha**. This repository brings togeth
 | Neural training | [Final confirmation notebook](projects/neural-training/source/evidence/02_final_confirmation_notebook.ipynb), [final claims](projects/neural-training/source/evidence/01_final_confirmation_claims.json) | [Execution requirements and evidence scope](projects/neural-training/README.md#code-and-execution-scope) |
 | AdamW memory | [Original protocols](projects/adamw-memory/source/protocols), [CPU analysis scripts](projects/adamw-memory/source/scripts) | [Recompute retained results on CPU](projects/adamw-memory/README.md#code-and-cpu-verification) |
 | Audio FFT | [One-cell notebook](projects/audio-fft/audio_fft_analysis.ipynb), [analysis functions](projects/audio-fft/original_prototype.py), [local runner](projects/audio-fft/run_analysis.py) | [Upload any two recordings; display and save all 15 plots](projects/audio-fft/README.md#run-the-project) |
+| CaSR chemistry | [Chemical reconstruction and model benchmark](projects/salt-casr/source/casr_discovery), [executed notebook](projects/salt-casr/CaSR_Research_Workbench.ipynb) | [CPU/Colab execution and reviewed evidence scope](projects/salt-casr/README.md#run-and-inspect) |
 
-The visible source copies are extracted unchanged from the supplied research packages. The original archives remain available for the data and frozen experiment context. Each project page states what can be run independently and what requires historical inputs or a GPU.
+The earlier source snapshots are extracted unchanged from their supplied research packages. The CaSR project includes reviewed analysis code and an executed notebook. The original archives remain available for the data and frozen experiment context. Each project page states what can be run independently and what requires historical inputs or a GPU.
 
 ## Explore the work
 
@@ -29,6 +32,7 @@ The visible source copies are extracted unchanged from the supplied research pac
 | [Neural training](projects/neural-training/README.md) | Testing whether reproducible low-dimensional structure is causally adequate | AAAI-27 Student Abstract and Poster Program submission |
 | [AdamW memory](projects/adamw-memory/README.md) | Testing whether low-rank optimizer-memory representations preserve intervention effects | Research manuscript; not submitted to AISTATS |
 | [Audio FFT analysis](projects/audio-fft/README.md) | FFT spectra, STFT and recording comparison; exploratory engine-sound project | Restored Colab notebook, rerun results, graphs and measurement audit |
+| [CaSR peptide modelling](projects/salt-casr/README.md) | Receptor-activity modelling and reference-pose validation for salt research | Reviewed exploratory notebook, measured-data benchmark and method limitations; no validated new enhancer |
 | [Targeted recovery audit](benchmarks/README.md) | Recovering deadline-censored benchmark rows | Self-contained notebook with embedded Legacy and V31 sources |
 
 The routing work grew from the NSC 2026 project **ระบบเพิ่มประสิทธิภาพเส้นทางรถเก็บขยะหลายคัน บนโครงข่ายถนนจริงด้วยอัลกอริทึมไฮบริดเมตาฮิวริสติก** into FleetRoute. The application adds road-network semantics, validation, bounded execution, and inspectable evidence around the solver.
@@ -72,4 +76,5 @@ This restores the exact original FleetRoute and AdamW ZIP archives locally. It c
 This code remains proprietary. Reviewers may download it and run the documented commands for academic evaluation. Other copying, modification, redistribution or commercial use requires the author's permission.
 
 Third-party datasets and map data retain their own rights and attribution requirements; see the [data notice](projects/fleetroute/THIRD_PARTY_DATA_NOTICE.md). Hosting an artifact here does not grant a new license to its code or data.
+
 

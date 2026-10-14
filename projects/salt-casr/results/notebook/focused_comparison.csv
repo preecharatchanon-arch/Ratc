@@ -1,0 +1,5 @@
+name,formula,SMILES
+γ-Glu-Nva-L-Lacticacid,C13H22N2O7,CCC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O[C@@H](C)C(=O)O
+γ-Glu-Val-L-Lacticacid,C13H22N2O7,CC(C)[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O[C@@H](C)C(=O)O
+γ-Glu-Nva,C10H18N2O5,CCC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)O
+γ-Glu-Nva-Gly,C12H21N3O6,CCC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O

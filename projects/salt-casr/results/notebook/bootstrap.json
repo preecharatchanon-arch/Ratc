@@ -1,0 +1,9 @@
+{
+  "selected_model": "nearest3",
+  "mean_error_reduction_log10": 0.11159697385021039,
+  "percentile_95_interval": [
+    -0.05464761987748431,
+    0.2571954993026551
+  ],
+  "interpretation": "Descriptive cluster bootstrap; winner chosen after comparison; no multiplicity correction."
+}

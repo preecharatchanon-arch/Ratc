@@ -1,0 +1,8 @@
+{
+  "cpu_threads": 2,
+  "docking_seed": 777,
+  "native_exhaustiveness": 16,
+  "native_poses": 20,
+  "panel_exhaustiveness": 4,
+  "panel_poses": 10
+}

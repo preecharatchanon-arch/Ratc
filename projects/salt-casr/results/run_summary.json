@@ -1,0 +1,10 @@
+{
+  "numerical_compounds": 58,
+  "middle_families": 26,
+  "grouping_rule": "Canonical non-stereochemical SMILES of isolated middle monomer; L/D and allo variants held out together.",
+  "explicit_graphs": 94,
+  "untested_in_series_candidates": 22,
+  "versions": 2,
+  "runtime_s": 18.433103243000005,
+  "scope": "Exploratory within-series chemical generalization; not independent sensory validation or calibrated efficacy prediction."
+}

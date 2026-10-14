@@ -1,0 +1,42 @@
+{
+  "checks": [
+    {
+      "check": "publisher_values",
+      "status": "passed",
+      "detail": "103 original table rows checked; no HEK-293 value mismatch; 102 unique labels."
+    },
+    {
+      "check": "chemical_grouping",
+      "status": "passed",
+      "detail": "Constitutionally identical stereoisomers share a fold; different linkages/stereochemistry retain different graphs."
+    },
+    {
+      "check": "folds_and_metric",
+      "status": "passed",
+      "detail": "Every model has one held-out prediction per numerical record; 26 constitutional groups; fold-error recomputed from EC50 ratios."
+    },
+    {
+      "check": "geometry_and_protocol",
+      "status": "passed",
+      "detail": "Native RMSD recalculated in receptor coordinates; panel and reference used the displayed protocol."
+    },
+    {
+      "check": "cache_invalidation",
+      "status": "passed",
+      "detail": "Verified reuse; altered/missing outputs, changed settings and damaged marker cause recomputation."
+    },
+    {
+      "check": "mode_transition",
+      "status": "passed",
+      "detail": "Archived analysis leaves current pose files intact; returning to current mode reuses verified current data and labels it correctly."
+    },
+    {
+      "check": "fresh_bootstrap",
+      "status": "passed",
+      "detail": "No preinstalled uv required: actual pip bootstrap, isolated Python 3.12 creation and locked binary installation succeeded."
+    }
+  ],
+  "elapsed_s": 33.65144633399996,
+  "validation_method": "Sequential execution with IPython display capture; no Colab browser test",
+  "notebook_sha256": "195170bf60df15ee19f48acd376768ca946d06ce52d16e6e8e68c966a6b876e5"
+}
