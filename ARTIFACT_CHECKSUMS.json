@@ -1,13 +1,8 @@
 [
   {
-    "path": "ARTIFACT_CHECKSUMS.json",
-    "bytes": 66728,
-    "sha256": "24d850353ddb92b94c4f27e137886445d727e1416a3ba4acdbbfddb05eb76576"
-  },
-  {
     "path": "README.md",
-    "bytes": 8221,
-    "sha256": "372725739868c0a8ae43c30893a17e90e27335ec46ddcaaf04ca6a3bb57ccef7"
+    "bytes": 10676,
+    "sha256": "d15bf7b573d75594c3571f0896c5efd0f746f9a269868df443fde30c3b0e31b3"
   },
   {
     "path": "SOURCE_MANIFEST.json",
@@ -1381,8 +1376,8 @@
   },
   {
     "path": "projects/nsc-2026/README.md",
-    "bytes": 4884,
-    "sha256": "1a0abfd9b3246ed33f70d4409282391b9c1546081d480473893f02ae492ca73e"
+    "bytes": 5276,
+    "sha256": "cc92d56fc08d93db7982baa902af6da5f2ed106660a79137a4a5fd81784715fb"
   },
   {
     "path": "projects/nsc-2026/evidence/finalist-presentation.mp4",

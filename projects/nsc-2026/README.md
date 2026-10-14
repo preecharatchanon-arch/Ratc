@@ -5,6 +5,8 @@
 **Project code:** 28P23S01276  
 **Competition:** The 28th National Software Contest (NSC 2026), student level, category 23: application software. National finalist, as reported by the author and recorded in the finalist report.
 
+The project began with my observation of irregular waste collection in my area before and after the November 2025 floods in southern Thailand (พฤศจิกายน 2568). I wanted to understand how several collection trucks could serve neighbourhoods more effectively under real-road and scheduling constraints. That question led me into vehicle routing and became this NSC project.
+
 The project develops multi-truck waste-collection routing on a directed real-road network, under capacity and service-time constraints. The original road-data workflow downloads a Thailand OpenStreetMap PBF extract and builds the operational graph. The later international FleetRoute work has its own [research page](../fleetroute/README.md).
 
 ## Read the evidence
@@ -43,3 +45,4 @@ The finalist report's common-metric comparison (PDF pages 59–61) records a tie
 Those are historical NSC results under the report's retained protocol. The [later IAAI tables and graphs](../fleetroute/README.md#benchmark-figures) use their own frozen inputs, source snapshots, evaluator and aggregation. They are separate experiments. The reports and video do not establish measured municipal deployment savings or isolate an operator's causal contribution to performance.
 
 The reports and presentation provide the technical project evidence. Award certificates remain separate competition evidence.
+

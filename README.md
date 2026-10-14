@@ -1,65 +1,74 @@
-# FleetRoute and Neural Training Research
+# Research and Engineering — Ratchanon Preecha
 
-Research and engineering by **Ratchanon Preecha**. This repository brings together a real-road fleet-routing system, the C++17 solver behind it, and two studies of hidden optimizer state in neural-network training.
+I build computational systems and test how well their results support the decisions they are meant to inform. This repository brings together my work on waste-collection routing, neural-network training, audio signals, and taste-receptor modelling, with the code and evidence behind each project.
 
-**Chemistry research:** [CaSR peptide workbench and method review](projects/salt-casr/README.md) · [Executed notebook](projects/salt-casr/CaSR_Research_Workbench.ipynb)
+## Where the work began
 
-**Additional signal-processing project:** [Two-File Audio Fault Analyzer](projects/audio-fft/README.md) · [FFT and STFT evidence](projects/audio-fft/figures)
+I noticed irregular waste collection in my area before and after the November 2025 floods in southern Thailand (พฤศจิกายน 2568). That observation led me to ask how several collection trucks could serve the same neighbourhoods more effectively while respecting road directions, vehicle capacity, and service schedules. It brought me into the vehicle routing problem (VRP) field.
 
-**Start with:** [Current solver](solvers/current/README.md) · [FleetRoute paper](projects/fleetroute/paper.pdf) · [Benchmark data](projects/fleetroute/tables) · [Neural training paper](projects/neural-training/paper.pdf) · [AdamW manuscript](projects/adamw-memory/paper.pdf)
+The question became my **NSC 2026 national-finalist project**, *A Hybrid Metaheuristic Optimization System for Multi-Truck Waste Collection Routing on Real Road Networks*. I built a C++17 routing solver and a road-data workflow using OpenStreetMap, then developed planner and driver interfaces around them. The [NSC reports and finalist presentation](projects/nsc-2026/README.md) document that development.
 
-## Review the code and run examples
-
-| Work | Code you can read here | Run or verify |
-| --- | --- | --- |
-| C++17 solver | [Current source](solvers/current/solver.cpp), [V31](solvers/v31/solver.cpp), [Legacy](solvers/legacy/solver.cpp) | [Compile and run a small directed-road example](solvers/current/README.md#build-and-run) |
-| FleetRoute | [Application source](projects/fleetroute/source), [routing backend](projects/fleetroute/source/app/engine.py), [road-data processing](projects/fleetroute/source/app/offline_osm.py), [interface](projects/fleetroute/source/app/static) | [Two-cell Colab launch and frozen-result checks](projects/fleetroute/README.md#run-and-inspect) |
-| Neural training | [Final confirmation notebook](projects/neural-training/source/evidence/02_final_confirmation_notebook.ipynb), [final claims](projects/neural-training/source/evidence/01_final_confirmation_claims.json) | [Execution requirements and evidence scope](projects/neural-training/README.md#code-and-execution-scope) |
-| AdamW memory | [Original protocols](projects/adamw-memory/source/protocols), [CPU analysis scripts](projects/adamw-memory/source/scripts) | [Recompute retained results on CPU](projects/adamw-memory/README.md#code-and-cpu-verification) |
-| Audio FFT | [One-cell notebook](projects/audio-fft/audio_fft_analysis.ipynb), [analysis functions](projects/audio-fft/original_prototype.py), [local runner](projects/audio-fft/run_analysis.py) | [Upload any two recordings; display and save all 15 plots](projects/audio-fft/README.md#run-the-project) |
-| CaSR chemistry | [Chemical reconstruction and model benchmark](projects/salt-casr/source/casr_discovery), [executed notebook](projects/salt-casr/CaSR_Research_Workbench.ipynb) | [CPU/Colab execution and reviewed evidence scope](projects/salt-casr/README.md#run-and-inspect) |
-
-The earlier source snapshots are extracted unchanged from their supplied research packages. The CaSR project includes reviewed analysis code and an executed notebook. The original archives remain available for the data and frozen experiment context. Each project page states what can be run independently and what requires historical inputs or a GPU.
-
-## Explore the work
-
-| Project | Focus | Evidence |
-| --- | --- | --- |
-| [NSC 2026 project](projects/nsc-2026/README.md) | Multi-truck waste-collection routing on real roads; Legacy to V31 development | Regional and finalist reports, finalist presentation video |
-| [FleetRoute](projects/fleetroute/README.md) | Auditable route optimization on directed road networks | IAAI-27 submission, application notebook, benchmark tables |
-| [Current solver](solvers/current/README.md) | Hybrid metaheuristics, AVX2 insertion evaluation, and parallel search | Production source and integration provenance |
-| [Solver versions](solvers/README.md) | Current, V31, and Legacy | Frozen source snapshots and SHA-256 identities |
-| [Neural training](projects/neural-training/README.md) | Testing whether reproducible low-dimensional structure is causally adequate | AAAI-27 Student Abstract and Poster Program submission |
-| [AdamW memory](projects/adamw-memory/README.md) | Testing whether low-rank optimizer-memory representations preserve intervention effects | Research manuscript; not submitted to AISTATS |
-| [Audio FFT analysis](projects/audio-fft/README.md) | FFT spectra, STFT and recording comparison; exploratory engine-sound project | Restored Colab notebook, rerun results, graphs and measurement audit |
-| [CaSR peptide modelling](projects/salt-casr/README.md) | Receptor-activity modelling and reference-pose validation for salt research | Reviewed exploratory notebook, measured-data benchmark and method limitations; no validated new enhancer |
-| [Targeted recovery audit](benchmarks/README.md) | Recovering deadline-censored benchmark rows | Self-contained notebook with embedded Legacy and V31 sources |
-
-The routing work grew from the NSC 2026 project **ระบบเพิ่มประสิทธิภาพเส้นทางรถเก็บขยะหลายคัน บนโครงข่ายถนนจริงด้วยอัลกอริทึมไฮบริดเมตาฮิวริสติก** into FleetRoute. The application adds road-network semantics, validation, bounded execution, and inspectable evidence around the solver.
+The project continued as **FleetRoute**, an application for planning and inspecting fleet routes on real directed road networks. It adds international map-region selection, progress and convergence views, route validation, and workflows for handling road incidents. The original observation motivated the work; the retained results come from computational benchmarks and prototype scenarios.
 
 ![FleetRoute route cards, fleet playback, driver map, and navigation handoff](projects/fleetroute/figures/fleetroute_committed_plan.jpeg)
 
-Application evidence extracted from Figure 5 of the submitted FleetRoute paper: a controlled scenario showing the committed-plan surfaces.
+Application views from a controlled scenario in Figure 5 of the submitted FleetRoute paper. [Read the paper](projects/fleetroute/paper.pdf) · [Explore the application and benchmark evidence](projects/fleetroute/README.md).
+
+## Explore the questions and results
+
+| Work | Question and result | Open the evidence |
+| --- | --- | --- |
+| **Waste-collection routing → FleetRoute** | How can a multi-truck plan respect real-road constraints and remain inspectable? The work combines a hybrid search solver, independently checked routes, and an application for planners and drivers. | [NSC project story, reports and video](projects/nsc-2026/README.md) · [FleetRoute paper, application and benchmarks](projects/fleetroute/README.md) |
+| **Neural-training interventions** | Does a reproducible low-dimensional description predict what happens when training state is changed? A one-dimensional coordinate reproduced across tasks, but its frozen decoder performed worse than predicting zero displacement on held-out intervention tests. | [Study, findings and submitted paper](projects/neural-training/README.md) |
+| **AdamW optimizer memory** | Can a low-rank representation preserve the effects of changing optimizer memory? Short-horizon reconstruction improved descriptively in an eight-history follow-up, but the declared interaction test failed and longer-horizon prediction failed across those histories. | [Manuscript, saved evidence and CPU reconstruction](projects/adamw-memory/README.md) |
+| **Taste-receptor modelling** | Can published CaSR peptide measurements and a ligand-bound structure support selecting unmeasured analogues? Chemical-family prediction and reference-ligand docking expose limitations that need resolving before such selection is reliable. | [CaSR research summary, data and methods](projects/salt-casr/README.md) · [Executed notebook](projects/salt-casr/CaSR_Research_Workbench.ipynb) |
+| **Audio signal analysis** | What changes can be measured between two recordings? A Python notebook compares spectra and time-varying features using the fast Fourier transform (FFT) and short-time Fourier transform (STFT). The demonstration establishes the analysis workflow; engine-fault detection remains unvalidated. | [Project, notebook and signal plots](projects/audio-fft/README.md) |
+
+The neural studies test the difference between observing a repeatable pattern and predicting the effect of an intervention. The chemistry work asks a related practical question: when are a model's predictions reliable enough to guide the next experiment? Each project page explains the measurements, the result, and the remaining limits.
+
+**For molecular-modelling and ML readers:** start with the [CaSR methods and results](projects/salt-casr/README.md), then inspect the [executed research notebook](projects/salt-casr/CaSR_Research_Workbench.ipynb) or [open it in Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/salt-casr/CaSR_Research_Workbench.ipynb). The [neural-training study](projects/neural-training/README.md) provides further context on how I evaluate prediction and intervention claims.
+
+## Routing benchmark evidence
+
+The retained fleet-routing benchmark reports a **2.02% mean best-of-three reference gap across 18 public instances**. The figure shows every instance, including the harder cases, and distinguishes the best result from the three-seed mean.
+
+![Frozen routing benchmark: reference gaps on all 18 public instances](projects/fleetroute/figures/public_reference_gaps.png)
+
+[Inspect the benchmark tables and evaluation contracts](projects/fleetroute/README.md#read-the-results-with-their-contracts). These figures are reconstructed from retained CSVs. The reported results belong to the frozen benchmark source, which differs from the later application integration. Computational route-quality comparisons do not establish municipal deployment savings or matched end-to-end runtime advantages.
+
+## Read the code or run a project
+
+| Work | Read the implementation | Execution and evidence scope |
+| --- | --- | --- |
+| Routing solver | [C++17 source](solvers/current/solver.cpp) | [Compile and run a small directed-road example](solvers/current/README.md#build-and-run) |
+| FleetRoute | [Application source](projects/fleetroute/source), [routing backend](projects/fleetroute/source/app/engine.py), [road-data processing](projects/fleetroute/source/app/offline_osm.py), [interface](projects/fleetroute/source/app/static) | [Two-cell Colab launch and frozen-result checks](projects/fleetroute/README.md#run-and-inspect) |
+| Neural training | [Final confirmation notebook](projects/neural-training/source/evidence/02_final_confirmation_notebook.ipynb), [final claims](projects/neural-training/source/evidence/01_final_confirmation_claims.json) | [Historical inputs and execution requirements](projects/neural-training/README.md#code-and-execution-scope) |
+| AdamW memory | [Experiment protocols](projects/adamw-memory/source/protocols), [analysis scripts](projects/adamw-memory/source/scripts) | [Recompute retained results on CPU](projects/adamw-memory/README.md#code-and-cpu-verification) |
+| CaSR chemistry | [Chemical reconstruction and model benchmark](projects/salt-casr/source/casr_discovery), [executed notebook](projects/salt-casr/CaSR_Research_Workbench.ipynb) | [CPU/Colab setup and verification record](projects/salt-casr/README.md#run-and-inspect) |
+| Audio analysis | [One-cell notebook](projects/audio-fft/audio_fft_analysis.ipynb), [analysis functions](projects/audio-fft/original_prototype.py), [local runner](projects/audio-fft/run_analysis.py) | [Compare two recordings and save all 15 plots](projects/audio-fft/README.md#run-the-project) |
+
+The routing and neural-research source snapshots retain their supplied archive identities. The CaSR project includes reviewed analysis code and an executed notebook. Each project page states whether execution is self-contained, requires historical inputs, or needs GPU training; inspecting saved evidence does not imply that every original experiment can be rerun from scratch.
 
 ## Research status
 
-FleetRoute was submitted to the **Innovative Applications of Artificial Intelligence Conference (IAAI-27)**. *Reproducible Low-Dimensional Structure Can Fail a Causal-State Test in Neural Training* was submitted to the **AAAI-27 Student Abstract and Poster Program**. These are submissions; neither is presented here as an accepted publication.
+| Work | Status |
+| --- | --- |
+| NSC waste-collection project | National finalist, NSC 2026; reports and presentation retained |
+| FleetRoute | Submitted to the **Innovative Applications of Artificial Intelligence Conference (IAAI-27)** |
+| *Reproducible Low-Dimensional Structure Can Fail a Causal-State Test in Neural Training* | Submitted to the **AAAI-27 Student Abstract and Poster Program** |
+| *Testing Low-Rank Causal Control in AdamW Memory* | Research manuscript; **not submitted to AISTATS** |
+| CaSR peptide modelling | Exploratory computational research; no validated new saltiness enhancer |
+| Audio analysis | Personal signal-processing project; no validated engine-fault classifier |
 
-*Testing Low-Rank Causal Control in AdamW Memory* is a research manuscript intended for a possible AISTATS submission. It has **not been submitted to AISTATS**.
+The conference entries record submissions, not accepted publications.
 
-## Benchmark evidence
+## Source identity and development history
 
-The frozen benchmark Current source reaches a **2.02% mean best-of-three reference gap over 18 public instances**. Every instance and the mean-of-three result are shown, including the harder cases.
+For readers comparing implementations, the [solver index](solvers/README.md) distinguishes the archived **Legacy**, **V31**, and **Current** generations, as well as the separate frozen benchmark source. These labels describe development snapshots; a benchmark result belongs to its recorded source and protocol.
 
-![Current solver reference gaps on all 18 public instances](projects/fleetroute/figures/public_reference_gaps.png)
+[SOURCE_MANIFEST.json](SOURCE_MANIFEST.json) records the archive origin and SHA-256 of each extracted solver. The [original notebook-cell exports](solvers/history/README.md) preserve development notes and unchanged source identities. [ARTIFACT_CHECKSUMS.json](ARTIFACT_CHECKSUMS.json) lists artifact sizes and hashes, excluding the checksum index itself.
 
-[Explore the directed-road comparison and evaluation contracts](projects/fleetroute/README.md#benchmark-figures). These figures are rebuilt from retained CSVs; they do not represent new benchmark runs.
-
-## Source identity and historical development
-
-[SOURCE_MANIFEST.json](SOURCE_MANIFEST.json) records the exact archive member and SHA-256 of each extracted solver. The production Current solver and the frozen benchmark Current solver are different snapshots. Reported benchmark results belong to the frozen experimental package.
-
-The [original notebook-cell exports](solvers/history/README.md) preserve the development notes with their original names and unchanged blob identities. The solver index identifies Current, V31, Legacy and the frozen benchmark source separately.
+The [targeted recovery audit](benchmarks/README.md) documents deadline-censored benchmark rows separately from the original experiment, including its retained sources and unresolved case.
 
 ## Obtain the complete supplements
 
@@ -69,12 +78,10 @@ The AAAI Student Abstract supplement is a [single ZIP](projects/neural-training/
 python restore_supplements.py
 ```
 
-This restores the exact original FleetRoute and AdamW ZIP archives locally. It checks each part, the complete SHA-256, and ZIP integrity without executing research code. See the [FleetRoute package](projects/fleetroute/supplement/README.md) and [AdamW package](projects/adamw-memory/supplement/README.md).
+This restores the original FleetRoute and AdamW ZIP archives locally. It checks each part, the complete SHA-256, and ZIP integrity without executing research code. See the [FleetRoute package](projects/fleetroute/supplement/README.md) and [AdamW package](projects/adamw-memory/supplement/README.md). The CaSR [complete run package](projects/salt-casr/CaSR_Notebook_Run.zip) is available directly.
 
 ## Rights
 
 This code remains proprietary. Reviewers may download it and run the documented commands for academic evaluation. Other copying, modification, redistribution or commercial use requires the author's permission.
 
 Third-party datasets and map data retain their own rights and attribution requirements; see the [data notice](projects/fleetroute/THIRD_PARTY_DATA_NOTICE.md). Hosting an artifact here does not grant a new license to its code or data.
-
-
