@@ -16,6 +16,10 @@ The immediate research priority is to connect a reproducible enhancement window 
 
 No synthesis, receptor-response measurement, sensory experiment, novel effective compound or food-safety determination is claimed as our own result. Computational reanalysis of published data is distinguished from the original authors' experiments.
 
+## Current starting point
+
+The [arginyl control-selection analysis](ARGINYL_STARTING_POINT.md) makes the next question concrete: compare AR/AK and RA/KA at matched molar exposure, while preserving the original assay controls. The existing seven-peptide comparison lacks positively charged non-arginyl dipeptides. A cited 12 mM sensory exposure and a 50 μM cellular exposure also leave a dose bridge unresolved. Chemical structures and comparison tables are complete; biological tests of the proposed controls are not.
+
 ## Reading order
 
 Read the project overview and the report relevant to the question. Inspect `results/` for the completed evidence, `code/` for local reproduction, and the shared [data guide](../data/README.md) before interpreting a label or unit. The original executed notebooks carry their reviewed release code and inputs unchanged. The first four experiments’ repository scripts have path-only updates for the organized layout. All analysis scripts save new outputs under `runs/latest/`.

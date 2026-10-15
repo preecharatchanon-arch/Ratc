@@ -1,0 +1,31 @@
+{
+  "question": "Does an arginine side chain contribute beyond nominal positive side-chain balance in the selected cellular assay?",
+  "original_panel": 7,
+  "charge_matched_lysine_dipeptides_in_original_panel": 0,
+  "proposed_pairs": [
+    [
+      "AR",
+      "AK"
+    ],
+    [
+      "RA",
+      "KA"
+    ],
+    [
+      "RP",
+      "KP"
+    ]
+  ],
+  "sensory_to_cellular_dose_ratio_if_using_Xu2017_citation": 240.0,
+  "dose_ratio_limit": "12 mM sensory dose is quoted by Xu2017 from Schindler2011; the original sensory methods were not recovered. This is not a potency ratio.",
+  "no_new_activity_prediction": true,
+  "novelty_of_control_activity_not_established": true,
+  "chemical_scope": "Ordinary alpha-linked L-dipeptides, neutral connectivity graphs with free termini. No counterions, hydrates or pH-specific microspecies.",
+  "charge_scope": "Nominal (R+K)-(D+E) side-chain balance, not formal graph charge or measured net charge.",
+  "rdkit": "2025.09.3",
+  "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+  "input_sha256": {
+    "xu2017_condition_outcomes.csv": "2fbdec3625a56848841d18f94b8b15c5c3cfdcf08a164070d4a94d30d8cac277",
+    "benchmark_records.csv": "f5ee9f945611741b6bc50175195e3078632c07a5065a6224c28055fe2e1a8d7a"
+  }
+}

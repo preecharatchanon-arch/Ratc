@@ -65,6 +65,10 @@ At the reported sensory condition of **0.4 mg/mL peptide with 50 mM NaCl**, E an
 
 **Access limit:** the publisher abstract and supporting-information description were available; the full methods and data were not obtained. Organoid peptide dose, NaCl background, species and sampling details remain unverified and are blank in the input table. Therefore, this is an endpoint discrepancy reported in the same study, not proof that matched sensory and cellular conditions disagree or a numerical false-negative rate. The abstract reports simulated TMC4 interactions; that does not establish direct peptide binding. We do not extrapolate its transcript observations into a general statement about human taste cells.
 
+## Focused follow-up: charge-matched controls
+
+The [arginyl starting-point note](../../docs/ARGINYL_STARTING_POINT.md) examines the selected panel’s charge confounding, defines AR/AK and RA/KA comparisons, and documents the missing sensory-to-cellular dose bridge. Chemical control selection was executed; the proposed controls’ biological activities remain unverified. This is an extension of the present evidence analysis, not a newly measured effect.
+
 ## Research decision
 
 The next useful work should distinguish two experimental branches:

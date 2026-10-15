@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-15",
+  "scope": "Control selection, chemical calculation and primary-source synthesis, not a new biological assay.",
+  "manually_enumerated_sidechain_balance_classes_match": true,
+  "all_three_exact_mass_differences_match_N2": true,
+  "charge_strata_positive_counts": [
+    2,
+    3,
+    0,
+    0
+  ],
+  "control_dipeptide_activity_remains_unknown": true,
+  "sensory_dose_primary_methods_not_obtained": true,
+  "sensory_dose_ratio_secondary_attribution": true,
+  "sources": [
+    {
+      "doi": "10.1038/s41598-017-07756-x",
+      "access": "full primary paper, already reviewed"
+    },
+    {
+      "doi": "10.1007/s12078-008-9006-4",
+      "access": "publisher abstract only"
+    },
+    {
+      "doi": "10.1021/jf2041593",
+      "access": "abstract and SI; original sensory methods unavailable"
+    },
+    {
+      "doi": "10.1021/jf2041593.s001",
+      "access": "downloaded primary SI; contains mass transitions and composition, not sensory dose curves",
+      "inspection_SHA256": "f6662c21e599e4e1e0b49870279aebf314871dfa7d346e2b070817d4daaa0608"
+    },
+    {
+      "doi": "10.3136/nskkk.62.274",
+      "access": "full primary Japanese article; Methods4/Results3",
+      "inspection_SHA256": "646a3fd9ba177c4328d57e994f61a5ef80134024f2a0e82dbe7af1a833aecca7"
+    },
+    {
+      "doi": "10.1016/j.bbrep.2022.101400",
+      "access": "full primary paper via institutional author PDF; no raw-data reanalysis"
+    }
+  ],
+  "limitations": [
+    "Nominal side-chain balance is not a measured net charge.",
+    "R-to-K substitutions retain that class but alter multiple chemical properties.",
+    "No activity/novelty/food-suitability prediction or claim is made."
+  ]
+}

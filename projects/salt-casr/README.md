@@ -8,6 +8,8 @@ Can published chemical, receptor and sensory measurements support useful selecti
 
 **The experiment table is the main index.** Each report links its code, saved results, protocol and verification. [Research status](docs/RESEARCH_STATUS.md) explains what the combined results support; [data](data/README.md) lists the shared inputs, sources and limits.
 
+**Current research question:** [Do arginine-specific effects survive a charge-matched comparison?](docs/ARGINYL_STARTING_POINT.md) The completed calculation defines chemical controls; their activity remains unknown.
+
 ## Experiments
 
 | Experiment | Question and completed result | Open |

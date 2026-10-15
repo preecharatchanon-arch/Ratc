@@ -1,0 +1,5 @@
+peptide_uM,reported_NaCl_stimulus_mM,positive_balance_tested,positive_balance_with_reported_increase,nonpositive_balance_tested,nonpositive_balance_with_reported_increase,interpretation
+50,50,3,2,4,0,Selected comparison; no causal charge effect or general classifier is inferred.
+50,150,3,3,4,0,Selected comparison; no causal charge effect or general classifier is inferred.
+100,50,3,0,4,0,Selected comparison; no causal charge effect or general classifier is inferred.
+100,150,3,0,4,0,Selected comparison; no causal charge effect or general classifier is inferred.

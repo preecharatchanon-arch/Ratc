@@ -1,0 +1,4 @@
+reference,proposed_control,sequence_edit,same_length,reference_sidechain_balance,control_sidechain_balance,free_form_MW_difference_g_mol,reference_HBO_result_at_50uM_150mM,control_HBO_result,confounds_remaining
+AR,AK,R_to_K,True,1,1,28.01400000000004,reported_increase_over_SUM,unverified_in_sources_reviewed,Side-chain geometry; H-bonding; pKa; hydration and transport can change. No taste prediction.
+RA,KA,R_to_K,True,1,1,28.01399999999998,reported_increase_over_SUM,unverified_in_sources_reviewed,Side-chain geometry; H-bonding; pKa; hydration and transport can change. No taste prediction.
+RP,KP,R_to_K,True,1,1,28.01399999999998,reported_increase_over_SUM,unverified_in_sources_reviewed,Side-chain geometry; H-bonding; pKa; hydration and transport can change. No taste prediction.

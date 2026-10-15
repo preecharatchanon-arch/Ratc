@@ -1411,8 +1411,8 @@
   },
   {
     "path": "projects/salt-casr/README.md",
-    "bytes": 7557,
-    "sha256": "6d027ef2f2875c83f47e804266068370213848547524db5d755665b451f23fd1"
+    "bytes": 7774,
+    "sha256": "d02fcbd7ede1e1189a3c3d103c2636b43c94c5db1144a55978edab8611e530c2"
   },
   {
     "path": "projects/salt-casr/archives/CaSR_Notebook_Run.zip",
@@ -1600,9 +1600,14 @@
     "sha256": "eb20460e96fbfc3bbccd0026962a30922fec4177abbae79940fe10cee631c946"
   },
   {
+    "path": "projects/salt-casr/docs/ARGINYL_STARTING_POINT.md",
+    "bytes": 10095,
+    "sha256": "68b18504b98a7a3690724028ed2ff3d75b74dd23a54da9be1cf6fac5645642c6"
+  },
+  {
     "path": "projects/salt-casr/docs/RESEARCH_STATUS.md",
-    "bytes": 4053,
-    "sha256": "90e93e646f391f0074fa65ac18fd089aa09fc5989503543dd5284a4d7ef8f3c5"
+    "bytes": 4573,
+    "sha256": "b50a045d1e96768bea23f7ff29bf145b575c1d3c9108372e6b17dc5aaf3181d5"
   },
   {
     "path": "projects/salt-casr/docs/RESULTS.md",
@@ -2296,8 +2301,8 @@
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/README.md",
-    "bytes": 10237,
-    "sha256": "e84cd4880a2f22d6864b29e4ec0a493e20af75ff086d6ab12ae6b50f0d6186ee"
+    "bytes": 10696,
+    "sha256": "1cc3a0bac1dd6fa09a47e8e4c79edd6d65605022c697464f7aca1353e16920d9"
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/SOURCE_MANIFEST.json",
@@ -2306,13 +2311,23 @@
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/code/README.md",
-    "bytes": 577,
-    "sha256": "65e908f5d1496c492bf266beb69cb558e4401096d8223f916bb8382d645f06be"
+    "bytes": 898,
+    "sha256": "1521c36d83df6981933c9bcab8f314f9cf664f3373934094b0e2cac166ff8327"
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/code/analyse_functional.py",
     "bytes": 9462,
     "sha256": "3a931afa16a6082d8f804f51a5d95bf600f88f68c950c11d4dca954d2687f272"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/code/compare_control_panel.py",
+    "bytes": 5285,
+    "sha256": "db7c5178ee9661cb8130fe682f00e6818e2d4c905264a97e05d15b31a0896116"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/requirements_control_selection.txt",
+    "bytes": 44,
+    "sha256": "e0b9ca82a3d14fc8c2f290ac8d7db1f9b8d9f301914c371c8b22e169eb0b80cb"
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/requirements_locked.txt",
@@ -2321,8 +2336,8 @@
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/README.md",
-    "bytes": 1420,
-    "sha256": "f094684463fb0290ed23982a601ccd7a9ff2585c7b921eb48f3ffb7732da4306"
+    "bytes": 1906,
+    "sha256": "596299821f47acbf13516531511c3d05cb6ed020241effe6a28513733dfadb13"
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/amiloride_contrasts.csv",
@@ -2340,9 +2355,29 @@
     "sha256": "605f20ea50852ad4561dc3510b72afdf3f354cc12c647052bd012bfb0e8350a8"
   },
   {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/condition_charge_strata.csv",
+    "bytes": 571,
+    "sha256": "f5ca1642778c205c44c2be033d596ee5822e5baef41102e010c3b9cd626ecc30"
+  },
+  {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/condition_summary.csv",
     "bytes": 639,
     "sha256": "0c06c0d5689e3e0e790dc02d9dce8c22aaf123668ef6efd33561599013612a60"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/control_panel.sdf",
+    "bytes": 18810,
+    "sha256": "3ae7af93d67439b95047ed5849551077e417694022a1318955a5e41053e3ed35"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/control_panel_chemistry.csv",
+    "bytes": 2951,
+    "sha256": "ab95a925a941a2179e2cb67b7b4e73382555bcd1b07272c794edfd828f72c460"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/control_selection_summary.json",
+    "bytes": 1257,
+    "sha256": "c8f65053336e5a050938976856dc3282695cca7c6e09bc6584501197caae0a8e"
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/functional_controls.png",
@@ -2353,6 +2388,11 @@
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/functional_controls.svg",
     "bytes": 138564,
     "sha256": "3dc31d44bdcf5610c5fcef6809ab17c2c22721636af2b44af03ac2e9cf8140fb"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/matched_control_pairs.csv",
+    "bytes": 791,
+    "sha256": "171d6a5fb59d5f1c16ef8bcab5f989edb65f83525c366c8dafb71c6c7d7b7f04"
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/run_receipt.json",
@@ -2368,6 +2408,11 @@
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/soy_endpoint_comparison.csv",
     "bytes": 1309,
     "sha256": "55f09457d76637f7fb579e86969aeb5a45760dd0f9efbc05168170103fccdead"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/verification/CONTROL_SELECTION_REVIEW.json",
+    "bytes": 1689,
+    "sha256": "2e50c0dfce01ec91de5a371179045e6c31fee8391eaa44b53363efb90fc5cddd"
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/verification/REVIEW.json",
@@ -2401,8 +2446,8 @@
   },
   {
     "path": "projects/salt-casr/verification/FILE_INDEX.csv",
-    "bytes": 20565,
-    "sha256": "9e82a84a12761f81c1ca1bd848d492dee3935b2eeb17f0778bc26f2aa32bc16f"
+    "bytes": 21624,
+    "sha256": "9ead3e17cf3440ca4cf3af130b60de3afe791180b5f1d1034503400c2dae938b"
   },
   {
     "path": "projects/salt-casr/verification/ORGANIZATION_REVIEW.json",
@@ -2412,7 +2457,7 @@
   {
     "path": "projects/salt-casr/verification/PATH_MAP.csv",
     "bytes": 41472,
-    "sha256": "425fe3c1a6f1ab7b7049c92b92bb0e7cf6f57ca2f51acfa652f8abb20a1c5ba2"
+    "sha256": "ad016572cebb09e21822893a789e6539a57ab727c5a55dc37eae72421e0b9ae9"
   },
   {
     "path": "projects/salt-casr/verification/README.md",
