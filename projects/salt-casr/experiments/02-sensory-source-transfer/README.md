@@ -1,4 +1,10 @@
-# Saltiness peptides: evidence and source-transfer experiment
+# 02 · Sensory source transfer
+
+[Project](../../README.md) · [Experiments](../README.md) · [Results](results/README.md) · [Code](code/README.md) · [Data](../../data/README.md)
+
+**Question:** Do fixed sequence models retain their accuracy across literature-source groups?
+
+**Completed result:** Reference-held-out performance is unstable; random splits overstate the tested pipeline’s usefulness.
 
 Research and analysis by **Ratchanon Preecha**, 15 October 2026.
 

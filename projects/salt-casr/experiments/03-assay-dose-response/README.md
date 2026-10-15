@@ -1,4 +1,10 @@
-# Saltiness enhancement depends on assay and dose
+# 03 · Assay conditions and dose
+
+[Project](../../README.md) · [Experiments](../README.md) · [Results](results/README.md) · [Code](code/README.md) · [Data](../../data/README.md)
+
+**Question:** Are saltiness labels and candidate rankings stable across endpoints and doses?
+
+**Completed result:** Standalone taste and enhancement differ, and published rankings reverse with dose.
 
 Research and analysis by **Ratchanon Preecha**, 15 October 2026.
 

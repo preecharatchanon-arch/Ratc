@@ -4,7 +4,9 @@ Research by **Ratchanon Preecha** · Updated 15 October 2026
 
 Can published chemical, receptor and sensory measurements support useful selection of compounds for lower-sodium foods? This project follows that question through **four completed computational experiments**. It began with CaSR peptide modelling and now includes sensory-label evaluation, dose-dependent effects and a structural check of proposed TRPV1 binding sites.
 
-**Start with the experiment table below.** Each report links its code, saved results, protocol and verification. [Research status](docs/RESEARCH_STATUS.md) explains what the combined results support; [data](data/README.md) lists the shared inputs, sources and limits.
+**Start here:** [Findings and figures](docs/RESULTS.md) · [Experiments](experiments/README.md) · [Data](data/README.md) · [Research status](docs/RESEARCH_STATUS.md)
+
+**The experiment table is the main index.** Each report links its code, saved results, protocol and verification. [Research status](docs/RESEARCH_STATUS.md) explains what the combined results support; [data](data/README.md) lists the shared inputs, sources and limits.
 
 ## Experiments
 
@@ -28,7 +30,7 @@ These endpoints are kept separate: **CaSR activity, channel structure, standalon
 
 The three notebooks are self-contained: inputs and reviewed source are embedded, and no API key or upload is required. Repository scripts use shared `data/` inputs and write fresh outputs to an ignored `runs/latest/` folder inside their experiment. The committed `results/` folders retain the reviewed results. Local commands must be run from the relevant experiment folder; each has pinned requirements.
 
-## Where things live
+## Folder guide
 
 | Folder | Contents |
 | --- | --- |
@@ -38,9 +40,13 @@ The three notebooks are self-contained: inputs and reviewed source are embedded,
 | [docs/](docs/RESEARCH_STATUS.md) | Project-level conclusions and interpretation limits |
 | [verification/](verification/README.md) | Organization review, file-move map and artifact integrity checks |
 
-### Previously shared links
+## Previously shared links
 
 The project URL stays the same. Previously shared notebook URLs are retained as **byte-identical runnable aliases**; the table above gives their canonical locations. Earlier experiment-folder URLs open a short page linking the numbered report. Original ZIP contents keep their original execution layout and are explained in [archives](archives/README.md).
+
+## Reading the measurements
+
+**MAE** is mean absolute prediction error; pEC₅₀ is a logarithmic receptor-response concentration, not a sensory score. **RMSD** measures pose-coordinate displacement in ångströms. **ROC-AUC** measures binary ranking performance, with 0.5 as chance ranking. The four experiments measure different endpoints, so these numbers cannot be compared as a common performance score.
 
 ## Data and attribution
 

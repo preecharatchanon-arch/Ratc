@@ -1,11 +1,14 @@
-# CaSR peptide modelling: exploratory research workbench
+# 01 · CaSR models and docking
+
+[Project](../../README.md) · [Experiments](../README.md) · [Results](results/README.md) · [Code](code/README.md) · [Data](../../data/README.md)
+
+**Question:** Can receptor-activity prediction and docking reliably prioritize new analogues?
+
+**Completed result:** Model transfer remains inaccurate and reference-pose ranking is weak.
 
 Research and analysis by **Ratchanon Preecha**. This project evaluates whether published calcium-sensing receptor (CaSR) measurements and a ligand-bound structure can support prioritization of unmeasured γ-glutamyl analogues. Saltiness enhancement is the longer-term question; it is not the endpoint predicted here.
 
 **Start here:** [Executed notebook](CaSR_Research_Workbench.ipynb) · [Open in Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/salt-casr/experiments/01-casr-models-and-docking/CaSR_Research_Workbench.ipynb) · [Complete run package](../../archives/CaSR_Notebook_Run.zip) · [Readable source](code)
-
-
-
 
 [All experiments](../../README.md) · [Shared CaSR data](../../data/README.md#casr-chemistry)
 
@@ -67,8 +70,5 @@ This reviewed grouping replaces an earlier 28 name-based grouping that separated
 4. Miyaki T, et al. (2015). *Effect of a kokumi peptide, γ-glutamyl-valyl-glycine, on the sensory characteristics of chicken consommé*. Flavour 4, 17. [DOI](https://doi.org/10.1186/2044-7248-4-17).
 
 [Source notes](../../data/casr/source_notes.json), [original-value audit](../../data/casr/source_table_audit.json) and [original notebook input hashes](verification/ORIGINAL_INPUT_MANIFEST.json) accompany the curated data. Full publisher articles and patent text are not redistributed. Third-party material retains its original terms and attribution; repository access does not create a new licence for it.
-
-
-
 
 Repository scripts read shared inputs from `../../data/casr/` and write fresh outputs to `runs/latest/`. The executed notebook retains its self-contained, reviewed inputs and code. The code relocation changes file paths only; `verification/REVIEW_CHECKS.json` refers to that unchanged notebook.

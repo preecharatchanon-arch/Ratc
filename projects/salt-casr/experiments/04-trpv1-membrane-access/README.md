@@ -1,4 +1,10 @@
-# A membrane-access constraint on TRPV1 peptide screening
+# 04 · TRPV1 membrane access
+
+[Project](../../README.md) · [Experiments](../README.md) · [Results](results/README.md) · [Code](code/README.md) · [Data](../../data/README.md)
+
+**Question:** Is a proposed peptide-contact site positioned for rapid extracellular action?
+
+**Completed result:** The contacts lie in a membrane/cytoplasmic region; access and function remain untested.
 
 Research and analysis by **Ratchanon Preecha**, 15 October 2026.
 
