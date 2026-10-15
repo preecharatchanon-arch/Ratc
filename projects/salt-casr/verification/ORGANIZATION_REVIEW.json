@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-15",
+  "reviewed_parent_commit": "6ed3f1d55b304af9081a5f6ee30fd856f2efea11",
+  "original_project_files": 147,
+  "original_files_with_canonical_destinations": 147,
+  "byte_identical_canonical_files": 130,
+  "analysis_scripts_changed_only_by_declared_reversible_path_edits": 10,
+  "unchanged_executed_notebooks": 3,
+  "byte_identical_compatibility_notebook_aliases": 3,
+  "original_run_archives_crc_valid": 2,
+  "scientific_CSV_tables_reproduced_within_rounding": 18,
+  "saved_sensory_metric_rows_recomputed": 60,
+  "saved_sensory_predictions_checked": 22956,
+  "relocated_receptor_preparation_byte_identical_to_reviewed_PDBQT": true,
+  "runtime_checks": "RELOCATED_RUNTIME_CHECKS.json",
+  "path_edits": "CODE_PATH_CHANGES.json",
+  "table_comparisons": "REPRODUCED_TABLES.json",
+  "limits": [
+    "Full docking and the 300-fit sensory campaign were not repeated for this path-only reorganization.",
+    "Original notebooks and archives retain their original internal release layout.",
+    "Scientific limitations from the experiment reports remain; organization is not new biological validation."
+  ]
+}

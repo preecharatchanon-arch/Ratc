@@ -21,12 +21,12 @@ Application views from a controlled scenario in Figure 5 of the submitted FleetR
 | **Waste-collection routing → FleetRoute** | How can a multi-truck plan respect real-road constraints and remain inspectable? The work combines a hybrid search solver, independently checked routes, and an application for planners and drivers. | [NSC project story, reports and video](projects/nsc-2026/README.md) · [FleetRoute paper, application and benchmarks](projects/fleetroute/README.md) |
 | **Neural-training interventions** | Does a reproducible low-dimensional description predict what happens when training state is changed? A one-dimensional coordinate reproduced across tasks, but its frozen decoder performed worse than predicting zero displacement on held-out intervention tests. | [Study, findings and submitted paper](projects/neural-training/README.md) |
 | **AdamW optimizer memory** | Can a low-rank representation preserve the effects of changing optimizer memory? Short-horizon reconstruction improved descriptively in an eight-history follow-up, but the declared interaction test failed and longer-horizon prediction failed across those histories. | [Manuscript, saved evidence and CPU reconstruction](projects/adamw-memory/README.md) |
-| **Taste-receptor modelling** | Can published CaSR peptide measurements and a ligand-bound structure support selecting unmeasured analogues? Chemical-family prediction and reference-ligand docking expose limitations that need resolving before such selection is reliable. | [CaSR research summary, data and methods](projects/salt-casr/README.md) · [Executed notebook](projects/salt-casr/CaSR_Research_Workbench.ipynb) |
+| **Saltiness and taste-receptor research** | Four connected experiments examine CaSR activity prediction, sensory-data transfer, dose-dependent enhancement and receptor-site access, with explicit limits on what computation can establish. | [Experiments, data and findings](projects/salt-casr/README.md) · [Experiment index](projects/salt-casr/experiments/README.md) |
 | **Audio signal analysis** | What changes can be measured between two recordings? A Python notebook compares spectra and time-varying features using the fast Fourier transform (FFT) and short-time Fourier transform (STFT). The demonstration establishes the analysis workflow; engine-fault detection remains unvalidated. | [Project, notebook and signal plots](projects/audio-fft/README.md) |
 
 The neural studies test the difference between observing a repeatable pattern and predicting the effect of an intervention. The chemistry work asks a related practical question: when are a model's predictions reliable enough to guide the next experiment? Each project page explains the measurements, the result, and the remaining limits.
 
-**For molecular-modelling and ML readers:** start with the [CaSR methods and results](projects/salt-casr/README.md), then inspect the [executed research notebook](projects/salt-casr/CaSR_Research_Workbench.ipynb) or [open it in Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/salt-casr/CaSR_Research_Workbench.ipynb). The [neural-training study](projects/neural-training/README.md) provides further context on how I evaluate prediction and intervention claims.
+**For molecular-modelling and ML readers:** start with the [four saltiness and taste-receptor experiments](projects/salt-casr/README.md), then choose the relevant report, executed notebook or source. The [shared data guide](projects/salt-casr/data/README.md) explains the endpoints and source limits. The [neural-training study](projects/neural-training/README.md) provides further context on how I evaluate prediction and intervention claims.
 
 ## Routing benchmark evidence
 
@@ -44,10 +44,10 @@ The retained fleet-routing benchmark reports a **2.02% mean best-of-three refere
 | FleetRoute | [Application source](projects/fleetroute/source), [routing backend](projects/fleetroute/source/app/engine.py), [road-data processing](projects/fleetroute/source/app/offline_osm.py), [interface](projects/fleetroute/source/app/static) | [Two-cell Colab launch and frozen-result checks](projects/fleetroute/README.md#run-and-inspect) |
 | Neural training | [Final confirmation notebook](projects/neural-training/source/evidence/02_final_confirmation_notebook.ipynb), [final claims](projects/neural-training/source/evidence/01_final_confirmation_claims.json) | [Historical inputs and execution requirements](projects/neural-training/README.md#code-and-execution-scope) |
 | AdamW memory | [Experiment protocols](projects/adamw-memory/source/protocols), [analysis scripts](projects/adamw-memory/source/scripts) | [Recompute retained results on CPU](projects/adamw-memory/README.md#code-and-cpu-verification) |
-| CaSR chemistry | [Chemical reconstruction and model benchmark](projects/salt-casr/source/casr_discovery), [executed notebook](projects/salt-casr/CaSR_Research_Workbench.ipynb) | [CPU/Colab setup and verification record](projects/salt-casr/README.md#run-and-inspect) |
+| Saltiness and taste receptors | [Four experiment reports](projects/salt-casr/experiments/README.md), [shared inputs](projects/salt-casr/data/README.md) | [CPU/Colab entry points and verification](projects/salt-casr/README.md#run-an-experiment) |
 | Audio analysis | [One-cell notebook](projects/audio-fft/audio_fft_analysis.ipynb), [analysis functions](projects/audio-fft/original_prototype.py), [local runner](projects/audio-fft/run_analysis.py) | [Compare two recordings and save all 15 plots](projects/audio-fft/README.md#run-the-project) |
 
-The routing and neural-research source snapshots retain their supplied archive identities. The CaSR project includes reviewed analysis code and an executed notebook. Each project page states whether execution is self-contained, requires historical inputs, or needs GPU training; inspecting saved evidence does not imply that every original experiment can be rerun from scratch.
+The routing and neural-research source snapshots retain their supplied archive identities. The saltiness project includes four reviewed computational experiments, shared data and three executed notebooks. Each project page states whether execution is self-contained, requires historical inputs, or needs GPU training; inspecting saved evidence does not imply that every original experiment can be rerun from scratch.
 
 ## Research status
 
@@ -57,7 +57,7 @@ The routing and neural-research source snapshots retain their supplied archive i
 | FleetRoute | Submitted to the **Innovative Applications of Artificial Intelligence Conference (IAAI-27)** |
 | *Reproducible Low-Dimensional Structure Can Fail a Causal-State Test in Neural Training* | Submitted to the **AAAI-27 Student Abstract and Poster Program** |
 | *Testing Low-Rank Causal Control in AdamW Memory* | Research manuscript; **not submitted to AISTATS** |
-| CaSR peptide modelling | Exploratory computational research; no validated new saltiness enhancer |
+| Saltiness and taste-receptor research | Four completed computational experiments; no validated new saltiness enhancer |
 | Audio analysis | Personal signal-processing project; no validated engine-fault classifier |
 
 The conference entries record submissions, not accepted publications.
@@ -78,7 +78,7 @@ The AAAI Student Abstract supplement is a [single ZIP](projects/neural-training/
 python restore_supplements.py
 ```
 
-This restores the original FleetRoute and AdamW ZIP archives locally. It checks each part, the complete SHA-256, and ZIP integrity without executing research code. See the [FleetRoute package](projects/fleetroute/supplement/README.md) and [AdamW package](projects/adamw-memory/supplement/README.md). The CaSR [complete run package](projects/salt-casr/CaSR_Notebook_Run.zip) is available directly.
+This restores the original FleetRoute and AdamW ZIP archives locally. It checks each part, the complete SHA-256, and ZIP integrity without executing research code. See the [FleetRoute package](projects/fleetroute/supplement/README.md) and [AdamW package](projects/adamw-memory/supplement/README.md). The CaSR [complete run package](projects/salt-casr/archives/CaSR_Notebook_Run.zip) is available directly.
 
 ## Rights
 

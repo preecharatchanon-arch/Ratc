@@ -1,0 +1,110 @@
+[
+  {
+    "experiment": "03-assay-dose-response",
+    "file": "nominal_molar_doses.csv",
+    "rows": 11,
+    "maximum_numeric_difference": 0.0
+  },
+  {
+    "experiment": "03-assay-dose-response",
+    "file": "panel_retrieval.csv",
+    "rows": 8,
+    "maximum_numeric_difference": 0.0
+  },
+  {
+    "experiment": "03-assay-dose-response",
+    "file": "dose_summary.csv",
+    "rows": 3,
+    "maximum_numeric_difference": 0.0
+  },
+  {
+    "experiment": "03-assay-dose-response",
+    "file": "caption_mass_check.csv",
+    "rows": 8,
+    "maximum_numeric_difference": 0.0
+  },
+  {
+    "experiment": "03-assay-dose-response",
+    "file": "NGYDMR_original_benchmark_record.csv",
+    "rows": 1,
+    "maximum_numeric_difference": 0.0
+  },
+  {
+    "experiment": "03-assay-dose-response",
+    "file": "training_eligibility.csv",
+    "rows": 580,
+    "maximum_numeric_difference": 0.0
+  },
+  {
+    "experiment": "03-assay-dose-response",
+    "file": "heldout_panel_scores.csv",
+    "rows": 44,
+    "maximum_numeric_difference": 1.1102230246251565e-16
+  },
+  {
+    "experiment": "03-assay-dose-response",
+    "file": "dose_rankings.csv",
+    "rows": 5,
+    "maximum_numeric_difference": 0.0
+  },
+  {
+    "experiment": "04-trpv1-membrane-access",
+    "file": "published_contact_depths.csv",
+    "rows": 132,
+    "maximum_numeric_difference": 0.0
+  },
+  {
+    "experiment": "04-trpv1-membrane-access",
+    "file": "source_peptide_descriptors.csv",
+    "rows": 4,
+    "maximum_numeric_difference": 0.0
+  },
+  {
+    "experiment": "04-trpv1-membrane-access",
+    "file": "independent_lipid_distance_check.csv",
+    "rows": 4,
+    "maximum_numeric_difference": 0.0
+  },
+  {
+    "experiment": "04-trpv1-membrane-access",
+    "file": "coordinate_geometry_check.csv",
+    "rows": 3,
+    "maximum_numeric_difference": 0.0
+  },
+  {
+    "experiment": "04-trpv1-membrane-access",
+    "file": "human_lipid_and_ligand_distances.csv",
+    "rows": 528,
+    "maximum_numeric_difference": 0.0
+  },
+  {
+    "experiment": "04-trpv1-membrane-access",
+    "file": "experimental_DkTx_contact_depths.csv",
+    "rows": 125,
+    "maximum_numeric_difference": 0.0
+  },
+  {
+    "experiment": "04-trpv1-membrane-access",
+    "file": "hotspot_distance_to_DkTx.csv",
+    "rows": 4,
+    "maximum_numeric_difference": 0.0
+  },
+  {
+    "experiment": "04-trpv1-membrane-access",
+    "file": "canonical_alignment.csv",
+    "rows": 1675,
+    "maximum_numeric_difference": 0.0
+  },
+  {
+    "experiment": "04-trpv1-membrane-access",
+    "file": "membrane_boundary_sensitivity.csv",
+    "rows": 1188,
+    "maximum_numeric_difference": 0.0
+  },
+  {
+    "experiment": "01-casr-models-and-docking",
+    "file": "reconstructed_structures.csv",
+    "rows": 94,
+    "maximum_numeric_difference": 0
+  }
+]

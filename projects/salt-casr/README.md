@@ -1,73 +1,49 @@
-# CaSR peptide modelling: exploratory research workbench
+# Saltiness and taste-receptor research
 
-Research and analysis by **Ratchanon Preecha**. This project evaluates whether published calcium-sensing receptor (CaSR) measurements and a ligand-bound structure can support prioritization of unmeasured γ-glutamyl analogues. Saltiness enhancement is the longer-term question; it is not the endpoint predicted here.
+Research by **Ratchanon Preecha** · Updated 15 October 2026
 
-**Start here:** [Executed notebook](CaSR_Research_Workbench.ipynb) · [Open in Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/salt-casr/CaSR_Research_Workbench.ipynb) · [Complete run package](CaSR_Notebook_Run.zip) · [Readable source](source/casr_discovery)
+Can published chemical, receptor and sensory measurements support useful selection of compounds for lower-sodium foods? This project follows that question through **four completed computational experiments**. It began with CaSR peptide modelling and now includes sensory-label evaluation, dose-dependent effects and a structural check of proposed TRPV1 binding sites.
 
-**Research continuation — 15 October 2026:** [Saltiness evidence and source-transfer experiment](sensory-continuation/README.md) · [Executed notebook](sensory-continuation/Saltiness_Sensory_Validation.ipynb). A separate 580-peptide sensory-evidence analysis; these labels are not merged with CaSR EC₅₀.
+**Start with the experiment table below.** Each report links its code, saved results, protocol and verification. [Research status](docs/RESEARCH_STATUS.md) explains what the combined results support; [data](data/README.md) lists the shared inputs, sources and limits.
 
-**Assay and dose follow-up:** [Condition-aware sensory analysis](assay-conditions/README.md) · [Executed notebook](assay-conditions/Saltiness_Assay_Conditions.ipynb). Complete tested panels, dose-dependent ranking changes and a benchmark-label conflict are examined with explicit source limitations.
+## Experiments
 
-**Receptor mechanism follow-up:** [TRPV1 membrane-access analysis](receptor-access/README.md). Experimental human, squirrel and rat structures locate the proposed salty-peptide contacts relative to membrane lipids and an actual bound peptide agonist.
+| Experiment | Question and completed result | Open |
+| --- | --- | --- |
+| **01 · CaSR models and docking** | Predicting an unseen chemical family remains inaccurate: best observed MAE **0.799 pEC₅₀ units**, about **6.29-fold** error. Native-ligand top-pose RMSD is **4.78 Å**. | [Report](experiments/01-casr-models-and-docking/README.md) · [Executed notebook](experiments/01-casr-models-and-docking/CaSR_Research_Workbench.ipynb) · [Results](experiments/01-casr-models-and-docking/results/) |
+| **02 · Sensory source transfer** | On 251 sensory-tagged peptides, fixed Extra Trees mean ROC-AUC falls from **0.686** with random splits to **0.286** with reference-and-sequence holdouts. Other baselines and post-hoc controls are reported separately. | [Report](experiments/02-sensory-source-transfer/README.md) · [Executed notebook](experiments/02-sensory-source-transfer/Saltiness_Sensory_Validation.ipynb) · [Results](experiments/02-sensory-source-transfer/results/) |
+| **03 · Assay conditions and dose** | NGYDMR's benchmark negative conflicts with enhancement evidence under a different assay. Published dose curves reverse the preferred peptide. Four fixed baselines retrieve only **one of three reported enhancers** in their top three for the six-candidate Pleurotus panel. | [Report](experiments/03-assay-dose-response/README.md) · [Executed notebook](experiments/03-assay-dose-response/Saltiness_Assay_Conditions.ipynb) · [Results](experiments/03-assay-dose-response/results/) |
+| **04 · TRPV1 membrane access** | Three cited peptide-contact residues lie in the membrane core and one on the cytoplasmic side. The result holds across three experimental structures; actual bound DkTx contacts provide a distinct comparator. | [Report](experiments/04-trpv1-membrane-access/README.md) · [Code](experiments/04-trpv1-membrane-access/code/) · [Results](experiments/04-trpv1-membrane-access/results/) |
 
-## What the notebook does
+These endpoints are kept separate: **CaSR activity, channel structure, standalone saltiness and enhancement in NaCl are different measurements**. The project has not established a new effective or food-suitable salt enhancer. None of these computational outputs is a receptor-response or sensory experiment performed by us.
 
-| Analysis | Scope |
+## Run an experiment
+
+| Experiment | Execution | Verified status |
+| --- | --- | --- |
+| 01 | [Open in Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/salt-casr/experiments/01-casr-models-and-docking/CaSR_Research_Workbench.ipynb), choose CPU, Run all | Reviewed local execution and source checks; full docking optional through the notebook configuration |
+| 02 | [Open in Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/salt-casr/experiments/02-sensory-source-transfer/Saltiness_Sensory_Validation.ipynb), CPU | Every code cell executed locally; Colab browser not directly tested |
+| 03 | [Open in Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/salt-casr/experiments/03-assay-dose-response/Saltiness_Assay_Conditions.ipynb), CPU | Local execution plus a [verified user-supplied Colab export](experiments/03-assay-dose-response/verification/COLAB_RUN_VERIFICATION.json) |
+| 04 | Follow the [local commands](experiments/04-trpv1-membrane-access/README.md#reproduce-and-inspect), CPU | Fresh isolated Python 3.12 execution; no Colab execution claimed |
+
+The three notebooks are self-contained: inputs and reviewed source are embedded, and no API key or upload is required. Repository scripts use shared `data/` inputs and write fresh outputs to an ignored `runs/latest/` folder inside their experiment. The committed `results/` folders retain the reviewed results. Local commands must be run from the relevant experiment folder; each has pinned requirements.
+
+## Where things live
+
+| Folder | Contents |
 | --- | --- |
-| Chemical reconstruction | 94 table-compound graphs; explicit linkages and stereochemistry; eight unsupported structures listed |
-| Assay curation | 58 numerical/range HEK-293 EC₅₀ entries; missing, inactive and censored labels remain distinct |
-| Chemical generalization | Five fixed methods; **26 constitutional middle-residue groups**, holding L/D and allo forms together |
-| Source sensitivity | Journal and earlier patent assignments analysed separately; not extra independent measurements |
-| Chemical proposals | 22 combinations absent from the extracted series; forecasts and rank sensitivity, not validated hits |
-| Docking | 20 compounds, including measured analogues and controls, plus a larger native-ligand reference search |
+| [experiments/](experiments/README.md) | Four numbered reports with code, results, protocols and verification |
+| [data/](data/README.md) | CaSR chemistry inputs, sensory benchmark and assay tables, TRPV1 sequence snapshots and coordinate download manifest |
+| [archives/](archives/README.md) | Original run ZIPs and separately labelled earlier CaSR docking reference files |
+| [docs/](docs/RESEARCH_STATUS.md) | Project-level conclusions and interpretation limits |
+| [verification/](verification/README.md) | Organization review, file-move map and artifact integrity checks |
 
-The independent source audit matched **103 original table rows** to 102 unique labels without a HEK-293 value mismatch. Eighteen additional named inactive peptides from two prose lists are supplied separately: their sentences do not specify the assay system or a detection limit. They are not assigned artificial EC₅₀ values or merged into the regression target. This is a table-based quantitative dataset, not an exhaustive literature database.
+### Previously shared links
 
-## Results and limits
+The project URL stays the same. Previously shared notebook URLs are retained as **byte-identical runnable aliases**; the table above gives their canonical locations. Earlier experiment-folder URLs open a short page linking the numbered report. Original ZIP contents keep their original execution layout and are explained in [archives](archives/README.md).
 
-The lowest observed held-family MAE is **0.799 log₁₀ units**, equivalent to **6.29-fold geometric mean absolute error**. Only about 41% of that model's predictions are within threefold. The descriptive family bootstrap does not establish a reliable improvement over the median comparator. The model was selected after comparison; this is not external-study validation.
+## Data and attribution
 
-Docking score/activity Spearman association is **0.24 across 14 measured compounds** in a selected panel. Native top-pose RMSD is **4.78 Å**; the larger-search top pose is **4.44 Å**, with the closest returned pose at **2.43 Å**. RMSD is computed in the receptor frame without aligning away the displacement. These results provide weak support for this preparation/scoring protocol's structural prioritization. Inactive in a functional assay does not necessarily mean nonbinding.
+See the [data guide](data/README.md) for source citations, units, evidence labels and licence boundaries. SaltyMeta's author-curated labels are not independently verified for every peptide. Source-table transcriptions and computational results have different evidential status. Full publisher articles are not redistributed.
 
-![Held-family prediction and error inspection](results/notebook/prediction_validation.png)
-
-The proposed Nva–L-lactic ester is an **unmeasured combination within an explicitly described patent scaffold**. No global novelty, receptor activity, food suitability or saltiness enhancement is established. The useful outputs are auditable structures, measured chemical comparisons, failure examples and defined comparators for independent experiments.
-
-Two numerical/range labels remain outside the regression because their monomers were not implemented in the assembler: γ-Glu-Pen-Gly and γ-Glu-Cys(1,2-dicarboxyethyl)-Gly. This is an implementation exclusion, not a claim that both chemical identities are intrinsically undefined.
-
-## Run and inspect
-
-Open the notebook in Colab, choose **CPU**, and select **Run all**. Inputs and source are embedded; no upload or API key is needed. Workers use an isolated Python 3.12 environment with pinned binary packages. The default protocol uses two CPU threads and seed 777. A complete reviewed local run took approximately four minutes; allow 15–25 minutes on a fresh Colab runtime, depending on hardware and network.
-
-`RUN_DOCKING=False` inspects explicitly labelled archived results without overwriting current pose files. Cached stages verify output hashes and the actual environment/configuration. The displayed docking settings are passed to the workers. Native geometry optimization convergence is recorded per calculation.
-
-For local execution on Linux with Python 3.12 and uv:
-
-```sh
-uv venv --python 3.12 .venv
-uv pip install --python .venv/bin/python --only-binary :all: -r source/requirements_locked.txt
-.venv/bin/python source/casr_discovery/benchmark.py
-.venv/bin/python source/casr_discovery/prepare_receptor.py
-.venv/bin/python source/casr_discovery/docking.py
-.venv/bin/python source/casr_discovery/native_search_sensitivity.py
-```
-
-These commands write new outputs below `source/casr_discovery/results/`; the committed `results/` directory is a retained snapshot. The notebook also generates figures, descriptive uncertainty analyses and a results ZIP.
-
-## Verification record
-
-[REVIEW_CHECKS.json](REVIEW_CHECKS.json) records source-value comparison, stereochemical grouping, independent EC₅₀-ratio error calculation, pose-RMSD recalculation, configuration agreement, cache invalidation, archived/current transitions and actual fresh bootstrap without preinstalled uv. All checks passed. Every code cell completed in sequential Python execution with IPython rich-display capture; **the Colab browser interface itself was not exercised**. This is evidence for the tested workflow, not a guarantee of zero defects on every machine.
-
-This reviewed grouping replaces an earlier 28 name-based grouping that separated Ile/allo-Ile and Thr/allo-Thr. The earlier MAE was 0.784; the reviewed value is 0.799. Historical docking outputs in `source/prior_reference/` use different package versions and are labelled separately.
-
-## Sources
-
-1. Amino Y, et al. (2016). *Structure–CaSR–Activity Relation of Kokumi γ-Glutamyl Peptides*. Chemical and Pharmaceutical Bulletin 64(8), 1181–1189. [DOI](https://doi.org/10.1248/cpb.c16-00293); [2017 erratum](https://doi.org/10.1248/cpb.c17-e6506).
-2. Eto Y, Amino Y. *Kokumi-imparting agent*. [US20100136197A1](https://patents.google.com/patent/US20100136197A1/en), published 3 June 2010.
-3. Yamaguchi H, et al. (2025). *Cryo-EM structure of the calcium-sensing receptor complexed with the kokumi substance γ-glutamyl-valyl-glycine*. Scientific Reports 15, 3894. [DOI](https://doi.org/10.1038/s41598-025-87999-1); [PDB 9J7I](https://www.rcsb.org/structure/9J7I).
-4. Miyaki T, et al. (2015). *Effect of a kokumi peptide, γ-glutamyl-valyl-glycine, on the sensory characteristics of chicken consommé*. Flavour 4, 17. [DOI](https://doi.org/10.1186/2044-7248-4-17).
-
-[Source notes](source/source_notes.json), [original-value audit](source/source_table_audit.json) and [input hashes](source/input_manifest.json) accompany the curated data. Full publisher articles and patent text are not redistributed. Third-party material retains its original terms and attribution; repository access does not create a new licence for it.
-
-
-
+The [organization review](verification/ORGANIZATION_REVIEW.json) records what was checked in this layout update. Original execution records remain with their experiments. The repository [checksum index](../../ARTIFACT_CHECKSUMS.json) identifies the actual current files, including compatibility notebook aliases.

@@ -1,0 +1,202 @@
+[
+  {
+    "path": "projects/salt-casr/experiments/01-casr-models-and-docking/code/benchmark.py",
+    "replacements": [
+      [
+        "OUT=ROOT/'results'",
+        "OUT=RUN"
+      ],
+      [
+        "ROOT.parent/'toolkit_pilot/results/casr_compounds_for_datawarrior.csv'",
+        "DATA/'casr_compounds_for_datawarrior.csv'"
+      ]
+    ],
+    "inserted_import": "from project_paths import DATA, RUN"
+  },
+  {
+    "path": "projects/salt-casr/experiments/01-casr-models-and-docking/code/docking.py",
+    "replacements": [
+      [
+        "OUT=ROOT/'results/docking'",
+        "OUT=RUN/'docking'"
+      ],
+      [
+        "OUT.mkdir(exist_ok=True)",
+        "OUT.mkdir(parents=True,exist_ok=True)"
+      ],
+      [
+        "ROOT.parent/'toolkit_pilot/results/native_gamma_EVG.sdf'",
+        "DATA/'native_gamma_EVG.sdf'"
+      ],
+      [
+        "ROOT/'results/casr.pdbqt'",
+        "RUN/'casr.pdbqt'"
+      ]
+    ],
+    "inserted_import": "from project_paths import DATA, RUN"
+  },
+  {
+    "path": "projects/salt-casr/experiments/01-casr-models-and-docking/code/native_search_sensitivity.py",
+    "replacements": [
+      [
+        "out=root/'results/docking'",
+        "out=RUN/'docking'"
+      ],
+      [
+        "root.parent/'toolkit_pilot/results/native_gamma_EVG.sdf'",
+        "DATA/'native_gamma_EVG.sdf'"
+      ],
+      [
+        "root/'results/casr.pdbqt'",
+        "RUN/'casr.pdbqt'"
+      ]
+    ],
+    "inserted_import": "from project_paths import DATA, RUN"
+  },
+  {
+    "path": "projects/salt-casr/experiments/01-casr-models-and-docking/code/prepare_receptor.py",
+    "replacements": [
+      [
+        "root.parent/'toolkit_pilot/sources/9J7I.cif'",
+        "DATA/'9J7I.cif'"
+      ],
+      [
+        "root/'sources/casr_binding_domain.pdb'",
+        "RUN/'sources/casr_binding_domain.pdb'"
+      ],
+      [
+        "root/'results/casr'",
+        "RUN/'casr'"
+      ],
+      [
+        "root.parent/'toolkit_pilot/results/native_gamma_EVG.sdf'",
+        "DATA/'native_gamma_EVG.sdf'"
+      ]
+    ],
+    "inserted_import": "from project_paths import DATA, RUN"
+  },
+  {
+    "path": "projects/salt-casr/experiments/01-casr-models-and-docking/code/notebook_analysis.py",
+    "replacements": [
+      [
+        "OUT=ROOT/'results'",
+        "OUT=RUN"
+      ],
+      [
+        "ROOT.parent/'toolkit_pilot/results/casr_compounds_for_datawarrior.csv'",
+        "DATA/'casr_compounds_for_datawarrior.csv'"
+      ],
+      [
+        "ROOT.parent/'toolkit_pilot/results/narrative_inactive_annotations.csv'",
+        "DATA/'narrative_inactive_annotations.csv'"
+      ],
+      [
+        "ROOT.parent/'toolkit_pilot/results/native_gamma_EVG.sdf'",
+        "DATA/'native_gamma_EVG.sdf'"
+      ],
+      [
+        "ROOT.parent/'source_table_audit.json'",
+        "DATA/'source_table_audit.json'"
+      ],
+      [
+        "ROOT.parent/'prior_reference/docking'",
+        "ARCHIVE/'docking'"
+      ]
+    ],
+    "inserted_import": "from project_paths import DATA, RUN, ARCHIVE"
+  },
+  {
+    "path": "projects/salt-casr/experiments/02-sensory-source-transfer/code/analyse.py",
+    "replacements": [
+      [
+        "ROOT/'private_sources/saltymeta_supplement.xlsx'",
+        "DATA/'saltymeta_supplement.xlsx'"
+      ],
+      [
+        "OUT = ROOT/'results'",
+        "OUT = RUN"
+      ]
+    ],
+    "inserted_import": "from project_paths import DATA, RUN"
+  },
+  {
+    "path": "projects/salt-casr/experiments/03-assay-dose-response/code/analyse_conditions.py",
+    "replacements": [
+      [
+        "out = ROOT / 'results'",
+        "out = RUN"
+      ],
+      [
+        "ROOT/'data/benchmark_records.csv'",
+        "DATA/'benchmark_records.csv'"
+      ],
+      [
+        "ROOT/'data/fixed_assay_panels.csv'",
+        "DATA/'fixed_assay_panels.csv'"
+      ],
+      [
+        "ROOT/'data/dose_response.csv'",
+        "DATA/'dose_response.csv'"
+      ],
+      [
+        "ROOT/'data/caption_mz.csv'",
+        "DATA/'caption_mz.csv'"
+      ]
+    ],
+    "inserted_import": "from project_paths import DATA, RUN"
+  },
+  {
+    "path": "projects/salt-casr/experiments/04-trpv1-membrane-access/code/analyse_access.py",
+    "replacements": [
+      [
+        "SRC = ROOT/'private_sources'",
+        "SRC = DATA/'cache'"
+      ],
+      [
+        "OUT = ROOT/'results'",
+        "OUT = RUN"
+      ]
+    ],
+    "inserted_import": "from project_paths import DATA, RUN"
+  },
+  {
+    "path": "projects/salt-casr/experiments/04-trpv1-membrane-access/code/download_inputs.py",
+    "replacements": [
+      [
+        "ROOT=Path(__file__).resolve().parent",
+        "ROOT=DATA"
+      ]
+    ],
+    "inserted_import": "from project_paths import DATA"
+  },
+  {
+    "path": "projects/salt-casr/experiments/04-trpv1-membrane-access/code/verify_sources.py",
+    "replacements": [
+      [
+        "ROOT/'private_sources/tilapia.txt'",
+        "DATA/'cache/tilapia.txt'"
+      ],
+      [
+        "ROOT/'private_sources/8gfa.cif'",
+        "DATA/'cache/8gfa.cif'"
+      ],
+      [
+        "ROOT/'results/human_lipid_and_ligand_distances.csv'",
+        "RUN/'human_lipid_and_ligand_distances.csv'"
+      ],
+      [
+        "ROOT/'results/independent_lipid_distance_check.csv'",
+        "RUN/'independent_lipid_distance_check.csv'"
+      ],
+      [
+        "ROOT/'results/coordinate_geometry_check.csv'",
+        "RUN/'coordinate_geometry_check.csv'"
+      ],
+      [
+        "ROOT/'results/verification.json'",
+        "RUN/'verification.json'"
+      ]
+    ],
+    "inserted_import": "from project_paths import DATA, RUN"
+  }
+]

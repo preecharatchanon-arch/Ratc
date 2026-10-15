@@ -1,0 +1,6 @@
+# Local reproduction outputs and source downloads
+experiments/*/runs/
+data/trpv1/cache/
+**/__pycache__/
+**/.venv/
+**/*.pyc

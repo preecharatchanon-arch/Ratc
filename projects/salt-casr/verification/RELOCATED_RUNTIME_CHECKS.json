@@ -1,0 +1,48 @@
+{
+  "checks": [
+    {
+      "experiment": "01",
+      "check": "chemical_reconstruction",
+      "exit_code": 0,
+      "seconds": 1.91961941999989
+    },
+    {
+      "experiment": "02",
+      "check": "saved_metric_verification",
+      "exit_code": 0,
+      "seconds": 2.0701479839999593
+    },
+    {
+      "experiment": "03",
+      "check": "four_frozen_baselines",
+      "exit_code": 0,
+      "seconds": 2.7726236430003155
+    },
+    {
+      "experiment": "04",
+      "check": "coordinate_input_verification",
+      "exit_code": 0,
+      "seconds": 0.11463199999980134
+    },
+    {
+      "experiment": "04",
+      "check": "structural_reanalysis",
+      "exit_code": 0,
+      "seconds": 4.479648100999839
+    },
+    {
+      "experiment": "04",
+      "check": "independent_distance_verification",
+      "exit_code": 0,
+      "seconds": 0.7165785869997308
+    },
+    {
+      "experiment": "01",
+      "check": "receptor_preparation",
+      "exit_code": 0,
+      "seconds": 2.722318141999949
+    }
+  ],
+  "total_seconds": 14.803652164000141,
+  "scope": "Path relocation checks and selected deterministic computations; no full docking or 300-fit sensory campaign repeated."
+}
