@@ -8,6 +8,8 @@ Research and analysis by **Ratchanon Preecha**. This project evaluates whether p
 
 **Assay and dose follow-up:** [Condition-aware sensory analysis](assay-conditions/README.md) · [Executed notebook](assay-conditions/Saltiness_Assay_Conditions.ipynb). Complete tested panels, dose-dependent ranking changes and a benchmark-label conflict are examined with explicit source limitations.
 
+**Receptor mechanism follow-up:** [TRPV1 membrane-access analysis](receptor-access/README.md). Experimental human, squirrel and rat structures locate the proposed salty-peptide contacts relative to membrane lipids and an actual bound peptide agonist.
+
 ## What the notebook does
 
 | Analysis | Scope |
@@ -66,5 +68,6 @@ This reviewed grouping replaces an earlier 28 name-based grouping that separated
 4. Miyaki T, et al. (2015). *Effect of a kokumi peptide, γ-glutamyl-valyl-glycine, on the sensory characteristics of chicken consommé*. Flavour 4, 17. [DOI](https://doi.org/10.1186/2044-7248-4-17).
 
 [Source notes](source/source_notes.json), [original-value audit](source/source_table_audit.json) and [input hashes](source/input_manifest.json) accompany the curated data. Full publisher articles and patent text are not redistributed. Third-party material retains its original terms and attribution; repository access does not create a new licence for it.
+
 
 

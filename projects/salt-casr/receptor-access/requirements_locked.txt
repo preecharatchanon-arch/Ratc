@@ -1,0 +1,22 @@
+# Reviewed CPU scientific stack; worker Python 3.12
+cloudpickle==3.1.2
+contourpy==1.4.0
+cycler==0.12.1
+fonttools==4.66.1
+gemmi==0.7.5
+joblib==1.6.0
+kiwisolver==1.5.1
+matplotlib==3.10.1
+numpy==2.2.6
+packaging==26.3
+pandas==2.2.3
+pillow==12.3.0
+pyparsing==3.3.3
+python-dateutil==2.9.0.post0
+pytz==2026.5
+rdkit==2025.9.3
+scikit-learn==1.6.1
+scipy==1.15.3
+six==1.17.0
+threadpoolctl==3.7.0
+tzdata==2026.5

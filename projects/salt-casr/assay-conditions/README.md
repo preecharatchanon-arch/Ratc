@@ -138,7 +138,7 @@ analysis takes a few seconds; fresh dependency installation dominates runtime.
 Allow approximately 2–5 minutes on a fresh runtime, depending on downloads.
 
 All notebook code cells were executed sequentially with IPython display capture.
-The Colab browser itself was not tested. [Execution record](NOTEBOOK_EXECUTION.json)
+The Colab browser itself was not directly tested by the author. A user-supplied Colab export was subsequently checked: every scientific CSV matches the reviewed results within numerical rounding (largest score difference 2.22 × 10⁻¹⁶). See [Colab run verification](COLAB_RUN_VERIFICATION.json). [Execution record](NOTEBOOK_EXECUTION.json)
 and [source manifest](SOURCE_MANIFEST.json) distinguish executed calculations from
 unverified source details. Publisher articles/figures are linked and were inspected
 locally; they are not bundled into the notebook.
@@ -163,3 +163,4 @@ in [sensory-continuation](../sensory-continuation).
 3. *Taste-Active Peptides from Triple-Enzymatically Hydrolyzed Straw Mushroom Proteins Enhance Salty Taste: An Elucidation of Their Effect on the T1R1/T1R3 Taste Receptor via Molecular Docking.* Foods (2024) 13, 995. [DOI](https://doi.org/10.3390/foods13070995). Methods 2.11, Results 3.6, Figure 8, supplement Table S4 and Figure S1.
 4. Kong W, Lin L, Lai L, et al. (2026). [October mushroom peptide study](https://doi.org/10.1038/s41538-026-01088-9). Experimental synthesis panel and sensory calibration; see the preceding source manifest for inspected copies.
 5. Chen W, Li W, He Y, Yang Y (2026). *SaltyMeta*, [arXiv:2609.16809v1](https://arxiv.org/abs/2609.16809v1). Original supplementary workbook, submitted 15 September 2026; author-curated labels are not independently verified for all 580 records here.
+

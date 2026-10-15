@@ -1,0 +1,46 @@
+{
+  "uploaded_zip_sha256": "824a6763b79c3555f62e502f13eeb42b8515b343838c2ae579978b9409592885",
+  "matched_files": [
+    "work/PROTOCOL.md",
+    "work/README.md",
+    "work/SOURCE_MANIFEST.json",
+    "work/SOURCE_VERIFICATION.json",
+    "work/analyse_conditions.py",
+    "work/baseline.py",
+    "work/data/benchmark_records.csv",
+    "work/data/caption_mz.csv",
+    "work/data/dose_response.csv",
+    "work/data/fixed_assay_panels.csv",
+    "work/requirements_locked.txt",
+    "work/results/NGYDMR_original_benchmark_record.csv",
+    "work/results/caption_mass_check.csv",
+    "work/results/dose_rank_reversal.png",
+    "work/results/dose_rankings.csv",
+    "work/results/dose_summary.csv",
+    "work/results/nominal_molar_doses.csv",
+    "work/results/panel_retrieval.csv",
+    "work/results/training_eligibility.csv"
+  ],
+  "numerically_equivalent_or_runtime_differences": [
+    {
+      "file": "work/results/heldout_panel_scores.csv",
+      "maximum_numeric_difference": 2.220446049250313e-16
+    },
+    {
+      "file": "work/results/run_receipt.json",
+      "changed_fields": [
+        "runtime_s",
+        "python"
+      ]
+    },
+    {
+      "file": "work/worker_environment.json",
+      "changed_fields": [
+        "python_patch_version"
+      ]
+    }
+  ],
+  "all_scientific_CSV_outputs_equivalent": true,
+  "colab_worker_python": "3.12.3",
+  "largest_score_difference": 2.220446049250313e-16
+}

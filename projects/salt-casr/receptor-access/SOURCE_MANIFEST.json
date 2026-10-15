@@ -1,0 +1,47 @@
+[
+  {
+    "inspection_copy": "tilapia.html",
+    "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2023.1343209/full",
+    "doi": "10.3389/fnut.2023.1343209",
+    "use": "Human target/template and eleven major contact residues, four principal hotspots",
+    "sha256": "9b1143a953db3b13cbc4cdea7da784c83150e23260abed0081922affb6ad54b5",
+    "retrieved": "2026-10-15",
+    "redistributed": false
+  },
+  {
+    "inspection_copy": "human_structure.html",
+    "url": "https://www.nature.com/articles/s41467-023-38162-9",
+    "doi": "10.1038/s41467-023-38162-9",
+    "use": "Human experimental structure and functional antagonist validation",
+    "sha256": "108b95cdd1019f4a0284e5ad421e97bf63cc0d4db04df7e9464bc8d7f89193fd",
+    "retrieved": "2026-10-15",
+    "redistributed": false
+  },
+  {
+    "inspection_copy": "squirrel_structure.html",
+    "url": "https://www.nature.com/articles/s41467-021-22507-3",
+    "doi": "10.1038/s41467-021-22507-3",
+    "use": "Squirrel experimental template and channel topology",
+    "sha256": "4181a6c80812aa51c8d7458d977b4e79124b4337c9ab80d351e2581a1c62290e",
+    "retrieved": "2026-10-15",
+    "redistributed": false
+  },
+  {
+    "inspection_copy": "dk_structure.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4911334/",
+    "doi": "10.1038/nature17964",
+    "use": "Actual peptide/lipid/ion channel complex",
+    "sha256": "9b07b36ba74d634817d14a9c8603c5fcc8abd29fea2f617d7749b3245c5dea54",
+    "retrieved": "2026-10-15",
+    "redistributed": false
+  },
+  {
+    "inspection_copy": "trpv1_inhibitory_peptides.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12113342/",
+    "doi": "10.3390/md23050196",
+    "use": "Post-hoc competing evidence; hours-long cellular response, not sensory or acute gating",
+    "sha256": "977aae79ab58a4801a69ff4c0576e7248c6bcb748cacb65109cf228770023be0",
+    "retrieved": "2026-10-15",
+    "redistributed": false
+  }
+]

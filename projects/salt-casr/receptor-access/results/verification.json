@@ -1,0 +1,10 @@
+{
+  "source_contact_set": {
+    "matched_major_residues": 11,
+    "method": "Source Results paragraph vs declared contact identities"
+  },
+  "independent_original_coordinate_distance_checks": 4,
+  "maximum_lipid_distance_difference_A": 0.0004670550708811838,
+  "all_coordinate_superposition_RMSD_under_point01_A": true,
+  "interpretation": "Checks source identity and coordinate arithmetic, not experimental peptide binding or membrane transport."
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "file": "private_sources/trpv1_human.json",
+    "snapshot": "data/trpv1_human.json",
+    "url": "https://rest.uniprot.org/uniprotkb/Q8NER1.json",
+    "sha256": "6c9e914e9b957f79dea04d55739ff54dce1dd6b8a4071aa8d551ef91081ce04e",
+    "use": "Canonical sequence snapshot; human topology annotations for context"
+  },
+  {
+    "file": "private_sources/trpv1_rat.json",
+    "snapshot": "data/trpv1_rat.json",
+    "url": "https://rest.uniprot.org/uniprotkb/O35433.json",
+    "sha256": "c8e3de65426a4074c27819ee6368d6c8eec2ce8e0b5b60c85f0e0efcd099de33",
+    "use": "Canonical sequence snapshot; human topology annotations for context"
+  },
+  {
+    "file": "private_sources/trpv1_squirrel.json",
+    "snapshot": "data/trpv1_squirrel.json",
+    "url": "https://rest.uniprot.org/uniprotkb/I3LZN5.json",
+    "sha256": "eb20460e96fbfc3bbccd0026962a30922fec4177abbae79940fe10cee631c946",
+    "use": "Canonical sequence snapshot; human topology annotations for context"
+  },
+  {
+    "file": "private_sources/opm_8gfa.pdb",
+    "url": "https://opm-assets.storage.googleapis.com/pdb/8gfa.pdb",
+    "sha256": "f08695a28d577c9a522247a8afc2b215d277576886d69c092d237468013ac1cb",
+    "use": "Calculated membrane orientation and experimental coordinates"
+  },
+  {
+    "file": "private_sources/8gfa.cif",
+    "url": "https://files.rcsb.org/download/8GFA.cif",
+    "sha256": "e2c9e6f083315454b122cbb24259e618233eaf4ca63d19b48f723372c017a3b5",
+    "use": "Unmodified original experimental coordinates for independent geometry checks"
+  },
+  {
+    "file": "private_sources/opm_7lqy.pdb",
+    "url": "https://opm-assets.storage.googleapis.com/pdb/7lqy.pdb",
+    "sha256": "cd132db7e1fe0ed2a155fa6cc5cb7e44fd565043a09d3f8be5b4908cff620fce",
+    "use": "Calculated membrane orientation and experimental coordinates"
+  },
+  {
+    "file": "private_sources/7lqy.cif",
+    "url": "https://files.rcsb.org/download/7LQY.cif",
+    "sha256": "21a3bd82487671d8b09d1c8009e7224826db0eb813c4de0abdcf68aefd4dd3dc",
+    "use": "Unmodified original experimental coordinates for independent geometry checks"
+  },
+  {
+    "file": "private_sources/opm_5irx.pdb",
+    "url": "https://opm-assets.storage.googleapis.com/pdb/5irx.pdb",
+    "sha256": "e06bd566af3d6a4e733f4438ba259dcdaa26e836bc04d86b2ff27314b5ff1641",
+    "use": "Calculated membrane orientation and experimental coordinates"
+  },
+  {
+    "file": "private_sources/5irx.cif",
+    "url": "https://files.rcsb.org/download/5IRX.cif",
+    "sha256": "e79ca9fc3de9bd69901be3f0fb9c7ac7f8a0c405a6c21c83312fe4a671fd506b",
+    "use": "Unmodified original experimental coordinates for independent geometry checks"
+  }
+]

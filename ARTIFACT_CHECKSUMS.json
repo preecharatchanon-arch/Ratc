@@ -1400,6 +1400,11 @@
     "sha256": "c64a9781164dc471ec2605d22b12798dd00da34b35d22fb95d4ea72f62f2cd9a"
   },
   {
+    "path": "projects/salt-casr/assay-conditions/COLAB_RUN_VERIFICATION.json",
+    "bytes": 1400,
+    "sha256": "cca2700d701a1500206ad2a2fa0e45e6ce1dc5052fe7ec804646f2d884cbbac0"
+  },
+  {
     "path": "projects/salt-casr/assay-conditions/data/benchmark_records.csv",
     "bytes": 188953,
     "sha256": "f5ee9f945611741b6bc50175195e3078632c07a5065a6224c28055fe2e1a8d7a"
@@ -1431,8 +1436,8 @@
   },
   {
     "path": "projects/salt-casr/assay-conditions/README.md",
-    "bytes": 10829,
-    "sha256": "0e0bb6bb10c76e0cc4fffdc56c2d7de508ab7177b019b2b0d4fff81b5584aa4a"
+    "bytes": 11090,
+    "sha256": "9873b1be497b45b677f69e4b4e34032c04caf6e54835fe84e865c8e01f863657"
   },
   {
     "path": "projects/salt-casr/assay-conditions/requirements_locked.txt",
@@ -1521,8 +1526,133 @@
   },
   {
     "path": "projects/salt-casr/README.md",
-    "bytes": 7663,
-    "sha256": "90de0f6354f2dcb52554e16eb2fc65d0ada9069e985a770687bd5054549e3967"
+    "bytes": 7916,
+    "sha256": "57768f41333b3d9b7b8bebac5eba517a2fec442c6d4e34a3fd0f2fd4593a0478"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/analyse_access.py",
+    "bytes": 13830,
+    "sha256": "825926f1d8c0ca213975191d9d453294f3f7a9340e1c7bbdf2c31b470c9ac654"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/data/posthoc_alternative_evidence.csv",
+    "bytes": 1076,
+    "sha256": "da31d3c46885d657fef885b97b19e9afdc4bfacc8a292757268fd44a45288d00"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/data/trpv1_human.json",
+    "bytes": 81228,
+    "sha256": "6c9e914e9b957f79dea04d55739ff54dce1dd6b8a4071aa8d551ef91081ce04e"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/data/trpv1_rat.json",
+    "bytes": 126269,
+    "sha256": "c8e3de65426a4074c27819ee6368d6c8eec2ce8e0b5b60c85f0e0efcd099de33"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/data/trpv1_squirrel.json",
+    "bytes": 18772,
+    "sha256": "eb20460e96fbfc3bbccd0026962a30922fec4177abbae79940fe10cee631c946"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/download_inputs.py",
+    "bytes": 1399,
+    "sha256": "004341aaeaadb88b33113a905f9ebd69c30973f3c05691132449038795d44d60"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/EXECUTION_RECORD.json",
+    "bytes": 698,
+    "sha256": "beb00dabd3c206144f99d5585ec26cf2591a064b6f9eedbc3db6549ab10fbb40"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/INPUT_MANIFEST.json",
+    "bytes": 2633,
+    "sha256": "de8a04d685c7de61d74e790a6bb6b155da89cfff35baa43b530e6681dd362805"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/PROTOCOL.md",
+    "bytes": 4073,
+    "sha256": "956fd1ea20e2a80f75715688a9d1b5dc144db32a5f8dd7d2ea1ecd3b9993352f"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/README.md",
+    "bytes": 13467,
+    "sha256": "97c922022cb6a9cd6f582495b4573193164185f99daea2c5f3d68451cbdbf9a8"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/requirements_locked.txt",
+    "bytes": 400,
+    "sha256": "1f7e85ed67d9ad741600b2ec43c770f866d5b62691c0c3b63f9ae579c378446b"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/results/canonical_alignment.csv",
+    "bytes": 30617,
+    "sha256": "b256bc8a050c1dc936ed5dea0a2ae21d8f78b9d9251c78da25ae5f2dfa53c25e"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/results/coordinate_geometry_check.csv",
+    "bytes": 400,
+    "sha256": "8e17ee20e2afaa489749d3f008ff63ccfc28a811ce0c11d14a702a920489b9a7"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/results/experimental_DkTx_contact_depths.csv",
+    "bytes": 4938,
+    "sha256": "aaee64873411ac28a4be82e4848bc08c119e35d32ce9a4eeaa2b9dd841d38480"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/results/hotspot_distance_to_DkTx.csv",
+    "bytes": 164,
+    "sha256": "09606239ca942f681a944efae8522313bfbc3601b6209ec0593eeea901d29338"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/results/human_lipid_and_ligand_distances.csv",
+    "bytes": 29270,
+    "sha256": "5124db91b992ebd37668532be157152a35634cdac872a712703a5382e241cab0"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/results/independent_lipid_distance_check.csv",
+    "bytes": 354,
+    "sha256": "8ac535b85fe55a33fc09b7effe880f4adade8c33d3d4c7ab64ddbe22cba6f0b9"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/results/membrane_boundary_sensitivity.csv",
+    "bytes": 55821,
+    "sha256": "be744d32ebd2f89e38644402ca701a08f4773664ac697458854b04de69365f59"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/results/membrane_site_comparison.png",
+    "bytes": 210304,
+    "sha256": "61351fe9a641b2cd7462fb00a33677d503ba9c85da348b4b77d1b80c58aebc2e"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/results/published_contact_depths.csv",
+    "bytes": 14953,
+    "sha256": "365035454122fb242475ef0449517c8d8493be83908ec5d38f90e674ce8170ae"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/results/run_receipt.json",
+    "bytes": 1110,
+    "sha256": "ae0da861a9ec76f5b6135f67748ba934c0c3a69146549c3cde3544df78caea3e"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/results/source_peptide_descriptors.csv",
+    "bytes": 807,
+    "sha256": "f504bf1758a04590077406eb1d9b592de1591ef60c78841ace92fd902b31f39a"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/results/verification.json",
+    "bytes": 450,
+    "sha256": "9871de2f3765f1e7d9c544cba218116247fd7dbb43f2b70d0959b2658fa8b0d6"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/SOURCE_MANIFEST.json",
+    "bytes": 1931,
+    "sha256": "782084883b2fb874de3508fd12aa95fbae5001156d5993d43fac8b1b8f5ec12a"
+  },
+  {
+    "path": "projects/salt-casr/receptor-access/verify_sources.py",
+    "bytes": 2637,
+    "sha256": "49c3aa85c8686c2ce60397ae2488c8f2a664d29c7414b970a668d812addd4388"
   },
   {
     "path": "projects/salt-casr/results/candidate_library.sdf",

@@ -1,0 +1,43 @@
+{
+  "runtime_s": 4.567948735999835,
+  "experimental_structures": 3,
+  "source_major_positions": 11,
+  "source_key_positions": 4,
+  "structural_chains_per_entry": 4,
+  "independent_biological_replicates": 0,
+  "alignment_checks": [
+    {
+      "species": "rat",
+      "score": 1320,
+      "all_hotspot_mappings_stable": true,
+      "mapped_positions": 837,
+      "human_length": 839,
+      "target_length": 838
+    },
+    {
+      "species": "squirrel",
+      "score": 1400,
+      "all_hotspot_mappings_stable": true,
+      "mapped_positions": 838,
+      "human_length": 839,
+      "target_length": 840
+    }
+  ],
+  "human_key_CA_z_A": {
+    "441": -5.597,
+    "487": -5.827,
+    "491": -10.643,
+    "708": -20.021
+  },
+  "key_CA_extracellular_under_any_boundary_scenario": false,
+  "DkTx_unique_rat_positions_at_4A": 14,
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scipy": "1.15.3",
+    "gemmi": "0.7.5",
+    "rdkit": "2025.9.3",
+    "matplotlib": "3.10.1"
+  },
+  "interpretation": "Site geometry/access concern; no permeability, binding, activation, sensory or food-safety prediction."
+}
