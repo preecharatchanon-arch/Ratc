@@ -45,7 +45,10 @@ def main():
                 if sep and dest.suffix=='.md':assert urllib.parse.unquote(anchor) in anchors(dest),(p,target)
     for old,new in ALIASES.items():
         assert (ROOT/old).read_bytes()==(ROOT/new).read_bytes(),old
-        n=json.loads((ROOT/new).read_text());payload=None;expected=None
+    canonical_notebooks=sorted(p for p in (ROOT/'experiments').rglob('*.ipynb') if published(p))
+    for notebook_path in canonical_notebooks:
+        new=notebook_path.relative_to(ROOT).as_posix()
+        n=json.loads(notebook_path.read_text());payload=None;expected=None
         for c in n['cells']:
             if c['cell_type']!='code':continue
             assert c.get('execution_count') is not None,(new,'unexecuted cell')

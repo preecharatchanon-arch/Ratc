@@ -63,6 +63,9 @@ The computational work completed here makes those comparisons concrete: 12 expli
 
 ## Inspect or reproduce
 
+**[Executed CPU notebook](../experiments/05-functional-assay-controls/Arginyl_Functional_Controls.ipynb)** reproduces the functional evidence and these chemical comparisons, draws the pairs and includes a mass/concentration calculator. [Run ZIP](../archives/Arginyl_Functional_Controls_Run.zip). No GPU is required.
+
+
 The saved [chemical table](../experiments/05-functional-assay-controls/results/control_panel_chemistry.csv), [SDF structures](../experiments/05-functional-assay-controls/results/control_panel.sdf), [pair definitions](../experiments/05-functional-assay-controls/results/matched_control_pairs.csv), [condition strata](../experiments/05-functional-assay-controls/results/condition_charge_strata.csv) and [execution summary](../experiments/05-functional-assay-controls/results/control_selection_summary.json) are included with Experiment 05. See the separate [source/verification record](../experiments/05-functional-assay-controls/verification/CONTROL_SELECTION_REVIEW.json).
 
 From that experiment folder, with Python 3.12:

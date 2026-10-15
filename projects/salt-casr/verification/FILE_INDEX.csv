@@ -2,6 +2,7 @@ path,experiment,role
 .gitignore,,verification_or_provenance
 CaSR_Research_Workbench.ipynb,,compatibility_notebook_alias
 README.md,,documentation
+archives/Arginyl_Functional_Controls_Run.zip,,original_archive_or_reference
 archives/CaSR_Notebook_Run.zip,,original_archive_or_reference
 archives/README.md,,documentation
 archives/Saltiness_Sensory_Run.zip,,original_archive_or_reference
@@ -178,6 +179,7 @@ experiments/04-trpv1-membrane-access/results/run_receipt.json,04-trpv1-membrane-
 experiments/04-trpv1-membrane-access/results/source_peptide_descriptors.csv,04-trpv1-membrane-access,reviewed_result
 experiments/04-trpv1-membrane-access/results/verification.json,04-trpv1-membrane-access,reviewed_result
 experiments/04-trpv1-membrane-access/verification/EXECUTION_RECORD.json,04-trpv1-membrane-access,verification_or_provenance
+experiments/05-functional-assay-controls/Arginyl_Functional_Controls.ipynb,05-functional-assay-controls,executed_notebook
 experiments/05-functional-assay-controls/PROTOCOL.md,05-functional-assay-controls,documentation
 experiments/05-functional-assay-controls/README.md,05-functional-assay-controls,documentation
 experiments/05-functional-assay-controls/SOURCE_MANIFEST.json,05-functional-assay-controls,verification_or_provenance
@@ -186,6 +188,7 @@ experiments/05-functional-assay-controls/code/analyse_functional.py,05-functiona
 experiments/05-functional-assay-controls/code/compare_control_panel.py,05-functional-assay-controls,analysis_code_or_configuration
 experiments/05-functional-assay-controls/requirements_control_selection.txt,05-functional-assay-controls,verification_or_provenance
 experiments/05-functional-assay-controls/requirements_locked.txt,05-functional-assay-controls,verification_or_provenance
+experiments/05-functional-assay-controls/requirements_notebook.txt,05-functional-assay-controls,verification_or_provenance
 experiments/05-functional-assay-controls/results/README.md,05-functional-assay-controls,documentation
 experiments/05-functional-assay-controls/results/amiloride_contrasts.csv,05-functional-assay-controls,reviewed_result
 experiments/05-functional-assay-controls/results/analysis_summary.json,05-functional-assay-controls,reviewed_result
@@ -195,13 +198,19 @@ experiments/05-functional-assay-controls/results/condition_summary.csv,05-functi
 experiments/05-functional-assay-controls/results/control_panel.sdf,05-functional-assay-controls,reviewed_result
 experiments/05-functional-assay-controls/results/control_panel_chemistry.csv,05-functional-assay-controls,reviewed_result
 experiments/05-functional-assay-controls/results/control_selection_summary.json,05-functional-assay-controls,reviewed_result
+experiments/05-functional-assay-controls/results/dose_unit_calculator.csv,05-functional-assay-controls,reviewed_result
 experiments/05-functional-assay-controls/results/functional_controls.png,05-functional-assay-controls,reviewed_result
 experiments/05-functional-assay-controls/results/functional_controls.svg,05-functional-assay-controls,reviewed_result
 experiments/05-functional-assay-controls/results/matched_control_pairs.csv,05-functional-assay-controls,reviewed_result
+experiments/05-functional-assay-controls/results/matched_control_structures.png,05-functional-assay-controls,reviewed_result
+experiments/05-functional-assay-controls/results/reference_comparison.csv,05-functional-assay-controls,reviewed_result
 experiments/05-functional-assay-controls/results/run_receipt.json,05-functional-assay-controls,reviewed_result
 experiments/05-functional-assay-controls/results/separate_SUM_contrasts.csv,05-functional-assay-controls,reviewed_result
 experiments/05-functional-assay-controls/results/soy_endpoint_comparison.csv,05-functional-assay-controls,reviewed_result
+experiments/05-functional-assay-controls/results/structure_identity_check.json,05-functional-assay-controls,reviewed_result
 experiments/05-functional-assay-controls/verification/CONTROL_SELECTION_REVIEW.json,05-functional-assay-controls,verification_or_provenance
+experiments/05-functional-assay-controls/verification/NOTEBOOK_ARTIFACTS.json,05-functional-assay-controls,verification_or_provenance
+experiments/05-functional-assay-controls/verification/NOTEBOOK_EXECUTION.json,05-functional-assay-controls,verification_or_provenance
 experiments/05-functional-assay-controls/verification/REVIEW.json,05-functional-assay-controls,verification_or_provenance
 experiments/README.md,,documentation
 receptor-access/README.md,,documentation

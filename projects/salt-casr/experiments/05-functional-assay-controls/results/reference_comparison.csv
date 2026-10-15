@@ -1,0 +1,9 @@
+table,data_rows,matches_reviewed_reference
+condition_summary.csv,7,True
+component_contrasts.csv,4,True
+separate_SUM_contrasts.csv,3,True
+soy_endpoint_comparison.csv,3,True
+amiloride_contrasts.csv,2,True
+condition_charge_strata.csv,4,True
+control_panel_chemistry.csv,12,True
+matched_control_pairs.csv,3,True

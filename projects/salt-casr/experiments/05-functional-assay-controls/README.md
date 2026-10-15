@@ -82,6 +82,11 @@ These branches are candidates for controlled replication, not proposed food ingr
 
 ## Reproduce and inspect
 
+**[Executed CPU notebook](Arginyl_Functional_Controls.ipynb) · [Open in Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/salt-casr/experiments/05-functional-assay-controls/Arginyl_Functional_Controls.ipynb)**
+
+The notebook embeds all inputs and code, recalculates both analyses, checks eight reviewed tables and 12 chemical identities, draws matched structures and exports a results ZIP. CPU is sufficient; no GPU or API key is needed. [Local execution record](verification/NOTEBOOK_EXECUTION.json): all seven code cells passed in **27.5 seconds** on CPU, including the no-preinstalled-uv setup path. The actual Colab browser was not tested; fresh-runtime downloads can take longer. [Reviewed run ZIP](../../archives/Arginyl_Functional_Controls_Run.zip).
+
+
 The [input guide](../../data/functional/README.md) describes all six tables and missing-value conventions. [Source manifest](SOURCE_MANIFEST.json), [analysis scope](PROTOCOL.md) and [verification record](verification/REVIEW.json) distinguish source review from calculations.
 
 From this experiment folder, using Python 3.12:
@@ -92,7 +97,7 @@ python -m venv .venv
 .venv/bin/python code/analyse_functional.py
 ```
 
-The analysis runs in seconds on CPU and needs no API, GPU, source download or model weights. Fresh outputs go to ignored `runs/latest/`. Saved results are reviewed outputs from the executed run. There is no new Colab notebook in this follow-up; no notebook rerun is required to inspect it.
+The analysis runs in seconds on CPU and needs no API, GPU, source download or model weights. Fresh outputs go to ignored `runs/latest/`. Saved results are reviewed outputs from the executed run. The self-contained notebook is an additional entry point; existing notebooks remain unchanged. Its isolated worker uses `requirements_notebook.txt`.
 
 ## Sources
 

@@ -18,7 +18,7 @@ No synthesis, receptor-response measurement, sensory experiment, novel effective
 
 ## Current starting point
 
-The [arginyl control-selection analysis](ARGINYL_STARTING_POINT.md) makes the next question concrete: compare AR/AK and RA/KA at matched molar exposure, while preserving the original assay controls. The existing seven-peptide comparison lacks positively charged non-arginyl dipeptides. A cited 12 mM sensory exposure and a 50 μM cellular exposure also leave a dose bridge unresolved. Chemical structures and comparison tables are complete; biological tests of the proposed controls are not.
+The [arginyl control-selection analysis](ARGINYL_STARTING_POINT.md) makes the next question concrete: compare AR/AK and RA/KA at matched molar exposure, while preserving the original assay controls. The existing seven-peptide comparison lacks positively charged non-arginyl dipeptides. A cited 12 mM sensory exposure and a 50 μM cellular exposure also leave a dose bridge unresolved. Chemical structures and comparison tables are complete and reproduced in the [executed CPU notebook](../experiments/05-functional-assay-controls/Arginyl_Functional_Controls.ipynb); biological tests of the proposed controls are not.
 
 ## Reading order
 

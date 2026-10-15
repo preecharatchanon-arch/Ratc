@@ -1,0 +1,14 @@
+{
+  "experiments/05-functional-assay-controls/Arginyl_Functional_Controls.ipynb": {
+    "bytes": 509593,
+    "sha256": "2cc9e36dde6c714b7000f5917660df4532bb6e29bfdd22e299d9364c5bbd6607"
+  },
+  "archives/Arginyl_Functional_Controls_Run.zip": {
+    "bytes": 350150,
+    "sha256": "dd18d996920c3995dc7b87932322376eaf4b3396cd037e8f51eb8cd227feb0c5"
+  },
+  "experiments/05-functional-assay-controls/requirements_notebook.txt": {
+    "bytes": 205,
+    "sha256": "15ef01768537aaa87870ca18f388453c5e29837fee8ebb04e8f8881a16378fa6"
+  }
+}

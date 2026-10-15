@@ -47,7 +47,7 @@ The retained fleet-routing benchmark reports a **2.02% mean best-of-three refere
 | Saltiness and taste receptors | [Five analysis reports](projects/salt-casr/experiments/README.md), [shared inputs](projects/salt-casr/data/README.md) | [CPU/Colab entry points and verification](projects/salt-casr/README.md#run-an-experiment) |
 | Audio analysis | [One-cell notebook](projects/audio-fft/audio_fft_analysis.ipynb), [analysis functions](projects/audio-fft/original_prototype.py), [local runner](projects/audio-fft/run_analysis.py) | [Compare two recordings and save all 15 plots](projects/audio-fft/README.md#run-the-project) |
 
-The routing and neural-research source snapshots retain their supplied archive identities. The saltiness project includes five completed computational analyses, shared data and three executed notebooks. Each project page states whether execution is self-contained, requires historical inputs, or needs GPU training; inspecting saved evidence does not imply that every original experiment can be rerun from scratch.
+The routing and neural-research source snapshots retain their supplied archive identities. The saltiness project includes five completed computational analyses, shared data and four executed notebooks. Each project page states whether execution is self-contained, requires historical inputs, or needs GPU training; inspecting saved evidence does not imply that every original experiment can be rerun from scratch.
 
 ## Research status
 

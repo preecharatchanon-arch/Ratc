@@ -18,3 +18,7 @@ These are reviewed calculations over published evidence, not raw single-cell dat
 ## Arginyl control-selection follow-up
 
 [Research question and interpretation](../../../docs/ARGINYL_STARTING_POINT.md) · [Chemical table](control_panel_chemistry.csv) · [SDF](control_panel.sdf) · [Matched pairs](matched_control_pairs.csv) · [Condition/charge strata](condition_charge_strata.csv) · [Execution summary](control_selection_summary.json). These outputs define unmeasured controls and preserve dose-specific comparisons; they are not predictions of taste or efficacy.
+
+## Executed notebook outputs
+
+[Matched chemical drawings](matched_control_structures.png) · [Unit calculator example](dose_unit_calculator.csv) · [Eight-table reproduction check](reference_comparison.csv) · [Chemical identity check](structure_identity_check.json). The [notebook execution record](../verification/NOTEBOOK_EXECUTION.json) records actual setup and run timings.

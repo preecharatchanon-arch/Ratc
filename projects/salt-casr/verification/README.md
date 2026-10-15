@@ -6,7 +6,7 @@
 
 Review scope: file preservation; notebook code/output preservation and embedded payload hashes; local Markdown, image and Colab paths; script compilation and relocated input paths; archived ZIP integrity; independent recomputation from retained results; and selected short local execution checks. A folder reorganization is not a new biological experiment or a blanket guarantee of scientific validity.
 
-The three previously shared notebook URLs remain byte-identical runnable aliases. Canonical notebooks are listed under numbered experiment folders. Original execution records remain with their experiments; their old internal filenames refer to the self-contained notebook or archived run, not a claim that the old repository layout still exists.
+The three previously shared notebook URLs remain byte-identical runnable aliases. Experiment 05 adds a fourth canonical notebook with its own execution and artifact records. Canonical notebooks are listed under numbered experiment folders. Original execution records remain with their experiments; their old internal filenames refer to the self-contained notebook or archived run, not a claim that the old repository layout still exists.
 
 Current scientific status is in [RESEARCH_STATUS.md](../docs/RESEARCH_STATUS.md). Existing uncertainties about data provenance, endpoint mismatch, external validation, peptide access and food suitability are retained in the experiment reports.
 

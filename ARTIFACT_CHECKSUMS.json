@@ -1,8 +1,8 @@
 [
   {
     "path": "README.md",
-    "bytes": 10623,
-    "sha256": "1b4f927440510cf51fe1cc91d5568bd32f7cd8548d3498c15e285bec7fafc65b"
+    "bytes": 10622,
+    "sha256": "a5247eafa1aa62531f5f7e081f561c2f9e9b0161e232fdff2dca47cadee08b9a"
   },
   {
     "path": "SOURCE_MANIFEST.json",
@@ -1411,8 +1411,13 @@
   },
   {
     "path": "projects/salt-casr/README.md",
-    "bytes": 7774,
-    "sha256": "d02fcbd7ede1e1189a3c3d103c2636b43c94c5db1144a55978edab8611e530c2"
+    "bytes": 7981,
+    "sha256": "b624c211689994d068a7b812bf4ca1c2cfa4d9d9a9e28c114ea7aa5a7e065b5a"
+  },
+  {
+    "path": "projects/salt-casr/archives/Arginyl_Functional_Controls_Run.zip",
+    "bytes": 350150,
+    "sha256": "dd18d996920c3995dc7b87932322376eaf4b3396cd037e8f51eb8cd227feb0c5"
   },
   {
     "path": "projects/salt-casr/archives/CaSR_Notebook_Run.zip",
@@ -1421,8 +1426,8 @@
   },
   {
     "path": "projects/salt-casr/archives/README.md",
-    "bytes": 1412,
-    "sha256": "e36cd74a85f0a4eb2630983afdbd8d67c105b85359ddef5df5e79598a7fc10f5"
+    "bytes": 1877,
+    "sha256": "a1d5a8eb7c8b794c43038f5e7fc2de452fba9674eea57ff308fae0924f27997b"
   },
   {
     "path": "projects/salt-casr/archives/Saltiness_Sensory_Run.zip",
@@ -1601,13 +1606,13 @@
   },
   {
     "path": "projects/salt-casr/docs/ARGINYL_STARTING_POINT.md",
-    "bytes": 10095,
-    "sha256": "68b18504b98a7a3690724028ed2ff3d75b74dd23a54da9be1cf6fac5645642c6"
+    "bytes": 10413,
+    "sha256": "54d114c407021d375311b0bab3f1073862e6462f7cfa53a7e60a5fcb9b277244"
   },
   {
     "path": "projects/salt-casr/docs/RESEARCH_STATUS.md",
-    "bytes": 4573,
-    "sha256": "b50a045d1e96768bea23f7ff29bf145b575c1d3c9108372e6b17dc5aaf3181d5"
+    "bytes": 4698,
+    "sha256": "e4eea6b094c210917b9e450cc0e455316d57f7d95301838a37702848e54d9e73"
   },
   {
     "path": "projects/salt-casr/docs/RESULTS.md",
@@ -2295,14 +2300,19 @@
     "sha256": "beb00dabd3c206144f99d5585ec26cf2591a064b6f9eedbc3db6549ab10fbb40"
   },
   {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/Arginyl_Functional_Controls.ipynb",
+    "bytes": 509593,
+    "sha256": "2cc9e36dde6c714b7000f5917660df4532bb6e29bfdd22e299d9364c5bbd6607"
+  },
+  {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/PROTOCOL.md",
     "bytes": 1647,
     "sha256": "99d9f3646a82a314c8fcb60aa2030c263f0935267e1d4e92d0acc595c49e2b62"
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/README.md",
-    "bytes": 10696,
-    "sha256": "1cc3a0bac1dd6fa09a47e8e4c79edd6d65605022c697464f7aca1353e16920d9"
+    "bytes": 11553,
+    "sha256": "ad28004808e9fc6c5528a5f82259a7ca176272ecfae27930a684aa14aa1cb735"
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/SOURCE_MANIFEST.json",
@@ -2311,8 +2321,8 @@
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/code/README.md",
-    "bytes": 898,
-    "sha256": "1521c36d83df6981933c9bcab8f314f9cf664f3373934094b0e2cac166ff8327"
+    "bytes": 1175,
+    "sha256": "834b431bc19117fd6437b481a85c2e1c72e9afcf805fd234fddb1b1070b45ee7"
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/code/analyse_functional.py",
@@ -2335,9 +2345,14 @@
     "sha256": "efb84d2bf63ed9e7e4961a9b81b312eef9b1991c77ef7cfa15a202baab4a3187"
   },
   {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/requirements_notebook.txt",
+    "bytes": 205,
+    "sha256": "15ef01768537aaa87870ca18f388453c5e29837fee8ebb04e8f8881a16378fa6"
+  },
+  {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/README.md",
-    "bytes": 1906,
-    "sha256": "596299821f47acbf13516531511c3d05cb6ed020241effe6a28513733dfadb13"
+    "bytes": 2286,
+    "sha256": "d02793da7633208cb6756145dd8cc531f6f81008795388997ef618960e150d3f"
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/amiloride_contrasts.csv",
@@ -2380,6 +2395,11 @@
     "sha256": "c8f65053336e5a050938976856dc3282695cca7c6e09bc6584501197caae0a8e"
   },
   {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/dose_unit_calculator.csv",
+    "bytes": 645,
+    "sha256": "ea5e7232586d44e46b73139686062d7c50b8fdfe34ddb17dca72d29ae25ef662"
+  },
+  {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/functional_controls.png",
     "bytes": 220387,
     "sha256": "77f47236c98d513ae13af36886dcf82c5bf35a34fe26850b6b15792d37e32ae6"
@@ -2393,6 +2413,16 @@
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/matched_control_pairs.csv",
     "bytes": 791,
     "sha256": "171d6a5fb59d5f1c16ef8bcab5f989edb65f83525c366c8dafb71c6c7d7b7f04"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/matched_control_structures.png",
+    "bytes": 78154,
+    "sha256": "aea7b9fbcd57f09ac88b77338c4b93fba6a624c1a11b07a540081e39ca2bce34"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/reference_comparison.csv",
+    "bytes": 316,
+    "sha256": "5d03a1af9458a2f60c0b5e92b8e0b1eed56ded2c0c1e6dd40f434deb5c7d6bd8"
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/run_receipt.json",
@@ -2410,9 +2440,24 @@
     "sha256": "55f09457d76637f7fb579e86969aeb5a45760dd0f9efbc05168170103fccdead"
   },
   {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/structure_identity_check.json",
+    "bytes": 65,
+    "sha256": "45494936fa00245be9b132d197c0acc830d191ef0046fd5413c1b7dcfc07e9d0"
+  },
+  {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/verification/CONTROL_SELECTION_REVIEW.json",
     "bytes": 1689,
     "sha256": "2e50c0dfce01ec91de5a371179045e6c31fee8391eaa44b53363efb90fc5cddd"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/verification/NOTEBOOK_ARTIFACTS.json",
+    "bytes": 529,
+    "sha256": "d495bb85fa31ba602d8f23a813283a899218ea2064aea4939b1c0c1091a07af3"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/verification/NOTEBOOK_EXECUTION.json",
+    "bytes": 1962,
+    "sha256": "5a8ed4550e2b819c4c58f473a12fb4a90135e887da7542f1c5eb48677962cb80"
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/verification/REVIEW.json",
@@ -2421,8 +2466,8 @@
   },
   {
     "path": "projects/salt-casr/experiments/README.md",
-    "bytes": 1254,
-    "sha256": "5fb9126b1ec22395b3afa7405e0dfa384a5c4ca8ffafe59c1c8c704a5541b014"
+    "bytes": 1312,
+    "sha256": "4b93211a96dc28c7d4966de991b4ce437d484cc589e03bc65ddd50d2f85cfed0"
   },
   {
     "path": "projects/salt-casr/receptor-access/README.md",
@@ -2446,8 +2491,8 @@
   },
   {
     "path": "projects/salt-casr/verification/FILE_INDEX.csv",
-    "bytes": 21624,
-    "sha256": "9ead3e17cf3440ca4cf3af130b60de3afe791180b5f1d1034503400c2dae938b"
+    "bytes": 22709,
+    "sha256": "6a408717829f1ec49d2ee0484661d5983a4ee4e08734170538d1dffe988d7822"
   },
   {
     "path": "projects/salt-casr/verification/ORGANIZATION_REVIEW.json",
@@ -2457,12 +2502,12 @@
   {
     "path": "projects/salt-casr/verification/PATH_MAP.csv",
     "bytes": 41472,
-    "sha256": "ad016572cebb09e21822893a789e6539a57ab727c5a55dc37eae72421e0b9ae9"
+    "sha256": "15ea090ddbb0e9d77d0c21e1c418f48d8d64a3ea2a44a37b38871aeec655a2b8"
   },
   {
     "path": "projects/salt-casr/verification/README.md",
-    "bytes": 1671,
-    "sha256": "5526ef0a12f0d76310ad7d758050f82bd261f3112bc334fd4b487404476c2940"
+    "bytes": 1763,
+    "sha256": "9a410bca0c42f0efbf47499ea8192b8d7df4ee8b6804bfdbdf8d56cd1242ea4e"
   },
   {
     "path": "projects/salt-casr/verification/RELOCATED_RUNTIME_CHECKS.json",
@@ -2476,8 +2521,8 @@
   },
   {
     "path": "projects/salt-casr/verification/verify_layout.py",
-    "bytes": 4541,
-    "sha256": "e59c4268b0d9f035bca46f6806d9078fa0373a0573669350db53f15fe1beab1b"
+    "bytes": 4742,
+    "sha256": "7a76ca42bbd7baa434157397508326cc4a3bdf36d2638b056ff4cfe170118f10"
   },
   {
     "path": "restore_supplements.py",
