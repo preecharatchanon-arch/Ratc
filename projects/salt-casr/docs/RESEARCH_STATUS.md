@@ -18,7 +18,9 @@ No synthesis, receptor-response measurement, sensory experiment, novel effective
 
 ## Current starting point
 
-The [arginyl control-selection analysis](ARGINYL_STARTING_POINT.md) makes the next question concrete: compare AR/AK and RA/KA at matched molar exposure, while preserving the original assay controls. The existing seven-peptide comparison lacks positively charged non-arginyl dipeptides. A cited 12 mM sensory exposure and a 50 μM cellular exposure also leave a dose bridge unresolved. Chemical structures and comparison tables are complete and reproduced in the [executed CPU notebook](../experiments/05-functional-assay-controls/Arginyl_Functional_Controls.ipynb); biological tests of the proposed controls are not.
+The [sensory follow-up](PROLYL_SENSORY_FOLLOWUP.md) now supplies reported model-broth thresholds for RP and KP (0.5 and 1.2 mM). KP has sensory evidence but remains unverified in the selected human taste-cell assay. Prioritize RP/KP as a functional comparison, with AR/AK and RA/KA as secondary pairs. A separate primary-paper supplement supplies six salt-modulating sequences at 42–229 μM in its pRec matrix, including LDYY and LPPP. These are source-backed sensory comparators, not verified ENaC activators. VP is benchmark-negative but has published broth-enhancement evidence; preserve endpoint and matrix rather than overwriting the label.
+
+The earlier [arginyl control-selection notebook](../experiments/05-functional-assay-controls/Arginyl_Functional_Controls.ipynb) remains a frozen, executed reproduction. The new literature records and completed CPU analysis are linked separately in Experiment 05; no new biological measurement is claimed.
 
 ## Reading order
 

@@ -1,0 +1,3 @@
+reference,comparison,comparison_question,source_group,reference_threshold_mM,comparison_threshold_mM,comparison_to_reference_threshold_ratio,statistical_uncertainty,interpretation
+RP,KP,Arg-to-Lys substitution,hofmann2021_patent_Table4,0.5,1.2,2.4,not available; ratio of reported point thresholds only,Both reported salt enhancing in model broth; not a receptor potency ratio or a quantified sodium reduction
+VP,PV,Residue order at fixed composition,hofmann2021_patent_Table4,0.8,1.9,2.3749999999999996,not available; ratio of reported point thresholds only,Both reported salt enhancing in model broth; not a receptor potency ratio or a quantified sodium reduction

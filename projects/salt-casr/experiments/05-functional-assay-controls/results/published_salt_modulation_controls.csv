@@ -1,0 +1,11 @@
+sequence,source_group,reported_salt_modulation_threshold_uM,reported_quality,matrix,pH,nominal_sidechain_balance,contains_arginine,contains_lysine,ENaC_activity_interpretation
+PV,hofmann2021_patent_Table4,1900.0,Salt enhancing,model broth; composition not verified,,0,False,False,not established by this sensory record
+VP,hofmann2021_patent_Table4,800.0,Salt enhancing,model broth; composition not verified,,0,False,False,not established by this sensory record
+RP,hofmann2021_patent_Table4,500.0,Salt enhancing,model broth; composition not verified,,1,True,False,not established by this sensory record
+KP,hofmann2021_patent_Table4,1200.0,Salt enhancing,model broth; composition not verified,,1,False,True,not established by this sensory record
+ALDPLPT,juenger2022_SI_TableS5,125.0,umami;salty,partial basic taste recombinate (pRec),5.4,-1,False,False,not established by this sensory record
+DTDEPN,juenger2022_SI_TableS5,210.0,umami;salty,partial basic taste recombinate (pRec),5.4,-3,False,False,not established by this sensory record
+EEL,juenger2022_SI_TableS5,229.0,salty,partial basic taste recombinate (pRec),5.4,-2,False,False,not established by this sensory record
+LDYY,juenger2022_SI_TableS5,42.0,umami;salty,partial basic taste recombinate (pRec),5.4,-1,False,False,not established by this sensory record
+LPPP,juenger2022_SI_TableS5,105.0,umami;salty,partial basic taste recombinate (pRec),5.4,0,False,False,not established by this sensory record
+PPPP,juenger2022_SI_TableS5,193.0,salty,partial basic taste recombinate (pRec),5.4,0,False,False,not established by this sensory record

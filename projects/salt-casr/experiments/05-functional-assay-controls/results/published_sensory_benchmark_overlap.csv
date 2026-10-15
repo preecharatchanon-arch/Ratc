@@ -1,0 +1,11 @@
+sequence,source_group,existing_benchmark_record,existing_label,existing_phenotype,existing_references,interpretation
+PV,hofmann2021_patent_Table4,False,,,,Context-dependent labels; benchmark absence is not inactivity; overlap is not held-out validation
+VP,hofmann2021_patent_Table4,True,0,"sour, sweet",BIOPEP-UWM,Context-dependent labels; benchmark absence is not inactivity; overlap is not held-out validation
+RP,hofmann2021_patent_Table4,True,1,"bitter; salt-enhancing activity also reported; reported assay value(s): 68.3 mM, 9.4%, 36.6%, 51 mmol/L",BIOPEP-UWM; 10.1016/j.tifs.2022.11.,Context-dependent labels; benchmark absence is not inactivity; overlap is not held-out validation
+KP,hofmann2021_patent_Table4,False,,,,Context-dependent labels; benchmark absence is not inactivity; overlap is not held-out validation
+ALDPLPT,juenger2022_SI_TableS5,True,1,salty; salt-enhancing activity also reported,Current_curated; jafc.2022.2c01688,Context-dependent labels; benchmark absence is not inactivity; overlap is not held-out validation
+DTDEPN,juenger2022_SI_TableS5,False,,,,Context-dependent labels; benchmark absence is not inactivity; overlap is not held-out validation
+EEL,juenger2022_SI_TableS5,False,,,,Context-dependent labels; benchmark absence is not inactivity; overlap is not held-out validation
+LDYY,juenger2022_SI_TableS5,False,,,,Context-dependent labels; benchmark absence is not inactivity; overlap is not held-out validation
+LPPP,juenger2022_SI_TableS5,False,,,,Context-dependent labels; benchmark absence is not inactivity; overlap is not held-out validation
+PPPP,juenger2022_SI_TableS5,False,,,,Context-dependent labels; benchmark absence is not inactivity; overlap is not held-out validation

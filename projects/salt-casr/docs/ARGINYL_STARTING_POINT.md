@@ -6,6 +6,10 @@ Research note by **Ratchanon Preecha**, 15 October 2026. This note develops the 
 
 **Starting question:** in the published AR/RA/RP cellular comparison, does an arginine side chain contribute beyond nominal positive charge? A matched Arg-to-Lys comparison can test that question. The present data do not answer it.
 
+## Subsequent sensory evidence
+
+The [sensory follow-up](PROLYL_SENSORY_FOLLOWUP.md) recovered prior salt-enhancement evidence for KP in model broth. KP remains unverified in the particular human taste-cell assay. RP/KP is now the prioritized functional comparison between two peptides with reported sensory activity. The statements below about missing cellular evidence remain assay-specific; the earlier executed notebook retains its original frozen inputs.
+
 ## What the existing comparison can distinguish
 
 At the common condition of 50 μM peptide and reported 150 mM NaCl, Xu et al. [1] report increased responding-cell fractions over SUM for AR, RA and RP, but not RE, ER, DD or ED. Our calculation adds a simple chemical annotation:

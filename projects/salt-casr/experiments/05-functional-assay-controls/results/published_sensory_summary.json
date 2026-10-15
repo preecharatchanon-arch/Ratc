@@ -1,0 +1,39 @@
+{
+  "scope": "Analysis of newly recovered published sensory evidence; no activity model or wet-lab work",
+  "patent_rows": 13,
+  "primary_paper_SI_rows": 15,
+  "patent_conflicting_PP_rows": 2,
+  "primary_paper_numeric_modulation_thresholds": 14,
+  "primary_paper_salt_modulation_sequences": [
+    "ALDPLPT",
+    "DTDEPN",
+    "EEL",
+    "LDYY",
+    "LPPP",
+    "PPPP"
+  ],
+  "primary_paper_salt_threshold_range_uM": [
+    42.0,
+    229.0
+  ],
+  "primary_paper_salt_sequences_with_Arg_or_Lys": 0,
+  "primary_paper_salt_sequences_absent_from_benchmark": [
+    "DTDEPN",
+    "EEL",
+    "LDYY",
+    "LPPP",
+    "PPPP"
+  ],
+  "benchmark_negative_with_published_broth_enhancement": [
+    "VP"
+  ],
+  "current_KP_status": "Published sensory salt-enhancement evidence; human taste-cell assay activity remains unverified",
+  "limits": [
+    "Do not rank thresholds across distinct matrices or protocols.",
+    "A reported salt descriptor in a threshold task is not an effect-size curve or demonstrated sodium replacement.",
+    "Missing modulation and non-salt descriptors are not verified salt-negative labels.",
+    "Nominal side-chain balance omits terminal and pH-dependent charge; no causal charge effect is estimated.",
+    "Water bitterness and broth enhancement cannot define a same-matrix sensory selectivity window.",
+    "Patent family versions are one evidence source; do not count them as replications."
+  ]
+}

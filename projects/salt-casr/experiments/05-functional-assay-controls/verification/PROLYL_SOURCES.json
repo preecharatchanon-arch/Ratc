@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-15",
+  "sources": [
+    {
+      "id": "hofmann2021",
+      "reference": "Hofmann T, Salger M, Stark T. Flavor compositions and screening methods for identifying the same. US20210000152A1 (7 January 2021).",
+      "url": "https://patents.google.com/patent/US20210000152A1/en",
+      "download_url": "https://patentimages.storage.googleapis.com/cf/8b/41/0d60edd3e64bc3/US20210000152A1.pdf",
+      "local_file": "US20210000152A1.pdf",
+      "locator": "Table 4, PDF page 37 / printed page 23; paragraphs 0270-0271",
+      "access": "Full primary patent PDF downloaded and Table 4 visually inspected. Patent report, not an independent replication.",
+      "bytes": 4985416,
+      "sha256": "524a25da1c0ad57ca573a8d43ca414f5cb3edad937ed2af31d3d6c7e385e7c98"
+    },
+    {
+      "id": "juenger2022",
+      "reference": "Jünger M, et al. Sensoproteomic Discovery of Taste-Modulating Peptides and Taste Re-engineering of Soy Sauce. JAFC 70(21), 6503-6518 (2022). DOI:10.1021/acs.jafc.2c01688.",
+      "url": "https://doi.org/10.1021/acs.jafc.2c01688.s001",
+      "download_url": "https://ndownloader.figshare.com/files/35191148",
+      "local_file": "jf2c01688_si_001.pdf",
+      "locator": "Table S5 PDF/printed p16; sensory methods pp2-4",
+      "access": "Full author supplement downloaded from ACS Figshare article 19803005 and table visually inspected; main full paper not recovered. SI CC BY-NC 4.0.",
+      "bytes": 1999201,
+      "sha256": "0d57bbd80e905d04d88956183bfec6b9334aeeb8945d744b0341ecb5bb13688c"
+    },
+    {
+      "id": "salger2019",
+      "reference": "Salger M, Stark TD, Hofmann T. Taste Modulating Peptides from Overfermented Cocoa Beans. JAFC 67(15), 4311-4320 (2019). DOI:10.1021/acs.jafc.9b00905.",
+      "url": "https://doi.org/10.1021/acs.jafc.9b00905.s001",
+      "download_url": "https://ndownloader.figshare.com/files/14773301",
+      "local_file": "jf9b00905_si_001.pdf",
+      "locator": "Supporting Information S1 and S2",
+      "access": "Abstract and complete author supplement inspected. SI has analytical parameters including KP/PK, not sensory thresholds; no independent sensory replication inferred.",
+      "bytes": 56976,
+      "sha256": "d48a697e361c05ab9b1038e993bc48d5eec7857bdef90b25818720fd90494fb7"
+    },
+    {
+      "id": "ep3768092",
+      "reference": "EP3768092B1, Flavor compositions and methods for preparing the same.",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3768092NWB1/document.html",
+      "download_url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3768092NWB1/document.html",
+      "local_file": "EP3768092B1.html",
+      "locator": "Table 4; paragraphs 0232-0233",
+      "access": "Official EPO family text inspected; same numerical table, not a second independent experiment.",
+      "bytes": 257280,
+      "sha256": "2496cd219190c0ab6e886a5d731ede823a850d311ca367a4109b8bf0c4a3e3e4"
+    }
+  ],
+  "transcription": "Source names and thresholds retained; PP conflict and ambiguous less-than entries preserved, not silently repaired.",
+  "search_scope": "Bounded public-source search for AK/KA/KP, exact chemical names and sensory/taste-cell activity; absence of a retrieved result does not establish novelty.",
+  "search_queries": [
+    "\"alanyl lysine\" \"salt\" taste peptide",
+    "\"lysyl alanine\" \"saltiness\"",
+    "\"lysyl proline\" \"saltiness\"",
+    "\"arginyl\" \"lysyl\" \"saltiness\" peptides",
+    "\"alanyllysine\" \"saltiness\"",
+    "\"lysylalanine\" \"salt\" taste",
+    "\"Lys-Pro\" \"saltiness\" peptide"
+  ],
+  "source_files_redistributed": false,
+  "new_biological_measurement": false
+}

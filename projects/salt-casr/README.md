@@ -1,5 +1,7 @@
 # Saltiness and taste-receptor research
 
+**Latest evidence:** [Published sensory data change the RP/KP comparison](docs/PROLYL_SENSORY_FOLLOWUP.md). KP has prior salt-enhancement evidence, VP has context-dependent benchmark labels, and six paper-supported non-arginyl comparators now have attributed thresholds. These are literature findings, not new biological measurements.
+
 Research by **Ratchanon Preecha** · Updated 15 October 2026
 
 Can published chemical, receptor and sensory measurements support useful selection of compounds for lower-sodium foods? This project follows that question through **five completed computational analyses**. It began with CaSR peptide modelling and now includes sensory-label evaluation, dose-dependent effects, a structural check of proposed TRPV1 binding sites, and functional-assay controls.

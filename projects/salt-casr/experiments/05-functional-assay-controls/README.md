@@ -8,6 +8,10 @@
 
 Research reanalysis by **Ratchanon Preecha**, 15 October 2026. These are attributed published observations, not biological discoveries or experiments performed by us. This follow-up expands the seven-row cellular comparator table in Experiment 02 into assay-condition records and checks how baseline changes affect mechanistic interpretation. No new ML fitting or docking was performed.
 
+## Subsequent sensory evidence
+
+**[Read the sensory follow-up](../../docs/PROLYL_SENSORY_FOLLOWUP.md):** KP has reported model-broth salt-enhancement activity, and six non-arginyl peptides have attributed modulation thresholds in a paper supplement. The new CPU analysis also documents VP as a benchmark-negative peptide with reported broth enhancement. These records refine the next functional comparison without supplying new receptor measurements. [Inputs](../../data/functional/README.md) · [Within-source pairs](results/within_source_sensory_pairs.csv) · [Benchmark overlap](results/published_sensory_benchmark_overlap.csv) · [Code](code/compare_published_sensory.py). The original notebook and its embedded inputs are unchanged.
+
 ## Read the figure
 
 ![Condition-specific cellular outcomes and distinct perturbation controls](results/functional_controls.png)

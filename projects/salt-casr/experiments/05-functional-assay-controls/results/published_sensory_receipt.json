@@ -1,0 +1,11 @@
+{
+  "CPU_only": true,
+  "GPU_required": false,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "elapsed_s": 0.0034939370000302006,
+  "input_sha256": {
+    "hofmann2021_patent_prolyl_thresholds.csv": "a9bd11794f50f33463560c6a4b98b66ca7563cad303bd37b6b7e4094722fe8b7",
+    "juenger2022_sensory_thresholds.csv": "f842b46e28530a95574090f7437fbfd11e6cc3d865f07e96945587e9213366a0",
+    "benchmark_records.csv": "f5ee9f945611741b6bc50175195e3078632c07a5065a6224c28055fe2e1a8d7a"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-15",
+  "primary_SI_rows_checked_against_extracted_source": 15,
+  "patent_rows_checked_against_official_family_text": 13,
+  "visual_checks": [
+    "US20210000152A1 Table 4 PDF p37",
+    "Jünger2022 author SI Table S5 p16"
+  ],
+  "conflicting_PP_rows_retained": 2,
+  "main_paper_full_text_recovered": false,
+  "CPU_script_executed": true,
+  "GPU_required": false,
+  "elapsed_analysis_s": 0.0034939370000302006,
+  "benchmark_sha256": "f5ee9f945611741b6bc50175195e3078632c07a5065a6224c28055fe2e1a8d7a",
+  "benchmark_overlap": "ALDPLPT already present; five other paper salt-modulating sequences absent; VP benchmark-negative with broth enhancement report",
+  "scientific_claim": "Recovered literature evidence and context-dependent comparison; no new molecular activity or statistical significance test",
+  "frozen_notebook_modified": false
+}

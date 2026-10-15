@@ -1411,8 +1411,8 @@
   },
   {
     "path": "projects/salt-casr/README.md",
-    "bytes": 7981,
-    "sha256": "b624c211689994d068a7b812bf4ca1c2cfa4d9d9a9e28c114ea7aa5a7e065b5a"
+    "bytes": 8317,
+    "sha256": "1a18fa04bac4a275f3cba58355d10862b51e8d906dfe07c5e84a3af14efc87e0"
   },
   {
     "path": "projects/salt-casr/archives/Arginyl_Functional_Controls_Run.zip",
@@ -1511,8 +1511,18 @@
   },
   {
     "path": "projects/salt-casr/data/functional/README.md",
-    "bytes": 2403,
-    "sha256": "d7db0e84986c44a558828911d2303a95886520dd48a8f5fe7b6175b0d3258e9b"
+    "bytes": 3598,
+    "sha256": "42bb902665057322cfb1070bdb9b67f75daaffbcc4437a73861c8e95ed24c4a6"
+  },
+  {
+    "path": "projects/salt-casr/data/functional/hofmann2021_patent_prolyl_thresholds.csv",
+    "bytes": 3363,
+    "sha256": "a9bd11794f50f33463560c6a4b98b66ca7563cad303bd37b6b7e4094722fe8b7"
+  },
+  {
+    "path": "projects/salt-casr/data/functional/juenger2022_sensory_thresholds.csv",
+    "bytes": 6713,
+    "sha256": "f842b46e28530a95574090f7437fbfd11e6cc3d865f07e96945587e9213366a0"
   },
   {
     "path": "projects/salt-casr/data/functional/qi2025_soy_endpoint_comparison.csv",
@@ -1606,13 +1616,18 @@
   },
   {
     "path": "projects/salt-casr/docs/ARGINYL_STARTING_POINT.md",
-    "bytes": 10413,
-    "sha256": "54d114c407021d375311b0bab3f1073862e6462f7cfa53a7e60a5fcb9b277244"
+    "bytes": 10873,
+    "sha256": "bcf815e734358353fbc38e00bb6128ca101030c160dfaa4abfbebc1c8b643ef9"
+  },
+  {
+    "path": "projects/salt-casr/docs/PROLYL_SENSORY_FOLLOWUP.md",
+    "bytes": 8260,
+    "sha256": "dc66a5754227e787e58aab6ff64aaab31a9aeb23c9cb68c35adf2eed1738bb8c"
   },
   {
     "path": "projects/salt-casr/docs/RESEARCH_STATUS.md",
-    "bytes": 4698,
-    "sha256": "e4eea6b094c210917b9e450cc0e455316d57f7d95301838a37702848e54d9e73"
+    "bytes": 5035,
+    "sha256": "7d091a34423ef3666c21ddc9bed1da2803dac55c9146a6aa0c8caedc8d35fe92"
   },
   {
     "path": "projects/salt-casr/docs/RESULTS.md",
@@ -2311,8 +2326,8 @@
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/README.md",
-    "bytes": 11553,
-    "sha256": "ad28004808e9fc6c5528a5f82259a7ca176272ecfae27930a684aa14aa1cb735"
+    "bytes": 12292,
+    "sha256": "b00ff2f1c431898f51c598ace945c550519486951f9ec62da258d55bcf47dcf8"
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/SOURCE_MANIFEST.json",
@@ -2333,6 +2348,11 @@
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/code/compare_control_panel.py",
     "bytes": 5285,
     "sha256": "db7c5178ee9661cb8130fe682f00e6818e2d4c905264a97e05d15b31a0896116"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/code/compare_published_sensory.py",
+    "bytes": 5891,
+    "sha256": "997d963a36f3852b5a2ba5d87b4ca4f4ad6f2b68c06fe79d67e00708710b7b63"
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/requirements_control_selection.txt",
@@ -2420,6 +2440,26 @@
     "sha256": "aea7b9fbcd57f09ac88b77338c4b93fba6a624c1a11b07a540081e39ca2bce34"
   },
   {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/published_salt_modulation_controls.csv",
+    "bytes": 1602,
+    "sha256": "37b3795871db428d3af9137b7079fa4237705ecc7fa2f94ef1e9160a8464a326"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/published_sensory_benchmark_overlap.csv",
+    "bytes": 1727,
+    "sha256": "568c1e27cadad507a519acaec5cb27fae7335b3cc94e4e4de47728ba33f4618b"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/published_sensory_receipt.json",
+    "bytes": 502,
+    "sha256": "eb93dde3674801eae4c7bae7bf3cf3f7e16a3709b56a3483e8839bfc2709072a"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/published_sensory_summary.json",
+    "bytes": 1414,
+    "sha256": "fcc139ef5508e731658b3dfaa7ca6b169f366d5a21fe978a7e4de9542a2b6109"
+  },
+  {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/reference_comparison.csv",
     "bytes": 316,
     "sha256": "5d03a1af9458a2f60c0b5e92b8e0b1eed56ded2c0c1e6dd40f434deb5c7d6bd8"
@@ -2445,6 +2485,11 @@
     "sha256": "45494936fa00245be9b132d197c0acc830d191ef0046fd5413c1b7dcfc07e9d0"
   },
   {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/within_source_sensory_pairs.csv",
+    "bytes": 669,
+    "sha256": "dfa477e0846be4fc6c9968b22e47dc015f400ed7e383842295e24a470cdbb972"
+  },
+  {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/verification/CONTROL_SELECTION_REVIEW.json",
     "bytes": 1689,
     "sha256": "2e50c0dfce01ec91de5a371179045e6c31fee8391eaa44b53363efb90fc5cddd"
@@ -2458,6 +2503,16 @@
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/verification/NOTEBOOK_EXECUTION.json",
     "bytes": 1962,
     "sha256": "5a8ed4550e2b819c4c58f473a12fb4a90135e887da7542f1c5eb48677962cb80"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/verification/PROLYL_REVIEW.json",
+    "bytes": 861,
+    "sha256": "6d309b9b5b62746fa860134676562363b1e0431ddedb88cec7f2d59a03902e2d"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/verification/PROLYL_SOURCES.json",
+    "bytes": 3639,
+    "sha256": "f2a85f37e1cbd1b9693157aa2ccfb005e23405a29523a1add784fa68b3632a3e"
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/verification/REVIEW.json",
@@ -2491,8 +2546,8 @@
   },
   {
     "path": "projects/salt-casr/verification/FILE_INDEX.csv",
-    "bytes": 22709,
-    "sha256": "6a408717829f1ec49d2ee0484661d5983a4ee4e08734170538d1dffe988d7822"
+    "bytes": 23721,
+    "sha256": "77f60946c468ef85c4b62fe566053d041a992f8b426ea2dc7ff3f02fde182689"
   },
   {
     "path": "projects/salt-casr/verification/ORGANIZATION_REVIEW.json",
@@ -2502,7 +2557,7 @@
   {
     "path": "projects/salt-casr/verification/PATH_MAP.csv",
     "bytes": 41472,
-    "sha256": "15ea090ddbb0e9d77d0c21e1c418f48d8d64a3ea2a44a37b38871aeec655a2b8"
+    "sha256": "05af05c972e39f8ae2c16abdaf6a4d7b33ed1dd4124dacc0eb3cc2a0ec56ede3"
   },
   {
     "path": "projects/salt-casr/verification/README.md",
