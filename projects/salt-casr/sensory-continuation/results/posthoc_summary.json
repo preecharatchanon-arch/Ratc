@@ -1,0 +1,36 @@
+{
+  "posthoc": true,
+  "matched_fold_control": {
+    "folds": 15,
+    "reference_macro_auc": 0.34414943583097024,
+    "matched_random_macro_auc": 0.6581567244013093,
+    "reference_wins": 0
+  },
+  "reference_parse_sensitivity": [
+    {
+      "seed": 777,
+      "roc_auc": 0.4006669231755803,
+      "groups": 53,
+      "largest_group": 28,
+      "records_without_remaining_reference": 15
+    },
+    {
+      "seed": 1777,
+      "roc_auc": 0.395408490445043,
+      "groups": 53,
+      "largest_group": 28,
+      "records_without_remaining_reference": 15
+    },
+    {
+      "seed": 2777,
+      "roc_auc": 0.44946774400410416,
+      "groups": 53,
+      "largest_group": 28,
+      "records_without_remaining_reference": 15
+    }
+  ],
+  "note": "Matched random draws are sensitivity controls, not independent trials or a p-value. External mushroom panel is five author-selected candidates; neither external AUC nor success rate is estimated.",
+  "mushroom_panel_exact_overlap": 0,
+  "mushroom_panel_similarity_ge_0_8": 1,
+  "seconds": 18.457335792999856
+}

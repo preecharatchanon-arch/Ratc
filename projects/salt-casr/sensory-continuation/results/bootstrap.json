@@ -1,0 +1,32 @@
+{
+  "resamples": 3000,
+  "groups": 34,
+  "interpretation": "Descriptive source-cluster resampling of averaged repeated OOF predictions, conditional on fixed fits; not a retraining or external-validation confidence interval.",
+  "regimes": {
+    "random": {
+      "auc": 0.6941772476593561,
+      "interval_95": [
+        0.5596348024150734,
+        0.7675890200993031
+      ]
+    },
+    "similarity": {
+      "auc": 0.6923175580351417,
+      "interval_95": [
+        0.5524225211347673,
+        0.7685865087395022
+      ]
+    },
+    "reference_similarity": {
+      "auc": 0.26452481723739896,
+      "interval_95": [
+        0.19388469424269977,
+        0.37274689397645117
+      ]
+    }
+  },
+  "random_minus_reference_auc_interval_95": [
+    0.22451561353260246,
+    0.5388938155411236
+  ]
+}

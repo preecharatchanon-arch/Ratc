@@ -1,0 +1,8 @@
+sequence,cellular_NaCl_response_increase,doi,combined_benchmark_label,benchmark_references
+AR,True,10.1038/s41598-017-07756-x,1,Current_curated; BIOPEP-UWM; 10.1016/j.tifs.2022.11.; jafc.2011.jf2041593
+RA,True,10.1038/s41598-017-07756-x,1,Current_curated; BIOPEP-UWM; 10.1016/j.tifs.2022.11.; jafc.2011.jf2041593
+RP,True,10.1038/s41598-017-07756-x,1,BIOPEP-UWM; 10.1016/j.tifs.2022.11.
+RE,False,10.1038/s41598-017-07756-x,1,TastePeptidesDB; 10.1080/10408398.2025.2547284; 10.1016/j.foodchem.2024.141552
+ER,False,10.1038/s41598-017-07756-x,0,10.1016/j.foodres.2024.114966; 10.1038/s41598-017-07756-x
+DD,False,10.1038/s41598-017-07756-x,1,Current_curated; TastePeptidesDB; BIOPEP-UWM; 10.1016/j.fufo.2026.100930; 10.1002/fsh3.12055; 10.1016/j.meatsci.2023.109261; 10.1016/j.tifs.2022.11.; 10.1007/s13197--04836-1; 10.1271/bbb.59.; s13197--04836-1; abc.1989.10869317
+ED,False,10.1038/s41598-017-07756-x,1,Current_curated; TastePeptidesDB; BIOPEP-UWM; 10.1002/fsh3.12055; 10.1016/j.meatsci.2023.109261; 10.1016/j.tifs.2022.11.; 10.1007/s13197--04836-1; 10.1271/bbb.59.; 10.1016/j.fufo.2026.100930; s13197--04836-1; abc.1989.10869317

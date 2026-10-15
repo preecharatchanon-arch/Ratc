@@ -1,0 +1,9 @@
+{
+  "checks_passed": true,
+  "metric_rows_recomputed": 60,
+  "expected_oof_rows": 22956,
+  "exactly_one_prediction_per_record_per_model_split_seed": true,
+  "reference_crossing_folds": 0,
+  "standalone_taste_and_enhancement_columns_kept_separate": true,
+  "limitations": "Metadata tags and reference connectivity do not independently verify every primary assay. No external model accuracy estimate from the selected mushroom panel."
+}

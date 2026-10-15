@@ -1,0 +1,4 @@
+seed,roc_auc,groups,largest_group,records_without_remaining_reference
+777,0.4006669231755803,53,28,15
+1777,0.395408490445043,53,28,15
+2777,0.44946774400410416,53,28,15

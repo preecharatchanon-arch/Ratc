@@ -1,0 +1,13 @@
+{
+  "input_sha256": "168f3338f8c9cdf572776675767c3b966b6d146a2250f78f8c0e5c56de518386",
+  "analysis_sha256": "b6220381a1b6ddddb3e059deb2ce1f57cd061ec4b8b23df2078c3b285af9602f",
+  "protocol_sha256": "809c7ec03e588cbd36d55c13d1d20f44e5ae11fdfd0f3599677ec71b7d377bd8",
+  "seconds": 50.63673470700019,
+  "models_fitted": 300,
+  "feature_count": 28,
+  "seeds": [
+    777,
+    1777,
+    2777
+  ]
+}

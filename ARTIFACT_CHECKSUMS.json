@@ -1411,8 +1411,8 @@
   },
   {
     "path": "projects/salt-casr/README.md",
-    "bytes": 7048,
-    "sha256": "21de94d6b2bbdc001774d6f40081ad2911cf21da2c80e58e64b1fa38d5a5f774"
+    "bytes": 7360,
+    "sha256": "e5dffb5b73c6c83e2d28f694f96a9d390acb14cf1a54d34ed27975f8406bb45a"
   },
   {
     "path": "projects/salt-casr/REVIEW_CHECKS.json",
@@ -1613,6 +1613,171 @@
     "path": "projects/salt-casr/results/structure_exclusions.csv",
     "bytes": 499,
     "sha256": "73019a3345c3eceb94c804332eaac31b0a100cf97a8594387ebb7757f9613270"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/FILE_HASHES.json",
+    "bytes": 3162,
+    "sha256": "324b6634d1c7cd87b1aa923e0123caff3915a5ad34fbaaed7659c985078538c3"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/NOTEBOOK_EXECUTION.json",
+    "bytes": 1004,
+    "sha256": "99d650cfa3b420efd482daa17bc2b37a41aeb39f6031fb782157713677f7c1c9"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/POSTHOC_DIAGNOSTICS.md",
+    "bytes": 2437,
+    "sha256": "986170d64e8e3bc324d8ad271d2e20a8f63b066572eb1b554c13dc8fea8534b2"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/PROTOCOL.md",
+    "bytes": 3801,
+    "sha256": "809c7ec03e588cbd36d55c13d1d20f44e5ae11fdfd0f3599677ec71b7d377bd8"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/README.md",
+    "bytes": 11262,
+    "sha256": "da71a229e3992945c6d40ab413d4ed15c9907f4f0a1967eff24f80a49f477889"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/SOURCE_MANIFEST.json",
+    "bytes": 1602,
+    "sha256": "1c8228b03c0d44c0d315a3917f283dca7c09542825c79b240d6ccd1205070edc"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/Saltiness_Sensory_Run.zip",
+    "bytes": 1181544,
+    "sha256": "1621c78d128f8b77b0ca284abd460901515c683de10df35b5b6b1c900435828a"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/Saltiness_Sensory_Validation.ipynb",
+    "bytes": 602961,
+    "sha256": "c0dd4aaf4a0045c7fddeb3dfbfce74077971bd1e55eef6a970a237fc869a18f6"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/analyse.py",
+    "bytes": 12865,
+    "sha256": "b6220381a1b6ddddb3e059deb2ce1f57cd061ec4b8b23df2078c3b285af9602f"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/diagnose.py",
+    "bytes": 7419,
+    "sha256": "b307f277f8ca7652c6af03def26e227a2fda4aeed29309aa18e713a853e5955b"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/private_sources/saltymeta_supplement.xlsx",
+    "bytes": 51442,
+    "sha256": "168f3338f8c9cdf572776675767c3b966b6d146a2250f78f8c0e5c56de518386"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/report.py",
+    "bytes": 5407,
+    "sha256": "5cda1feb8427db7dd6f543585cc6a4c471c026f63c004a5c006f5d379ddbff7d"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/requirements_locked.txt",
+    "bytes": 371,
+    "sha256": "17fecc88e1687b769dd8cf60a65b16207219d9291cfd00f95ae88542663f5b60"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/results/arginyl_cellular_controls.csv",
+    "bytes": 1129,
+    "sha256": "260cf8263820547e91bed88073852b0c2e5f0a5bb4250924e229b046198b9900"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/results/bootstrap.json",
+    "bytes": 792,
+    "sha256": "d0cfd88a9a5f8064871af4d9cdae4b6e62e231778381ab0177b66b4c20eb522b"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/results/curated_records.csv",
+    "bytes": 188953,
+    "sha256": "f5ee9f945611741b6bc50175195e3078632c07a5065a6224c28055fe2e1a8d7a"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/results/evidence_and_transfer.png",
+    "bytes": 361140,
+    "sha256": "ccafa214ee8343caf5eacebf23fa82a852bb303a313cbddd772b44c11b550608"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/results/evidence_and_transfer.svg",
+    "bytes": 135843,
+    "sha256": "3aadc037c1fd2f161d6f0da832c8a1eb1b2fa92f27fd2d182ce55954e5604718"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/results/evidence_audit.json",
+    "bytes": 577,
+    "sha256": "c50a0e9c86cb3f36d6146f5ad7b7a02db18f8436243ea87f154c2fe3e04d7995"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/results/literature_panel_scores.csv",
+    "bytes": 5162,
+    "sha256": "b26b7199c3824ad5484573591449e2393bb6c76deb20ceb2b988009ad99d47f4"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/results/metric_summary.csv",
+    "bytes": 2700,
+    "sha256": "50061f676cef8efd2bbdc9dd9a4e4514a401b95404dcecbc4984bf93bd700046"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/results/metrics.csv",
+    "bytes": 7384,
+    "sha256": "e14225c82be68db39f74f2001ee54efc50af3181b6166f63e1f06940775fa1cd"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/results/october_mushroom_evidence.csv",
+    "bytes": 946,
+    "sha256": "2ec0ae530c344cf00c639c1657db379c3e13037f037d6bc43d48c4c797325820"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/results/out_of_fold_predictions.csv",
+    "bytes": 1635624,
+    "sha256": "2ba59527d5b75b267cefdc6d97893e531d92d1187d4f10ba3586be02c312a588"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/results/posthoc_matched_fold_control.csv",
+    "bytes": 803,
+    "sha256": "0a083fad9d2b66c48ae4f33b5ef80a0edd5983830c56f0592f23e68384a356cf"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/results/posthoc_matched_fold_predictions.csv",
+    "bytes": 26475,
+    "sha256": "d6e21b696e741a7f8192fd3c0c92a0054b4a1e1e5c9fbdeaa0d0efc67e2c21e3"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/results/posthoc_reference_parse_predictions.csv",
+    "bytes": 28983,
+    "sha256": "3bcd2ff6d364b1af232af4877cce5ca029e8111502f721b6621d098d8b68c5ee"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/results/posthoc_reference_parse_sensitivity.csv",
+    "bytes": 168,
+    "sha256": "2f09b439ed3e15271349d6c283f81d97bc72562ac5b56364ffd4976e9c956a66"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/results/posthoc_summary.json",
+    "bytes": 1049,
+    "sha256": "81b565ff91b9c637964ab65cf058d111c682a04f17425a4d7d5a7b437a457af3"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/results/run_receipt.json",
+    "bytes": 392,
+    "sha256": "edbd4d797a391459378c07172b7166a55c1dc99e8d02e6f82583ac838348f6a2"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/results/split_diagnostics.json",
+    "bytes": 7392,
+    "sha256": "f041102bdbf9a1e7f4c8f111d318c821ec9fbb94bf091c0c8f54418dec07ac22"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/results/verification.json",
+    "bytes": 435,
+    "sha256": "9dcb7ac8de4b75db4933c360264432808e85946fbd4aedf9da49f8d1992997f0"
+  },
+  {
+    "path": "projects/salt-casr/sensory-continuation/results/within_reference_metrics.csv",
+    "bytes": 512,
+    "sha256": "8720e23037d99060f22d384c6d382fbd32f07be3b1c14747d34886d52d30c444"
   },
   {
     "path": "projects/salt-casr/source/casr_discovery/benchmark.py",

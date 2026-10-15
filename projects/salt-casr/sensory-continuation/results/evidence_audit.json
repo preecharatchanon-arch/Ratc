@@ -1,0 +1,28 @@
+{
+  "n": 580,
+  "labels": {
+    "0": 300,
+    "1": 280
+  },
+  "sensory_tagged": {
+    "1": 138,
+    "0": 113
+  },
+  "explicit_enhancement_wording_positive_records": 49,
+  "explicit_enhancement_wording_sensory_positive_records": 34,
+  "metadata_flags": {
+    "sodium_salt_mention": {
+      "0": 0,
+      "1": 12
+    },
+    "nacl_context_mention": {
+      "0": 2,
+      "1": 0
+    },
+    "ph_context_mention": {
+      "0": 5,
+      "1": 18
+    }
+  },
+  "note": "Evidence and endpoint wording are curator metadata; lack of a wording flag is not negative experimental evidence."
+}

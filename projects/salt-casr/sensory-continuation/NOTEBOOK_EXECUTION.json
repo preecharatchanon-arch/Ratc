@@ -1,0 +1,40 @@
+{
+  "validation": {
+    "code_cells_executed": 6,
+    "colab_browser_execution": false,
+    "date_utc": "2026-10-15T06:31:07.876989+00:00",
+    "method": "Sequential execution of all plain-Python cells with IPython rich-display capture",
+    "python": "3.12.3",
+    "runtime_s": 84.81120157199985
+  },
+  "worker_environment": {
+    "python": [
+      3,
+      12,
+      14
+    ],
+    "packages": {
+      "cloudpickle": "3.1.2",
+      "contourpy": "1.4.0",
+      "cycler": "0.12.1",
+      "fonttools": "4.66.1",
+      "joblib": "1.6.0",
+      "kiwisolver": "1.5.1",
+      "matplotlib": "3.10.1",
+      "numpy": "2.2.6",
+      "packaging": "26.3",
+      "pandas": "2.2.3",
+      "pillow": "12.3.0",
+      "pyparsing": "3.3.3",
+      "python-dateutil": "2.9.0.post0",
+      "pytz": "2026.5",
+      "scikit-learn": "1.6.1",
+      "scipy": "1.15.3",
+      "six": "1.17.0",
+      "threadpoolctl": "3.7.0",
+      "tzdata": "2026.5"
+    }
+  },
+  "metrics_match_independent_initial_run": true,
+  "code_cells": 6
+}

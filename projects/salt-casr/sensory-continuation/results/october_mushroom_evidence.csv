@@ -1,0 +1,6 @@
+sequence,standalone_descriptors,taste_threshold_mM,NaCl_sensory_enhancement,doi,publication_date,NaCl_mg_mL,peptide_mg_mL,standalone_salty_descriptor_listed,benchmark_exact_match,nearest_benchmark_sequence,edit_similarity
+FGDDP,umami; sourness,0.11,effect described as less pronounced; not assigned negative here,10.1038/s41538-026-01088-9,2026-10-02,3,1,False,False,FAGDDAPR,0.625
+GDDWT,umami; sourness,0.11,significant increase reported,10.1038/s41538-026-01088-9,2026-10-02,3,1,False,False,GDW,0.6
+ASHGEGF,umami; sourness; saltiness,0.13,significant increase reported,10.1038/s41538-026-01088-9,2026-10-02,3,1,True,False,ADHPF,0.4285714285714286
+DDPRLP,umami; sourness; bitterness,0.09,effect described as less pronounced; not assigned negative here,10.1038/s41538-026-01088-9,2026-10-02,3,1,False,False,DDL,0.5
+LDDGF,umami; sourness; sweetness,0.06,significant increase reported,10.1038/s41538-026-01088-9,2026-10-02,3,1,False,False,LDGF,0.8

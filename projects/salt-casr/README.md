@@ -4,6 +4,8 @@ Research and analysis by **Ratchanon Preecha**. This project evaluates whether p
 
 **Start here:** [Executed notebook](CaSR_Research_Workbench.ipynb) · [Open in Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/salt-casr/CaSR_Research_Workbench.ipynb) · [Complete run package](CaSR_Notebook_Run.zip) · [Readable source](source/casr_discovery)
 
+**Research continuation — 15 October 2026:** [Saltiness evidence and source-transfer experiment](sensory-continuation/README.md) · [Executed notebook](sensory-continuation/Saltiness_Sensory_Validation.ipynb). A separate 580-peptide sensory-evidence analysis; these labels are not merged with CaSR EC₅₀.
+
 ## What the notebook does
 
 | Analysis | Scope |
@@ -62,3 +64,4 @@ This reviewed grouping replaces an earlier 28 name-based grouping that separated
 4. Miyaki T, et al. (2015). *Effect of a kokumi peptide, γ-glutamyl-valyl-glycine, on the sensory characteristics of chicken consommé*. Flavour 4, 17. [DOI](https://doi.org/10.1186/2044-7248-4-17).
 
 [Source notes](source/source_notes.json), [original-value audit](source/source_table_audit.json) and [input hashes](source/input_manifest.json) accompany the curated data. Full publisher articles and patent text are not redistributed. Third-party material retains its original terms and attribution; repository access does not create a new licence for it.
+
