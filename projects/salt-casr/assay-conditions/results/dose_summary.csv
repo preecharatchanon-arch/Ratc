@@ -1,0 +1,4 @@
+sequence,alias,peak_nominal_mM,peak_mean,last_mean,peak_to_last_change,nondecreasing_means
+DFNALPFK,DF8,0.8,8.5,2.5,-6.0,False
+VPGGQEIKDR,VP10,3.2,8.0,8.0,0.0,True
+YNEDNGIVK,YN9,1.6,6.5,1.2,-5.3,False

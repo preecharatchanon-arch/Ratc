@@ -1,0 +1,9 @@
+model,panel,n_candidates,reported_significant_total,reported_significant_in_top3,expected_retrieval_uniform_random,top3,score_ties,interpretation
+length_only,october_mushroom_2026,5,3,2,1.8,FGDDP;GDDWT;LDDGF,True,Descriptive retrieval in selected panels; not general-population accuracy
+length_only,pleurotus_2026,6,3,1,1.5,FSDY;SPTP;GYDTF,True,Descriptive retrieval in selected panels; not general-population accuracy
+charge_length,october_mushroom_2026,5,3,2,1.8,FGDDP;GDDWT;LDDGF,True,Descriptive retrieval in selected panels; not general-population accuracy
+charge_length,pleurotus_2026,6,3,1,1.5,AGHDDFP;EMMETPPGF;FSDY,False,Descriptive retrieval in selected panels; not general-population accuracy
+composition_logistic,october_mushroom_2026,5,3,1,1.8,GDDWT;FGDDP;DDPRLP,False,Descriptive retrieval in selected panels; not general-population accuracy
+composition_logistic,pleurotus_2026,6,3,1,1.5,AGHDDFP;SPTP;FSDY,False,Descriptive retrieval in selected panels; not general-population accuracy
+extra_trees,october_mushroom_2026,5,3,2,1.8,DDPRLP;ASHGEGF;GDDWT,False,Descriptive retrieval in selected panels; not general-population accuracy
+extra_trees,pleurotus_2026,6,3,1,1.5,SPTP;FSDY;AGHDDFP,False,Descriptive retrieval in selected panels; not general-population accuracy

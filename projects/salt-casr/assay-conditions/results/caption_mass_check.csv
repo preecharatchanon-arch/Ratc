@@ -1,0 +1,9 @@
+sequence,neutral_monoisotopic_mass,reported_mz,closest_protonated_charge,calculated_mz,difference_Da,matches_to_two_decimal_precision,mismatch_over_point1_Da,assumptions
+DFNALPFK,950.4861675520001,574.25,2,476.25036024262107,97.99963975737893,False,True,Unmodified linear peptide; free termini; [M+zH]/z; z=1..6; not MS/MS validation
+VPGGQEIKDR,1097.582921448,366.87,3,366.868250282621,0.0017497173790275156,True,False,Unmodified linear peptide; free termini; [M+zH]/z; z=1..6; not MS/MS validation
+GVGPFDDDR,976.4250238400001,489.22,2,489.2197883866211,0.00021161337895136967,True,False,Unmodified linear peptide; free termini; [M+zH]/z; z=1..6; not MS/MS validation
+SEHEENGYAV,1133.462531544,567.75,2,567.738542238621,0.011457761379006115,False,False,Unmodified linear peptide; free termini; [M+zH]/z; z=1..6; not MS/MS validation
+YNEDNGIVK,1050.49818878,526.26,2,526.256370856621,0.003629143379043853,True,False,Unmodified linear peptide; free termini; [M+zH]/z; z=1..6; not MS/MS validation
+IDNEPEFRWA,1275.5884007519996,638.81,2,638.8014768426208,0.008523157379158874,False,False,Unmodified linear peptide; free termini; [M+zH]/z; z=1..6; not MS/MS validation
+DKLHEGIK,938.5185303000002,313.85,3,313.84678656662106,0.0032134333789599623,True,False,Unmodified linear peptide; free termini; [M+zH]/z; z=1..6; not MS/MS validation
+IGDEAAENRN,1087.489414988,544.75,2,544.7519839606209,-0.0019839606209188787,True,False,Unmodified linear peptide; free termini; [M+zH]/z; z=1..6; not MS/MS validation

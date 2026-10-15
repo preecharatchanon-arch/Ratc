@@ -1,0 +1,2 @@
+sequence,label,source_sheet,source_row,evidence,phenotype,assay_context,material,references,doi_tokens,sensory_tagged,explicit_enhancement_wording,sodium_salt_mention,nacl_context_mention,ph_context_mention
+NGYDMR,0,Table S2_Negative,246,B1 - excluded as salty in the same sensory study,"umami, sweetness",synthetic peptide; trained human sensory panel; direct descriptive sensory evaluation; no salty descriptor; 1 mg/mL; taste threshold 0.17 mmol/L; relaxed negative criterion,,10.1016/j.foodchem.2025.145575,10.1016/j.foodchem.2025.145575,True,False,False,False,False

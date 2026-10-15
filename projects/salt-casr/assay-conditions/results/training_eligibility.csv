@@ -1,0 +1,581 @@
+sequence,label,eligible,reasons,references
+AVFDDKVR,1,True,,Current_curated; 10.1016/j.foodchem.2026.148592
+DYWPS,1,True,,Current_curated; 10.1016/j.foodchem.2026.148592
+FDDKVR,1,True,,Current_curated; 10.1016/j.foodchem.2026.148592
+FDSRF,1,True,,Current_curated; 10.1016/j.foodchem.2026.148592
+IYDYD,1,True,,Current_curated; 10.1016/j.foodchem.2026.148592
+RDFLEDA,1,True,,Current_curated; 10.1016/j.foodchem.2026.148592
+RSDPQNPF,1,True,,Current_curated; 10.1016/j.foodchem.2026.148592
+YDPFS,1,True,,Current_curated; 10.1016/j.foodchem.2026.148592
+YEEPRSQ,1,True,,Current_curated; 10.1016/j.foodchem.2026.148592
+YTDADF,1,True,,Current_curated; 10.1016/j.foodchem.2026.148592
+DEDETTAL,1,True,,Current_curated; 10.1016/j.foodres.2026.119732
+DEADEWAR,1,True,,Current_curated; 10.1016/j.foodres.2026.119732
+KPEDEADEWAR,1,True,,Current_curated; 10.1016/j.foodres.2026.119732
+ECYECG,1,True,,10.1016/j.fbio.2026.108895
+PPPPPP,1,True,,10.1016/j.fbio.2026.108895
+ADHPF,1,True,,10.1093/ijfood/vvag019
+ADYYL,1,True,,10.1093/ijfood/vvag019
+SYHESPEL,1,True,,10.1093/ijfood/vvag019
+VVDHPF,1,True,,10.1093/ijfood/vvag019
+AEADEFEDK,1,True,,10.1016/j.foodchem.2026.150426
+WPEVGSF,1,True,,10.1016/j.foodchem.2026.150426
+ADHDLPF,1,False,outside_sensory_tagged_cohort,Current_curated; TastePeptidesDB; 10.1080/10408398.2025.2547284; 10.1016/j.fufo.2026.100930; lwt.2023.115430
+DEPLIVW,1,False,outside_sensory_tagged_cohort,Current_curated; TastePeptidesDB; 10.1080/10408398.2025.2547284; 10.1016/j.fufo.2026.100930; lwt.2023.115430
+DIQPEER,1,False,outside_sensory_tagged_cohort,Current_curated; TastePeptidesDB; 10.1080/10408398.2025.2547284; 10.1016/j.fufo.2026.100930; lwt.2023.115430
+DP,1,True,,Current_curated; TastePeptidesDB; 10.1080/10408398.2025.2547284; 10.1016/j.foodchem.2024.141552
+DR,1,True,,TastePeptidesDB; 10.1080/10408398.2025.2547284; 10.1016/j.foodchem.2024.141552; 10.1016/j.foodres.2024.114966; 10.1016/j.fufo.2026.100930
+LPDEPSR,1,False,outside_sensory_tagged_cohort,Current_curated; TastePeptidesDB; 10.1080/10408398.2025.2547284; 10.1016/j.fufo.2026.100930; lwt.2023.115430
+RE,1,True,,TastePeptidesDB; 10.1080/10408398.2025.2547284; 10.1016/j.foodchem.2024.141552
+DD,1,True,,Current_curated; TastePeptidesDB; BIOPEP-UWM; 10.1016/j.fufo.2026.100930; 10.1002/fsh3.12055; 10.1016/j.meatsci.2023.109261; 10.1016/j.tifs.2022.11.; 10.1007/s13197--04836-1; 10.1271/bbb.59.; s13197--04836-1; abc.1989.10869317
+DE,1,True,,TastePeptidesDB; BIOPEP-UWM; 10.1016/j.fufo.2026.100930; 10.1016/j.meatsci.2023.109261; 10.1271/bbb.59.
+EAGIQ,1,False,outside_sensory_tagged_cohort,TastePeptidesDB; 10.1016/j.fufo.2026.100930
+EDEGEQPRPF,1,False,outside_sensory_tagged_cohort,Current_curated; TastePeptidesDB; 10.1016/j.fufo.2026.100930; jafc.2021.1c03431
+HAYNLRVD,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+HL,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+IF,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+IPKF,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+IQ,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930; 10.1016/j.tifs.2022.11.
+KER,1,True,,10.1016/j.fufo.2026.100930; 10.1016/j.foodchem.2024.139035
+KGDESLLA,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+LEY,1,True,,TastePeptidesDB; 10.1016/j.fufo.2026.100930; 10.1016/j.foodres.2024.114966
+RF,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+HKEMPFPKYPVEP,1,True,,10.26599/fshw.2024.9250377
+ASTCMAR,1,True,,10.1016/j.foodchem.2025.146138
+SASDPNF,1,True,,10.1016/j.foodchem.2025.146138
+SNDPGR,1,True,,10.1016/j.foodchem.2025.146138
+GERGPKGPKGETGPT,1,True,,10.1016/j.foodchem.2025.145282
+GPPGPTGPAGER,1,True,,10.1016/j.foodchem.2025.145282
+VAESNK,1,True,,10.1016/j.fbio.2025.106213
+VVSQADTR,1,True,,10.1016/j.fbio.2025.106213
+WDDVRGW,1,True,,10.1021/acs.jafc.4c12851
+PQGDGW,1,True,,10.1016/j.foodchem.2025.144646
+DDL,1,True,,10.1016/j.foodchem.2025.146893
+DPS,1,True,,10.1016/j.foodchem.2025.146893
+PM,1,True,,10.1016/j.foodchem.2025.146893
+TVT,1,True,,10.1016/j.foodchem.2025.146893
+VM,1,True,,10.1016/j.foodchem.2025.146893
+EDFLLA,1,True,,Current_curated; 10.1016/j.foodres.2025.116930
+LALDWLAR,1,True,,Current_curated; 10.1016/j.foodres.2025.116930
+TWDLL,1,True,,Current_curated; 10.1016/j.foodres.2025.116930
+VDEVLRL,1,True,,Current_curated; 10.1016/j.foodres.2025.116930
+GDNVGF,1,True,,TastePeptidesDB; 10.1021/acs.jafc.4c10426
+ESPERPFL,1,True,,10.1016/j.foodchem.2025.143403; 10.1038/s41538--00380-4; 10.26599/fshw.2022.9250190; 10.1039/d4fo00596a
+GQEDYDRLRPL,1,True,,10.1016/j.foodchem.2025.143403; 10.1038/s41538--00380-4; 10.26599/fshw.2022.9250190
+KSWDDFFTR,1,True,,10.1016/j.foodchem.2025.143403; 10.1038/s41538--00380-4; 10.26599/fshw.2022.9250190; 10.1039/d4fo00596a
+RIEDNLVIIR,1,True,,10.1016/j.foodchem.2025.143403; 10.1038/s41538--00380-4; 10.26599/fshw.2022.9250190
+FRPA,1,True,,10.1016/j.foodchem.2025.146622
+GDW,1,True,,10.1016/j.foodchem.2025.146622
+NFRP,1,True,,10.1016/j.foodchem.2025.146622
+RAFL,1,True,,10.1016/j.foodchem.2025.146622
+WDPL,1,True,,10.1016/j.foodchem.2025.146622
+WYD,1,True,,10.1016/j.foodchem.2025.146622
+YDFL,1,True,,10.1016/j.foodchem.2025.146622
+YRAF,1,True,,10.1016/j.foodchem.2025.146622
+DGKGKIPEE,1,True,,10.1016/j.foodchem.2025.145077
+ILAPPER,1,True,,10.1016/j.foodchem.2025.145077
+WPGFK,1,True,,Current_curated; 10.1016/j.foodres.2024.115155
+YFDWPGFK,1,True,,Current_curated; 10.1016/j.foodres.2024.115155
+YFDWPGFKT,1,True,,Current_curated; 10.1016/j.foodres.2024.115155
+DFKSPDDPSRH,1,True,,10.3389/fnut.2023.1343209; 10.1016/j.fufo.2026.100930
+DPFDQDDWEAWTK,1,True,,10.3389/fnut.2023.1343209
+FIYDVLEDPVE,1,True,,10.3389/fnut.2023.1343209
+FPGDFTPEVH,1,True,,10.3389/fnut.2023.1343209
+FPGIPDHL,1,True,,10.3389/fnut.2023.1343209; 10.1016/j.fufo.2026.100930
+FSADQIEDYR,1,True,,10.3389/fnut.2023.1343209
+GEIDEFLPAPR,1,True,,10.3389/fnut.2023.1343209
+HLDDALR,1,True,,10.3389/fnut.2023.1343209; 10.1016/j.fufo.2026.100930
+NLKGGDDLDPNYVL,1,True,,10.3389/fnut.2023.1343209
+NWDDMEKIWHHTF,1,True,,10.3389/fnut.2023.1343209
+PGPPVLPPNFK,1,True,,10.3389/fnut.2023.1343209
+REFDDLPLH,1,True,,10.3389/fnut.2023.1343209
+TNWDDMEKIW,1,True,,10.3389/fnut.2023.1343209
+VFDISNADRLG,1,True,,10.3389/fnut.2023.1343209
+VFEWENFAK,1,True,,10.3389/fnut.2023.1343209
+VIEPLDIGDDKVR,1,True,,10.3389/fnut.2023.1343209; 10.1016/j.fufo.2026.100930
+AGLELLK,1,True,,TastePeptidesDB; 10.1016/j.foodchem.2024.139071; 10.1016/j.fufo.2026.100930
+EGNPAHQK,1,True,,TastePeptidesDB; 10.1016/j.foodchem.2024.139071; 10.1016/j.fufo.2026.100930
+GPFPILN,1,True,,TastePeptidesDB; 10.1016/j.foodchem.2024.139071; 10.1016/j.fufo.2026.100930
+GPFPILV,1,True,,TastePeptidesDB; 10.1016/j.foodchem.2024.139071; 10.1016/j.fufo.2026.100930
+LDSPATPEK,1,True,,TastePeptidesDB; 10.1016/j.foodchem.2024.139071; 10.1016/j.fufo.2026.100930
+QEVEISRR,1,True,,TastePeptidesDB; 10.1016/j.foodchem.2024.139071; 10.1016/j.fufo.2026.100930
+VVEGEPSLK,1,True,,TastePeptidesDB; 10.1016/j.foodchem.2024.139071; 10.1016/j.fufo.2026.100930
+EK,1,True,,TastePeptidesDB; 10.1016/j.foodres.2024.114966; 10.1016/j.fufo.2026.100930
+LFE,1,True,,TastePeptidesDB; 10.1016/j.foodres.2024.114966; 10.1016/j.fufo.2026.100930
+DDD,1,True,,TastePeptidesDB; BIOPEP-UWM; 10.1002/fsh3.12055; 10.1016/j.meatsci.2023.109261; 10.1016/j.tifs.2022.11.; 10.1007/s13197--04836-1; 10.1271/bbb.59.; 10.1016/j.fufo.2026.100930
+ED,1,True,,Current_curated; TastePeptidesDB; BIOPEP-UWM; 10.1002/fsh3.12055; 10.1016/j.meatsci.2023.109261; 10.1016/j.tifs.2022.11.; 10.1007/s13197--04836-1; 10.1271/bbb.59.; 10.1016/j.fufo.2026.100930; s13197--04836-1; abc.1989.10869317
+FI,1,True,,Current_curated; TastePeptidesDB; 10.1002/fsh3.12055; 10.1016/j.tifs.2022.11.; 10.1007/s13197--04836-1; 10.1016/j.fufo.2026.100930
+SPE,1,True,,Current_curated; TastePeptidesDB; BIOPEP-UWM; 10.1002/fsh3.12055; 10.1016/j.meatsci.2023.109261; 10.1016/j.foodchem.2022.132993; 10.1016/j.tifs.2022.11.; 10.1007/s13197--04836-1; 10.1016/j.fufo.2026.100930; s13197--04836-1; foodchem.2022.132993
+TPDFVR,1,True,,TastePeptidesDB; 10.1016/j.ijgfs.2023.100693
+TPELLH,1,True,,10.1016/j.ijgfs.2023.100693
+DDE,1,True,,TastePeptidesDB; BIOPEP-UWM; 10.1016/j.meatsci.2023.109261; 10.1271/bbb.59.; 10.1016/j.fufo.2026.100930
+DED,1,True,,TastePeptidesDB; BIOPEP-UWM; 10.1016/j.meatsci.2023.109261; 10.1271/bbb.59.; 10.1016/j.fufo.2026.100930
+DEE,1,True,,TastePeptidesDB; BIOPEP-UWM; 10.1016/j.meatsci.2023.109261; 10.1271/bbb.59.; 10.1016/j.fufo.2026.100930; bbb.1995.59.; abc.1989.10869317
+DEKP,1,False,outside_sensory_tagged_cohort,10.1016/j.meatsci.2023.109261
+DES,1,False,outside_sensory_tagged_cohort,TastePeptidesDB; BIOPEP-UWM; 10.1016/j.meatsci.2023.109261
+EDD,1,True,,TastePeptidesDB; BIOPEP-UWM; 10.1016/j.meatsci.2023.109261; 10.1271/bbb.59.; 10.1016/j.fufo.2026.100930
+EDE,1,True,,TastePeptidesDB; BIOPEP-UWM; 10.1016/j.meatsci.2023.109261; 10.1271/bbb.59.; 10.1016/j.fufo.2026.100930
+EE,1,True,,TastePeptidesDB; BIOPEP-UWM; 10.1016/j.meatsci.2023.109261; 10.1271/bbb.59.
+EED,1,True,,TastePeptidesDB; BIOPEP-UWM; 10.1016/j.meatsci.2023.109261; 10.1271/bbb.59.; 10.1016/j.fufo.2026.100930
+EEE,1,True,,TastePeptidesDB; BIOPEP-UWM; 10.1016/j.meatsci.2023.109261; 10.1271/bbb.59.; 10.1016/j.fufo.2026.100930; abc.1989.10869317
+KGDEE,1,True,,Current_curated; TastePeptidesDB; BIOPEP-UWM; 10.1016/j.meatsci.2023.109261; 10.1271/bbb.59.; bbb.1995.59.
+NE,1,True,,Current_curated; 10.1016/j.foodchem.2022.132993
+NSE,1,True,,Current_curated; 10.1016/j.foodchem.2022.132993
+PN,1,True,,Current_curated; 10.1016/j.foodchem.2022.132993
+AR,1,False,outside_sensory_tagged_cohort,Current_curated; BIOPEP-UWM; 10.1016/j.tifs.2022.11.; jafc.2011.jf2041593
+IE,1,False,outside_sensory_tagged_cohort,10.1016/j.tifs.2022.11.; 10.1016/j.fufo.2026.100930
+LQ,1,False,outside_sensory_tagged_cohort,10.1016/j.tifs.2022.11.; 10.1016/j.fufo.2026.100930
+MG,1,False,outside_sensory_tagged_cohort,Current_curated; 10.1016/j.tifs.2022.11.; nskkk.2015.62.
+PK,1,False,outside_sensory_tagged_cohort,10.1016/j.tifs.2022.11.; 10.1016/j.fufo.2026.100930
+RA,1,False,outside_sensory_tagged_cohort,Current_curated; BIOPEP-UWM; 10.1016/j.tifs.2022.11.; jafc.2011.jf2041593
+RG,1,False,outside_sensory_tagged_cohort,Current_curated; BIOPEP-UWM; 10.1016/j.tifs.2022.11.; jafc.2011.jf2041593
+RM,1,False,outside_sensory_tagged_cohort,Current_curated; BIOPEP-UWM; 10.1016/j.tifs.2022.11.; jafc.2011.jf2041593
+RP,1,False,outside_sensory_tagged_cohort,BIOPEP-UWM; 10.1016/j.tifs.2022.11.
+RS,1,False,outside_sensory_tagged_cohort,Current_curated; BIOPEP-UWM; 10.1016/j.tifs.2022.11.; jafc.2011.jf2041593
+TF,1,False,outside_sensory_tagged_cohort,10.1016/j.tifs.2022.11.
+VR,1,False,outside_sensory_tagged_cohort,Current_curated; BIOPEP-UWM; 10.1016/j.tifs.2022.11.; jafc.2011.jf2041593
+KG,1,True,,Current_curated; TastePeptidesDB; 10.1271/bbb.59.; abc.1989.10869317
+LR,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+HV,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+FH,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+YW,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+FPPP,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+GGPW,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+IPHF,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+IPRR,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+LPRR,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+LPHF,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+PHSP,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+GEHE,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+GAGK,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+EQQQQ,1,False,outside_sensory_tagged_cohort,TastePeptidesDB; 10.1016/j.fufo.2026.100930
+PHEMQ,1,False,outside_sensory_tagged_cohort,TastePeptidesDB; 10.1016/j.fufo.2026.100930
+ERFGP,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+PGAGN,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+HNESQN,1,False,outside_sensory_tagged_cohort,TastePeptidesDB; 10.1016/j.fufo.2026.100930
+STELFK,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+WDDMEK,1,False,outside_sensory_tagged_cohort,TastePeptidesDB; 10.1016/j.fufo.2026.100930
+SEPSHF,1,False,outside_sensory_tagged_cohort,TastePeptidesDB; 10.1016/j.fufo.2026.100930
+EPLCNQ,1,False,outside_sensory_tagged_cohort,TastePeptidesDB; 10.1016/j.fufo.2026.100930
+LGDVLVR,1,False,outside_sensory_tagged_cohort,TastePeptidesDB; 10.1016/j.fufo.2026.100930
+NEALQRM,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+SGCVNEL,1,False,outside_sensory_tagged_cohort,TastePeptidesDB; 10.1016/j.fufo.2026.100930
+ESCAPQL,1,False,outside_sensory_tagged_cohort,TastePeptidesDB; 10.1016/j.fufo.2026.100930
+SLADEEKG,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+MLKKKKLA,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+GDAVKNLD,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+KLNDAQAPK,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+DSTDEKFLR,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+PEGADKPNK,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+PEMHAAFDK,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+ANPGPVRDLR,1,False,outside_sensory_tagged_cohort,TastePeptidesDB; 10.1016/j.fufo.2026.100930
+SLGFGGPPGY,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+SPEEKKEEET,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+AEEKQLITGL,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+VGKGAHLSGEH,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+VEDEDEKPKEK,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+TVATFSSSTKPDD,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+AMDDDEADLLLLAM,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+GENEEEDSGAIVTVF,1,False,outside_sensory_tagged_cohort,10.1016/j.fufo.2026.100930
+AF,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+AT,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+CY,1,False,outside_sensory_tagged_cohort,Current_curated; foodchem.2022.132993
+EG,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+LS,1,False,outside_sensory_tagged_cohort,Current_curated; TastePeptidesDB; nskkk.2015.62.
+DAP,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+DAT,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+DIF,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+LPG,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+MMR,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+QPR,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+WDL,1,False,outside_sensory_tagged_cohort,Current_curated; foodchem.2024.139216
+YDQ,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+APAP,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+DEKR,1,False,outside_sensory_tagged_cohort,BIOPEP-UWM
+DPIY,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+EDCS,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+EEDQ,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+EELR,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+FDGK,1,False,outside_sensory_tagged_cohort,Current_curated; TastePeptidesDB; foodchem.2024.139216
+FQEY,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+GHGD,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+GLPD,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+HANR,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+HEAL,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+KCGQ,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+KCSK,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+KEHT,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+LPGD,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+LSFE,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+NMKF,1,False,outside_sensory_tagged_cohort,Current_curated; TastePeptidesDB; foodchem.2024.139216
+PEEL,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+PPMF,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+TEGR,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+YTCE,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+YTTD,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+EGSVR,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+FGEKL,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+KSAEN,1,False,outside_sensory_tagged_cohort,Current_curated; foodchem.2022.132993
+LPVDE,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+QGGDF,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+SNGNE,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+VAQWR,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+APYSGY,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+EPVTLT,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+FQKVVA,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+LKYPLE,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+TPDLLH,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+YDAELS,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+ALDPLPT,1,False,outside_sensory_tagged_cohort,Current_curated; jafc.2022.2c01688
+DEEYPDL,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+EWVPVTK,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+FDELLEK,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+FVGLQER,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+LQPLNAH,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+TFYNELR,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+TGWVDVK,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+TLTDVEK,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+VLPVPQK,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+DEELNKLL,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+LPKERLYV,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+PQFAPEED,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+QQLPQFEE,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+RDETLDDW,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+VENQQLAL,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+DWTDDVEAR,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+EVNYDFGGK,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+LIDVDGKPQ,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+DTEEVEHGEE,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+IDVDGKPQIQ,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+VPVDILDHDNN,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+VQPEDNKGVFQ,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+EVAEALDAPKTT,1,False,outside_sensory_tagged_cohort,TastePeptidesDB
+EAF,1,True,,10.1016/j.foodchem.2023.137057
+EEAKFN,1,True,,10.1016/j.foodchem.2024.142385
+KAELDLH,1,True,,10.1016/j.foodchem.2024.142385
+LADVEEDK,1,True,,10.1016/j.foodchem.2024.142385
+LKEAHDVA,1,True,,10.1016/j.foodchem.2024.142385
+AHLDYGDGK,1,True,,10.1016/j.foodchem.2024.142385
+LGKSEDDVSK,1,True,,10.1016/j.foodchem.2024.142385
+LPGVAE,1,True,,10.1016/j.foodchem.2023.136090
+LDELEK,1,True,,10.1016/j.foodchem.2023.136090
+DVELSK,1,True,,10.1016/j.foodchem.2023.136090
+LPDEAR,1,True,,10.1016/j.foodchem.2023.136090
+TTLPDK,1,True,,10.1016/j.foodchem.2023.136090
+ELWR,1,True,,10.7506/spkx1002-6630-20230222-203
+RLVDR,1,True,,10.7506/spkx1002-6630-20230222-203
+KPDNR,1,True,,10.7506/spkx1002-6630-20230222-203
+AHLRF,1,True,,10.7506/spkx1002-6630-20230222-203
+EGHKGW,1,True,,10.7506/spkx1002-6630-20230222-203
+DY,1,True,,10.1016/j.ijgfs.2026.101477
+ERH,1,True,,10.1016/j.ijgfs.2026.101477
+ALDL,1,True,,10.1016/j.foodchem.2025.146538
+GELF,1,True,,10.1016/j.foodchem.2025.146538
+LRYE,1,True,,10.1016/j.foodchem.2025.146538
+PLNV,1,True,,10.1016/j.foodchem.2025.146538
+VDVE,1,True,,10.1016/j.foodchem.2025.146538
+VMGVSKVKE,1,True,,10.1016/j.foodchem.2026.147994
+FSDKIA,1,True,,10.1016/j.foodchem.2026.147994
+FAGDDAPR,1,True,,10.1016/j.jfutfo.2025.01.002
+TLGEKMTEEEVDE,1,True,,10.1016/j.foodchem.2026.148261
+DSFF,1,True,,10.1016/j.foodchem.2026.148141
+ADGSTINQNVK,0,True,,10.1016/j.foodchem.2024.139071
+DPNHFGPADLPDKY,0,True,,10.1016/j.foodchem.2024.139071
+EQLSTSEENSK,0,True,,10.1016/j.foodchem.2024.139071
+ER,0,False,outside_sensory_tagged_cohort,10.1016/j.foodres.2024.114966; 10.1038/s41598-017-07756-x
+EVDELRSYSSLMK,0,True,,10.1016/j.foodchem.2024.139071
+FVAPFPEVFGKEK,0,True,,10.26599/fshw.2024.9250377
+FVVAPFPEVFR,0,True,,10.1016/j.foodchem.2024.139071
+HKDDSPDLPK,0,True,,10.1016/j.foodchem.2024.139071
+IGGIGTVPVGR,0,True,,10.1016/j.foodchem.2024.139071
+IINSFTQDDEK,0,True,,10.1016/j.foodchem.2024.139071
+IPYVRYL,0,True,,10.26599/fshw.2024.9250377
+KAEVQLDGGK,0,True,,10.1016/j.foodchem.2024.139071
+KE,0,False,outside_sensory_tagged_cohort,10.1016/j.foodres.2024.114966
+KEDGK,0,False,outside_sensory_tagged_cohort,10.1016/j.foodchem.2024.139035
+KENINELSK,0,True,,10.1016/j.foodchem.2024.139071
+KGD,0,True,,10.1271/bbb.59.689
+LSSPATLNSR,0,True,,10.1016/j.foodchem.2024.139071
+PVVSGARRMMVPR,0,True,,10.1016/j.foodchem.2024.139071
+QEQEAKKR,0,True,,10.1016/j.foodchem.2024.139071
+QKLPEKPER,0,True,,10.1016/j.foodchem.2024.139071
+QSWMHQPHQPLPPT,0,True,,10.26599/fshw.2024.9250377
+REE,0,False,outside_sensory_tagged_cohort,10.1016/j.foodchem.2024.139035
+SLFPPASEVVK,0,True,,10.1016/j.foodchem.2024.139071
+VHNEGLPAPIVR,0,True,,10.1016/j.foodchem.2024.139071
+VLVLDTDYKK,0,True,,10.1016/j.foodchem.2024.139071
+VMFPPQ,0,True,,10.26599/fshw.2024.9250377
+YPFPGPIH,0,True,,10.26599/fshw.2024.9250377
+EI,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+FL,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+FP,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+FW,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+FY,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+GF,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+GL,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+WW,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+YL,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+FFF,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+FPP,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+GFF,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+GGV,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+RRR,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+VVV,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+FFGG,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+FFPE,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+FFPG,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+FGFG,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+GPFP,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+VYPF,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+YGLF,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+FFPGG,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+GGGGL,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+GGGLG,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+GGLGG,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+VPPFL,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+PVLGPV,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+QLFNPS,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+RGPPFI,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+VRGPFP,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+RGPPFGG,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+VIIPFPG,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+VIPFPGR,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+VVAPFPE,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+VVVPPFL,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+YPFPGPI,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+GGRPFFGG,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+GPVRGPFP,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+VIIPFPGR,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+VVAPFPEV,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+QLFNPSTNP,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+FFRPFFRPFF,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+VYPFGGGINH,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+VYPFPPGIGG,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+RPFFRPFFRPFF,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+AH,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+AQ,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+DV,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+EA,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+EF,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+GE,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+TP,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+VD,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+VE,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+ADE,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+AED,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+DEL,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+FEA,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+SLA,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+VDF,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+DETL,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+DGPL,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+EPAD,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+ESLA,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+FPEE,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+HHYE,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+RRLL,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+TWKE,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+CDLSD,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+FHHGD,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+FRDEH,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+NALPD,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+DALAHK,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+FRDEHQ,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+NFHHGD,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+PVLVQR,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+RFRQGD,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+AEASALR,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+AKYDDIK,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+ASNMSDL,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+IDDLEDE,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+IQKELQF,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+TVDGPSH,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+GPGCKAGL,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+MDAIKKMQ,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+PGWETYRK,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+PKALSAFK,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+GGISTGNLN,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+FVAKIKGKEQ,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+VIGGPQGDAG,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+VIIGGGDTAT,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+AA,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+AM,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+CN,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+EL,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+EV,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+KF,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+PC,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+PG,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+VP,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM
+AAG,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+AGA,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+AGG,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+GAA,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+GAG,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+GGA,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+VGV,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+DATE,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+DERF,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+EDAP,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+QFLR,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+SGVQ,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+EEDGK,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+EEEQR,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+ISKEK,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+LPEEV,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+NIIGA,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+ADGLWL,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+DALKKK,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+DTYNPR,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+HVKELE,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+FEGGSIE,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+ISWCFTY,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+LLLHALL,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+MNLHLSF,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+PAATIPE,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+YYGSNSA,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+AFTSYDRT,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+AQALQAQA,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+IPIPATKT,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+KVDVDSLK,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+LLLPGELAK,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+EFVDIINSRN,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+FNEIIKETST,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+GYSFTTTAER,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+AVLEEAQKVELK,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+AE,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+DG,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+ES,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+LA,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+LV,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+NP,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+QL,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+TE,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+VF,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+AEA,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+EDF,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+EDV,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+EGS,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+GDG,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+VGG,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+AGCD,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+INEL,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+LEQL,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+QDTW,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+QEEL,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+SEEG,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+STAN,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+VIVK,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+EQEEL,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+SAEQK,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+SYNPR,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+VVGET,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+CCNKSV,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+ENINEL,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+NVVGET,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+SPPTEE,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+VIIIIH,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+AHSVRFY,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+GPSGPVG,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+HLFCHNK,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+HSISDLQ,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+IQQDDCK,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+PVARMCR,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+AEDLSTLR,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+EALEATAQ,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+SSRNEQSR,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+YGGTPPFV,0,False,outside_sensory_tagged_cohort,BIOPEP-UWM; TastePeptidesDB
+QRIPAGTTY,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+ALDYVTSHQA,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+PKKCIGNWRT,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+KTRINLVRYITV,0,False,outside_sensory_tagged_cohort,TastePeptidesDB
+EHGE,0,True,,10.1016/j.foodchem.2023.137057
+DGFASD,0,True,,10.1016/j.foodchem.2023.137057
+MGPENGV,0,True,,10.1016/j.foodchem.2023.137057
+DDWWR,0,True,,10.7506/spkx1002-6630-20230222-203
+LRLL,0,True,,10.1016/j.foodchem.2025.146470
+FYL,0,True,,10.1016/j.foodchem.2025.146470
+FLF,0,True,,10.1016/j.foodchem.2025.146470
+YLF,0,True,,10.1016/j.foodchem.2025.146470
+FAPF,0,True,,10.1016/j.foodchem.2025.146470
+VLLF,0,True,,10.1016/j.foodchem.2025.146470
+VLL,0,True,,10.1016/j.foodchem.2025.146470
+EFF,0,True,,10.1016/j.foodchem.2025.146470
+LGFL,0,True,,10.1016/j.foodchem.2025.146470
+VLY,0,True,,10.1016/j.foodchem.2025.146470
+VEFP,0,True,,10.1016/j.foodchem.2025.146470
+LELL,0,True,,10.1016/j.foodchem.2025.146470
+SPLESLF,0,True,,10.1016/j.foodchem.2025.146470
+ELF,0,True,,10.1016/j.foodchem.2025.146470
+LEVL,0,True,,10.1016/j.foodchem.2025.146470
+LESL,0,True,,10.1016/j.foodchem.2025.146470
+LETL,0,True,,10.1016/j.foodchem.2025.146470
+TG,0,True,,10.1016/j.ijgfs.2026.101477
+HR,0,True,,10.1016/j.ijgfs.2026.101477
+QM,0,True,,10.1016/j.ijgfs.2026.101477
+DYE,0,True,,10.1016/j.ijgfs.2026.101477
+QI,0,True,,10.1016/j.ijgfs.2026.101477
+RI,0,True,,10.1016/j.ijgfs.2026.101477
+TGQ,0,True,,10.1016/j.ijgfs.2026.101477
+LDFR,0,False,test_source_or_NGYDMR_source,10.1016/j.foodchem.2025.145575
+DRAFR,0,False,test_source_or_NGYDMR_source,10.1016/j.foodchem.2025.145575
+AFDDALLK,0,False,test_source_or_NGYDMR_source,10.1016/j.foodchem.2025.145575
+VPLDDFR,0,False,test_source_or_NGYDMR_source,10.1016/j.foodchem.2025.145575
+NGYDMR,0,False,test_similarity_component;test_source_or_NGYDMR_source,10.1016/j.foodchem.2025.145575
+VLRDF,0,False,test_source_or_NGYDMR_source,10.1016/j.foodchem.2025.145575
+EAVF,0,True,,10.1016/j.foodchem.2025.146538
+ELR,0,True,,10.1016/j.foodchem.2025.146538
+TAFE,0,True,,10.1016/j.foodchem.2025.146538
+VEAL,0,True,,10.1016/j.foodchem.2025.146538
+VEL,0,True,,10.1016/j.foodchem.2025.146538
+VELQ,0,True,,10.1016/j.foodchem.2025.146538
+SKKTVDME,0,True,,10.1016/j.foodchem.2026.147994
+VMGVSKVK,0,True,,10.1016/j.foodchem.2026.147994
+EVLNE,0,True,,10.1016/j.foodchem.2026.147994
+KEKVN,0,True,,10.1016/j.foodchem.2026.147994
+EVFTKK,0,True,,10.1016/j.foodchem.2026.147994
+GVSKVKE,0,True,,10.1016/j.foodchem.2026.147994
+FSDKIAK,0,True,,10.1016/j.foodchem.2026.147994
+TVYQHQK,0,True,,10.1016/j.foodchem.2026.147994
+QGPDNFK,0,True,,10.1016/j.fochx.2025.102964
+LPGQDQWAGR,0,True,,10.1016/j.fochx.2025.102964
+EGPLHDF,0,True,,10.1016/j.fochx.2025.102964
+APDGLPTGQ,0,True,,10.1016/j.fochx.2025.102964
+GLGDDL,0,True,,10.1016/j.fochx.2025.102964
+SDDGFQ,0,True,,10.1016/j.fochx.2025.102964
+WGDAP,0,True,,10.1016/j.fochx.2025.103105
+GDLP,0,True,,10.1016/j.fochx.2025.103105
+DGFE,0,True,,10.1016/j.fochx.2025.103105; 10.1016/j.foodchem.2026.148141
+GGDLP,0,True,,10.1016/j.fochx.2025.103105
+LDGMA,0,True,,10.1016/j.fochx.2025.103105
+NPPGDF,0,True,,10.1016/j.fochx.2025.103105
+YGQPDNFK,0,True,,10.1016/j.fochx.2025.103105
+LNFDM,0,True,,10.1016/j.fochx.2025.103105
+TDPF,0,True,,10.1016/j.fochx.2026.103779; Supplementary Table S2
+DPDGW,0,True,,10.1016/j.fochx.2026.103779; Supplementary Table S2
+FPGD,0,True,,10.1016/j.fochx.2026.103779; Supplementary Table S2
+DWAL,0,True,,10.1016/j.fochx.2026.103779; Supplementary Table S2
+DPDWL,0,True,,10.1016/j.fochx.2026.103779; Supplementary Table S2
+WGDP,0,True,,10.1016/j.fochx.2026.103779; Supplementary Table S2
+DPDPL,0,True,,10.1016/j.fochx.2026.103779; Supplementary Table S2
+FDLP,0,True,,10.1016/j.fochx.2026.103779; Supplementary Table S2
+DPLF,0,True,,10.1016/j.fochx.2026.103779; Supplementary Table S2
+LDGF,0,False,test_similarity_component,10.1016/j.fochx.2026.103779; Supplementary Table S2
+HEGEQGQEG,0,True,,10.1016/j.jfutfo.2025.01.002
+AAPHENATLH,0,True,,10.1016/j.jfutfo.2025.01.002
+ESHQQTLDD,0,True,,10.1016/j.jfutfo.2025.01.002
+GEVED,0,True,,10.1016/j.jfutfo.2025.01.002
+RVEVNIL,0,True,,10.1016/j.foodchem.2026.148261
+DDVIQTGVDNP,0,True,,10.1016/j.foodchem.2026.148261
+HTEVNVPRSGETEEL,0,True,,10.1016/j.foodchem.2026.148261
+NIEEKSGMEG,0,True,,10.1016/j.foodchem.2026.148261
+EKERIEAQNKPFDA,0,True,,10.1016/j.foodchem.2026.148261
+YFDR,0,True,,10.1016/j.foodchem.2026.148141
+DDNFLDF,0,True,,10.1016/j.foodchem.2026.148141
+SFEFR,0,True,,10.1016/j.foodchem.2026.148141
+MYR,0,True,,10.1016/j.foodchem.2026.148141
+SDFF,0,True,,10.1016/j.foodchem.2026.148141
+GPRAAP,0,True,,10.1016/j.foodchem.2026.148141
+GGVDPSGPHL,0,True,,10.1016/j.foodchem.2026.148141
+GDPGW,0,True,,10.1016/j.foodchem.2026.148141
+VDGPGMKF,0,True,,10.1016/j.foodchem.2026.148141

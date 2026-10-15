@@ -1,0 +1,80 @@
+[
+  {
+    "local_inspection_copy": "pleurotus.html",
+    "url": "https://www.nature.com/articles/s41538-025-00681-8",
+    "doi": "10.1038/s41538-025-00681-8",
+    "use": "Primary full text; fixed-dose six-candidate assay and methods",
+    "sha256": "b1aee65677e921e60b3d5377d1e71bee7cada46da178bcd8639f13a903ff3d8c",
+    "redistributed": false
+  },
+  {
+    "local_inspection_copy": "pleurotus_supp.docx",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41538-025-00681-8/MediaObjects/41538_2025_681_MOESM1_ESM.docx",
+    "doi": "10.1038/s41538-025-00681-8",
+    "use": "Tables S1 calibration and S2 time-intensity",
+    "sha256": "9b71fb307fb5f12ab474f4b3705adcafb804c2319925aa1018a3c11a6c4f0dc9",
+    "redistributed": false
+  },
+  {
+    "local_inspection_copy": "pleurotus_fig1.png",
+    "url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41538-025-00681-8/MediaObjects/41538_2025_681_Fig1_HTML.png",
+    "doi": "10.1038/s41538-025-00681-8",
+    "use": "Figure 1A visually inspected for shared significance letters; no bar-height digitization",
+    "sha256": "1bc9959752b3f6ccc9dd249e113543ef44e2334b18cb0be7ea9f544f766da29f",
+    "redistributed": false
+  },
+  {
+    "local_inspection_copy": "straw.html",
+    "url": "https://www.mdpi.com/2304-8158/13/7/995",
+    "doi": "10.3390/foods13070995",
+    "use": "Methods 2.11 and Figure 8",
+    "sha256": "6c4a3a1c2de6449a774416756499654e8f353670a029e4c2d4c71bcdf3519818",
+    "redistributed": false
+  },
+  {
+    "local_inspection_copy": "straw_supp_page.html",
+    "url": "https://www.mdpi.com/article/10.3390/foods13070995/s1",
+    "doi": "10.3390/foods13070995",
+    "use": "Actual downloaded ZIP; extracted foods-2909602-supplementary.pdf; Tables S4 and Figure S1 visually inspected",
+    "sha256": "14d2c4477fe4d8ff23be6114600e6d48ba17c676385382ab58ac74f226aa64ca",
+    "redistributed": false
+  },
+  {
+    "local_inspection_copy": "straw_fig8.png",
+    "url": "https://mdpi-res.com/foods/foods-13-00995/article_deploy/html/images/foods-13-00995-g008.png",
+    "doi": "10.3390/foods13070995",
+    "use": "Figure 8 visually inspected; not digitized",
+    "sha256": "87413c858660853b58f1bcdf294211fb9051d2ee35979c1e86e6abe930f8be7c",
+    "redistributed": false
+  },
+  {
+    "file": "private_sources/saltymeta_supplement.xlsx",
+    "url": "https://arxiv.org/src/2609.16809v1/anc/SaltyMeta_Supplementary_Data.xlsx",
+    "doi": "10.48550/arXiv.2609.16809",
+    "version": "v1, submitted 2026-09-15",
+    "use": "Original unchanged source workbook; author curation, not independently revalidated labels for all 580 records.",
+    "retrieved": "2026-10-15",
+    "sha256": "168f3338f8c9cdf572776675767c3b966b6d146a2250f78f8c0e5c56de518386"
+  },
+  {
+    "file": "private_sources/mushroom_reference.pdf",
+    "url": "https://www.nature.com/articles/s41538-026-01088-9_reference.pdf",
+    "doi": "10.1038/s41538-026-01088-9",
+    "use": "Table 1, saltiness-enhancement results and methods; private inspection copy, not redistributed.",
+    "retrieved": "2026-10-15",
+    "sha256": "13851644ec4c6cbfff0669a708e72dd3591ae8d49cd41295c3843c7b2e63ce0e"
+  },
+  {
+    "file": "private_sources/mushroom_supplement.docx",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41538-026-01088-9/MediaObjects/41538_2026_1088_MOESM1_ESM.docx",
+    "doi": "10.1038/s41538-026-01088-9",
+    "use": "Supplementary sensory references and time-intensity Table S2; private inspection copy, not redistributed.",
+    "retrieved": "2026-10-15",
+    "sha256": "d61eec931ace770d34295dfeffb43aeaafcdd3a32c17b5969feb2be615c0b16f"
+  },
+  {
+    "doi": "10.1016/j.foodchem.2025.145575",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40706459/",
+    "use": "NGYDMR older umami-study source; abstract/metadata inspected, full text not obtained"
+  }
+]

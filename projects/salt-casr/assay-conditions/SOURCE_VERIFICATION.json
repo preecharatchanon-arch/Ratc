@@ -1,0 +1,29 @@
+{
+  "table_S4_independent_pdf_text_comparison": {
+    "matched_means": 18,
+    "matched_SD_fields": 15,
+    "method": "Regex from pdftotext versus separate CSV transcription; table also visually inspected"
+  },
+  "NGYDMR_original_workbook_record": [
+    [
+      "Table S2_Negative",
+      {
+        "A": "243",
+        "B": "NGYDMR",
+        "C": "6",
+        "D": "0",
+        "E": "umami, sweetness",
+        "F": "B1 - excluded as salty in the same sensory study",
+        "G": "synthetic peptide; trained human sensory panel; direct descriptive sensory evaluation; no salty descriptor; 1 mg/mL; taste threshold 0.17 mmol/L; relaxed negative criterion",
+        "H": "10.1016/j.foodchem.2025.145575"
+      }
+    ]
+  ],
+  "visual_checks": [
+    "Pleurotus Figure 1A significance letters",
+    "Straw Table S4 page 3",
+    "Straw Figure S1 pages 4-6",
+    "Straw Figure 8 versus Table S4 last VP10 point"
+  ],
+  "scope": "No raw individual sensory observations or original MS/MS files were available; no receptor experiment performed."
+}

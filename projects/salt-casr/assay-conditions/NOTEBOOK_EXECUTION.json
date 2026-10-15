@@ -1,0 +1,28 @@
+{
+  "code_cells_executed": 5,
+  "colab_browser_execution": false,
+  "date_utc": "2026-10-15T07:45:36.637942+00:00",
+  "method": "Sequential execution of all plain-Python cells with IPython rich-display capture",
+  "python": "3.12.3",
+  "runtime_s": 2.8467788529999325,
+  "input_package_matches_current_readable_sources": true,
+  "source_verification": "SOURCE_VERIFICATION.json",
+  "scientific_worker_run": {
+    "runtime_s": 1.4677144040001622,
+    "python": "3.12.14",
+    "train_n": 244,
+    "train_class_counts": {
+      "1": 138,
+      "0": 106
+    },
+    "models_fitted": 4,
+    "panel_candidates": 11,
+    "reported_enhancers": 6,
+    "panel_sequences_in_original_benchmark": [
+      "NGYDMR"
+    ],
+    "training_test_max_similarity": 0.6666666666666667,
+    "benchmark_input_sha256": "f5ee9f945611741b6bc50175195e3078632c07a5065a6224c28055fe2e1a8d7a",
+    "claims": "Retrospective diagnostic; no novel molecule, receptor validation, prospective accuracy or measured sodium-reduction claim"
+  }
+}
