@@ -2,7 +2,7 @@
 
 [Project overview](../README.md) · [Research status](RESEARCH_STATUS.md) · [Shared data](../data/README.md)
 
-Four completed computational experiments follow one research question: what evidence is needed before using a model to select a saltiness enhancer? The figures below show the retained findings; each links to the complete report and underlying result tables.
+Five completed computational analyses follow one research question: what evidence is needed before using a model to select a saltiness enhancer? The figures below show the retained findings; each links to the complete report and underlying result tables.
 
 ## 01 · CaSR models and docking
 
@@ -35,6 +35,14 @@ The contacts lie in a membrane/cytoplasmic region; access and function remain un
 [Report](../experiments/04-trpv1-membrane-access/README.md) · [Tables and figure guide](../experiments/04-trpv1-membrane-access/results/README.md)
 
 ![Membrane depths and the observed DkTx comparator](../experiments/04-trpv1-membrane-access/results/membrane_site_comparison.png)
+
+## 05 · Functional assay controls
+
+A 32-condition human taste-cell panel, separate knockdown comparisons and soy endpoint contrasts determine useful controls for the next experiment.
+
+[Report](../experiments/05-functional-assay-controls/README.md) · [Tables and figure guide](../experiments/05-functional-assay-controls/results/README.md)
+
+![Functional assay conditions and control comparisons](../experiments/05-functional-assay-controls/results/functional_controls.png)
 
 ## What follows
 

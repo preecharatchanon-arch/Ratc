@@ -1,0 +1,16 @@
+{
+  "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "matplotlib": "3.10.1",
+  "elapsed_s": 0.8735453580002286,
+  "input_sha256": {
+    "qi2025_soy_endpoint_comparison.csv": "ce0f700cb7cf310ab8336ec1248a59f2ef9501b01d721489457f1ddeac2cf7e9",
+    "xu2017_amiloride_SUM_comparisons.csv": "52f22a16f4ae0542e406ec7ec66b9b4bc3c7d3648cf78c6fbd90f575b9c5b1d6",
+    "xu2017_condition_outcomes.csv": "2fbdec3625a56848841d18f94b8b15c5c3cfdcf08a164070d4a94d30d8cac277",
+    "xu2017_knockdown_SUM_comparisons.csv": "de2a178203e1f6e3c34394da81676b83e116d6d85d6fdccaabe420673659e461",
+    "xu2017_knockdown_components.csv": "a8debedf60fd0cc99ff67afb87aaa839dadea28af60cbdc3b84e76d1f1fde4b4",
+    "xu2017_peptide_response_EC50.csv": "caec8edf4f3d57686e4aa23b6f7b75919840735d81f2ba8bf4b1fe68c13bb010"
+  },
+  "output_directory": "/workspace/scratch/cadb742a5030/research/salt_casr_organization/after/projects/salt-casr/experiments/05-functional-assay-controls/runs/latest",
+  "scope": "Executed calculations and plotting; no wet-lab experiment or model training"
+}

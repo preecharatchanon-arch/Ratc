@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-15",
+  "condition_keys_unique_and_complete": true,
+  "condition_count": 32,
+  "reported_increase_conditions": 6,
+  "main_text_EC50_list_checked": true,
+  "all_12_component_count_percentage_pairs_matched_to_primary_text": true,
+  "all_6_direct_SUM_count_percentage_pairs_matched_to_primary_text": true,
+  "Figures_2_and_7_visually_inspected": true,
+  "separate_figure7_cohorts_preserved": true,
+  "count_based_excesses_independently_recomputed": true,
+  "soy_intensity_arithmetic_independently_recomputed": true,
+  "unknown_soy_conditions_left_blank": true,
+  "no_p_values_reconstructed_from_pooled_cells": true,
+  "prior_scientific_artifacts_unchanged": true,
+  "figure_render_visually_inspected": true,
+  "limits": [
+    "Soy full methods and source raw data were not obtained; publisher-abstract facts only.",
+    "Main-text categorical outcomes are not individual-culture observations.",
+    "No new biological validation, global novelty or food suitability is established."
+  ]
+}

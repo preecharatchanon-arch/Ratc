@@ -1,0 +1,3 @@
+condition,SUM_pct,mixture_pct,excess_over_SUM_pp,reported_outcome
+without_amiloride,10.8,17.0,6.199999999999999,significant_increase_reported
+with_amiloride,5.7,6.3,0.5999999999999996,no_significant_increase_reported

@@ -1,0 +1,64 @@
+{
+  "retrieved_UTC": "2026-10-15",
+  "sources": [
+    {
+      "doi": "10.1038/s41598-017-07756-x",
+      "url": "https://www.nature.com/articles/s41598-017-07756-x",
+      "inspected": "Primary full article Results/Methods and Figures 2/7; supplementary file downloaded, not used as digitized measurements.",
+      "local_inspection_file_hashes": {
+        "xu2017.html": "ff3b85223c018b46069ee58f00e48be63dd3d076c00155ce59ae78c3c0f470f4",
+        "xu2017_supplement.doc": "81e29867a551923f95d9f3e1915137dd31760a2b9071c75de3d90fb9647ea670",
+        "figure2.jpg": "fd4e86324e56ec7d20a993199aa23b00d4e50bc661844e704069e2b481a2b446",
+        "figure7.jpg": "e59c92568b3501d22b3de78cc9ed98dccf1d2764901d8499228312315141a1be"
+      },
+      "redistributed": "Attributed numeric/categorical transcriptions and newly drawn figures; no publisher article copies.",
+      "licence": "CC BY 4.0"
+    },
+    {
+      "doi": "10.1021/acs.jafc.4c12256",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jafc.4c12256",
+      "inspected": "Publisher abstract and supporting-information description, retrieved through indexed publisher content.",
+      "full_methods_available": false,
+      "redistributed": "Short attributed factual comparison and numeric facts; no original text, images or supporting files.",
+      "limitation": "Organoid peptide dose, NaCl, species, replicate definition and raw outcomes are unverified."
+    }
+  ],
+  "input_files": [
+    {
+      "path": "../../data/functional/qi2025_soy_endpoint_comparison.csv",
+      "bytes": 1143,
+      "sha256": "ce0f700cb7cf310ab8336ec1248a59f2ef9501b01d721489457f1ddeac2cf7e9"
+    },
+    {
+      "path": "../../data/functional/xu2017_amiloride_SUM_comparisons.csv",
+      "bytes": 590,
+      "sha256": "52f22a16f4ae0542e406ec7ec66b9b4bc3c7d3648cf78c6fbd90f575b9c5b1d6"
+    },
+    {
+      "path": "../../data/functional/xu2017_condition_outcomes.csv",
+      "bytes": 13709,
+      "sha256": "2fbdec3625a56848841d18f94b8b15c5c3cfdcf08a164070d4a94d30d8cac277"
+    },
+    {
+      "path": "../../data/functional/xu2017_knockdown_SUM_comparisons.csv",
+      "bytes": 1001,
+      "sha256": "de2a178203e1f6e3c34394da81676b83e116d6d85d6fdccaabe420673659e461"
+    },
+    {
+      "path": "../../data/functional/xu2017_knockdown_components.csv",
+      "bytes": 1409,
+      "sha256": "a8debedf60fd0cc99ff67afb87aaa839dadea28af60cbdc3b84e76d1f1fde4b4"
+    },
+    {
+      "path": "../../data/functional/xu2017_peptide_response_EC50.csv",
+      "bytes": 1592,
+      "sha256": "caec8edf4f3d57686e4aa23b6f7b75919840735d81f2ba8bf4b1fe68c13bb010"
+    }
+  ],
+  "transformations": [
+    "Expand explicitly tested condition statements into peptide-dose/NaCl records.",
+    "Preserve source non-significance rather than assigning zero effect.",
+    "Calculate percentage-point mixture-minus-SUM contrasts separately by cohort.",
+    "Calculate change in equivalent saltiness intensity without claiming sodium replacement."
+  ]
+}

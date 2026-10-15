@@ -1,0 +1,4 @@
+treatment,cohort,SUM_pct,mixture_pct,excess_over_SUM_pp,count_based_excess_pp,reported_outcome,new_significance_test
+ENaC_alpha_siRNA,Figure_7d_f,3.8,4.4,0.6000000000000005,0.5931198102016607,no_significant_increase_reported,none
+ENaC_delta_siRNA,Figure_7d_f,4.4,4.5,0.09999999999999964,0.11778563015312132,no_significant_increase_reported,none
+NHE1_siRNA,Figure_7d_f,5.1,9.1,4.0,3.916768665850673,significant_increase_reported,none

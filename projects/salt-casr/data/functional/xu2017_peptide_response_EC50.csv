@@ -1,0 +1,8 @@
+sequence,peptide_alone_cellular_EC50_uM,endpoint,source_doi,source_location,notes
+AR,45,fraction_of_HBO_cells_with_Ca_response_to_peptide_alone,10.1038/s41598-017-07756-x,Results: Effect of dipeptides on cultured human fungiform papillae cells,Not ENaC binding affinity; not an enhancement EC50.
+RA,122,fraction_of_HBO_cells_with_Ca_response_to_peptide_alone,10.1038/s41598-017-07756-x,Results: Effect of dipeptides on cultured human fungiform papillae cells,Not ENaC binding affinity; not an enhancement EC50.
+RP,106,fraction_of_HBO_cells_with_Ca_response_to_peptide_alone,10.1038/s41598-017-07756-x,Results: Effect of dipeptides on cultured human fungiform papillae cells,Not ENaC binding affinity; not an enhancement EC50.
+RE,89,fraction_of_HBO_cells_with_Ca_response_to_peptide_alone,10.1038/s41598-017-07756-x,Results: Effect of dipeptides on cultured human fungiform papillae cells,Not ENaC binding affinity; not an enhancement EC50.
+ER,114,fraction_of_HBO_cells_with_Ca_response_to_peptide_alone,10.1038/s41598-017-07756-x,Results: Effect of dipeptides on cultured human fungiform papillae cells,Not ENaC binding affinity; not an enhancement EC50.
+DD,100,fraction_of_HBO_cells_with_Ca_response_to_peptide_alone,10.1038/s41598-017-07756-x,Results: Effect of dipeptides on cultured human fungiform papillae cells,Not ENaC binding affinity; not an enhancement EC50.
+ED,82,fraction_of_HBO_cells_with_Ca_response_to_peptide_alone,10.1038/s41598-017-07756-x,Results: Effect of dipeptides on cultured human fungiform papillae cells,Not ENaC binding affinity; not an enhancement EC50.

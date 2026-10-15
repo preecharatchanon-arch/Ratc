@@ -1,0 +1,32 @@
+{
+  "analysis": "retrospective functional-assay evidence reanalysis",
+  "condition_records": 32,
+  "unique_peptides": 7,
+  "reported_increase_conditions": 6,
+  "peptides_with_any_reported_increase": [
+    "AR",
+    "RA",
+    "RP"
+  ],
+  "at_100_uM": {
+    "tested_records": 14,
+    "reported_increases": 0
+  },
+  "peptide_alone_EC50_count": 7,
+  "separate_knockdown_SUM_cohorts": 3,
+  "max_component_count_percent_rounding_pp": 0.04072657743785868,
+  "soy_sensory_enhancers": [
+    "E",
+    "DG"
+  ],
+  "soy_organoid_enhancers": [
+    "E"
+  ],
+  "limits": [
+    "Published outcomes, not independently measured biology.",
+    "Reported non-significance is neither numerical zero nor an established between-dose interaction.",
+    "No new significance test from pooled cell counts; different Figure 7 cohorts remain separate.",
+    "Soy organoid dose, salt background and species were not verified from the accessible abstract.",
+    "Cellular response, receptor binding, sensory enhancement and sodium replacement are distinct."
+  ]
+}

@@ -1,8 +1,8 @@
 [
   {
     "path": "README.md",
-    "bytes": 10609,
-    "sha256": "a722229c487dff1b7a82d0764831c1b3c5f8ae3cbd9976c572c7e5f63e37ccf0"
+    "bytes": 10623,
+    "sha256": "1b4f927440510cf51fe1cc91d5568bd32f7cd8548d3498c15e285bec7fafc65b"
   },
   {
     "path": "SOURCE_MANIFEST.json",
@@ -1411,8 +1411,8 @@
   },
   {
     "path": "projects/salt-casr/README.md",
-    "bytes": 6863,
-    "sha256": "8652641bfe30c1edf844353ac83778bf7fb477aa404f3cee8b0c321a28baf0f9"
+    "bytes": 7557,
+    "sha256": "6d027ef2f2875c83f47e804266068370213848547524db5d755665b451f23fd1"
   },
   {
     "path": "projects/salt-casr/archives/CaSR_Notebook_Run.zip",
@@ -1461,8 +1461,8 @@
   },
   {
     "path": "projects/salt-casr/data/README.md",
-    "bytes": 5732,
-    "sha256": "7df5fd3c7098e9925f1f8a8681dd016be4abeaeacceeede8ddd3e5555d87d86c"
+    "bytes": 6310,
+    "sha256": "be462c53d12adb5c8e88f09705cec21d04fb7694e120d270372249241ac09c93"
   },
   {
     "path": "projects/salt-casr/data/casr/9J7I.cif",
@@ -1503,6 +1503,41 @@
     "path": "projects/salt-casr/data/casr/source_table_audit.json",
     "bytes": 15634,
     "sha256": "d1207697749f8d0c3f404b9773f78419da74a2d31ec5660198bcfb781b957c37"
+  },
+  {
+    "path": "projects/salt-casr/data/functional/README.md",
+    "bytes": 2403,
+    "sha256": "d7db0e84986c44a558828911d2303a95886520dd48a8f5fe7b6175b0d3258e9b"
+  },
+  {
+    "path": "projects/salt-casr/data/functional/qi2025_soy_endpoint_comparison.csv",
+    "bytes": 1143,
+    "sha256": "ce0f700cb7cf310ab8336ec1248a59f2ef9501b01d721489457f1ddeac2cf7e9"
+  },
+  {
+    "path": "projects/salt-casr/data/functional/xu2017_amiloride_SUM_comparisons.csv",
+    "bytes": 590,
+    "sha256": "52f22a16f4ae0542e406ec7ec66b9b4bc3c7d3648cf78c6fbd90f575b9c5b1d6"
+  },
+  {
+    "path": "projects/salt-casr/data/functional/xu2017_condition_outcomes.csv",
+    "bytes": 13709,
+    "sha256": "2fbdec3625a56848841d18f94b8b15c5c3cfdcf08a164070d4a94d30d8cac277"
+  },
+  {
+    "path": "projects/salt-casr/data/functional/xu2017_knockdown_SUM_comparisons.csv",
+    "bytes": 1001,
+    "sha256": "de2a178203e1f6e3c34394da81676b83e116d6d85d6fdccaabe420673659e461"
+  },
+  {
+    "path": "projects/salt-casr/data/functional/xu2017_knockdown_components.csv",
+    "bytes": 1409,
+    "sha256": "a8debedf60fd0cc99ff67afb87aaa839dadea28af60cbdc3b84e76d1f1fde4b4"
+  },
+  {
+    "path": "projects/salt-casr/data/functional/xu2017_peptide_response_EC50.csv",
+    "bytes": 1592,
+    "sha256": "caec8edf4f3d57686e4aa23b6f7b75919840735d81f2ba8bf4b1fe68c13bb010"
   },
   {
     "path": "projects/salt-casr/data/saltiness/README.md",
@@ -1566,13 +1601,13 @@
   },
   {
     "path": "projects/salt-casr/docs/RESEARCH_STATUS.md",
-    "bytes": 3414,
-    "sha256": "43762e065d5104ca6242f8a3752c87c5fb9dc859fe196e7ca4a97e3d1042f7d0"
+    "bytes": 4053,
+    "sha256": "90e93e646f391f0074fa65ac18fd089aa09fc5989503543dd5284a4d7ef8f3c5"
   },
   {
     "path": "projects/salt-casr/docs/RESULTS.md",
-    "bytes": 2289,
-    "sha256": "19520c3313cc813b90586030d05b7abfcb01355e3a6e55011986800cef3bbbf0"
+    "bytes": 2761,
+    "sha256": "98cd8d40e8b7f4b04979bd0d8131d4149ec3c27e2b97c2c7e53d466e952bad50"
   },
   {
     "path": "projects/salt-casr/experiments/01-casr-models-and-docking/CaSR_Research_Workbench.ipynb",
@@ -2255,9 +2290,94 @@
     "sha256": "beb00dabd3c206144f99d5585ec26cf2591a064b6f9eedbc3db6549ab10fbb40"
   },
   {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/PROTOCOL.md",
+    "bytes": 1647,
+    "sha256": "99d9f3646a82a314c8fcb60aa2030c263f0935267e1d4e92d0acc595c49e2b62"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/README.md",
+    "bytes": 10237,
+    "sha256": "e84cd4880a2f22d6864b29e4ec0a493e20af75ff086d6ab12ae6b50f0d6186ee"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/SOURCE_MANIFEST.json",
+    "bytes": 2953,
+    "sha256": "f429578033487797787637b8577a3797d9636b7985c55cdd7bff37743682ba38"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/code/README.md",
+    "bytes": 577,
+    "sha256": "65e908f5d1496c492bf266beb69cb558e4401096d8223f916bb8382d645f06be"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/code/analyse_functional.py",
+    "bytes": 9462,
+    "sha256": "3a931afa16a6082d8f804f51a5d95bf600f88f68c950c11d4dca954d2687f272"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/requirements_locked.txt",
+    "bytes": 189,
+    "sha256": "efb84d2bf63ed9e7e4961a9b81b312eef9b1991c77ef7cfa15a202baab4a3187"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/README.md",
+    "bytes": 1420,
+    "sha256": "f094684463fb0290ed23982a601ccd7a9ff2585c7b921eb48f3ffb7732da4306"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/amiloride_contrasts.csv",
+    "bytes": 220,
+    "sha256": "12b3fa02cc8ca49ed91b645e458e6182dd8d818e1c4d7113afc558cdd8e7de11"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/analysis_summary.json",
+    "bytes": 1034,
+    "sha256": "958e52efe3b88e8635c041db23a4cffcde70fb25f856fde48313cd5fcb24a676"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/component_contrasts.csv",
+    "bytes": 479,
+    "sha256": "605f20ea50852ad4561dc3510b72afdf3f354cc12c647052bd012bfb0e8350a8"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/condition_summary.csv",
+    "bytes": 639,
+    "sha256": "0c06c0d5689e3e0e790dc02d9dce8c22aaf123668ef6efd33561599013612a60"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/functional_controls.png",
+    "bytes": 220387,
+    "sha256": "77f47236c98d513ae13af36886dcf82c5bf35a34fe26850b6b15792d37e32ae6"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/functional_controls.svg",
+    "bytes": 138564,
+    "sha256": "3dc31d44bdcf5610c5fcef6809ab17c2c22721636af2b44af03ac2e9cf8140fb"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/run_receipt.json",
+    "bytes": 1117,
+    "sha256": "690e770bcbfd3099524064236ad09d156f34c36b1c52e50433fd3c07e905eeac"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/separate_SUM_contrasts.csv",
+    "bytes": 437,
+    "sha256": "06e424e12da19a241c81df8e2b89d8c7e6889e678c2037b1ed62459cf1688378"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/results/soy_endpoint_comparison.csv",
+    "bytes": 1309,
+    "sha256": "55f09457d76637f7fb579e86969aeb5a45760dd0f9efbc05168170103fccdead"
+  },
+  {
+    "path": "projects/salt-casr/experiments/05-functional-assay-controls/verification/REVIEW.json",
+    "bytes": 1005,
+    "sha256": "505414582643481fa4eb54c1b49b822c77f5e8385c8adb781fe439a61aaa9541"
+  },
+  {
     "path": "projects/salt-casr/experiments/README.md",
-    "bytes": 1070,
-    "sha256": "2af0df81050f1eeafa8a797c627a5f1719f0561695cb715b0e4a04fa8f5a3de5"
+    "bytes": 1254,
+    "sha256": "5fb9126b1ec22395b3afa7405e0dfa384a5c4ca8ffafe59c1c8c704a5541b014"
   },
   {
     "path": "projects/salt-casr/receptor-access/README.md",
@@ -2281,8 +2401,8 @@
   },
   {
     "path": "projects/salt-casr/verification/FILE_INDEX.csv",
-    "bytes": 18178,
-    "sha256": "9b50435099902426514c08d2f611ea342a73436cf2b1c3ebe062307d248e69e7"
+    "bytes": 20565,
+    "sha256": "9e82a84a12761f81c1ca1bd848d492dee3935b2eeb17f0778bc26f2aa32bc16f"
   },
   {
     "path": "projects/salt-casr/verification/ORGANIZATION_REVIEW.json",
@@ -2292,7 +2412,7 @@
   {
     "path": "projects/salt-casr/verification/PATH_MAP.csv",
     "bytes": 41472,
-    "sha256": "4981c0c9e935c403618296209aef7d7d8a9bca146d4cc40ab505799abb47860b"
+    "sha256": "425fe3c1a6f1ab7b7049c92b92bb0e7cf6f57ca2f51acfa652f8abb20a1c5ba2"
   },
   {
     "path": "projects/salt-casr/verification/README.md",

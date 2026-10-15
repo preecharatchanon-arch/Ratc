@@ -50,6 +50,10 @@ Benchmark attribution: Chen W, Li W, He Y, Yang Y, [SaltyMeta v1](https://arxiv.
 
 Coordinate downloads go to `trpv1/cache/`, which is ignored by Git. Those coordinates were used in the completed analysis and are retrieved by Experiment 04's downloader. A changed upstream file produces an explicit version error. OPM planes are estimated hydrophobic-core boundaries; they are not measurements of peptide transport.
 
+## Functional assay evidence
+
+[functional/](functional/README.md) supports [Experiment 05](../experiments/05-functional-assay-controls/README.md): 32 condition-specific human taste-cell outcomes, peptide-alone cellular EC50 values, separately recorded perturbation cohorts and a three-sequence soy endpoint comparison. The folder guide states units, missing fields and access limits. These are attributed source transcriptions, not raw individual-cell data or a general training set.
+
 ## Browse outputs
 
-[CaSR results](../experiments/01-casr-models-and-docking/results/) · [Sensory benchmark results](../experiments/02-sensory-source-transfer/results/) · [Assay/dose results](../experiments/03-assay-dose-response/results/) · [Membrane-access results](../experiments/04-trpv1-membrane-access/results/)
+[CaSR results](../experiments/01-casr-models-and-docking/results/) · [Sensory benchmark results](../experiments/02-sensory-source-transfer/results/) · [Assay/dose results](../experiments/03-assay-dose-response/results/) · [Membrane-access results](../experiments/04-trpv1-membrane-access/results/) · [Functional assay results](../experiments/05-functional-assay-controls/results/README.md)

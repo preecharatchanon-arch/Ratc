@@ -1,0 +1,8 @@
+sequence,tested_conditions,reported_increases,other_tested_conditions,interpretation
+AR,6,3,3,Selected reported conditions; not prevalence or effect-size estimate
+RA,6,2,4,Selected reported conditions; not prevalence or effect-size estimate
+RP,4,1,3,Selected reported conditions; not prevalence or effect-size estimate
+RE,4,0,4,Selected reported conditions; not prevalence or effect-size estimate
+ER,4,0,4,Selected reported conditions; not prevalence or effect-size estimate
+DD,4,0,4,Selected reported conditions; not prevalence or effect-size estimate
+ED,4,0,4,Selected reported conditions; not prevalence or effect-size estimate

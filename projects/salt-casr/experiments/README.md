@@ -7,4 +7,6 @@
 3. [Assay conditions and dose](03-assay-dose-response/README.md): complete tested panels, dose-ranking reversals and a context-dependent negative label.
 4. [TRPV1 membrane access](04-trpv1-membrane-access/README.md): experimental coordinates, membrane boundaries, lipids and a bound peptide comparator.
 
+5. [Functional assay controls](05-functional-assay-controls/README.md): condition-specific human taste-cell outcomes, separate knockdown cohorts and soy sensory/organoid comparators.
+
 Within each experiment, `code/` holds readable scripts, `results/` holds reviewed outputs, and `verification/` holds the original execution records where supplied. Protocols and source manifests sit beside the report. New local outputs go to ignored `runs/latest/` folders. The first three experiments also include unchanged executed notebooks with embedded inputs and code.
