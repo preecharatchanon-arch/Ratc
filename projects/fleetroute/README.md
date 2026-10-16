@@ -22,7 +22,7 @@ The work extends the NSC 2026 finalist project **ระบบเพิ่มป�
 - [Open the application in Google Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/fleetroute/FleetRoute_App.ipynb). Run its two code cells in order and keep the second cell running while using the printed workspace link.
 - [Read the complete application source](source/README.md), [architecture](source/ARCHITECTURE.md), [backend](source/app/engine.py), [directed-road preparation](source/app/offline_osm.py), [spatial graph store](source/app/graph_store.py) and [frontend](source/app/static).
 
-The 49 exposed snapshot files are unchanged copies from the submitted supplement. The notebook's embedded application was independently compared with that snapshot. Launch requires internet access for setup and the temporary tunnel; road-data download is a separate job.
+The submitted supplement preserves the frozen application snapshot. The public source and application notebook include a subsequent map-provider correction (v8.2): origin-only referrers, canonical OSM tile URLs, linked attribution, and the existing terrain host in the image security allowlist. The optimizer source is unchanged. Launch requires internet access for setup and the temporary tunnel; road-data download is a separate job.
 
 To check the frozen package, run from the cloned repository root:
 
@@ -81,3 +81,13 @@ Best and mean distances use three seeds for each instance. All Current rows show
 Dots show the three-seed mean; whiskers show the observed minimum and maximum, not confidence intervals. The OR-Tools baseline is the best of twelve configurations. The comparison covers solution distance under a common evaluator, with different aggregation and configured budgets.
 
 Rebuild both figures with `python make_figures.py` from this directory (requires NumPy and Matplotlib). The [script](make_figures.py) reads the public CSVs and performs no solver runs. SVG copies are included for export.
+
+## Map-provider correction — 16 October 2026
+
+A reported OSM 403 tile block exposed a conflict: application pages suppressed all referrers, although OSM requires browser tile requests to send a Referer. The updated source/notebook sends only the site origin and keeps login/token redirects at `no-referrer`. Tokens remain in HttpOnly cookies after the redirect. The driver and simulation also use the canonical tile endpoint; terrain images are permitted by CSP.
+
+The screenshot identifies a background-tile block, not a PBF download or optimizer failure. The specific provider-side blocking reason is not observable from the screenshot. The correction does not guarantee availability or remove an existing provider/network block. Do not retry aggressively or rotate proxies/identities.
+
+For an existing Colab runtime, stop cell 2, reopen the updated notebook, run cell 1 and then cell 2, and reload the workspace. Running servers do not update automatically. Runtime road data and plans are retained by the installer.
+
+Run `python projects/fleetroute/tools/verify_map_policy.py` with the application dependencies installed to check authentication, response policies, notebook integrity, source/payload identity and unchanged optimizer identity. These checks do not certify external services or replace an interactive end-to-end test.

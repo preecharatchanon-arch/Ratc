@@ -59,10 +59,10 @@ function navigationAvailable(){return !!route&&currentPlanStatus().phase!=='stal
 
 const DRIVER_FALLBACK_TILE='data:image/svg+xml;charset=UTF-8,'+encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256"><rect width="256" height="256" fill="#eaf0f4"/><path d="M0 64H256M0 128H256M0 192H256M64 0V256M128 0V256M192 0V256" stroke="#d5dee6" fill="none"/></svg>`);
 const TILE_STYLES={
-  street:{url:'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',options:{maxZoom:20,attribution:'&copy; OpenStreetMap contributors',errorTileUrl:DRIVER_FALLBACK_TILE}},
-  night:{url:'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',options:{maxZoom:20,attribution:'&copy; OpenStreetMap contributors',errorTileUrl:DRIVER_FALLBACK_TILE}},
-  terrain:{url:'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',options:{maxZoom:20,attribution:'&copy; OpenStreetMap contributors',errorTileUrl:DRIVER_FALLBACK_TILE}},
-  technical:{url:'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',options:{maxZoom:20,attribution:'&copy; OpenStreetMap contributors',errorTileUrl:DRIVER_FALLBACK_TILE}},
+  street:{url:'https://tile.openstreetmap.org/{z}/{x}/{y}.png',options:{maxNativeZoom:19,maxZoom:20,referrerPolicy:'strict-origin',attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>',errorTileUrl:DRIVER_FALLBACK_TILE}},
+  night:{url:'https://tile.openstreetmap.org/{z}/{x}/{y}.png',options:{maxNativeZoom:19,maxZoom:20,referrerPolicy:'strict-origin',attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>',errorTileUrl:DRIVER_FALLBACK_TILE}},
+  terrain:{url:'https://tile.openstreetmap.org/{z}/{x}/{y}.png',options:{maxNativeZoom:19,maxZoom:20,referrerPolicy:'strict-origin',attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>',errorTileUrl:DRIVER_FALLBACK_TILE}},
+  technical:{url:'https://tile.openstreetmap.org/{z}/{x}/{y}.png',options:{maxNativeZoom:19,maxZoom:20,referrerPolicy:'strict-origin',attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>',errorTileUrl:DRIVER_FALLBACK_TILE}},
 };
 
 async function api(path,options={}){

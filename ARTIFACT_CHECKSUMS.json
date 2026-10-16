@@ -911,18 +911,18 @@
   },
   {
     "path": "projects/fleetroute/FleetRoute_App.ipynb",
-    "bytes": 1037623,
-    "sha256": "a3a851d988048311150b0a181766aee2e7bb486faa7b0cda86a117cbfefaf626"
+    "bytes": 1046760,
+    "sha256": "5bd7ee036d2d81260ca04fae56fc038c4bcbb990dddc52f12f46b039be9cfea2"
   },
   {
     "path": "projects/fleetroute/README.md",
-    "bytes": 6977,
-    "sha256": "0861fcfb09b48d02bd8058c717260f6002b06581b61950bc39dd598efde77d5a"
+    "bytes": 8480,
+    "sha256": "b834053c7f6d740ecda36493e9f95344530e858944d869081f9f3b031fa94beb"
   },
   {
     "path": "projects/fleetroute/THIRD_PARTY_DATA_NOTICE.md",
-    "bytes": 904,
-    "sha256": "fa3cb42d36dfcca8420b8d196c74c678d36df4ef32b2b94f2c0cf1697c36e8f8"
+    "bytes": 1966,
+    "sha256": "b6708ca738e3d3200724102ee583cf949d6be419d797c685cb0752fb4b1efd32"
   },
   {
     "path": "projects/fleetroute/evidence/submission.png",
@@ -996,13 +996,13 @@
   },
   {
     "path": "projects/fleetroute/source/README.md",
-    "bytes": 9758,
-    "sha256": "20e5259ef2d9bd3cdbc118934e70160cac5d114753efc190603725dfc7b85abe"
+    "bytes": 10536,
+    "sha256": "0936516dab807094e994141e1828ecafab9d2c6e57f8ddc65c0266bc78362837"
   },
   {
     "path": "projects/fleetroute/source/RELEASE_MANIFEST.json",
-    "bytes": 7095,
-    "sha256": "73949a357cbe611191b076d526631c6952a3ae88b4aadbcf4b4d7f42854a3694"
+    "bytes": 7096,
+    "sha256": "7dba4889c8018ed17d02d1fa1dae40ca886af3bb15a3407bba06bcb1bfbe0db9"
   },
   {
     "path": "projects/fleetroute/source/TESTING.md",
@@ -1056,8 +1056,8 @@
   },
   {
     "path": "projects/fleetroute/source/app/main.py",
-    "bytes": 33879,
-    "sha256": "0269ef9b060b0ce66c4c5d1dc78876ab4afe2fab9c47f7e125081ae3f32705d1"
+    "bytes": 34123,
+    "sha256": "5c5815f8cc18688235308b3a87f519154eb8aa091096e3bc5ab731f04b7bea7d"
   },
   {
     "path": "projects/fleetroute/source/app/offline_osm.py",
@@ -1066,8 +1066,8 @@
   },
   {
     "path": "projects/fleetroute/source/app/static/app.js",
-    "bytes": 326342,
-    "sha256": "885408e59979bddc190c51d4bcae876586c3dc91638ec22d101060d9903ef13a"
+    "bytes": 326494,
+    "sha256": "a56170ca428c7d412196aaa039a30956fa6a1acc7eb618cd2d8d76cf79880ddf"
   },
   {
     "path": "projects/fleetroute/source/app/static/driver.css",
@@ -1081,8 +1081,8 @@
   },
   {
     "path": "projects/fleetroute/source/app/static/driver.js",
-    "bytes": 33464,
-    "sha256": "8e3c5b311d4334664d70ac605a1f379f44b09105ef08412fff24b22928c59af2"
+    "bytes": 33980,
+    "sha256": "22d4e3d07e7cbe2a06be41c77a3a93641b3324c92a91d5280bbb68cda0e35c4d"
   },
   {
     "path": "projects/fleetroute/source/app/static/index.html",
@@ -1106,8 +1106,8 @@
   },
   {
     "path": "projects/fleetroute/source/app/static/simulation.js",
-    "bytes": 19127,
-    "sha256": "a3658f35288da191cd8b6002f8267b94eb5daf0cee6debb64fbbe182e7412049"
+    "bytes": 19256,
+    "sha256": "df9ce2407f7403d21c5c5a6d80ab18ee6fe4a2b9fd8e0330ddff7c550b187322"
   },
   {
     "path": "projects/fleetroute/source/app/static/styles.css",
@@ -1288,6 +1288,16 @@
     "path": "projects/fleetroute/tables/unresolved_after_recovery.csv",
     "bytes": 102,
     "sha256": "f85efdfbfde6bc8a0e2de000c2e7e5a0de4c8ad83ed62138fb858df2cfa5deee"
+  },
+  {
+    "path": "projects/fleetroute/tools/rebuild_app_notebook.py",
+    "bytes": 2081,
+    "sha256": "d529e5732c59c05c4d58d31b8a11209187555b3cfd6b453ef5bab1fe6cdd9923"
+  },
+  {
+    "path": "projects/fleetroute/tools/verify_map_policy.py",
+    "bytes": 3702,
+    "sha256": "82aca2d6d0d02d600d72f87179688842461f1c4012c6c1313b8fbde9df4c9d3b"
   },
   {
     "path": "projects/neural-training/README.md",

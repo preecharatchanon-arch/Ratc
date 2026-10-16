@@ -18,8 +18,8 @@
       "sha256": "6548a55badda88858adddbc1ab1d5bc5a0ecf47d3191a12099b22b5ba6e51b6b"
     },
     "README.md": {
-      "bytes": 9758,
-      "sha256": "20e5259ef2d9bd3cdbc118934e70160cac5d114753efc190603725dfc7b85abe"
+      "bytes": 10536,
+      "sha256": "0936516dab807094e994141e1828ecafab9d2c6e57f8ddc65c0266bc78362837"
     },
     "TESTING.md": {
       "bytes": 6815,
@@ -62,16 +62,16 @@
       "sha256": "7bb64d406264800e27e71557640eb3b4a3c46b23586cf8905e3756696873cc3c"
     },
     "app/main.py": {
-      "bytes": 33879,
-      "sha256": "0269ef9b060b0ce66c4c5d1dc78876ab4afe2fab9c47f7e125081ae3f32705d1"
+      "bytes": 34123,
+      "sha256": "5c5815f8cc18688235308b3a87f519154eb8aa091096e3bc5ab731f04b7bea7d"
     },
     "app/offline_osm.py": {
       "bytes": 106171,
       "sha256": "46814a0038467d8e0d93aa4cca21068b48fe1210b897723eeb258cab55e94eb7"
     },
     "app/static/app.js": {
-      "bytes": 326342,
-      "sha256": "885408e59979bddc190c51d4bcae876586c3dc91638ec22d101060d9903ef13a"
+      "bytes": 326494,
+      "sha256": "a56170ca428c7d412196aaa039a30956fa6a1acc7eb618cd2d8d76cf79880ddf"
     },
     "app/static/driver.css": {
       "bytes": 32071,
@@ -82,8 +82,8 @@
       "sha256": "ec602747a0eaf1480db89c43f1dbf486d72208d2bc26d972dc315b65d2ffa94d"
     },
     "app/static/driver.js": {
-      "bytes": 33464,
-      "sha256": "8e3c5b311d4334664d70ac605a1f379f44b09105ef08412fff24b22928c59af2"
+      "bytes": 33980,
+      "sha256": "22d4e3d07e7cbe2a06be41c77a3a93641b3324c92a91d5280bbb68cda0e35c4d"
     },
     "app/static/index.html": {
       "bytes": 72254,
@@ -102,8 +102,8 @@
       "sha256": "c3e637d473889ad02da796d8480564bdfd0ad06f30705c32c1f17f0188283435"
     },
     "app/static/simulation.js": {
-      "bytes": 19127,
-      "sha256": "a3658f35288da191cd8b6002f8267b94eb5daf0cee6debb64fbbe182e7412049"
+      "bytes": 19256,
+      "sha256": "df9ce2407f7403d21c5c5a6d80ab18ee6fe4a2b9fd8e0330ddff7c550b187322"
     },
     "app/static/styles.css": {
       "bytes": 220316,

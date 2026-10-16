@@ -1457,7 +1457,7 @@ function observeMapSize(map,containerId){
 const MAP_FALLBACK_TILE='data:image/svg+xml;charset=UTF-8,'+encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256"><rect width="256" height="256" fill="#eaf0f4"/><path d="M0 0H256V256H0Z M0 64H256M0 128H256M0 192H256M64 0V256M128 0V256M192 0V256" fill="none" stroke="#d5dee6" stroke-width="1"/><circle cx="128" cy="128" r="3" fill="#8093a3"/></svg>`);
 function keylessOsmTiles(options={}){
   return L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{
-    maxZoom:19,attribution:'© OpenStreetMap contributors',updateWhenZooming:false,keepBuffer:3,
+    referrerPolicy:'strict-origin',maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>' ,updateWhenZooming:false,keepBuffer:3,
     errorTileUrl:MAP_FALLBACK_TILE,
     ...options
   });
@@ -1467,7 +1467,7 @@ function keylessTerrainTiles(options={}){
   // topographic tile fails, replace that tile with the matching OSM street
   // tile rather than the old diagnostic grid, so Terrain always remains a map.
   const layer=L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',{
-    maxNativeZoom:19,maxZoom:19,
+    referrerPolicy:'strict-origin',maxNativeZoom:19,maxZoom:19,
     attribution:'Tiles © Esri — Sources: Esri, TomTom, Garmin, FAO, NOAA, USGS, © OpenStreetMap contributors, GIS User Community',
     updateWhenZooming:false,keepBuffer:3,errorTileUrl:MAP_FALLBACK_TILE,
     ...options

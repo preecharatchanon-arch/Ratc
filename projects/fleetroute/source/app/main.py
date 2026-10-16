@@ -189,7 +189,10 @@ async def token_gate(request: Request, call_next):
             secure=secure_cookie, samesite="lax",
             max_age=60 * 60 * 24 * 7, path="/",
         )
-    response.headers.setdefault("Referrer-Policy", "no-referrer")
+    # Send only the origin to map providers, never paths, query strings or tokens.
+    # OSM requires a Referer for browser tile requests. Login/token redirects
+    # above deliberately retain no-referrer until credentials leave the URL.
+    response.headers.setdefault("Referrer-Policy", "strict-origin")
     response.headers.setdefault("X-Content-Type-Options", "nosniff")
     response.headers.setdefault("X-Frame-Options", "DENY")
     response.headers.setdefault("X-Permitted-Cross-Domain-Policies", "none")
@@ -202,7 +205,7 @@ async def token_gate(request: Request, call_next):
         "form-action 'self'; script-src 'self'; "
         "style-src 'self' 'unsafe-inline'; "
         "font-src 'self' data:; "
-        "img-src 'self' data: blob: https://*.tile.openstreetmap.org https://*.openstreetmap.org; "
+        "img-src 'self' data: blob: https://tile.openstreetmap.org https://services.arcgisonline.com; "
         "connect-src 'self'; worker-src 'self' blob:"
     )
     if secure_cookie:

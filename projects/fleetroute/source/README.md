@@ -74,3 +74,9 @@ Cell 2 first verifies the lightweight native-readiness receipt written by Cell 1
 Quick Tunnel links use job polling because Cloudflare Quick Tunnels do not support Server-Sent Events. Polling includes live logs, optimizer trace, final results, and scenario-to-optimizer handoff. The live Optimization Monitor is driven only by the native solver's validated process-wide incumbent events; the backend folds those events into the normal job heartbeat, so no extra convergence-file polling or hot-loop writer is introduced. Other hosts may use SSE with a stalled-stream polling watchdog. Road-viewport requests are cancellable and generation-checked so an older pan/zoom response cannot overwrite a newer viewport or survive an operating-graph change.
 
 Road-extraction tooling is still installed lazily when an uncached regional extract requires it. Regional downloads, graph preparation, clustering execution, and optimizer search remain real jobs with their own progress; ready engines do not mean road data or routes have already been computed.
+
+## Map access and provider policy (v8.2)
+
+Map pages and tile images send only the site origin as Referer. Login/token redirects keep `no-referrer`, and authenticated launches remove the token from the URL before loading application content. Standard OSM raster tiles use the canonical HTTPS endpoint and linked attribution. The existing Esri terrain endpoint is explicitly allowed as an image source.
+
+Background tiles are separate from Geofabrik PBF road downloads. Interactive tile viewing depends on external availability and provider terms; no offline tile download, proxy bypass, or identity rotation is implemented. A tile block must not be described as a routing failure. See the parent project page for the incident, verification scope and runtime update instructions.
