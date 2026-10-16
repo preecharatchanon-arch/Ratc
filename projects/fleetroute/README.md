@@ -91,3 +91,5 @@ The screenshot identifies a background-tile block, not a PBF download or optimiz
 For an existing Colab runtime, stop cell 2, reopen the updated notebook, run cell 1 and then cell 2, and reload the workspace. Running servers do not update automatically. Runtime road data and plans are retained by the installer.
 
 Run `python projects/fleetroute/tools/verify_map_policy.py` with the application dependencies installed to check authentication, response policies, notebook integrity, source/payload identity and unchanged optimizer identity. These checks do not certify external services or replace an interactive end-to-end test.
+
+The follow-up audit also covers generated driver manifests: local-file exports do not request public OSM tiles, while HTTP(S)-served manifests use the canonical endpoint and origin-only referrer. All maintained application launch links point to `projects/fleetroute/FleetRoute_App.ipynb` on `main`. The unchanged submission archive is explicitly historical and links to the maintained notebook. External tile availability is not guaranteed.

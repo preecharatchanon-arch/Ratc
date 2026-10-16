@@ -1,5 +1,7 @@
 # FleetRoute Routing Workspace
 
+[Launch the current application in Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/fleetroute/FleetRoute_App.ipynb) · [Project page and update instructions](../README.md)
+
 FleetRoute is a real-road fleet planning and decision-support workspace for **delivery, pickup, collection, distribution, and field operations**. It turns a depot, work points, fleet constraints, time windows, road closures, and a directed OpenStreetMap road graph into independently validated multi-vehicle plans, driver-ready outputs, and reproducible operational evidence.
 
 ## Production contract
@@ -80,3 +82,5 @@ Road-extraction tooling is still installed lazily when an uncached regional extr
 Map pages and tile images send only the site origin as Referer. Login/token redirects keep `no-referrer`, and authenticated launches remove the token from the URL before loading application content. Standard OSM raster tiles use the canonical HTTPS endpoint and linked attribution. The existing Esri terrain endpoint is explicitly allowed as an image source.
 
 Background tiles are separate from Geofabrik PBF road downloads. Interactive tile viewing depends on external availability and provider terms; no offline tile download, proxy bypass, or identity rotation is implemented. A tile block must not be described as a routing failure. See the parent project page for the incident, verification scope and runtime update instructions.
+
+Downloaded driver HTML opened as a local file makes no public OSM tile requests: saved route geometry and stop markers remain usable offline. When served over HTTP(S), it uses the same canonical endpoint, origin-only referrer and linked attribution.

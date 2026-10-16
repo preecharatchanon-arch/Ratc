@@ -8,6 +8,7 @@ import os
 from pathlib import Path
 import re
 import sys
+import subprocess
 import tempfile
 import zipfile
 
@@ -39,6 +40,46 @@ def verify():
                 assert 'https://tile.openstreetmap.org' in csp
                 assert 'https://services.arcgisonline.com' in csp
                 assert "script-src 'self'" in csp and "connect-src 'self'" in csp
+    # Execute the generated manifest script with Leaflet doubles. A local-file
+    # export must retain route overlays while making zero external tile calls.
+    from app.exports import _driver_html
+    route = {'truck_id': 1, 'geometry': [[7, 100], [7.01, 100.01]], 'stops': [
+        {'kind': 'depot', 'sequence': 0, 'lat': 7, 'lon': 100},
+        {'kind': 'customer', 'sequence': 1, 'lat': 7.01, 'lon': 100.01}]}
+    status = {'phase': 'optimized', 'title': 'Complete', 'detail': 'Checked', 'badge': 'OPTIMIZED', 'completed': True}
+    html = _driver_html(route, 1, status)
+    assert '<meta name="referrer" content="strict-origin">' in html
+    script = re.findall(r'<script>(.*?)</script>', html, re.S)[0]
+    node_check = r"""
+const vm=require('node:vm'), assert=require('node:assert/strict');
+let input='';process.stdin.on('data',x=>input+=x);process.stdin.on('end',()=>{
+const code=JSON.parse(input);
+for(const protocol of ['file:','data:','http:','https:']){
+  const calls=[],notice={textContent:''};let overlays=0,markers=0;
+  const shape={addTo(){return this},getBounds(){return {isValid:()=>true}}};
+  const map={fitBounds(){},setView(){}};
+  const context={location:{protocol},document:{getElementById(){return notice}},
+    L:{map(){return map},tileLayer(url,options){calls.push({url,options});return {addTo(){return this},on(name,fn){this[name]=fn;fn();return this}}},
+      polyline(){overlays++;return shape},circleMarker(){markers++;return {bindPopup(){return this},addTo(){return this}}}}};
+  vm.runInNewContext(code,context);
+  assert.equal(overlays,1);assert.equal(markers,2);
+  assert.equal(calls.length,['http:','https:'].includes(protocol)?1:0);
+  for(const {url,options} of calls){
+    assert.equal(url,'https://tile.openstreetmap.org/{z}/{x}/{y}.png');
+    assert.equal(options.referrerPolicy,'strict-origin');
+    assert.ok(options.attribution.includes('openstreetmap.org/copyright'));
+    assert.ok(notice.textContent.includes('unavailable'));
+  }
+}
+console.log('PASS: exported route overlays, no local-file tile requests, HTTP(S) tile policy and failure notice');
+});
+"""
+    subprocess.run(['node', '-e', node_check], input=json.dumps(script), text=True, check=True)
+    for name in ['app.js', 'driver.js', 'simulation.js']:
+        js = (SOURCE / 'app/static' / name).read_text()
+        assert 'https://{s}.tile.openstreetmap.org' not in js, name
+        assert "referrerPolicy:'strict-origin'" in js, name
+        assert 'openstreetmap.org/copyright' in js, name
     notebook = json.loads((ROOT / 'FleetRoute_App.ipynb').read_text())
     constants = {}
     for cell in notebook['cells']:

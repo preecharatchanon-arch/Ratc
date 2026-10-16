@@ -38,6 +38,8 @@ The retained fleet-routing benchmark reports a **2.02% mean best-of-three refere
 
 ## Read the code or run a project
 
+**[Launch the current FleetRoute app in Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/fleetroute/FleetRoute_App.ipynb)** — run the two cells in order. The submission supplement is a historical archive; use this notebook for the maintained application.
+
 | Work | Read the implementation | Execution and evidence scope |
 | --- | --- | --- |
 | Routing solver | [C++17 source](solvers/current/solver.cpp) | [Compile and run a small directed-road example](solvers/current/README.md#build-and-run) |

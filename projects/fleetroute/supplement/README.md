@@ -1,5 +1,7 @@
 # FleetRoute submission supplement
 
+**Historical submission archive.** For the corrected, maintained application, [open the current Colab notebook](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/fleetroute/FleetRoute_App.ipynb). The archived notebook retains the original map settings and is preserved for research provenance; it is not the recommended application launch.
+
 The complete, original ZIP archive is preserved as byte-for-byte parts. No archive contents were edited or repacked.
 
 ## Restore the archive
