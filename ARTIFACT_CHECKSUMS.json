@@ -1,8 +1,8 @@
 [
   {
     "path": "README.md",
-    "bytes": 12069,
-    "sha256": "ff84e60d687b165160c2bcb42601b6f43e43cfc42f75d991c4ea963daa790b26"
+    "bytes": 12116,
+    "sha256": "566b21928bc2f9b5fe7f7ba416a5e61aa610f3fc100efb87770bf6668b40f33c"
   },
   {
     "path": "SOURCE_MANIFEST.json",
@@ -731,18 +731,23 @@
   },
   {
     "path": "projects/aimo-interpretability/README.md",
-    "bytes": 6773,
-    "sha256": "925992bae0421e13b08a6dd42cb4b6efd5d27c1cf3b2e7fdd870177dcdb98643"
+    "bytes": 10525,
+    "sha256": "d33d7a55c024652ac11c5279b1afaec29867994eb57d1c3d0c8f42123703020b"
+  },
+  {
+    "path": "projects/aimo-interpretability/docs/METHODS.md",
+    "bytes": 10576,
+    "sha256": "1bd8450652d614079a560fd23fb300b22b238bbcb7c78cb7399cc98ed3d2e12a"
   },
   {
     "path": "projects/aimo-interpretability/docs/NEXT_EXPERIMENT.md",
-    "bytes": 5026,
-    "sha256": "a061db54ea3cba9a3d278ee7ccd23a1502dd1833b572020b94ea7d8eefb1a281"
+    "bytes": 6577,
+    "sha256": "fbe82a04be2f2f6196ec7f46e815a92f53564689bc1f2fd7f81942aaa4897301"
   },
   {
     "path": "projects/aimo-interpretability/docs/RESULTS.md",
-    "bytes": 5624,
-    "sha256": "fa2deaf73e7f0cae65f1bef87bfb31c8c3de3dfec492e38a08da854f5f8d63c7"
+    "bytes": 8175,
+    "sha256": "c3a6ebff1c494210830c9c00d16d623581aa23916d9beadc4b7f63d3811163ef"
   },
   {
     "path": "projects/aimo-interpretability/results/geometry/family_folds.json",
@@ -766,8 +771,8 @@
   },
   {
     "path": "projects/aimo-interpretability/source/geometry/README.md",
-    "bytes": 1306,
-    "sha256": "1125aefcf3c714d8d6a358db7946240c66ebd1c3164beaa0fc8ba9de63cf4111"
+    "bytes": 2101,
+    "sha256": "e78f39790eb8778d93784ee7705cc6f92d197e719f59de7f6df9a2e25bbae88b"
   },
   {
     "path": "projects/aimo-interpretability/source/geometry/geometry_analysis.py",
