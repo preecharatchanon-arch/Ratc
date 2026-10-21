@@ -1,8 +1,8 @@
 [
   {
     "path": "README.md",
-    "bytes": 10925,
-    "sha256": "5857009c27457456f4a13333ae8f981550c7a0ccb80a04044ce3a0fd079eb4e6"
+    "bytes": 12069,
+    "sha256": "ff84e60d687b165160c2bcb42601b6f43e43cfc42f75d991c4ea963daa790b26"
   },
   {
     "path": "SOURCE_MANIFEST.json",
@@ -728,6 +728,71 @@
     "path": "projects/adamw-memory/supplement/manifest.json",
     "bytes": 921,
     "sha256": "afd9fed29c46633b7367cbbc053caecf54be09f2ffb198dba284f2452a29ba03"
+  },
+  {
+    "path": "projects/aimo-interpretability/README.md",
+    "bytes": 6773,
+    "sha256": "925992bae0421e13b08a6dd42cb4b6efd5d27c1cf3b2e7fdd870177dcdb98643"
+  },
+  {
+    "path": "projects/aimo-interpretability/docs/NEXT_EXPERIMENT.md",
+    "bytes": 5026,
+    "sha256": "a061db54ea3cba9a3d278ee7ccd23a1502dd1833b572020b94ea7d8eefb1a281"
+  },
+  {
+    "path": "projects/aimo-interpretability/docs/RESULTS.md",
+    "bytes": 5624,
+    "sha256": "fa2deaf73e7f0cae65f1bef87bfb31c8c3de3dfec492e38a08da854f5f8d63c7"
+  },
+  {
+    "path": "projects/aimo-interpretability/results/geometry/family_folds.json",
+    "bytes": 3842,
+    "sha256": "3d331b4326809be308d5486cc98535fc29778256346c11f339ba3e7bb7bdd180"
+  },
+  {
+    "path": "projects/aimo-interpretability/results/geometry/held_out_predictions.json",
+    "bytes": 22322,
+    "sha256": "6922dcb87e91207bbc5e148f78372e328340a471d13a0d3458aa265c17fef33a"
+  },
+  {
+    "path": "projects/aimo-interpretability/results/geometry/provenance.json",
+    "bytes": 1277,
+    "sha256": "b634e1fbcb40bd25cfb4586b8d8267478f79f0831054ef2f22e6effa12f42227"
+  },
+  {
+    "path": "projects/aimo-interpretability/results/geometry/summary.json",
+    "bytes": 14350,
+    "sha256": "e42a884c88c45ecd6adc9de9b0ce6a75b922f85419e465a8192e3397364042b6"
+  },
+  {
+    "path": "projects/aimo-interpretability/source/geometry/README.md",
+    "bytes": 1306,
+    "sha256": "1125aefcf3c714d8d6a358db7946240c66ebd1c3164beaa0fc8ba9de63cf4111"
+  },
+  {
+    "path": "projects/aimo-interpretability/source/geometry/geometry_analysis.py",
+    "bytes": 9283,
+    "sha256": "44587da760f6328a61bea2e77c6da08d7e993f77e0bb9c52882efa315030c7bd"
+  },
+  {
+    "path": "projects/aimo-interpretability/source/geometry/geometry_common.py",
+    "bytes": 4815,
+    "sha256": "c84f5f95c26c0d6d6f45e0aeed8875b5ae427ef196cd08f573dc616971c535f9"
+  },
+  {
+    "path": "projects/aimo-interpretability/source/geometry/geometry_measures.py",
+    "bytes": 2413,
+    "sha256": "bd751a35c3aa785e4a5749a75c4a2751e568e30748fc61a252ce6f4a8add4305"
+  },
+  {
+    "path": "projects/aimo-interpretability/source/geometry/geometry_protocol.json",
+    "bytes": 3059,
+    "sha256": "0d8e8ddbab5555cca69b9a6e4c99e376cc0ff99c690edd2db926bcdcd4b54833"
+  },
+  {
+    "path": "projects/aimo-interpretability/verify_results.py",
+    "bytes": 6026,
+    "sha256": "35bab2402352a9888eed63a62caeccfad8242a2aaddace74dcfbe058fba027d3"
   },
   {
     "path": "projects/audio-fft/AUDIT.md",

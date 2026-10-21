@@ -1,0 +1,17 @@
+{
+  "publication_date": "2026-10-21",
+  "campaign": "official-geometry-v1.0",
+  "historical_result_zip_sha256": "55b9547ecdd9c330c8e7a4cf4d1f4f5fad8f7393771d1487e9d6b52fa83bda0e",
+  "official_dataset": "aimo-interp/train-main-v2",
+  "official_dataset_revision": "fa8af758c6519fc97a9d0bd9017feb6f12232b52",
+  "scope": "Unchanged historical analysis source and derived held-out predictions. No original problem text, model weights, generated reasoning, or raw activation cache.",
+  "files": {
+    "source/geometry/geometry_analysis.py": "44587da760f6328a61bea2e77c6da08d7e993f77e0bb9c52882efa315030c7bd",
+    "source/geometry/geometry_common.py": "c84f5f95c26c0d6d6f45e0aeed8875b5ae427ef196cd08f573dc616971c535f9",
+    "source/geometry/geometry_measures.py": "bd751a35c3aa785e4a5749a75c4a2751e568e30748fc61a252ce6f4a8add4305",
+    "source/geometry/geometry_protocol.json": "0d8e8ddbab5555cca69b9a6e4c99e376cc0ff99c690edd2db926bcdcd4b54833",
+    "results/geometry/family_folds.json": "3d331b4326809be308d5486cc98535fc29778256346c11f339ba3e7bb7bdd180",
+    "results/geometry/held_out_predictions.json": "6922dcb87e91207bbc5e148f78372e328340a471d13a0d3458aa265c17fef33a",
+    "results/geometry/summary.json": "e42a884c88c45ecd6adc9de9b0ce6a75b922f85419e465a8192e3397364042b6"
+  }
+}

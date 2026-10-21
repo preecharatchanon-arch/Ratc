@@ -1,6 +1,8 @@
 # Research and Engineering — Ratchanon Preecha
 
-I build computational systems and test how well their results support the decisions they are meant to inform. This repository brings together my work on waste-collection routing, neural-network training, audio signals, and taste-receptor modelling, with the code and evidence behind each project.
+I build computational systems and test how well their results support the decisions they are meant to inform. This repository brings together my work on waste-collection routing, neural-network training, mathematical-reasoning robustness, audio signals, and taste-receptor modelling, with the code and evidence behind each project.
+
+**Current research focus:** [AIMO Interpretability — predicting robustness of mathematical reasoning](projects/aimo-interpretability/README.md). The project page records completed negative results, saved predictions, and the next experimental questions.
 
 ## Where the work began
 
@@ -19,6 +21,7 @@ Application views from a controlled scenario in Figure 5 of the submitted FleetR
 | Work | Question and result | Open the evidence |
 | --- | --- | --- |
 | **Waste-collection routing → FleetRoute** | How can a multi-truck plan respect real-road constraints and remain inspectable? The work combines a hybrid search solver, independently checked routes, and an application for planners and drivers. | [NSC project story, reports and video](projects/nsc-2026/README.md) · [FleetRoute paper, application and benchmarks](projects/fleetroute/README.md) |
+| **AIMO Interpretability** | Can short inference traces predict sensitivity to reasoning-preserving problem changes? Completed fixed-feature tests have not shown incremental gains over stronger controls; behavioural supervision is the current hypothesis. | [Challenge, audited results and questions for advice](projects/aimo-interpretability/README.md) |
 | **Neural-training interventions** | Does a reproducible low-dimensional description predict what happens when training state is changed? A one-dimensional coordinate reproduced across tasks, but its frozen decoder performed worse than predicting zero displacement on held-out intervention tests. | [Study, findings and submitted paper](projects/neural-training/README.md) |
 | **AdamW optimizer memory** | Can a low-rank representation preserve the effects of changing optimizer memory? Short-horizon reconstruction improved descriptively in an eight-history follow-up, but the declared interaction test failed and longer-horizon prediction failed across those histories. | [Manuscript, saved evidence and CPU reconstruction](projects/adamw-memory/README.md) |
 | **Saltiness and taste-receptor research** | Five connected analyses examine CaSR activity prediction, sensory-data transfer, dose-dependent enhancement, receptor-site access and functional assay controls, with explicit limits on what computation can establish. | [Experiments, data and findings](projects/salt-casr/README.md) · [Experiment index](projects/salt-casr/experiments/README.md) |
@@ -44,6 +47,7 @@ The retained fleet-routing benchmark reports a **2.02% mean best-of-three refere
 | --- | --- | --- |
 | Routing solver | [C++17 source](solvers/current/solver.cpp) | [Compile and run a small directed-road example](solvers/current/README.md#build-and-run) |
 | FleetRoute | [Application source](projects/fleetroute/source), [routing backend](projects/fleetroute/source/app/engine.py), [road-data processing](projects/fleetroute/source/app/offline_osm.py), [interface](projects/fleetroute/source/app/static) | [Two-cell Colab launch and frozen-result checks](projects/fleetroute/README.md#run-and-inspect) |
+| AIMO Interpretability | [Historical feature and analysis source](projects/aimo-interpretability/source/geometry/README.md), [saved predictions](projects/aimo-interpretability/results/geometry/held_out_predictions.json) | [Verify the published result counts on CPU](projects/aimo-interpretability/README.md#verify-the-saved-result-counts) |
 | Neural training | [Final confirmation notebook](projects/neural-training/source/evidence/02_final_confirmation_notebook.ipynb), [final claims](projects/neural-training/source/evidence/01_final_confirmation_claims.json) | [Historical inputs and execution requirements](projects/neural-training/README.md#code-and-execution-scope) |
 | AdamW memory | [Experiment protocols](projects/adamw-memory/source/protocols), [analysis scripts](projects/adamw-memory/source/scripts) | [Recompute retained results on CPU](projects/adamw-memory/README.md#code-and-cpu-verification) |
 | Saltiness and taste receptors | [Five analysis reports](projects/salt-casr/experiments/README.md), [shared inputs](projects/salt-casr/data/README.md) | [CPU/Colab entry points and verification](projects/salt-casr/README.md#run-an-experiment) |
@@ -59,6 +63,7 @@ The routing and neural-research source snapshots retain their supplied archive i
 | FleetRoute | Submitted to the **Innovative Applications of Artificial Intelligence Conference (IAAI-27)** |
 | *Reproducible Low-Dimensional Structure Can Fail a Causal-State Test in Neural Training* | Submitted to the **AAAI-27 Student Abstract and Poster Program** |
 | *Testing Low-Rank Causal Control in AdamW Memory* | Research manuscript; **not submitted to AISTATS** |
+| AIMO Interpretability Challenge | Small Models Track research in progress; no verified competitive improvement or retained official leaderboard score |
 | Saltiness and taste-receptor research | Five completed computational analyses; no validated new saltiness enhancer |
 | Audio analysis | Personal signal-processing project; no validated engine-fault classifier |
 

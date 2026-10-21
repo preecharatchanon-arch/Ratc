@@ -1,0 +1,27 @@
+{
+  "version": "official-geometry-v1.0",
+  "question": "Does geometry of early continuation activations improve out-of-family prediction of official robustness labels beyond structure, confidence, prose sensitivity and temporal uncertainty?",
+  "prefix_tokens": 128,
+  "layer_fraction": 0.75,
+  "layer_rule": "Decoder block output at zero-based index ceil(0.75 * number_of_decoder_blocks) - 1, before final normalization. One layer only; no layer search.",
+  "hidden_geometry": {
+    "normalization": "Convert continuation-token block outputs to CPU float64, L2-normalize each token row, then center rows by their token-wise mean. Form the token Gram matrix and divide by its trace.",
+    "ridge": 0.000001,
+    "cache_feature_reconstruction_absolute_tolerance": 0.00000001,
+    "features": ["normalized_spectral_entropy", "largest_eigenvalue_share", "mean_log_regularized_eigenvalue", "mean_adjacent_cosine_distance"],
+    "degenerate_policy": "Fail the measurement explicitly for zero token norms or zero centered variation; no fabricated geometry or silent case exclusion.",
+    "scope": "LLM-Check-inspired normalized, single-layer, fixed-prefix adaptation; not literal replication and not a mechanistic faithfulness test."
+  },
+  "temporal_features": ["entropy_slope_normalized_time", "entropy_linear_fit_r2", "last_quarter_minus_first_quarter_entropy", "maximum_stride1_16_token_mean_entropy_minus_global_mean"],
+  "readout": {"C": 0.1, "solver": "liblinear", "class_weight": null, "threshold": 0.5, "standardization": "Unweighted training-fold-only mean and centered second moment; scale below 1e-12 becomes one", "seed": 261020, "bootstrap": 5000},
+  "arms": ["always_robust", "model", "structure", "aggregate", "prose_control", "temporal", "geometry", "combined"],
+  "primary": "geometry",
+  "references": ["always_robust", "model", "structure", "aggregate", "prose_control", "temporal"],
+  "secondary": "combined is descriptive only; it cannot substitute for a failed primary candidate",
+  "gates": {"minimum_net_correct_vs_strongest_reference": 3, "minimum_benefiting_families": 3, "paired_family_bootstrap_lower": 0.0, "nonrobust_recall_not_lower": true, "no_single_family_reversal": true, "complete_reference_validated_measurements": true},
+  "measurement_session_seconds": 1200,
+  "bootstrap_scope": "Whole-family resampling of fixed OOF predictions, conditional on fitted predictions. Intervals do not cover retraining, prior hypothesis selection or simultaneous testing uncertainty.",
+  "interpretation": "Previously inspected public development data: any positive result earns external validation on genuinely new families, not a claim of winning or independent confirmation. A negative primary result closes this geometry branch; do not select a layer, threshold or alternative arm using these same held-out results.",
+  "references_checked": "2026-10-20",
+  "primary_sources": ["https://github.com/GaurangSriramanan/LLM_Check_Hallucination_Detection", "https://arxiv.org/abs/2605.07776", "https://github.com/aimo-interp/getting-started"]
+}
