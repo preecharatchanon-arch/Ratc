@@ -48,8 +48,10 @@ The existing larger notebook permits 24,576 generated tokens and was not verifie
 
 ## Questions for an adviser
 
-1. Which control best tests whether the measurements capture vulnerability to problem changes rather than ordinary correctness or difficulty?
-2. With few official families, should the first priority be broader training examples, a simpler predictor, or another test of performance on new data?
-3. Which GPU profiling method or execution design would make repeated measurements efficient and reproducible?
+The request is for ideas about where to go next, given the completed negative results. The experiment above is one current hypothesis, not a conclusion that it is the best direction.
+
+1. What alternative signal, mechanism or formulation would be worth investigating for robustness of mathematical reasoning?
+2. Does learning measured accuracy drop seem a useful next direction, or does another hypothesis have a stronger rationale?
+3. Which paper or research group's work would help challenge the assumptions of the methods already tried?
 
 No external adviser is associated with or endorses the project merely by being asked these questions.

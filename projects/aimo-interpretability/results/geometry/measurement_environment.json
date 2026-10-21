@@ -1,0 +1,24 @@
+{
+  "scope": "Recorded environment of the completed A100 geometry run; not a new hardware execution.",
+  "run_identity": {
+    "source_sha256": "5b1fd6bbd440a6d0c8b86d745f7b6f3919e800b4dbe37bf82b04e9179732797f",
+    "run": "3820f7a4ec92e2e4dc506e7da01a6b2ee0ec271a07af3ccb124fd0bcde46e97d",
+    "environment": {
+      "python": "3.13.15",
+      "torch": "2.11.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA A100-SXM4-40GB",
+      "transformers": "5.13.0",
+      "tokenizers": "0.22.2",
+      "numpy": "2.3.5",
+      "scikit-learn": "1.8.0",
+      "dtype": "bfloat16",
+      "attention": "sdpa"
+    }
+  },
+  "current_cpu_replay": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0"
+  }
+}

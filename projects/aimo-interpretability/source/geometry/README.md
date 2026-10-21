@@ -13,7 +13,7 @@ These four files are unchanged copies of the completed experiment's source. They
 
 Code names such as `temporal`, `readout`, `Gram`, `eigenvalue`, `AUROC` and `bootstrap` are explained in [Methods](../../docs/METHODS.md). The numerical source and machine-readable result keys retain their historical names to preserve identity with the audited experiment.
 
-The original `cases.json`, `frozen_profiles.json`, GPU records and archive are not included. Training the predictors again requires those historical inputs. This is not a complete GPU runner or competition submission. From the repository root, verify the published predictions using:
+The original `cases.json`, `frozen_profiles.json`, GPU records and archive are not included. Regenerating the original LLM measurements requires those historical inputs. The small predictors can now be retrained from the separately published derived feature matrices using `../../reproduce_readouts.py`; see [reproduction scope](../../docs/REPRODUCIBILITY.md). This is not a complete GPU runner or competition submission. From the repository root, verify the published predictions using:
 
 ```sh
 python projects/aimo-interpretability/verify_results.py

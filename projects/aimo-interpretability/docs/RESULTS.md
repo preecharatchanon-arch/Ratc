@@ -30,7 +30,7 @@ Scores from different experiments are not a learning curve: the later vector-sha
 - A fixed logistic-regression predictor converts a weighted combination of measurements into a robustness probability. The implementation uses `C=0.1`, `liblinear`, no class weighting and threshold 0.5. Measurements are standardized using only the training partition. These fitting terms are explained in [Methods](METHODS.md#text-units-internal-vectors-and-small-predictors).
 - Each family and its model-specific cases are excluded from training together when evaluated. The internal-vector-shape addition is the main proposed improvement, called the **primary candidate**. Combining it with uncertainty changes is a secondary description, not a replacement candidate selected after seeing results.
 
-The machine-readable [protocol](../source/geometry/geometry_protocol.json), [feature calculations](../source/geometry/geometry_measures.py) and [historical analysis](../source/geometry/geometry_analysis.py) remain unchanged. Retraining the predictors requires original measurement files not included in this publication. A lighter saved-prediction check is provided instead.
+The machine-readable [protocol](../source/geometry/geometry_protocol.json), [feature calculations](../source/geometry/geometry_measures.py) and [historical analysis](../source/geometry/geometry_analysis.py) remain unchanged. The original LLM measurement files are not included. The numerical inputs to each small predictor are now published as [feature matrices](../results/geometry/feature_matrices.json), allowing the predictor-fitting stage to be reproduced without those original files.
 
 ## Outcome and numerical verification
 
@@ -46,7 +46,7 @@ The original returned ZIP passed checks for archive corruption and source-file i
 
 These 20 public families have been inspected across earlier experiments. Keeping families separate within each training/test partition does not undo research choices informed by previous results. The 128-token beginnings may contain restatement or boilerplate. No private competition score or general explanation of the model's reasoning follows from this result.
 
-The [verification script](../verify_results.py) recalculates classification metrics from saved predictions and checks hashes and family separation. It does not regenerate internal vectors, retrain predictors, rerun the bootstrap or establish performance on new families. Definitions of its reported accuracy, balanced accuracy, Brier loss and AUROC are in [Methods](METHODS.md#how-the-predictions-are-evaluated).
+The [verification script](../verify_results.py) recalculates classification metrics from saved predictions and checks hashes and family separation. A separate [CPU reproduction script](../reproduce_readouts.py) retrains every small predictor from published derived features using a separately written sklearn pipeline. It reproduces all classifications, with maximum probability difference 1.11e−16 in NumPy 2.3.5 and scikit-learn 1.8.0. Neither script regenerates LLM vectors, reruns the bootstrap or establishes performance on new families. See [reproduction scope](REPRODUCIBILITY.md). Definitions of its reported accuracy, balanced accuracy, Brier loss and AUROC are in [Methods](METHODS.md#how-the-predictions-are-evaluated).
 
 ## Data origin
 

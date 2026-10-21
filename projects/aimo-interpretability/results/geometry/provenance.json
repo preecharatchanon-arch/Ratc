@@ -12,6 +12,9 @@
     "source/geometry/geometry_protocol.json": "0d8e8ddbab5555cca69b9a6e4c99e376cc0ff99c690edd2db926bcdcd4b54833",
     "results/geometry/family_folds.json": "3d331b4326809be308d5486cc98535fc29778256346c11f339ba3e7bb7bdd180",
     "results/geometry/held_out_predictions.json": "6922dcb87e91207bbc5e148f78372e328340a471d13a0d3458aa265c17fef33a",
-    "results/geometry/summary.json": "e42a884c88c45ecd6adc9de9b0ce6a75b922f85419e465a8192e3397364042b6"
-  }
+    "results/geometry/summary.json": "e42a884c88c45ecd6adc9de9b0ce6a75b922f85419e465a8192e3397364042b6",
+    "results/geometry/feature_matrices.json": "00d7fb1fe4c48ad28582b0cc5de0e219fbfdf0bb4c9ce0b4356f95eb1a474a5f",
+    "results/geometry/measurement_environment.json": "96d18cba2c99027b69856b8ad19b4207ed1822c3c9b660419b99053925969f15"
+  },
+  "derived_feature_export": "Created on 2026-10-21 from the identity-checked historical inputs and geometry caches using the original matrices_for function. Column names follow the original vector and probe feature builders, including the final six position-selection controls."
 }

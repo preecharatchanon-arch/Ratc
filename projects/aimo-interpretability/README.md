@@ -96,15 +96,24 @@ python projects/aimo-interpretability/verify_results.py
 
 Python 3.10+ and its standard library are sufficient. The script checks file hashes, which detect changed bytes, and checks that each family was excluded from training when evaluated. It recalculates the classification counts and other reported scores from saved predictions. Definitions of balanced accuracy, Brier loss and AUROC are in [Methods](docs/METHODS.md#how-the-predictions-are-evaluated).
 
-This verifies saved results on CPU. It does not regenerate model outputs or retrain predictors. [Saved predictions](results/geometry/held_out_predictions.json) · [saved summary](results/geometry/summary.json) · [analysis source guide](source/geometry/README.md).
+This command verifies saved results on CPU. To **retrain all eight small predictors across the 20 family-excluded partitions**, a second script uses the published numerical feature matrices:
+
+```sh
+python -m pip install -r projects/aimo-interpretability/requirements-replay.txt
+python projects/aimo-interpretability/reproduce_readouts.py
+```
+
+Use Python 3.11+ with NumPy 2.3.5 and scikit-learn 1.8.0 for that second command. The CPU replay reproduced every classification, with maximum probability difference 1.11e−16. It refits from derived features; it does not regenerate the original LLM outputs or internal measurements. [Reproduction scope and environment](docs/REPRODUCIBILITY.md). [Saved predictions](results/geometry/held_out_predictions.json) · [saved summary](results/geometry/summary.json) · [analysis source guide](source/geometry/README.md).
 
 ## Advice I am seeking
 
-- Which experiment best separates sensitivity to problem changes from ordinary answer correctness or problem difficulty?
-- How should I evaluate performance on new problems with few labeled families and several different models?
-- How should GPU memory measurements and saved progress be organized so long experiments provide reproducible intermediate results?
+The open issue is the next research direction. The completed measurements have not supplied a convincing new signal. The behavioural-supervision proposal is one possibility, not an established solution or a commitment to expand it.
 
-The [next-experiment note](docs/NEXT_EXPERIMENT.md) gives the proposed tests and decision criteria.
+- Which alternative signal, mechanism or research hypothesis would be worth investigating after these results?
+- Is predicting measured accuracy drop a promising formulation, or is there a better way to approach this robustness question?
+- Which paper or research group's work would help challenge the current assumptions and suggest a different experiment?
+
+The [next-experiment note](docs/NEXT_EXPERIMENT.md) records the current hypothesis and what it would need to establish. Suggestions for a substantially different direction are welcome.
 
 ## Rights and data scope
 
