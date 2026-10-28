@@ -18,6 +18,36 @@ This project connects published peptide chemistry, receptor assays and human sen
 
 The earlier [arginyl-control](docs/ARGINYL_STARTING_POINT.md) and [RP/KP sensory](docs/PROLYL_SENSORY_FOLLOWUP.md) notes remain historical branches. They do not supersede the current CaSR question or establish that a new laboratory experiment is ready.
 
+## Latest completed tests: actual results
+
+These are our computational reanalyses of existing published measurements and saved poses, completed before this README update. They are exploratory, not independent biological confirmation.
+
+| Test | Actual result | What it changes |
+| --- | --- | --- |
+| **Fixed receptor-prediction comparison** | 58 compounds, 26 chemical families. Positional-model MAE **0.7653** versus **0.7989** for the existing nearest-three model; error reduction **0.0337** log units, conditional family-bootstrap 95% interval **[-0.1104, 0.1553]**. | The point error improves, but the interval crosses zero. Reliable incremental gain is not established. |
+| **Predicting the effect of adding terminal Gly** | 11 matched core/Gly peptide pairs. Prediction MAE **0.9151** versus **0.8851** for the training-mean effect; gain **-0.0300**, interval **[-0.2498, 0.1842]**. | The tested chemistry-based rule does not reliably improve prediction of the Gly-extension effect. |
+| **Independent native-pose verification** | Symmetry-corrected spyrmsd top-pose RMSD **4.7803 Å**. The closest of the ten saved poses is **2.3158 Å**, ranked fifth; no rigid alignment. | Confirms the pose-ranking limitation. This checks saved coordinates; it is not new docking. |
+
+[Protocol and reproduction guide](experiments/01-casr-models-and-docking/followups/2026-10-27/README.md) · [Model summary](experiments/01-casr-models-and-docking/followups/2026-10-27/output/summary.json) · [Fold predictions](experiments/01-casr-models-and-docking/followups/2026-10-27/output/fold_predictions.csv) · [Independent pose result](experiments/01-casr-models-and-docking/followups/2026-10-27/output/independent_RMSD_check.json)
+
+The gain intervals are conditional on the fitted models and previously inspected data. Published concentration ranges are not confidence intervals. Receptor-prediction error is not human saltiness performance.
+
+## Meaningful published data recovered
+
+These measurements belong to the original authors. Our contribution here is recovering, attributing and checking their endpoints and conditions, not discovering new effective compounds.
+
+| Evidence recovered | What is actually available | Interpretation |
+| --- | --- | --- |
+| **Five named receptor/saltiness links** | Gamma-Glu-Abu (Abu = 2-aminobutyric acid), gamma-Glu-Val-Gly, gamma-Glu-Ala, gamma-Glu-Val and reduced glutathione (GSH). Four have numerical saltiness observations here; gamma-Glu-Val is graphical only. Nine numerical formulation/dose conditions yield eleven heterogeneous endpoint values. | Real compound-level overlap exists, including non-significant GSH conditions. It is not a jointly tested candidate panel; repeated doses/time windows are not independent compounds, and the values cannot be pooled into one score. |
+| **Original Ohsu and Broadhead receptor papers** | Ohsu supplies a six-identity receptor/kokumi panel. Broadhead supplies four peptide EC50 estimates with SE and experiment counts. | Useful receptor and kokumi documentation, but neither supplies the required separate human saltiness panel. The apparent Ohsu table/caption potency discrepancy remains unresolved. |
+| **AMPC beef-offal application report** | Human-CaSR responses to extracts and human flash profiling of patties containing extracts. Liver-G and Lung-G names overlap, but processing and receptor/human control contrasts differ. | A relevant preparation-level receptor/food-sensory connection; no individual peptide saltiness effects or valid two-extract predictor test. |
+| **Deng2026 original supplement** | Equal-molar GSH, gamma-Glu-Val and gamma-Glu-gamma-Glu-Val comparisons in an MSG background, alongside STC-1 calcium/CCK measurements. | A useful dose-controlled **umami** comparison. Cellular inhibitor responses are not human saltiness scores or human-CaSR EC50 values. |
+| **Palatability without a significant saltiness difference** | Hayabuchi2020, 584 participants: at 0.9% NaCl, adding 0.3% MSG raises palatability VAS **40.7 → 51.6**; saltiness **73.8 → 72.3**, reported **P=0.3013**. | Supports the separate liking opportunity. These are published simple-solution results, not our peptide or frozen-food results; equal NaCl is not equal total sodium. Non-significance is not equivalence. |
+
+[Compound/condition registry and source locators](evidence-review/evidence.json) · [Original-method assessment](evidence-review/ASSESSMENT.md) · [Detailed source qualifications](evidence-review/source_qualification.json) · [Palatability study, conditions and uncertainty](docs/SENSORY_OUTCOMES.md)
+
+The **80-record indexed screen** documents search coverage and source decisions, not 80 experiments or newly measured peptides. Missing outcomes remain missing. These findings narrow the next decision: actual matched measurements and a justified useful-effect criterion are needed before fitting a CaSR-to-saltiness selector.
+
 ## Experiments
 
 | Experiment | Question and completed result | Open |
@@ -67,4 +97,4 @@ The project URL stays the same. Previously shared notebook URLs are retained as 
 
 See the [data guide](data/README.md) for source citations, units, evidence labels and licence boundaries. SaltyMeta's author-curated labels are not independently verified for every peptide. Source-table transcriptions and computational results have different evidential status. Full publisher articles are not redistributed.
 
-The [organization review](verification/ORGANIZATION_REVIEW.json) records what was checked in this layout update. Original execution records remain with their experiments. The repository [checksum index](../../ARTIFACT_CHECKSUMS.json) identifies the actual current files, including compatibility notebook aliases.
+The [15 October organization review](verification/ORGANIZATION_REVIEW.json) records the original layout checks; the [verification guide](verification/README.md) describes the current integrity check. Original execution records remain with their experiments. The repository [checksum index](../../ARTIFACT_CHECKSUMS.json) identifies the actual current files, including compatibility notebook aliases.
