@@ -2791,8 +2791,8 @@
   },
   {
     "path": "projects/salt-casr/verification/FILE_INDEX.csv",
-    "bytes": 27089,
-    "sha256": "91ac6653928e88c9d9cd2ba792e59760639d20c3d5308553adcac2e38e7f04dc"
+    "bytes": 26824,
+    "sha256": "d71a9a3de57af3d4f943b646fa6fce0ba59e5f0fc87a931a1570d4863887c42f"
   },
   {
     "path": "projects/salt-casr/verification/ORGANIZATION_REVIEW.json",
@@ -2801,8 +2801,8 @@
   },
   {
     "path": "projects/salt-casr/verification/PATH_MAP.csv",
-    "bytes": 41472,
-    "sha256": "0a341aeb590a928019e76b85504a868ab06f7266de3eb25bfebc7c9b44e73cb9"
+    "bytes": 41324,
+    "sha256": "bfd2c8bd310e7de8cfcbdf7a690b9ba343b162b5bd5b4f3c0f248d742da6bbf1"
   },
   {
     "path": "projects/salt-casr/verification/README.md",
