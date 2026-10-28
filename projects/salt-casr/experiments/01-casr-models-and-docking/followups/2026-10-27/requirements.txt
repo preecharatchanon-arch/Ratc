@@ -1,0 +1,7 @@
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+scikit-learn==1.8.0
+rdkit==2025.9.3
+spyrmsd==0.9.0
+rustworkx==0.17.1

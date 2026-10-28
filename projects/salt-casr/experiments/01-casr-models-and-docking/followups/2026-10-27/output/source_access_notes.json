@@ -1,0 +1,40 @@
+{
+  "Amino2016": {
+    "doi": "10.1248/cpb.c16-00293",
+    "source_url": "https://www.jstage.jst.go.jp/article/cpb/64/8/64_c16-00293/_html/-char/en",
+    "access": "primary full text",
+    "condition": "0.5% NaCl, 0.05% MSG, 0.05% IMP; 5 assessors; three sessions",
+    "endpoint": "kokumi taste-intensity recognition in a mixture, not isolated saltiness",
+    "uncertainty": "No individual-assessor observations/CI recovered; same publication as receptor training table, not independent validation"
+  },
+  "Miyaki2015": {
+    "doi": "10.1186/2044-7248-4-17",
+    "source_url": "https://link.springer.com/article/10.1186/2044-7248-4-17",
+    "access": "primary full text",
+    "condition": "5 ppm peptide in chicken consomme; 18 assessors; reported analysis uses the second evaluation replicate",
+    "endpoint": "no significant change in saltiness reported; not evidence of a zero effect",
+    "uncertainty": "Recipe NaCl addition is not total sodium; no sodium-reduction percentage inferred"
+  },
+  "Yi2025": {
+    "doi": "10.1007/s11947-025-03894-7",
+    "source_url": "https://link.springer.com/article/10.1007/s11947-025-03894-7",
+    "access": "primary abstract and public supplement; main methods not recovered",
+    "endpoint": "saltiness enhancement thresholds",
+    "uncertainty": "Exact NaCl matrix, panel and error-statistic definition not recovered; supplement provides scoring card and purity figures; docking/MD do not supply measured CaSR EC50"
+  },
+  "Tu2023": {
+    "doi": "10.1021/acs.jafc.3c01467",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/37170549/",
+    "access": "primary abstract; full methods not recovered; checked figshare record has no downloadable files",
+    "endpoint": "enhancement reported for eight sequences",
+    "aggregate_salt_threshold_range": "1.65±0.19 to 2.23±0.20 mM, set-level only; no individual values assigned",
+    "uncertainty": "Exact matrix, panel and per-compound threshold assignments remain unverified"
+  },
+  "Ahmad2025": {
+    "doi": "10.1016/j.fochx.2025.102616",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12192335/",
+    "access": "primary full text",
+    "endpoint": "CaSR response of GSH-sugar Maillard mixtures",
+    "uncertainty": "No sensory validation; heterogeneous mixtures are not pure-compound EC50 rows"
+  }
+}

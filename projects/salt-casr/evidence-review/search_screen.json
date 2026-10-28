@@ -1,0 +1,1569 @@
+{
+  "date": "2026-10-28",
+  "purpose": "bounded bibliographic source qualification, not systematic review or experimental validation",
+  "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+  "queries": {
+    "A": {
+      "query": "SRC:MED AND (TITLE_ABS:CaSR OR TITLE_ABS:\"calcium-sensing receptor\") AND (TITLE_ABS:kokumi OR TITLE_ABS:saltiness OR TITLE_ABS:salty OR TITLE_ABS:taste) AND (TITLE_ABS:peptide OR TITLE_ABS:peptides) AND FIRST_PDATE:[1900-01-01 TO 2026-10-28]",
+      "reported_hits": 48,
+      "returned": 48,
+      "resultType": "core",
+      "pageSize": 100,
+      "raw_retrieval_sha256": "a71ac6bf42764f1f9392cf6212dddb7a8f6742e1187fc267c54ffbbf8af1eb13"
+    },
+    "B": {
+      "query": "SRC:MED AND TITLE_ABS:kokumi AND (TITLE_ABS:receptor OR TITLE_ABS:activation OR TITLE_ABS:cells OR TITLE_ABS:cellular) AND FIRST_PDATE:[1900-01-01 TO 2026-10-28]",
+      "reported_hits": 65,
+      "returned": 65,
+      "resultType": "core",
+      "pageSize": 100,
+      "raw_retrieval_sha256": "c33663fa99a874737f566e02df2f382112d3160452348a34e3b073d50115b500"
+    }
+  },
+  "union_records": 80,
+  "shared_records": 33,
+  "additional_B_records": 32,
+  "interpretation": "False means no newly qualified complete target panel was recovered in this assessment; never no biological activity or proof of absence in unseen methods.",
+  "limitations": [
+    "MEDLINE-source title/abstract terms, indexing and date cutoff limit coverage",
+    "abstract-only screens do not establish absence in unseen full text",
+    "all inspected evidence is development material",
+    "earlier706-hit query returned only100 and is not an exhaustive screen",
+    "no full abstract corpus is redistributed"
+  ],
+  "records": [
+    {
+      "pmid": "42433183",
+      "doi": "10.1111/1750-3841.71267",
+      "title": "Kokumi Peptides in Salt Reduction: Preparation, Evaluation Methods, Perceptual Mechanisms, and Prospects for Food Applications.",
+      "first_publication_date": "2026-07-01",
+      "indexed_publication_types": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/42433183/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "review",
+      "manual_assessment": "Review; citation locator only, no primary measurements assigned.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "42580059",
+      "doi": "10.1016/j.foodchem.2026.150757",
+      "title": "Kokumi peptides in meat products: molecular activity, sensory performance, and reformulation potential.",
+      "first_publication_date": "2026-08-10",
+      "indexed_publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/42580059/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "review",
+      "manual_assessment": "Review of translation to meat matrices; not a new experiment.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "42463253",
+      "doi": "10.1016/bs.pmbts.2026.03.004",
+      "title": "Calcium-sensing receptor involved in the oral perception of kokumi substances.",
+      "first_publication_date": "2026-03-31",
+      "indexed_publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/42463253/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "review",
+      "manual_assessment": "Receptor/cryo-EM review chapter; not new separate human saltiness outcomes.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "42915798",
+      "doi": "10.1021/acs.jafc.6c11250",
+      "title": "Umami-Enhancing Effects of Kokumi Peptides Associated with CaSR-Related Cellular Responses in STC-1 Cells.",
+      "first_publication_date": "2026-10-01",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/42915798/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "supplement_and_abstract",
+      "manual_assessment": "Deng2026: original SI S8 visually checked; equimolar umami and STC-1 calcium/CCK, not saltiness/hCaSR potency.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "42659979",
+      "doi": "10.1016/j.foodchem.2026.150843",
+      "title": "A multi-modal workflow identifies non-γ-glutamyl kokumi peptides in plant proteins.",
+      "first_publication_date": "2026-08-18",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/42659979/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_unresolved",
+      "manual_assessment": "Reumiller2026: functional CaSR including YFY reported; actual assay panel and separate human outcomes unrecovered.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "41106265",
+      "doi": "10.1016/j.foodchem.2025.146749",
+      "title": "Integrated peptidomics and in-silico approach for elucidation of the flavour generating peptides in enzymatically hydrolysed shiitake mushroom extracts.",
+      "first_publication_date": "2025-10-13",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/41106265/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_screen",
+      "manual_assessment": "Shiitake: synthesized sensory candidates and modeled receptor interactions; actual functional CaSR not established here.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "42914855",
+      "doi": "10.1016/j.foodchem.2026.151628",
+      "title": "Integrating instrumental analysis and computational simulation to elucidate the effect of dual-enzyme hydrolysis combined with γ-glutamylation on the flavor characteristics of soybean meal.",
+      "first_publication_date": "2026-10-15",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/42914855/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_screen",
+      "manual_assessment": "Soybean meal: treatment mixtures, sensory/instrumental flavor and docking; individual functional CaSR not established here.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "40398239",
+      "doi": "10.1016/j.foodchem.2025.144749",
+      "title": "Flavor and structure characteristics of egg white peptides based on γ-glutamylation modification: A promising flavor enhancement strategy.",
+      "first_publication_date": "2025-05-15",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/40398239/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_screen",
+      "manual_assessment": "Egg white: 21 gamma peptides identified after treatment; individual matched functional CaSR/human saltiness not established here.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "41725188",
+      "doi": "10.1093/chemse/bjag006",
+      "title": "Kokumi substances as taste modulators: sensory properties and molecular mechanisms.",
+      "first_publication_date": "2026-03-01",
+      "indexed_publication_types": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/41725188/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "review",
+      "manual_assessment": "Kokumi mechanisms review; locate original sources only.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "40567581",
+      "doi": "10.1016/j.fochx.2025.102616",
+      "title": "Activation of the calcium-sensing receptor by glutathione maillard products: Implications for kokumi sensation.",
+      "first_publication_date": "2025-06-03",
+      "indexed_publication_types": [
+        "brief-report",
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/40567581/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_screen",
+      "manual_assessment": "GSH Maillard mixtures: measured CaSR, abstract explicitly acknowledges lack of sensory validation.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "39890873",
+      "doi": "10.1038/s41598-025-87999-1",
+      "title": "Cryo-EM structure of the calcium-sensing receptor complexed with the kokumi substance γ-glutamyl-valyl-glycine.",
+      "first_publication_date": "2025-01-31",
+      "indexed_publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/39890873/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "prior_original_work",
+      "manual_assessment": "Peptide-bound CaSR structure 9J7I already used in original docking; not a new justification to restart screening.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "38945609",
+      "doi": "10.1016/j.foodres.2024.114593",
+      "title": "Current trends and perspectives on salty and salt taste-enhancing peptides: A focus on preparation, evaluation and perception mechanisms of salt taste.",
+      "first_publication_date": "2024-06-06",
+      "indexed_publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "queries": [
+        "A"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/38945609/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "review",
+      "manual_assessment": "Salt peptide review; no new primary outcomes assigned.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "41146685",
+      "doi": "10.1016/j.fochx.2025.103171",
+      "title": "Discovery and mechanistic profiling of novel kokumi peptides from Wuding chicken soup.",
+      "first_publication_date": "2025-10-14",
+      "indexed_publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "queries": [
+        "A"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/41146685/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "indexed_original_methods",
+      "manual_assessment": "Wuding chicken: original indexed methods inspected; sensory/docking does not establish functional CaSR panel.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "42904983",
+      "doi": "10.1021/acs.jafc.6c06280",
+      "title": "Metabolite-Peptidome Flavor Synergy and Predicted Receptor-Level Interactions in Black Tea across Diverse Cultivars.",
+      "first_publication_date": "2026-10-01",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/42904983/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_screen",
+      "manual_assessment": "Black tea cultivar peptidomics and predicted receptor interactions; no individual functional CaSR established.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "39921980",
+      "doi": "10.1016/j.foodchem.2025.143004",
+      "title": "Comparative analysis of kokumi effects in Ile-Leu, Ile-Ile, Leu-Leu, and Leu-Ile: Sensory, simulation, and structural insights.",
+      "first_publication_date": "2025-01-26",
+      "indexed_publication_types": [
+        "Comparative Study",
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/39921980/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_screen",
+      "manual_assessment": "LL/LI/II/IL: sensory thickness/continuity and MD; no separate saltiness-functional CaSR panel established.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "42357588",
+      "doi": "10.3390/molecules31122193",
+      "title": "Discovery and Putative Perception Mechanisms of Novel Umami Peptides from &lt;i&gt;Ruditapes philippinarum&lt;/i&gt; Cooking Liquid: &lt;i&gt;In Silico&lt;/i&gt; Screening, Molecular Docking, Sensory Evaluation, and STC-1 Cell-Based Validation.",
+      "first_publication_date": "2026-06-22",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "A"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/42357588/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "indexed_original_methods",
+      "manual_assessment": "Clam2026: STC-1 bulk calcium and qPCR; CaSR transcript change is not CaSR-specific functional potency.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "38328886",
+      "doi": "10.1039/d3fo04487d",
+      "title": "Novel kokumi peptides from yeast extract and their taste mechanism <i>via</i> an <i>in silico</i> study.",
+      "first_publication_date": "2024-03-04",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/38328886/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_screen",
+      "manual_assessment": "Yeast IQGFK/EDFFVR sensory kokumi and docking/MD; measured functional CaSR not established here.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "42914331",
+      "doi": "10.1016/j.foodres.2026.120600",
+      "title": "Umami-active components in edible Fungi: Distribution, structure-function relationships, molecular mechanisms, computational insights and industrial applications.",
+      "first_publication_date": "2026-08-31",
+      "indexed_publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "queries": [
+        "A"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/42914331/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "review",
+      "manual_assessment": "Edible-fungi umami review; no primary outcome labels assigned.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "36563734",
+      "doi": "10.1016/j.physbeh.2022.114063",
+      "title": "Enhancement of allyl isothiocyanate-evoked responses of mouse trigeminal ganglion cells by the kokumi substance γ-glutamyl-valyl-glycine (γ-EVG) through activation of the calcium-sensing receptor (CaSR).",
+      "first_publication_date": "2022-12-21",
+      "indexed_publication_types": [
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/36563734/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "original_manuscript",
+      "manual_assessment": "Akiyama2023: human-CaSR HEK assay and mouse trigeminal responses; matched human saltiness not recovered; anserine bounds unresolved.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "38735106",
+      "doi": "10.1016/j.foodchem.2024.139466",
+      "title": "Gamma-glutamylation of beef protein hydrolysates to improve its overall taste and functions of gastro-intestinal hormone (CCK and GLP-1) pro-secretion and anti-inflammation.",
+      "first_publication_date": "2024-04-24",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/38735106/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_screen",
+      "manual_assessment": "Beef hydrolysate2024: mixture sensory/gut hormone outcomes and peptide docking; individual saltiness-CaSR panel not established.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "34006911",
+      "doi": "10.1038/s41598-021-89558-w",
+      "title": "Kokumi taste perception is functional in a model carnivore, the domestic cat (Felis catus).",
+      "first_publication_date": "2021-05-18",
+      "indexed_publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/34006911/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_screen",
+      "manual_assessment": "Domestic cat study: species differences and animal preference; no matched separate human saltiness panel established here.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "37544154",
+      "doi": "10.1016/j.foodchem.2023.136988",
+      "title": "Synthesis of taste active γ-glutamyl peptides with pea protein hydrolysate and their taste mechanism via in silico study.",
+      "first_publication_date": "2023-07-24",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/37544154/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "prior_primary_abstract",
+      "manual_assessment": "Pea EVV remains unresolved: measured receptor MEC overlap known, but individual sensory table/conditions unrecovered; no group-range allocation.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "38318946",
+      "doi": "10.1039/d3fo05406c",
+      "title": "Exploring novel Kokumi peptides in <i>Agaricus bisporus</i>: selection, identification, and tasting mechanism investigation through sensory evaluation and computer simulation analysis.",
+      "first_publication_date": "2024-03-18",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/38318946/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_screen",
+      "manual_assessment": "Agaricus EWVPVTK/EYPPLGR sensory richness and simulations; measured functional CaSR not established here.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "35727887",
+      "doi": "10.1021/acs.jafc.2c01712",
+      "title": "Comprehensive Review of γ-Glutamyl Peptides (γ-GPs) and Their Effect on Inflammation Concerning Cardiovascular Health.",
+      "first_publication_date": "2022-06-21",
+      "indexed_publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/35727887/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "review",
+      "manual_assessment": "Inflammation/cardiovascular gamma-peptide review; no primary oral saltiness outcomes assigned.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "36027984",
+      "doi": "10.1016/j.physbeh.2022.113952",
+      "title": "Increases in the pungency of allyl isothiocyanate and piperine by CaSR agonists, glutathione and γ-glutamyl-valyl-glycine.",
+      "first_publication_date": "2022-08-24",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "A"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/36027984/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "primary_abstract",
+      "manual_assessment": "Kitajima2022 pungency study; anserine described as CaSR-inactive control, numerical bounds and saltiness pair not recovered.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "40609346",
+      "doi": "10.1016/j.foodchem.2025.145292",
+      "title": "Insights into the effect and mechanism of low-bitterness porcine hemoglobin hydrolysates produced by γ-glutamyl transpeptidase.",
+      "first_publication_date": "2025-06-23",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "A"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/40609346/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_screen",
+      "manual_assessment": "Porcine hemoglobin: bitterness suppression and docking; not individual saltiness/CaSR selection measurements.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "35498975",
+      "doi": "10.1016/j.fochx.2022.100218",
+      "title": "Generation and identification of kokumi compounds and their validation by taste-receptor assay: An example with dry-cured lamb meat.",
+      "first_publication_date": "2022-01-19",
+      "indexed_publication_types": [
+        "brief-report",
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/35498975/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "previously_assessed",
+      "manual_assessment": "Kim2022 lamb: measured extract CaSR, no individual potency or matched human outcome; previous closure retained.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "36094421",
+      "doi": "10.1021/acs.jafc.2c03941",
+      "title": "Protein Hydrolysates from <i>Pleurotus geesteranus</i> Modified by <i>Bacillus amyloliquefaciens</i> γ-Glutamyl Transpeptidase Exhibit a Remarkable Taste-Enhancing Effect.",
+      "first_publication_date": "2022-09-12",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/36094421/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_screen",
+      "manual_assessment": "Pleurotus2022: hydrolysate taste enhancement and peptide docking; functional CaSR pairing not established.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "33103468",
+      "doi": "10.1080/10408398.2020.1837726",
+      "title": "Current progress in kokumi-active peptides, evaluation and preparation methods: a review.",
+      "first_publication_date": "2020-10-26",
+      "indexed_publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/33103468/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "review",
+      "manual_assessment": "Kokumi peptide methods review; no new primary measurements.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "36318610",
+      "doi": "10.1021/acs.jafc.2c04919",
+      "title": "Synergistic Effect of Kokumi-Active γ-Glutamyl Peptides and l-Glutamate on Enhancing Umami Sensation and Stimulating Cholecystokinin Secretion via T1R1/T1R3 Activation in STC-1 Cells.",
+      "first_publication_date": "2022-11-01",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/36318610/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "primary_abstract",
+      "manual_assessment": "Deng2022: umami, STC-1 gut hormone signaling, partial inhibitor effects; endpoint/source overlap with2026 kept separate.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "37800337",
+      "doi": "10.1080/10408398.2023.2256400",
+      "title": "The impacts and mechanisms of dietary proteins on glucose homeostasis and food intake: a pivotal role of gut hormones.",
+      "first_publication_date": "2023-10-06",
+      "indexed_publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "queries": [
+        "A"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/37800337/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "review",
+      "manual_assessment": "Dietary protein/gut hormone review; no new human oral saltiness data.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "34790430",
+      "doi": "10.1007/s10068-021-00993-x",
+      "title": "Quantitative determination of kokumi compounds, γ-glutamyl peptides, in Korean traditional fermented foods, <i>ganjang</i> and <i>doenjang,</i> by LC-MS/MS.",
+      "first_publication_date": "2021-10-18",
+      "indexed_publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/34790430/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_screen",
+      "manual_assessment": "Fermented-food LC-MS quantification of11 GGP standards; occurrence is not human enhancement or newly measured CaSR.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "32202205",
+      "doi": "10.1080/09168451.2020.1743169",
+      "title": "N-terminal [Glu]<sub>3</sub> moiety of γ-glutamyl peptides contributes largely to the activation of human calcium-sensing receptor, a <i>kokumi</i> receptor.",
+      "first_publication_date": "2020-03-21",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/32202205/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "primary_abstract",
+      "manual_assessment": "Motoyama2020 measured hCaSR poly-Glu-Tyr series; cannot transfer to poly-Glu-Arg or infer human saltiness.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "36912475",
+      "doi": "10.1152/ajpregu.00189.2022",
+      "title": "Neither GLP-1 receptors nor GFRAL neurons are required for aversive or anorectic response to DON (vomitoxin).",
+      "first_publication_date": "2023-03-13",
+      "indexed_publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "queries": [
+        "A"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/36912475/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "off_question",
+      "manual_assessment": "Vomitoxin anorexia/aversion in knockout mice; not peptide human saltiness selection.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "31225563",
+      "doi": "10.1039/c9fo00313d",
+      "title": "γ-[Glu]<sub>(n=1,2)</sub>-Phe/-Met/-Val stimulates gastrointestinal hormone (CCK and GLP-1) secretion by activating the calcium-sensing receptor.",
+      "first_publication_date": "2019-07-01",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/31225563/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "primary_abstract",
+      "manual_assessment": "2019 gamma-Phe/Met/Val: CaSR-related cellular/gut hormone signaling, not matched human saltiness.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "33693689",
+      "doi": "10.1093/jn/nxab013",
+      "title": "Acute Oral Calcium Suppresses Food Intake Through Enhanced Peptide-YY Secretion Mediated by the Calcium-Sensing Receptor in Rats.",
+      "first_publication_date": "2021-05-01",
+      "indexed_publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "queries": [
+        "A"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/33693689/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "off_question",
+      "manual_assessment": "Oral calcium/PYY/food intake in rats; different stimulus and endpoint.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "22511946",
+      "doi": "10.1371/journal.pone.0034489",
+      "title": "Kokumi substances, enhancers of basic tastes, induce responses in calcium-sensing receptor expressing taste cells.",
+      "first_publication_date": "2012-04-12",
+      "indexed_publication_types": [
+        "research-article",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/22511946/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "primary_abstract",
+      "manual_assessment": "2012 mouse taste-cell calcium responses with inhibitor; physiological context, not human peptide selection outcomes.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "33654150",
+      "doi": "10.1038/s41598-021-84303-9",
+      "title": "First evidence for the presence of amino acid sensing mechanisms in the fish gastrointestinal tract.",
+      "first_publication_date": "2021-03-02",
+      "indexed_publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "queries": [
+        "A"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/33654150/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "off_question",
+      "manual_assessment": "Fish gastrointestinal amino-acid receptor expression/signaling; no human saltiness peptide panel.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "27477658",
+      "doi": "10.1248/cpb.c16-00293",
+      "title": "Structure-CaSR-Activity Relation of Kokumi γ-Glutamyl Peptides.",
+      "first_publication_date": "2016-01-01",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/27477658/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "previously_assessed",
+      "manual_assessment": "Amino2016 and erratum already indexed; source reuse/censoring preserved, no new independent outcomes.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "19892707",
+      "doi": "10.1074/jbc.m109.029165",
+      "title": "Involvement of the calcium-sensing receptor in human taste perception.",
+      "first_publication_date": "2009-11-05",
+      "indexed_publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/19892707/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "previously_assessed",
+      "manual_assessment": "Ohsu original methods assessed: kokumi/thickness, not separately elicited saltiness; apparent internal values remain unresolved.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "31410629",
+      "doi": "10.1007/s00441-019-03074-y",
+      "title": "Expression patterns of L-amino acid receptors in the murine STC-1 enteroendocrine cell line.",
+      "first_publication_date": "2019-08-13",
+      "indexed_publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "queries": [
+        "A"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/31410629/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "primary_abstract",
+      "manual_assessment": "Murine STC-1 receptors vary/coexpress; supports keeping bulk calcium and specific receptor response distinct, no human target.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "25777267",
+      "doi": "10.1016/j.jbiosc.2015.01.018",
+      "title": "Determination and quantification of kokumi peptide, γ-glutamyl-valyl-glycine, in brewed alcoholic beverages.",
+      "first_publication_date": "2015-03-13",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/25777267/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "occurrence_only",
+      "manual_assessment": "EVG occurrence in alcoholic beverages; do not label food occurrence as sensory enhancement.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "23790853",
+      "doi": "10.1016/j.foodchem.2013.03.070",
+      "title": "Determination and quantification of the kokumi peptide, γ-glutamyl-valyl-glycine, in commercial soy sauces.",
+      "first_publication_date": "2013-03-27",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/23790853/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "occurrence_only",
+      "manual_assessment": "EVG occurrence in commercial soy sauces; not newly measured receptor/human effects.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "22747195",
+      "doi": "10.1021/jf3012932",
+      "title": "Determination and quantification of γ-glutamyl-valyl-glycine in commercial fish sauces.",
+      "first_publication_date": "2012-07-16",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "A",
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/22747195/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "occurrence_only",
+      "manual_assessment": "EVG occurrence in fish sauces; not newly measured receptor/human effects.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "29488453",
+      "doi": "10.1080/09168451.2018.1436433",
+      "title": "Structural analysis and taste evaluation of γ-glutamyl peptides comprising sulfur-containing amino acids.",
+      "first_publication_date": "2018-03-01",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "A"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/29488453/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "previously_assessed",
+      "manual_assessment": "Sulfur-containing peptides: human umami continuity and CaSR, not separate saltiness; prior closure retained.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "31940281",
+      "doi": "10.1530/jme-19-0260",
+      "title": "Glutamine-induced signaling pathways via amino acid receptors in enteroendocrine L cell lines.",
+      "first_publication_date": "2020-04-01",
+      "indexed_publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "queries": [
+        "A"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/31940281/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "off_question",
+      "manual_assessment": "Glutamine transporter/TAS1R3 signaling in murine GLUTag; not peptide saltiness selection.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "16455645",
+      "doi": "10.1074/jbc.m512865200",
+      "title": "Activation of family C G-protein-coupled receptors by the tripeptide glutathione.",
+      "first_publication_date": "2006-02-02",
+      "indexed_publication_types": [
+        "Comparative Study",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "queries": [
+        "A"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/16455645/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "primary_abstract",
+      "manual_assessment": "2006 GSH: fish5.24/ratCaSR functional work; no matched human saltiness panel or justified cross-assay calibration.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "17189274",
+      "doi": "10.1074/jbc.m609610200",
+      "title": "Elucidation of the role of peptide linker in calcium-sensing receptor activation process.",
+      "first_publication_date": "2006-12-21",
+      "indexed_publication_types": [
+        "Research Support, N.I.H., Intramural",
+        "Journal Article"
+      ],
+      "queries": [
+        "A"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/17189274/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "off_question",
+      "manual_assessment": "CaSR peptide linker mutagenesis concerns receptor architecture; linker is not a candidate taste peptide.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "42116515",
+      "doi": "10.1016/j.foodres.2026.119289",
+      "title": "Investigation of the Kokumi properties of N-Cinnamoyl-L-aromatic amino acids: Dynamic sensory analysis and molecular mechanisms.",
+      "first_publication_date": "2026-04-26",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/42116515/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_screen",
+      "manual_assessment": "N-cinnamoyl amino-acid derivatives: sensory effects and docking/MD; outside peptide domain and functional CaSR not established here.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "42651993",
+      "doi": "10.3390/ani16162588",
+      "title": "Fatty-Acid Composition and Sensory Traits of Japanese Local Chickens in the Context of Asian Local Chicken Meat Quality.",
+      "first_publication_date": "2026-08-19",
+      "indexed_publication_types": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/42651993/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "review",
+      "manual_assessment": "Chicken lipid hypothesis review; not original compound-level measurements.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "41246561",
+      "doi": "10.1016/j.fochms.2025.100319",
+      "title": "Glutathione as a taste modulator: molecular mechanisms of interaction with umami and sweet taste receptors.",
+      "first_publication_date": "2025-10-26",
+      "indexed_publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/41246561/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "original_full_text",
+      "manual_assessment": "Cornut2025: functional GSH TAS1R assays/mutagenesis, h/rat umami construct; no new CaSR measurement or human saltiness.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "41349396",
+      "doi": "10.1016/j.foodchem.2025.147324",
+      "title": "Salinity-dependent changes in Retronasal detection and dose-over-threshold of kokumi peptides in fermented soybean paste.",
+      "first_publication_date": "2025-11-26",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/41349396/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_screen",
+      "manual_assessment": "Salinity-dependent peptide retronasal detection thresholds/DoT; detection is not separately rated saltiness, no functional CaSR panel established.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "40309958",
+      "doi": "10.7554/elife.101629",
+      "title": "GPRC6A as a novel kokumi receptor responsible for enhanced taste preferences by ornithine.",
+      "first_publication_date": "2025-05-01",
+      "indexed_publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/40309958/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "off_question",
+      "manual_assessment": "Ornithine/GPRC6A rat preference and nerve responses; different compound class/receptor/outcome.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "42164335",
+      "doi": "10.1016/j.fochx.2026.103944",
+      "title": "Emerging enzymatic modifications and AI-driven strategies for smart tailoring of taste characteristics in food-derived peptides: A review.",
+      "first_publication_date": "2026-05-04",
+      "indexed_publication_types": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/42164335/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "review",
+      "manual_assessment": "Enzyme/AI taste peptide review; citations only.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "42406602",
+      "doi": "10.1002/cph4.70215",
+      "title": "The Evolution of Taste: Genetic, Dietary, and Cultural Pathways in Human Taste Perception.",
+      "first_publication_date": "2026-08-01",
+      "indexed_publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/42406602/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "review",
+      "manual_assessment": "Taste evolution review; no new primary measurements.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "41074279",
+      "doi": "10.1016/j.foodres.2025.117022",
+      "title": "Volatile medium-chain lactones function as taste modifiers, kokumi substances, by activating the calcium-sensing receptor in the oral cavity.",
+      "first_publication_date": "2025-07-27",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/41074279/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "primary_abstract",
+      "manual_assessment": "Lactones: measured CaSR and fatty orosensation, but non-peptides and not separate saltiness target.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "42729369",
+      "doi": "10.3389/fpls.2026.1938406",
+      "title": "Roasting-driven flavor reconstruction in Wuyi Rougui tea: a dual mechanism of pectin-mediated thickening and metabolite remodeling.",
+      "first_publication_date": "2026-08-28",
+      "indexed_publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/42729369/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_screen",
+      "manual_assessment": "Tea roasting: whole-product flavor/pectin and predicted CaSR interactions; no matched peptide panel.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "42242056",
+      "doi": "10.1016/j.foodchem.2026.149838",
+      "title": "Insights into the molecular basis of umami in premium green teas via integrated metabolomics, peptidomics, and in silico molecular docking.",
+      "first_publication_date": "2026-05-29",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/42242056/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_screen",
+      "manual_assessment": "Green tea multicomponent umami/docking; no measured peptide CaSR/saltiness pair established.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "41795526",
+      "doi": "10.1016/j.foodchem.2026.148473",
+      "title": "N-Propionyl aromatic Amino acids restore taste balance in reduced-salt soy sauce.",
+      "first_publication_date": "2026-02-17",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/41795526/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_screen",
+      "manual_assessment": "Propionyl amino-acid derivatives: sour/bitter suppression and docking; different domain/endpoints.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "42066558",
+      "doi": "10.1016/j.foodchem.2026.149395",
+      "title": "Taste-active peptides, end-to-end: from generation and sensory validation to AI-driven discovery.",
+      "first_publication_date": "2026-04-27",
+      "indexed_publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/42066558/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "review",
+      "manual_assessment": "End-to-end taste peptide review; no primary outcomes assigned.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "42353455",
+      "doi": "10.3390/ani16121844",
+      "title": "A Hypothesis-Based Framework for Chicken Meat Palatability: Proposing Indirect Roles of Arachidonic Acid and Lipid Oxidation.",
+      "first_publication_date": "2026-06-15",
+      "indexed_publication_types": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/42353455/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "review",
+      "manual_assessment": "Chicken lipid-oxidation hypothesis review; not new primary evidence.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "37751388",
+      "doi": "10.1021/acs.jafc.3c03054",
+      "title": "Kokumi&lt;i&gt;-&lt;/i&gt;Enhancing Mechanism of &lt;i&gt;N&lt;/i&gt;-l-lactoyl-l-Met Elucidated by Sensory Experiments and Molecular Simulations.",
+      "first_publication_date": "2023-09-26",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/37751388/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_screen",
+      "manual_assessment": "Lactoyl-Met: sensory umami/kokumi and simulations; no functional CaSR established, not target peptide panel.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "36471792",
+      "doi": "10.1016/j.bbrep.2022.101400",
+      "title": "Effect of kokumi taste-active γ-glutamyl peptides on amiloride-sensitive epithelial Na<sup>+</sup> channels in rat fungiform taste cells.",
+      "first_publication_date": "2022-12-01",
+      "indexed_publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/36471792/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "previously_assessed",
+      "manual_assessment": "Bigiani/Rhyu rat ENaC patch clamp already assessed; reduced current does not refute saltiness or establish CaSR mediation.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "36461279",
+      "doi": "10.1016/j.foodres.2022.111932",
+      "title": "A mechanistic investigation on kokumi-active γ-Glutamyl tripeptides - A computational study to understand molecular basis of their activity and to identify novel potential kokumi-tasting sequences.",
+      "first_publication_date": "2022-09-14",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/36461279/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_screen",
+      "manual_assessment": "400 gamma-tripeptide computational library; nominated sequences are not measured saltiness/CaSR labels.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "40912211",
+      "doi": "10.1016/j.ijfoodmicro.2025.111384",
+      "title": "Characterization of peptide-enriched walnut meal paste via microbial diversity and metabolite profiling.",
+      "first_publication_date": "2025-08-13",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/40912211/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_screen",
+      "manual_assessment": "Walnut paste fermentation/metabolomics; occurrence/known activity annotations not individual outcome experiments.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "38820630",
+      "doi": "10.1016/j.foodchem.2024.139670",
+      "title": "Synthesis, taste characteristics and taste mechanism of N-lactoyl leucine from soy sauce using sensory analysis and UPLC-MS/MS.",
+      "first_publication_date": "2024-05-17",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/38820630/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "abstract_screen",
+      "manual_assessment": "Lactoyl-Leu/Ile: sensory umami/kokumi thresholds and docking; no measured functional CaSR established.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "36273034",
+      "doi": "10.1038/s41598-022-22512-6",
+      "title": "Oral expressions and functional analyses of the extracellular calcium-sensing receptor (CaSR) in chicken.",
+      "first_publication_date": "2022-10-22",
+      "indexed_publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/36273034/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "primary_abstract",
+      "manual_assessment": "Chicken CaSR expression/heterologous function; different species, no matched separate human saltiness.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "35512652",
+      "doi": "10.1093/chemse/bjac008",
+      "title": "Supplementation effects of a kokumi substance, γ-Glu-Val-Gly, on the ingestion of basic taste solutions in rats.",
+      "first_publication_date": "2022-01-01",
+      "indexed_publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/35512652/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "primary_abstract",
+      "manual_assessment": "EVG rat intake/preference and nerves with inhibitor; not human separate saltiness intensity or candidate-selection evaluation.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "37375140",
+      "doi": "10.3390/molecules28124585",
+      "title": "Volatile Short-Chain Aliphatic Aldehydes Act as Taste Modulators through the Orally Expressed Calcium-Sensing Receptor CaSR.",
+      "first_publication_date": "2023-06-06",
+      "indexed_publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/37375140/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "original_full_pdf",
+      "manual_assessment": "Aldehyde2023: human-CaSR assay and nose-clipped combined umami/salty2-AFC; non-peptide, not separate saltiness rating.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "34836006",
+      "doi": "10.3390/nu13113749",
+      "title": "Additive Effects of L-Ornithine on Preferences to Basic Taste Solutions in Mice.",
+      "first_publication_date": "2021-10-23",
+      "indexed_publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/34836006/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "off_question",
+      "manual_assessment": "Ornithine/GPRC6A mouse preferences; not peptide/hCaSR/human intensity data.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "40988564",
+      "doi": "10.1093/chemse/bjaf039",
+      "title": "Postoral receptors and alimentary taste: implications for energy intake and appetite.",
+      "first_publication_date": "2025-01-01",
+      "indexed_publication_types": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/40988564/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "review",
+      "manual_assessment": "Postoral/alimentary receptor review; not primary human saltiness measurements.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "33390961",
+      "doi": "10.3389/fphar.2020.587664",
+      "title": "G Protein-Coupled Receptors in Taste Physiology and Pharmacology.",
+      "first_publication_date": "2020-11-30",
+      "indexed_publication_types": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/33390961/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "review",
+      "manual_assessment": "GPCR taste physiology review; no new primary labels.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "35294536",
+      "doi": "10.1093/jas/skac085",
+      "title": "Calcium-sensing receptor is not expressed in the absorptive enterocytes of weaned piglets.",
+      "first_publication_date": "2022-04-01",
+      "indexed_publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/35294536/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "off_question",
+      "manual_assessment": "Pig enterocyte CaSR expression; no peptide human saltiness measurements.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "32932086",
+      "doi": "10.1016/j.foodchem.2020.128018",
+      "title": "Umami-enhancing effect of typical kokumi-active γ-glutamyl peptides evaluated via sensory analysis and molecular modeling approaches.",
+      "first_publication_date": "2020-09-08",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/32932086/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "primary_abstract",
+      "manual_assessment": "2020 gamma-EV/EL/EEV: human umami and hypothetical T1R3 modeling; not separate saltiness or measured CaSR panel.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "37966171",
+      "doi": "10.1080/10408398.2023.2280246",
+      "title": "Recent advances in taste transduction mechanism, analysis methods and strategies employed to improve the taste of taste peptides.",
+      "first_publication_date": "2023-11-15",
+      "indexed_publication_types": [
+        "Review",
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/37966171/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "review",
+      "manual_assessment": "Taste transduction review; use original sources for any labels.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "33615087",
+      "doi": "10.1016/j.cophys.2021.01.003",
+      "title": "Cellular Diversity and Regeneration in Taste Buds.",
+      "first_publication_date": "2021-01-12",
+      "indexed_publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/33615087/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "review_by_abstract",
+      "manual_assessment": "Taste-bud cellular regeneration review despite indexing without Review tag; not a new selection experiment.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "36606639",
+      "doi": "10.1021/acs.jafc.2c05572",
+      "title": "First Example of the Extracellular Surface Expression of Intrinsically Periplasmic <i>Escherichia coli</i> γ-Glutamyltranspeptidase, a Member of the N-Terminal Nucleophile Hydrolase Superfamily, and the Use of Cells as a Catalyst for γ-Glutamylvalylglycine Production.",
+      "first_publication_date": "2023-01-06",
+      "indexed_publication_types": [
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/36606639/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "production_only",
+      "manual_assessment": "Bacterial EVG production method; successful synthesis is not measured human efficacy.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "31635806",
+      "doi": "10.1016/j.bbrc.2019.10.111",
+      "title": "Sweet proteins lysozyme and thaumatin are protein-type agonists for the calcium-sensing receptor.",
+      "first_publication_date": "2019-10-19",
+      "indexed_publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/31635806/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "primary_abstract",
+      "manual_assessment": "Lysozyme/thaumatin hCaSR functional assays: proteins, no separate human saltiness panel established.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "34574113",
+      "doi": "10.3390/foods10092003",
+      "title": "Objective Measurements Associated with the Preferred Eating Qualities of Fermented Salamis.",
+      "first_publication_date": "2021-08-26",
+      "indexed_publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/34574113/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "previously_assessed",
+      "manual_assessment": "Kim2021 salami: liking/qualitative discussion and unmatched assay packs; prior exclusion retained.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    },
+    {
+      "pmid": "24382107",
+      "doi": "10.1017/s0007114513002250",
+      "title": "Emerging roles of the extracellular calcium-sensing receptor in nutrient sensing: control of taste modulation and intestinal hormone secretion.",
+      "first_publication_date": "2014-06-01",
+      "indexed_publication_types": [
+        "Research Support, Non-U.S. Gov't",
+        "Review",
+        "Journal Article"
+      ],
+      "queries": [
+        "B"
+      ],
+      "primary_record_url": "https://pubmed.ncbi.nlm.nih.gov/24382107/",
+      "abstract_available_in_retrieval": true,
+      "assessment_depth": "review",
+      "manual_assessment": "CaSR nutrient sensing review; no new primary oral saltiness data.",
+      "new_qualified_human_saltiness_CaSR_panel": false,
+      "not_a_compound_activity_or_sensory_label": true
+    }
+  ]
+}

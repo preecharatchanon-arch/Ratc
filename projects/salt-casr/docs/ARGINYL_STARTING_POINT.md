@@ -1,5 +1,7 @@
 # Arginyl peptides: the starting question
 
+> Historical branch, 15 October 2026. The [current research status](RESEARCH_STATUS.md) and [next test design](NEXT_TEST_DESIGN.md) supersede its proposed priorities. Published findings below remain attributed to their sources.
+
 [Project](../README.md) · [Functional evidence](../experiments/05-functional-assay-controls/README.md) · [Chemical control table](../experiments/05-functional-assay-controls/results/control_panel_chemistry.csv) · [Executed code](../experiments/05-functional-assay-controls/code/compare_control_panel.py)
 
 Research note by **Ratchanon Preecha**, 15 October 2026. This note develops the completed functional-evidence analysis. It is a control-selection calculation and literature synthesis, not a sixth biological or prediction experiment.

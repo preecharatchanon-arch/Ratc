@@ -1,22 +1,28 @@
-# Saltiness and taste-receptor research
+# CaSR, kokumi and sensory enhancement
 
-**Latest evidence:** [Published sensory data change the RP/KP comparison](docs/PROLYL_SENSORY_FOLLOWUP.md). KP has prior salt-enhancement evidence, VP has context-dependent benchmark labels, and six paper-supported non-arginyl comparators now have attributed thresholds. These are literature findings, not new biological measurements.
+**Current question:** can measured calcium-sensing receptor (CaSR) activity improve selection of peptides that increase human saltiness under defined conditions? The current evidence does not yet establish useful selection performance.
 
-Research by **Ratchanon Preecha** · Updated 15 October 2026
+Research by **Ratchanon Preecha** · Updated 28 October 2026
 
-Can published chemical, receptor and sensory measurements support useful selection of compounds for lower-sodium foods? This project follows that question through **five completed computational analyses**. It began with CaSR peptide modelling and now includes sensory-label evaluation, dose-dependent effects, a structural check of proposed TRPV1 binding sites, and functional-assay controls.
+This project connects published peptide chemistry, receptor assays and human sensory evidence. It contains **five completed computational analyses**, a later fixed CaSR-model/pose follow-up, and an ongoing assessment of whether the actual measurements overlap by compound and conditions. No new human or biological measurements are claimed.
 
-**Start here:** [Findings and figures](docs/RESULTS.md) · [Experiments](experiments/README.md) · [Data](data/README.md) · [Research status](docs/RESEARCH_STATUS.md)
+**Start here:** [Current direction and blockers](docs/RESEARCH_STATUS.md) · [Sensory outcomes and the liking opportunity](docs/SENSORY_OUTCOMES.md) · [Evidence review](evidence-review/README.md) · [Next test design](docs/NEXT_TEST_DESIGN.md)
 
-**The experiment table is the main index.** Each report links its code, saved results, protocol and verification. [Research status](docs/RESEARCH_STATUS.md) explains what the combined results support; [data](data/README.md) lists the shared inputs, sources and limits.
+## What the evidence currently supports
 
-**Current research question:** [Do arginine-specific effects survive a charge-matched comparison?](docs/ARGINYL_STARTING_POINT.md) The completed calculation defines chemical controls; their activity remains unknown.
+- Fixed follow-up comparisons use 58 numerical/range compounds and 26 chemical families. Their gain intervals cross zero; reliable incremental receptor-prediction benefit has not been established. [Protocol, code and saved results](experiments/01-casr-models-and-docking/followups/README.md).
+- The source registry contains five named receptor/saltiness links across different doses, matrices and endpoints. They do not form a jointly tested peptide-selection benchmark. The bounded 80-record indexed source screen and original-method qualifications are in the [evidence review](evidence-review/README.md).
+- A food could be more enjoyable without becoming significantly saltier. Published MSG studies support that possibility; a peptide-specific benefit in a defined food still needs actual liking data. This [application opportunity](docs/SENSORY_OUTCOMES.md) is separate from the saltiness question.
+
+**Next decision:** qualify actual matched receptor/saltiness measurements before fitting a selector. Material processing, dose policy, receptor specificity and human outcome must align. A meaningful success criterion and independent evaluation data are still missing. [Full test card](docs/NEXT_TEST_DESIGN.md).
+
+The earlier [arginyl-control](docs/ARGINYL_STARTING_POINT.md) and [RP/KP sensory](docs/PROLYL_SENSORY_FOLLOWUP.md) notes remain historical branches. They do not supersede the current CaSR question or establish that a new laboratory experiment is ready.
 
 ## Experiments
 
 | Experiment | Question and completed result | Open |
 | --- | --- | --- |
-| **01 · CaSR models and docking** | Predicting an unseen chemical family remains inaccurate: best observed MAE **0.799 pEC₅₀ units**, about **6.29-fold** error. Native-ligand top-pose RMSD is **4.78 Å**. | [Report](experiments/01-casr-models-and-docking/README.md) · [Executed notebook](experiments/01-casr-models-and-docking/CaSR_Research_Workbench.ipynb) · [Results](experiments/01-casr-models-and-docking/results/) |
+| **01 · CaSR models and docking** | Original best observed MAE **0.799 pEC₅₀ units**; later fixed positional-model MAE **0.7653**, with gain interval crossing zero. Native top-pose RMSD remains **4.78 Å**. | [Original report](experiments/01-casr-models-and-docking/README.md) · [Executed notebook](experiments/01-casr-models-and-docking/CaSR_Research_Workbench.ipynb) · [Later follow-up](experiments/01-casr-models-and-docking/followups/README.md) |
 | **02 · Sensory source transfer** | On 251 sensory-tagged peptides, fixed Extra Trees mean ROC-AUC falls from **0.686** with random splits to **0.286** with reference-and-sequence holdouts. Other baselines and post-hoc controls are reported separately. | [Report](experiments/02-sensory-source-transfer/README.md) · [Executed notebook](experiments/02-sensory-source-transfer/Saltiness_Sensory_Validation.ipynb) · [Results](experiments/02-sensory-source-transfer/results/) |
 | **03 · Assay conditions and dose** | NGYDMR's benchmark negative conflicts with enhancement evidence under a different assay. Published dose curves reverse the preferred peptide. Four fixed baselines retrieve only **one of three reported enhancers** in their top three for the six-candidate Pleurotus panel. | [Report](experiments/03-assay-dose-response/README.md) · [Executed notebook](experiments/03-assay-dose-response/Saltiness_Assay_Conditions.ipynb) · [Results](experiments/03-assay-dose-response/results/) |
 | **04 · TRPV1 membrane access** | Three cited peptide-contact residues lie in the membrane core and one on the cytoplasmic side. The result holds across three experimental structures; actual bound DkTx contacts provide a distinct comparator. | [Report](experiments/04-trpv1-membrane-access/README.md) · [Code](experiments/04-trpv1-membrane-access/code/) · [Results](experiments/04-trpv1-membrane-access/results/) |
@@ -25,6 +31,8 @@ Can published chemical, receptor and sensory measurements support useful selecti
 These endpoints are kept separate: **CaSR activity, channel structure, standalone saltiness and enhancement in NaCl are different measurements**. The project has not established a new effective or food-suitable salt enhancer. None of these computational outputs is a receptor-response or sensory experiment performed by us.
 
 ## Run an experiment
+
+These entry points reproduce completed analyses. They are not the next scientific action; the current matched-data gate is described above.
 
 | Experiment | Execution | Verified status |
 | --- | --- | --- |
@@ -42,8 +50,9 @@ The four canonical notebooks are self-contained: inputs and reviewed source are 
 | --- | --- |
 | [experiments/](experiments/README.md) | Five numbered reports with code, results, protocols and verification |
 | [data/](data/README.md) | CaSR chemistry inputs, sensory benchmark and assay tables, TRPV1 sequence snapshots and coordinate download manifest, functional comparator tables |
+| [evidence-review/](evidence-review/README.md) | Current attributed receptor/sensory registry, source screen, original-method qualifications and explicit missing information |
 | [archives/](archives/README.md) | Original run ZIPs and separately labelled earlier CaSR docking reference files |
-| [docs/](docs/RESEARCH_STATUS.md) | Project-level conclusions and interpretation limits |
+| [docs/](docs/RESEARCH_STATUS.md) | Current decisions, next-test requirements, sensory endpoint definitions and dated historical research branches |
 | [verification/](verification/README.md) | Organization review, file-move map and artifact integrity checks |
 
 ## Previously shared links

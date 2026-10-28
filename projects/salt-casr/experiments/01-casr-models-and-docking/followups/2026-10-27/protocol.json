@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-27",
+  "status": "Configuration written before fitting these new models; hypotheses informed by previously inspected data, so exploratory rather than independent confirmation",
+  "input": "58 numerical/range compounds, 26 constitutional middle groups, existing frozen folds and two saved source-label scenarios",
+  "primary": "Fixed positional fragment-descriptor Ridge(alpha=10) versus the existing frozen nearest3 predictions on leave-middle-family-out MAE",
+  "secondary": ["Fixed Ridge(alpha=10) with middle-descriptor interactions with exact Gly-tail and hydroxy-tail indicators", "Same interaction features, squared distance-to-reported-interval loss plus alpha=10 coefficient penalty", "Leave-one-pair-out prediction of Gly-extension effect in all 11 complete matched core/Gly pairs, constant training mean versus fixed middle-descriptor Ridge(alpha=10)"],
+  "models": ["mean", "median", "existing_nearest3", "positional_ridge", "context_interaction_ridge", "interval_context_ridge"],
+  "features": "Six neutral-graph monomer descriptors at middle position; summed descriptors of exact parsed tail monomers; tail length, hydroxy attachment, exact single-Gly tail and explicit D/allo counts. Interaction model adds six middle descriptors times each of Gly-tail and hydroxy-tail indicators. No use of source-assay target in features.",
+  "validation": "Reuse old folds, fit scaling inside training folds, preserve source versions separately, evaluate midpoint MAE and distance-to-reported-interval MAE. Ten-thousand whole-family bootstrap repetitions, seed 2701026, conditional on fits. No neural training, threshold tuning, hyperparameter sweep or candidate promotion.",
+  "promotion": "A positive exploration requires primary MAE-gain lower bound above zero against existing nearest3 under both source scenarios; it still needs a new independent source before confirmation. Secondary-only gain is hypothesis generation.",
+  "sensory": "Retrieve primary human-sensory methods where possible; maintain matrix, dose, NaCl, response endpoint and independent source status. Do not infer a sodium-reduction percentage from receptor potency or a fixed-NaCl enhancement score.",
+  "censoring": "Numerical ranges remain reported bounds, not CIs. Nine qualitative non-activators and one explicit bound excluded from this regression comparison; never invent an assay ceiling for them."
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-27",
+  "python": "3.12.14",
+  "source_sha256": {
+    "run_tests.py": "799b5e72378b3cbaa0b32223614e1eff256475b83601a90f93344b1d24171894",
+    "check_saved_poses.py": "59a76fbadd2526933c577af499f3109ebc84f44f66713909f21131d77faeded4",
+    "protocol.json": "84ec98e84272c061074a9988471bfaf5e13bb6523ba6cb0abdff45e5bdc58db6",
+    "input/chemical_activity_dataset.csv": "39dc1a07b195c9cd38d9c1f61b8811e8f18410d893bee7680101416e5a06983c",
+    "input/held_out_predictions.csv": "b618046dc42e773457bafa50eb86a279abb64d92b6a83fbb0fe6a63ffcc4b640",
+    "input/glycine_extension_bounds.csv": "5b1161986c38c1c0297cc54593160f665cc39a1371ee0554ab6f1864ba219cd0",
+    "input/CaSR_Notebook_Run.zip": "51b265c5d3acc3e0b07183160ce03a69929ad479ed186ef337cf44f7b3378129",
+    "input/Yi2025_supplement.docx": "7861f202f5691501e1aaed7c83c1ba24486491d4f4bc80adc85a74fd6c25e1fe"
+  },
+  "checks": {
+    "stereochemical_graph_matches": 58,
+    "family_count": 26,
+    "old_median_prediction_reconstruction": "all four source/split cases within 1e-12",
+    "interval_solver_point_limit": "matches independent sklearn Ridge predictions within 1e-7",
+    "interval_optimization": "all fits converged; maximum 33 iterations in this run",
+    "whole_family_resampling": 10000,
+    "RMSD_independent_engines": "spyrmsd versus RDKit max difference 8.9e-16 A",
+    "RMSD_no_realignment_guard": "5 A translation returns 5 A",
+    "RMSD_symmetry_guard": "carboxylate oxygen swap returns 0 A"
+  },
+  "not_claimed": [
+    "Independent new-source predictive validation",
+    "New biological or sensory measurements",
+    "A calibrated applicability domain",
+    "A new effective salt enhancer"
+  ]
+}

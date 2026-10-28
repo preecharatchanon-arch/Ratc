@@ -1,0 +1,21 @@
+{
+  "CaSR_Further_Research_and_Tests.md": "adb1cdb571bac8e68b5d129662386d27f32338f50b44d531454de2d937ca3999",
+  "README.md": "ab4ec5fb2858d749c0af80742c1dae942ee780029a18bf9984ede637eed64e23",
+  "check_saved_poses.py": "59a76fbadd2526933c577af499f3109ebc84f44f66713909f21131d77faeded4",
+  "execution.log": "910291f95c5f899994cccbcb18e15befb37d03dfb102e996d1dedc4af9d301d4",
+  "input/glycine_extension_bounds.csv": "5b1161986c38c1c0297cc54593160f665cc39a1371ee0554ab6f1864ba219cd0",
+  "output/condition_evidence_registry.csv": "33d7cb6d97718fb6390b8126264b2d46c11c1444478377e039f4223a404f7239",
+  "output/domain_coverage.csv": "99eccd3c2a7e34f64505b55685fdda980fccc43fc64e1aec66a908ebd8b6de0c",
+  "output/fold_predictions.csv": "d025c8ff5f54c7f4ce0606b519d6ed6950f6f43f1229b5bf8a803e204edd6555",
+  "output/glycine_effect_predictions.csv": "9f44362d0e1c332f1cb5a83778452b86c769f9c6e998d393ef3f0904a56c8a41",
+  "output/independent_RMSD_check.json": "08ed7b3c09a106dafdf252267473ff3b2a0f8f4ff06fc584f01727d639499b2f",
+  "output/model_comparison.csv": "46f7ac9d2bb7b2de80a6bda40c232fe184ee9f4345428248464d0cdf7cd9eacf",
+  "output/receptor_sensory_bridge.json": "f165c2fa3d2749b4503474c8c4d5190c1027d1f98c652a9d63b743c9fc7494be",
+  "output/source_access_notes.json": "f3c378987307b58b2d6fd0362c68ace0cd731ba5822f7491fa2be9fcaae1d434",
+  "output/summary.json": "8966640531b504d8a3e60b2d427e095dce43c3cac98c647feb456c768626b9e3",
+  "output/verification.json": "7fe16a05c482758ce7a839b4768d0c81446565964d5b37120e2c59a8120e38a6",
+  "prepare_public_inputs.py": "e5b174c34a4bf8370aae5dccc9f6d53b169013b8f25e143b1c281969246c6e52",
+  "protocol.json": "84ec98e84272c061074a9988471bfaf5e13bb6523ba6cb0abdff45e5bdc58db6",
+  "requirements.txt": "65233a2ff0d17b35f41e6e9e8489ea342ad7717b88e51e1ca1e11ff384b04314",
+  "run_tests.py": "799b5e72378b3cbaa0b32223614e1eff256475b83601a90f93344b1d24171894"
+}

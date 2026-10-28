@@ -4,6 +4,20 @@
 
 Five completed computational analyses follow one research question: what evidence is needed before using a model to select a saltiness enhancer? The figures below show the retained findings; each links to the complete report and underlying result tables.
 
+## Latest follow-up and evidence qualification
+
+The [27 October fixed comparison](../experiments/01-casr-models-and-docking/followups/README.md)
+uses 58 compounds and 26 chemical families. The primary MAE-gain interval
+crosses zero; the 11-pair Gly-effect comparison also fails to establish gain.
+An independent saved-pose check confirms the native top-pose RMSD of 4.7803 Å.
+These are exploratory reanalyses, not fresh biological confirmation.
+
+The [current source review](../evidence-review/README.md) records five named
+receptor/saltiness links and a bounded 80-record indexed screen. It does not
+supply a common candidate panel for fitting a selector. Read the
+[current status](RESEARCH_STATUS.md) and [test design](NEXT_TEST_DESIGN.md)
+before treating any completed analysis as the next action.
+
 ## 01 · CaSR models and docking
 
 Model transfer remains inaccurate and reference-pose ranking is weak.

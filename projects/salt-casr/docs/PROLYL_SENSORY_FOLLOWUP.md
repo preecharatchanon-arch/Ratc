@@ -1,5 +1,7 @@
 # Sensory evidence changes the peptide comparison
 
+> Historical branch, 15 October 2026. The [current research status](RESEARCH_STATUS.md) and [next test design](NEXT_TEST_DESIGN.md) supersede its proposed priorities. Published findings below remain attributed to their sources.
+
 [Project](../README.md) · [Functional controls](../experiments/05-functional-assay-controls/README.md) · [Inputs](../data/functional/README.md) · [Reproduction code](../experiments/05-functional-assay-controls/code/compare_published_sensory.py)
 
 Research follow-up by **Ratchanon Preecha**, 15 October 2026. This is a recovery and analysis of published experimental evidence. We did not measure peptide activity or train a new predictor.

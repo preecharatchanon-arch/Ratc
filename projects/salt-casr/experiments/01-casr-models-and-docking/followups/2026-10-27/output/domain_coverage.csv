@@ -1,0 +1,5 @@
+version,split,n,base_features,interaction_features,outside_middle_training_box,unseen_tail_context,maximum_interval_optimizer_iterations
+journal,leave_middle_family_out,58,19,31,6,7,33
+journal,random_5fold,58,19,31,6,7,31
+patent_assignment_sensitivity,leave_middle_family_out,58,19,31,6,7,32
+patent_assignment_sensitivity,random_5fold,58,19,31,6,7,30

@@ -4,6 +4,10 @@
 
 This folder contains reusable **inputs**. Reviewed predictions, metrics, figures and chemical proposals stay under the experiment that produced them. No values or labels were changed during reorganization.
 
+## Current receptor/sensory evidence assessment
+
+The [evidence-review folder](../evidence-review/README.md) separately records attributed compound/condition links, the bounded source screen and original-method qualifications. Those records are not newly measured assay inputs or a validated training set. Missing observations, heterogeneous endpoints and source overlap remain explicit.
+
 ## CaSR chemistry
 
 [casr/](casr/) supports [Experiment 01](../experiments/01-casr-models-and-docking/README.md).

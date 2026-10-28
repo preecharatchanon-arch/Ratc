@@ -2,7 +2,7 @@
 
 I build computational systems and test how well their results support the decisions they are meant to inform. This repository brings together my work on waste-collection routing, neural-network training, mathematical-reasoning robustness, audio signals, and taste-receptor modelling, with the code and evidence behind each project.
 
-**Current research focus:** [AIMO Interpretability — predicting robustness of mathematical reasoning](projects/aimo-interpretability/README.md). The project page records completed negative results, saved predictions, and the next experimental questions.
+**Current research focus:** [CaSR, kokumi and sensory enhancement](projects/salt-casr/README.md): whether measured receptor activity can improve peptide selection for human saltiness, with consumer liking treated as a separate application outcome. The project records completed analyses, current evidence gaps and the next test requirements.
 
 ## Where the work began
 
@@ -24,12 +24,12 @@ Application views from a controlled scenario in Figure 5 of the submitted FleetR
 | **AIMO Interpretability** | Can measurements from the beginning of a model’s answer predict whether it will keep solving altered versions of the problem? Tested internal measurements have not improved on simpler comparisons; the next hypothesis trains a predictor from measured changes in accuracy. | [Challenge, audited results and questions for advice](projects/aimo-interpretability/README.md) |
 | **Neural-training interventions** | Does a reproducible low-dimensional description predict what happens when training state is changed? A one-dimensional coordinate reproduced across tasks, but its frozen decoder performed worse than predicting zero displacement on held-out intervention tests. | [Study, findings and submitted paper](projects/neural-training/README.md) |
 | **AdamW optimizer memory** | Can a low-rank representation preserve the effects of changing optimizer memory? Short-horizon reconstruction improved descriptively in an eight-history follow-up, but the declared interaction test failed and longer-horizon prediction failed across those histories. | [Manuscript, saved evidence and CPU reconstruction](projects/adamw-memory/README.md) |
-| **Saltiness and taste-receptor research** | Five connected analyses examine CaSR activity prediction, sensory-data transfer, dose-dependent enhancement, receptor-site access and functional assay controls, with explicit limits on what computation can establish. | [Experiments, data and findings](projects/salt-casr/README.md) · [Experiment index](projects/salt-casr/experiments/README.md) |
+| **CaSR, kokumi and sensory enhancement** | Five completed analyses and a later fixed-model follow-up have not established a reliable peptide selector. The current evidence review checks whether measured receptor activity overlaps human saltiness outcomes; umami and consumer liking remain distinct. | [Current direction, results and data](projects/salt-casr/README.md) · [Evidence review](projects/salt-casr/evidence-review/README.md) · [Sensory outcomes](projects/salt-casr/docs/SENSORY_OUTCOMES.md) |
 | **Audio signal analysis** | What changes can be measured between two recordings? A Python notebook compares spectra and time-varying features using the fast Fourier transform (FFT) and short-time Fourier transform (STFT). The demonstration establishes the analysis workflow; engine-fault detection remains unvalidated. | [Project, notebook and signal plots](projects/audio-fft/README.md) |
 
 The neural studies test the difference between observing a repeatable pattern and predicting the effect of an intervention. The chemistry work asks a related practical question: when are a model's predictions reliable enough to guide the next experiment? Each project page explains the measurements, the result, and the remaining limits.
 
-**For molecular-modelling and ML readers:** start with the [five saltiness and taste-receptor analyses](projects/salt-casr/README.md), then choose the relevant report, executed notebook or source. The [shared data guide](projects/salt-casr/data/README.md) explains the endpoints and source limits. The [neural-training study](projects/neural-training/README.md) provides further context on how I evaluate prediction and intervention claims.
+**For molecular-modelling and ML readers:** start with the [current CaSR research question and evidence](projects/salt-casr/README.md), then choose a completed report, executed notebook or source. The [shared data guide](projects/salt-casr/data/README.md) explains the endpoints and source limits. The [neural-training study](projects/neural-training/README.md) provides further context on how I evaluate prediction and intervention claims.
 
 ## Routing benchmark evidence
 
@@ -64,7 +64,7 @@ The routing and neural-research source snapshots retain their supplied archive i
 | *Reproducible Low-Dimensional Structure Can Fail a Causal-State Test in Neural Training* | Submitted to the **AAAI-27 Student Abstract and Poster Program** |
 | *Testing Low-Rank Causal Control in AdamW Memory* | Research manuscript; **not submitted to AISTATS** |
 | AIMO Interpretability Challenge | Small Models Track research in progress; no verified competitive improvement or retained official leaderboard score |
-| Saltiness and taste-receptor research | Five completed computational analyses; no validated new saltiness enhancer |
+| CaSR, kokumi and sensory enhancement | Five completed computational analyses plus exploratory follow-up and source qualification; no validated new enhancer or CaSR-to-saltiness selector |
 | Audio analysis | Personal signal-processing project; no validated engine-fault classifier |
 
 The conference entries record submissions, not accepted publications.

@@ -1,0 +1,1594 @@
+{
+  "status": "descriptive_published_evidence_not_predictor_validation",
+  "review_date": "2026-10-28",
+  "missing": "null means not established in inspected material, never zero",
+  "compounds": {
+    "ABU": {
+      "identity": "gamma-L-Glu-L-Abu",
+      "Abu": "L-2-aminobutyric acid",
+      "linkage": "gamma",
+      "sensory_purity": null,
+      "sensory_counterion": null
+    },
+    "EVG": {
+      "identity": "gamma-L-Glu-L-Val-Gly",
+      "linkage": "gamma",
+      "sensory_purity": null,
+      "sensory_counterion": null
+    },
+    "BCO": {
+      "identity": "beta-caryophyllene oxide",
+      "is_peptide": false,
+      "measured_CaSR_here": null
+    },
+    "EA": {
+      "identity": "gamma-glutamyl alanine",
+      "linkage": "gamma",
+      "sensory_supplier": "Peptide Biological Technology Co., Ltd., Nanjing",
+      "stereochemical_material_certificate": null,
+      "sensory_purity": null,
+      "sensory_counterion": null,
+      "link_scope": "same conventional named peptide, not verified identical assay/sensory material"
+    },
+    "EV": {
+      "identity": "gamma-glutamyl-valine",
+      "linkage": "gamma",
+      "sensory_supplier": "Nanjing peptide biotechnology company, as reported",
+      "sensory_purity": null,
+      "sensory_counterion": null,
+      "stereochemical_material_certificate": null,
+      "link_scope": "same conventional named peptide, not identical tested lots"
+    },
+    "GSH": {
+      "identity": "gamma-L-glutamyl-L-cysteinylglycine (reduced glutathione)",
+      "linkage": "gamma",
+      "sensory_supplier": "Merck & Co.",
+      "sensory_processing": "10% w/v solution treated with 1% w/v activated charcoal for 30min, filtered and lyophilized for deodorization",
+      "post_processing_purity_or_redox_verification": null,
+      "sensory_counterion": null,
+      "same_receptor_sensory_lot": null
+    },
+    "GC": {
+      "identity": "gamma-glutamyl cysteine",
+      "linkage": "gamma",
+      "same_receptor_sensory_lot": null
+    },
+    "ABUG": {
+      "identity": "gamma-glutamyl 2-aminobutyryl glycine",
+      "linkage": "gamma",
+      "same_receptor_sensory_lot": null
+    },
+    "SMG": {
+      "identity": "S-methylglutathione",
+      "linkage": "gamma",
+      "same_receptor_sensory_lot": null
+    }
+  },
+  "sources": {
+    "EP2012": {
+      "publication": "EP2415359A1",
+      "url": "https://patents.google.com/patent/EP2415359A1/en",
+      "pdf_url": "https://patentimages.storage.googleapis.com/d2/b0/52/5f25968c3e9273/EP2415359A1.pdf",
+      "pdf_sha256": "72b0f6256602073e8474e2c133ae7b417848f397e876d79560d85529f0c2702d",
+      "kind": "patent_report",
+      "sensory_locator": "Example 3, paragraphs 0046-0047; Table 6; PDF pp18-19",
+      "receptor_locator": "Test Example 2, paragraphs 0038-0039; Table 1; PDF p14",
+      "visual_review": [
+        "Table 1 p14",
+        "Table 6 p19"
+      ],
+      "same_experiment_family": [
+        "WO2010114022A1"
+      ],
+      "family_versions_are_not_replications": true
+    },
+    "EP2025": {
+      "publication": "EP4609725A1",
+      "url": "https://patents.google.com/patent/EP4609725A1/en",
+      "pdf_url": "https://data.epo.org/publication-server/rest/v1.2/publication-dates/20250903/patents/EP4609725NWA1/document.pdf",
+      "pdf_sha256": "5dccf84505b5c231ae9213aef619d82cf7e43d7d625b6294f2046573c7080162",
+      "kind": "patent_report",
+      "locator": "Test 10 paragraphs 0205-0207, Tables 27-28, PDF pp39-40; reference formulation Table 1 p28",
+      "same_experiment_family": [
+        "US20250248431A1",
+        "WO2024090519A1"
+      ],
+      "visual_review": [
+        "Tables 27-28 pp39-40"
+      ],
+      "family_versions_are_not_replications": true
+    },
+    "OHSU2010": {
+      "doi": "10.1074/jbc.M109.029165",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2801228/",
+      "locator": "HEK and sensory methods pp1017-1018; Figure2 caption p1019; Figure3 caption and Table2 p1020",
+      "access": "original article text recovered on public ResearchGate page; original PDF/figure axes not visually verified",
+      "recovered_text_url": "https://www.researchgate.net/publication/38070202_Involvement_of_the_Calcium-sensing_Receptor_in_Human_Taste_Perception",
+      "organization": "Ajinomoto",
+      "sampling": "authors describe five non-reference peptides as randomly chosen from previously identified CaSR agonists; not an unselected peptide panel",
+      "new_independent_saltiness_validation": false,
+      "visual_review": [],
+      "retrieved_text_conflicts_require_original_page": true
+    },
+    "YANG2022": {
+      "doi": "10.1016/j.fshw.2022.06.015",
+      "url": "https://www.chnfood.cn/magazineDetail/45962",
+      "pdf_url": "https://bafs.ac.cn/storage/upload/fshw/FSHW2022-6-015.pdf",
+      "pdf_sha256": "c32e0e8a8679942b7edc00e8bb2e0520c189cff67730a04c4b9f20fe459c20e7",
+      "locator": "Sections 2.1, 2.4-2.5 p1574; Section 3.4 and Figure 5 p1578 (PDF pp2,6)",
+      "access": "complete primary PDF recovered from journal-owner download link",
+      "visual_review": [
+        "Figure 5 PDF p6"
+      ],
+      "human_tested_peptides": 1,
+      "modeled_peptides_are_not_human_sensory_rows": true
+    },
+    "AMINO2016": {
+      "doi": "10.1248/cpb.c16-00293",
+      "url": "https://www.jstage.jst.go.jp/article/cpb/64/8/64_c16-00293/_html/-char/en",
+      "pdf_url": "https://www.jstage.jst.go.jp/article/cpb/64/8/64_c16-00293/_pdf",
+      "pdf_sha256": "51fd4a167fd7b9f5e1883851f42dbed375d7496c70d281a51fb50a4ea8b6cb23",
+      "locator": "Tables 1-2 p1183; HEK-293 methods p1188",
+      "visual_review": [
+        "Tables 1-2 PDF p3"
+      ],
+      "independent_new_receptor_data_claimed": false,
+      "gamma_Glu_Abu_provenance": {
+        "confirmed_by_erratum": "AMINO_ERRATUM2017",
+        "original_data_source": "WO2010114022A1, same patent family as EP2012",
+        "independent_Abu_receptor_replication": false
+      },
+      "publisher_landing": "https://www.jstage.jst.go.jp/article/cpb/64/8/64_c16-00293/_article/-char/en",
+      "publisher_supplement_count_at_review": 0,
+      "compound58_specific_synthesis_or_spectrum_recovered": false,
+      "compound58_figure_structure_recovered": false,
+      "general_CaSR_material_purity_criterion_percent": 95,
+      "purity_note": "general method criterion, not a disclosed compound58 analytical result or certificate"
+    },
+    "GIVAUDAN2009": {
+      "publication": "US20090155440A1",
+      "kind": "patent_report",
+      "url": "https://patents.google.com/patent/US20090155440A1/en",
+      "pdf_url": "https://patentimages.storage.googleapis.com/db/13/35/d075039f5d1ab2/US20090155440A1.pdf",
+      "pdf_sha256": "2a9c597ab452da4293b4a326a4afa3ed57177dd595a5f46bf39b526cf62ef055",
+      "locator": "Example 1a paragraphs 0065-0066, printed p6/PDF p7; general sensory methods 0061-0064 on PDF p6",
+      "visual_review": [
+        "Example 1a table PDF p7"
+      ],
+      "same_experiment_family": [
+        "WO2007042274A1",
+        "EP1933642A1",
+        "JP4885227B2"
+      ],
+      "family_versions_are_not_replications": true,
+      "measured_CaSR_in_this_source": null
+    },
+    "WU2022": {
+      "doi": "10.1021/acs.jafc.2c03501",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35984991/",
+      "main_text_access": "primary abstract, not complete main article",
+      "SI_doi": "10.1021/acs.jafc.2c03501.s001",
+      "SI_public_api": "https://api.figshare.com/v2/articles/20520621",
+      "SI_download": "https://ndownloader.figshare.com/files/36727605",
+      "SI_sha256": "fe59d04b269edbaabf505bf41fa06bfe70d78dae57a8327450ae92afdf7159a8",
+      "SI_bytes": 967135,
+      "SI_scope": "cover and nine MS/MS figures; no sensory table or assessor ratings recovered",
+      "new_access_check": "OpenAlexW4292393486 has DOI/PubMed locations only; bounded institutional/title searches found no manuscript",
+      "official_author_profile": "https://www.qztc.edu.cn/hyyspxy/_t5/2025/0929/c6100a287991/page.htm",
+      "author_listed_application": "CN202110379878.0",
+      "application_resolves_to": "CN113080426A, already excluded lactoyl branch; not new gamma-Glu/Arg evidence",
+      "main_full_text_recovered": false,
+      "CaSR_absence_in_entire_paper_established": false,
+      "next_source_action": "only assess a newly available legitimate main-text copy; do not repeat checked endpoints"
+    },
+    "GUO2022": {
+      "doi": "10.7506/spkx1002-6630-20201225-288",
+      "url": "https://www.spkx.net.cn/CN/10.7506/spkx1002-6630-20201225-288",
+      "journal_owner_landing": "https://www.chnfood.cn/magazineDetail/1796",
+      "pdf_url": "https://bafs.ac.cn/storage/upload/spkx/2022-43-3-005.pdf",
+      "pdf_bytes": 3119994,
+      "pdf_sha256": "da0e5e3ad516338ae5b731c15e311be878c1bf141791c04c98c6f05058f0086b",
+      "locator": "Sections1.1 and1.3.1 printed pp34-35; Section1.4/2.1 p35; Figure1 p36 (PDF p4)",
+      "access": "complete original primary PDF",
+      "visual_review": [
+        "Figure1 PDF p4, legend and saltiness bars"
+      ],
+      "functional_receptor_assay_here": null,
+      "modeling_receptors": [
+        "T1R1",
+        "T1R2",
+        "T1R3"
+      ],
+      "not_a_functional_CaSR_assay": true,
+      "source_overlap": "substantial author and grant overlap with YANG2022; shared assessors, material batches or repeated data not established"
+    },
+    "AMINO_ERRATUM2017": {
+      "doi": "10.1248/cpb.c17-e6506",
+      "url": "https://www.jstage.jst.go.jp/article/cpb/65/6/65_c17-e6506/_html/-char/en",
+      "pdf_url": "https://www.jstage.jst.go.jp/article/cpb/65/6/65_c17-e6506/_pdf",
+      "pdf_sha256": "b02f7b002fedf9de7bd83ead2e3a3deb1c73865c58ed39ad9ee1b9ffc95c2e32",
+      "correction_scope": "Table1 compound20 citation and acknowledgement: gamma-Glu-Abu data from WO2010114022A1 / Seiichi Sato",
+      "does_not_resolve_compound58_naming": true
+    },
+    "UEDA1997": {
+      "doi": "10.1271/bbb.61.1977",
+      "url": "https://www.jstage.jst.go.jp/article/bbb1992/61/12/61_12_1977/_article/-char/en",
+      "pdf_url": "https://www.jstage.jst.go.jp/article/bbb1992/61/12/61_12_1977/_pdf",
+      "pdf_sha256": "749323d3c8c95ff1e41462dfb705add65cdd35788953d4b9719fecc8f37f785e",
+      "pdf_bytes": 665797,
+      "locator": "Taste effects of GSH on basic taste solutions, p1977; TableIII and Results p1978 (PDF pp1-2)",
+      "access": "complete four-page scanned primary PDF; OCR used for locating prose, relevant methods and table visually checked",
+      "visual_review": [
+        "PDF p1 methods",
+        "PDF p2 TableIII"
+      ],
+      "organization": "Ajinomoto Food Research and Development Laboratories",
+      "source_overlap_warning": "shared organization with later receptor sources; independent sensory study is not independent validation of a CaSR selector"
+    },
+    "GOTO2016": {
+      "doi": "10.1093/chemse/bjw066",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27353260/",
+      "publisher": "https://academic.oup.com/chemse/article-abstract/41/7/623/1745023",
+      "institutional_record": "https://hub.hku.hk/handle/10722/227165",
+      "access_scope": "primary abstract; complete original methods/results not recovered",
+      "retrieval_limit": "OUP article/PDF not recovered; exact HKU record has no attached files; checked current OpenAlex locations lack an accessible PDF",
+      "functional_receptor_assay_established_here": null,
+      "source_overlap": "same experiment reproduced in GOTO2024; GOTO2017 is an author synopsis, not another cohort"
+    },
+    "GOTO2024": {
+      "doi": "10.1007/978-981-99-8303-2_10",
+      "url": "https://link.springer.com/chapter/10.1007/978-981-99-8303-2_10",
+      "access_scope": "publisher preview, abstract and declarations; not complete chapter",
+      "reproduces": "GOTO2016",
+      "reproduction_license_number": "5505180007666",
+      "reproduction_license_date": "2023-03-10",
+      "funding_as_reported": [
+        "HKU766212M",
+        "HKU201103159003",
+        "Mitsubishi Shoji Foodtech"
+      ],
+      "employment_as_reported": "Yuki Ito employed by Mitsubishi Shoji Foodtech",
+      "new_independent_experiment": false
+    },
+    "GOTO2017": {
+      "citation": "Tazuko K. Goto, Brain activities by Umami: fMRI study in humans, Japanese Journal of Taste and Smell Research24(2):77-80,2017",
+      "url": "https://www.srut.org/wp/wp-content/uploads/6a05c324253a1cda76e12cde08472eeb.pdf",
+      "pdf_bytes": 974732,
+      "pdf_sha256": "1aa386f99589337ddbc709540e7761dde074d4cd6a25d2da069385e3ca91edcb",
+      "access_scope": "complete public author symposium synopsis; not original Goto2016 paper",
+      "relevant_locator": "p78 discussion and p79 reference2",
+      "supplies_missing_Goto_formulation_or_saltiness_table": false,
+      "new_independent_experiment": false
+    },
+    "JUNG2010": {
+      "doi": "10.1111/j.1750-3841.2009.01411.x",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20492200/",
+      "institutional_record": "https://snu.elsevierpure.com/en/publications/sensory-characteristics-and-consumer-acceptability-of-beef-soup-w/",
+      "lab_citation_record": "https://foodbiotech.ewha.ac.kr/foodbiotech/graduate/sensory-science-thesis.do?articleNo=498177&mode=view",
+      "access_scope": "primary abstract and institutional citation/abstract records; no full results table",
+      "retrieval_limit": "Wiley403; SNU and Ewha records have no recovered file link; OpenAlex has DOI/PubMed only",
+      "saltiness_comparison_not_recovered": true
+    },
+    "KITAJIMA2023": {
+      "doi": "10.3390/molecules28124585",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10303012/",
+      "xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10303012/fullTextXML",
+      "xml_bytes": 87947,
+      "xml_sha256": "0d3014a4561ab3216f0f7599f74555aeda5e0a3671da3063cf22cc44f6995071",
+      "pdf_url": "https://pdfs.semanticscholar.org/9e0d/79d9e88e74c8d3a107c1327de0c07077d4d3.pdf",
+      "pdf_bytes": 1689966,
+      "pdf_sha256": "08f1640b9e1005fa7617269af2e4361de271c953c4196e064c2716020dd59d7d",
+      "access_scope": "complete published XML and twelve-page PDF",
+      "visual_review": [
+        "Figure2 and caption PDF p4",
+        "assay and sensory methods PDF pp9-10"
+      ],
+      "source_overlap": "Ajinomoto authors and employee sensory panel; related source organization to earlier records, not independent selector validation",
+      "same_study_preprint": "https://www.preprints.org/manuscript/202305.2134",
+      "Figure6B_label_issue": "caption repeats IVAH; results prose identifies IVAH-versus-IVAA comparison; no numeric comparator row reconstructed"
+    },
+    "TSUBOI1999": {
+      "doi": "10.1248/bpb.22.21",
+      "url": "https://www.jstage.jst.go.jp/article/bpb1993/22/1/22_1_21/_pdf",
+      "pdf_bytes": 811516,
+      "pdf_sha256": "60922a2fd143ab4e1545fc9b62454885a887dabcccbf15bfd6bb9d122106929b",
+      "access_scope": "complete five-page original scan; OCR for locating prose",
+      "visual_review": [
+        "Figure1 p21",
+        "Chemicals subsection p22"
+      ],
+      "identity_connectivity_as_drawn": "GSH-S-CH(COOH)-CH2-COOH",
+      "added_carbon_stereochemistry_assigned_in_figure": false,
+      "DCE_GS_standard_supplier_as_reported": "Senjyu Pharmaceutical Ind., Osaka, Japan",
+      "linked_to_Amino_compound58_material": null,
+      "linked_to_Givaudan_sensory_lot": null,
+      "used_as_receptor_or_saltiness_observation": false
+    },
+    "BROADHEAD2011": {
+      "doi": "10.1074/jbc.M110.149724",
+      "PMCID": "PMC3059007",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3059007/",
+      "author_copy": "https://www.researchgate.net/profile/William-Church-2/publication/49710778_Allosteric_modulation_of_the_calcium-sensing_receptor_by_g-glutamyl_peptides_Inhibition_of_PTH_secretion_suppression_of_intracellular_cAMP_levels_and_a_common_mechanism_of_action_with_L-amino_acids/links/5666102308ae192bbf9278c5/Allosteric-modulation-of-the-calcium-sensing-receptor-by-g-glutamyl-peptides-Inhibition-of-PTH-secretion-suppression-of-intracellular-cAMP-levels-and-a-common-mechanism-of-action-with-L-amino-acids.pdf",
+      "access": "complete original PDF viewed through indexed author copy; no local PDF downloaded",
+      "locator": "Experimental Procedures pp8787-8788; Table1 and Figure1 p8789",
+      "visual_review": [
+        "PDF p2 assay buffer",
+        "PDF p3 statistics",
+        "PDF p4 Table1 and Figure1 caption"
+      ],
+      "organization": "University of Sydney / Monash / Royal North Shore Hospital",
+      "source_overlap": "different named authors and affiliations from Ohsu/Amino; no claimed human sensory experiment or selector validation",
+      "human_saltiness_measurement": null,
+      "table_vs_figure_n_warning": "Table1 GSH n4; Figure1C caption GSH n5. Retain table n for its EC50; do not silently reconcile."
+    },
+    "MUN2005_PROTOCOL": {
+      "doi": "10.1074/jbc.M500002200",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15888439/",
+      "access": "indexed primary Materials text specifies wild-type human CaR in pcDNA3.1(+)",
+      "role": "Broadhead2011 reference15 for stable cell protocol; not a new peptide measurement"
+    }
+  },
+  "receptor_contexts": {
+    "R_EP": {
+      "source": "EP2012",
+      "species": "human",
+      "construct": "hCaSR/pcDNA3.1",
+      "cells": "293E (HEK293)",
+      "readout": "calcium fluorescence",
+      "pH": 7.2,
+      "CaCl2_mM_reported_range": [
+        0.75,
+        1.25
+      ],
+      "NaCl_mM": 146,
+      "normalization": "compound maximum tested response",
+      "biological_replicates": null,
+      "EC50_uncertainty": null
+    },
+    "R_OHSU": {
+      "source": "OHSU2010",
+      "species": "human",
+      "cells": "HEK293",
+      "readout": "Calcium-4 fluorescence, FlexStation",
+      "pH": null,
+      "CaCl2_mM": 0.9,
+      "biological_replicates": null,
+      "EC50_uncertainty": null,
+      "construct": "hCaSR in pcDNA3.1; transient expression",
+      "NaCl_mM": null,
+      "context_warning": "do not transfer the oocyte buffer (1.8mM CaCl2, 96mM NaCl, pH7.2) to the HEK assay",
+      "EC50_definition": "as reported in Figure3A caption; Emax separately relative to calcium=100%; raw curves not re-fitted"
+    },
+    "R_AMINO_HEK": {
+      "source": "AMINO2016",
+      "species": "human",
+      "cells": "HEK-293",
+      "construct": "hCaSR in pcDNA3.1, transient transfection",
+      "readout": "Calcium-4 fluorescence, FlexStation",
+      "CaCl2_mM": 0.75,
+      "pH": null,
+      "NaCl_mM": null,
+      "biological_replicates": null,
+      "EC50_uncertainty": null,
+      "range_warning": "printed activity range is not identified as a confidence interval"
+    },
+    "R_KITAJIMA_PEAK": {
+      "source": "KITAJIMA2023",
+      "species": "human",
+      "cells": "PEAKrapid",
+      "construct": "hCaSR cDNA in pcDNA3.1, transient transfection",
+      "readout": "Calcium-5 fluorescence, FDSS/microCELL; peak deltaF/F with baseline-noise subtraction",
+      "assay_buffer_as_reported_mM": {
+        "NaCl": 146,
+        "MgSO4": 1,
+        "HEPES": 20,
+        "CaCl2": 1,
+        "probenecid": 2.5,
+        "glucose": 1.39
+      },
+      "pH": 7.4,
+      "CaCl2_mM": 1,
+      "NaCl_mM": 146,
+      "recording_seconds": 180,
+      "recording_interval_seconds": 1,
+      "controls": [
+        "vehicle",
+        "mock-transfected cells",
+        "EDTA1mM",
+        "NPS2143 20uM"
+      ],
+      "curve_uncertainty_as_reported": "mean +/- SEM; numeric curve data not digitized",
+      "EC50_uncertainty": null,
+      "biological_replicates": null,
+      "same_EVG_material_as_other_studies": null,
+      "EC50_note": "source-reported estimate, not re-fitted or averaged with earlier assay"
+    },
+    "R_BROADHEAD_HEK": {
+      "source": "BROADHEAD2011",
+      "species": "human",
+      "species_basis": "stable cell protocol cites Mun2005, whose indexed primary Materials specify human CaR",
+      "construct": "wild-type CaR, stable HEK293 expression; distinct from double-mutant branch",
+      "readout": "fura2-AM 340/380nm microfluorimetry; baseline-subtracted integrated response",
+      "CaCl2_mM": 2.5,
+      "pH": 7.4,
+      "NaCl_mM": 125,
+      "buffer_other_components": "4mM KCl, 1mM MgCl2, 20mM HEPES(NaOH), 0.1% D-glucose; phosphate-free",
+      "baseline_CaCl2_mM_in_PSS": 0.5,
+      "peptide_preparation": "fresh physiological-saline solutions used on experiment day",
+      "experiment_n_note": "reported n counts experiments, not individual imaged cells or human tasters; batch-level independence unresolved",
+      "reported_uncertainty": "mean +/- SE, following general statistical methods",
+      "normalization": "integrated baseline-corrected fluorescence; results may be normalized to L-Phe/R467 controls; not identical to Ohsu calcium-normalized Emax"
+    }
+  },
+  "receptor_columns": [
+    "record_id",
+    "compound",
+    "context",
+    "EC50_as_printed",
+    "unit",
+    "censoring"
+  ],
+  "receptor_rows": [
+    [
+      "R1",
+      "ABU",
+      "R_EP",
+      0.21,
+      "uM",
+      "numeric"
+    ],
+    [
+      "R2",
+      "EVG",
+      "R_OHSU",
+      41.9,
+      "nM",
+      "numeric"
+    ],
+    [
+      "R3",
+      "EA",
+      "R_AMINO_HEK",
+      1.24,
+      "uM",
+      "numeric"
+    ],
+    [
+      "R4",
+      "EV",
+      "R_AMINO_HEK",
+      1.03,
+      "uM",
+      "numeric"
+    ],
+    [
+      "R5",
+      "GSH",
+      "R_AMINO_HEK",
+      0.7,
+      "uM",
+      "numeric"
+    ],
+    [
+      "R6",
+      "EVG",
+      "R_KITAJIMA_PEAK",
+      0.167,
+      "uM",
+      "numeric"
+    ],
+    [
+      "R7",
+      "GSH",
+      "R_OHSU",
+      76.5,
+      "nM",
+      "numeric"
+    ],
+    [
+      "R8",
+      "EA",
+      "R_OHSU",
+      3.65,
+      "uM",
+      "numeric"
+    ],
+    [
+      "R9",
+      "EV",
+      "R_OHSU",
+      1.34,
+      "uM",
+      "numeric"
+    ],
+    [
+      "R10",
+      "GC",
+      "R_OHSU",
+      458,
+      "nM",
+      "numeric"
+    ],
+    [
+      "R11",
+      "ABUG",
+      "R_OHSU",
+      18.1,
+      "nM",
+      "numeric"
+    ],
+    [
+      "R12",
+      "SMG",
+      "R_BROADHEAD_HEK",
+      1.7,
+      "uM",
+      "numeric"
+    ],
+    [
+      "R13",
+      "GSH",
+      "R_BROADHEAD_HEK",
+      3.9,
+      "uM",
+      "numeric"
+    ],
+    [
+      "R14",
+      "GC",
+      "R_BROADHEAD_HEK",
+      4.7,
+      "uM",
+      "numeric"
+    ],
+    [
+      "R15",
+      "EA",
+      "R_BROADHEAD_HEK",
+      4.8,
+      "uM",
+      "numeric"
+    ]
+  ],
+  "sensory_contexts": {
+    "S_EP": {
+      "source": "EP2012",
+      "matrix": "aqueous NaCl",
+      "NaCl_g_dL": 0.5,
+      "total_sodium_measured": null,
+      "pH_absolute": null,
+      "pH_adjustment": "NaOH when needed, within 0.2 of control; added sodium unquantified",
+      "assessors": 5,
+      "scale": {
+        "control_anchor": 0,
+        "NaCl_0.75_g_dL_anchor": 5
+      },
+      "early_seconds": "0-2",
+      "late_seconds": "2 onward",
+      "dose_selection": "source-selected optimum",
+      "SD_SE_CI": null,
+      "raw_paired_ratings": null,
+      "randomization_blinding": null
+    },
+    "S_CHEESE": {
+      "source": "EP2025",
+      "matrix": "52 g commercial cheese sauce + water to 100 g",
+      "sodium_basis": "product label 2.5 g salt-equivalent/130 g; not measured total sodium",
+      "pH": null,
+      "assessors": 4,
+      "scale": {
+        "reference_1": 0,
+        "reference_2": 5,
+        "reference_3": 10
+      },
+      "added_NaCl_g_per_100g_in_references_1_2_3": [
+        0,
+        0.05,
+        0.1
+      ],
+      "author_effect_threshold": 3,
+      "time_window": null,
+      "SD_SE_CI": null,
+      "raw_paired_ratings": null,
+      "randomization_blinding": null
+    },
+    "S_YANG_SS": {
+      "source": "YANG2022",
+      "matrix": "commercial soy sauce diluted 10-fold with boiled water",
+      "NaCl_concentration": null,
+      "total_sodium_measured": null,
+      "pH": 6.5,
+      "pH_adjustment_reagent": null,
+      "peptide_final_mM": 2,
+      "sample_temperature_C": "23 +/- 2",
+      "sensory_room_temperature_C": "25 +/- 2",
+      "sample_volume_mL": 10,
+      "tasting_seconds_before_swallowing": 20,
+      "assessors": 15,
+      "age_years": "23-32",
+      "scale_endpoints_as_printed": [
+        0,
+        5
+      ],
+      "scale_wording": "source calls this a 5-point intensity scale; endpoints printed 0 and 5",
+      "replication": "generic statement all experiments and analyses in triplicate; assessor/session/batch nesting unresolved",
+      "reported_statistics": "means +/- SD and one-way ANOVA; Figure 5 stars and narrative P<0.05",
+      "numeric_paired_difference_SD_SE_CI": null,
+      "randomization_blinding": null,
+      "raw_paired_ratings": null
+    },
+    "S_YANG_BCB": {
+      "source": "YANG2022",
+      "matrix": "commercial chicken stock powder moderately diluted, boiled 1 min, cooled; dilution factor unspecified",
+      "NaCl_concentration": null,
+      "total_sodium_measured": null,
+      "pH": 6.5,
+      "pH_adjustment_reagent": null,
+      "peptide_final_mM": 2,
+      "sample_temperature_C": "23 +/- 2",
+      "sensory_room_temperature_C": "25 +/- 2",
+      "sample_volume_mL": 10,
+      "tasting_seconds_before_swallowing": 20,
+      "assessors": 15,
+      "age_years": "23-32",
+      "scale_endpoints_as_printed": [
+        0,
+        5
+      ],
+      "scale_wording": "source calls this a 5-point intensity scale; endpoints printed 0 and 5",
+      "replication": "generic statement all experiments and analyses in triplicate; assessor/session/batch nesting unresolved",
+      "reported_statistics": "means +/- SD and one-way ANOVA; Figure 5 stars and narrative P<0.05",
+      "numeric_paired_difference_SD_SE_CI": null,
+      "randomization_blinding": null,
+      "raw_paired_ratings": null
+    },
+    "S_GIVAUDAN_WATER": {
+      "source": "GIVAUDAN2009",
+      "matrix": "aqueous NaCl",
+      "NaCl_mM": 30,
+      "pH": 6.5,
+      "pH_adjustment_reagent": null,
+      "additive_concentration_mM": 10,
+      "total_sodium_measured": null,
+      "material_counterions": null,
+      "endpoint": "concentration of comparison NaCl solution judged isointense in saltiness",
+      "comparison_NaCl_mM_range": [
+        30,
+        100
+      ],
+      "exact_assessor_n": null,
+      "n_reporting": "general paragraph 0063: 8-10; paragraph 0064: 6-8 except Example4 n10; Example1a exact n unresolved",
+      "repeats": "general three sessions, independence and aggregation unresolved",
+      "SD_SE_CI": null,
+      "raw_paired_ratings": null,
+      "sodium_caution": "sensory sample total sodium and salt form unreported; synthesis uses NaOH but amount carried into Example1a is not established"
+    },
+    "S_GUO_SS": {
+      "source": "GUO2022",
+      "matrix": "1% v/v soy sauce solution",
+      "peptide_concentration_as_reported_mM": 2,
+      "dose_wording_note": "methods describe adding 2mM peptide to food solution; final mixing volumes not stated",
+      "pH": 6.5,
+      "pH_tolerance": 0.05,
+      "pH_adjustment_reagent": null,
+      "NaCl_concentration": null,
+      "total_sodium_measured": null,
+      "assessors": 11,
+      "sex_counts_male_female": [
+        6,
+        5
+      ],
+      "age_years": "21-32",
+      "sensory_room_temperature_C": "23 +/- 2",
+      "sample_volume_mL": 10,
+      "tasting_seconds_before_swallowing": 25,
+      "scale_endpoints_as_printed": [
+        0,
+        5
+      ],
+      "scale_wording": "called five-point scoring, printed endpoints zero and five",
+      "replication": "Section1.4 reports three parallel repeats; assessor/session/batch nesting unresolved",
+      "uncertainty_reporting": "generic mean +/- SD; figure error bars; no numerical paired-error data extracted",
+      "randomization_blinding": null,
+      "raw_paired_ratings": null,
+      "numeric_saltiness_effect_SD_SE_CI": null,
+      "significance_test_or_numeric_P_for_saltiness": null
+    },
+    "S_GUO_BROTH": {
+      "source": "GUO2022",
+      "matrix": "1% w/w chicken broth powder solution",
+      "peptide_concentration_as_reported_mM": 2,
+      "dose_wording_note": "methods describe adding 2mM peptide to food solution; final mixing volumes not stated",
+      "pH": 6.5,
+      "pH_tolerance": 0.05,
+      "pH_adjustment_reagent": null,
+      "NaCl_concentration": null,
+      "total_sodium_measured": null,
+      "assessors": 11,
+      "sex_counts_male_female": [
+        6,
+        5
+      ],
+      "age_years": "21-32",
+      "sensory_room_temperature_C": "23 +/- 2",
+      "sample_volume_mL": 10,
+      "tasting_seconds_before_swallowing": 25,
+      "scale_endpoints_as_printed": [
+        0,
+        5
+      ],
+      "scale_wording": "called five-point scoring, printed endpoints zero and five",
+      "replication": "Section1.4 reports three parallel repeats; assessor/session/batch nesting unresolved",
+      "uncertainty_reporting": "generic mean +/- SD; figure error bars; no numerical paired-error data extracted",
+      "randomization_blinding": null,
+      "raw_paired_ratings": null,
+      "numeric_saltiness_effect_SD_SE_CI": null,
+      "significance_test_or_numeric_P_for_saltiness": null
+    },
+    "S_UEDA_NACL_043": {
+      "source": "UEDA1997",
+      "matrix": "aqueous NaCl solution",
+      "NaCl_as_printed_percent": 0.43,
+      "GSH_as_printed_percent": 0.04,
+      "percent_basis": "TableIII prints percent; basic-taste methods explicitly give w/v for sucrose but do not separately restate NaCl/GSH basis; no conversion performed",
+      "pH": null,
+      "pH_note": "pH7 adjustment belongs to the separate threshold subsection/TableII; not explicitly stated for TableIII PSE test",
+      "total_sodium_measured": null,
+      "pH_adjustment_reagent": null,
+      "assessors": null,
+      "n_note": "15 applies to threshold subsection and 20 to flavor-profile subsection; neither is assigned to basic-taste PSE without evidence",
+      "comparison": "GSH-added sample paired with seven basic-tastant reference concentrations, 20% logarithmic steps",
+      "readout": "point of subjective equality (PSE), probit analysis of dichotomous taste judgments",
+      "time_window": null,
+      "temperature": null,
+      "randomization_blinding": null,
+      "replication": null,
+      "raw_paired_ratings": null,
+      "PSE_CI": null,
+      "source_reported_saltiness_finding": "no significant effect observed",
+      "numeric_P_or_significance_threshold": null
+    },
+    "S_UEDA_NACL_062": {
+      "source": "UEDA1997",
+      "matrix": "aqueous NaCl solution",
+      "NaCl_as_printed_percent": 0.62,
+      "GSH_as_printed_percent": 0.04,
+      "percent_basis": "TableIII prints percent; basic-taste methods explicitly give w/v for sucrose but do not separately restate NaCl/GSH basis; no conversion performed",
+      "pH": null,
+      "pH_note": "pH7 adjustment belongs to the separate threshold subsection/TableII; not explicitly stated for TableIII PSE test",
+      "total_sodium_measured": null,
+      "pH_adjustment_reagent": null,
+      "assessors": null,
+      "n_note": "15 applies to threshold subsection and 20 to flavor-profile subsection; neither is assigned to basic-taste PSE without evidence",
+      "comparison": "GSH-added sample paired with seven basic-tastant reference concentrations, 20% logarithmic steps",
+      "readout": "point of subjective equality (PSE), probit analysis of dichotomous taste judgments",
+      "time_window": null,
+      "temperature": null,
+      "randomization_blinding": null,
+      "replication": null,
+      "raw_paired_ratings": null,
+      "PSE_CI": null,
+      "source_reported_saltiness_finding": "no significant effect observed",
+      "numeric_P_or_significance_threshold": null
+    },
+    "S_OHSU_NACL_THICKNESS": {
+      "source": "OHSU2010",
+      "matrix": "aqueous NaCl",
+      "NaCl_percent_as_printed": 0.9,
+      "percent_basis": "percent as printed; no conversion to molar peptide dose",
+      "endpoint": "kokumi thickness, operationalized as taste intensity about 5s after tasting",
+      "not_separately_rated_saltiness": true,
+      "assessors": 20,
+      "training": "well trained",
+      "blind": true,
+      "randomization": null,
+      "scale": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "pH_reported_range": [
+        6.8,
+        7.2
+      ],
+      "pH_adjustment_reagent": "NaOH",
+      "total_sodium_measured": null,
+      "source_statistics": "Student t test against control; means and SE bars in Figure2A",
+      "numerical_effect_or_paired_uncertainty_extracted": null,
+      "figure_axes_visually_verified": false
+    },
+    "S_OHSU_KOKUMI_PSE": {
+      "source": "OHSU2010",
+      "matrix": "0.05% MSG + 0.05% IMP + 0.5% NaCl",
+      "endpoint": "taste thickness/kokumi PSE against GSH, not NaCl-equivalent saltiness",
+      "assessors": 17,
+      "training": "well trained",
+      "reference_GSH_percent_w_v": [
+        0.02,
+        0.03,
+        0.044,
+        0.07,
+        0.1,
+        0.15,
+        0.23,
+        0.34
+      ],
+      "comparisons": "each sample paired twice with each reference; dichotomous more/less intense; probit",
+      "dose_selection": "preliminary tests",
+      "pH": null,
+      "pH_note": "do not automatically copy the final pH range from the separate five-point subsection",
+      "total_sodium_measured": null,
+      "raw_assessor_data": null,
+      "PSE_uncertainty": null,
+      "blind_randomized_for_this_subsection": null
+    }
+  },
+  "salt_temporal_columns": [
+    "compound",
+    "context",
+    "dose_g_dL",
+    "early_score",
+    "late_score"
+  ],
+  "salt_temporal_rows": [
+    [
+      "ABU",
+      "S_EP",
+      0.004,
+      1.6,
+      1.5
+    ],
+    [
+      "EVG",
+      "S_EP",
+      0.002,
+      0.8,
+      1.8
+    ]
+  ],
+  "cheese_columns": [
+    "source_sample",
+    "BCO_ppb_w_w",
+    "EVG_ppb_w_w",
+    "saltiness_score",
+    "reported_added_smell"
+  ],
+  "cheese_rows": [
+    [
+      11,
+      50,
+      null,
+      2.1,
+      "none"
+    ],
+    [
+      12,
+      100,
+      null,
+      3.8,
+      "none"
+    ],
+    [
+      13,
+      1000,
+      null,
+      5.8,
+      "none"
+    ],
+    [
+      14,
+      10000,
+      null,
+      6.8,
+      "none"
+    ],
+    [
+      15,
+      null,
+      500,
+      1.8,
+      "none"
+    ],
+    [
+      16,
+      null,
+      1000,
+      4.4,
+      "none"
+    ],
+    [
+      17,
+      null,
+      5000,
+      6.1,
+      "none"
+    ],
+    [
+      18,
+      50,
+      500,
+      5.8,
+      "none"
+    ],
+    [
+      19,
+      100,
+      1000,
+      6.3,
+      "none"
+    ],
+    [
+      20,
+      1000,
+      5000,
+      8.8,
+      "none"
+    ]
+  ],
+  "cheese_blank_dose_convention": "null reproduces blank ingredient addition; no numerical sensory/receptor response is imputed",
+  "link_columns": [
+    "sensory_context",
+    "compound",
+    "receptor_record",
+    "link_basis",
+    "same_material_lot"
+  ],
+  "links": [
+    [
+      "S_EP",
+      "ABU",
+      "R1",
+      "same named chemical identity within publication",
+      null
+    ],
+    [
+      "S_EP",
+      "EVG",
+      "R2",
+      "chemical identity across publications",
+      null
+    ],
+    [
+      "S_CHEESE",
+      "EVG",
+      "R2",
+      "chemical identity across publications",
+      null
+    ],
+    [
+      "S_YANG_SS",
+      "EA",
+      "R3",
+      "same conventional named gamma-Glu-Ala across publications",
+      null
+    ],
+    [
+      "S_YANG_BCB",
+      "EA",
+      "R3",
+      "same conventional named gamma-Glu-Ala across publications",
+      null
+    ],
+    [
+      "S_GUO_SS",
+      "EV",
+      "R4",
+      "same conventional gamma-Glu-Val identity across publications",
+      null
+    ],
+    [
+      "S_GUO_BROTH",
+      "EV",
+      "R4",
+      "same conventional gamma-Glu-Val identity across publications",
+      null
+    ],
+    [
+      "S_UEDA_NACL_043",
+      "GSH",
+      "R5",
+      "same named reduced glutathione across publications; different material provenance",
+      null
+    ],
+    [
+      "S_UEDA_NACL_062",
+      "GSH",
+      "R5",
+      "same named reduced glutathione across publications; different material provenance",
+      null
+    ]
+  ],
+  "counting": {
+    "linked_peptide_identities": 5,
+    "salt_temporal_conditions": 2,
+    "pure_EVG_cheese_doses": 3,
+    "independent_external_selector_validation": false,
+    "identity_count_scope": "five named saltiness/receptor-linked identities ABU, EVG, EA, EV, GSH; excludes kokumi-only GC/ABUG and receptor-only SMG",
+    "pure_peptide_conditions_with_numerical_saltiness": 9,
+    "numerical_saltiness_endpoint_values_for_named_links": 11,
+    "provisional_additional_receptor_sensory_identity_links": 1,
+    "givaudan_additives_in_common_dose_sensory_panel": 8,
+    "givaudan_reference_rows": 1,
+    "wu_pure_peptide_sensory_findings_without_CaSR": 4,
+    "linked_identities_with_numerical_saltiness": 4,
+    "linked_identities_with_graphical_saltiness_only_in_this_registry": 1,
+    "pure_peptide_conditions_with_graphical_saltiness_only": 2,
+    "numeric_count_warning": "includes two PSE concentrations, not eleven values on one common score scale",
+    "ohsu_kokumi_panel_identities_including_reference": 6,
+    "broadhead_receptor_table_peptides": 4,
+    "new_separate_human_saltiness_conditions_this_pass": 0
+  },
+  "scope_notes": [
+    "All ten cheese-table rows retained to expose mixtures and denominator; only samples 15-17 are EVG alone.",
+    "Threshold 3 is the patent's decision rule, not our validated practical margin or significance test.",
+    "Source claims and observations do not establish mechanism, safety, approval or sodium reduction.",
+    "CaSR values overlap earlier source history; no receptor assay is claimed as newly performed or certainly independent.",
+    "EA receptor measurement is existing published data; its human saltiness records expand named compound overlap but not a joint selection panel.",
+    "Givaudan common-dose saltiness observations are retained despite unresolved receptor identity; missing receptor data for other additives are not inactivity.",
+    "NaCl isointensity is perceived saltiness, not evidence that total sodium was reduced or that CaSR mediated the effect.",
+    "Wu non-significance is not no effect or equivalence; mixture fold-changes are not assigned to individual peptides.",
+    "All newly inspected evidence is exploratory/development material. No independent predictor confirmation is claimed.",
+    "Guo2022 expands named overlap but is not a common-condition comparison against EA: 1% v/v soy versus Yang2022 ten-fold dilution, different assessors and tasting duration.",
+    "Erratum confirms Abu receptor data reuse; it adds provenance, not an independent assay or evidence for a selector.",
+    "The new Guo observations remain graphical/descriptive. Numerical condition and endpoint counts are unchanged.",
+    "Ueda1997 adds actual non-significant saltiness conditions for a measured CaSR agonist. Non-significance is neither zero effect, equivalence nor a universal inactive-compound label.",
+    "Ueda PSE concentrations remain separate from temporal score increases and cheese scores; no cross-scale pooling or inferred dose-normalized potency.",
+    "TableIII PSE tests do not inherit pH or assessor n from neighboring sensory methods. Those unresolved fields are null.",
+    "Goto's accessible primary evidence establishes mixture intensity; an unverified separate saltiness outcome remains missing, not negative.",
+    "Goto2024 explicitly reproduces Goto2016; author synopsis and preprint versions do not supply additional independent cohorts.",
+    "Kitajima2023 adds another assay-specific EVG EC50, not a new linked peptide or numerical saltiness condition. Keep R2 and R6 separate; source SEM is not an EC50 CI.",
+    "No model, numerical hypothesis test, graph digitization, causal interaction estimate or power calculation was executed in this continuation.",
+    "Tsuboi's DCE-GSH structure supports intended connectivity but does not repair Amino compound58's contradictory footnote or establish stereochemical/material equivalence.",
+    "Givaudan has eight additives, five containing peptide backbones. Missing receptor measurements remain missing; neighboring structural analogues do not supply potency labels.",
+    "The identity branch is closed pending compound-specific primary evidence. No new saltiness outcome, linked compound, predictor validation or scientific test is added.",
+    "Ohsu Figure2A supports thickness/taste enhancement in a NaCl-only background, not a separately rated saltiness dimension; retain evidence without relabeling.",
+    "Ohsu Table2 PSE is against GSH, not NaCl. Six linked kokumi identities do not become six saltiness targets.",
+    "New assay records are retained separately by protocol and locator. No assay pooling, potency averaging, rank test or calibration fit was performed.",
+    "Broadhead supports calcium-dependent receptor activity in another group; parathyroid/PTH responses are not oral human saltiness.",
+    "Assay conditions co-vary; cross-publication potency differences cannot be attributed to calcium alone.",
+    "Scientific tests in this continuation remain zero; new work is primary evidence recovery and endpoint qualification."
+  ],
+  "yang_saltiness_columns": [
+    "compound",
+    "context",
+    "dose_mM",
+    "reported_saltiness_score_increase",
+    "source_reported_P"
+  ],
+  "yang_saltiness_rows": [
+    [
+      "EA",
+      "S_YANG_SS",
+      2,
+      0.42,
+      "<0.05"
+    ],
+    [
+      "EA",
+      "S_YANG_BCB",
+      2,
+      0.37,
+      "<0.05"
+    ]
+  ],
+  "yang_transcription_note": "Deltas transcribed from Section 3.4; Figure 5 inspected for endpoint and ordering. Absolute scores and error bars not digitized. No SD/CI invented for differences. Other tastes remain distinct.",
+  "givaudan_isointensity_columns": [
+    "sample",
+    "compound_as_reported",
+    "additive_mM",
+    "isointense_NaCl_mM"
+  ],
+  "givaudan_isointensity_rows": [
+    [
+      1,
+      "reference without additive",
+      null,
+      30
+    ],
+    [
+      2,
+      "S-(alpha,beta-dicarboxyethyl)-L-cysteine",
+      10,
+      40
+    ],
+    [
+      3,
+      "S-(alpha,beta-dicarboxyethyl) gamma-L-glutamyl-L-cysteinyl-glycine",
+      10,
+      48
+    ],
+    [
+      4,
+      "S-(alpha,beta-dicarboxyethyl) gamma-L-glutamyl-cysteine",
+      10,
+      60
+    ],
+    [
+      5,
+      "beta-S-(alpha,gamma-dicarboxypropyl) gamma-L-glutamyl-L-cysteinyl-glycine",
+      10,
+      48
+    ],
+    [
+      6,
+      "S-(alpha,beta-dicarboxyethyl) gamma-L-glutamyl-cysteine ethyl ester",
+      10,
+      48
+    ],
+    [
+      7,
+      "(S-alpha,beta-dicarboxyethyl)-cystein ethyl ester",
+      10,
+      42
+    ],
+    [
+      8,
+      "beta-S-(carboxyethyl) gamma-L-glutamyl-L-cysteinyl-glycine",
+      10,
+      38
+    ],
+    [
+      9,
+      "(S-alpha,beta-dicarboxyethyl)-cystein methyl ester",
+      10,
+      38
+    ]
+  ],
+  "provisional_links": [
+    {
+      "sensory_source": "GIVAUDAN2009",
+      "sensory_sample": 3,
+      "receptor_source": "AMINO2016",
+      "receptor_table": 2,
+      "receptor_printed_compound": 58,
+      "receptor_name": "gamma-Glu-Cys(1,2-Dicarboxyethyl)-Gly",
+      "EC50_uM_as_printed_range": [
+        5,
+        10
+      ],
+      "EC50_range_is_not_CI": true,
+      "link_basis": "constitutional-name correspondence proposed; exact chemical material not verified",
+      "unresolved": [
+        "Amino Table2 abbreviation footnote instead prints S-(2,3-dicarboxymethyl)-cysteine",
+        "configuration at added substituent stereocenter not matched",
+        "counterion, purity and lot equivalence unknown"
+      ],
+      "promoted_to_confirmed_identity": false,
+      "identity_review_status": "bounded source audit complete; remains provisional; reopen only with compound-specific primary documentation",
+      "new_support": "patent-cited Tsuboi1999 Figure1 supports intended DCE-GSH connectivity, not assay-material identity",
+      "footnote_conflict_visually_reconfirmed": true,
+      "constitutional_interpretation": "succinate-thioether intended-name correspondence supported, but internal receptor-source name conflict uncorrected",
+      "stereochemical_or_lot_match_established": false
+    }
+  ],
+  "wu_arginyl_panel": [
+    {
+      "gamma_Glu_repeat_n": 1,
+      "dose_mg_mL": 1.0,
+      "saltiness_finding": "no significant effect reported",
+      "finding_basis": "primary abstract",
+      "numerical_saltiness_effect": null,
+      "NaCl_concentration": null,
+      "CaSR_activity": null,
+      "not_a_binary_activity_label": true
+    },
+    {
+      "gamma_Glu_repeat_n": 2,
+      "dose_mg_mL": 1.0,
+      "saltiness_finding": "no significant effect reported",
+      "finding_basis": "primary abstract",
+      "numerical_saltiness_effect": null,
+      "NaCl_concentration": null,
+      "CaSR_activity": null,
+      "not_a_binary_activity_label": true
+    },
+    {
+      "gamma_Glu_repeat_n": 3,
+      "dose_mg_mL": 1.0,
+      "saltiness_finding": "significant increase reported",
+      "finding_basis": "primary abstract",
+      "numerical_saltiness_effect": null,
+      "NaCl_concentration": null,
+      "CaSR_activity": null,
+      "not_a_binary_activity_label": true
+    },
+    {
+      "gamma_Glu_repeat_n": 4,
+      "dose_mg_mL": 1.0,
+      "saltiness_finding": "significant increase reported",
+      "finding_basis": "primary abstract",
+      "numerical_saltiness_effect": null,
+      "NaCl_concentration": null,
+      "CaSR_activity": null,
+      "not_a_binary_activity_label": true
+    }
+  ],
+  "graphical_saltiness_columns": [
+    "compound",
+    "context",
+    "source_reported_direction",
+    "numerical_effect",
+    "evidence_basis"
+  ],
+  "graphical_saltiness_rows": [
+    [
+      "EV",
+      "S_GUO_SS",
+      "increase",
+      null,
+      "Section2.1 narrative and Figure1 saltiness group"
+    ],
+    [
+      "EV",
+      "S_GUO_BROTH",
+      "increase",
+      null,
+      "Section2.1 narrative and Figure1 saltiness group"
+    ]
+  ],
+  "guo_graph_note": "Four labeled series depict food before/after addition. A note refers to score increases. No exact numbers are tabulated or labeled on saltiness bars; no visual estimates, effect zeros, P values or paired variances are manufactured. Kokumi is a separate category.",
+  "acquisition_status": {
+    "pea_136988": {
+      "status": "individual gamma-Glu-Val-Val sensory cell still missing",
+      "openalex_metadata": "W4385190879: closed; no repository full-text location recorded",
+      "datacite_related_DOI_query_records": 0,
+      "interpretation": "these bounded searches do not prove no public copy or data exist",
+      "group_range_not_assigned": true
+    },
+    "fish_sauce_thesis": {
+      "status": "primary thesis identity and original panel still unrecovered",
+      "official_journal_author": "GU Wenyu / 古汶玉 verified on 2019 paper",
+      "thesis_author_link": "plausible, not verified",
+      "new_route": "official SCAU library links to scholar.scau.edu.cn; endpoint returned 502",
+      "author_patent_CN109287934A": "hydrolysate production process, not the peptide sensory panel",
+      "secondary_gamma_peptide_outcomes_used_as_labels": false
+    }
+  },
+  "ueda_saltiness_columns": [
+    "compound",
+    "context",
+    "NaCl_nominal_percent",
+    "GSH_percent",
+    "PSE_as_printed_percent_NaCl",
+    "source_reported_finding"
+  ],
+  "ueda_saltiness_rows": [
+    [
+      "GSH",
+      "S_UEDA_NACL_043",
+      0.43,
+      0.04,
+      0.41,
+      "no significant effect observed"
+    ],
+    [
+      "GSH",
+      "S_UEDA_NACL_062",
+      0.62,
+      0.04,
+      0.58,
+      "no significant effect observed"
+    ]
+  ],
+  "contextual_evidence_not_compound_labels": [
+    {
+      "doi": "10.1021/acs.jafc.7b00897",
+      "source": "Tang2017 primary abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28502176/",
+      "finding": "GSH accumulation in L.sanfranciscensis sourdough bread did not enhance saltiness",
+      "comparison_limitation": "fermentation changes GSH, gamma-glutamylcysteine, texture and other matrix properties; not an isolated GSH addition effect",
+      "numeric_compound_response": null,
+      "access": "complete primary paper not recovered; indexed university PDF returns404",
+      "included_in_linked_compound_count": false
+    }
+  ],
+  "endpoint_qualification": [
+    {
+      "source": "GOTO2016",
+      "compound": "GSH",
+      "matrix_established": "MSG plus NaCl solution",
+      "human_n": 26,
+      "age_years": "19-27",
+      "female_n": 12,
+      "male_n": 14,
+      "dose": null,
+      "dose_basis": null,
+      "pH": null,
+      "total_sodium_measured": null,
+      "delivery_details": null,
+      "established_finding": "GSH addition increases mixture taste intensity; source P<0.001",
+      "separate_saltiness_effect": null,
+      "paired_effect_uncertainty": null,
+      "uncertainty_scope": "not established by available primary abstract, not proof never measured",
+      "new_saltiness_condition": false
+    },
+    {
+      "source": "JUNG2010",
+      "compound": "GSH",
+      "matrix_established": "beef soup with GSH, MSG or their mixtures",
+      "established_finding": "abstract distinguishes GSH-associated beef/garlic/green-onion flavor from MSG-associated salty/sweet/MSG taste; liking separately measured",
+      "dose": null,
+      "pH": null,
+      "human_n": null,
+      "total_sodium_measured": null,
+      "separate_GSH_saltiness_contrast": null,
+      "saltiness_effect": null,
+      "saltiness_uncertainty": null,
+      "new_saltiness_condition": false
+    },
+    {
+      "source": "KITAJIMA2023",
+      "sensory_compound": "isovaleraldehyde (IVAH)",
+      "is_target_peptide": false,
+      "matrix_as_reported": "NaCl0.5% plus MSG0.1%",
+      "sensory_additive_dose_as_reported": "2ppb IVAH",
+      "percent_and_ppb_basis": "not normalized here",
+      "sample_volume_mL": 20,
+      "pH": null,
+      "total_sodium_measured": null,
+      "sensory_room_temperature_C": 25,
+      "endpoint": "2-AFC combined most-intense umami/salty choice",
+      "separately_rated_saltiness": null,
+      "EVG_sensory_outcome": null,
+      "new_saltiness_condition": false,
+      "interpretation": "mechanistic/methodological context only; no target peptide saltiness label"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "publication": "CN120584963A",
+      "url": "https://patents.google.com/patent/CN120584963A/en",
+      "inspected": "description Examples1-2",
+      "actual_domain": "cat-food hydrolysate intake and feline-CaSR assay",
+      "exclusion": "not a pure-peptide controlled human saltiness panel",
+      "not_a_negative_activity_label": true
+    }
+  ],
+  "givaudan_receptor_coverage": [
+    {
+      "sample": 2,
+      "compound_as_reported": "S-(alpha,beta-dicarboxyethyl)-L-cysteine",
+      "contains_peptide_backbone": false,
+      "functional_CaSR_match_status_in_inspected_sources": "missing",
+      "match_note": "single modified cysteine, not gamma-Glu-Cys",
+      "confirmed_numeric_CaSR_value": null,
+      "missing_is_not_inactive": true
+    },
+    {
+      "sample": 3,
+      "compound_as_reported": "S-(alpha,beta-dicarboxyethyl) gamma-L-glutamyl-L-cysteinyl-glycine",
+      "contains_peptide_backbone": true,
+      "functional_CaSR_match_status_in_inspected_sources": "provisional",
+      "match_note": "Amino2016 compound58 internal name conflict and unmatched material",
+      "confirmed_numeric_CaSR_value": null,
+      "missing_is_not_inactive": true
+    },
+    {
+      "sample": 4,
+      "compound_as_reported": "S-(alpha,beta-dicarboxyethyl) gamma-L-glutamyl-cysteine",
+      "contains_peptide_backbone": true,
+      "functional_CaSR_match_status_in_inspected_sources": "missing",
+      "match_note": "dicarboxyethyl substituent differs from unmodified gamma-Glu-Cys",
+      "confirmed_numeric_CaSR_value": null,
+      "missing_is_not_inactive": true
+    },
+    {
+      "sample": 5,
+      "compound_as_reported": "beta-S-(alpha,gamma-dicarboxypropyl) gamma-L-glutamyl-L-cysteinyl-glycine",
+      "contains_peptide_backbone": true,
+      "functional_CaSR_match_status_in_inspected_sources": "missing",
+      "match_note": "dicarboxypropyl form is not dicarboxyethyl",
+      "confirmed_numeric_CaSR_value": null,
+      "missing_is_not_inactive": true
+    },
+    {
+      "sample": 6,
+      "compound_as_reported": "S-(alpha,beta-dicarboxyethyl) gamma-L-glutamyl-cysteine ethyl ester",
+      "contains_peptide_backbone": true,
+      "functional_CaSR_match_status_in_inspected_sources": "missing",
+      "match_note": "modified dipeptide ester cannot borrow another compound's potency",
+      "confirmed_numeric_CaSR_value": null,
+      "missing_is_not_inactive": true
+    },
+    {
+      "sample": 7,
+      "compound_as_reported": "(S-alpha,beta-dicarboxyethyl)-cystein ethyl ester",
+      "contains_peptide_backbone": false,
+      "functional_CaSR_match_status_in_inspected_sources": "missing",
+      "match_note": "single modified cysteine ethyl ester",
+      "confirmed_numeric_CaSR_value": null,
+      "missing_is_not_inactive": true
+    },
+    {
+      "sample": 8,
+      "compound_as_reported": "beta-S-(carboxyethyl) gamma-L-glutamyl-L-cysteinyl-glycine",
+      "contains_peptide_backbone": true,
+      "functional_CaSR_match_status_in_inspected_sources": "missing",
+      "match_note": "carboxyethyl-GSH differs from Amino carboxymethyl gamma-Glu-Cys",
+      "confirmed_numeric_CaSR_value": null,
+      "missing_is_not_inactive": true
+    },
+    {
+      "sample": 9,
+      "compound_as_reported": "(S-alpha,beta-dicarboxyethyl)-cystein methyl ester",
+      "contains_peptide_backbone": false,
+      "functional_CaSR_match_status_in_inspected_sources": "missing",
+      "match_note": "single modified cysteine methyl ester",
+      "confirmed_numeric_CaSR_value": null,
+      "missing_is_not_inactive": true
+    }
+  ],
+  "givaudan_panel_qualification": {
+    "additives": 8,
+    "peptide_backbone_additives": 5,
+    "background_reference_rows": 1,
+    "confirmed_receptor_matches": 0,
+    "provisional_receptor_matches": 1,
+    "missing_receptor_records_for_other_additives": 7,
+    "candidate_sampling_frame_documented": false,
+    "source_reports_all_additives_as_salt_enhancing": true,
+    "usable_selector_panel": false,
+    "coverage_scope": "published sources inspected here; not proof of universal absence"
+  },
+  "ohsu_Fig3A_Emax_percent_calcium": {
+    "R2": 40.8,
+    "R7": 27.6,
+    "R8": 42.6,
+    "R9": 53.3,
+    "R10": 38.0,
+    "R11": 25.6
+  },
+  "ohsu_Table1_HEK_columns": [
+    "compound",
+    "parenthetical_EC50_uM_in_retrieved_text"
+  ],
+  "ohsu_Table1_HEK_rows": [
+    [
+      "EA",
+      3.7
+    ],
+    [
+      "EV",
+      1.6
+    ],
+    [
+      "GC",
+      0.46
+    ],
+    [
+      "GSH",
+      0.71
+    ],
+    [
+      "ABUG",
+      0.025
+    ],
+    [
+      "EVG",
+      0.039
+    ]
+  ],
+  "ohsu_internal_value_warning": "Table1 parenthetical HEK values and Figure3A caption values differ in the retrieved original text, especially GSH 0.71uM versus 76.5nM. Table1 is not a second independent experiment by assumption. No silent correction, averaging or selection of the value that fits a desired association. Original page/correction required to adjudicate possible printed versus extraction discrepancy.",
+  "ohsu_salt_solution_thickness_columns": [
+    "compound",
+    "context",
+    "dose_percent_as_printed",
+    "direction",
+    "numerical_score"
+  ],
+  "ohsu_salt_solution_thickness_rows": [
+    [
+      "GSH",
+      "S_OHSU_NACL_THICKNESS",
+      0.1,
+      "enhancement reported",
+      null
+    ],
+    [
+      "EVG",
+      "S_OHSU_NACL_THICKNESS",
+      0.01,
+      "enhancement reported",
+      null
+    ]
+  ],
+  "ohsu_kokumi_PSE_columns": [
+    "compound",
+    "sample_percent_as_printed",
+    "GSH_percent_at_PSE",
+    "relative_kokumi_intensity"
+  ],
+  "ohsu_kokumi_PSE_rows": [
+    [
+      "GSH",
+      null,
+      null,
+      1
+    ],
+    [
+      "EA",
+      0.5,
+      0.074,
+      0.15
+    ],
+    [
+      "EV",
+      0.15,
+      0.092,
+      0.61
+    ],
+    [
+      "GC",
+      0.15,
+      0.094,
+      0.63
+    ],
+    [
+      "ABUG",
+      0.05,
+      0.085,
+      1.7
+    ],
+    [
+      "EVG",
+      0.01,
+      0.128,
+      12.8
+    ]
+  ],
+  "ohsu_published_association": {
+    "r_squared_as_printed": 0.66,
+    "P_as_printed": 0.0496,
+    "endpoint": "relative kokumi intensity versus receptor activity",
+    "source_locator": "Figure3B caption; refers to Table1 although numerical kokumi table is Table2",
+    "recalculated_by_us": false,
+    "independent_selector_validation": false
+  },
+  "receptor_row_uncertainty": {
+    "R12": {
+      "SE_uM": 0.5,
+      "experiment_n": 4
+    },
+    "R13": {
+      "SE_uM": 0.7,
+      "experiment_n": 4
+    },
+    "R14": {
+      "SE_uM": 0.9,
+      "experiment_n": 3
+    },
+    "R15": {
+      "SE_uM": 0.7,
+      "experiment_n": 3
+    }
+  },
+  "additional_named_links_not_new_saltiness_rows": [
+    {
+      "compound": "GSH",
+      "receptor_record": "R13",
+      "sensory_contexts": [
+        "S_UEDA_NACL_043",
+        "S_UEDA_NACL_062"
+      ],
+      "same_lot": null
+    },
+    {
+      "compound": "EA",
+      "receptor_record": "R15",
+      "sensory_contexts": [
+        "S_YANG_SS",
+        "S_YANG_BCB"
+      ],
+      "same_lot": null
+    }
+  ],
+  "broadhead_conditional_nonresponse": {
+    "source": "BROADHEAD2011",
+    "condition": "0.5mM extracellular calcium, HEK-CaR",
+    "finding": "authors report tested peptides ineffective up to 100uM; not shown",
+    "not_numeric_EC50_bound": true,
+    "not_human_saltiness_inactivity": true
+  }
+}

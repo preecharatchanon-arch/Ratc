@@ -4,3 +4,9 @@ data/trpv1/cache/
 **/__pycache__/
 **/.venv/
 **/*.pyc
+
+# Restored immutable inputs and local replays for the dated CaSR follow-up
+experiments/*/followups/*/replay/
+experiments/*/followups/*/chemistry.py
+experiments/*/followups/*/input/chemical_activity_dataset.csv
+experiments/*/followups/*/input/held_out_predictions.csv

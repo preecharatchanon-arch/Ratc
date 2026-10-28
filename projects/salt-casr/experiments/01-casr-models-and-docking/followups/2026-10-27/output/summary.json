@@ -1,0 +1,60 @@
+{
+  "protocol_sha256": "84ec98e84272c061074a9988471bfaf5e13bb6523ba6cb0abdff45e5bdc58db6",
+  "runtime_seconds": 0.5714638310000737,
+  "rdkit": "2025.09.3",
+  "verified_exact_stereochemical_graphs": 58,
+  "fixed_alpha": 10.0,
+  "primary_passed_exploratory_gain_gate": false,
+  "primary": [
+    {
+      "version": "journal",
+      "split": "leave_middle_family_out",
+      "model": "positional_ridge",
+      "n": 58,
+      "groups": 26,
+      "midpoint_MAE": 0.7652653189678152,
+      "interval_distance_MAE": 0.7410365016448813,
+      "within_3fold": 0.46551724137931033,
+      "MAE_gain_over_existing_nearest3": 0.03365389601394873,
+      "gain_95pct_low": -0.11042791297303652,
+      "gain_95pct_high": 0.15532264194578274,
+      "outside_middle_training_box": 6,
+      "unseen_tail_context": 7,
+      "MAE_in_middle_training_box": 0.6463118025022407,
+      "MAE_outside_middle_training_box": 1.7961957950027962
+    },
+    {
+      "version": "patent_assignment_sensitivity",
+      "split": "leave_middle_family_out",
+      "model": "positional_ridge",
+      "n": 58,
+      "groups": 26,
+      "midpoint_MAE": 0.7679759395943447,
+      "interval_distance_MAE": 0.7437471222714109,
+      "within_3fold": 0.4482758620689655,
+      "MAE_gain_over_existing_nearest3": 0.02871323758607713,
+      "gain_95pct_low": -0.11216638037226777,
+      "gain_95pct_high": 0.1502101110971009,
+      "outside_middle_training_box": 6,
+      "unseen_tail_context": 7,
+      "MAE_in_middle_training_box": 0.6488564794348299,
+      "MAE_outside_middle_training_box": 1.8003445943101404
+    }
+  ],
+  "glycine_effect_prediction": {
+    "pairs": 11,
+    "training_mean_delta_MAE": 0.8850767234460174,
+    "residue_ridge_delta_MAE": 0.9151207461123,
+    "gain": -0.030044022666282467,
+    "gain_95pct_low": -0.24984493483803097,
+    "gain_95pct_high": 0.18416728661974927,
+    "interpretation": "Eleven same-source pairs, one fixed model; no independent-study confirmation."
+  },
+  "domain_definition": "Training-only middle-fragment descriptor min/max box and exact tail-context presence, descriptive not a calibrated chemical applicability domain.",
+  "limits": [
+    "New models on previously inspected data; frozen settings before this run do not create independent confirmation.",
+    "Reported source ranges are not confidence intervals.",
+    "Bootstrap intervals are conditional on fitted models; secondary comparisons do not justify selecting a winner.",
+    "No sensory prediction, sodium-reduction result or proposed-compound potency is established."
+  ]
+}

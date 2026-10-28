@@ -1,0 +1,25 @@
+{
+  "input_archive_sha256": "51b265c5d3acc3e0b07183160ce03a69929ad479ed186ef337cf44f7b3378129",
+  "poses": 10,
+  "heavy_atoms": 21,
+  "spyrmsd_top_pose_RMSD_A": 4.7803299099140695,
+  "spyrmsd_closest_pose_RMSD_A": 2.3158419532388104,
+  "maximum_difference_from_RDKit_A": 8.881784197001252e-16,
+  "translated_reference_by_5A_RMSD_A": 5.0,
+  "carboxylate_oxygen_swap_corrected_RMSD_A": 0.0,
+  "center": false,
+  "minimize": false,
+  "all_pose_RMSD_A": [
+    4.7803299099140695,
+    4.485718846676477,
+    5.675930047557131,
+    5.979514592498689,
+    2.3158419532388104,
+    4.175020096900588,
+    5.312458694517292,
+    7.061378817874298,
+    5.323838701896362,
+    5.5172301668759225
+  ],
+  "scope": "Independent saved-coordinate validation; no new docking. SDF coordinate rounding can cause ~1e-6 A differences from the original in-memory result."
+}

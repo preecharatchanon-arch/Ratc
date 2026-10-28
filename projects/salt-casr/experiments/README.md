@@ -1,6 +1,8 @@
 # Research experiments
 
-[Project overview](../README.md) · [Shared data](../data/README.md)
+[Project overview](../README.md) · [Shared data](../data/README.md) · [Current evidence review](../evidence-review/README.md)
+
+This index covers the five completed analyses. The current question and execution gate are in [research status](../docs/RESEARCH_STATUS.md). The [later CaSR follow-up](01-casr-models-and-docking/followups/README.md) preserves additional exploratory comparisons on existing data.
 
 1. [CaSR models and docking](01-casr-models-and-docking/README.md): chemical reconstruction, receptor-activity prediction and reference-pose validation.
 2. [Sensory source transfer](02-sensory-source-transfer/README.md): label evidence, sequence/reference holdouts and post-hoc transfer controls.

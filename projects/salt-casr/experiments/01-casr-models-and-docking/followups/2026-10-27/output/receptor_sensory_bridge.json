@@ -1,0 +1,13 @@
+{
+  "same_source_kokumi_thresholds_ppm": {
+    "γ-Glu-Val-Gly": 0.47,
+    "γ-Glu-Nva-Gly": 0.028,
+    "γ-Glu-Nva": 0.077
+  },
+  "EVG_over_NvaGly_mass_threshold_ratio": 16.785714285714285,
+  "EC50_intervals_overlap_for_EVG_and_NvaGly": true,
+  "endpoint": "kokumi mixture recognition, not pure NaCl saltiness or sodium replacement",
+  "source": "10.1248/cpb.c16-00293",
+  "independent_external_validation": false,
+  "notes": "Ratio of reported point thresholds, no recovered CI or new significance test; shared molecular formula for Nva/Val tripeptides does not make receptor occupancy or sensory exposure identical."
+}

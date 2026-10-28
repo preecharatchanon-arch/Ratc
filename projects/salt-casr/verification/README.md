@@ -10,4 +10,12 @@ The three previously shared notebook URLs remain byte-identical runnable aliases
 
 Current scientific status is in [RESEARCH_STATUS.md](../docs/RESEARCH_STATUS.md). Existing uncertainties about data provenance, endpoint mismatch, external validation, peptide access and food suitability are retained in the experiment reports.
 
+The 28 October update adds the dated computational follow-up, public source
+qualifications and current design/outcome guides. It preserves the existing
+notebooks, scientific source scripts, result tables and archived runs. The
+file index, current hashes and mapped documentation hashes are updated for
+the new navigation; original source hashes remain in the move map. The earlier
+`ORGANIZATION_REVIEW.json` remains its dated historical review, not a receipt
+for new scientific validation.
+
 From the project folder, run `python verification/verify_layout.py` to check navigation, notebook payloads, archive integrity and current file checksums. This uses only the Python standard library.
