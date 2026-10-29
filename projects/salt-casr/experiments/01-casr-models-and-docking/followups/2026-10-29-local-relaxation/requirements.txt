@@ -1,0 +1,7 @@
+numpy==2.2.6
+scipy==1.15.3
+rdkit==2025.9.3
+meeko==0.8.0
+gemmi==0.7.5
+vina==1.2.7
+spyrmsd==0.9.0

@@ -1,0 +1,57 @@
+source,table,endpoint,ligand,receptor,unit,source_text,mean,sem,n,status,uncertainty_status,assay,buffer_CaCl2_mM,buffer_NaCl_mM,pH
+Yamaguchi2025,S1,EC50,CaCl2 ,WT,mM,0.19 ± 0.4,0.19,0.4,3,reported,reported_SEM,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,CaCl2 ,E297A,mM,6.58 ± 0.3,6.58,0.3,3,reported,reported_SEM,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,CaCl2 ,P39S,mM,7.52 ± 0.23,7.52,0.23,3,reported,reported_SEM,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,CaCl2 ,F42S,mM,6.60 ± 0.3,6.60,0.3,3,reported,reported_SEM,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,CaCl2 ,N102F,mM,2.75 ± 0.21,2.75,0.21,3,reported,reported_SEM,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,CaCl2 ,R66A,mM,3.87 ± 0.5,3.87,0.5,3,reported,reported_SEM,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,CaCl2 ,R66E,mM,3.47 ± 0.4,3.47,0.4,3,reported,reported_SEM,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,L-Tyr,WT,mM,3.90 ± 1.1,3.90,1.1,3,reported,reported_SEM,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,L-Tyr,E297A,mM,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,L-Tyr,P39S,mM,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,L-Tyr,F42S,mM,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,L-Tyr,N102F,mM,2.16 ± 0.4,2.16,0.4,3,reported,reported_SEM,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,L-Tyr,R66A,mM,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,L-Tyr,R66E,mM,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,γ-EV,WT,μM,10.71 ± 0.1,10.71,0.1,3,reported,reported_SEM,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,γ-EV,E297A,μM,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,γ-EV,P39S,μM,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,γ-EV,F42S,μM,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,γ-EV,N102F,μM,4.48 ± 0.2,4.48,0.2,3,reported,reported_SEM,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,γ-EV,R66A,μM,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,γ-EV,R66E,μM,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,γ-EVG,WT,μM,0.18 ± 0.1,0.18,0.1,3,reported,reported_SEM,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,γ-EVG,E297A,μM,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,γ-EVG,P39S,μM,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,γ-EVG,F42S,μM,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,γ-EVG,N102F,μM,6.52 ± 0.1,6.52,0.1,3,reported,reported_SEM,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,γ-EVG,R66A,μM,18.94 ± 0.5,18.94,0.5,3,reported,reported_SEM,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S1,EC50,γ-EVG,R66E,μM,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,CaCl2 ,WT,percent_of_WT_for_same_ligand,100,100,,3,reported,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,CaCl2 ,E297A,percent_of_WT_for_same_ligand,86.0,86.0,,3,reported,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,CaCl2 ,P39S,percent_of_WT_for_same_ligand,74.5,74.5,,3,reported,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,CaCl2 ,F42S,percent_of_WT_for_same_ligand,87.0,87.0,,3,reported,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,CaCl2 ,N102F,percent_of_WT_for_same_ligand,87.8,87.8,,3,reported,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,CaCl2 ,R66A,percent_of_WT_for_same_ligand,107.2,107.2,,3,reported,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,CaCl2 ,R66E,percent_of_WT_for_same_ligand,105.0,105.0,,3,reported,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,L-Tyr,WT,percent_of_WT_for_same_ligand,100,100,,3,reported,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,L-Tyr,E297A,percent_of_WT_for_same_ligand,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,L-Tyr,P39S,percent_of_WT_for_same_ligand,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,L-Tyr,F42S,percent_of_WT_for_same_ligand,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,L-Tyr,N102F,percent_of_WT_for_same_ligand,131.9,131.9,,3,reported,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,L-Tyr,R66A,percent_of_WT_for_same_ligand,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,L-Tyr,R66E,percent_of_WT_for_same_ligand,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,γ-EV,WT,percent_of_WT_for_same_ligand,100,100,,3,reported,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,γ-EV,E297A,percent_of_WT_for_same_ligand,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,γ-EV,P39S,percent_of_WT_for_same_ligand,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,γ-EV,F42S,percent_of_WT_for_same_ligand,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,γ-EV,N102F,percent_of_WT_for_same_ligand,194.8,194.8,,3,reported,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,γ-EV,R66A,percent_of_WT_for_same_ligand,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,γ-EV,R66E,percent_of_WT_for_same_ligand,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,γ-EVG,WT,percent_of_WT_for_same_ligand,100,100,,3,reported,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,γ-EVG,E297A,percent_of_WT_for_same_ligand,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,γ-EVG,P39S,percent_of_WT_for_same_ligand,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,γ-EVG,F42S,percent_of_WT_for_same_ligand,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,γ-EVG,N102F,percent_of_WT_for_same_ligand,95.7,95.7,,3,reported,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,γ-EVG,R66A,percent_of_WT_for_same_ligand,53.6,53.6,,3,reported,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4
+Yamaguchi2025,S2,Emax,γ-EVG,R66E,percent_of_WT_for_same_ligand,NA,,,3,not_analyzed,not_numerically_reported,hCaSR_PEAKrapid_calcium_mobilization,1,146,7.4

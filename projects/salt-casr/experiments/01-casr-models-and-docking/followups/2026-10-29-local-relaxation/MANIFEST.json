@@ -1,0 +1,21 @@
+{
+  "PROTOCOL.md": "9a39ac33c750ad0a0fb080a2e2a3b1a93808b0563d1728e7c95a8474cbf11737",
+  "README.md": "b3396bf621387e902753a46a43962c068098ee45caed98ba413cb37d51bf463d",
+  "check_preparation.py": "510fdfa3e3efce922e98547d6ed906f36d50a0aacae3a3b152fc960d876f91e3",
+  "input/9J7I.cif": "712a3a62bde10af2914936d36957ba3fc93fa5f39c7dbcbd447f76a2bd18e120",
+  "input/frozen_high_search.pdbqt": "f77eab6683770b8a167dd55bd01172bb37edadc62e404b71f43f8a09d28ddf55",
+  "input/frozen_high_search_summary.json": "554711950aba78367ebf76cee4f6643e5016c9213d2aaa455b3797187f894395",
+  "input/independent_start.pdbqt": "374c299873d971402bbc7f0f901775c770bc3946f68d618146afb97514e0f9ec",
+  "input/native_gamma_EVG.sdf": "6e194d829fcab8efb8e0ab5613087d83a08ed3e44f22127a58f03535c9ab98dd",
+  "input/receptor.pdbqt": "5c4d39e895fb82923cd0efce7ab1cc57e71e20a9099764c8bd1232e23efa76ee",
+  "output/native_locally_relaxed.pdbqt": "6a38aa872817cec345ee5d4343565c22bf570d0f0e88b55dcae587295bd22f9a",
+  "output/native_locally_relaxed.sdf": "b5112727d6adcaa76ceecd7bec35b773d0155341f47d3d934a364ea61d297853",
+  "output/native_prepared.pdbqt": "2dd2723b526322d0efb6ec47d46d37b480b0b6fbddf1c82bc989fd5607cfcd1f",
+  "output/posthoc_preparation_audit.json": "e53f24654b3f56502362b0592c80880035296c01d0ffb378f019f3bdefae89d5",
+  "output/progress.json": "9c6922d89b037653d39574a5b747c1e8a5f2248d4a806c83d8b6104fa09ad325",
+  "output/results.json": "9c6922d89b037653d39574a5b747c1e8a5f2248d4a806c83d8b6104fa09ad325",
+  "protocol.json": "3baef63bf69513139ecd76e2b0a3dca7367c2ab7430ebe5f084d3291ee65fd87",
+  "requirements.txt": "33a2f6a652c04ec5b693b08c372afb4766b8131b29c52b9de279ad9a065c9dd8",
+  "requirements_resolved.txt": "92ceb85bc8cfa2db16c19f2a0b91fc616708a1a045864d4ffead71c14639b1ae",
+  "run_diagnostic.py": "f3564456cfa48dde979facf3c0369aab6deddb65ca42efdc78c9ba4b9509f8e7"
+}

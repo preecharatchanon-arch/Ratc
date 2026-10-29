@@ -1,0 +1,57 @@
+{
+  "scope": "post-hoc source/input integrity; no new model or optimization",
+  "source_PDB": "9J7I",
+  "source_sha256": "712a3a62bde10af2914936d36957ba3fc93fa5f39c7dbcbd447f76a2bd18e120",
+  "receptor_sha256": "5c4d39e895fb82923cd0efce7ab1cc57e71e20a9099764c8bd1232e23efa76ee",
+  "selected_contact_residues": [
+    {
+      "author_residue": 39,
+      "source_name": "PRO",
+      "source_heavy_atoms": 7,
+      "prepared_heavy_atoms": 7,
+      "missing_heavy_atom_names": [],
+      "max_matching_atom_displacement_A": 0.0
+    },
+    {
+      "author_residue": 42,
+      "source_name": "PHE",
+      "source_heavy_atoms": 11,
+      "prepared_heavy_atoms": 11,
+      "missing_heavy_atom_names": [],
+      "max_matching_atom_displacement_A": 0.0
+    },
+    {
+      "author_residue": 66,
+      "source_name": "ARG",
+      "source_heavy_atoms": 11,
+      "prepared_heavy_atoms": 11,
+      "missing_heavy_atom_names": [],
+      "max_matching_atom_displacement_A": 0.0
+    },
+    {
+      "author_residue": 147,
+      "source_name": "SER",
+      "source_heavy_atoms": 6,
+      "prepared_heavy_atoms": 6,
+      "missing_heavy_atom_names": [],
+      "max_matching_atom_displacement_A": 0.0
+    },
+    {
+      "author_residue": 170,
+      "source_name": "SER",
+      "source_heavy_atoms": 6,
+      "prepared_heavy_atoms": 6,
+      "missing_heavy_atom_names": [],
+      "max_matching_atom_displacement_A": 0.0
+    },
+    {
+      "author_residue": 297,
+      "source_name": "GLU",
+      "source_heavy_atoms": 9,
+      "prepared_heavy_atoms": 9,
+      "missing_heavy_atom_names": [],
+      "max_matching_atom_displacement_A": 0.0
+    }
+  ],
+  "limit": "Heavy-atom preservation does not validate protonation, atom types, complete receptor state or a functional model."
+}

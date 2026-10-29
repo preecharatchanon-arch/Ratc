@@ -10,10 +10,20 @@
       "id": "AMPC2024_1087",
       "primary_url": "https://ampc.com.au/media/zq3lipxu/ampc-2024-1087-final-report-kokumi-agr.pdf",
       "assessment_depth": "original31-page PDF; preparation methods, formulations, receptor and sensory figures visually checked",
-      "locators": ["Section4.1 PDFp7", "Table1 and flash-profiling methods PDFp11", "Figure5 PDFp18", "Figure6 PDFp20"],
+      "locators": [
+        "Section4.1 PDFp7",
+        "Table1 and flash-profiling methods PDFp11",
+        "Figure5 PDFp18",
+        "Figure6 PDFp20"
+      ],
       "unit": "complex beef-offal preparation, not individual peptide",
       "receptor": {
-        "materials": ["Liver-W", "Lung-W", "Liver-G", "Lung-G"],
+        "materials": [
+          "Liver-W",
+          "Lung-W",
+          "Liver-G",
+          "Lung-G"
+        ],
         "W": "water extract",
         "G": "protease+glutaminase preparation",
         "processing": "PC2 analytical preparation;10kDa ultrafiltration",
@@ -25,20 +35,47 @@
         "readout": "FLIPR dye/FlexStation3; maximum-minus-minimum RFU",
         "dose_basis": "protein concentration",
         "source_approximate_EC50": [
-          {"material": "Lung-G", "value": 121, "unit": "ug protein/mL", "qualifier": "source approximate, not independently fitted", "CI": null},
-          {"material": "Liver-G", "value": 181, "unit": "ug protein/mL", "qualifier": "source approximate, not independently fitted", "CI": null}
+          {
+            "material": "Lung-G",
+            "value": 121,
+            "unit": "ug protein/mL",
+            "qualifier": "source approximate, not independently fitted",
+            "CI": null
+          },
+          {
+            "material": "Liver-G",
+            "value": 181,
+            "unit": "ug protein/mL",
+            "qualifier": "source approximate, not independently fitted",
+            "CI": null
+          }
         ],
         "figure_uncertainty": "mean+/-SE,n3; independence of experiments/batches not established here"
       },
       "human": {
-        "materials": ["Control", "Liver-P", "Lung-P", "Liver-G", "Lung-G"],
+        "materials": [
+          "Control",
+          "Liver-P",
+          "Lung-P",
+          "Liver-G",
+          "Lung-G"
+        ],
         "P": "protease hydrolysate",
         "processing": "separate food-grade preparation;straining;60C drying;175C/15min patty cooking",
         "method": "flash profiling;free-choice attributes;within-attribute ranking of five coded samples;GPA/PCA representation",
         "assessors": 7,
         "assessor_details": "experienced;5 men,2 women;age30-65",
-        "control_recipe_g": {"beef": 1350, "water": 150, "salt": 15},
-        "supplemented_recipe_g": {"beef": 1350, "water": 135, "extract": 15, "salt": 15},
+        "control_recipe_g": {
+          "beef": 1350,
+          "water": 150,
+          "salt": 15
+        },
+        "supplemented_recipe_g": {
+          "beef": 1350,
+          "water": 135,
+          "extract": 15,
+          "salt": 15
+        },
         "nominal_additions_as_authors_describe": "1% salt;1% extract",
         "sodium_basis": "recipe salt mass;not measured total sodium or established cooked-product sodium",
         "pH": null,
@@ -50,7 +87,10 @@
         "sodium_reduction_test": false
       },
       "matching": {
-        "common_nominal_names": ["Liver-G", "Lung-G"],
+        "common_nominal_names": [
+          "Liver-G",
+          "Lung-G"
+        ],
         "same_exact_lot_established": null,
         "same_processing": false,
         "same_control_contrast": false,
@@ -63,9 +103,22 @@
       "doi": "10.3390/foods12030674",
       "primary_url": "https://doi.org/10.3390/foods12030674",
       "assessment_depth": "original full17-page PDF;methods and Figure5 visually checked",
-      "locators": ["Sections2.3,2.5,2.6", "Figure5 PDFp14"],
-      "human": {"assessors": 10, "unit": "four whole chicken soups from different chicken ages", "method": "trained QDA", "purified_compound_addition_outcome": null},
-      "addition_experiments": {"measurement": "SA402B electronic tongue", "salt_sensor": "CT0", "human_panel": false, "intrinsic_compound_background": "10mM KCl"},
+      "locators": [
+        "Sections2.3,2.5,2.6",
+        "Figure5 PDFp14"
+      ],
+      "human": {
+        "assessors": 10,
+        "unit": "four whole chicken soups from different chicken ages",
+        "method": "trained QDA",
+        "purified_compound_addition_outcome": null
+      },
+      "addition_experiments": {
+        "measurement": "SA402B electronic tongue",
+        "salt_sensor": "CT0",
+        "human_panel": false,
+        "intrinsic_compound_background": "10mM KCl"
+      },
       "decision": "Do not translate carnosine/anserine instrumental addition results into human saltiness labels;no new named receptor/saltiness link"
     },
     {
@@ -79,11 +132,18 @@
       "verified_size_bytes": 2040317,
       "verified_md5": "6761c3a4a5486d71bc13f798e6689740",
       "assessment_depth": "complete13-page original SI text;FigureS8 visually inspected;parent main article abstract only",
-      "locators": ["FigureS7 pS9", "FigureS8 pS10"],
+      "locators": [
+        "FigureS7 pS9",
+        "FigureS8 pS10"
+      ],
       "sensory": {
         "endpoint": "umami intensity",
         "background": "2mM MSG",
-        "peptides": ["GSH", "gamma-Glu-Val", "gamma-Glu-gamma-Glu-Val"],
+        "peptides": [
+          "GSH",
+          "gamma-Glu-Val",
+          "gamma-Glu-gamma-Glu-Val"
+        ],
         "dose_per_peptide_mM": 2,
         "dose_policy": "equimolar",
         "MSG_only_bar_in_S8A": false,
@@ -92,7 +152,16 @@
         "error_bar_definition_established_here": null,
         "separate_saltiness": null
       },
-      "cells": {"type": "murine enteroendocrine STC-1", "readouts": ["calcium deltaF/F0", "CCK pg/mL"], "perturbation": "with/without NPS-2143", "all_response_established_as_CaSR_specific": false, "human_CaSR_EC50": null},
+      "cells": {
+        "type": "murine enteroendocrine STC-1",
+        "readouts": [
+          "calcium deltaF/F0",
+          "CCK pg/mL"
+        ],
+        "perturbation": "with/without NPS-2143",
+        "all_response_established_as_CaSR_specific": false,
+        "human_CaSR_EC50": null
+      },
       "inhibitor_human_tasting_manipulation_in_S8": false,
       "related_source": "10.1021/acs.jafc.2c04919;related authors/peptides/umami and STC-1,not automatically independent confirmation",
       "decision": "retain dose-policy and cellular-attribution design context;do not create saltiness labels or hCaSR potencies"
@@ -102,12 +171,27 @@
       "doi": "10.1016/j.fochms.2025.100319",
       "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12615753/",
       "assessment_depth": "original full-text XML;Materials/Methods and Results/Discussion read",
-      "locators": ["Sections2.3-2.4", "Sections3.1-3.3", "Figures1-6"],
+      "locators": [
+        "Sections2.3-2.4",
+        "Sections3.1-3.3",
+        "Figures1-6"
+      ],
       "readout": "GCaMP6s calcium fluorescence;mock-cell subtraction",
       "cells": "HEK293T/17,transient receptor/chimeric G-protein expression",
-      "buffer": {"NaCl_mM": 130, "KCl_mM": 5, "HEPES_mM": 10, "CaCl2_mM": 2, "sodium_pyruvate_mM": 5, "pH": 7.4, "pH_adjustment": "NaOH when needed"},
+      "buffer": {
+        "NaCl_mM": 130,
+        "KCl_mM": 5,
+        "HEPES_mM": 10,
+        "CaCl2_mM": 2,
+        "sodium_pyruvate_mM": 5,
+        "pH": 7.4,
+        "pH_adjustment": "NaOH when needed"
+      },
       "umami_construct": "humanTAS1R1/ratTAS1R3;not fully human",
-      "sweet_constructs_include": ["humanTAS1R2/humanTAS1R3", "humanTAS1R2/ratTAS1R3"],
+      "sweet_constructs_include": [
+        "humanTAS1R2/humanTAS1R3",
+        "humanTAS1R2/ratTAS1R3"
+      ],
       "finding": "GSH partial agonist in mixed-species umami assay;sucralose potentiation depends on ratTAS1R3 rather than transferring unchanged to human/human construct",
       "replication": "duplicate wells in at least4 independent experiments;8 wells not8 independent candidate compounds",
       "new_functional_CaSR_measurements": null,
@@ -148,19 +232,108 @@
       "human_saltiness": null,
       "functional_CaSR": null,
       "decision": "retain exact institutional identity and access blocker;do not infer assay/results from title;not identified as old fish thesis or pea paper"
+    },
+    {
+      "id": "CAO2026_SOY_FOCHX104238",
+      "doi": "10.1016/j.fochx.2026.104238",
+      "pmcid": "PMC13445481",
+      "depth": "Full original XML relevant methods/results; original SI; main Figure4A/B and SI S6/S7 visual checks",
+      "human_panel_n": 12,
+      "synthetic_screen_n": 16,
+      "human_raw_paired_scores_available": null,
+      "functional_CaSR_measurement": null,
+      "cellular_target": "TAS1R1-associated; CaSR is modeling template",
+      "human_saltiness_numerical_rows_added": 0,
+      "decision": "retain sensory provenance lead; no matched CaSR selector labels"
+    },
+    {
+      "id": "YANG2026_CHICKEN_LWT119987",
+      "doi": "10.1016/j.lwt.2026.119987",
+      "depth": "Primary indexed abstract/highlights/data statement; Crossref/OpenAlex metadata",
+      "full_methods_recovered": false,
+      "numerical_saltiness_data_qualified": null,
+      "functional_CaSR_measurement_qualified": null,
+      "identity_codes": [
+        "LN-7",
+        "SA-10",
+        "VG-9",
+        "AR-10"
+      ],
+      "threshold_endpoint": "kokumi; aggregate ranges not allocated by compound",
+      "decision": "unresolved acquisition; no labels or inferred absence of receptor assays"
+    },
+    {
+      "id": "XU2026_SAUSAGE_FOODRES119732",
+      "doi": "10.1016/j.foodres.2026.119732",
+      "pmid": "42562505",
+      "depth": "Primary indexed abstract/intro/highlights; metadata",
+      "full_methods_recovered": false,
+      "numerical_saltiness_data_qualified": null,
+      "functional_CaSR_measurement_qualified": null,
+      "decision": "retain intrinsic/enhancement distinction as source claim; no reconstructed synergy calculation or paired panel"
+    },
+    {
+      "id": "MARS_US20220256889A1",
+      "primary_url": "https://patents.google.com/patent/US20220256889A1/en",
+      "depth": "Complete relevant Examples1-5, Tables2-4 via indexed primary text",
+      "functional_species": "feline",
+      "cell_assay": "HEK T-Rex/natClytin-fCaSR; luminescence; calcium-free source protocol;90s",
+      "independent_assay_occasions_at_least": 2,
+      "technical_repetitions_per_concentration": 4,
+      "EC50_uncertainty": "four-parameter-fit standard error; biological SEM not established",
+      "human_saltiness_measurements": null,
+      "buffer_pH": null,
+      "buffer_sodium": null,
+      "sensory_sampling_unit": "animal feeding of hydrolysates, not isolated human peptide responses",
+      "source_network": "Mars; Laffitte/McGrane overlap; independent experiments not presumed",
+      "decision": "contextual species-specific activity; no human negative/positive labels"
     }
   ],
   "additional_boundaries": [
-    {"source": "10.1016/j.fochx.2026.104238", "status": "original indexed methods identifyTAS1R1-transfected HEK293,not a CaSR-functional assay;CaSR structure is a modeling template"},
-    {"source": "10.3390/molecules31122193", "status": "STC-1 calcium/qPCR with multiple receptors;CaSR transcript change not CaSR-specific functional potency"},
-    {"source": "CN120584963A", "status": "felineCaSR peptide panel/catfeeding;different species and outcome"},
-    {"source": "KR20180132007A", "status": "mannosylated dipeptide humanCaSR agonist-dependent modulation;human sensory example not established"},
-    {"source": "CN119708149B", "status": "docking and electronic tongue;not functionalCaSR/human saltiness"},
-    {"source": "US20240180221A1", "status": "broad claims not actual matched peptide assay examples"},
-    {"source": "CN114982861A", "status": "wheat hydrolysate mixture sensory protocol;no functionalCaSR assay established;different inventors/stimuli from Wu2022 and Wang2026"},
-    {"source": "10.3390/molecules28124585", "status": "original aldehyde humanCaSR and combined umami/salty2-AFC under noseclip;nonpeptide/context only"},
-    {"source": "10.1080/09168451.2020.1743169", "status": "poly-Glu-Tyr receptor series;do not transfer to poly-Glu-Arg"},
-    {"source": "Tyr-Phe-Tyr compound-name search", "status": "no relevant separate human saltiness primary measurement recovered;bounded search is not proof none exists"},
-    {"source": "9J7I", "status": "already used in original prepare_receptor.py;not a new structure opportunity"}
+    {
+      "source": "10.1016/j.fochx.2026.104238",
+      "status": "original indexed methods identifyTAS1R1-transfected HEK293,not a CaSR-functional assay;CaSR structure is a modeling template"
+    },
+    {
+      "source": "10.3390/molecules31122193",
+      "status": "STC-1 calcium/qPCR with multiple receptors;CaSR transcript change not CaSR-specific functional potency"
+    },
+    {
+      "source": "CN120584963A",
+      "status": "felineCaSR peptide panel/catfeeding;different species and outcome"
+    },
+    {
+      "source": "KR20180132007A",
+      "status": "mannosylated dipeptide humanCaSR agonist-dependent modulation;human sensory example not established"
+    },
+    {
+      "source": "CN119708149B",
+      "status": "docking and electronic tongue;not functionalCaSR/human saltiness"
+    },
+    {
+      "source": "US20240180221A1",
+      "status": "broad claims not actual matched peptide assay examples"
+    },
+    {
+      "source": "CN114982861A",
+      "status": "wheat hydrolysate mixture sensory protocol;no functionalCaSR assay established;different inventors/stimuli from Wu2022 and Wang2026"
+    },
+    {
+      "source": "10.3390/molecules28124585",
+      "status": "original aldehyde humanCaSR and combined umami/salty2-AFC under noseclip;nonpeptide/context only"
+    },
+    {
+      "source": "10.1080/09168451.2020.1743169",
+      "status": "poly-Glu-Tyr receptor series;do not transfer to poly-Glu-Arg"
+    },
+    {
+      "source": "Tyr-Phe-Tyr compound-name search",
+      "status": "no relevant separate human saltiness primary measurement recovered;bounded search is not proof none exists"
+    },
+    {
+      "source": "9J7I",
+      "status": "already used in original prepare_receptor.py;not a new structure opportunity"
+    },
+    "2026-10-29 follow-up: human bubble plots versus instrument saltiness, TAS1R1 versus CaSR, feline versus human and missing raw functional data are kept separate; see Followup_Source_Qualification_20261029.md."
   ]
 }

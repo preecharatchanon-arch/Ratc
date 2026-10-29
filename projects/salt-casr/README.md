@@ -2,7 +2,7 @@
 
 **Current question:** can measured calcium-sensing receptor (CaSR) activity improve selection of peptides that increase human saltiness under defined conditions? The current evidence does not yet establish useful selection performance.
 
-Research by **Ratchanon Preecha** · Updated 28 October 2026
+Research by **Ratchanon Preecha** · Updated 29 October 2026
 
 This project connects published peptide chemistry, receptor assays and human sensory evidence. It contains **five completed computational analyses**, a later fixed CaSR-model/pose follow-up, and an ongoing assessment of whether the actual measurements overlap by compound and conditions. No new human or biological measurements are claimed.
 
@@ -17,6 +17,30 @@ This project connects published peptide chemistry, receptor assays and human sen
 **Next decision:** qualify actual matched receptor/saltiness measurements before fitting a selector. Material processing, dose policy, receptor specificity and human outcome must align. A meaningful success criterion and independent evaluation data are still missing. [Full test card](docs/NEXT_TEST_DESIGN.md).
 
 The earlier [arginyl-control](docs/ARGINYL_STARTING_POINT.md) and [RP/KP sensory](docs/PROLYL_SENSORY_FOLLOWUP.md) notes remain historical branches. They do not supersede the current CaSR question or establish that a new laboratory experiment is ready.
+
+## Latest additions on 29 October 2026
+
+- **Functional ligand contrast:** a receptor mutation (N102F) lowers the published
+  response EC50 for γ-Glu-Val but raises it for γ-Glu-Val-Gly. The opposing
+  directions survive a conservative summary-data rounding analysis under
+  explicit small-sample assumptions; a complete potency-order reversal does
+  not. This is exploratory reanalysis of three reported experiments per cell,
+  not binding-affinity or human-saltiness validation.
+  [Design, source table, code and result](experiments/05-functional-assay-controls/followups/2026-10-29/README.md).
+- **Bound-pose relaxation:** local optimization preserves a reference-like pose
+  (RMSD **0.595 Å**), but the displaced pose still receives the better Vina score.
+  The combined gate failed, so conditional global searches were not run.
+  [Frozen diagnostic and actual outputs](experiments/01-casr-models-and-docking/followups/2026-10-29-local-relaxation/README.md).
+- **New source qualification:** a 16-peptide human sensory study was recovered
+  in full. Its cellular assay concerns TAS1R1-associated signaling, while its
+  numerical supplementary saltiness tables are electronic-tongue results.
+  Three other primary leads were qualified. No new matched hCaSR/human-saltiness
+  panel or human numerical label was created.
+  [Full assessment and conditions](evidence-review/Followup_Source_Qualification_20261029.md).
+
+These additions refine the functional controls and identify concrete data gaps.
+The main selection question remains unresolved; unknown-peptide screening is
+not supported by the tested docking protocol.
 
 ## Latest completed tests: actual results
 
@@ -38,7 +62,7 @@ These measurements belong to the original authors. Our contribution here is reco
 
 | Evidence recovered | What is actually available | Interpretation |
 | --- | --- | --- |
-| **Five named receptor/saltiness links** | Gamma-Glu-Abu (Abu = 2-aminobutyric acid), gamma-Glu-Val-Gly, gamma-Glu-Ala, gamma-Glu-Val and reduced glutathione (GSH). Four have numerical saltiness observations here; gamma-Glu-Val is graphical only. Nine numerical formulation/dose conditions yield eleven heterogeneous endpoint values. | Real compound-level overlap exists, including non-significant GSH conditions. It is not a jointly tested candidate panel; repeated doses/time windows are not independent compounds, and the values cannot be pooled into one score. |
+| **Five named receptor/saltiness links** | Gamma-Glu-Abu (Abu = 2-aminobutyric acid), gamma-Glu-Val-Gly, gamma-Glu-Ala, gamma-Glu-Val and reduced glutathione (GSH). Four have numerical saltiness observations here; gamma-Glu-Val is graphical only. Twelve numerical formulation/dose conditions yield fourteen heterogeneous endpoint values. | Real compound-level overlap exists, including non-significant GSH conditions. It is not a jointly tested candidate panel; repeated doses/time windows are not independent compounds, and the values cannot be pooled into one score. |
 | **Original Ohsu and Broadhead receptor papers** | Ohsu supplies a six-identity receptor/kokumi panel. Broadhead supplies four peptide EC50 estimates with SE and experiment counts. | Useful receptor and kokumi documentation, but neither supplies the required separate human saltiness panel. The apparent Ohsu table/caption potency discrepancy remains unresolved. |
 | **AMPC beef-offal application report** | Human-CaSR responses to extracts and human flash profiling of patties containing extracts. Liver-G and Lung-G names overlap, but processing and receptor/human control contrasts differ. | A relevant preparation-level receptor/food-sensory connection; no individual peptide saltiness effects or valid two-extract predictor test. |
 | **Deng2026 original supplement** | Equal-molar GSH, gamma-Glu-Val and gamma-Glu-gamma-Glu-Val comparisons in an MSG background, alongside STC-1 calcium/CCK measurements. | A useful dose-controlled **umami** comparison. Cellular inhibitor responses are not human saltiness scores or human-CaSR EC50 values. |
@@ -98,3 +122,4 @@ The project URL stays the same. Previously shared notebook URLs are retained as 
 See the [data guide](data/README.md) for source citations, units, evidence labels and licence boundaries. SaltyMeta's author-curated labels are not independently verified for every peptide. Source-table transcriptions and computational results have different evidential status. Full publisher articles are not redistributed.
 
 The [15 October organization review](verification/ORGANIZATION_REVIEW.json) records the original layout checks; the [verification guide](verification/README.md) describes the current integrity check. Original execution records remain with their experiments. The repository [checksum index](../../ARTIFACT_CHECKSUMS.json) identifies the actual current files, including compatibility notebook aliases.
+

@@ -2,44 +2,51 @@
 
 [Project](../README.md) · [Current direction](../docs/RESEARCH_STATUS.md) · [Next test design](../docs/NEXT_TEST_DESIGN.md)
 
-Updated 28 October 2026. This folder assesses published measurements and whether
-they can answer the current selection question. It is a literature/data
-qualification layer, separate from the five completed computational analyses.
-No receptor or human sensory measurements were performed by this project.
+Updated29 October2026. This folder qualifies published measurements; it contains
+no receptor or human experiment performed by this project and no fitted human
+saltiness selector. The source files preserve missing measurements, source
+relationships, exposure conditions and endpoint distinctions.
 
-| File | Read it for |
-| --- | --- |
-| [ASSESSMENT.md](ASSESSMENT.md) | Original-source methods, material/control mismatches, rejected uses and unresolved tables |
-| [evidence.json](evidence.json) | Named compounds, receptor assays, sensory contexts, observations and attributed identity links; column arrays describe row arrays |
-| [source_qualification.json](source_qualification.json) | Detailed AMPC, chicken-soup, Deng supplement, Cornut receptor, plant-peptide and thesis qualifications |
-| [search_screen.json](search_screen.json) | Exact bounded search queries and manual assessments of 80 unique indexed records; assessment depth is explicit |
+## Current findings and entry points
 
-The registry includes five named peptide identities with receptor/saltiness
-links: gamma-Glu-Abu, gamma-EVG, gamma-Glu-Ala, gamma-Glu-Val and GSH. Four have
-numerical saltiness observations here and one has graphical observations.
-They are not a jointly tested candidate panel. Repeated conditions, dose
-levels and time windows do not increase the number of independent compounds.
-Kokumi and combined-intensity observations are indexed separately.
+| Read | Purpose |
+|---|---|
+| [Latest source qualification](Followup_Source_Qualification_20261029.md) | Full16-peptide sensory source and three additional primary cases; human versus electronic-tongue values, TAS1R1 versus CaSR, feline versus human assays |
+| [Follow-up source records](followup_source_records.json) and [panel inventory](cao2026_panel_inventory.csv) | Source hashes, access depth,16 sequence identities and explicit missing numerical human/CaSR fields |
+| [Registry](evidence.json) | Attributed receptor/sensory observations and chemical-identity links, with dose, matrix, sodium, pH, assay and uncertainty qualifications |
+| [Source assessment and design](Source_Assessment_and_Design.md) | Working question, source/control eligibility and the written selection-test requirements |
+| [Sensory window assessment](Sensory_Window_Assessment_and_Design.md) | Why the bounded seven-case pass did not qualify a human peptide-dose/NaCl grid |
+| [Primary assay qualification](Primary_Assays_and_Endpoint_Decision.md) | Source-specific EC50, normalized maximum response and sensory endpoint distinctions |
+| [Detailed source ledger](source_qualification.json) | Source-level qualifications, including original methods and unresolved fields |
+| [Bounded indexed screen](search_screen.json) | Historical80-record search coverage; new case reviews are recorded separately |
 
-`null` means unresolved or unreported in the inspected source, never zero or
-inactive. Non-significant differences are not equivalence. Reported source
-ranges are not confidence intervals. Dose, matrix, sodium basis, pH, calcium,
-assay species/construct, material linkage and source dependence constrain any
-comparison. Unknown exact lots stay unknown.
+The registry links five named peptide identities: gamma-Glu-Abu, gamma-EVG,
+gamma-Glu-Ala, gamma-Glu-Val and reduced glutathione. Four have numerical
+saltiness observations here; one is graphical. Twelve numerical formulation/
+dose conditions yield fourteen heterogeneous endpoint values. This is not a
+jointly tested candidate panel or common regression target. Repeated doses,
+participants and time windows do not become extra independent compounds.
 
-The title/abstract queries returned 48 and 65 records with 33 in common: 80
-unique indexed records. This bounded screen is not a systematic review or
-proof that no qualifying dataset exists. Abstract-only assessment is distinct
-from original-method verification. A record marked as supplying no newly
-qualified panel is not a biological negative label.
+`null` and empty inventory numeric fields mean unestablished or unreported,
+never zero, inactivity or a negative sensory result. Non-significance is not
+equivalence; published concentration ranges are not confidence intervals.
+Instrument outputs, kokumi, liking, intrinsic taste, receptor activity and
+human saltiness are distinct outcomes. All inspected material is development
+evidence rather than unseen confirmation.
 
-Current result: no recovered common panel justifies fitting a human saltiness
-selector using measured CaSR activity. No predictor was fitted to these
-records. A successful metadata/integrity check would establish record
-consistency only, not an effective peptide or validated discovery method.
+## Reproduce the registry only
 
-Primary URLs and source locators are retained in the JSON records. Third-party
-papers, supplements, figures, raw abstract corpora and private correspondence
-are not included. Source publications retain their own rights; repository
-licensing does not relicense them. All inspected evidence is development
-material, not unseen confirmation.
+From this folder, run `python build_registry.py` with Python3.12. This rebuilds
+the attributed registry and consistency summary; it performs no model fitting,
+biological experiment or new statistical efficacy test. Source-qualification
+JSON and prose are reviewed records, not automatically inferred labels.
+
+The earlier [ASSESSMENT.md](ASSESSMENT.md) remains a historical original-method
+assessment; the current files above supersede its acquisition queue. Other
+dated reports in this folder preserve endpoint and identity decisions. A lack
+of qualified data is an execution blocker rather than a negative finding about
+CaSR or every peptide in a source.
+
+Primary citations and exact locators are retained in the JSON records. Original
+publisher articles, supplements, figures and private correspondence are not
+redistributed. Third-party rights remain with their sources.

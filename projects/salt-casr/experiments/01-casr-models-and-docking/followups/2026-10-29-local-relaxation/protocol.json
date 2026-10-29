@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-29",
+  "checkpoint_read_version": 23,
+  "scope": "single_known_complex_exploratory_method_diagnostic",
+  "archive_sha256": "51b265c5d3acc3e0b07183160ce03a69929ad479ed186ef337cf44f7b3378129",
+  "inputs": [
+    {
+      "file": "receptor.pdbqt",
+      "archive_member": "work/casr_discovery/results/casr.pdbqt",
+      "bytes": 350960,
+      "sha256": "5c4d39e895fb82923cd0efce7ab1cc57e71e20a9099764c8bd1232e23efa76ee"
+    },
+    {
+      "file": "native_gamma_EVG.sdf",
+      "archive_member": "work/toolkit_pilot/results/native_gamma_EVG.sdf",
+      "bytes": 1836,
+      "sha256": "6e194d829fcab8efb8e0ab5613087d83a08ed3e44f22127a58f03535c9ab98dd"
+    },
+    {
+      "file": "frozen_high_search.pdbqt",
+      "archive_member": "work/casr_discovery/results/docking/native_exhaustiveness16.pdbqt",
+      "bytes": 58311,
+      "sha256": "f77eab6683770b8a167dd55bd01172bb37edadc62e404b71f43f8a09d28ddf55"
+    },
+    {
+      "file": "frozen_high_search_summary.json",
+      "archive_member": "work/casr_discovery/results/docking/native_search_sensitivity.json",
+      "bytes": 721,
+      "sha256": "554711950aba78367ebf76cee4f6643e5016c9213d2aaa455b3797187f894395"
+    },
+    {
+      "file": "independent_start.pdbqt",
+      "archive_member": "work/casr_discovery/results/docking/00.input.pdbqt",
+      "bytes": 2696,
+      "sha256": "374c299873d971402bbc7f0f901775c770bc3946f68d618146afb97514e0f9ec"
+    }
+  ],
+  "protocol_sha256": "9a39ac33c750ad0a0fb080a2e2a3b1a93808b0563d1728e7c95a8474cbf11737",
+  "settings": {
+    "vina": "1.2.7",
+    "seed": 777,
+    "cpu": 2,
+    "local_max_steps": 5000,
+    "common_unbound_energy": 0.0,
+    "RMSD_max_A": 2.0,
+    "score_precision_tolerance": 0.001,
+    "stage2_seeds": [
+      104729,
+      130363,
+      155921
+    ],
+    "stage2_exhaustiveness": 16,
+    "stage2_poses": 20
+  }
+}

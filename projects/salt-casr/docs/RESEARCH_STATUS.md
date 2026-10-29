@@ -1,4 +1,4 @@
-# Research status — 28 October 2026
+# Research status — 29 October 2026
 
 [Project](../README.md) · [Evidence review](../evidence-review/README.md) · [Test design](NEXT_TEST_DESIGN.md) · [Sensory outcomes](SENSORY_OUTCOMES.md)
 
@@ -21,6 +21,8 @@ defines the outcomes and the required distinction.
 | --- | --- | --- |
 | [01: original CaSR models/docking](../experiments/01-casr-models-and-docking/README.md) | Original best held-family MAE 0.7989 pEC50; native top-pose RMSD 4.7803 Å | Receptor prediction and pose placement do not validate human saltiness selection. |
 | [01: 27 Oct follow-up](../experiments/01-casr-models-and-docking/followups/README.md) | 58 compounds/26 families; positional-model gain 0.0337, conditional 95% interval [-0.1104,0.1553]; 11-pair Gly-effect gain interval [-0.2498,0.1842] | No reliable incremental gain; previously inspected data remain exploratory. Independent spyrmsd confirms top-pose 4.7803 Å. |
+| [01: local-relaxation diagnostic](../experiments/01-casr-models-and-docking/followups/2026-10-29-local-relaxation/README.md) | Relaxed reference RMSD0.595 Å; common-reference score−7.021 versus−7.828 for the displaced pose | Reference-like geometry is locally accessible, but the combined ranking gate fails. Conditional new global searches were not run. |
+| [05: functional ligand contrast](../experiments/05-functional-assay-controls/followups/2026-10-29/README.md) | N102F has opposing γ-EV/γ-EVG EC50 shifts under conditional rounding-sensitive summary bounds; full ordering reversal is inconclusive | An exploratory functional control, not a direct-binding mechanism or human selector validation. Raw n3 sampling assumptions remain unchecked. |
 | [02: sensory source transfer](../experiments/02-sensory-source-transfer/README.md) | Fixed Extra Trees mean AUC 0.686 under random partitions versus 0.286 under reference+sequence holdouts | Source/endpoint dependence limits transfer; other baselines reported separately. |
 | [03: conditions and dose](../experiments/03-assay-dose-response/README.md) | Context-dependent benchmark negatives and dose-ranking reversals; four baselines each retrieve one known enhancer in their top three of six candidates | Preserve dose, matrix and unresolved results; no population screening or sodium-replacement claim. |
 | [04: TRPV1 access](../experiments/04-trpv1-membrane-access/README.md) | Proposed contacts lie in membrane/cytoplasmic regions | Structural access question, not proof of absent binding or human efficacy. |
@@ -31,7 +33,22 @@ The later follow-up analyzes existing observations; it is not a sixth
 independent biological study. Broad docking, MD and model sweeps remain
 unsupported. The 9J7I structure was already used.
 
-## What the latest source work adds
+## New source qualification on 29 October
+
+A full 16-peptide human sensory source, Cao2026 (Food Chemistry:X104238), was
+recovered with its original supplement. Separate saltiness is assessed, but
+human paired numerical ratings were not recovered. Its precise supplementary
+saltiness numbers belong to an electronic tongue, and the functional cellular
+readout concerns TAS1R1 rather than CaSR. Three additional primary leads retain
+explicit access, species and endpoint limits. See the [full qualification](../evidence-review/Followup_Source_Qualification_20261029.md)
+and [16-identity inventory](../evidence-review/cao2026_panel_inventory.csv).
+No numerical human labels were reconstructed or new selector fitted.
+
+The registry now records twelve numerical formulation/dose conditions and
+fourteen heterogeneous endpoint values for five linked identities. The same
+source's repeated measurements are not independent compounds or studies.
+
+## Earlier source work retained
 
 The [registry](../evidence-review/evidence.json) links five named peptide
 identities to receptor and saltiness evidence, with heterogeneous conditions
@@ -63,24 +80,24 @@ Integrity checks establish file consistency only.
 
 ## Next precise action
 
-Qualify an actual candidate-by-candidate primary table against the
-[test card](NEXT_TEST_DESIGN.md). Newly grounded acquisition leads are:
+The [test card](NEXT_TEST_DESIGN.md) remains gated on actual matched measurements.
+The new 16-peptide lead needs the human mixture-minus-NaCl comparison, paired
+assessor/session uncertainty, exact dose/chemical form and sodium/pH metadata.
+It could support a CaSR-selector comparison only with measured functional
+hCaSR data for exact matching identities and an adequate independent candidate
+panel. Neither a precise instrument value nor a general cellular calcium
+response supplies a missing field.
 
-| Original source | What is known | Actual blocker |
-| --- | --- | --- |
-| Reumiller2026, 10.1016/j.foodchem.2026.150843 | Primary abstract reports functional CaSR including Tyr-Phe-Tyr; online 18 Aug 2026 | Actual assay panel/species/values and separate human saltiness results not recovered; abstract silence is not proof no tests occurred. |
-| Shiqin Wang2026 HKBU wheat-gluten thesis, awarded 28 Sep 2026 | Official record lists full text and abstract/TOC | Both official PDF downloads returned403; actual peptide identities and methods/results unknown. |
+The WT/N102F ligand contrast also lacks raw experiment-level response curves,
+unrounded EC50 values and numerical Emax uncertainty. Its conditional summary
+analysis is already completed; do not rerun it as confirmation or infer a
+binding mechanism from the mutation alone.
 
-First establish whether separate human saltiness outcomes overlap actual
-functional CaSR measurements for the same identified peptides and relevant
-conditions. Retain selection history, chemical forms, dose/basis, matrix,
-sodium, pH, calcium, species/readout, source overlap, censoring and uncertainty.
-Receptor-only or sensory-only data alone would not qualify the selector test.
-
-No practical sensory/yield margin is established and no experiment is queued.
-A new legitimate original copy or qualified dataset is needed before execution.
-Repeated inaccessible routes, proxy labels or another model fit do not fill
-this prerequisite. All inspected material is development evidence.
+There is no qualified common panel or justified useful-gain margin yet.
+New original data can reopen qualification; the failed download routes remain
+closed without a new legitimate source. Current evidence supports neither a
+broad unknown-peptide docking screen nor more proxy-label fitting. Earlier
+acquisition queues do not supersede these prerequisites.
 
 ## Historical branches and claim boundaries
 
@@ -94,3 +111,4 @@ No synthesis, receptor assay, human sensory experiment, novel effective food
 compound, food-use approval or proven sodium reduction is claimed as our own.
 Umami, kokumi, overall liking, intrinsic taste, receptor activity and saltiness
 remain separate outcomes. AIMO remains a separate project.
+

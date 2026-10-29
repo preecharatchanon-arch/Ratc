@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-29T02:08:35.435105+00:00",
+  "hashes": {
+    "PROTOCOL.md": "f9218cd1c356722821135334eea53ef905f2d79eeaf77f9760a4c571edd2e318",
+    "functional_data.csv": "63dc8a231628a04970109e9b7a797657fbf83c0bd1f05ada250b5a56dede95a0",
+    "SOURCE_MANIFEST.json": "adbb9a7cde12cd604eeb8a4f3b8c8a848be54f11a185d6a231483c96491f15e5"
+  },
+  "status": "before numerical uncertainty calculation; source means already inspected"
+}

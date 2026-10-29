@@ -1,0 +1,14 @@
+{
+  "doi": "10.1038/s41598-025-87999-1",
+  "pmcid": "PMC11785791",
+  "retrieved_UTC": "2026-10-29",
+  "fulltext_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11785791/fullTextXML",
+  "supplement_retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11785791/supplementaryFiles",
+  "source_supplement": "41598_2025_87999_MOESM1_ESM.docx",
+  "tables_visual_check": "unmodified original DOCX rendered to PDF, page9; compared with XML table cells",
+  "source_hashes": {
+    "Yamaguchi2025.xml": "c394ec919f0ef5e9a64233d7af7fb52d9d199f302b473a2ba00809700bcdb651",
+    "Yamaguchi2025_SI.docx": "a129d67835fbf59fd2c90db77a0f3fd4b76c6cc033613ebeb97e51e52d699361"
+  },
+  "reuse": "Numerical tabulation with attribution; no original full article or supplement redistributed. Article CC BY4.0; https://creativecommons.org/licenses/by/4.0/"
+}

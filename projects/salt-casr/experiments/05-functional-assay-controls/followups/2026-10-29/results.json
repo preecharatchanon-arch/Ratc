@@ -1,0 +1,97 @@
+{
+  "scope": "Exploratory summary-data sensitivity; not independent confirmation, binding affinity, sensory prediction or a new biological result",
+  "python": "3.12.3",
+  "scipy": "1.15.3",
+  "n_per_cell": 3,
+  "df": 2,
+  "directed_bounds": 4,
+  "alpha_family": 0.05,
+  "critical_t": 6.205346816570705,
+  "literal": {
+    "bounds": [
+      {
+        "receptor": "WT",
+        "ligand": "γ-EV",
+        "direction": "lower",
+        "bound_uM": 10.089465318342931
+      },
+      {
+        "receptor": "WT",
+        "ligand": "γ-EVG",
+        "direction": "upper",
+        "bound_uM": 0.8005346816570704
+      },
+      {
+        "receptor": "N102F",
+        "ligand": "γ-EV",
+        "direction": "upper",
+        "bound_uM": 5.721069363314141
+      },
+      {
+        "receptor": "N102F",
+        "ligand": "γ-EVG",
+        "direction": "lower",
+        "bound_uM": 5.899465318342929
+      }
+    ],
+    "separation_gaps_uM": {
+      "EV_lower_EC50_after_N102F": 4.36839595502879,
+      "EVG_higher_EC50_after_N102F": 5.098930636685859,
+      "WT_EVG_more_potent_than_EV": 9.28893063668586,
+      "N102F_EV_more_potent_than_EVG": 0.1783959550287877
+    },
+    "primary_opposing_shifts": true,
+    "secondary_full_rank_reversal": true
+  },
+  "rounding_sensitive": {
+    "bounds": [
+      {
+        "receptor": "WT",
+        "ligand": "γ-EV",
+        "direction": "lower",
+        "bound_uM": 9.774197977514394
+      },
+      {
+        "receptor": "WT",
+        "ligand": "γ-EVG",
+        "direction": "upper",
+        "bound_uM": 1.1158020224856058
+      },
+      {
+        "receptor": "N102F",
+        "ligand": "γ-EV",
+        "direction": "upper",
+        "bound_uM": 6.036336704142677
+      },
+      {
+        "receptor": "N102F",
+        "ligand": "γ-EVG",
+        "direction": "lower",
+        "bound_uM": 5.5841979775143935
+      }
+    ],
+    "separation_gaps_uM": {
+      "EV_lower_EC50_after_N102F": 3.737861273371717,
+      "EVG_higher_EC50_after_N102F": 4.468395955028788,
+      "WT_EVG_more_potent_than_EV": 8.658395955028787,
+      "N102F_EV_more_potent_than_EVG": -0.45213872662828347
+    },
+    "primary_opposing_shifts": true,
+    "secondary_full_rank_reversal": false
+  },
+  "descriptive_fold_EC50_N102F_over_WT": {
+    "γ-EV": 0.41830065359477125,
+    "γ-EVG": 36.22222222222222
+  },
+  "assumptions": [
+    "Independent normal raw-scale experiment EC50s within each cell; cannot be checked with n3 summaries",
+    "SEM reflects variation among three experiment-level EC50 estimates",
+    "Rounding sensitivity assumes half last displayed unit for each mean and SEM"
+  ],
+  "excluded": [
+    "Emax inferential comparisons: missing numerical SEM",
+    "NA-as-negative labels",
+    "Mutant binding-affinity labels",
+    "Human efficacy or predictive utility claims"
+  ]
+}

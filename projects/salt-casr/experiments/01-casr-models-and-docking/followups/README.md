@@ -19,3 +19,13 @@ The dated package's literature priorities are historical. The current
 [evidence assessment](../../../evidence-review/ASSESSMENT.md) and
 [test design](../../../docs/NEXT_TEST_DESIGN.md) control subsequent work.
 No scientific experiment was rerun while publishing and organizing this copy.
+
+
+## 29 October local relaxation diagnostic
+
+The [new dated diagnostic](2026-10-29-local-relaxation/README.md) starts from
+the experimental bound pose and preserves a near-reference local minimum,
+but the displaced pose still scores better. Its combined gate failed and
+conditional Stage2 was not executed. Frozen design, minimal source inputs,
+actual outputs and reproduction instructions are included. This is a separate
+exploratory method diagnosis, not a repaired or validated screening workflow.

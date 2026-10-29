@@ -1,0 +1,40 @@
+{
+  "retrieved_UTC": "2026-10-29",
+  "source": "Europe PMC EXT_ID:42928019 search metadata",
+  "record": {
+    "id": "42928019",
+    "source": "MED",
+    "pmid": "42928019",
+    "pmcid": "PMC13696094",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC13696094"
+      ]
+    },
+    "doi": "10.1631/jzus.b2500788",
+    "title": "Structural basis of calcium-sensing receptor activation by extracellular modulators.",
+    "authorString": "Zeng X, Liu H, Wang X, Liu Z, Gao Y.",
+    "journalTitle": "J Zhejiang Univ Sci B",
+    "issue": "10",
+    "journalVolume": "27",
+    "pubYear": "2026",
+    "journalIssn": "1673-1581; 1862-1783; ",
+    "pageInfo": "1117-1128",
+    "pubType": "research-article; journal article",
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "N",
+    "hasTMAccessionNumbers": "N",
+    "firstPublicationDate": "2026-10-01",
+    "firstIndexDate": "2026-10-26"
+  },
+  "assessment": "Indexed abstract concerns upacicalcet/neomycin; full text not recovered; no qualified additional gamma-peptide structural benchmark"
+}

@@ -1,0 +1,322 @@
+{
+  "review_date": "2026-10-29",
+  "timezone": "Asia/Bangkok",
+  "checkpoint_read_version": 22,
+  "purpose": "qualify a controlled human peptide-dose/NaCl series before a new analysis",
+  "status": "bounded_source_assessment_and_design_no_scientific_test",
+  "counts": {
+    "primary_cases_assessed": 7,
+    "new_eligible_human_saltiness_window_series": 0,
+    "new_qualified_CaSR_selector_panels": 0,
+    "new_main_registry_saltiness_conditions": 0,
+    "scientific_numerical_tests": 0,
+    "model_fits": 0
+  },
+  "source_cases": [
+    {
+      "id": "ZHAO2025_WINDOW",
+      "doi": "10.1016/j.foodres.2024.115622",
+      "preprint_doi": "10.2139/ssrn.4901320",
+      "assessment": "known abstract-level bidirectional saltiness lead; original response grid and uncertainty unrecovered",
+      "new_access_checks": [
+        "OpenAlex green-OA record points to the same SSRN DOI, not another recovered manuscript",
+        "indexed public SSRN delivery link returned403",
+        "Crossref-advertised Elsevier XML URL returned200 but195-byte Site Unavailable HTML, not article XML"
+      ],
+      "human_response_grid": null,
+      "exact_final_formulations": null,
+      "paired_uncertainty": null,
+      "measured_functional_CaSR_overlap_established": null,
+      "eligible_window_series": false,
+      "reason": "measurement details and original data unrecovered, not biological failure",
+      "retrieved_original_byte_provenance": []
+    },
+    {
+      "id": "FU2026_WINDOW",
+      "doi": "10.1016/j.foodres.2026.119270",
+      "PII": "S0963996926009476",
+      "online_date_as_indexed": "2026-04-24",
+      "issue_date_as_indexed": "2026-07-31",
+      "assessment": "exact bibliographic identity resolved; six-peptide abstract, not recovered psychophysical surface",
+      "new_access_checks": [
+        "OpenAlex lists no repository fulltext location",
+        "Crossref-advertised Elsevier XML URL returned200 but195-byte failure HTML"
+      ],
+      "human_response_grid": null,
+      "paired_uncertainty": null,
+      "final_total_sodium": null,
+      "measured_functional_CaSR_overlap_established": null,
+      "eligible_window_series": false,
+      "reason": "no original candidate-level grid or usable uncertainty recovered",
+      "retrieved_original_byte_provenance": []
+    },
+    {
+      "id": "BU2023_PREPRINT_WINDOW",
+      "doi": "10.21203/rs.3.rs-3306601/v1",
+      "journal_doi": "10.1007/s11947-023-03278-9",
+      "one_study_lineage_not_two_replications": true,
+      "original_preprint_pages": 19,
+      "visual_review": [
+        "Figure3 PDFp18",
+        "journal publisher Figure3 image"
+      ],
+      "human_context": {
+        "assessors": 10,
+        "reported_age_years": [
+          20,
+          25
+        ],
+        "sex_counts_as_reported": {
+          "male": 5,
+          "female": 5
+        },
+        "NaCl_percent_m_v": 0.4,
+        "peptide_percent_m_v": 0.03,
+        "human_scale": [
+          0,
+          10
+        ],
+        "NaCl_reference_score": 5,
+        "reported_synthetic_panel": [
+          "CSRH",
+          "KDINNRF",
+          "DGATGPRG",
+          "GADGVPGL"
+        ],
+        "control_and_two_enhancers_shown_in_figure": true,
+        "other_two_human_numerical_scores": null,
+        "human_raw_ratings": null,
+        "paired_covariance": null,
+        "replication_for_human_error_bars": null,
+        "pH": null,
+        "counterion": null,
+        "measured_total_sodium": null,
+        "peptide_only_controls_established": null,
+        "randomization_blinding_established": null,
+        "source_reported_significance_retained_without_recalculation": true
+      },
+      "instrumental_not_human_values": {
+        "source": "Figure3 electronic-tongue line/right axis",
+        "NaCl_control": {
+          "mean": 2.62,
+          "reported_plus_minus": 0.04
+        },
+        "KDINNRF": {
+          "mean": 2.86,
+          "reported_plus_minus": 0.04
+        },
+        "CSRH": {
+          "mean": 3.01,
+          "reported_plus_minus": 0.0
+        },
+        "rounding_warning": "printed0.00 does not prove zero instrumental variance",
+        "not_used_as_human_saltiness_labels": true
+      },
+      "identity_caution": "preprint text also prints GADGVPRG and KDIINNRF; variants not silently corrected into extra tested identities",
+      "functional_CaSR_measured_in_recovered_methods": false,
+      "receptor_work": "modeled TMC4 docking/MD, not functional CaSR",
+      "eligible_window_series": false,
+      "reason": "one dose/NaCl setting; full four-member numerical human outcome table and paired uncertainty missing",
+      "retrieved_original_byte_provenance": [
+        {
+          "filename_in_private_working_copy": "Bu2023_preprint.pdf",
+          "bytes": 1459944,
+          "sha256": "dccf52b53428784b454abcc34356040b8e09908d3f945619f365de2f66161e79",
+          "redistributed_in_package": false
+        }
+      ]
+    },
+    {
+      "id": "FOODS2026_1826_WINDOW",
+      "doi": "10.3390/foods15101826",
+      "PMCID": "PMC13205270",
+      "original_fulltext_XML_recovered": true,
+      "locators": [
+        "Table1",
+        "Sections2.5-2.6",
+        "Section3.4",
+        "Figure4 caption",
+        "supplement contents and data availability"
+      ],
+      "koku_panel_n": 20,
+      "GSH_testing_g_per_L": 1.5,
+      "GSH_warmup_g_per_L": 0.75,
+      "warmup_not_a_second_experimental_dose": true,
+      "aqueous_background": {
+        "NaCl_g_per_L": 5,
+        "MSG_g_per_L": 5
+      },
+      "second_matrix": "mushroom broth with separate recipe/processing; not equal measured total sodium established",
+      "reported_koku_attributes": [
+        "body_thickness",
+        "mouthcoating",
+        "continuity",
+        "astringency",
+        "aftertaste"
+      ],
+      "separate_saltiness_rating_in_GSH_matrix_task": false,
+      "six_dose_umami_task_is_separate": true,
+      "GSH_is_not_one_of_seventeen_QDA_test_compounds": true,
+      "randomized_coded_presentation_reported": true,
+      "gLMS_and_participant_random_effect_methods_reported": true,
+      "matrix_saltiness_data": null,
+      "functional_CaSR_measured_in_recovered_methods": false,
+      "liking_measured_in_recovered_methods": false,
+      "eligible_window_series": false,
+      "reason": "matrix endpoint is koku, not saltiness; no human GSH saltiness dose grid",
+      "retrieved_original_byte_provenance": [
+        {
+          "filename_in_private_working_copy": "Lopez2026.xml",
+          "bytes": 175536,
+          "sha256": "65ee9484ff2555e680dfa7ace6f89288958107eb092e69512459650b6195bd50",
+          "redistributed_in_package": false
+        }
+      ]
+    },
+    {
+      "id": "SHAN2022_SI_WINDOW",
+      "doi": "10.1021/acs.jafc.2c06237",
+      "official_SI_article_id": 21485215,
+      "SI_file_id": 38084809,
+      "SI_file_name": "jf2c06237_si_001.pdf",
+      "SI_download_url": "https://ndownloader.figshare.com/files/38084809",
+      "SI_complete_recovered": true,
+      "visual_review": [
+        "FigureS2 PDFp3"
+      ],
+      "FigureS2_scope": "probability-by-salt-concentration graphic, not peptide-dose/NaCl grid",
+      "other_SI_scope": [
+        "yeast-extract processing optimization",
+        "spectra",
+        "docking"
+      ],
+      "main_full_methods_recovered": false,
+      "peptide_response_grid": null,
+      "paired_human_uncertainty": null,
+      "sample_size_inferred_from_rounded_percentages": false,
+      "eligible_window_series": false,
+      "reason": "official SI does not supply the needed peptide response grid; main methods remain unrecovered",
+      "retrieved_original_byte_provenance": [
+        {
+          "filename_in_private_working_copy": "Shan2022_SI.pdf",
+          "bytes": 2186430,
+          "sha256": "08c09cb30e9d068138ac1429e42f21e2cfed7a8de59257417911f023b1d59fe7",
+          "redistributed_in_package": false
+        }
+      ]
+    },
+    {
+      "id": "PU2023_SI_WINDOW",
+      "doi": "10.1021/acs.jafc.2c06293",
+      "official_SI_article_id": 21751164,
+      "SI_file_id": 38594931,
+      "SI_file_name": "jf2c06293_si_001.pdf",
+      "SI_download_url": "https://ndownloader.figshare.com/files/38594931",
+      "SI_complete_recovered": true,
+      "SI_pages": 3,
+      "visual_review": [
+        "FigureS1 PDFp1"
+      ],
+      "SI_scope": [
+        "salt-preference frequencies",
+        "food-gel comparison",
+        "zeta potentials"
+      ],
+      "main_abstract_interventions": [
+        "MSG",
+        "free alanine",
+        "free glycine",
+        "gum Arabic"
+      ],
+      "main_full_methods_recovered": false,
+      "concentration_denominator_warning": "resolve sodium versus NaCl basis from original methods before transfer",
+      "forced_choice_non_significance_is_not_equivalence": true,
+      "eligible_window_series": false,
+      "reason": "methodological lead; no required peptide panel or response grid",
+      "retrieved_original_byte_provenance": [
+        {
+          "filename_in_private_working_copy": "Pu2023_SI.pdf",
+          "bytes": 395488,
+          "sha256": "28a575c8ad0f8e77b5510898866b1a9c6597e322bc94f14fbf0154df009faa62",
+          "redistributed_in_package": false
+        }
+      ]
+    },
+    {
+      "id": "ZHANG2026_AIP_WINDOW",
+      "doi": "10.1038/s41538-026-01209-4",
+      "publication_date": "2026-10-20",
+      "version": "accepted article in press; later edits possible",
+      "primary_PDF_pages": 17,
+      "SI_PDF_pages": 6,
+      "visual_review": [
+        "candidate-assay methods PDFp15"
+      ],
+      "source_locators": [
+        "Discussion PDFp14",
+        "Dataset construction PDFp14",
+        "Electronic tongue analysis PDFp15",
+        "Data availability PDFp16"
+      ],
+      "candidates": [
+        "AGHQR",
+        "AHDQY",
+        "SKPGNR",
+        "IPVVVDL",
+        "DNNEEW",
+        "ANSDL"
+      ],
+      "taste_assay": "SA402B electronic tongue",
+      "peptide_mg_per_mL": 0.25,
+      "enhancer_background_NaCl_percent": 0.1,
+      "instrument_cycles": 4,
+      "retained_cycles": 3,
+      "retained_cycles_are_technical_replicates": true,
+      "human_taste_panel": "explicitly proposed as future work in discussion",
+      "cellular_readout": "HUVEC vascular-cell viability/NO/ROS, not human taste or functional CaSR",
+      "negative_training_classes": [
+        "bitter",
+        "sweet",
+        "sour"
+      ],
+      "negative_class_warning": "other taste annotation is not established absence of enhancement in a matched NaCl assay",
+      "receptor_work": "TMC4 docking/MD; further receptor-functional studies explicitly required",
+      "human_saltiness_outcomes": null,
+      "eligible_window_series": false,
+      "eligible_CaSR_selector_panel": false,
+      "reason": "instrumental candidate taste validation and unrelated cellular endpoint, not a human saltiness series",
+      "retrieved_original_byte_provenance": [
+        {
+          "filename_in_private_working_copy": "Zhang2026_AIP.pdf",
+          "bytes": 5474559,
+          "sha256": "a160f90a8c0605c34ba6db823af965fb089bfcd85e85713a22a0066e481055fb",
+          "redistributed_in_package": false
+        },
+        {
+          "filename_in_private_working_copy": "Zhang2026_SI.pdf",
+          "bytes": 858668,
+          "sha256": "7fbe8839fd9e3b083a6c915bf1c06f294ab1c5ae2a5097c4c239be6421c8a242",
+          "redistributed_in_package": false
+        }
+      ]
+    }
+  ],
+  "design_file": "Sensory_Window_Assessment_and_Design.md",
+  "design_status": {
+    "known_peptide_reference_candidate": "gamma-EVG; exact eligible dataset still missing",
+    "primary_target": "human separately-rated peptide-minus-matched-background saltiness at prespecified final dose/NaCl/time cells",
+    "independent_unit_fixed_peptide_contrast": "participant, with repeated sessions/preparations retained",
+    "independent_unit_later_selector": "peptide identity with family/source dependence",
+    "practical_delta": null,
+    "practical_delta_not_invented": true,
+    "window_scope": "finite observed cells, not an inferred continuous surface",
+    "uncertainty": "paired ratings/covariance and simultaneous bounds across frozen cells required",
+    "eligible_actual_grid": null,
+    "execution_gate": "closed",
+    "enhancement_is_not_automatically_synergy": true,
+    "sensory_enhancement_is_not_CaSR_causality": true,
+    "fixed_NaCl_is_not_matched_total_sodium": true,
+    "reference_window_is_not_selector_validation": true
+  },
+  "next_action": "Qualify actual original participant-paired human grid and final formulations if a legitimate new dataset appears; otherwise retain the written design and stop numerical execution. Do not repeat blocked routes or launch another mixed-target model benchmark."
+}

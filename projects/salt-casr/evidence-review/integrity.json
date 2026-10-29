@@ -1,0 +1,53 @@
+{
+  "execution_kind": "registry_integrity_only_not_discovery_test",
+  "integrity": "passed",
+  "selector_test": "not_executed",
+  "blocking_reasons": [
+    "five named linked identities across heterogeneous conditions and endpoints, one graphical only; not a jointly tested candidate panel",
+    "unequal optimized doses in temporal comparison",
+    "missing paired uncertainty",
+    "provisional adduct link has unresolved material identity",
+    "no prespecified candidate denominator or unseen comparison",
+    "practical gain margin not justified"
+  ],
+  "model_fits": 0,
+  "source_assessment": {
+    "bounded_indexed_unique_records": 80,
+    "not_a_systematic_review": true,
+    "new_qualified_candidate_panels": 0,
+    "contextual_cases_kept_separate_from_outcome_rows": 10,
+    "source_assessment_is_not_empirical_validation": true
+  },
+  "processing_source_assessment": {
+    "contextual_cases_separate_from_outcome_rows": 4,
+    "new_qualified_selector_panels": 0,
+    "new_peptide_saltiness_labels": 0,
+    "not_a_new_scientific_test": true
+  },
+  "sensory_contrast_assessment": {
+    "source_assigned_sensory_only_peptides": 2,
+    "new_confirmed_receptor_saltiness_links": 0,
+    "new_qualified_selector_panels": 0,
+    "not_a_new_scientific_test": true
+  },
+  "latest_patent_assessment": {
+    "new_separate_saltiness_conditions": 3,
+    "new_linked_peptide_identities": 0,
+    "total_numerical_conditions": 12,
+    "total_heterogeneous_endpoint_values": 14,
+    "parent_and_child_sensory_table_counted_once": true,
+    "new_qualified_selector_panels": 0,
+    "earlier_six_assignment_sensitivity_rechecked_not_new": true,
+    "not_a_new_scientific_test": true
+  },
+  "latest_sensory_window_assessment": {
+    "primary_cases_assessed": 7,
+    "new_eligible_human_saltiness_window_series": 0,
+    "new_qualified_CaSR_selector_panels": 0,
+    "new_main_registry_saltiness_conditions": 0,
+    "scientific_numerical_tests": 0,
+    "model_fits": 0,
+    "execution_gate": "closed",
+    "not_a_new_scientific_test": true
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "review_date": "2026-10-29",
+  "timezone": "Asia/Bangkok",
+  "status": "bounded_targeted_followup_not_exhaustive_review",
+  "scientific_tests_run": 0,
+  "new_linked_peptide_identities": 0,
+  "new_separate_saltiness_conditions": 3,
+  "records": [
+    {
+      "source": "US8420144B2",
+      "url": "https://patents.google.com/patent/US8420144B2/en",
+      "assessment": "new primary numerical saltiness extraction, not new compounds",
+      "original_pdf_visually_checked": ["Table3 PDFp18", "Example24/Table8 PDFpp19-20"],
+      "duplicate": "US8173605B2 Example16/Table7 reproduces the same sensory table; counted once",
+      "new_conditions": 3,
+      "receptor_sensory_same_lot": null,
+      "eligible_selector_panel": false
+    },
+    {
+      "source": "Amino2016",
+      "doi": "10.1248/cpb.c16-00293",
+      "assessment": "original Table3 PDFp4 rechecked against patent; six assignments already covered by prior frozen sensitivity analysis",
+      "new_scientific_conflict": false,
+      "new_fit": false
+    },
+    {
+      "source": "Tu2023",
+      "doi": "10.1021/acs.jafc.3c01467",
+      "assessment": "known eight-peptide sensory roster; new repository access check only",
+      "repository_api": "https://api.figshare.com/v2/articles/27575301",
+      "repository_file_count_when_checked": 0,
+      "repository_license_as_returned": "All rights reserved",
+      "metadata_OA_flag_does_not_establish_recovered_manuscript": true,
+      "primary_abstract_names": ["gamma-Glu-Ile-Lys", "gamma-Glu-Ala-Ile", "gamma-Glu-Leu-Leu", "gamma-Glu-Phe-Leu", "gamma-Glu-Thr-Leu", "gamma-Glu-Ile-Met", "gamma-Glu-Val-Leu", "gamma-Glu-Ser-Tyr"],
+      "per_compound_threshold_assignment": null,
+      "functional_CaSR_coverage_from_recovered_primary_material": null,
+      "exact_name_matches_in_saved_numeric_range_receptor_table": 0,
+      "absence_in_saved_table_is_not_receptor_inactivity": true,
+      "eligible_selector_panel": false
+    },
+    {
+      "source": "Gong2025",
+      "doi": "10.1016/j.lwt.2025.117417",
+      "assessment": "primary abstract only: morel-stipe ingredient, sensory/electronic-tongue, LC-MS and docking; no compound-level functional/sensory overlap established",
+      "mixture_outcomes_assigned_to_individual_peptides": false,
+      "full_methods_recovered": false,
+      "eligible_selector_panel": false
+    },
+    {
+      "source": "Yi2025",
+      "doi": "10.1007/s11947-025-03894-7",
+      "assessment": "previously qualified soy gamma-glutamyl tetrapeptide sensory source; docking/MD are not measured receptor activity",
+      "new_biological_source": false,
+      "new_functional_panel_established": false
+    },
+    {
+      "source": "Salinity/retronasal2026",
+      "publisher_PII": "S0308814625045765",
+      "assessment": "already screened: retronasal detection and dose-over-threshold are not separately rated saltiness effects",
+      "new_biological_source": false,
+      "new_saltiness_label": false
+    },
+    {
+      "source": "Wu2023 lactoyl aHVP",
+      "doi": "10.1021/acs.jafc.3c04282",
+      "assessment": "N-lactoyl amino-acid/ingredient lead outside current peptide-panel scope; functional CaSR not established by recovered abstract",
+      "scope_pivot_authorized": false,
+      "eligible_selector_panel": false
+    },
+    {
+      "source": "Ohsu2010",
+      "doi": "10.1074/jbc.M109.029165",
+      "new_route_checked": "https://www.jbc.org/article/S002192582058856X/pdf",
+      "route_result": "403; no PDF recovered",
+      "assessment": "access check only; older kokumi/thickness endpoint and table/caption conflict qualifications remain",
+      "new_saltiness_label": false
+    }
+  ],
+  "decision": "No common candidate panel or justified useful-gain margin recovered; scientific selector test remains unexecuted.",
+  "next_action": "Qualify a newly available complete candidate roster for actual functional receptor and peptide-minus-background human saltiness coverage before fitting; MSK is not the sole project dependency."
+}

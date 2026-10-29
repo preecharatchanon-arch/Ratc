@@ -1,6 +1,6 @@
 # The next decision-bearing test
 
-28 October 2026. This written execution gate uses the current source assessment.
+29 October 2026. This written execution gate uses the current source assessment.
 It is a test-readiness decision, not a newly executed scientific test. No new
 model, docking/MD or human/receptor experiment ran during the source review.
 
@@ -31,6 +31,15 @@ power or general effect-size conclusion follows from these selected panels.
 Provenance: [original Experiment01](../experiments/01-casr-models-and-docking/README.md)
 and the [dated follow-up protocol, code and outputs](../experiments/01-casr-models-and-docking/followups/README.md).
 The results belong to their original executions and are not new confirmation.
+
+## Follow-up evidence does not unlock the selector
+
+The [local-relaxation diagnostic](../experiments/01-casr-models-and-docking/followups/2026-10-29-local-relaxation/README.md)
+failed its combined pose/ranking gate. The [functional ligand contrast](../experiments/05-functional-assay-controls/followups/2026-10-29/README.md)
+provides a conditional exploratory response control, without human saltiness.
+The [new source audit](../evidence-review/Followup_Source_Qualification_20261029.md)
+adds a human sensory lead but no qualified matched hCaSR panel. None changes
+the primary test card below or supplies the unset practical margins.
 
 ## One test card, with an explicit execution gate
 
@@ -127,3 +136,4 @@ An umami/liking application is a separate question described in
 [Sensory outcomes](SENSORY_OUTCOMES.md). It does not change this saltiness
 endpoint after inspecting results. A future liking experiment requires its
 own complete design and actual eligible data before execution.
+

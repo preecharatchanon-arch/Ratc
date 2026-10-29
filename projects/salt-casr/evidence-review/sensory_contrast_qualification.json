@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-28",
+  "timezone": "Asia/Bangkok",
+  "phase": "source qualification and design only",
+  "primary_source": {
+    "doi": "10.3390/foods8020043",
+    "pmcid": "PMC6406481",
+    "title": "Purification, Identification, and Sensory Evaluation of Kokumi Peptides from Agaricus bisporus Mushroom",
+    "original_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6406481/fullTextXML",
+    "original_pdf_copy": "https://pdfs.semanticscholar.org/8584/87d907df9a4a0924c2e1adadc7a3621ba993.pdf",
+    "pdf_pages": 12,
+    "visual_review": [
+      "PDFp9 Table3/Figure5",
+      "PDFp10 Figure6"
+    ],
+    "locators": [
+      "Sections2.9.1-2.9.3",
+      "Section2.10",
+      "Section3.3",
+      "Sections3.5-3.7"
+    ],
+    "xml_sha256": "65592596a0e6427cb23676881cd002f286e6401a59c57a17a9ee2e9a0e19d352",
+    "pdf_sha256": "53358fb9c6c2284c98352d098735a9d8ac2dd9be0a13842dc699185fa7b945d1"
+  },
+  "missing_convention": "null means not established, never zero or inactive",
+  "panel": {
+    "described_assessors": 20,
+    "men": 10,
+    "women": 10,
+    "age_range_years": [
+      23,
+      32
+    ],
+    "training": "authors describe a year of fortnightly training",
+    "actual_per_comparison_n": null,
+    "participant_raw_ratings": null,
+    "paired_covariance": null,
+    "session_randomization_blinding": null,
+    "biological_material_replicates": null,
+    "declared_analysis": "one-way ANOVA, p<0.05; assessor/repeated-measure treatment not established"
+  },
+  "matrix": {
+    "description": "model chicken broth made with commercial Unilever chicken consomme seasoning",
+    "recipe": null,
+    "NaCl": null,
+    "total_sodium": null,
+    "free_calcium": null,
+    "synthetic_peptide_pH": null,
+    "fraction_protocol_pH": 6.5,
+    "fraction_pH_adjusters": [
+      "0.2M citric acid",
+      "0.2M sodium bicarbonate"
+    ],
+    "amounts_added": null,
+    "fraction_pH_policy_applies_to_synthetic_figures": null
+  },
+  "synthetic_peptides": [
+    {
+      "id": "FENG2019_GLPD",
+      "sequence_as_authors_assign": "GLPD",
+      "long_name": "Gly-Leu-Pro-Asp",
+      "source_material": "Agaricus bisporus, followed by solid-phase synthesis",
+      "chemical_form_counterion": null,
+      "purity_fraction": null,
+      "reported_dose_series_wv_or_ww": "0.50,0.25,0.10,0.08,0.05 percent w/w in broth",
+      "Figure5_dose": null,
+      "Figure5_comparator": "mass-equivalent Gly/Leu/Pro/Asp mixture in broth",
+      "separately_rated_saltiness": true,
+      "saltiness_source_result": "peptide higher than amino-acid mixture;different significance letters",
+      "numerical_saltiness": null,
+      "blank_broth_bar_in_Figure5": false,
+      "error_bars_present": true,
+      "error_bar_definition": null,
+      "functional_CaSR": null,
+      "primary_peptide_minus_background_effect": null
+    },
+    {
+      "id": "FENG2019_GHGD",
+      "sequence_as_authors_assign": "GHGD",
+      "long_name": "Gly-His-Gly-Asp",
+      "source_material": "Agaricus bisporus, followed by solid-phase synthesis",
+      "chemical_form_counterion": null,
+      "purity_fraction": null,
+      "reported_dose_series_wv_or_ww": "0.50,0.25,0.10,0.08,0.05 percent w/w in broth",
+      "Figure6_dose": null,
+      "Figure6_comparator": "mass-equivalent Gly/His/Gly/Asp mixture in broth",
+      "separately_rated_saltiness": true,
+      "saltiness_source_result": "peptide higher than amino-acid mixture;different significance letters",
+      "numerical_saltiness": null,
+      "blank_broth_bar_in_Figure6": false,
+      "error_bars_present": true,
+      "error_bar_definition": null,
+      "identity_reporting_conflict": "body/Table3/plot legend say Gly-His-Gly-Asp;Figure6 caption says Gly-His-Pro-Asp",
+      "conflict_resolved": false,
+      "functional_CaSR": null,
+      "primary_peptide_minus_background_effect": null
+    }
+  ],
+  "fraction_observation": {
+    "material": "GPC fraction F5, not isolated peptide",
+    "reported_addition": "1 percent F5 to1.0 percent NaCl solution",
+    "final_mass_basis_or_dilution": null,
+    "endpoint": "human saltiness intensity",
+    "before": 1.9,
+    "after": 2.6,
+    "source_locator": "Section3.3 prose",
+    "scale_protocol": "authors use0-5 taste intensity scales; this prose contrast not separately calibrated",
+    "error": null,
+    "p_value_for_this_specific_prose_comparison": null,
+    "final_sodium_matching": null,
+    "pH_for_this_specific_comparison": null,
+    "functional_CaSR": null,
+    "assigned_to_GLPD_or_GHGD": false
+  },
+  "legacy_annotation_links": [
+    {
+      "sequence": "GLPD",
+      "file": "experiments/02-sensory-source-transfer/results/curated_records.csv",
+      "label": "1",
+      "reference": "TastePeptidesDB",
+      "material": "Yeast",
+      "DOI_token": "",
+      "sensory_tagged": false,
+      "new_independent_validation": false
+    },
+    {
+      "sequence": "GHGD",
+      "file": "experiments/02-sensory-source-transfer/results/curated_records.csv",
+      "label": "1",
+      "reference": "TastePeptidesDB",
+      "material": "Yeast",
+      "DOI_token": "",
+      "sensory_tagged": false,
+      "new_independent_validation": false
+    }
+  ],
+  "novelty_correction": {
+    "Reumiller_journal_DOI_already_in_prior_registry": true,
+    "YFY_sensory_name_search_already_in_prior_registry": true,
+    "version18_new_journal_route_claim": "overstated novelty; renewed access assessment only",
+    "GLPD_GHGD_previously_in_legacy_data": true,
+    "new_contribution": "original-source and comparator qualification, not new compound discovery"
+  },
+  "functional_search": {
+    "scope": "bounded exact long-name/sequence queries for functional CaSR; exact-name checks of two saved receptor tables",
+    "measured_functional_responses_recovered": false,
+    "no_assay_does_not_mean_inactive": true,
+    "not_literature_wide_absence_claim": true
+  },
+  "counts": {
+    "source_assigned_peptides_with_qualified_sensory_comparator": 2,
+    "new_confirmed_receptor_saltiness_links": 0,
+    "new_qualified_selector_panels": 0,
+    "new_numerical_scientific_tests": 0,
+    "new_predictor_fits": 0
+  },
+  "decision": "retain sensory-only records separately; do not promote to joint panel; primary background contrast and functional response remain missing"
+}

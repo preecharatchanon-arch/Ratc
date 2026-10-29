@@ -1,0 +1,12 @@
+gemmi==0.7.5
+meeko==0.8.0
+numpy==2.2.6
+packaging==26.3
+pillow==13.0.0
+rdkit==2025.9.3
+rustworkx==0.18.1
+scipy==1.15.3
+setuptools==84.2.1
+spyrmsd==0.9.0
+vina==1.2.7
+wheel==0.48.0

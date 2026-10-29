@@ -1,0 +1,17 @@
+source,sequence_as_printed,human_saltiness_score,human_saltiness_uncertainty,matched_functional_hCaSR_value,unreported_values_policy,reported_saltiness_example_in_prose,peptide_mg_per_mL,NaCl_as_reported,NaCl_percent_basis,pH,human_assessors,electronic_tongue_values_are_human_scores
+Cao2026_FoodChemX104238,LE,,,,missing_not_negative,yes,1,0.3%,not_explicit_in_inspected_section,6.5,12,no
+Cao2026_FoodChemX104238,GE,,,,missing_not_negative,yes,1,0.3%,not_explicit_in_inspected_section,6.5,12,no
+Cao2026_FoodChemX104238,VE,,,,missing_not_negative,not_individually_established,1,0.3%,not_explicit_in_inspected_section,6.5,12,no
+Cao2026_FoodChemX104238,ER,,,,missing_not_negative,not_individually_established,1,0.3%,not_explicit_in_inspected_section,6.5,12,no
+Cao2026_FoodChemX104238,AE,,,,missing_not_negative,not_individually_established,1,0.3%,not_explicit_in_inspected_section,6.5,12,no
+Cao2026_FoodChemX104238,SE,,,,missing_not_negative,not_individually_established,1,0.3%,not_explicit_in_inspected_section,6.5,12,no
+Cao2026_FoodChemX104238,SQ,,,,missing_not_negative,not_individually_established,1,0.3%,not_explicit_in_inspected_section,6.5,12,no
+Cao2026_FoodChemX104238,LTL,,,,missing_not_negative,not_individually_established,1,0.3%,not_explicit_in_inspected_section,6.5,12,no
+Cao2026_FoodChemX104238,VGE,,,,missing_not_negative,not_individually_established,1,0.3%,not_explicit_in_inspected_section,6.5,12,no
+Cao2026_FoodChemX104238,VEK,,,,missing_not_negative,yes,1,0.3%,not_explicit_in_inspected_section,6.5,12,no
+Cao2026_FoodChemX104238,SPT,,,,missing_not_negative,not_individually_established,1,0.3%,not_explicit_in_inspected_section,6.5,12,no
+Cao2026_FoodChemX104238,AVE,,,,missing_not_negative,not_individually_established,1,0.3%,not_explicit_in_inspected_section,6.5,12,no
+Cao2026_FoodChemX104238,VVVD,,,,missing_not_negative,yes,1,0.3%,not_explicit_in_inspected_section,6.5,12,no
+Cao2026_FoodChemX104238,TLTV,,,,missing_not_negative,not_individually_established,1,0.3%,not_explicit_in_inspected_section,6.5,12,no
+Cao2026_FoodChemX104238,GEDLMVQ,,,,missing_not_negative,not_individually_established,1,0.3%,not_explicit_in_inspected_section,6.5,12,no
+Cao2026_FoodChemX104238,FEEINKV,,,,missing_not_negative,not_individually_established,1,0.3%,not_explicit_in_inspected_section,6.5,12,no

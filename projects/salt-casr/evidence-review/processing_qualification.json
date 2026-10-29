@@ -1,0 +1,265 @@
+{
+  "date": "2026-10-28",
+  "timezone": "Asia/Bangkok",
+  "purpose": "source qualification and design constraints, not new compound response labels",
+  "assessment_phase": "planning; no scientific numerical experiment executed",
+  "missing_convention": "null means not established in inspected original material, never zero or a negative result",
+  "new_qualified_selector_panels": 0,
+  "new_peptide_saltiness_labels": 0,
+  "all_inspected_evidence_is_development": true,
+  "cases": [
+    {
+      "id": "MSK_Ahmad2026_preprint",
+      "doi": "10.2139/ssrn.7173378",
+      "primary_url": "https://doi.org/10.2139/ssrn.7173378",
+      "posted": "2026-07-24",
+      "publication_status": "preprint; peer review not established",
+      "pages": 32,
+      "assessment_depth": "primary indexed abstract and DOI metadata, not full methods/results",
+      "unit": "enzyme-converted mushroom-stalk powder mixture",
+      "receptor": {
+        "functional_response_reported": true,
+        "numeric_observations_recovered": false,
+        "species": null,
+        "construct": null,
+        "CaCl2_mM": null,
+        "assay_pH": null,
+        "assay_NaCl": null,
+        "dose": null,
+        "dose_basis": null,
+        "EC50": null,
+        "Emax": null,
+        "replication": null,
+        "heating_C_reported": [
+          100,
+          150
+        ],
+        "thermal_equivalence_established": false
+      },
+      "human": {
+        "method": "consumer rate-all-that-apply",
+        "matrix": "chicken stock model",
+        "saltiness_increase_reported": true,
+        "other_reported_attributes": [
+          "savouriness",
+          "mouthfulness",
+          "thickness",
+          "flavour continuity",
+          "lingering aftertaste"
+        ],
+        "liking_outcome_established": false,
+        "panel_n": null,
+        "control": null,
+        "ingredient_dose": null,
+        "dose_basis": null,
+        "NaCl": null,
+        "total_sodium": null,
+        "pH": null,
+        "free_calcium": null,
+        "raw_paired_ratings": null,
+        "uncertainty": null
+      },
+      "match": {
+        "same_material_lot": null,
+        "same_processed_material": null,
+        "aligned_receptor_sensory_contrast": null,
+        "individual_peptide_outcomes": null
+      },
+      "EVG": "detected following conversion; abstract does not supply detection limits or isolated EVG effects",
+      "institutional_route": {
+        "url": "https://bioresourceprocessing.co.nz/executive-summary/flavour-enhancer-from-mushroom-stalk-a-proof-of-concept/",
+        "project": "BPA23234",
+        "date": "2026-07-16",
+        "methods_or_raw_data_available_here": false,
+        "independent_replication_established": false
+      },
+      "disposition": "priority ingredient-level overlap lead; unqualified selector data; no manufactured peptide label"
+    },
+    {
+      "id": "Kim2024_MDM",
+      "doi": "10.1111/ijfs.17293",
+      "primary_url": "https://doi.org/10.1111/ijfs.17293",
+      "assessment_depth": "original full text and captions through publisher-provided author-hosted copy; no original figure-image visual verification",
+      "locators": [
+        "Thermal stability measurement by using CaSR",
+        "Statistical analyses",
+        "Figure2",
+        "Figure3",
+        "Thermal stability of gamma-glutamylated substrate"
+      ],
+      "unit": "beef, mutton, lamb, venison hydrolysate preparations; four classes, three species",
+      "receptor": {
+        "species": "human",
+        "cells": "stable CHO-K1-CaSR M00434",
+        "negative_cells": "CHO-K1-Galpha15 M00257",
+        "preparation": "10kDa ultrafiltrate",
+        "dose_basis": "BCA protein; preserve source printed relative EC50 unit ambiguity",
+        "readout": "maximum-minus-minimum RFU",
+        "CaCl2_mM": null,
+        "pH": null,
+        "assay_NaCl": null,
+        "source_EC50_text": {
+          "beef": "0.19 +/- 0.026",
+          "mutton": "0.21 +/- 0.036",
+          "lamb": "0.21 +/- 0.025",
+          "venison": ">0.26 +/- 0.035"
+        },
+        "EC50_unit_description": "relative EC50 values transformed in mg; do not convert to molar potency",
+        "error": "SEM",
+        "biological_replicates": "three cartons per class, independently processed",
+        "technical_replicates": 3
+      },
+      "thermal": {
+        "material": "beef GA",
+        "exposure": "1% w/v reconstituted freeze-dried material,3h oil bath",
+        "methods_C": [
+          100,
+          120,
+          150
+        ],
+        "abstract_results_caption_C": [
+          80,
+          120,
+          150
+        ],
+        "temperature_conflict_resolved": false,
+        "reported_result": "no significant EC50 change; nonsignificant maximum-response decline",
+        "equivalence_established": false
+      },
+      "human": {
+        "experiment_reported": false,
+        "saltiness_outcome": null,
+        "liking_outcome": null
+      },
+      "disposition": "contextual receptor/processing evidence, not a human saltiness benchmark"
+    },
+    {
+      "id": "Kim2026_MDM_Maillard",
+      "doi": "10.1093/ijfood/vvag112",
+      "primary_url": "https://doi.org/10.1093/ijfood/vvag112",
+      "online_date": "2026-05-26",
+      "assessment_depth": "primary publisher indexed methods/results/tables/captions, not downloaded full paper or original figure image",
+      "locators": [
+        "Sample preparation and enzymatic hydrolysis",
+        "Maillard reaction of MDM extracts and sample preparation",
+        "In vitro CaSR activity assay",
+        "Statistical analysis",
+        "Figures1-3"
+      ],
+      "new_material": "mechanically deboned lamb hydrolysate",
+      "processing": {
+        "powder_wv_percent": 5,
+        "sugar_wv_percent": 1.6,
+        "sugars": [
+          "D-glucose",
+          "D-xylose"
+        ],
+        "pH": 7,
+        "sealed_aqueous": true,
+        "duration_h": 3,
+        "methods_and_Table1_C": [
+          80,
+          100,
+          120,
+          150
+        ],
+        "Figure2_C": [
+          25,
+          80,
+          120,
+          150
+        ],
+        "unreported_100C_result_inference": null
+      },
+      "receptor": {
+        "species": "human",
+        "cells": "stable CHO-K1-CaSR M00434",
+        "ultrafiltration_kDa": 10,
+        "dose_basis": "Pierce quantitative fluorescent peptide assay23290",
+        "final_dose_mg_ml_range": [
+          0.0062,
+          0.8
+        ],
+        "readout": "maximum-minus-minimum RFU,buffer-background corrected",
+        "CaCl2_mM": null,
+        "assay_pH": null,
+        "assay_NaCl": null,
+        "source_methods_replication": "three separate cell grow-ups on different days;three technical wells;all nine values plotted",
+        "source_statistics_replication": "three independent hydrolysate process runs on different days;technical-well means used for inference",
+        "source_Figure2_replication": "three independent hydrolysate preparations;technical triplicates;mean+/-SEM",
+        "batch_cell_day_mapping": null,
+        "independent_nine_process_runs_established": false
+      },
+      "source_overlap": {
+        "Figure1": "explicit reanalysis/reproduction of Kim2024 bovine data",
+        "independent_replication": false,
+        "same_material_as_new_lamb_sugar_panel": false,
+        "normalization_from_2024_BCA_to_2026_peptide_basis_explained": null
+      },
+      "interpretation_constraints": [
+        "2024 nonsignificance versus2026 significance cannot be resolved by comparing p-values",
+        "different unheated responses across sugar panels;no cross-panel ratio inferred",
+        "GCMS salting-out NaCl is not cell-assay or sensory sodium",
+        "active molecular entities not isolated"
+      ],
+      "human": {
+        "sensory_experiment_performed": false,
+        "saltiness": null,
+        "liking": null
+      },
+      "disposition": "supports recording processing and assay context;no human outcome or peptide label"
+    },
+    {
+      "id": "Reumiller2026_journal",
+      "doi": "10.1016/j.foodchem.2026.150843",
+      "primary_url": "https://www.sciencedirect.com/science/article/pii/S0308814626030037",
+      "available_online": "2026-08-18",
+      "issue_date": "2026-10-30",
+      "assessment_depth": "primary publisher abstract/highlights/data-availability statement; DOI/OpenAlex metadata; original full tables unrecovered",
+      "material": "black-gram protein processing and selected individual peptides",
+      "functional_CaSR_assay_reported": true,
+      "example_identity_reported": "Tyr-Phe-Tyr",
+      "actual_functional_candidate_roster": null,
+      "individual_EC50": null,
+      "Emax": null,
+      "receptor_species_construct": null,
+      "calcium_pH_sodium": null,
+      "replication_uncertainty": null,
+      "human_saltiness_outcomes_established": false,
+      "human_saltiness_outcomes": null,
+      "human_negative_labels_created": 0,
+      "identified_peptide_count_description": ">8900 identified; not >8900 functional or human measurements",
+      "data_availability": "on request; no request sent",
+      "biological_independence_from_thesis": null,
+      "disposition": "legitimate journal route to related plant work; incomplete receptor table; no matched human panel established"
+    }
+  ],
+  "retrieval_decisions": [
+    {
+      "source": "MSK",
+      "routes_checked": [
+        "primary SSRN landing and observed delivery URL",
+        "author-hosted listing",
+        "Crossref/OpenAlex public-copy metadata",
+        "BPA23234 public executive summary and observed report links"
+      ],
+      "result": "abstract available; full methods/results not recovered; no new route currently available",
+      "retry_without_new_route": false
+    },
+    {
+      "source": "Reumiller2026_journal",
+      "routes_checked": [
+        "publisher DOI/PII",
+        "author-hosted listing",
+        "Crossref/OpenAlex",
+        "Crossref-advertised public XML endpoint"
+      ],
+      "result": "publisher access denied; XML endpoint returned195-byte Site Unavailable HTML, not article XML; no alternate public manuscript found",
+      "retry_without_new_route": false
+    },
+    {
+      "source": "Kim2024/Kim2026",
+      "result": "original text or primary indexed body recovered; PDF image access unavailable; no curve digitization or reanalysis performed"
+    }
+  ]
+}

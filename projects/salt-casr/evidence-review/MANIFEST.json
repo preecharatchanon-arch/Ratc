@@ -1,0 +1,114 @@
+{
+  "Expanded_Search_and_Contrast_Qualification.md": {
+    "bytes": 14918,
+    "sha256": "f4f397ed885877dc845f30ec1f7d0a66049a2ad447d1a603b2355a2f3b3726bb"
+  },
+  "Followup_Source_Qualification_20261029.md": {
+    "bytes": 7962,
+    "sha256": "ec93b25f29867110e21278e4c55d72b9b9ec8003283fd610884b3ff382592b96"
+  },
+  "GSH_Endpoint_Comparison_and_Decision.md": {
+    "bytes": 11471,
+    "sha256": "1d608a93ae4b1b3e5fc2d285a5b2445fa7ed60e1be527b4f68bb1950048a2084"
+  },
+  "Modified_GSH_Identity_and_Panel_Coverage.md": {
+    "bytes": 9970,
+    "sha256": "ea9e47c081a93bfdccd17c141c31b135708e8178119128b081527a4714db06c5"
+  },
+  "Next_Decision_Test.md": {
+    "bytes": 13125,
+    "sha256": "2050b85b8695e4d2d50b2df9d2c0709d762148a4cec1df37aad52b9db46517f5"
+  },
+  "Patent_Saltiness_and_Test_Readiness.md": {
+    "bytes": 9331,
+    "sha256": "75c0854b79539ef4d7461d782f68f47d80ce8194737fce8f7920b68057a636cd"
+  },
+  "Primary_Assays_and_Endpoint_Decision.md": {
+    "bytes": 9071,
+    "sha256": "72a7de6fbbbe20ed1f8b257d57185330ef829a0790c36931301cebbc90c887db"
+  },
+  "Processing_and_Plant_Peptide_Qualification.md": {
+    "bytes": 11000,
+    "sha256": "59ec18b2c20718e22746cff9309413da4b7608515cf800b7ecb0cd3975296ca7"
+  },
+  "README.md": {
+    "bytes": 3666,
+    "sha256": "9fb2d0d6605dfa33416006e245413936db261c57a89c462b47752122bfe97b25"
+  },
+  "Sensory_Contrast_and_Compound_Provenance.md": {
+    "bytes": 6355,
+    "sha256": "bdc5268796cebcee9a10220e3dd68a90b7a3cf227924a02404acb0fcae1e1205"
+  },
+  "Sensory_Window_Assessment_and_Design.md": {
+    "bytes": 13410,
+    "sha256": "e403ec139df794cccb393205a584138d5c9fe238d66249547ff999b1dc446a09"
+  },
+  "Source_Assessment_and_Design.md": {
+    "bytes": 18148,
+    "sha256": "cdd6f4017ed1de97160faaa3a9253327fc6e7494c667910e29b96f9e124b4ffb"
+  },
+  "build_registry.py": {
+    "bytes": 11944,
+    "sha256": "09cb04d977273497aa7ec352a2aacc54dd0f99d37b7dd80b8d44841919222567"
+  },
+  "cao2026_panel_inventory.csv": {
+    "bytes": 2316,
+    "sha256": "419d71433f972266a9328a8aa632031b1b4ca8bc3b083741d56b43b122eb9616"
+  },
+  "endpoint_review.py": {
+    "bytes": 8308,
+    "sha256": "9dd7e0728a451dd84930d961f30fc6cb3cf6bd33ffd6bc94c209a4b157c70a20"
+  },
+  "evidence.json": {
+    "bytes": 80147,
+    "sha256": "a7bfdfb11fa8e6919db96a08cd73e034f3445d173d4ff46e9a40f5f8e8367bf4"
+  },
+  "extend_registry.py": {
+    "bytes": 21901,
+    "sha256": "bce07f4140f6cb003268dd1c973c27cb6604de6b4ef18a931bdd4171d0fdafc8"
+  },
+  "followup_source_records.json": {
+    "bytes": 5436,
+    "sha256": "31be8e6bea8696d4a83f356f2850d27142fe6fa9d06e79153109a628c6306d1c"
+  },
+  "identity_review.py": {
+    "bytes": 5289,
+    "sha256": "ada04330397f4325efda524bcc50ac9fc872278141e19d83bec4311c0e16be21"
+  },
+  "integrity.json": {
+    "bytes": 2032,
+    "sha256": "91f9b68ce9df6af341ce71300e37465ae9c0f653c3bacacfefed13382b189e0d"
+  },
+  "patent_basic_taste_review.py": {
+    "bytes": 9804,
+    "sha256": "3ba9fba9eac20b11b0c0b0246350d37ad1129706f80d2e7a02b3bfcd1d5f6833"
+  },
+  "primary_assay_review.py": {
+    "bytes": 11076,
+    "sha256": "d938486fff2df15f51fde1cd0f06e28d0460ef48043b6b7df5b09c2f997884fa"
+  },
+  "processing_qualification.json": {
+    "bytes": 10333,
+    "sha256": "21a5c582a90358f28fa920092024906399d8cac4570f0c4211ee76f0ee63e4a7"
+  },
+  "search_screen.json": {
+    "bytes": 66613,
+    "sha256": "bec1c631f39e8f8624c096d6e3431ed45ea0390c42779993a1b98b8964c9c357"
+  },
+  "sensory_contrast_qualification.json": {
+    "bytes": 6233,
+    "sha256": "9696fb4c70b9b8bbdf091826793403691c91ceefa120a7f486cd86c2fc421e81"
+  },
+  "sensory_window_qualification.json": {
+    "bytes": 12677,
+    "sha256": "d0f5882a0037d55bb04c5e2f03304e0e2fab084eb7de68ccacc16872d4dd4235"
+  },
+  "source_qualification.json": {
+    "bytes": 14994,
+    "sha256": "de20cc847f1b6855209867a8aac72b09740e4c89d37cb8722bb1a68298d0ad72"
+  },
+  "targeted_primary_followup.json": {
+    "bytes": 3989,
+    "sha256": "7cb5fd2be2c6c11e676e85a281d882d9795717a01ddd582954c5e472919a3453"
+  }
+}

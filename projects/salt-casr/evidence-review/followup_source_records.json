@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-29",
+  "checkpoint_read_version": 25,
+  "scientific_tests_executed": 0,
+  "new_eligible_selector_panels": 0,
+  "new_human_numerical_saltiness_rows": 0,
+  "missing_convention": "null and empty numeric fields mean unestablished, not zero or negative",
+  "cases": [
+    {
+      "id": "CAO2026_SOY_FOCHX104238",
+      "doi": "10.1016/j.fochx.2026.104238",
+      "pmcid": "PMC13445481",
+      "depth": "Full original XML relevant methods/results; original SI; main Figure4A/B and SI S6/S7 visual checks",
+      "human_panel_n": 12,
+      "synthetic_screen_n": 16,
+      "human_raw_paired_scores_available": null,
+      "functional_CaSR_measurement": null,
+      "cellular_target": "TAS1R1-associated; CaSR is modeling template",
+      "human_saltiness_numerical_rows_added": 0,
+      "decision": "retain sensory provenance lead; no matched CaSR selector labels"
+    },
+    {
+      "id": "YANG2026_CHICKEN_LWT119987",
+      "doi": "10.1016/j.lwt.2026.119987",
+      "depth": "Primary indexed abstract/highlights/data statement; Crossref/OpenAlex metadata",
+      "full_methods_recovered": false,
+      "numerical_saltiness_data_qualified": null,
+      "functional_CaSR_measurement_qualified": null,
+      "identity_codes": [
+        "LN-7",
+        "SA-10",
+        "VG-9",
+        "AR-10"
+      ],
+      "threshold_endpoint": "kokumi; aggregate ranges not allocated by compound",
+      "decision": "unresolved acquisition; no labels or inferred absence of receptor assays"
+    },
+    {
+      "id": "XU2026_SAUSAGE_FOODRES119732",
+      "doi": "10.1016/j.foodres.2026.119732",
+      "pmid": "42562505",
+      "depth": "Primary indexed abstract/intro/highlights; metadata",
+      "full_methods_recovered": false,
+      "numerical_saltiness_data_qualified": null,
+      "functional_CaSR_measurement_qualified": null,
+      "decision": "retain intrinsic/enhancement distinction as source claim; no reconstructed synergy calculation or paired panel"
+    },
+    {
+      "id": "MARS_US20220256889A1",
+      "primary_url": "https://patents.google.com/patent/US20220256889A1/en",
+      "depth": "Complete relevant Examples1-5, Tables2-4 via indexed primary text",
+      "functional_species": "feline",
+      "cell_assay": "HEK T-Rex/natClytin-fCaSR; luminescence; calcium-free source protocol;90s",
+      "independent_assay_occasions_at_least": 2,
+      "technical_repetitions_per_concentration": 4,
+      "EC50_uncertainty": "four-parameter-fit standard error; biological SEM not established",
+      "human_saltiness_measurements": null,
+      "buffer_pH": null,
+      "buffer_sodium": null,
+      "sensory_sampling_unit": "animal feeding of hydrolysates, not isolated human peptide responses",
+      "source_network": "Mars; Laffitte/McGrane overlap; independent experiments not presumed",
+      "decision": "contextual species-specific activity; no human negative/positive labels"
+    }
+  ],
+  "original_source_hashes": {
+    "soy2026.xml": "38d432296d7a82417bd9ff5e16653076689465195e7b6203b025d4b0833aafb7",
+    "soy2026_SI.docx": "0b27dcd65820f5a83811229f4b994b300684a4eb8d56d9fe1f13e6aa602a6469",
+    "gr4a.jpg": "9c371c1091098db4c080157c93a338ff4f545c432d41a2c2817bd78a18899364",
+    "gr4b.jpg": "a3aa0882189e1bf4b476a72c7fa98dc1f85288a7c1412d0a3342b39b4013027a",
+    "chicken2026_crossref.json": "6f2808816d827adf2db64f33947f1b4d55878150f46958889fa217e0945bbb35",
+    "chicken2026_openalex.json": "baaf7abe1ce600fe00cb89683b9227072c61ea5b004378b59e42610809001c84",
+    "sausage2026_crossref.json": "178cb461eb811fc058235185f6df72c3d0350219eca5c9c671b20fce51bc83a5",
+    "sausage2026_openalex.json": "a6221d8b6c0cd92820a54f927a12ac6e45d8c9900109b0c9d4917801075d041f"
+  },
+  "source_urls": {
+    "soy_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13445481/fullTextXML",
+    "soy_supplement_archive": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13445481/supplementaryFiles"
+  },
+  "actual_retrieval_results": [
+    {
+      "tag": "chicken2026_api",
+      "status": 200,
+      "bytes": 195,
+      "kind": "html",
+      "head": "<html>\n    <head><title>Site Unavailable</title></head>\n    <body>\n      <center>\n        <h1>Site Unavailable</h1>\n        <p>Unable to access this s",
+      "url": "https://api.elsevier.com/content/article/PII:S0023643826009990?httpAccept=text/xml"
+    },
+    {
+      "tag": "chicken2026_pdf",
+      "status": 200,
+      "bytes": 195,
+      "kind": "html",
+      "head": "<html>\n    <head><title>Site Unavailable</title></head>\n    <body>\n      <center>\n        <h1>Site Unavailable</h1>\n        <p>Unable to access this s",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0023643826009990/pdf"
+    },
+    {
+      "tag": "sausage2026_api",
+      "status": 200,
+      "bytes": 195,
+      "kind": "html",
+      "head": "<html>\n    <head><title>Site Unavailable</title></head>\n    <body>\n      <center>\n        <h1>Site Unavailable</h1>\n        <p>Unable to access this s",
+      "url": "https://api.elsevier.com/content/article/PII:S0963996926014158?httpAccept=text/xml"
+    },
+    {
+      "tag": "patent2022",
+      "error": "HTTP Error 503: Service Unavailable",
+      "url": "https://patents.google.com/patent/US20220256889A1/en"
+    }
+  ],
+  "source_content_scope": "No original full article/SI or unrelated ML tables redistributed",
+  "unchanged_main_evidence_sha256": "a7bfdfb11fa8e6919db96a08cd73e034f3445d173d4ff46e9a40f5f8e8367bf4"
+}

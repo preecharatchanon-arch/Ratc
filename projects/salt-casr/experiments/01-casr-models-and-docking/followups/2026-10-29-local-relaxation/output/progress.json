@@ -1,0 +1,134 @@
+{
+  "status": "complete",
+  "scope": "single_known_complex_exploratory_method_diagnostic",
+  "protocol_sha256": "9a39ac33c750ad0a0fb080a2e2a3b1a93808b0563d1728e7c95a8474cbf11737",
+  "script_sha256": "f3564456cfa48dde979facf3c0369aab6deddb65ca42efdc78c9ba4b9509f8e7",
+  "python": "3.12.3",
+  "versions": {
+    "vina": "1.2.7",
+    "meeko": "0.8.0",
+    "rdkit": "2025.9.3",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "gemmi": "0.7.5",
+    "spyrmsd": "0.9.0"
+  },
+  "environment_distributions": {
+    "wheel": "0.48.0",
+    "pillow": "13.0.0",
+    "vina": "1.2.7",
+    "rustworkx": "0.18.1",
+    "rdkit": "2025.9.3",
+    "packaging": "26.3",
+    "numpy": "2.2.6",
+    "gemmi": "0.7.5",
+    "setuptools": "84.2.1",
+    "meeko": "0.8.0",
+    "spyrmsd": "0.9.0",
+    "scipy": "1.15.3"
+  },
+  "center_A": [
+    139.78319047619047,
+    115.4942857142857,
+    190.29171428571425
+  ],
+  "box_size_A": [
+    16.134000000000015,
+    22.315000000000012,
+    16.658999999999992
+  ],
+  "input_graphs": {
+    "native_prepared": "CC(C)[C@H](NC(=O)CC[C@H]([NH3+])C(=O)[O-])C(=O)NCC(=O)[O-]",
+    "frozen_top": "CC(C)[C@H](NC(=O)CC[C@H]([NH3+])C(=O)[O-])C(=O)NCC(=O)[O-]",
+    "independent_start": "CC(C)[C@H](NC(=O)CC[C@H]([NH3+])C(=O)[O-])C(=O)NCC(=O)[O-]"
+  },
+  "torsion_counts": {
+    "native_prepared": 10,
+    "frozen_top": 10,
+    "independent_start": 10
+  },
+  "net_formal_charge": -1,
+  "heavy_atoms": 21,
+  "statistical_CI": null,
+  "independent_complexes": 1,
+  "no_human_or_functional_assay_result": true,
+  "unknown_peptides_screened": 0,
+  "stage1": {
+    "native_before_default_energy_vector": [
+      -3.193,
+      -4.966,
+      0.0,
+      0.0,
+      0.0,
+      -0.211,
+      1.773,
+      -0.211
+    ],
+    "native_before_common_reference_energy_vector": [
+      -3.329,
+      -4.966,
+      0.0,
+      0.0,
+      0.0,
+      -0.211,
+      1.849,
+      0.0
+    ],
+    "frozen_wrong_top_default_energy_vector": [
+      -6.998,
+      -10.884,
+      0.0,
+      0.0,
+      0.0,
+      -1.292,
+      3.886,
+      -1.292
+    ],
+    "frozen_wrong_top_common_reference_energy_vector": [
+      -7.828,
+      -10.884,
+      0.0,
+      0.0,
+      0.0,
+      -1.292,
+      4.348,
+      0.0
+    ],
+    "locally_relaxed_default_energy_vector": [
+      -6.643,
+      -10.333,
+      0.0,
+      0.0,
+      0.0,
+      -0.587,
+      3.69,
+      -0.587
+    ],
+    "locally_relaxed_common_reference_energy_vector": [
+      -7.021,
+      -10.333,
+      0.0,
+      0.0,
+      0.0,
+      -0.587,
+      3.899,
+      0.0
+    ],
+    "common_unbound_reference": 0.0,
+    "locally_relaxed_RMSD_A": 0.5948057415461004,
+    "frozen_wrong_top_RMSD_A": 4.435574620825994,
+    "relaxed_score_advantage_over_wrong_pose": -0.8070000000000004,
+    "coordinate_RMSD_crosscheck": "spyrmsd and RDKit agree <=1e-6A; no centering/alignment",
+    "archived_default_score_comparison": {
+      "native_default_delta_from_archive": 0.0,
+      "top_default_delta_from_archive": 0.0
+    },
+    "support_for_competitive_local_reference_basin": false,
+    "verified_optimization_convergence": null
+  },
+  "stage2": [],
+  "stage2_executed": false,
+  "stage2_pass": false,
+  "runtime_seconds": 4.263467337000293,
+  "decision": "Stop docking expansion: a competitive local-reference basin or reproducible top-pose recovery prerequisite remains unmet. No unknown screen."
+}
