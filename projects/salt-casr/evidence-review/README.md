@@ -50,4 +50,4 @@ This rebuilds the attributed registry and consistency summary. It does not fit a
 
 ## Sources and rights
 
-Primary citations and exact source locators are retained in the records. Original publisher papers, supplements, figures and private correspondence are not redistributed. A missing qualified panel is a data limitation, not a negative result about every peptide in a source.
+Primary citations and exact source locators are retained in the records. Original publisher papers, supplements and figures are linked rather than redistributed. A missing qualified panel is a data limitation, not a negative result about every peptide in a source.

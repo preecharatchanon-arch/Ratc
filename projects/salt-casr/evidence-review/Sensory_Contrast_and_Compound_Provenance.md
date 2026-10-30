@@ -92,7 +92,7 @@ in `Next_Decision_Test.md`; margins and eligible matched data remain unresolved.
 If all three arms exist in a later eligible source, extract them before
 analysis. If only the peptide-versus-mixture arm exists, record that contrast
 faithfully and leave the primary background effect missing. This specification
-concerns existing data assessment; no new human or biological study is authorized.
+concerns the assessment of existing measurements.
 
 ## Next precise action
 

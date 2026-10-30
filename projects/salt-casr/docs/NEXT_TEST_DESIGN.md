@@ -4,19 +4,14 @@
 
 **Current maintained test design.** Dated evidence-review notes preserve earlier decisions; this page governs subsequent work.
 
-29 October 2026. This written execution gate uses the current source assessment.
-It is a test-readiness decision, not a newly executed scientific test. No new
-model, docking/MD or human/receptor experiment ran during the source review.
+Design requirements recorded on 29 October 2026; wording reviewed on 30 October. This is a proposed comparison whose data requirements are not yet met.
 
 ## Direction
 
 Keep the question: does measured functional CaSR activity improve selection
 of peptides that increase human saltiness under defined conditions?
 
-The next empirical comparison must connect those two measurements on a common
-candidate panel. More receptor-only models, an additional pose check or a new
-literature citation would not answer it. The relevant deliverable is useful
-selection performance with uncertainty, not a larger catalogue of proxy scores.
+The comparison needs both measurements on a common candidate panel. Its outcome is the gain in useful human-saltiness candidates obtained by adding measured CaSR information to a fixed selection rule, with uncertainty.
 
 ## Decisions already supported by completed tests
 
@@ -24,8 +19,8 @@ These results are carried forward, not rerun or presented as new evidence.
 
 | Completed comparison | Saved result | Decision and limit |
 |---|---|---|
-| Fixed positional receptor model versus existing nearest3, family-held-out, journal assignment | MAE gain0.03365 log units; conditional group-bootstrap95% interval[-0.11043,0.15532];58 compounds,26 families | No reliable incremental gain established. Do not launch a model sweep. This predicts receptor activity, not saltiness. |
-| Predicting Gly-extension effects |11 pairs; gain versus training-mean delta=-0.03004; interval[-0.24984,0.18417] | No reliable predictive gain. Do not repeat the same pair test as fresh confirmation. |
+| Fixed positional receptor model versus existing nearest3, family-held-out, journal assignment | MAE gain0.03365 log units; conditional group-bootstrap95% interval[-0.11043,0.15532];58 compounds,26 families | Reliable improvement is not established; the outcome is receptor activity. |
+| Predicting Gly-extension effects |11 pairs; gain versus training-mean delta=-0.03004; interval[-0.24984,0.18417] | Reliable predictive improvement is not established; these pairs remain development data. |
 | Native top-pose check, independently recomputed previously | RMSD4.7803 Angstrom | Current top-pose placement remains inadequate for the intended pose claim. Broad screening/MD remains unsupported. |
 
 The intervals above are not new independent validation: fitted models,
@@ -124,10 +119,7 @@ before execution. No number of surrogate-label fits fills this requirement.
 | Application decision | Justified sensory margin and follow-up budget/yield margin | Makes both success and failure practically interpretable |
 | Independent evaluation material | Candidate/source separation from already inspected development evidence | Distinguishes an exploratory fit from confirmation |
 
-This is a request specification for existing measurements, not authorization
-to conduct a new human or biological experiment. There is no universal minimum
-compound count asserted; adequacy depends on domain coverage, dependence,
-measurement precision and the justified decision margin.
+This table specifies the existing measurements needed for the comparison. A suitable candidate count depends on domain coverage, dependence, measurement precision and the justified decision margin.
 
 ## Current execution decision
 

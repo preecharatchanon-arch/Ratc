@@ -60,12 +60,8 @@ Only three experiments per cell are summarized. Raw experiment-level curves are 
 
 [Report, original-table transcription, design and calculation](../experiments/05-functional-assay-controls/followups/2026-10-29/REPORT.md)
 
-## 30 October 2026 — documentation repair
-
-The current update clarifies chronology and reading order, corrects receptor-versus-saltiness wording, refreshes the complete file index and repairs stale move-map hashes. It changes documentation and integrity metadata only. Original numerical results, scientific protocols, notebooks and input data remain unchanged.
-
-[Verification scope and checks](../verification/README.md)
-
 ## Current next step
 
 The [current test design](NEXT_TEST_DESIGN.md) is the single maintained plan. It requires actual matched functional hCaSR and controlled human saltiness measurements, a justified practical margin and an independent evaluation comparison. The present data do not satisfy those requirements. More docking, model sweeps or surrogate-label fits do not supply the missing measurements.
+
+Documentation history and current file checks are recorded in the [verification guide](../verification/README.md).

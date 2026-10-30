@@ -143,8 +143,7 @@ large calculation:
    peptide data at specified calcium levels would be needed before testing
    transport of functional rankings. If these records are unavailable, stop
    at this exploratory contrast; do not replace missing measurements with
-   docking energies or digitized pseudo-replicates. No author contact is
-   authorized in this run.
+   docking energies or digitized pseudo-replicates.
 2. For the main peptide-selection question, qualify an actual multi-peptide
    panel with measured hCaSR function and controlled separately rated human
    saltiness in matching compound identities and defined dose/matrix/sodium/

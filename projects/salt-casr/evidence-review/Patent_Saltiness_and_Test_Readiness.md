@@ -150,7 +150,4 @@ favorable rows. A study supplying only one side stays an evidence lead. Current
 public copies do not supply this table; repeated blocked downloads add nothing.
 MSK remains a conditional ingredient-level lead, not the sole project gateway.
 
-No outreach, new human/cell work, publication, purchases, automation or paid/GPU
-jobs are authorized by this design. No preference-study pivot is made. Prior methodological guidance
-advice to begin with actual sensory evidence remains useful guidance; proposed
-noise floors or transferred activity bounds still require assay-specific proof.
+The assessment retains human saltiness as its endpoint. Starting from actual sensory evidence remains useful; proposed noise floors and transferred activity bounds still require assay-specific evidence.

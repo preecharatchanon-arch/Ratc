@@ -19,7 +19,7 @@ From this project folder:
 python verification/verify_layout.py
 ```
 
-The checker uses only the Python standard library. It checks local Markdown/Colab targets, Python compilation, notebook execution metadata and embedded payload hashes, ZIP CRCs, current file checksums, and destination hashes in the move map.
+The checker uses only the Python standard library. It checks complete file-index coverage, local Markdown/Colab targets, Python compilation, notebook execution metadata and embedded payload hashes, ZIP CRCs, current file checksums, and destination hashes in the move map.
 
 The three previously shared notebook URLs are byte-identical aliases. Four canonical notebooks retain their original execution records and embedded inputs. Original scientific scripts, inputs, protocols, result tables and run ZIPs are unchanged by the documentation repair.
 
@@ -31,7 +31,9 @@ The three previously shared notebook URLs are byte-identical aliases. Four canon
 - Added a dated research timeline and one clearly identified current test plan.
 - Updated documentation manifests and the repository checksum index.
 
-The preceding audit observed that the documented Python checker failed on a stale README destination hash after its earlier artifact checks had passed. This repair corrects that metadata. The repair was checked through exact Git blob identities, current checksums, index coverage, move-map consistency and Markdown navigation. **The Python command was not rerun during this repair because the execution environment was unavailable.** No new CRC, notebook-execution or scientific rerun is claimed for this documentation update.
+The initial audit found a stale README destination hash and an incomplete file index. Both were corrected. The checker now also rejects missing or duplicate inventory entries, so an incomplete index cannot silently pass.
+
+**Latest verification, 30 October:** the documented Python command passed. It checked the current file inventory, four notebook payloads, three notebook aliases, three run-archive CRCs, navigation and current hashes. A temporary copy with an intentionally omitted index entry was correctly rejected. The [review record](REPOSITORY_REVIEW_2026-10-30.json) records the scope and results. These checks inspect saved artifacts; they do not execute the notebooks or rerun the scientific analyses.
 
 ## Historical execution and organization records
 

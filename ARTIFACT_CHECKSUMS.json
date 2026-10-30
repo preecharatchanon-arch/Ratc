@@ -1,8 +1,8 @@
 [
   {
     "path": "README.md",
-    "bytes": 13073,
-    "sha256": "19da2c1c4f682c695be7ec4bbcc2c540e6f6f17f66553e99d35307cff6bd0464"
+    "bytes": 13081,
+    "sha256": "6322fc4c6cd242b1e215c278df42745199afee02940aaf85c41aa586da391eea"
   },
   {
     "path": "SOURCE_MANIFEST.json",
@@ -1516,8 +1516,8 @@
   },
   {
     "path": "projects/salt-casr/README.md",
-    "bytes": 13813,
-    "sha256": "56a3b3963a925e044d6939b5e38db9b269f7e92912007a123e372b52b2f4b408"
+    "bytes": 13886,
+    "sha256": "b9710ffec80f4ca8cf82a2a66abe44fb58f50c2b38c3576bf3d24ac448883ead"
   },
   {
     "path": "projects/salt-casr/archives/Arginyl_Functional_Controls_Run.zip",
@@ -1726,8 +1726,8 @@
   },
   {
     "path": "projects/salt-casr/docs/NEXT_TEST_DESIGN.md",
-    "bytes": 9359,
-    "sha256": "df74692052bdc53b65628ba70895ede72df389ab02da77864fbb3f51dddfb3a1"
+    "bytes": 9053,
+    "sha256": "781655a6fa6fb330059837db10eb85577e68a0c4b7f0e66adfffee64ffb79638"
   },
   {
     "path": "projects/salt-casr/docs/PROLYL_SENSORY_FOLLOWUP.md",
@@ -1736,13 +1736,13 @@
   },
   {
     "path": "projects/salt-casr/docs/RESEARCH_STATUS.md",
-    "bytes": 8583,
-    "sha256": "f5f39023b9b635d34ffd1aa917f3031b47ba03a1b907a65e3d9157a74a77ba50"
+    "bytes": 6803,
+    "sha256": "50142f0b270c848e8855f3987b514c2b8b85ed795526d9447d8a748c2af7a416"
   },
   {
     "path": "projects/salt-casr/docs/RESEARCH_TIMELINE.md",
-    "bytes": 8053,
-    "sha256": "fe1ce99596203e5239bb8c88c91199855489912baebca20edaa3f2fa51ae0716"
+    "bytes": 7744,
+    "sha256": "d383a812e40a3888a1f264031fd691b11fa598d7708ea3a50d0cfbd5cf888878"
   },
   {
     "path": "projects/salt-casr/docs/RESULTS.md",
@@ -1751,48 +1751,48 @@
   },
   {
     "path": "projects/salt-casr/docs/SENSORY_OUTCOMES.md",
-    "bytes": 3960,
-    "sha256": "1309b31dd3e2b296487394a4321fadda02afd1420a709f2108b672daf94ea2b8"
+    "bytes": 3977,
+    "sha256": "ad046b18d5199dcc874dacdac0c4769256219f0c5e8ea1f8154188017e1c6f0e"
   },
   {
     "path": "projects/salt-casr/evidence-review/ASSESSMENT.md",
-    "bytes": 15112,
-    "sha256": "070ae9600fef0e3fd74b74adef8fe972f57e546d45a271fb3f8f9889d36275d5"
+    "bytes": 15106,
+    "sha256": "7ec27ee974780558dcf93e2164796658471abcf8446541b0977d455d58210096"
   },
   {
     "path": "projects/salt-casr/evidence-review/Expanded_Search_and_Contrast_Qualification.md",
-    "bytes": 15108,
-    "sha256": "8399207e1386bdca89fcc1e95067053c80fc5aa3058378cb10ff3588aa5c6676"
+    "bytes": 15102,
+    "sha256": "d521d0a5decbc086182849cd0b593faa8900cae2cb0f46d615930f400ed1b9ab"
   },
   {
     "path": "projects/salt-casr/evidence-review/Followup_Source_Qualification_20261029.md",
-    "bytes": 8044,
-    "sha256": "6a7538428fcb16a2e275bfd9bb8569eee3339aa757bcdfd01d02ab4a37109bff"
+    "bytes": 8021,
+    "sha256": "d0ba4ee9d94a1bad3856653015d79ce54411dbefeea1aefa91a5ded8c33f3459"
   },
   {
     "path": "projects/salt-casr/evidence-review/GSH_Endpoint_Comparison_and_Decision.md",
-    "bytes": 11651,
-    "sha256": "2a2ae869698725d9020a29a0a7a0bb1dc8d807731aec1849fbf30fb462f97ada"
+    "bytes": 11538,
+    "sha256": "bd83ef47bafcec897870a3d75e78348ca6f785d57adcbf6cf21bc967c66026f4"
   },
   {
     "path": "projects/salt-casr/evidence-review/MANIFEST.json",
     "bytes": 4116,
-    "sha256": "fbff3d10f6da060c6160913371afb63c90e695ba1a8e9b8f83b58e366fed2828"
+    "sha256": "d9d6aab43c467a04d6f4c424f663c49a871f46c0f8653defcb9fc8437a4a22c4"
   },
   {
     "path": "projects/salt-casr/evidence-review/Modified_GSH_Identity_and_Panel_Coverage.md",
-    "bytes": 10164,
-    "sha256": "5176ea1e5c0a7b4d13fc055fed1c626ac7a1d173a9553b98ce926d06a48604a5"
+    "bytes": 10072,
+    "sha256": "699a11ed88b00d6b1eb54103485c1c8278787e3d0f7043773d4e93deb10defb0"
   },
   {
     "path": "projects/salt-casr/evidence-review/Next_Decision_Test.md",
-    "bytes": 12739,
-    "sha256": "cacc99b3b79286ae783bf77afe77ad858d9b04956b582a4ceb97d01c86d1d9cd"
+    "bytes": 12548,
+    "sha256": "0f7135cc00b4a16d1200c3cab93dd24a51f0e1362391c5ce09d8c8edf5925752"
   },
   {
     "path": "projects/salt-casr/evidence-review/Patent_Saltiness_and_Test_Readiness.md",
-    "bytes": 9540,
-    "sha256": "c7714f0ab0e8844596fbbf93337ffd74b529f68a8bb6531b408160384eadaa43"
+    "bytes": 9402,
+    "sha256": "5766a706e993633de44099848492ca1f5b451571727b17920b3e5cdad11af22d"
   },
   {
     "path": "projects/salt-casr/evidence-review/Primary_Assays_and_Endpoint_Decision.md",
@@ -1801,28 +1801,28 @@
   },
   {
     "path": "projects/salt-casr/evidence-review/Processing_and_Plant_Peptide_Qualification.md",
-    "bytes": 11190,
-    "sha256": "1118d5100da309b508f1f49bb9c1a4d27ad0844644443c7d706dad04c58b36c7"
+    "bytes": 11141,
+    "sha256": "d49234d23b42c33bb6fcda0fe7db6553191e707d47d8262de3c1ab8b91e1d08b"
   },
   {
     "path": "projects/salt-casr/evidence-review/README.md",
-    "bytes": 4513,
-    "sha256": "9f4c65843cb3680e3f3663310e26294166e7fb61bf5f9f75b37d5e364e45c2be"
+    "bytes": 4504,
+    "sha256": "4019e55dab2c0d8af38283ca89dc1dbeed1c2222d5de9c71824ddd4f7c8e20d3"
   },
   {
     "path": "projects/salt-casr/evidence-review/Sensory_Contrast_and_Compound_Provenance.md",
-    "bytes": 6564,
-    "sha256": "f62d3d3ec606fba0ff46e73eed4a2782bc5ee08ef8b7aedae20dfdd2a05381f9"
+    "bytes": 6531,
+    "sha256": "a1aff41dc9b5b17600086ceec9682371f361f7da1de04129aed7fe1839f04bf6"
   },
   {
     "path": "projects/salt-casr/evidence-review/Sensory_Window_Assessment_and_Design.md",
-    "bytes": 13613,
-    "sha256": "8cf8564cef9fc01a62a1bd5e7a1426222e36390bed782418c3ac862b30af8352"
+    "bytes": 13566,
+    "sha256": "615fe74515fd9128ad81e261c202d82c392410086f772f21ceb35756606c8d30"
   },
   {
     "path": "projects/salt-casr/evidence-review/Source_Assessment_and_Design.md",
-    "bytes": 18435,
-    "sha256": "ea9909fee4843b020bef71276263f11385d5a0a141dea56a8efa3f9a0ad3d0a3"
+    "bytes": 18407,
+    "sha256": "c8e3cb8035c2cee6bd8fdf6410b519b04a4e7ed0b05e5fbc37eba183b76c642d"
   },
   {
     "path": "projects/salt-casr/evidence-review/build_registry.py",
@@ -2832,7 +2832,7 @@
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/followups/2026-10-29/MANIFEST.json",
     "bytes": 898,
-    "sha256": "3afc084bb25ee0c3cc556b6b89d2f65fc44861d3ace0cdde00f83687c53c3de1"
+    "sha256": "ce5de41e4e2b8371d1ca7fff63cb70c20a2db34ba02dcc9e7e28e8c473b43aef"
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/followups/2026-10-29/PROTOCOL.md",
@@ -2846,8 +2846,8 @@
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/followups/2026-10-29/REPORT.md",
-    "bytes": 10473,
-    "sha256": "8f409ad53fc3e0eef5baa26381c5afc4967c5f80b7b5e46b325e7c7505d0796b"
+    "bytes": 10425,
+    "sha256": "9a673cf9f01619c371e65c3d8bf35445e868d7a21bf8cf5c29554e2d6f33b2df"
   },
   {
     "path": "projects/salt-casr/experiments/05-functional-assay-controls/followups/2026-10-29/SOURCE_MANIFEST.json",
@@ -3092,12 +3092,12 @@
   {
     "path": "projects/salt-casr/verification/PATH_MAP.csv",
     "bytes": 41324,
-    "sha256": "dbf7284e32d41c6f9d40f90f827d7d7aeb002fba5ce6bf694397ba4ee78aa450"
+    "sha256": "0a90f11ad9f9b644f63d1bcc4d8e7dd673836e83e96a65f02748979d301699dc"
   },
   {
     "path": "projects/salt-casr/verification/README.md",
-    "bytes": 3008,
-    "sha256": "d302e8359dfb300a9900a5b0953dd842d5d907d6d2950be50ff7f1b450b768a0"
+    "bytes": 3225,
+    "sha256": "1526574149709275af9f30e79f53a2984dc9b9b88ba3106e2e3df78564162528"
   },
   {
     "path": "projects/salt-casr/verification/RELOCATED_RUNTIME_CHECKS.json",
@@ -3106,8 +3106,8 @@
   },
   {
     "path": "projects/salt-casr/verification/REPOSITORY_REVIEW_2026-10-30.json",
-    "bytes": 4534,
-    "sha256": "d54ccbe10626665a9f5fcbbc711e6d16d96cf61c3cdc074ee24e5ca2473a316b"
+    "bytes": 3393,
+    "sha256": "df83701e26e111272b53a71059e732278ee8d4c030537bde8a54c63473593138"
   },
   {
     "path": "projects/salt-casr/verification/REPRODUCED_TABLES.json",
@@ -3116,8 +3116,8 @@
   },
   {
     "path": "projects/salt-casr/verification/verify_layout.py",
-    "bytes": 4742,
-    "sha256": "7a76ca42bbd7baa434157397508326cc4a3bdf36d2638b056ff4cfe170118f10"
+    "bytes": 5262,
+    "sha256": "050e3d27e04dc7c539bab06eaf4dc79e698a178d8336e37fbb1cfa44bada9945"
   },
   {
     "path": "restore_supplements.py",

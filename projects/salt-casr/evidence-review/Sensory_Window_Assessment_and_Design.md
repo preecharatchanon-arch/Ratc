@@ -117,7 +117,7 @@ for simply describing a controlled sensory effect, or claim mechanism from it.
 **Status and scope.** Design only; not runnable or preregistered. Gamma-EVG
 is a defensible reference candidate because identified functional receptor
 and human evidence already exist, with source limitations preserved. This
-does not establish it as a new ingredient or authorize its use. An actual
+does not establish a new effective ingredient or food-use suitability. An actual
 eligible published series is still needed; do not force another peptide's
 responses into this card or treat reference calibration as discovery success.
 
@@ -186,15 +186,13 @@ The source-assessment pass ends here; these seven cases are not a new broad
 retrieval queue. The next required resource is an actual original participant-
 paired human grid, with final formulations and an interpretable margin, or
 a legitimate new full source providing it. The written specification above
-is review-ready but authorizes no human or biological experiment or outreach.
+specifies the records required to assess that comparison.
 On receipt, qualify all tested cells and candidates before calculating effects.
 
 Keep the main CaSR selector gate separate: it additionally requires a common
 candidate panel with measured functional receptor information, a frozen
 non-CaSR comparison and independent evaluation. Neither a reference window
-nor a modern embedding model fills that requirement. No new model fit,
-notebook, docking/MD, publication, message, purchase, automation or paid/GPU
-job was performed.
+nor a modern embedding model fills that requirement. This assessment generated no new biological measurements or prediction results.
 
 ## Primary source locators
 

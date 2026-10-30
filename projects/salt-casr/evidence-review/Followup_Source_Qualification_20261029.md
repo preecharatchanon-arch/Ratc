@@ -97,7 +97,7 @@ If an eligible panel and practical margin become available, freeze the exact
 comparison before fitting. A useful incremental gain would justify independent
 confirmation in the defined application. An interval excluding useful gain
 would close that feature/domain; a broad interval would remain inconclusive.
-Neither outcome authorizes a rescue sweep on the same inspected material.
+Model selection on the same inspected material would require a separate exploratory analysis and independent confirmation.
 Until the prerequisite changes, keep numerical testing paused rather than run
 another docking screen, proxy-label predictor or electronic-tongue-to-human fit.
 
@@ -116,8 +116,7 @@ receptor records. Four have numerical saltiness observations and one has
 graphical-only saltiness observations. Twelve numerical formulation/dose
 conditions yield fourteen heterogeneous endpoint values. No new eligible selector panel was added. This
 continuation is source assessment and written decision work, not progress of a
-validated discovery method. No biological/human experiments, contacts, purchase,
-paid/GPU job, publication or automation occurred. AIMO remains separate.
+validated selection method. No new receptor or human measurements were generated.
 
 Primary sources:
 

@@ -26,7 +26,6 @@ Dates below describe work performed in this project, not the publication dates o
 | **27 October** | Added training-mean comparison, family-bootstrap uncertainty, fixed positional/context models, an 11-pair Gly-effect prediction task and independent saved-pose verification. |
 | **28–29 October** | Qualified additional primary receptor/sensory sources and wrote the matched-data test requirements. Separate liking evidence was reviewed on 28 October. |
 | **29 October** | Executed a local bound-pose diagnostic and an exploratory WT/N102F ligand-response analysis. |
-| **30 October** | Improved documentation, corrected an endpoint label and refreshed navigation/integrity metadata. No new scientific experiment. |
 
 [Detailed milestones, results and source links](docs/RESEARCH_TIMELINE.md)
 
@@ -75,17 +74,17 @@ These five reports preserve the original work completed before 20 October. Later
 
 ## Run an experiment
 
-These entry points reproduce completed analyses. They are not the next scientific action; the current matched-data gate is described above.
+These entry points reproduce completed analyses. Requirements for new research are described in the [current test design](docs/NEXT_TEST_DESIGN.md).
 
 | Experiment | Execution | Verified status |
 | --- | --- | --- |
 | 01 | [Open in Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/salt-casr/experiments/01-casr-models-and-docking/CaSR_Research_Workbench.ipynb), choose CPU, Run all | Reviewed local execution and source checks; full docking optional through the notebook configuration |
-| 02 | [Open in Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/salt-casr/experiments/02-sensory-source-transfer/Saltiness_Sensory_Validation.ipynb), CPU | Every code cell executed locally; Colab browser not directly tested |
+| 02 | [Open in Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/salt-casr/experiments/02-sensory-source-transfer/Saltiness_Sensory_Validation.ipynb), CPU | Every code cell executed locally |
 | 03 | [Open in Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/salt-casr/experiments/03-assay-dose-response/Saltiness_Assay_Conditions.ipynb), CPU | Local execution plus a [verified user-supplied Colab export](experiments/03-assay-dose-response/verification/COLAB_RUN_VERIFICATION.json) |
 | 04 | Follow the [local commands](experiments/04-trpv1-membrane-access/README.md#reproduce-and-inspect), CPU | Fresh isolated Python 3.12 execution; no Colab execution claimed |
-| 05 | [Open in Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/salt-casr/experiments/05-functional-assay-controls/Arginyl_Functional_Controls.ipynb), CPU | Every notebook code cell executed locally with an isolated worker; soy source-access limits remain explicit |
+| 05 | [Open in Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/salt-casr/experiments/05-functional-assay-controls/Arginyl_Functional_Controls.ipynb), CPU | Every notebook code cell executed locally with an isolated worker |
 
-The four canonical notebooks are self-contained: inputs and reviewed source are embedded, and no API key or upload is required. Repository scripts use shared `data/` inputs and write fresh outputs to an ignored `runs/latest/` folder inside their experiment. The committed `results/` folders retain the reviewed results. Local commands must be run from the relevant experiment folder; each has pinned requirements.
+The four canonical notebooks are self-contained: inputs and reviewed source are embedded, and no API key or upload is required. Execution records distinguish local code-cell runs from the verified user-supplied Colab export for Experiment 03; browser execution of the other notebooks was not directly tested. Repository scripts use shared `data/` inputs and write fresh outputs to an ignored `runs/latest/` folder inside their experiment. The committed `results/` folders retain the reviewed results. Local commands must be run from the relevant experiment folder; each has pinned requirements.
 
 ## Folder guide
 
@@ -104,7 +103,7 @@ The project URL stays the same. Previously shared notebook URLs are retained as 
 
 ## Reading the measurements
 
-**MAE** is mean absolute prediction error; pEC₅₀ is a logarithmic receptor-response concentration, not a sensory score. **RMSD** measures pose-coordinate displacement in ångströms. **ROC-AUC** measures binary ranking performance, with 0.5 as chance ranking. The analyses measure different endpoints, so these numbers cannot be compared as a common performance score.
+**MAE** is mean absolute prediction error. **pEC₅₀ = −log₁₀(EC₅₀ in mol/L)**; higher pEC₅₀ means a lower half-maximal response concentration in the stated assay. **RMSD** measures pose displacement in ångströms. **ROC-AUC** measures binary ranking, with 0.5 as chance ranking. **Kokumi** describes attributes such as thickness, mouthfulness and continuity. Each measurement answers a different question; receptor potency and human taste scores remain separate.
 
 ## Data and attribution
 

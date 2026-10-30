@@ -257,5 +257,4 @@ Resolve the adduct's printed naming conflict and stereochemical form before
 promoting that link. These acquisitions could improve the evidence map; they
 would not themselves provide independent confirmation of a selector.
 
-No outreach, repository publication, purchases, paid jobs or new human/
-biological experiments were performed or authorized by this document.
+This record assesses published data and a proposed comparison; it contains no new receptor or human measurements.

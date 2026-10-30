@@ -32,6 +32,13 @@ def anchors(path):
 
 def main():
     files=[p for p in ROOT.rglob('*') if published(p)]
+    with (ROOT/'verification/FILE_INDEX.csv').open(newline='') as f:
+        inventory=list(csv.DictReader(f))
+    indexed=[row['path'] for row in inventory]
+    expected={p.relative_to(ROOT).as_posix() for p in files}
+    assert len(indexed)==len(set(indexed)), 'duplicate paths in FILE_INDEX.csv'
+    assert set(indexed)==expected, ('file index coverage mismatch',
+        sorted(expected-set(indexed)), sorted(set(indexed)-expected))
     markdown_links=0;colab_links=0;payloads=0;zips=0
     for p in files:
         if p.suffix=='.py':compile(p.read_text(),str(p),'exec')
@@ -76,6 +83,7 @@ def main():
         p=REPO/m['new_path'];assert p.is_file(),m['new_path']
         assert hashlib.sha256(p.read_bytes()).hexdigest()==m['new_sha256'],m['new_path']
     result=dict(project_files=len(files),local_markdown_targets=markdown_links,colab_targets=colab_links,
+                indexed_current_files=len(indexed),all_current_files_indexed=True,
                 unchanged_notebook_aliases=3,verified_notebook_payloads=payloads,CRC_verified_run_archives=zips,
                 mapped_original_files=len(moves),all_current_file_checksums_match=True,
                 scope='Organization and artifact integrity; no fresh biological validation or full research rerun')

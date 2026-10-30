@@ -130,10 +130,7 @@ before execution. No number of surrogate-label fits fills this requirement.
 | Application decision | Justified sensory margin and follow-up budget/yield margin | Makes both success and failure practically interpretable |
 | Independent evaluation material | Candidate/source separation from already inspected development evidence | Distinguishes an exploratory fit from confirmation |
 
-This is a request specification for existing measurements, not authorization
-to conduct a new human or biological experiment. There is no universal minimum
-compound count asserted; adequacy depends on domain coverage, dependence,
-measurement precision and the justified decision margin.
+This table specifies the existing measurements needed for the comparison. A suitable candidate count depends on domain coverage, dependence, measurement precision and the justified decision margin.
 
 ## Latest assessment and next precise action
 
@@ -186,5 +183,4 @@ Once an actual qualified panel is recovered, justify the application margin,
 budget, frozen baseline and precision requirement, then choose the analysis.
 Until then there is no queued scientific experiment. This is a data/design
 blocker, not evidence that CaSR cannot influence saltiness or that suitable
-measurements do not exist elsewhere. No outreach, wet-lab work, publication,
-automation or paid/GPU job was performed or newly authorized.
+measurements do not exist elsewhere.

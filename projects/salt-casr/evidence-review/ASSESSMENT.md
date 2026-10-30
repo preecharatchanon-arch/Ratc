@@ -159,8 +159,7 @@ Primary: https://doi.org/10.1016/j.fochms.2025.100319
 Reumiller's exact-title Figshare search returned no entries. A DOI-text search
 returned an unrelated artwork, excluded after identity checking. Those bounded
 checks do not prove that its supplements do not exist. No public manuscript
-was recovered from the inspected publisher/metadata/institutional routes;
-data-on-request language did not authorize outreach.
+was recovered from the inspected publisher/metadata/institutional routes. The source lists data as available on request.
 
 HKBU record: https://scholars.hkbu.edu.hk/en/studentTheses/synthesis-of-taste-active-%CE%B3-glutamyl-peptides-with-wheat-gluten-h/
 

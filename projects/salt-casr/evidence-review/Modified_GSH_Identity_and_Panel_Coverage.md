@@ -28,8 +28,7 @@ validation of a CaSR selector. No linked-compound or saltiness count increases.
 
 **Inference, not a source correction:** the patent's alpha,beta wording and
 Tsuboi's1,2 wording are consistent with a succinate thioether connectivity.
-That strengthens the *intended-name* interpretation; it does not authorize
-silently changing the conflicting receptor footnote. No exact-material match
+That strengthens the *intended-name* interpretation, while the conflicting receptor footnote remains unresolved. No exact-material match
 or stereoisomer mixture ratio is inferred from the synthetic route.
 
 The source range5–10uM remains a printed range, not a confidence interval or
@@ -87,8 +86,7 @@ metadata. Targeted institutional/title searches found an official author
 profile but no main manuscript. Its listed application202110379878.0 resolves
 to the previously excluded CN113080426 patent, not a new gamma-Glu/Arg data
 source. The publisher labels the main article available to purchase; the
-previously read public supplement contains MS/MS spectra. No purchase or
-request was made. This does not establish absence of a receptor assay from
+previously read public supplement contains MS/MS spectra. The main text was not recovered, so this does not establish absence of a receptor assay from
 the inaccessible main text. Existing missing CaSR fields stay missing.
 
 ## Consequence for the written test design
@@ -128,7 +126,6 @@ This action is currently access-blocked: no untried public location was found
 in the bounded check. If none becomes available, remain at that prerequisite
 rather than starting a surrogate fit or continuing generic retrieval queues.
 The modified-GSH branch reopens only with a compound-specific primary record.
-No outreach, payment, repository publication or wet-lab activity is authorized.
 
 ## Primary-source locators
 

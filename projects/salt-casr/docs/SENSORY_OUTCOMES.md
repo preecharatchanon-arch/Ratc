@@ -2,10 +2,7 @@
 
 [Project](../README.md) · [Research status](RESEARCH_STATUS.md) · [Saltiness test design](NEXT_TEST_DESIGN.md)
 
-28 October 2026. A food can become more enjoyable without becoming measurably
-saltier. This is a useful application question for savory prepared foods,
-including a possible future frozen-food formulation. It is not yet a result
-for our peptides or a demonstrated frozen-food benefit.
+28 October 2026. Published measurements show that palatability can improve in a condition where a significant saltiness increase was not detected. This motivates a separate application question for savory prepared foods, including a possible future frozen-food formulation. Peptide-specific and frozen-food benefits remain untested here.
 
 ## A primary human example
 
@@ -55,11 +52,9 @@ practical doses. More intense umami does not guarantee greater liking.
 For a frozen-food claim, the actual formulation, freezing/storage, preparation
 and reheating conditions would belong in the tested domain. Bitterness,
 off-taste, texture, aroma, stability, cost and food-use suitability would also
-matter; none is inferred from a receptor assay. This document authorizes no
-human or biological experiment and proposes no ingredient as food-approved.
+matter and require application-specific evidence. Receptor activity alone does not establish these properties or food-use suitability.
 
 This opportunity has not replaced the current CaSR/saltiness test. A later
 liking test needs its own hypothesis, competing explanations, actual eligible
 data, independent units, primary comparator, practical margin, uncertainty
-analysis and outcome-dependent decision before execution. Liking cannot be
-used retrospectively to turn a failed saltiness prediction into a success.
+analysis and outcome-dependent decision before execution. Liking and saltiness require separate primary outcomes and evaluations.

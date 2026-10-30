@@ -98,8 +98,7 @@ or uncertainty. This is unresolved coverage, not a negative human result.
 Publisher access was denied; the metadata-advertised public XML route returned
 a short unavailable-page HTML response, not article XML. OpenAlex gives no
 alternate full text, and the author listing has no public manuscript. The
-publisher states that data are available on request; no outreach is authorized
-or performed. No EC50, nonresponder label or sensory score was inferred.
+publisher states that data are available on request. EC50, nonresponder status and sensory scores remain unestablished.
 
 ## What changes in the design
 
@@ -128,9 +127,7 @@ Preserve reporting conflicts rather than choosing the more favorable version.
 
 ## Conditional extraction card before any later test
 
-This is a design prerequisite, not a preregistration or authorization to collect
-new human/biological measurements. The main selector test remains in
-`Next_Decision_Test.md`; no success margin is invented from these sources.
+These are data requirements for a future comparison. The [current test design](../docs/NEXT_TEST_DESIGN.md) sets out the main selector question; the sources reviewed here do not establish its success margin.
 
 | Required item | Decision specified now | Unresolved execution requirement |
 |---|---|---|

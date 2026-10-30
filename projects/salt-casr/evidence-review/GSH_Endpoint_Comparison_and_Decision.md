@@ -2,8 +2,7 @@
 
 > **Historical assessment.** This dated record preserves source qualifications and earlier decisions. For subsequent work, use the [current research status](../docs/RESEARCH_STATUS.md) and the [current test design](../docs/NEXT_TEST_DESIGN.md).
 
-28 October 2026. Evidence assessment only. No new scientific test, model fit,
-notebook, outreach, automation or biological/human experiment was conducted.
+28 October 2026. Assessment of published evidence and the requirements for a future comparison.
 
 ## Answer that the recovered evidence permits
 
@@ -78,7 +77,6 @@ not new saltiness evidence. No broader docking screen is justified.
 ## Written design and execution gate
 
 This refines the existing design; it is not a runnable or registered experiment.
-No new human or biological study is authorized by it.
 
 **Hypothesis.** For a prespecified peptide domain, application matrix, sodium
 background, exposure rule and saltiness time endpoint, measured functional
