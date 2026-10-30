@@ -1,6 +1,8 @@
 # Primary saltiness recovery and test-readiness decision
 
-29 October 2026, Asia/Bangkok. Checkpoint version20 was read first. This is
+> **Historical assessment.** This dated record preserves source qualifications and earlier decisions. For subsequent work, use the [current research status](../docs/RESEARCH_STATUS.md) and the [current test design](../docs/NEXT_TEST_DESIGN.md).
+
+29 October 2026, Asia/Bangkok. This is
 published-evidence assessment and a written design, not a new efficacy study.
 The question remains whether measured CaSR activity improves peptide selection
 for human saltiness under defined conditions. No scientific numerical test ran.

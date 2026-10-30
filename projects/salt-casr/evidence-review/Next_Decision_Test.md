@@ -1,17 +1,10 @@
-# The next decision-bearing test
+# Earlier test-design snapshot
 
-29 October 2026, Asia/Bangkok. The latest continuation read checkpoint
-version22 before work. Read `Sensory_Window_Assessment_and_Design.md` for the
-sensory-first source assessment and known-peptide window design, with
-`sensory_window_qualification.json`. That design adds no eligible response
-grid, human saltiness condition or executed scientific test. Its successful
-reference result, if later established, would not be a validated selector.
-Read `Patent_Saltiness_and_Test_Readiness.md` for the preceding primary
-extraction and `targeted_primary_followup.json` for that acquisition ledger.
-Earlier source assessments remain historical, not competing retrieval queues.
-This is a test-readiness
-decision, not a newly executed scientific test. The actual saved analysis
-outputs were read. No new model, docking, MD or human/receptor experiment ran.
+[Evidence guide](README.md) · [Current status](../docs/RESEARCH_STATUS.md) · [Current test design](../docs/NEXT_TEST_DESIGN.md)
+
+**Historical record, 29 October 2026.** The single maintained plan is [docs/NEXT_TEST_DESIGN.md](../docs/NEXT_TEST_DESIGN.md). This file preserves the earlier design and diagnostic context; its retrieval priorities do not override the current plan.
+
+The following content is retained for traceability, not as a second execution queue.
 
 ## Direction
 

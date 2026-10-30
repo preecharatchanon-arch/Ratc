@@ -1,7 +1,8 @@
 # Expanded source search and qualification of the actual comparisons
 
-28 October 2026. Checkpoint version14 was read before this continuation.
-This is an evidence assessment and written design amendment. No new scientific
+> **Historical assessment.** This dated record preserves source qualifications and earlier decisions. For subsequent work, use the [current research status](../docs/RESEARCH_STATUS.md) and the [current test design](../docs/NEXT_TEST_DESIGN.md).
+
+28 October 2026. This is an evidence assessment and written design amendment. No new scientific
 numerical test, predictor, docking/MD run, notebook, or human/biological
 experiment was performed. Published measurements below belong to their authors.
 

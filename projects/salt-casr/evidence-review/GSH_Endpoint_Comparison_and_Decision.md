@@ -1,8 +1,9 @@
 # GSH endpoint comparison and decision
 
+> **Historical assessment.** This dated record preserves source qualifications and earlier decisions. For subsequent work, use the [current research status](../docs/RESEARCH_STATUS.md) and the [current test design](../docs/NEXT_TEST_DESIGN.md).
+
 28 October 2026. Evidence assessment only. No new scientific test, model fit,
 notebook, outreach, automation or biological/human experiment was conducted.
-The version10 checkpoint was read before selecting these sources.
 
 ## Answer that the recovered evidence permits
 

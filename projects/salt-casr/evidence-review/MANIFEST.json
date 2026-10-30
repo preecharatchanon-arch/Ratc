@@ -1,51 +1,55 @@
 {
+  "ASSESSMENT.md": {
+    "bytes": 15112,
+    "sha256": "070ae9600fef0e3fd74b74adef8fe972f57e546d45a271fb3f8f9889d36275d5"
+  },
   "Expanded_Search_and_Contrast_Qualification.md": {
-    "bytes": 14918,
-    "sha256": "f4f397ed885877dc845f30ec1f7d0a66049a2ad447d1a603b2355a2f3b3726bb"
+    "bytes": 15108,
+    "sha256": "8399207e1386bdca89fcc1e95067053c80fc5aa3058378cb10ff3588aa5c6676"
   },
   "Followup_Source_Qualification_20261029.md": {
-    "bytes": 7962,
-    "sha256": "ec93b25f29867110e21278e4c55d72b9b9ec8003283fd610884b3ff382592b96"
+    "bytes": 8044,
+    "sha256": "6a7538428fcb16a2e275bfd9bb8569eee3339aa757bcdfd01d02ab4a37109bff"
   },
   "GSH_Endpoint_Comparison_and_Decision.md": {
-    "bytes": 11471,
-    "sha256": "1d608a93ae4b1b3e5fc2d285a5b2445fa7ed60e1be527b4f68bb1950048a2084"
+    "bytes": 11651,
+    "sha256": "2a2ae869698725d9020a29a0a7a0bb1dc8d807731aec1849fbf30fb462f97ada"
   },
   "Modified_GSH_Identity_and_Panel_Coverage.md": {
-    "bytes": 9970,
-    "sha256": "ea9e47c081a93bfdccd17c141c31b135708e8178119128b081527a4714db06c5"
+    "bytes": 10164,
+    "sha256": "5176ea1e5c0a7b4d13fc055fed1c626ac7a1d173a9553b98ce926d06a48604a5"
   },
   "Next_Decision_Test.md": {
-    "bytes": 13125,
-    "sha256": "2050b85b8695e4d2d50b2df9d2c0709d762148a4cec1df37aad52b9db46517f5"
+    "bytes": 12739,
+    "sha256": "cacc99b3b79286ae783bf77afe77ad858d9b04956b582a4ceb97d01c86d1d9cd"
   },
   "Patent_Saltiness_and_Test_Readiness.md": {
-    "bytes": 9331,
-    "sha256": "75c0854b79539ef4d7461d782f68f47d80ce8194737fce8f7920b68057a636cd"
+    "bytes": 9540,
+    "sha256": "c7714f0ab0e8844596fbbf93337ffd74b529f68a8bb6531b408160384eadaa43"
   },
   "Primary_Assays_and_Endpoint_Decision.md": {
-    "bytes": 9071,
-    "sha256": "72a7de6fbbbe20ed1f8b257d57185330ef829a0790c36931301cebbc90c887db"
+    "bytes": 9265,
+    "sha256": "e5e23d4c059743052b6f7eff998d4e1a5826f390d45672950ff866c8463ecedf"
   },
   "Processing_and_Plant_Peptide_Qualification.md": {
-    "bytes": 11000,
-    "sha256": "59ec18b2c20718e22746cff9309413da4b7608515cf800b7ecb0cd3975296ca7"
+    "bytes": 11190,
+    "sha256": "1118d5100da309b508f1f49bb9c1a4d27ad0844644443c7d706dad04c58b36c7"
   },
   "README.md": {
-    "bytes": 3666,
-    "sha256": "9fb2d0d6605dfa33416006e245413936db261c57a89c462b47752122bfe97b25"
+    "bytes": 4513,
+    "sha256": "9f4c65843cb3680e3f3663310e26294166e7fb61bf5f9f75b37d5e364e45c2be"
   },
   "Sensory_Contrast_and_Compound_Provenance.md": {
-    "bytes": 6355,
-    "sha256": "bdc5268796cebcee9a10220e3dd68a90b7a3cf227924a02404acb0fcae1e1205"
+    "bytes": 6564,
+    "sha256": "f62d3d3ec606fba0ff46e73eed4a2782bc5ee08ef8b7aedae20dfdd2a05381f9"
   },
   "Sensory_Window_Assessment_and_Design.md": {
-    "bytes": 13410,
-    "sha256": "e403ec139df794cccb393205a584138d5c9fe238d66249547ff999b1dc446a09"
+    "bytes": 13613,
+    "sha256": "8cf8564cef9fc01a62a1bd5e7a1426222e36390bed782418c3ac862b30af8352"
   },
   "Source_Assessment_and_Design.md": {
-    "bytes": 18148,
-    "sha256": "cdd6f4017ed1de97160faaa3a9253327fc6e7494c667910e29b96f9e124b4ffb"
+    "bytes": 18435,
+    "sha256": "ea9909fee4843b020bef71276263f11385d5a0a141dea56a8efa3f9a0ad3d0a3"
   },
   "build_registry.py": {
     "bytes": 11944,

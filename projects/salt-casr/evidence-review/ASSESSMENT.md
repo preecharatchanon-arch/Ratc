@@ -1,5 +1,7 @@
 # Expanded source search and qualification of the actual comparisons
 
+> **Historical assessment.** This dated record preserves source qualifications and earlier decisions. For subsequent work, use the [current research status](../docs/RESEARCH_STATUS.md) and the [current test design](../docs/NEXT_TEST_DESIGN.md).
+
 28 October 2026. This public assessment summarizes the 28 October evidence review.
 This is an evidence assessment and written design amendment. No new scientific
 numerical test, predictor, docking/MD run, notebook, or human/biological

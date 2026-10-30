@@ -1,88 +1,77 @@
 # CaSR, kokumi and sensory enhancement
 
-**Current question:** can measured calcium-sensing receptor (CaSR) activity improve selection of peptides that increase human saltiness under defined conditions? The current evidence does not yet establish useful selection performance.
+**Can measured calcium-sensing receptor (CaSR) activity help select peptides that increase human saltiness under defined conditions?**
 
-Research by **Ratchanon Preecha** · Updated 29 October 2026
+Research by **Ratchanon Preecha** · Documentation updated **30 October 2026**
 
-This project connects published peptide chemistry, receptor assays and human sensory evidence. It contains **five completed computational analyses**, a later fixed CaSR-model/pose follow-up, and an ongoing assessment of whether the actual measurements overlap by compound and conditions. No new human or biological measurements are claimed.
+This project analyzes published peptide chemistry, receptor assays and human taste measurements. It contains five original computational analyses, additional tests completed on 27–29 October, and a source-by-source evidence review. **Useful CaSR-guided saltiness selection has not yet been established.** The biological measurements belong to the cited researchers; this project's contributions are data qualification and computational reanalysis.
 
-**Start here:** [Current direction and blockers](docs/RESEARCH_STATUS.md) · [Sensory outcomes and the liking opportunity](docs/SENSORY_OUTCOMES.md) · [Evidence review](evidence-review/README.md) · [Next test design](docs/NEXT_TEST_DESIGN.md)
+## Start here
 
-## What the evidence currently supports
+| If you want to… | Read |
+| --- | --- |
+| Understand the question, current conclusion and missing evidence | [Research status](docs/RESEARCH_STATUS.md) |
+| See what was added after 20 October | [Dated research timeline](docs/RESEARCH_TIMELINE.md) |
+| Inspect human measurements and their receptor links | [Evidence guide](evidence-review/README.md) |
+| Assess whether the next test is ready | [Current test design](docs/NEXT_TEST_DESIGN.md) |
+| Inspect or reproduce a completed analysis | [Five original analyses](experiments/README.md) and the [dated CaSR follow-ups](experiments/01-casr-models-and-docking/followups/README.md) |
 
-- Fixed follow-up comparisons use 58 numerical/range compounds and 26 chemical families. Their gain intervals cross zero; reliable incremental receptor-prediction benefit has not been established. [Protocol, code and saved results](experiments/01-casr-models-and-docking/followups/README.md).
-- The source registry contains five named receptor/saltiness links across different doses, matrices and endpoints. They do not form a jointly tested peptide-selection benchmark. The bounded 80-record indexed source screen and original-method qualifications are in the [evidence review](evidence-review/README.md).
-- A food could be more enjoyable without becoming significantly saltier. Published MSG studies support that possibility; a peptide-specific benefit in a defined food still needs actual liking data. This [application opportunity](docs/SENSORY_OUTCOMES.md) is separate from the saltiness question.
+## Research timeline
 
-**Next decision:** qualify actual matched receptor/saltiness measurements before fitting a selector. Material processing, dose policy, receptor specificity and human outcome must align. A meaningful success criterion and independent evaluation data are still missing. [Full test card](docs/NEXT_TEST_DESIGN.md).
+Dates below describe work performed in this project, not the publication dates of the underlying biological studies.
 
-The earlier [arginyl-control](docs/ARGINYL_STARTING_POINT.md) and [RP/KP sensory](docs/PROLYL_SENSORY_FOLLOWUP.md) notes remain historical branches. They do not supersede the current CaSR question or establish that a new laboratory experiment is ready.
+| Period | Work and status |
+| --- | --- |
+| **Before 20 October** | Five original analyses: CaSR prediction/docking, sensory source transfer, dose and endpoint dependence, TRPV1 access, and functional-assay controls. |
+| **27 October** | Added training-mean comparison, family-bootstrap uncertainty, fixed positional/context models, an 11-pair Gly-effect prediction task and independent saved-pose verification. |
+| **28–29 October** | Qualified additional primary receptor/sensory sources and wrote the matched-data test requirements. Separate liking evidence was reviewed on 28 October. |
+| **29 October** | Executed a local bound-pose diagnostic and an exploratory WT/N102F ligand-response analysis. |
+| **30 October** | Improved documentation, corrected an endpoint label and refreshed navigation/integrity metadata. No new scientific experiment. |
+
+[Detailed milestones, results and source links](docs/RESEARCH_TIMELINE.md)
 
 ## Latest additions on 29 October 2026
 
-- **Functional ligand contrast:** a receptor mutation (N102F) lowers the published
-  response EC50 for γ-Glu-Val but raises it for γ-Glu-Val-Gly. The opposing
-  directions survive a conservative summary-data rounding analysis under
-  explicit small-sample assumptions; a complete potency-order reversal does
-  not. This is exploratory reanalysis of three reported experiments per cell,
-  not binding-affinity or human-saltiness validation.
-  [Design, source table, code and result](experiments/05-functional-assay-controls/followups/2026-10-29/README.md).
-- **Bound-pose relaxation:** local optimization preserves a reference-like pose
-  (RMSD **0.595 Å**), but the displaced pose still receives the better Vina score.
-  The combined gate failed, so conditional global searches were not run.
-  [Frozen diagnostic and actual outputs](experiments/01-casr-models-and-docking/followups/2026-10-29-local-relaxation/README.md).
-- **New source qualification:** a 16-peptide human sensory study was recovered
-  in full. Its cellular assay concerns TAS1R1-associated signaling, while its
-  numerical supplementary saltiness tables are electronic-tongue results.
-  Three other primary leads were qualified. No new matched hCaSR/human-saltiness
-  panel or human numerical label was created.
-  [Full assessment and conditions](evidence-review/Followup_Source_Qualification_20261029.md).
+- **Ligand-dependent response:** N102F shifts the reported EC50 values of γ-Glu-Val and γ-Glu-Val-Gly in opposite directions. The result is an exploratory functional comparison with small-sample and rounding assumptions, not a direct binding measurement. [Report and source table](experiments/05-functional-assay-controls/followups/2026-10-29/REPORT.md).
+- **Docking diagnosis:** local optimization preserves a reference-like pose, but the displaced pose still receives the better Vina score. [Frozen design and outputs](experiments/01-casr-models-and-docking/followups/2026-10-29-local-relaxation/README.md).
+- **Source qualification:** a recovered 16-peptide human sensory study does not provide the missing matched CaSR panel. Its numerical supplementary saltiness tables are electronic-tongue outputs and its cellular assay concerns TAS1R1. [Assessment](evidence-review/Followup_Source_Qualification_20261029.md).
 
-These additions refine the functional controls and identify concrete data gaps.
-The main selection question remains unresolved; unknown-peptide screening is
-not supported by the tested docking protocol.
+## Completed results and what they mean
 
-## Latest completed tests: actual results
-
-These are our computational reanalyses of existing published measurements and saved poses, completed before this README update. They are exploratory, not independent biological confirmation.
-
-| Test | Actual result | What it changes |
+| Comparison | Saved result | Interpretation |
 | --- | --- | --- |
-| **Fixed receptor-prediction comparison** | 58 compounds, 26 chemical families. Positional-model MAE **0.7653** versus **0.7989** for the existing nearest-three model; error reduction **0.0337** log units, conditional family-bootstrap 95% interval **[-0.1104, 0.1553]**. | The point error improves, but the interval crosses zero. Reliable incremental gain is not established. |
-| **Predicting the effect of adding terminal Gly** | 11 matched core/Gly peptide pairs. Prediction MAE **0.9151** versus **0.8851** for the training-mean effect; gain **-0.0300**, interval **[-0.2498, 0.1842]**. | The tested chemistry-based rule does not reliably improve prediction of the Gly-extension effect. |
-| **Independent native-pose verification** | Symmetry-corrected spyrmsd top-pose RMSD **4.7803 Å**. The closest of the ten saved poses is **2.3158 Å**, ranked fifth; no rigid alignment. | Confirms the pose-ranking limitation. This checks saved coordinates; it is not new docking. |
+| **Fixed receptor prediction**, 58 compounds / 26 families | Positional-model MAE **0.7653** versus **0.7989** for the existing nearest-three model; improvement **0.0337** pEC50 units, conditional family-bootstrap 95% interval **[-0.1104, 0.1553]**. | Point error decreases, but reliable improvement is not established. This predicts receptor response, not human saltiness. |
+| **Predicting terminal-Gly effects**, 11 matched pairs | MAE **0.9151** versus **0.8851** for the training-mean effect; gain **-0.0300**, interval **[-0.2498, 0.1842]**. | The tested chemical representation does not reliably predict the observed context dependence. |
+| **Independent check of ten original saved poses** | Symmetry-corrected top-pose RMSD **4.7803 Å**; closest pose **2.3158 Å**, ranked fifth. | Confirms the earlier placement/ranking limitation. This was a coordinate check, not new docking. |
+| **Local relaxation from the known bound pose** | Reference-like RMSD **0.595 Å**, but the displaced pose still scores better. | The combined pose/ranking criterion failed; conditional global searches were not run. |
+| **WT/N102F comparison** | Opposite γ-EV/γ-EVG EC50 shifts survive the stated summary-data and rounding analysis; complete potency-order reversal does not survive the conservative rounding analysis. | Useful exploratory functional contrast; expression and signaling remain competing explanations. |
+| **Receptor–human evidence overlap** | Five linked identities; four have numerical saltiness observations and one has graphical observations. Twelve numerical formulation/dose conditions yield fourteen heterogeneous endpoint values. | Real overlap exists, but it is not a jointly tested candidate panel or a common regression target. |
 
-[Protocol and reproduction guide](experiments/01-casr-models-and-docking/followups/2026-10-27/README.md) · [Model summary](experiments/01-casr-models-and-docking/followups/2026-10-27/output/summary.json) · [Fold predictions](experiments/01-casr-models-and-docking/followups/2026-10-27/output/fold_predictions.csv) · [Independent pose result](experiments/01-casr-models-and-docking/followups/2026-10-27/output/independent_RMSD_check.json)
+[27 October protocol, code and predictions](experiments/01-casr-models-and-docking/followups/2026-10-27/README.md) · [29 October docking diagnostic](experiments/01-casr-models-and-docking/followups/2026-10-29-local-relaxation/README.md) · [29 October functional analysis](experiments/05-functional-assay-controls/followups/2026-10-29/README.md)
 
-The gain intervals are conditional on the fitted models and previously inspected data. Published concentration ranges are not confidence intervals. Receptor-prediction error is not human saltiness performance.
+These analyses use previously inspected data and remain exploratory. Bootstrap intervals are conditional on fitted predictions; published concentration ranges are not confidence intervals. Repeated doses, assessors, cells and time windows do not create additional independent peptide candidates.
 
-## Meaningful published data recovered
+## Human evidence and the next decision
 
-These measurements belong to the original authors. Our contribution here is recovering, attributing and checking their endpoints and conditions, not discovering new effective compounds.
+The source registry links **γ-Glu-Abu** (Abu = 2-aminobutyric acid), **γ-Glu-Val-Gly**, **γ-Glu-Ala**, **γ-Glu-Val** and **reduced glutathione (GSH)** to receptor and saltiness evidence. All five have numerical receptor records in the registry; γ-Glu-Val has graphical-only saltiness observations here.
 
-| Evidence recovered | What is actually available | Interpretation |
-| --- | --- | --- |
-| **Five named receptor/saltiness links** | Gamma-Glu-Abu (Abu = 2-aminobutyric acid), gamma-Glu-Val-Gly, gamma-Glu-Ala, gamma-Glu-Val and reduced glutathione (GSH). Four have numerical saltiness observations here; gamma-Glu-Val is graphical only. Twelve numerical formulation/dose conditions yield fourteen heterogeneous endpoint values. | Real compound-level overlap exists, including non-significant GSH conditions. It is not a jointly tested candidate panel; repeated doses/time windows are not independent compounds, and the values cannot be pooled into one score. |
-| **Original Ohsu and Broadhead receptor papers** | Ohsu supplies a six-identity receptor/kokumi panel. Broadhead supplies four peptide EC50 estimates with SE and experiment counts. | Useful receptor and kokumi documentation, but neither supplies the required separate human saltiness panel. The apparent Ohsu table/caption potency discrepancy remains unresolved. |
-| **AMPC beef-offal application report** | Human-CaSR responses to extracts and human flash profiling of patties containing extracts. Liver-G and Lung-G names overlap, but processing and receptor/human control contrasts differ. | A relevant preparation-level receptor/food-sensory connection; no individual peptide saltiness effects or valid two-extract predictor test. |
-| **Deng2026 original supplement** | Equal-molar GSH, gamma-Glu-Val and gamma-Glu-gamma-Glu-Val comparisons in an MSG background, alongside STC-1 calcium/CCK measurements. | A useful dose-controlled **umami** comparison. Cellular inhibitor responses are not human saltiness scores or human-CaSR EC50 values. |
-| **Palatability without a significant saltiness difference** | Hayabuchi2020, 584 participants: at 0.9% NaCl, adding 0.3% MSG raises palatability VAS **40.7 → 51.6**; saltiness **73.8 → 72.3**, reported **P=0.3013**. | Supports the separate liking opportunity. These are published simple-solution results, not our peptide or frozen-food results; equal NaCl is not equal total sodium. Non-significance is not equivalence. |
+The [evidence guide](evidence-review/README.md) separates human saltiness from kokumi/thickness, electronic-tongue values, extract responses and general cellular calcium signals. It preserves dose, matrix, sodium basis, pH, assay/species, source overlap, missing values and uncertainty. The 80-record indexed source screen describes bounded search coverage, not 80 experiments or a systematic review.
 
-[Compound/condition registry and source locators](evidence-review/evidence.json) · [Original-method assessment](evidence-review/ASSESSMENT.md) · [Detailed source qualifications](evidence-review/source_qualification.json) · [Palatability study, conditions and uncertainty](docs/SENSORY_OUTCOMES.md)
+**Next decision:** obtain and qualify an actual shared peptide panel with measured functional human-CaSR activity and controlled, separately rated human saltiness. Then compare a fixed selection rule with and without CaSR information at the same follow-up budget. A useful-effect margin and independent evaluation material must be justified first. [Full test design](docs/NEXT_TEST_DESIGN.md).
 
-The **80-record indexed screen** documents search coverage and source decisions, not 80 experiments or newly measured peptides. Missing outcomes remain missing. These findings narrow the next decision: actual matched measurements and a justified useful-effect criterion are needed before fitting a CaSR-to-saltiness selector.
+A separate application question is whether a formulation improves **liking** without a significant increase in saltiness. Published MSG studies support that possibility; they do not establish a peptide-specific or frozen-food benefit. [Outcomes, primary example and sodium distinction](docs/SENSORY_OUTCOMES.md).
 
 ## Experiments
 
-| Experiment | Question and completed result | Open |
-| --- | --- | --- |
-| **01 · CaSR models and docking** | Original best observed MAE **0.799 pEC₅₀ units**; later fixed positional-model MAE **0.7653**, with gain interval crossing zero. Native top-pose RMSD remains **4.78 Å**. | [Original report](experiments/01-casr-models-and-docking/README.md) · [Executed notebook](experiments/01-casr-models-and-docking/CaSR_Research_Workbench.ipynb) · [Later follow-up](experiments/01-casr-models-and-docking/followups/README.md) |
-| **02 · Sensory source transfer** | On 251 sensory-tagged peptides, fixed Extra Trees mean ROC-AUC falls from **0.686** with random splits to **0.286** with reference-and-sequence holdouts. Other baselines and post-hoc controls are reported separately. | [Report](experiments/02-sensory-source-transfer/README.md) · [Executed notebook](experiments/02-sensory-source-transfer/Saltiness_Sensory_Validation.ipynb) · [Results](experiments/02-sensory-source-transfer/results/) |
-| **03 · Assay conditions and dose** | NGYDMR's benchmark negative conflicts with enhancement evidence under a different assay. Published dose curves reverse the preferred peptide. Four fixed baselines retrieve only **one of three reported enhancers** in their top three for the six-candidate Pleurotus panel. | [Report](experiments/03-assay-dose-response/README.md) · [Executed notebook](experiments/03-assay-dose-response/Saltiness_Assay_Conditions.ipynb) · [Results](experiments/03-assay-dose-response/results/) |
-| **04 · TRPV1 membrane access** | Three cited peptide-contact residues lie in the membrane core and one on the cytoplasmic side. The result holds across three experimental structures; actual bound DkTx contacts provide a distinct comparator. | [Report](experiments/04-trpv1-membrane-access/README.md) · [Code](experiments/04-trpv1-membrane-access/code/) · [Results](experiments/04-trpv1-membrane-access/results/) |
-| **05 · Functional assay controls** | A 32-condition human taste-cell panel and separate knockdown comparisons show why dose, peptide-only controls and NaCl baselines matter. Soy sensory and organoid outcomes remain separate. | [Report](experiments/05-functional-assay-controls/README.md) · [Executed notebook](experiments/05-functional-assay-controls/Arginyl_Functional_Controls.ipynb) · [Code](experiments/05-functional-assay-controls/code/README.md) · [Results](experiments/05-functional-assay-controls/results/README.md) |
+These five reports preserve the original work completed before 20 October. Later additions have their own dated folders and are not presented as new biological studies.
 
-These endpoints are kept separate: **CaSR activity, channel structure, standalone saltiness and enhancement in NaCl are different measurements**. The project has not established a new effective or food-suitable salt enhancer. None of these computational outputs is a receptor-response or sensory experiment performed by us.
+| Original analysis | Question and retained result | Inspect |
+| --- | --- | --- |
+| **01 · CaSR models and docking** | Can chemistry and docking prioritize analogues? Original best held-family MAE **0.799 pEC50**; native top-pose RMSD **4.78 Å**. | [Report](experiments/01-casr-models-and-docking/README.md) · [Later follow-ups](experiments/01-casr-models-and-docking/followups/README.md) |
+| **02 · Sensory source transfer** | Do fixed sequence models transfer across sources? ExtraTrees AUC **0.686** under random splits versus **0.286** under reference-and-sequence holdouts; parsing sensitivity and other baselines are reported separately. | [Report](experiments/02-sensory-source-transfer/README.md) · [Results](experiments/02-sensory-source-transfer/results/) |
+| **03 · Assay conditions and dose** | Are labels and rankings stable? Standalone taste differs from enhancement; published dose curves change the preferred peptide. | [Report](experiments/03-assay-dose-response/README.md) · [Results](experiments/03-assay-dose-response/results/) |
+| **04 · TRPV1 membrane access** | Are proposed contacts positioned for rapid extracellular action? Reported contacts map to membrane/cytoplasmic regions in three experimental structures. Access and function remain untested. | [Report](experiments/04-trpv1-membrane-access/README.md) · [Results](experiments/04-trpv1-membrane-access/results/) |
+| **05 · Functional assay controls** | Which response comparison measures enhancement? A 32-condition human taste-cell panel and separate knockdown/soy comparisons show why dose and component baselines matter. | [Report](experiments/05-functional-assay-controls/README.md) · [Later ligand contrast](experiments/05-functional-assay-controls/followups/README.md) |
 
 ## Run an experiment
 

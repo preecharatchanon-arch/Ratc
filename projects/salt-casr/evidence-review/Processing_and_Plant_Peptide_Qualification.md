@@ -1,7 +1,8 @@
 # Processing, mushroom ingredient and plant-peptide evidence
 
-28 October 2026, Asia/Bangkok. Checkpoint version17 was read before this
-continuation. This assessment supersedes older acquisition priorities. No
+> **Historical assessment.** This dated record preserves source qualifications and earlier decisions. For subsequent work, use the [current research status](../docs/RESEARCH_STATUS.md) and the [current test design](../docs/NEXT_TEST_DESIGN.md).
+
+28 October 2026, Asia/Bangkok. This assessment supersedes older acquisition priorities. No
 scientific numerical experiment, model, notebook, docking or MD was run.
 This file evaluates published evidence; none of it is our wet-lab result.
 

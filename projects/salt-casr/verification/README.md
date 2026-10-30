@@ -1,21 +1,40 @@
-# Project organization and integrity review
+# Project files and integrity checks
 
-[Project overview](../README.md)
+[Project](../README.md) · [Timeline](../docs/RESEARCH_TIMELINE.md)
 
-[ORGANIZATION_REVIEW.json](ORGANIZATION_REVIEW.json) records the completed review. [PATH_MAP.csv](PATH_MAP.csv) maps every pre-organization project file to its current canonical location and records content hashes. [FILE_INDEX.csv](FILE_INDEX.csv) lists the current files by experiment and role. The repository-wide [checksum index](../../../ARTIFACT_CHECKSUMS.json) covers the organized release.
+## Current files
 
-Review scope: file preservation; notebook code/output preservation and embedded payload hashes; local Markdown, image and Colab paths; script compilation and relocated input paths; archived ZIP integrity; independent recomputation from retained results; and selected short local execution checks. A folder reorganization is not a new biological experiment or a blanket guarantee of scientific validity.
+| Record | Purpose |
+| --- | --- |
+| [FILE_INDEX.csv](FILE_INDEX.csv) | Complete current project-file inventory, including later follow-ups and source reviews. |
+| [PATH_MAP.csv](PATH_MAP.csv) | Original file moves. `old_sha256` preserves the source identity; `new_sha256` records the current destination bytes. Later additions are listed in the file index rather than invented as old moves. |
+| [Repository checksum index](../../../ARTIFACT_CHECKSUMS.json) | Current file sizes and SHA-256 values; excludes the checksum index itself. |
+| [30 October documentation review](REPOSITORY_REVIEW_2026-10-30.json) | Scope of the documentation repair and checks actually performed. |
 
-The three previously shared notebook URLs remain byte-identical runnable aliases. Experiment 05 adds a fourth canonical notebook with its own execution and artifact records. Canonical notebooks are listed under numbered experiment folders. Original execution records remain with their experiments; their old internal filenames refer to the self-contained notebook or archived run, not a claim that the old repository layout still exists.
+## Run the layout check
 
-Current scientific status is in [RESEARCH_STATUS.md](../docs/RESEARCH_STATUS.md). Existing uncertainties about data provenance, endpoint mismatch, external validation, peptide access and food suitability are retained in the experiment reports.
+From this project folder:
 
-The 28 October update adds the dated computational follow-up, public source
-qualifications and current design/outcome guides. It preserves the existing
-notebooks, scientific source scripts, result tables and archived runs. The
-file index, current hashes and mapped documentation hashes are updated for
-the new navigation; original source hashes remain in the move map. The earlier
-`ORGANIZATION_REVIEW.json` remains its dated historical review, not a receipt
-for new scientific validation.
+```sh
+python verification/verify_layout.py
+```
 
-From the project folder, run `python verification/verify_layout.py` to check navigation, notebook payloads, archive integrity and current file checksums. This uses only the Python standard library.
+The checker uses only the Python standard library. It checks local Markdown/Colab targets, Python compilation, notebook execution metadata and embedded payload hashes, ZIP CRCs, current file checksums, and destination hashes in the move map.
+
+The three previously shared notebook URLs are byte-identical aliases. Four canonical notebooks retain their original execution records and embedded inputs. Original scientific scripts, inputs, protocols, result tables and run ZIPs are unchanged by the documentation repair.
+
+## What was corrected on 30 October
+
+- Refreshed the complete file index to include the additional evidence and dated follow-up files.
+- Refreshed move-map destination hashes after documentation edits, while preserving the original source hashes.
+- Corrected the distinction between numerical receptor records and numerical human-saltiness observations.
+- Added a dated research timeline and one clearly identified current test plan.
+- Updated documentation manifests and the repository checksum index.
+
+The preceding audit observed that the documented Python checker failed on a stale README destination hash after its earlier artifact checks had passed. This repair corrects that metadata. The repair was checked through exact Git blob identities, current checksums, index coverage, move-map consistency and Markdown navigation. **The Python command was not rerun during this repair because the execution environment was unavailable.** No new CRC, notebook-execution or scientific rerun is claimed for this documentation update.
+
+## Historical execution and organization records
+
+[ORGANIZATION_REVIEW.json](ORGANIZATION_REVIEW.json) is the dated original organization review, not a receipt for later scientific validation. Individual experiment folders retain execution and source-verification records. Old internal filenames in those records refer to the self-contained notebook or archived execution layout.
+
+These integrity checks establish file consistency and traceability. They do not validate receptor function, human saltiness prediction, a new ingredient or food suitability.

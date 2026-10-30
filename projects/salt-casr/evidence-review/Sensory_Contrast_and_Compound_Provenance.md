@@ -1,6 +1,8 @@
 # Human sensory evidence: preserve the actual comparison
 
-28 October 2026, Asia/Bangkok. Checkpoint version18 was read first. This is
+> **Historical assessment.** This dated record preserves source qualifications and earlier decisions. For subsequent work, use the [current research status](../docs/RESEARCH_STATUS.md) and the [current test design](../docs/NEXT_TEST_DESIGN.md).
+
+28 October 2026, Asia/Bangkok. This is
 source qualification and a written design amendment, not a newly run scientific
 test. Previously inspected database sequences remain development material.
 

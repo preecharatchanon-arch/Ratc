@@ -16,7 +16,8 @@ Independent spyrmsd confirms the native top-pose RMSD of 4.7803 Å. These findin
 do not justify a model sweep, broad docking screen or MD escalation.
 
 The dated package's literature priorities are historical. The current
-[evidence assessment](../../../evidence-review/ASSESSMENT.md) and
+[evidence guide](../../../evidence-review/README.md),
+[research status](../../../docs/RESEARCH_STATUS.md) and
 [test design](../../../docs/NEXT_TEST_DESIGN.md) control subsequent work.
 No scientific experiment was rerun while publishing and organizing this copy.
 

@@ -1,7 +1,8 @@
 # Human saltiness window: source assessment and written design
 
-29 October 2026, Asia/Bangkok. Checkpoint version22 was read before work.
-No new scientific numerical test or biological experiment was run. This
+> **Historical assessment.** This dated record preserves source qualifications and earlier decisions. For subsequent work, use the [current research status](../docs/RESEARCH_STATUS.md) and the [current test design](../docs/NEXT_TEST_DESIGN.md).
+
+29 October 2026, Asia/Bangkok. No new scientific numerical test or biological experiment was run. This
 continuation implements the sensory-first acquisition/design priority without
 replacing the main question: can measured functional CaSR improve peptide
 selection for human saltiness under defined conditions?

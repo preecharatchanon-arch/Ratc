@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-30",
+  "scope": "Documentation, chronology, navigation and integrity metadata; no scientific experiment",
+  "base_commit": "9ea399b19b016f9148333c61d348616fc348b070",
+  "corrections": [
+    "Stale destination hash in the historical move map",
+    "Incomplete current-file inventory",
+    "Receptor-versus-saltiness wording in the 29 October source assessment",
+    "Ambiguous current versus historical plan navigation"
+  ],
+  "scientific_record": {
+    "original_analyses_before_20_october_preserved": true,
+    "dated_27_to_29_october_followups_distinguished": true,
+    "scientific_scripts_inputs_protocols_results_notebooks_and_archives_changed": false,
+    "new_scientific_tests": 0,
+    "new_biological_measurements": 0
+  },
+  "validation": {
+    "method": "Exact UTF-8 byte hashes and Git blob identities, full project-file inventory and move-map coverage, Markdown destinations/headings, JSON parsing and comparison to unchanged records",
+    "changed_file_checksums": "Calculated before publication and checked against returned Git blob SHAs",
+    "preceding_full_audit_at_base_commit": {
+      "project_files": 321,
+      "current_checksum_mismatches": 0,
+      "canonical_notebooks": 4,
+      "notebook_aliases": 3,
+      "run_archives": 3,
+      "documented_python_checker": "Failed at final stale README destination-hash assertion; earlier artifact checks passed"
+    },
+    "python_verifier_executed_during_this_repair": false,
+    "python_execution_limit": "Execution environment unavailable",
+    "notebook_execution_and_zip_crc_rerun_during_this_repair": false,
+    "scientific_tests_rerun": false,
+    "unrelated_project_file_contents_changed": false,
+    "source_counts": {
+      "linked_peptide_identities": 5,
+      "linked_identities_with_numeric_receptor_records": 5,
+      "linked_identities_with_numeric_saltiness": 4,
+      "linked_identities_with_graphical_only_saltiness": 1,
+      "numeric_formulation_dose_conditions": 12,
+      "heterogeneous_saltiness_endpoint_values": 14
+    },
+    "navigation": {
+      "markdown_relative_targets_checked": 556,
+      "missing_relative_targets": 0,
+      "colab_targets_checked": 9,
+      "local_heading_targets_checked": 11
+    },
+    "current_project_file_inventory": {
+      "files": 323,
+      "index_rows": 323,
+      "missing_index_entries": 0
+    },
+    "refreshed_move_map_destination_hashes_match_current_index": true,
+    "evidence_manifest_file_coverage": {
+      "entries": 29,
+      "missing_entries": 0
+    }
+  },
+  "changed_paths": [
+    "ARTIFACT_CHECKSUMS.json",
+    "README.md",
+    "projects/salt-casr/README.md",
+    "projects/salt-casr/docs/NEXT_TEST_DESIGN.md",
+    "projects/salt-casr/docs/RESEARCH_STATUS.md",
+    "projects/salt-casr/docs/RESEARCH_TIMELINE.md",
+    "projects/salt-casr/evidence-review/ASSESSMENT.md",
+    "projects/salt-casr/evidence-review/Expanded_Search_and_Contrast_Qualification.md",
+    "projects/salt-casr/evidence-review/Followup_Source_Qualification_20261029.md",
+    "projects/salt-casr/evidence-review/GSH_Endpoint_Comparison_and_Decision.md",
+    "projects/salt-casr/evidence-review/MANIFEST.json",
+    "projects/salt-casr/evidence-review/Modified_GSH_Identity_and_Panel_Coverage.md",
+    "projects/salt-casr/evidence-review/Next_Decision_Test.md",
+    "projects/salt-casr/evidence-review/Patent_Saltiness_and_Test_Readiness.md",
+    "projects/salt-casr/evidence-review/Primary_Assays_and_Endpoint_Decision.md",
+    "projects/salt-casr/evidence-review/Processing_and_Plant_Peptide_Qualification.md",
+    "projects/salt-casr/evidence-review/README.md",
+    "projects/salt-casr/evidence-review/Sensory_Contrast_and_Compound_Provenance.md",
+    "projects/salt-casr/evidence-review/Sensory_Window_Assessment_and_Design.md",
+    "projects/salt-casr/evidence-review/Source_Assessment_and_Design.md",
+    "projects/salt-casr/experiments/01-casr-models-and-docking/followups/README.md",
+    "projects/salt-casr/experiments/README.md",
+    "projects/salt-casr/verification/FILE_INDEX.csv",
+    "projects/salt-casr/verification/PATH_MAP.csv",
+    "projects/salt-casr/verification/README.md",
+    "projects/salt-casr/verification/REPOSITORY_REVIEW_2026-10-30.json"
+  ],
+  "limits": [
+    "Integrity and navigation checks do not establish scientific validity or food efficacy",
+    "Earlier scientific execution receipts remain dated records; no new Python or Colab run is claimed",
+    "External publisher links and unrelated project-page anchors were not revalidated in this documentation update"
+  ]
+}

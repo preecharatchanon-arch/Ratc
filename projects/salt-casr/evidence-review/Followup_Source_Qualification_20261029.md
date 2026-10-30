@@ -1,7 +1,7 @@
 # Follow up on functional and human sensory evidence
 
-29 October 2026. This continuation read checkpoint version25 first and followed
-its measurement prerequisites. Four additional primary cases were assessed.
+29 October 2026. Four additional primary cases were assessed against the
+measurement requirements for the CaSR-to-human-saltiness comparison.
 One full article and its original supplement were recovered. No new scientific
 numerical test was eligible or executed; the previous functional contrast was
 not rerun. Evidence acquisition changed; the matched-selector gate did not.
@@ -111,9 +111,10 @@ inspection was visual; no bubble-size/color digitization or pseudo-replicate
 reconstruction occurred. Methods were assessed directly, not inferred from the
 source title or its general discussion of CaSR.
 
-Matched-evidence totals remain five linked identities, four with numerical
-receptor values, twelve numerical formulation/dose conditions and fourteen
-heterogeneous endpoint values. No new eligible selector panel was added. This
+Matched-evidence totals remain five linked identities, all with numerical
+receptor records. Four have numerical saltiness observations and one has
+graphical-only saltiness observations. Twelve numerical formulation/dose
+conditions yield fourteen heterogeneous endpoint values. No new eligible selector panel was added. This
 continuation is source assessment and written decision work, not progress of a
 validated discovery method. No biological/human experiments, contacts, purchase,
 paid/GPU job, publication or automation occurred. AIMO remains separate.

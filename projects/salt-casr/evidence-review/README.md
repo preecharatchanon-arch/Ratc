@@ -1,52 +1,53 @@
 # Receptor and human sensory evidence
 
-[Project](../README.md) · [Current direction](../docs/RESEARCH_STATUS.md) · [Next test design](../docs/NEXT_TEST_DESIGN.md)
+[Project](../README.md) · [Timeline](../docs/RESEARCH_TIMELINE.md) · [Current status](../docs/RESEARCH_STATUS.md) · [Current test design](../docs/NEXT_TEST_DESIGN.md)
 
-Updated29 October2026. This folder qualifies published measurements; it contains
-no receptor or human experiment performed by this project and no fitted human
-saltiness selector. The source files preserve missing measurements, source
-relationships, exposure conditions and endpoint distinctions.
+Updated 30 October 2026. This folder records which published measurements can be connected by exact compound identity and relevant conditions. It contains no receptor or human experiment performed by this project and no fitted human-saltiness selector.
 
-## Current findings and entry points
+## Read the current evidence
 
-| Read | Purpose |
-|---|---|
-| [Latest source qualification](Followup_Source_Qualification_20261029.md) | Full16-peptide sensory source and three additional primary cases; human versus electronic-tongue values, TAS1R1 versus CaSR, feline versus human assays |
-| [Follow-up source records](followup_source_records.json) and [panel inventory](cao2026_panel_inventory.csv) | Source hashes, access depth,16 sequence identities and explicit missing numerical human/CaSR fields |
-| [Registry](evidence.json) | Attributed receptor/sensory observations and chemical-identity links, with dose, matrix, sodium, pH, assay and uncertainty qualifications |
-| [Source assessment and design](Source_Assessment_and_Design.md) | Working question, source/control eligibility and the written selection-test requirements |
-| [Sensory window assessment](Sensory_Window_Assessment_and_Design.md) | Why the bounded seven-case pass did not qualify a human peptide-dose/NaCl grid |
-| [Primary assay qualification](Primary_Assays_and_Endpoint_Decision.md) | Source-specific EC50, normalized maximum response and sensory endpoint distinctions |
-| [Detailed source ledger](source_qualification.json) | Source-level qualifications, including original methods and unresolved fields |
-| [Bounded indexed screen](search_screen.json) | Historical80-record search coverage; new case reviews are recorded separately |
+| Resource | What it provides |
+| --- | --- |
+| [Registry](evidence.json) | Attributed receptor and sensory records, chemical links, dose/matrix/sodium/pH, assay context and uncertainty. |
+| [29 October source qualification](Followup_Source_Qualification_20261029.md) | The recovered 16-peptide human source and three further cases; separates human versus electronic-tongue outputs, TAS1R1 versus CaSR, and feline versus human assays. |
+| [Follow-up source records](followup_source_records.json) · [16-peptide inventory](cao2026_panel_inventory.csv) | Source identifiers, access depth, exact identities and explicit missing human/CaSR values. |
+| [Source ledger](source_qualification.json) | Original-method qualifications and unresolved fields for the reviewed sources. |
+| [Current test design](../docs/NEXT_TEST_DESIGN.md) | The single maintained comparison, eligibility requirements, uncertainty, practical margins and stopping conditions. |
 
-The registry links five named peptide identities: gamma-Glu-Abu, gamma-EVG,
-gamma-Glu-Ala, gamma-Glu-Val and reduced glutathione. Four have numerical
-saltiness observations here; one is graphical. Twelve numerical formulation/
-dose conditions yield fourteen heterogeneous endpoint values. This is not a
-jointly tested candidate panel or common regression target. Repeated doses,
-participants and time windows do not become extra independent compounds.
+### What the counts mean
 
-`null` and empty inventory numeric fields mean unestablished or unreported,
-never zero, inactivity or a negative sensory result. Non-significance is not
-equivalence; published concentration ranges are not confidence intervals.
-Instrument outputs, kokumi, liking, intrinsic taste, receptor activity and
-human saltiness are distinct outcomes. All inspected material is development
-evidence rather than unseen confirmation.
+The five linked peptide identities are **γ-Glu-Abu, γ-Glu-Val-Gly, γ-Glu-Ala, γ-Glu-Val and reduced glutathione**. All five have numerical receptor records. **Four have numerical saltiness observations; γ-Glu-Val has graphical-only saltiness observations here.**
 
-## Reproduce the registry only
+Twelve numerical formulation/dose conditions yield fourteen heterogeneous endpoint values. These are not fourteen independent peptides, one common sensory scale or a jointly tested candidate panel. Assessors, repeated doses and time windows do not increase the candidate count.
 
-From this folder, run `python build_registry.py` with Python3.12. This rebuilds
-the attributed registry and consistency summary; it performs no model fitting,
-biological experiment or new statistical efficacy test. Source-qualification
-JSON and prose are reviewed records, not automatically inferred labels.
+Missing fields (`null` or blank numeric inventory entries) remain unestablished, not zero or inactivity. Non-significance is not equivalence. Published concentration ranges are not confidence intervals. Human saltiness, kokumi, liking, instrument values and receptor activity remain separate outcomes.
 
-The earlier [ASSESSMENT.md](ASSESSMENT.md) remains a historical original-method
-assessment; the current files above supersede its acquisition queue. Other
-dated reports in this folder preserve endpoint and identity decisions. A lack
-of qualified data is an execution blocker rather than a negative finding about
-CaSR or every peptide in a source.
+## Dated assessments and earlier decisions
 
-Primary citations and exact locators are retained in the JSON records. Original
-publisher articles, supplements, figures and private correspondence are not
-redistributed. Third-party rights remain with their sources.
+These records explain how the evidence was qualified. Their acquisition queues and proposed next actions are **historical**; use the [current status](../docs/RESEARCH_STATUS.md) and [current test design](../docs/NEXT_TEST_DESIGN.md) for subsequent work.
+
+| Historical record | Purpose |
+| --- | --- |
+| [Primary receptor assays](Primary_Assays_and_Endpoint_Decision.md) | Ohsu/Broadhead methods, EC50/Emax context and sensory endpoint distinctions. |
+| [Expanded source assessment](ASSESSMENT.md) | Extract processing, human versus instrument outcomes and alternative receptor pathways. |
+| [Sensory contrast and provenance](Sensory_Contrast_and_Compound_Provenance.md) | Preserves the actual material, background and comparator. |
+| [Patent saltiness recovery](Patent_Saltiness_and_Test_Readiness.md) | Original patent examples and the additional numerical conditions. |
+| [Sensory-window assessment](Sensory_Window_Assessment_and_Design.md) | Why the bounded seven-case review did not qualify a usable peptide-dose/NaCl grid. |
+| [Earlier acquisition/design record](Source_Assessment_and_Design.md) · [Earlier test-card snapshot](Next_Decision_Test.md) | Preserved development history; not competing current plans. |
+| [Bounded indexed screen](search_screen.json) | Historical coverage of 80 unique indexed records, not a systematic review or 80 experiments. |
+
+Other dated files retain specific chemical-identity and source decisions. All inspected observations are development evidence, not unseen confirmation.
+
+## Rebuild the registry
+
+From this folder, with Python 3.12:
+
+```sh
+python build_registry.py
+```
+
+This rebuilds the attributed registry and consistency summary. It does not fit a predictor or perform a new biological or statistical efficacy test. Source-qualification JSON and prose are reviewed records, not inferred sensory labels.
+
+## Sources and rights
+
+Primary citations and exact source locators are retained in the records. Original publisher papers, supplements, figures and private correspondence are not redistributed. A missing qualified panel is a data limitation, not a negative result about every peptide in a source.

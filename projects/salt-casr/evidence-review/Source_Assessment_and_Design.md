@@ -1,9 +1,11 @@
 # Evidence acquisition and next decision
 
-## Current testing direction
+> **Historical assessment.** This dated record preserves source qualifications and earlier decisions. For subsequent work, use the [current research status](../docs/RESEARCH_STATUS.md) and the [current test design](../docs/NEXT_TEST_DESIGN.md).
 
-Read `Next_Decision_Test.md` before further work. It supersedes any automatic
-source-retrieval queue below. The next decision-bearing comparison needs actual
+## Direction recorded in this assessment
+
+Use the [current test design](../docs/NEXT_TEST_DESIGN.md) before further work.
+The source-retrieval queue below is retained as history. The next decision-bearing comparison needs actual
 functional CaSR and human saltiness on a defined candidate panel, justified
 practical margins and adequate uncertainty. Existing model, pair and docking
 results do not justify repeated runs. A bounded connected-file access check

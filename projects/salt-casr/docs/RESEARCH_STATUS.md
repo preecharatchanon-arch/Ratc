@@ -1,6 +1,8 @@
-# Research status — 29 October 2026
+# Research status — 30 October 2026
 
-[Project](../README.md) · [Evidence review](../evidence-review/README.md) · [Test design](NEXT_TEST_DESIGN.md) · [Sensory outcomes](SENSORY_OUTCOMES.md)
+[Project](../README.md) · [Timeline](RESEARCH_TIMELINE.md) · [Evidence review](../evidence-review/README.md) · [Current test design](NEXT_TEST_DESIGN.md) · [Sensory outcomes](SENSORY_OUTCOMES.md)
+
+Scientific results below are unchanged from the 27–29 October work. The 30 October update repairs documentation and integrity metadata; it is not a new scientific test. The [timeline](RESEARCH_TIMELINE.md) distinguishes the five original analyses from later additions.
 
 ## Current direction
 

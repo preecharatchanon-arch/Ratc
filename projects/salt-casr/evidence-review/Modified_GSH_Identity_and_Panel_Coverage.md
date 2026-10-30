@@ -1,6 +1,8 @@
 # Modified-GSH identity and panel coverage
 
-28 October 2026. The version11 checkpoint was read before this work. This is
+> **Historical assessment.** This dated record preserves source qualifications and earlier decisions. For subsequent work, use the [current research status](../docs/RESEARCH_STATUS.md) and the [current test design](../docs/NEXT_TEST_DESIGN.md).
+
+28 October 2026. This is
 source assessment, not a new experiment or a test of predictive usefulness.
 
 ## Decision

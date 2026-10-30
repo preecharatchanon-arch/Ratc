@@ -1,5 +1,9 @@
 # The next decision-bearing test
 
+[Project](../README.md) · [Current status](RESEARCH_STATUS.md) · [Timeline](RESEARCH_TIMELINE.md)
+
+**Current maintained test design.** Dated evidence-review notes preserve earlier decisions; this page governs subsequent work.
+
 29 October 2026. This written execution gate uses the current source assessment.
 It is a test-readiness decision, not a newly executed scientific test. No new
 model, docking/MD or human/receptor experiment ran during the source review.

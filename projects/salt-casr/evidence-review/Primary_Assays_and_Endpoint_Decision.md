@@ -1,6 +1,8 @@
 # What the recovered original measurements permit
 
-28 October 2026. Read checkpoint version13 before this continuation. No new
+> **Historical assessment.** This dated record preserves source qualifications and earlier decisions. For subsequent work, use the [current research status](../docs/RESEARCH_STATUS.md) and the [current test design](../docs/NEXT_TEST_DESIGN.md).
+
+28 October 2026. No new
 scientific numerical test, model fit, docking run or biological/human experiment
 was performed. This report records new access to published primary measurements
 and a resulting change to evidence qualification.
