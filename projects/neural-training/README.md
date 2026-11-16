@@ -1,9 +1,9 @@
 # Reproducible Low-Dimensional Structure Can Fail a Causal-State Test in Neural Training
 
 **Author:** Ratchanon Preecha  
-**Status:** Submitted to the AAAI-27 Student Abstract and Poster Program, submission 191; acceptance is not claimed.
+**Submission:** AAAI-27 Student Abstract and Poster Program, no. 191.
 
-The study asks whether a compact representation of neural training preserves the effects of intervention, rather than merely reproducing a pattern in observations.
+I tested whether a one-dimensional description of optimizer memory could predict how a neural network changes after an intervention. The description reproduced across two sets of measurements. Its frozen decoder performed worse than predicting zero change.
 
 ## Experiment
 
@@ -23,16 +23,12 @@ The contribution is a direct test separating reproducibility, prediction, and ca
 
 ![First page of the submitted research paper](figures/paper-excerpt.png)
 
-This is a rendering of the supplied paper's first page. The submission records below document submission 191 to the AAAI-27 Student Abstract and Poster Program; they do not establish acceptance.
+First page of the submitted manuscript.
 
 - [Read the paper (PDF)](paper.pdf)
 - [Download the final supplementary package](supplement.zip)
 - [Original submission record](evidence/submission_4.png)
-- [Current submission details](evidence/submission_5.png)
-
-![Current EasyChair submission details, submission 191](evidence/submission_5.png)
-
-The author supplied this updated EasyChair screenshot on 11 October 2026. Its abstract matches the paper; the paper and supplement retain their 29 September upload timestamps. The screenshot documents submission 191. Acceptance is not claimed.
+- [EasyChair submission record, captured 11 October 2026](evidence/submission_5.png)
 
 The supplementary package contains the final twenty-task discovery / thirty-task confirmation evidence and independent checks. Earlier exploratory runs are history, not extra confirmation tasks.
 

@@ -1,13 +1,14 @@
 # FleetRoute: Bounded-Authority Route Optimization for Auditable Real-Road Fleet Operations
 
 **Author:** Ratchanon Preecha  
-**Status:** Submitted to the Innovative Applications of Artificial Intelligence Conference (IAAI-27); acceptance is not claimed.
+**Submission:** Innovative Applications of Artificial Intelligence Conference (IAAI-27), declined.
 
-FleetRoute develops a routing algorithm into an inspectable application. Real road networks are represented as directed graphs, and candidate routes pass explicit validation before the system reports a result. Bounded execution, progress telemetry, and structured receipts make the optimization process auditable.
+FleetRoute plans routes for multiple trucks on directed road networks. I built it around a question that comes up when road information changes mid-search: can the computed plan still be sent to the driver? The app checks each candidate against the planned inputs and the current road-data revision before publishing it. It records the inputs, decisions and validation for later inspection.
+
+**[Run FleetRoute in Google Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/fleetroute/FleetRoute_App.ipynb)** · [Read the paper](paper.pdf) · [See the benchmark results](#read-the-results-with-their-contracts)
 
 ## Project and source
 
-- [Read the paper (PDF)](paper.pdf)
 - [Complete submission supplement and restoration instructions](supplement/README.md)
 - [Application notebook](FleetRoute_App.ipynb)
 - [Current solver](../../solvers/current/README.md)
@@ -19,7 +20,7 @@ The work extends the NSC 2026 finalist project **ระบบเพิ่มป�
 
 ## Run and inspect
 
-- [Open the application in Google Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/fleetroute/FleetRoute_App.ipynb). Run its two code cells in order and keep the second cell running while using the printed workspace link.
+- Run the two notebook code cells in order and use the workspace link printed by the second cell. Keep that cell running while using the app.
 - [Read the complete application source](source/README.md), [architecture](source/ARCHITECTURE.md), [backend](source/app/engine.py), [directed-road preparation](source/app/offline_osm.py), [spatial graph store](source/app/graph_store.py) and [frontend](source/app/static).
 
 The submitted supplement preserves the frozen application snapshot. The public source and application notebook include a subsequent map-provider correction (v8.2): origin-only referrers, canonical OSM tile URLs, linked attribution, and the existing terrain host in the image security allowlist. The optimizer source is unchanged. Launch requires internet access for setup and the temporary tunnel; road-data download is a separate job.
@@ -36,7 +37,7 @@ python tools/verify_parent_benchmark.py
 python tools/recompute_all_common_objectives.py
 ```
 
-These checks passed on 10 October 2026: 213 package files verified, application payload/source identity verified, 198 parent command rows checked, and 180 parent-valid routes independently re-scored. This verifies retained evidence; it does not launch a new benchmark or certify current external services.
+The 10 October 2026 checks verified 213 package files and the application payload identity, checked 198 parent command rows, and independently re-scored 180 valid parent routes. The commands reproduce the evidence checks on the saved artifacts.
 
 ## Application and control architecture
 
@@ -46,7 +47,7 @@ A single application panel from Figure 5 in the submitted paper, showing the com
 
 ![FleetRoute committed-plan application surfaces](figures/fleetroute_committed_plan.jpeg)
 
-Per-truck route cards, schedule-aware playback, driver route geometry, and navigation handoff from the controlled scenario in the submitted paper (Figure 5). These are application surfaces, rather than evidence of a field deployment.
+Per-truck route cards, schedule-aware playback, driver route geometry and navigation handoff from a controlled prototype scenario in Figure 5.
 
 ![FleetRoute bounded-authority control architecture](figures/fleetroute_architecture.jpeg)
 

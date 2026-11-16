@@ -1,9 +1,9 @@
 # Testing Low-Rank Causal Control in AdamW Memory
 
 **Research by:** Ratchanon Preecha  
-**Status:** Research manuscript. A possible submission to the International Conference on Artificial Intelligence and Statistics (AISTATS) is planned; this manuscript has **not been submitted**.
+**Status:** Unsubmitted research manuscript.
 
-This follow-up asks whether low-rank projections of AdamW first-moment memory preserve the functional effects of interventions derived from training history.
+I tested whether a low-rank projection of AdamW first-moment memory could preserve the effect of an intervention as training continued. This follows the [one-dimensional intervention study](../neural-training/README.md).
 
 ## What is tested
 
@@ -28,7 +28,7 @@ Figure 3 from the manuscript: eight independent histories, paired immediate and 
 
 The supplement preserves saved arrays, experiment receipts, CPU verification utilities, and reconstruction procedures. It supports checking retained results; it does not include every original full training checkpoint or provide a fresh rerun of every neural experiment.
 
-The public manuscript copy corrects the stale conference-template footer that said it was under AISTATS review. The scientific text and results are preserved. The supplied anonymous supplement remains a frozen archive; historical internal filenames do not change the displayed research title.
+The public manuscript uses a research-manuscript footer. The frozen supplement retains its original internal filenames and anonymous archival layout.
 
 ## Code and CPU verification
 

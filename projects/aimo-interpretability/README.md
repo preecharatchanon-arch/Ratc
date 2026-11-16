@@ -1,14 +1,13 @@
 # AIMO Interpretability — predicting when mathematical performance survives problem changes
 
-**Research in progress · updated 21 October 2026 · Ratchanon Preecha**
+**Development snapshot · 21 October 2026 · Ratchanon Preecha**
 
-I am investigating whether measurements taken while a language model begins an answer can predict how much its mathematical performance will fall when a problem changes in ways that preserve the required reasoning. This project is being developed toward the **AIMO Interpretability Challenge, Small Models Track**. The language models' trained weights—the numerical parameters learned during their training—remain fixed; I train only small predictors from measurements of those models.
+Can a short model response tell us whether the model will keep solving variants of the same math problem? For the **AIMO Interpretability Challenge, Small Models Track**, I leave the language model weights fixed and train small predictors on measurements from the beginning of an answer.
 
-**What we have learned:** the tested changes to internal number representations and the tested measurements of internal-vector shape have not improved predictions over the stronger comparison methods. A study collecting additional model answers is incomplete. This snapshot contains no verified competitive method or retained official leaderboard score.
+**Saved development result:** Adding internal-vector shape correctly classified 32 of 43 problem–model pairs, versus 33 for a simpler probability-summary predictor. The next study collects repeated answers to measure accuracy changes directly.
 
 ## Start here
 
-- This page explains the challenge, measurements and latest completed result.
 - [What each measurement means](docs/METHODS.md) explains internal vectors, probability measurements, comparison methods and the exact four shape calculations.
 - [Results and their limits](docs/RESULTS.md) separates completed experiments from incomplete runs.
 - [Next experiment and questions for advice](docs/NEXT_EXPERIMENT.md) explains the proposed research decision.
@@ -21,7 +20,7 @@ For a given model and mathematical problem, our program returns **robust** or **
 
 For example, a model might solve an original problem often but fail on versions with different numbers. We want to predict that vulnerability without repeatedly solving every possible version during competition evaluation. Correctly answering the original once is insufficient evidence.
 
-The submission exposes this Python function:
+The challenge defines this Python prediction interface:
 
 ```python
 are_robust(model_id: str, reasoning_effort: str, problems: list[str]) -> list[bool]
@@ -29,7 +28,7 @@ are_robust(model_id: str, reasoning_effort: str, problems: list[str]) -> list[bo
 
 It receives a model identifier, its reasoning-effort setting and problem texts, and returns one true/false prediction per problem. It runs without internet access. All models and problems together share a **3,600-second prediction limit**; training and data collection happen separately. The Small Models Track evaluates Qwen3.5-4B, Skywork-OR1-Math-7B, Olmo-3-7B-Think and DeepSeek-R1-0528-Qwen3-8B. The organizers do not publish the exact rule that converts their measurements into robust/nonrobust labels.
 
-Official references: [challenge and current rules](https://aimo-interp.github.io/) · [submission interface and environment](https://github.com/aimo-interp/getting-started) · [example methods](https://github.com/aimo-interp/baselines) · [public training data](https://huggingface.co/datasets/aimo-interp/train-main-v2).
+Official references: [challenge rules](https://aimo-interp.github.io/) · [submission interface and environment](https://github.com/aimo-interp/getting-started) · [example methods](https://github.com/aimo-interp/baselines) · [public training data](https://huggingface.co/datasets/aimo-interp/train-main-v2).
 
 ## What does “geometry” mean in this experiment?
 
@@ -84,7 +83,7 @@ These are local development results, not private-test or leaderboard scores. [Re
 
 The next hypothesis is to train a small predictor from **measured changes in model behaviour**. During training-data collection, repeatedly solve an original problem and verified variants, estimate the accuracy difference, and ask whether measurements from a short original answer can predict that difference on new families. This is called **behavioural supervision**: observed behaviour supplies the training target.
 
-We must first show that the accuracy difference can be measured reliably. The predictor must then improve on simpler references, including predictions of original-question correctness, and work on another problem source. The current larger study has not established those results. A recent A100 Colab disconnection also needs a retained log/checkpoint review to determine its cause.
+We must first show that the accuracy difference can be measured reliably. The predictor must then improve on simpler references, including predictions of original-question correctness, and work on another problem source. Data collection for that follow-up was incomplete in this snapshot.
 
 ## Verify the saved result counts
 

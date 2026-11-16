@@ -1,8 +1,8 @@
 [
   {
     "path": "README.md",
-    "bytes": 13366,
-    "sha256": "79eaec18c7b556c13e408fb937b9b94d592db88a269ec6257318b6edcad31bae"
+    "bytes": 7661,
+    "sha256": "f4aa2fb8e0c1de4f4ec6e0c38ee8da40ee46273c6822acceae226d3dd5b55cfa"
   },
   {
     "path": "SOURCE_MANIFEST.json",
@@ -11,8 +11,8 @@
   },
   {
     "path": "benchmarks/README.md",
-    "bytes": 1308,
-    "sha256": "c9ed9a040506aeb9cca7c5e526a9572e9d03a07e9541f4705f5c542e3f200559"
+    "bytes": 1274,
+    "sha256": "8b5383bcfd04f0bb3427f2baed3e6d0201ba76b81a646b274150712db93e3c91"
   },
   {
     "path": "benchmarks/Targeted_Recovery_AUDIT4.ipynb",
@@ -21,8 +21,8 @@
   },
   {
     "path": "projects/adamw-memory/README.md",
-    "bytes": 4099,
-    "sha256": "12ecf58bb2e2c43ec6bd1f5060e0d000ebb9d030d1bbdfaa69ac2f4222faa87d"
+    "bytes": 3869,
+    "sha256": "90be38ece56baf28ebbe9f8940daf4ad9431929dd2f799b4ada6428160527baf"
   },
   {
     "path": "projects/adamw-memory/figures/stable-response.png",
@@ -736,13 +736,13 @@
   },
   {
     "path": "projects/adaptive-signals/README.md",
-    "bytes": 1624,
-    "sha256": "e626d282f370b4bb29b5f3e2cb9e43ca710f3f8fbad9f6018950c72b96909dc7"
+    "bytes": 1965,
+    "sha256": "e2913cdbdf17ef02689e3aaa91e1d05649e478b8b4e4ebf593256afe782facd7"
   },
   {
     "path": "projects/aimo-interpretability/README.md",
-    "bytes": 11435,
-    "sha256": "3623c4eeb5bb43dfd5ff39b42db49901b193cb97e4b7368279f437b66058d68c"
+    "bytes": 10944,
+    "sha256": "0af7b5a536b12b612159eae8b09e6c35597727ee9de71f0af5278288959de8b3"
   },
   {
     "path": "projects/aimo-interpretability/docs/METHODS.md",
@@ -846,8 +846,8 @@
   },
   {
     "path": "projects/audio-fft/README.md",
-    "bytes": 7418,
-    "sha256": "a1801321b5555114713187a03af9f4ec66f949dd5691095d2ee049c8c180c763"
+    "bytes": 7365,
+    "sha256": "ae74b93b20cd24c1680824023e3782ae77465fef5b7fddb13c7040d3179ae7f7"
   },
   {
     "path": "projects/audio-fft/audio_fft_analysis.ipynb",
@@ -1021,8 +1021,8 @@
   },
   {
     "path": "projects/fleetroute/README.md",
-    "bytes": 8922,
-    "sha256": "5d9b8d78ce8d9cdd4bd804ad0b56f4436b5365ad5fd85757f8b1706ee07fcd8b"
+    "bytes": 8916,
+    "sha256": "b5ea5daf99abc3b457987442d9dce6b87d4eeb7c28673cc79766ca9605df46d1"
   },
   {
     "path": "projects/fleetroute/THIRD_PARTY_DATA_NOTICE.md",
@@ -1406,8 +1406,8 @@
   },
   {
     "path": "projects/neural-training/README.md",
-    "bytes": 4148,
-    "sha256": "2d4c26a19324c5f3889d3f0a602c63f98c8c3a277cb49aa62f83a5c5cd001f61"
+    "bytes": 3737,
+    "sha256": "cc9bf6c4647fb75409fa7d7b54d688be2b6edbb0c0745667eb1d97c72a62b617"
   },
   {
     "path": "projects/neural-training/evidence/submission_4.png",
@@ -1491,8 +1491,8 @@
   },
   {
     "path": "projects/nsc-2026/README.md",
-    "bytes": 5276,
-    "sha256": "cc92d56fc08d93db7982baa902af6da5f2ed106660a79137a4a5fd81784715fb"
+    "bytes": 5774,
+    "sha256": "49cbf84aba2c8073601ba33bb3fb5dfd1edf748cfba8696d929cb692a7c4252d"
   },
   {
     "path": "projects/nsc-2026/evidence/finalist-presentation.mp4",
@@ -1526,8 +1526,8 @@
   },
   {
     "path": "projects/salt-casr/README.md",
-    "bytes": 13886,
-    "sha256": "b9710ffec80f4ca8cf82a2a66abe44fb58f50c2b38c3576bf3d24ac448883ead"
+    "bytes": 13935,
+    "sha256": "66acf25fee61f101b140392c9f0e20f926875d85e0f2b5d0877621eafab09158"
   },
   {
     "path": "projects/salt-casr/archives/Arginyl_Functional_Controls_Run.zip",
@@ -3102,7 +3102,7 @@
   {
     "path": "projects/salt-casr/verification/PATH_MAP.csv",
     "bytes": 41324,
-    "sha256": "0a90f11ad9f9b644f63d1bcc4d8e7dd673836e83e96a65f02748979d301699dc"
+    "sha256": "566b011de75984ceb7f79de220bd786862ab822fca96da78a5ce7df5ba914abf"
   },
   {
     "path": "projects/salt-casr/verification/README.md",
@@ -3136,8 +3136,8 @@
   },
   {
     "path": "solvers/README.md",
-    "bytes": 11802,
-    "sha256": "82fafede065eac29f1fd37fbc81f4da558fe4b539611d79a1de2c42390d979f9"
+    "bytes": 11808,
+    "sha256": "439949646078f7dd6dfd5c9dbdfbfef87f485f08c08239175d6c4f82aa1ad57d"
   },
   {
     "path": "solvers/benchmark-current/README.md",

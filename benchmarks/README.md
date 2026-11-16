@@ -1,8 +1,6 @@
 # Targeted recovery audit
 
-[Open the AUDIT4 notebook](Targeted_Recovery_AUDIT4.ipynb).
-
-This notebook reruns only **18 parent benchmark rows** terminated by the wrapper's post-deadline watchdog. It embeds a compact ZIP payload with data, provenance receipts, and the exact Legacy and V31 STRICT_FAIR sources. It does **not** contain a third, Current solver despite the historical notebook filename.
+This audit recovered **17 of 18** benchmark rows stopped by the wrapper watchdog after the algorithmic deadline. One Legacy case remains unresolved. The notebook bundles the data, provenance receipts and exact Legacy and V31 STRICT_FAIR sources. [Inspect the AUDIT4 notebook](Targeted_Recovery_AUDIT4.ipynb).
 
 The embedded sources match the extracted FleetRoute supplement byte for byte:
 
@@ -13,4 +11,4 @@ The embedded sources match the extracted FleetRoute supplement byte for byte:
 
 The recovery fixes six public instances, the original seeds, six software workers, hard algorithmic budgets, and semantic commands. It independently validates reference routes and scores distance; route count is diagnostic. A longer wrapper grace permits serialization and exit after the algorithmic deadline.
 
-The notebook is evidence for targeted recovery, rather than a full rerun of the parent benchmark or an OR-Tools comparison. Recovery runtime is explicitly non-comparable to parent runtime. Saved outcomes in the submission supplement report 17 valid recoveries and one unresolved Legacy case.
+Use these rows for the targeted route-quality recovery under the retained evaluator. The recovery gave the wrapper more time to serialize results after the fixed search deadline. See the [original paired comparison](../projects/fleetroute/README.md#read-the-results-with-their-contracts) for the original run conditions.

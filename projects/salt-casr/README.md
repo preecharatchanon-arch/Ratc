@@ -2,15 +2,15 @@
 
 **Can measured calcium-sensing receptor (CaSR) activity help select peptides that increase human saltiness under defined conditions?**
 
-Research by **Ratchanon Preecha** · Documentation updated **30 October 2026**
+Research by **Ratchanon Preecha** · Evidence reviewed through **30 October 2026**
 
-This project analyzes published peptide chemistry, receptor assays and human taste measurements. It contains five original computational analyses, additional tests completed on 27–29 October, and a source-by-source evidence review. **Useful CaSR-guided saltiness selection has not yet been established.** The biological measurements belong to the cited researchers; this project's contributions are data qualification and computational reanalysis.
+I am studying whether published receptor measurements can help prioritize peptides for human saltiness. The repository contains five computational analyses, 27–29 October follow-ups and a source-by-source evidence review. The data show some overlap between receptor and sensory measurements. Establishing a useful selection rule requires a matched panel with comparable human saltiness outcomes. The cited researchers produced the original measurements, and this project qualifies and reanalyzes those data.
 
 ## Start here
 
 | If you want to… | Read |
 | --- | --- |
-| Understand the question, current conclusion and missing evidence | [Research status](docs/RESEARCH_STATUS.md) |
+| Read the conclusion and the evidence still needed | [Research status](docs/RESEARCH_STATUS.md) |
 | See what was added after 20 October | [Dated research timeline](docs/RESEARCH_TIMELINE.md) |
 | Inspect human measurements and their receptor links | [Evidence guide](evidence-review/README.md) |
 | Assess whether the next test is ready | [Current test design](docs/NEXT_TEST_DESIGN.md) |

@@ -1,16 +1,16 @@
-# Two-File Audio Fault Analyzer
+# Audio signal comparison with FFT and STFT
 
-An exploratory Python signal-processing project: decode two audio recordings, inspect their FFT spectra and time-varying features, and compare a reference recording with a test recording. The intended application was investigating changes in engine sound. The retained demonstration compares a diesel-engine recording with a drum loop; it establishes the analysis workflow, not engine-fault detection accuracy.
+I built a Python tool to compare the frequency content and timing of two audio recordings. It produces FFT spectra, STFT spectrograms and summary features. I started with an interest in engine sounds, and the retained demonstration uses a diesel-engine recording and a drum loop to show how the measurements work.
 
 **Project origin:** 23 March 2026, as reported by the author. **Evidence rerun:** 10 October 2026, using the code and two MP3 files supplied by the author. The dated origin is a recollection, not a recovered March notebook timestamp.
 
-**Open:** [Colab notebook](audio_fft_analysis.ipynb) · [Analysis functions](original_prototype.py) · [Reproduction runner](run_analysis.py) · [Results JSON](results/results.json) · [Feature table](results/global_features.csv) · [Audit](AUDIT.md)
+**Open:** [Run in Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/audio-fft/audio_fft_analysis.ipynb) · [View the notebook](audio_fft_analysis.ipynb) · [Local runner](run_analysis.py) · [Saved results](results/results.json) · [Measurement audit](AUDIT.md)
 
 ## From audio to measurable features
 
 MP3/WAV decoding produces PCM samples, with stereo channels averaged to mono. The prototype applies a 20 Hz high-pass filter, removes the mean and uses a Hann window before a real-valued FFT. It calculates spectral peaks, centroid, flatness, entropy, rolloff, RMS and crest factor. A 30 ms frame with a 10 ms hop tracks spectral flux, harmonic matching and within-recording outliers using a median absolute deviation (MAD) score. STFT spectrograms make the changing frequency content visible.
 
-The project combines **NumPy, SciPy, pydub, FFmpeg and Matplotlib**. It is a personal project, not a competition submission or published study.
+The project combines **NumPy, SciPy, pydub, FFmpeg and Matplotlib** in a single-cell notebook and a local Python runner.
 
 ## Evidence from the supplied recordings
 

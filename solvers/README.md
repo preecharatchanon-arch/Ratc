@@ -1,12 +1,12 @@
 # Solver versions and development history
 
-C++17 routing-engine sources, original Colab development cells, and dated Git history for the solver behind FleetRoute.
+Follow the C++17 routing solver from the NSC regional and finalist rounds to FleetRoute. Use the Current source to run the linked directed-road example. Use the Benchmark Current snapshot when tracing the archived experiment.
 
 **Start here:** [Current solver and run instructions](current/README.md) · [Original development files](history/README.md) · [Benchmark evidence](../projects/fleetroute/README.md#read-the-results-with-their-contracts) · [Full live commit history](https://github.com/preecharatchanon-arch/Ratc/commits/main/)
 
 ## Versioned source snapshots
 
-These are exact snapshots extracted from the FleetRoute submission supplement without editing the C++ source. Dates below are verified **first-publication commit timestamps in this repository**, not inferred code-creation dates. All dates use **Asia/Bangkok (UTC+07:00)** and the Gregorian year.
+The table links exact source snapshots extracted from the FleetRoute submission supplement. Dates are verified first-publication commits in this repository, shown in **Asia/Bangkok (UTC+07:00)**.
 
 | Version / source | Lines | First published (UTC+07:00) | SHA-256 prefix | Role |
 | --- | ---: | --- | --- | --- |
