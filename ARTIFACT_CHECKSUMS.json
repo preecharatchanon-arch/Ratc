@@ -1,8 +1,8 @@
 [
   {
     "path": "README.md",
-    "bytes": 13081,
-    "sha256": "6322fc4c6cd242b1e215c278df42745199afee02940aaf85c41aa586da391eea"
+    "bytes": 13366,
+    "sha256": "79eaec18c7b556c13e408fb937b9b94d592db88a269ec6257318b6edcad31bae"
   },
   {
     "path": "SOURCE_MANIFEST.json",
@@ -728,6 +728,16 @@
     "path": "projects/adamw-memory/supplement/manifest.json",
     "bytes": 921,
     "sha256": "afd9fed29c46633b7367cbbc053caecf54be09f2ffb198dba284f2452a29ba03"
+  },
+  {
+    "path": "projects/adaptive-signals/AdaptiveSignals_Stage2_Live_Colab.ipynb",
+    "bytes": 185982,
+    "sha256": "cb0b96d543d91bdd469ca8872fdb4b5833164f27eedcf7acacb34e6eb7b80e3c"
+  },
+  {
+    "path": "projects/adaptive-signals/README.md",
+    "bytes": 1624,
+    "sha256": "e626d282f370b4bb29b5f3e2cb9e43ca710f3f8fbad9f6018950c72b96909dc7"
   },
   {
     "path": "projects/aimo-interpretability/README.md",
