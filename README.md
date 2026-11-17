@@ -2,7 +2,7 @@
 
 I build and test computational systems for vehicle routing, traffic control, neural-network training and signal analysis. This repository also records my work on mathematical-reasoning robustness and on how receptor measurements relate to human taste.
 
-**Run a demo:** [FleetRoute in Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/fleetroute/FleetRoute_App.ipynb) · [Adaptive Signals in Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/adaptive-signals/AdaptiveSignals_Stage2_Live_Colab.ipynb)
+**Run a demo:** [FleetRoute in Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/fleetroute/FleetRoute_App.ipynb) · [Adaptive Signals in Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/adaptive-signals/AdaptiveSignals_HatYai_Blue_Colab.ipynb)
 
 ![FleetRoute route cards, fleet playback, driver map and navigation handoff](projects/fleetroute/figures/fleetroute_committed_plan.jpeg)
 
@@ -14,7 +14,7 @@ FleetRoute application views from a controlled planning scenario in the [submitt
 | --- | --- | --- |
 | **FleetRoute** | How can a solver produce routes that respect road constraints and remain valid when the road graph changes? The prototype checks candidate plans before they reach the driver view. | [Application, paper and benchmark tables](projects/fleetroute/README.md) |
 | **NSC 2026 waste-collection routing** | How should a fleet divide service points when proximity on a map differs from proximity on the road network? The project reached the national finals. | [Regional and finalist reports, and the presentation](projects/nsc-2026/README.md) |
-| **Adaptive Signals** | How do fixed, native-actuated and adaptive C++ controllers behave on a synthetic nine-intersection network? The early blue viewer runs live inside Colab. | [Viewer and archived experiment](projects/adaptive-signals/README.md) |
+| **Adaptive Signals** | Live SUMO traffic and signal states on an OpenStreetMap road network in Hat Yai. The blue workspace runs in Google Colab. | [Colab, video and experiments](projects/adaptive-signals/README.md) |
 | **AIMO Interpretability** | Can measurements from the start of a model's answer predict robustness to problem variants? Vector-shape features scored 32/43, versus 33/43 for the simpler probability-summary comparator. | [Results and CPU replay](projects/aimo-interpretability/README.md#verify-the-saved-result-counts) |
 | **Neural-training interventions** | Can a reproducible one-dimensional coordinate predict what changes after an optimizer-state intervention? Its frozen decoder performed worse than the zero-change baseline in both held-out query families. | [Paper, study design and submission evidence](projects/neural-training/README.md) |
 | **AdamW optimizer memory** | Can a low-rank projection preserve the effect of changing first-moment memory? The short-horizon gains were descriptive, and the 64-update test underperformed zero-response prediction across eight histories. | [Manuscript and CPU verification](projects/adamw-memory/README.md) |
@@ -36,7 +36,7 @@ The retained CSVs support route-quality comparisons under their recorded scoring
 ## Read the code or run a project
 
 - **Routing:** [Build the C++17 solver](solvers/current/README.md#build-and-run) · [Inspect the FleetRoute application source](projects/fleetroute/source/README.md).
-- **Traffic control:** [Run the original SUMO viewer and inspect the experiment setup](projects/adaptive-signals/README.md#run-the-viewer).
+- **Traffic control:** [Run the Hat Yai SUMO viewer and watch the Colab recording](projects/adaptive-signals/README.md#live-colab-demo).
 - **Neural experiments:** [Review the historical training inputs](projects/neural-training/README.md#code-and-execution-scope) · [Reconstruct retained AdamW results on CPU](projects/adamw-memory/README.md#code-and-cpu-verification).
 - **Audio and taste studies:** [Run the audio comparison notebook](projects/audio-fft/README.md#run-the-project) · [Open the reviewed taste-analysis notebooks](projects/salt-casr/README.md#run-an-experiment).
 

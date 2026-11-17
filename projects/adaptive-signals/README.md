@@ -4,7 +4,15 @@
 
 This version restores the last archived blue workspace from `reference/frontend_previous` in the Junction release. The notebook keeps the SUMO 1.25.0 engine and the bundled Hat Yai OpenStreetMap road model. The model has 1,054 directed road edges and seven signal-controller groups. All 40 bundled Python tests passed after the blue frontend was restored.
 
-Run the first two cells on a Colab CPU runtime. In **Live network**, choose **Run quick demo**. The model uses real road geometry and synthetic traffic demand. The signal plans and lanes have not been validated for field operation.
+Run the first two cells on a Colab CPU runtime. In **Live network**, choose **Run quick demo**, then set **Map style** to **Streets · online** to show the OpenStreetMap basemap. **Analysis · local** draws the same road geometry when network tiles are unavailable. Vehicle demand is simulated, and the intersection configuration is for research use.
+
+## Live Colab demo
+
+[Watch the 12-second Colab recording](hatyai-blue-colab-live.mp4) · [View the run details](hatyai-blue-colab-run.json)
+
+The recording shows the **Streets · online** basemap, simulated vehicles and signal states from a Google Colab CPU run. The simulation clock advances from 00:12 to 03:42 in the Hat Yai quick demo (SUMO gap-actuated reference controller, seed 22777).
+
+![The blue Adaptive Signals workspace running in Colab on the Hat Yai OpenStreetMap basemap](hatyai-blue-colab-still.jpg)
 
 Map data © OpenStreetMap contributors, ODbL 1.0.
 
