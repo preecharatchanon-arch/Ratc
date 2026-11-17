@@ -1,0 +1,33 @@
+{
+  "notebook": "AdaptiveSignals_HatYai_RealRoad_Colab.ipynb",
+  "surface": "Google Colab cell output",
+  "frames": 55,
+  "elapsedSeconds": 19.8,
+  "checks": [
+    {
+      "frame": 0,
+      "clock": "02:36 simulation time",
+      "status": "Running"
+    },
+    {
+      "frame": 13,
+      "clock": "03:20 simulation time",
+      "status": "Running"
+    },
+    {
+      "frame": 26,
+      "clock": "04:03 simulation time",
+      "status": "Running"
+    },
+    {
+      "frame": 39,
+      "clock": "04:49 simulation time",
+      "status": "Running"
+    },
+    {
+      "frame": 52,
+      "clock": "05:32 simulation time",
+      "status": "Running"
+    }
+  ]
+}
