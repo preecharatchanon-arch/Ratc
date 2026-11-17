@@ -6,22 +6,6 @@ I built this Stage 2 prototype to test how signal controllers respond when deman
 
 **[Open the original notebook in Google Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/adaptive-signals/AdaptiveSignals_Stage2_Live_Colab.ipynb)** · [View the notebook on GitHub](AdaptiveSignals_Stage2_Live_Colab.ipynb)
 
-## Demo video
-
-**[Watch the 19-second SUMO recording](sumo-stage2-comparison.mp4)**
-
-I reran the notebook's directional-switch demonstration on Eclipse SUMO 1.25.0. All three controllers received the same **443 vehicle requests** on the same synthetic nine-intersection grid. The seed was **22777**, the demand multiplier was **×1.0**, and the observation cutoff was **600 simulated seconds**. The recording shows the resulting vehicle trajectories and signal states with accelerated playback.
-
-| Signal controller | Mean system time per request | Trips completed by 600 s |
-| --- | ---: | ---: |
-| Fixed timing tuned on development runs | 344.7 s | 228 / 443 |
-| Stage 1 coordinated controller | 304.2 s | 303 / 443 |
-| Discharge lookahead | 273.1 s | 340 / 443 |
-
-Mean system time includes entry wait and the elapsed time of unfinished trips at the cutoff. The demo uses one synthetic demand trace and perfect simulated detector counts. All three reruns passed the notebook's vehicle accounting, signal-transition and metric checks. All 10 bundled tests passed.
-
-To reproduce the comparison, run the first notebook cell and then run `python make_demo.py` in the extracted project directory. The script runs all three controllers and writes a replay GIF under `runs/demo/`.
-
 ## Run the viewer
 
 1. Open the notebook in a Colab CPU runtime and run the first two code cells in order.
