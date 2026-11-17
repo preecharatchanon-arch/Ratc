@@ -1,4 +1,14 @@
-# Adaptive Signals · SUMO Stage 2
+# Adaptive Signals · Hat Yai traffic workspace
+
+**[Open the blue Hat Yai notebook in Google Colab](https://colab.research.google.com/github/preecharatchanon-arch/Ratc/blob/main/projects/adaptive-signals/AdaptiveSignals_HatYai_Blue_Colab.ipynb)** · [View the notebook](AdaptiveSignals_HatYai_Blue_Colab.ipynb)
+
+This version restores the last archived blue workspace from `reference/frontend_previous` in the Junction release. The notebook keeps the SUMO 1.25.0 engine and the bundled Hat Yai OpenStreetMap road model. The model has 1,054 directed road edges and seven signal-controller groups. All 40 bundled Python tests passed after the blue frontend was restored.
+
+Run the first two cells on a Colab CPU runtime. In **Live network**, choose **Run quick demo**. The model uses real road geometry and synthetic traffic demand. The signal plans and lanes have not been validated for field operation.
+
+Map data © OpenStreetMap contributors, ODbL 1.0.
+
+## Archived Stage 2 prototype
 
 **Archived prototype · October 2026**
 
